@@ -110,7 +110,7 @@ def rolling_placeholder(cid, anchor):
 # Batch order for the verified pubfeed set (later batches override earlier).
 FOCUS_BATCH_FILES = (
     ['focus_uk_ca_us_matches.json'] +
-    [f'focus_batch{n}_matches.json' for n in (4, 5, 6, 7, 8, 9, 10, 11, 12, 13)]
+    [f'focus_batch{n}_matches.json' for n in (4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)]
 )
 
 
