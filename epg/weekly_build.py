@@ -16,12 +16,20 @@ PIPELINE (reconstructed from the build scripts in this directory):  1. epg_logos
 
 WEEKLY REFRESH SOURCES (what is actually re-fetchable):
   - epg.pw public country feeds (https://epg.pw/xmltv/epg_{CC}.xml.gz):
-    fresh 3-4 day windows for the 206 verified replacement channels.
-  - 24/7 synthetic marathon grids: timeless filler; shifted forward so the
-    grid covers the new week (same slot counts/titles, new window).
-  - Synthetic "No programme schedule" placeholders: timeless; carried over.
-  - Regular channels: carried over, OR refreshed from a provider XMLTV file
-    if one is supplied via --service-xml / $EPG_SERVICE_XML (tvg-id match).
+    fresh ~1-4 day windows for the 206 verified replacement channels.
+    Because the windows are short, the automation runs DAILY (11:00 UTC);
+    a weekly cadence would leave these channels stale 4-6 days a week.
+  - 24/7 synthetic marathon grids: openly synthetic filler; shifted forward so
+    the grid re-anchors at build time every run (daily re-anchor keeps the
+    ~2.5-day grids perpetually fresh; NOT extended to 7 days -- that would
+    nearly double the file for zero user benefit).
+  - Placeholder "no schedule" blocks: honest timeless text ("No programme
+    schedule was supplied..."), regenerated every run with rolling dates
+    (anchor -> anchor+7d) so they never expire into "No information".
+  - Regular channels: carried over (past programmes included, keeps counts
+    stable), OR refreshed from a provider XMLTV file if one is supplied via
+    --service-xml / $EPG_SERVICE_XML (tvg-id match). Regulars with nothing
+    left in the future get one rolling honest placeholder block.
 
 NOT re-run weekly (documented dead ends, kept local-only, never published):
   - fetch_stream_epg.py / salvage_cats.py / target_streams.py: the provider
@@ -78,6 +86,26 @@ ICON_MIN = 10400  # known-good is 10550; never regress below 10400
 
 PLACEHOLDER_MARK = 'No programme schedule was supplied'
 Q = {'"': '&quot;'}
+
+# Rolling "no data" blocks: openly honest placeholders, regenerated every run
+# with dates anchored at build time so they never expire into "No information".
+# Text deliberately states that no schedule was supplied -- never a fake show.
+PLACEHOLDER_TITLE = 'Programming'
+PLACEHOLDER_DESC = ('No programme schedule was supplied for this channel '
+                    'in the source EPG.')
+PLACEHOLDER_DAYS = 7
+
+
+def is_placeholder_prog(elem):
+    """True if this <programme> is one of our honest no-schedule blocks."""
+    return PLACEHOLDER_MARK in (elem.findtext('desc') or '')
+
+
+def rolling_placeholder(cid, anchor):
+    """One placeholder block spanning anchor -> anchor+7d for channel cid."""
+    return serialize_fresh_prog(fmt_ts(anchor),
+                                fmt_ts(anchor + timedelta(days=PLACEHOLDER_DAYS)),
+                                cid, PLACEHOLDER_TITLE, PLACEHOLDER_DESC)
 
 # Batch order for the verified pubfeed set (later batches override earlier).
 FOCUS_BATCH_FILES = (
@@ -393,9 +421,19 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
 
     - verified targets in verified_fresh: drop old, fresh appended afterwards
     - verified targets skipped (<5 fresh progs): keep old programmes
-    - v247: shift every programme grid so it starts at `anchor`
-    - placeholder: copy unchanged (timeless)
-    - regular: service_progs[tvg_id] if the hook matched, else copy unchanged
+    - v247: shift every programme grid so it starts at `anchor`. The grids are
+      ~2.5 days of openly synthetic marathon filler (206k programmes); they are
+      deliberately NOT extended to 7 days because that would nearly double the
+      file (~120MB -> ~200MB) for zero user benefit -- the daily rebuild
+      re-anchors them every morning so they never go stale.
+    - placeholder: drop the old fixed-date block, write one fresh rolling
+      placeholder (anchor -> anchor+7d). The text openly states no schedule
+      was supplied; only the dates roll.
+    - regular: drop any stale placeholder blocks (prevents accumulation across
+      runs), carry all other programmes unchanged (past programmes included --
+      keeps validation counts stable), then if nothing remains with
+      stop > anchor, append one fresh rolling placeholder so the channel shows
+      "Programming" instead of "No information".
     Channels (id/display-name/icon) are preserved byte-faithfully.
     Returns counters dict.
     """
@@ -403,8 +441,10 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
     service_new = set(service_progs)
     c = {'channels': 0, 'dropped_verified': 0, 'dropped_service': 0,
          'shifted_247': 0, 'carried': 0, 'orphans_dropped': 0,
+         'dropped_placeholder': 0, 'placeholder_written': 0,
          'fresh_appended': 0, 'service_appended': 0}
     roster_ids = set(roster)
+    reg_max_stop = {}  # cid -> latest programme stop (regular class only)
     with open(out_path, 'w', encoding='utf-8') as fout:
         fout.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n')
         for cid in order:
@@ -431,12 +471,31 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                 delta = (anchor - ms) if ms else timedelta(0)
                 fout.write(serialize_programme(elem, delta=delta))
                 c['shifted_247'] += 1
+            elif cls == 'placeholder':
+                # Old fixed-date block is expired by design; drop it. A fresh
+                # rolling block is written per channel after the main loop.
+                c['dropped_placeholder'] += 1
             elif cid in service_new:
                 c['dropped_service'] += 1
+            elif is_placeholder_prog(elem):
+                # Stale placeholder appended by an earlier run: drop so they
+                # never accumulate; a fresh one is appended below if needed.
+                c['dropped_placeholder'] += 1
             else:
                 fout.write(serialize_programme(elem))
                 c['carried'] += 1
+                stop = parse_ts(elem.get('stop') or '')
+                if stop and (cid not in reg_max_stop or stop > reg_max_stop[cid]):
+                    reg_max_stop[cid] = stop
             elem.clear()
+        for cid in order:
+            if classes.get(cid) == 'placeholder':
+                fout.write(rolling_placeholder(cid, anchor))
+                c['placeholder_written'] += 1
+            elif classes.get(cid) == 'regular' \
+                    and reg_max_stop.get(cid, datetime.min.replace(tzinfo=timezone.utc)) <= anchor:
+                fout.write(rolling_placeholder(cid, anchor))
+                c['placeholder_written'] += 1
         for tid in sorted(verified_fresh):
             for p in verified_fresh[tid]:
                 fout.write(p)
@@ -495,9 +554,10 @@ def validate(out_path):
     """Hard validation gates. Returns (ok, report_dict)."""
     rep = {'channels': 0, 'programmes': 0, 'icons': 0, 'dup_channel_ids': 0,
            'orphans': 0, 'missing_title_time': 0, 'invalid_duration': 0,
-           'unparseable_time': 0}
+           'unparseable_time': 0, 'stale_channels': 0}
     seen = set()      # channel ids
     prog_cids = set()  # channel ids referenced by programmes
+    chan_max_stop = {}  # channel id -> latest programme stop (freshness gate)
     dups = set()
     try:
         for event, elem in iterparse(out_path, events=('end',)):
@@ -525,11 +585,23 @@ def validate(out_path):
                         rep['unparseable_time'] += 1
                     elif de <= ds:
                         rep['invalid_duration'] += 1
+                    else:
+                        prev = chan_max_stop.get(cid)
+                        if prev is None or de > prev:
+                            chan_max_stop[cid] = de
                 elem.clear()
     except Exception as ex:
         return False, {'fatal': f'XML not well-formed: {ex}'}
     rep['dup_channel_ids'] = len(dups)
     rep['orphans'] = len(prog_cids - seen)
+
+    # Freshness gate: every channel must have some programme extending past
+    # now+12h. Rolling placeholders + daily rebuilds make this hold; a breach
+    # means the feeds went stale or the rolling logic regressed -- never ship.
+    horizon = datetime.now(timezone.utc) + timedelta(hours=12)
+    epoch = datetime.min.replace(tzinfo=timezone.utc)
+    rep['stale_channels'] = sum(
+        1 for cid in seen if chan_max_stop.get(cid, epoch) <= horizon)
 
     # logos247 coverage: every result id must exist in the output
     results = json.load(open(LOGOS247))
@@ -554,6 +626,9 @@ def validate(out_path):
                         f"{rep['unparseable_time']} unparseable times")
     if rep['icons'] < ICON_MIN:
         failures.append(f"icon coverage {rep['icons']} below minimum {ICON_MIN}")
+    if rep['stale_channels'] > 0.10 * rep['channels']:
+        failures.append(f"freshness: {rep['stale_channels']} channels with no "
+                        f"coverage past now+12h (>10%)")
     if rep['logos247_missing_ids']:
         failures.append(f"{rep['logos247_missing_ids']} logos247 ids missing from output")
     rep['failures'] = failures
