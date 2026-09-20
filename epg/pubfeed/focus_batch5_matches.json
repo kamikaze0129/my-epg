@@ -1,0 +1,20 @@
+[
+ {
+  "target_id": "epg-ca-ctv-toronto-cfto-dd003cca",
+  "target_name": "CA CTV TORONTO (CFTO)",
+  "target_country": "CA",
+  "feed_country": "CA",
+  "feed_channel_id": "470859",
+  "feed_display_name": "CTV Toronto HD",
+  "match_basis": "callsign CFTO disambiguates from CTV Two, verified titles"
+ },
+ {
+  "target_id": "picktv.uk",
+  "target_name": "UK: Sky Mix FHD (Pick)",
+  "target_country": "GB",
+  "feed_country": "GB",
+  "feed_channel_id": "526142",
+  "feed_display_name": "Sky Mix HD",
+  "match_basis": "Pick rebranded to Sky Mix; target name contains Sky Mix, verified titles"
+ }
+]

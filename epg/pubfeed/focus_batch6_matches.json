@@ -1,0 +1,11 @@
+[
+ {
+  "target_id": "epg-ca-global-toronto-ciii-c3477d9d",
+  "target_name": "CA Global Toronto (CIII)",
+  "target_country": "CA",
+  "feed_country": "CA",
+  "feed_channel_id": "470729",
+  "feed_display_name": "Global Toronto HD",
+  "match_basis": "callsign CIII; HD variant; verified Global programming titles"
+ }
+]

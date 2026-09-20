@@ -1,0 +1,47 @@
+[
+ {
+  "target_id": "epg-uk-disney-junior-fhd-f5ee0829",
+  "target_name": "UK DISNEY JUNIOR FHD",
+  "target_country": "GB",
+  "feed_country": "GB",
+  "feed_channel_id": "479490",
+  "feed_display_name": "Disney Jr HD",
+  "match_basis": "fuzzy 0.82; Disney Jr.=Disney Junior; verified kids titles"
+ },
+ {
+  "target_id": "epg-uk-sony-tv-uk-57e7c806",
+  "target_name": "UK Sony TV UK",
+  "target_country": "GB",
+  "feed_country": "GB",
+  "feed_channel_id": "9410",
+  "feed_display_name": "SONY TV HD",
+  "match_basis": "fuzzy 0.73; verified Sony South Asian titles"
+ },
+ {
+  "target_id": "starbharat.uk",
+  "target_name": "UK Star Bharat",
+  "target_country": "GB",
+  "feed_country": "GB",
+  "feed_channel_id": "9282",
+  "feed_display_name": "Utsav Bharat",
+  "match_basis": "fuzzy 0.78; Star Bharat rebranded to Utsav Bharat UK; verified Hindi titles"
+ },
+ {
+  "target_id": "stargold.uk",
+  "target_name": "UK Star Gold",
+  "target_country": "GB",
+  "feed_country": "GB",
+  "feed_channel_id": "9444",
+  "feed_display_name": "Utsav Gold HD",
+  "match_basis": "fuzzy 0.74; Star Gold rebranded to Utsav Gold UK; verified Bollywood titles"
+ },
+ {
+  "target_id": "epg-ca-fr-canal-v-0808230b",
+  "target_name": "CA (FR) Canal V",
+  "target_country": "CA",
+  "feed_country": "CA",
+  "feed_channel_id": "470843",
+  "feed_display_name": "Le Canal Vie HD",
+  "match_basis": "fuzzy 0.73; Canal V=Canal Vie; verified FR lifestyle titles"
+ }
+]

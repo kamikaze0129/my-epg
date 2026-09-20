@@ -1,0 +1,11 @@
+[
+ {
+  "target_id": "epg-us-cbs-18-wlfi-dt-lafayette-de6cfeeb",
+  "target_name": "US CBS 18 WLFI-DT Lafayette",
+  "target_country": "US",
+  "feed_country": "US",
+  "feed_channel_id": "466365",
+  "feed_display_name": "WLFI-DT",
+  "match_basis": "callsign WLFI-DT exact; verified CBS sports titles (WNBA, College Football)"
+ }
+]

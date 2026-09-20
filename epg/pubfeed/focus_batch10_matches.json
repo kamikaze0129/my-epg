@@ -1,0 +1,11 @@
+[
+ {
+  "target_id": "BBC3",
+  "target_name": "UK BBC 3",
+  "target_country": "GB",
+  "feed_country": "GB",
+  "feed_channel_id": "12158",
+  "feed_display_name": "BBC Three HD",
+  "match_basis": "exact name; verified BBC Three titles (Doctor Who)"
+ }
+]

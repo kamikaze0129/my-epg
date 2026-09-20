@@ -1,0 +1,65 @@
+[
+ {
+  "target_id": "epg-ca-bein-sports-hd-7cb811de",
+  "target_name": "CA beIN Sports HD",
+  "target_country": "CA",
+  "feed_country": "CA",
+  "feed_channel_id": "470340",
+  "feed_display_name": "beIN Sports HD (Canada)",
+  "match_basis": "token-subset, verified titles"
+ },
+ {
+  "target_id": "epg-ca-mlb-network-acee2507",
+  "target_name": "CA MLB Network",
+  "target_country": "CA",
+  "feed_country": "CA",
+  "feed_channel_id": "470706",
+  "feed_display_name": "MLB Network Canada",
+  "match_basis": "token-subset, verified titles"
+ },
+ {
+  "target_id": "epg-ca-tsn-1-hd-56e74e85",
+  "target_name": "CA TSN 1 HD",
+  "target_country": "CA",
+  "feed_country": "CA",
+  "feed_channel_id": "470446",
+  "feed_display_name": "TSN 1",
+  "match_basis": "token-subset, verified titles"
+ },
+ {
+  "target_id": "mediasetitalia.ca",
+  "target_name": "CA MEDIASET ITALIA*",
+  "target_country": "CA",
+  "feed_country": "CA",
+  "feed_channel_id": "470468",
+  "feed_display_name": "Mediaset Italia Canada",
+  "match_basis": "token-subset, verified titles"
+ },
+ {
+  "target_id": "epg-ca-fr-ici-rdi-hd-cdedee1c",
+  "target_name": "CA (FR) ICI RDI HD",
+  "target_country": "CA",
+  "feed_country": "CA",
+  "feed_channel_id": "470346",
+  "feed_display_name": "ICI RDI HD",
+  "match_basis": "token-jaccard, verified titles"
+ },
+ {
+  "target_id": "epg-ca-msnbc-canada-2708f0f1",
+  "target_name": "CA MSNBC CANADA",
+  "target_country": "CA",
+  "feed_country": "CA",
+  "feed_channel_id": "470477",
+  "feed_display_name": "MSNBC Canada, Caribbean and International HD",
+  "match_basis": "token-subset, verified titles"
+ },
+ {
+  "target_id": "epg-ca-global-maritimes-hd-a35e8417",
+  "target_name": "CA Global Maritimes HD",
+  "target_country": "CA",
+  "feed_country": "CA",
+  "feed_channel_id": "470518",
+  "feed_display_name": "Global Maritimes (CIHF)",
+  "match_basis": "token-subset, callsign CIHF, verified titles"
+ }
+]

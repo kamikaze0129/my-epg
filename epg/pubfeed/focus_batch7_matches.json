@@ -1,0 +1,47 @@
+[
+ {
+  "target_id": "GolfChannel.us",
+  "target_name": "CA GOLF",
+  "target_country": "CA",
+  "feed_country": "CA",
+  "feed_channel_id": "470741",
+  "feed_display_name": "Golf Channel",
+  "match_basis": "exact name after strip; verified golf titles"
+ },
+ {
+  "target_id": "epg-ca-city-toronto-453923e0",
+  "target_name": "CA CITY TORONTO",
+  "target_country": "CA",
+  "feed_country": "CA",
+  "feed_channel_id": "470862",
+  "feed_display_name": "Citytv Toronto HD",
+  "match_basis": "fuzzy 0.92; verified Citytv titles (Hudson & Rex)"
+ },
+ {
+  "target_id": "epg-ca-makful-d5afd0f2",
+  "target_name": "CA MAKFUL",
+  "target_country": "CA",
+  "feed_country": "CA",
+  "feed_channel_id": "470737",
+  "feed_display_name": "Makeful TV SD",
+  "match_basis": "fuzzy 0.92; verified Makeful titles"
+ },
+ {
+  "target_id": "epg-uk-skysports-f1-cd287f22",
+  "target_name": "UK SkySports F1",
+  "target_country": "GB",
+  "feed_country": "GB",
+  "feed_channel_id": "9409",
+  "feed_display_name": "SkySp F1 HD",
+  "match_basis": "fuzzy 0.80; SkySp=Sky Sports abbrev; verified F1 titles"
+ },
+ {
+  "target_id": "nickjunior.uk",
+  "target_name": "UK Nick Junior HD",
+  "target_country": "GB",
+  "feed_country": "GB",
+  "feed_channel_id": "12201",
+  "feed_display_name": "Nick Jr. HD",
+  "match_basis": "fuzzy 0.78; Nick Jr.=Nick Junior; verified kids titles"
+ }
+]

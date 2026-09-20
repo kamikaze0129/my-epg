@@ -1,0 +1,11 @@
+[
+ {
+  "target_id": "colorshd.uk",
+  "target_name": "UK Colors Europe",
+  "target_country": "GB",
+  "feed_country": "GB",
+  "feed_channel_id": "9292",
+  "feed_display_name": "COLORS HD",
+  "match_basis": "keyword; Colors Europe=European feed; verified Hindi titles"
+ }
+]
