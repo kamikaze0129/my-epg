@@ -1,0 +1,79 @@
+# Weekly EPG rebuild — Sundays 15:00 UTC (11:00 America/New_York in EDT,
+# 10:00 in EST; GitHub cron is UTC-only and cannot follow DST).
+#
+# Stateless design: the previous build is downloaded from the latest GitHub
+# release, rebuilt from fresh public epg.pw feeds, validated by hard gates,
+# and published as a dated release (asset always named epg.xml, so the
+# TiviMate URL https://github.com/kamikaze0129/my-epg/releases/latest/download/epg.xml
+# never changes). Release creation uses the automatic GITHUB_TOKEN — no PAT,
+# no vault, no secrets of any kind.
+#
+# Known limitation (accepted by repo owner): without a provider XMLTV file,
+# regular non-public-feed schedules are carried forward from the previous
+# build; only the 206 verified public-feed channels get fully fresh listings.
+name: Weekly EPG rebuild
+
+on:
+  schedule:
+    - cron: '0 15 * * 0'
+  workflow_dispatch:
+    inputs:
+      tag_suffix:
+        description: 'Suffix appended to the release tag (for testing, e.g. -test1)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Download previous EPG build
+        run: |
+          curl -fL --retry 3 -o prev_epg.xml \
+            https://github.com/kamikaze0129/my-epg/releases/latest/download/epg.xml
+          ls -la prev_epg.xml
+          head -c 200 prev_epg.xml | grep -q '<tv' || { echo "downloaded file is not XMLTV"; exit 1; }
+          echo "previous build downloaded OK"
+
+      - name: Weekly rebuild
+        env:
+          EPG_PREV_BUILD: ${{ github.workspace }}/prev_epg.xml
+          EPG_RUNS_DIR: ${{ github.workspace }}/run_out
+        run: |
+          mkdir -p run_out
+          python3 epg/weekly_build.py --no-promote --out "$GITHUB_WORKSPACE/epg_new.xml"
+
+      - name: Upload run report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: epg-run-report
+          path: run_out/
+          retention-days: 30
+
+      - name: Cut dated release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="v$(TZ=America/New_York date +%Y.%m.%d)${{ inputs.tag_suffix }}"
+          TITLE="EPG $(TZ=America/New_York date +%Y-%m-%d)${{ inputs.tag_suffix }}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists; refusing to cut a duplicate."
+            exit 1
+          fi
+          cp "$GITHUB_WORKSPACE/epg_new.xml" "$GITHUB_WORKSPACE/epg.xml"
+          gh release create "$TAG" "$GITHUB_WORKSPACE/epg.xml" \
+            --title "$TITLE" \
+            --notes "Weekly automated EPG rebuild. TiviMate source URL unchanged: https://github.com/kamikaze0129/my-epg/releases/latest/download/epg.xml"
+          echo "released $TAG"
