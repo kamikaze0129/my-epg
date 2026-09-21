@@ -3858,5 +3858,440 @@
   "feed_channel_id": "Ziggo.Sport.3.nl",
   "feed_code": "NL1",
   "tier": 2
+ },
+ "100NLTV.nl": {
+  "feed_channel_id": "100%.NL.TV.nl",
+  "feed_code": "NL1",
+  "tier": 1
+ },
+ "ArenaSport6.hr": {
+  "feed_channel_id": "Arena.Sport.6.HD.hr",
+  "feed_code": "HR1",
+  "tier": 1
+ },
+ "CNNTurk.tr": {
+  "feed_channel_id": "CNN.T\u00dcRK.tr",
+  "feed_code": "TR3",
+  "tier": 1
+ },
+ "CT1.cz": {
+  "feed_channel_id": "\u010cT1.cz",
+  "feed_code": "CZ1",
+  "tier": 1
+ },
+ "CT24.cz": {
+  "feed_channel_id": "\u010cT24.cz",
+  "feed_code": "CZ1",
+  "tier": 1
+ },
+ "Canal10.uy": {
+  "feed_channel_id": "CANAL.10.HD.uy",
+  "feed_code": "UY1",
+  "tier": 1
+ },
+ "DomaTv.hr": {
+  "feed_channel_id": "Doma.TV.HD.hr",
+  "feed_code": "HR1",
+  "tier": 1
+ },
+ "Ekoturk.tr": {
+  "feed_channel_id": "EKOT\u00dcRK.tr",
+  "feed_code": "TR1",
+  "tier": 1
+ },
+ "EpicDrama.pl": {
+  "feed_channel_id": "Epic.Drama.HD.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "Haberturk.tr": {
+  "feed_channel_id": "HABERT\u00dcRK.tr",
+  "feed_code": "TR1",
+  "tier": 1
+ },
+ "HorseCountryTV.nl": {
+  "feed_channel_id": "Horse.&.Country.TV.nl",
+  "feed_code": "NL1",
+  "tier": 1
+ },
+ "MarkizaInternational.sk": {
+  "feed_channel_id": "Mark\u00edza.International.cz",
+  "feed_code": "CZ1",
+  "tier": 1
+ },
+ "MnamTV.cz": {
+  "feed_channel_id": "M\u0148am.TV.cz",
+  "feed_code": "CZ1",
+  "tier": 1
+ },
+ "Ocko.cz": {
+  "feed_channel_id": "\u00d3\u010dko.cz",
+  "feed_code": "CZ1",
+  "tier": 1
+ },
+ "OckoExpres.cz": {
+  "feed_channel_id": "\u00d3\u010dko.Expres.cz",
+  "feed_code": "CZ1",
+  "tier": 1
+ },
+ "Powerturk.tr": {
+  "feed_channel_id": "POWER.T\u00dcRK.tr",
+  "feed_code": "TR3",
+  "tier": 1
+ },
+ "RtlKockica.hr": {
+  "feed_channel_id": "RTL.Kockica.HD.hr",
+  "feed_code": "HR1",
+  "tier": 1
+ },
+ "TRTCocuk.tr": {
+  "feed_channel_id": "TRT.\u00c7OCUK.tr",
+  "feed_code": "TR1",
+  "tier": 1
+ },
+ "TRTMuzik.tr": {
+  "feed_channel_id": "TRT.M\u00dcZ\u0130K.tr",
+  "feed_code": "TR1",
+  "tier": 1
+ },
+ "TRTTurk.tr": {
+  "feed_channel_id": "TRT.T\u00dcRK.tr",
+  "feed_code": "TR1",
+  "tier": 1
+ },
+ "TV2Fyn.dk": {
+  "feed_channel_id": "TV.2/Fyn.dk",
+  "feed_code": "DK1",
+  "tier": 1
+ },
+ "TeleBaern.ch": {
+  "feed_channel_id": "Tele.B\u00e4rn.ch",
+  "feed_code": "CH1",
+  "tier": 1
+ },
+ "Telecafe.co": {
+  "feed_channel_id": "Telecaf\u00e9.co",
+  "feed_code": "CO1",
+  "tier": 1
+ },
+ "TivibuSpor2.tr": {
+  "feed_channel_id": "T\u0130V\u0130BU.SPOR.2.tr",
+  "feed_code": "TR3",
+  "tier": 1
+ },
+ "TivibuSpor3.tr": {
+  "feed_channel_id": "T\u0130V\u0130BU.SPOR.3.tr",
+  "feed_code": "TR3",
+  "tier": 1
+ },
+ "UlkeTV.tr": {
+  "feed_channel_id": "\u00dcLKE.TV.HD.tr",
+  "feed_code": "TR1",
+  "tier": 1
+ },
+ "animalplanet.pl": {
+  "feed_channel_id": "Animal.Planet.HD.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "cacaepesca.pt": {
+  "feed_channel_id": "Ca\u00e7a.e.Pesca.pt",
+  "feed_code": "PT1",
+  "tier": 1
+ },
+ "canal.fr": {
+  "feed_channel_id": "Canal+.fr",
+  "feed_code": "FR1",
+  "tier": 1
+ },
+ "canalplusfilm.pl": {
+  "feed_channel_id": "CANAL+.Film.HD.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "canalplussport.pl": {
+  "feed_channel_id": "CANAL+.Sport.HD.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "canalsport.fr": {
+  "feed_channel_id": "Canal+.Sport.fr",
+  "feed_code": "FR1",
+  "tier": 1
+ },
+ "canalsurandalucia.es": {
+  "feed_channel_id": "Canal.Sur.Andaluc\u00eda.es",
+  "feed_code": "ES1",
+  "tier": 1
+ },
+ "cancaonova.pt": {
+  "feed_channel_id": "Can\u00e7\u00e3o.Nova.pt",
+  "feed_code": "PT1",
+  "tier": 1
+ },
+ "cineemotion.fr": {
+  "feed_channel_id": "Cin\u00e9+.Emotion.fr",
+  "feed_code": "FR1",
+  "tier": 1
+ },
+ "cinefrisson.fr": {
+  "feed_channel_id": "Cin\u00e9+.Frisson.fr",
+  "feed_code": "FR1",
+  "tier": 1
+ },
+ "disneyjunior.pt": {
+  "feed_channel_id": "Disney.Junior.HD.pt",
+  "feed_code": "PT1",
+  "tier": 1
+ },
+ "domo.pl": {
+  "feed_channel_id": "CANAL+.DOMO.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "eentertainment.fr": {
+  "feed_channel_id": "E!.Entertainment.fr",
+  "feed_code": "FR1",
+  "tier": 1
+ },
+ "epg-al-folk-1f6d945b": {
+  "feed_channel_id": "Folk.+.al",
+  "feed_code": "AL1",
+  "tier": 1
+ },
+ "epg-ch-sat-1-gold-21842cf6": {
+  "feed_channel_id": "SAT.1.GOLD.ch",
+  "feed_code": "CH1",
+  "tier": 1
+ },
+ "epg-ch-tele-1-9857dbb8": {
+  "feed_channel_id": "Tele.1.ch",
+  "feed_code": "CH1",
+  "tier": 1
+ },
+ "epg-hr-rtl-2-hd-43e31b67": {
+  "feed_channel_id": "RTL.2.HD.hr",
+  "feed_code": "HR1",
+  "tier": 1
+ },
+ "epg-it-dazn-1-22bda876": {
+  "feed_channel_id": "DAZN.1.it.it",
+  "feed_code": "IT1",
+  "tier": 1
+ },
+ "epg-it-radio-italia-tv-hd-43e52037": {
+  "feed_channel_id": "Radio.Italia.TV.HD.it",
+  "feed_code": "IT1",
+  "tier": 1
+ },
+ "epg-mt-tvm-hd-bad91121": {
+  "feed_channel_id": "TVM.HD.mt",
+  "feed_code": "MT1",
+  "tier": 1
+ },
+ "epg-nl-film-1-drama-c8a55c4b": {
+  "feed_channel_id": "Film1.Drama.nl",
+  "feed_code": "NL1",
+  "tier": 1
+ },
+ "epg-pl-ale-kino-3037bf54": {
+  "feed_channel_id": "Ale.kino+.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "epg-pl-canal-1-b1220cd0": {
+  "feed_channel_id": "CANAL+.1.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "epg-pl-canal-sport-2-hd-7aac60cb": {
+  "feed_channel_id": "CANAL+.Sport.2.HD.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "epg-pl-canal-sport-3-hd-3d53be25": {
+  "feed_channel_id": "CANAL+.Sport.3.HD.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "epg-pl-tvp-1-hd-fad05b95": {
+  "feed_channel_id": "TVP.1.HD.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "epg-ro-digi-sport-1-e0d20050": {
+  "feed_channel_id": "Digi.Sport.1.ro",
+  "feed_code": "RO1",
+  "tier": 1
+ },
+ "epg-ro-romania-tv-d8311ab7": {
+  "feed_channel_id": "Rom\u00e2nia.TV.ro",
+  "feed_code": "RO1",
+  "tier": 1
+ },
+ "epg-ro-tvr-1-90256550": {
+  "feed_channel_id": "TVR.1.ro",
+  "feed_code": "RO1",
+  "tier": 1
+ },
+ "epg-sk-wau-hd-942835c1": {
+  "feed_channel_id": "Wau.HD.sk",
+  "feed_code": "SK1",
+  "tier": 1
+ },
+ "epg-tr-akit-tv-7bcfc9b7": {
+  "feed_channel_id": "AK\u0130T.TV.tr",
+  "feed_code": "TR1",
+  "tier": 1
+ },
+ "epg-tr-trt-1-hd-b1d99bb3": {
+  "feed_channel_id": "TRT.1.HD.tr",
+  "feed_code": "TR1",
+  "tier": 1
+ },
+ "filmboxextra.pl": {
+  "feed_channel_id": "FilmBox.Extra.HD.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "filmboxpremium.pl": {
+  "feed_channel_id": "FilmBox.Premium.HD.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "infosport.fr": {
+  "feed_channel_id": "Infosport+.fr",
+  "feed_code": "FR1",
+  "tier": 1
+ },
+ "kuchniaplus.pl": {
+  "feed_channel_id": "CANAL+.KUCHNIA.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "localvisaotv.pt": {
+  "feed_channel_id": "Localvis\u00e3o.TV.HD.pt",
+  "feed_code": "PT1",
+  "tier": 1
+ },
+ "mdeportes2.es": {
+  "feed_channel_id": "M+.Deportes.2.es",
+  "feed_code": "ES1",
+  "tier": 1
+ },
+ "minikaCocuk.tr": {
+  "feed_channel_id": "M\u0130N\u0130KA.\u00c7OCUK.tr",
+  "feed_code": "TR1",
+  "tier": 1
+ },
+ "minimini.pl": {
+  "feed_channel_id": "MiniMini+.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "mligadecampeones.es": {
+  "feed_channel_id": "M+.Liga.de.Campeones.es",
+  "feed_code": "ES1",
+  "tier": 1
+ },
+ "mligadecampeones5.es": {
+  "feed_channel_id": "M+.Liga.de.Campeones.5.es",
+  "feed_code": "ES1",
+  "tier": 1
+ },
+ "nationalgeographic.pt": {
+  "feed_channel_id": "National.Geographic.HD.pt",
+  "feed_code": "PT1",
+  "tier": 1
+ },
+ "nationalgeographicwild.pt": {
+  "feed_channel_id": "National.Geographic.WILD.HD.pt",
+  "feed_code": "PT1",
+  "tier": 1
+ },
+ "piwi.fr": {
+  "feed_channel_id": "Piwi+.fr",
+  "feed_code": "FR1",
+  "tier": 1
+ },
+ "planete.pl": {
+  "feed_channel_id": "Planete+.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "polsatcafe.pl": {
+  "feed_channel_id": "Polsat.Caf\u00e9.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "polsatsportnews.pl": {
+  "feed_channel_id": "Polsat.Sport.News.HD.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "polsatviasathist.pl": {
+  "feed_channel_id": "Polsat.Viasat.History.HD.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "polsatviasatnature.pl": {
+  "feed_channel_id": "Polsat.Viasat.Nature.HD.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "raisportplus.it": {
+  "feed_channel_id": "RaiSport.it",
+  "feed_code": "IT1",
+  "tier": 1
+ },
+ "raiuno.it": {
+  "feed_channel_id": "Rai1.it",
+  "feed_code": "IT1",
+  "tier": 1
+ },
+ "rmcdecouverte.fr": {
+  "feed_channel_id": "RMC.D\u00e9couverte.fr",
+  "feed_code": "FR1",
+  "tier": 1
+ },
+ "rtpacores.pt": {
+  "feed_channel_id": "RTP.A\u00e7ores.pt",
+  "feed_code": "PT1",
+  "tier": 1
+ },
+ "rtpafrica.pt": {
+  "feed_channel_id": "RTP.\u00c1frica.pt",
+  "feed_code": "PT1",
+  "tier": 1
+ },
+ "rtpmemoria.pt": {
+  "feed_channel_id": "RTP.Mem\u00f3ria.pt",
+  "feed_code": "PT1",
+  "tier": 1
+ },
+ "sicnoticias.pt": {
+  "feed_channel_id": "SIC.Not\u00edcias.pt",
+  "feed_code": "PT1",
+  "tier": 1
+ },
+ "super.it": {
+  "feed_channel_id": "Super!.it",
+  "feed_code": "IT1",
+  "tier": 1
+ },
+ "tcmcinema.fr": {
+  "feed_channel_id": "TCM.Cin\u00e9ma.fr",
+  "feed_code": "FR1",
+  "tier": 1
+ },
+ "teletoon.pl": {
+  "feed_channel_id": "teleTOON+.pl",
+  "feed_code": "PL1",
+  "tier": 1
+ },
+ "teva.fr": {
+  "feed_channel_id": "T\u00e9va.fr",
+  "feed_code": "FR1",
+  "tier": 1
  }
 }

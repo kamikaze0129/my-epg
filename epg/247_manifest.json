@@ -34,7 +34,7 @@
   "names": [
    "24/7 The Path"
   ],
-  "icon": "http://172.110.220.61:80/images/0ba482c4a439cb5b9ccbfb5942374434.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "The Path",
   "desc": "24/7 channel title derived from channel name."
@@ -252,7 +252,7 @@
   "names": [
    "24/7 24"
   ],
-  "icon": "https://i.imgur.com/DDnSFZH.png",
+  "icon": "",
   "block_mins": 60,
   "title": "24",
   "desc": "24."
@@ -330,12 +330,12 @@
  {
   "id": "m3u-247-90-day-fianc-happily-ever-after",
   "names": [
-   "24/7 90 Day Fiancé: Happily Ever After?"
+   "24/7 90 Day Fianc\u00e9: Happily Ever After?"
   ],
   "icon": "https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FuI3PDek5udpR9f2DL4PSymHMsqa.jpg",
   "block_mins": 60,
-  "title": "90 Day Fiancé: Happily Ever After?",
-  "desc": "90 Day Fiancé: Happily Ever After?."
+  "title": "90 Day Fianc\u00e9: Happily Ever After?",
+  "desc": "90 Day Fianc\u00e9: Happily Ever After?."
  },
  {
   "id": "m3u-247-90-day-fiance-happily-ever-after",
@@ -522,7 +522,7 @@
   "names": [
    "24/7 Absolutely Fabulous"
   ],
-  "icon": "https://i.imgur.com/SWdJErl.png",
+  "icon": "",
   "block_mins": 30,
   "title": "Absolutely Fabulous",
   "desc": "Absolutely Fabulous."
@@ -552,7 +552,7 @@
   "names": [
    "24/7 Ackley Bridge"
   ],
-  "icon": "http://172.110.220.61:80/images/3cb3611870f6a0941335620a3bb3c9ee.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Ackley Bridge",
   "desc": "Ackley Bridge."
@@ -612,7 +612,7 @@
   "names": [
    "24/7 After Life"
   ],
-  "icon": "https://i.imgur.com/44RVhaz.png",
+  "icon": "",
   "block_mins": 30,
   "title": "After Life",
   "desc": "After Life."
@@ -692,7 +692,7 @@
   "names": [
    "24/7 Alias"
   ],
-  "icon": "https://i.imgur.com/Ueni5Wc.png",
+  "icon": "",
   "block_mins": 60,
   "title": "Alias",
   "desc": "Alias."
@@ -702,7 +702,7 @@
   "names": [
    "24/7 ALICE"
   ],
-  "icon": "https://i.imgur.com/IYF2XCu.png",
+  "icon": "",
   "block_mins": 30,
   "title": "ALICE",
   "desc": "ALICE."
@@ -762,7 +762,7 @@
   "names": [
    "24/7 All That"
   ],
-  "icon": "https://i.imgur.com/Tje8lEx.png",
+  "icon": "",
   "block_mins": 30,
   "title": "All That",
   "desc": "All That."
@@ -782,7 +782,7 @@
   "names": [
    "24/7 Almost Human"
   ],
-  "icon": "http://172.110.220.61:80/images/9d665c12dda3bcfcc9ae32d860b025cf.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Almost Human",
   "desc": "Almost Human."
@@ -942,7 +942,7 @@
   "names": [
    "24/7 American Housewife"
   ],
-  "icon": "http://172.110.220.61:80/images/c043fd194e3684cf804133d71bd9c3cd.jpg",
+  "icon": "",
   "block_mins": 30,
   "title": "American Housewife",
   "desc": "American Housewife."
@@ -1142,7 +1142,7 @@
   "names": [
    "24/7 Animals"
   ],
-  "icon": "http://172.110.220.61:80/images/6fed983bca28d8d42e62c98bfac43b86.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Animals",
   "desc": "Animals."
@@ -1622,7 +1622,7 @@
   "names": [
    "24/7 Band of Brothers"
   ],
-  "icon": "https://i.imgur.com/lytzaMv.png",
+  "icon": "",
   "block_mins": 60,
   "title": "Band of Brothers",
   "desc": "Band of Brothers."
@@ -2062,7 +2062,7 @@
   "names": [
    "24/7 Big Brother"
   ],
-  "icon": "https://i.imgur.com/056IMHI.png",
+  "icon": "",
   "block_mins": 60,
   "title": "Big Brother",
   "desc": "Big Brother."
@@ -2122,7 +2122,7 @@
   "names": [
    "24/7 Billions"
   ],
-  "icon": "https://i.imgur.com/wh6OJmw.png",
+  "icon": "",
   "block_mins": 60,
   "title": "Billions",
   "desc": "Billions."
@@ -2292,7 +2292,7 @@
   "names": [
    "24/7 Bloodline"
   ],
-  "icon": "https://i.imgur.com/iErYiud.png",
+  "icon": "",
   "block_mins": 60,
   "title": "Bloodline",
   "desc": "Bloodline."
@@ -2600,7 +2600,7 @@
   "names": [
    "24/7 Brews Brothers"
   ],
-  "icon": "https://i.imgur.com/LYNHNxu.png",
+  "icon": "",
   "block_mins": 30,
   "title": "Brews Brothers",
   "desc": "Brews Brothers."
@@ -3089,7 +3089,7 @@
   "names": [
    "24/7 Castle"
   ],
-  "icon": "http://172.110.220.61:80/images/70705d20826aad72a4297d705cabd12b.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Castle",
   "desc": "Castle."
@@ -3319,7 +3319,7 @@
   "names": [
    "24/7 CHARMED (1998)"
   ],
-  "icon": "https://i.imgur.com/iyMCnLr.png",
+  "icon": "",
   "block_mins": 60,
   "title": "CHARMED (1998)",
   "desc": "CHARMED (1998)."
@@ -3469,7 +3469,7 @@
   "names": [
    "24/7 CHiPs"
   ],
-  "icon": "https://i.imgur.com/GC1Vdpa.png",
+  "icon": "",
   "block_mins": 30,
   "title": "CHiPs",
   "desc": "CHiPs."
@@ -3637,7 +3637,7 @@
   "names": [
    "24/7 Claws"
   ],
-  "icon": "http://172.110.220.61:80/images/cebb5c0784275a106c177cb85c15d6a5.jpg",
+  "icon": "",
   "block_mins": 30,
   "title": "Claws",
   "desc": "Claws."
@@ -4175,7 +4175,7 @@
   "names": [
    "24/7 Criminal Minds"
   ],
-  "icon": "https://i.imgur.com/li5ZdVX.png",
+  "icon": "",
   "block_mins": 60,
   "title": "Criminal Minds",
   "desc": "Criminal Minds."
@@ -4612,22 +4612,22 @@
  {
   "id": "m3u-247-day-fianc",
   "names": [
-   "24/7 Day Fiancé"
+   "24/7 Day Fianc\u00e9"
   ],
   "icon": "https://image.tmdb.org/t/p/w500/wJVDf4ZysdxhoREQIHlOM4phRNp.jpg",
   "block_mins": 60,
-  "title": "Day Fiancé",
-  "desc": "Day Fiancé."
+  "title": "Day Fianc\u00e9",
+  "desc": "Day Fianc\u00e9."
  },
  {
   "id": "m3u-247-day-fianc-before-the-90-days",
   "names": [
-   "24/7 Day Fiancé: Before the 90 Days"
+   "24/7 Day Fianc\u00e9: Before the 90 Days"
   ],
   "icon": "https://episodecalendar.b-cdn.net/FsyZpa1AcH0vjf1g9qlTZ-tNLSEU1AtI2wdBJ_mDHLk/plain/https://artworks.thetvdb.com/banners/v4/series/332747/posters/66e3290a02ead.jpg",
   "block_mins": 60,
-  "title": "Day Fiancé: Before the 90 Days",
-  "desc": "Day Fiancé: Before the 90 Days."
+  "title": "Day Fianc\u00e9: Before the 90 Days",
+  "desc": "Day Fianc\u00e9: Before the 90 Days."
  },
  {
   "id": "m3u-247-days-in",
@@ -4694,7 +4694,7 @@
   "names": [
    "24/7 Dead of Winter"
   ],
-  "icon": "http://172.110.220.61:80/images/7e2cb247d4e4f692525470502b85b1ce.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Dead of Winter",
   "desc": "Dead of Winter."
@@ -4743,7 +4743,7 @@
   "names": [
    "24/7 Deadbeat"
   ],
-  "icon": "http://172.110.220.61:80/images/bc3caa61f6ea07eda0b5c0940131b779.jpg",
+  "icon": "",
   "block_mins": 30,
   "title": "Deadbeat",
   "desc": "Deadbeat."
@@ -4832,7 +4832,7 @@
   "names": [
    "24/7 Dear"
   ],
-  "icon": "http://172.110.220.61:80/images/172766d17e4948d55aa494f11df5cf7a.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Dear",
   "desc": "Dear."
@@ -4962,7 +4962,7 @@
   "names": [
    "24/7 Dennis The Menace"
   ],
-  "icon": "https://i.imgur.com/Amf7hn6.png",
+  "icon": "",
   "block_mins": 30,
   "title": "Dennis The Menace",
   "desc": "Dennis The Menace."
@@ -5168,12 +5168,12 @@
  {
   "id": "m3u-247-diablo-guardin",
   "names": [
-   "24/7 Diablo Guardián"
+   "24/7 Diablo Guardi\u00e1n"
   ],
   "icon": "https://image.tmdb.org/t/p/w500/5aPeosEyu2axBCRoFJ9osO4mEPo.jpg",
   "block_mins": 60,
-  "title": "Diablo Guardián",
-  "desc": "Diablo Guardián."
+  "title": "Diablo Guardi\u00e1n",
+  "desc": "Diablo Guardi\u00e1n."
  },
  {
   "id": "m3u-247-diagnosis",
@@ -5536,7 +5536,7 @@
   "names": [
    "24/7 Doubt"
   ],
-  "icon": "http://172.110.220.61:80/images/28eb497ae0968aea054f6aa28091abdf.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Doubt",
   "desc": "Doubt."
@@ -5852,7 +5852,7 @@
   "names": [
    "24/7 El Chapo"
   ],
-  "icon": "https://i.imgur.com/WTMy7Kp.png",
+  "icon": "",
   "block_mins": 60,
   "title": "El Chapo",
   "desc": "El Chapo."
@@ -5972,7 +5972,7 @@
   "names": [
    "24/7 Elvis Presley"
   ],
-  "icon": "http://172.110.220.61:80/images/5cdc1fa1cabfffb07f8a3c1a26bbdef9.jpg",
+  "icon": "",
   "block_mins": 30,
   "title": "Elvis Presley",
   "desc": "Elvis Presley."
@@ -6576,7 +6576,7 @@
   "names": [
    "24/7 Felicity"
   ],
-  "icon": "http://172.110.220.61:80/images/7179e2b49cc56d8a013e4cdeb20ab59c.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Felicity",
   "desc": "Felicity."
@@ -6796,7 +6796,7 @@
   "names": [
    "24/7 For Better or Worse"
   ],
-  "icon": "https://i.imgur.com/sVpRZHR.png",
+  "icon": "",
   "block_mins": 30,
   "title": "For Better or Worse",
   "desc": "For Better or Worse."
@@ -6976,7 +6976,7 @@
   "names": [
    "24/7 Fresh Meat"
   ],
-  "icon": "https://i.imgur.com/IP3miSq.png",
+  "icon": "",
   "block_mins": 60,
   "title": "Fresh Meat",
   "desc": "Fresh Meat."
@@ -6986,7 +6986,7 @@
   "names": [
    "24/7 Fresh Off the Boat"
   ],
-  "icon": "https://i.imgur.com/6ZDSdor.png",
+  "icon": "",
   "block_mins": 30,
   "title": "Fresh Off the Boat",
   "desc": "Fresh Off the Boat."
@@ -7890,7 +7890,7 @@
   "names": [
    "24/7 Gossip Girl"
   ],
-  "icon": "https://i.imgur.com/ueVT1FS.png",
+  "icon": "",
   "block_mins": 30,
   "title": "Gossip Girl",
   "desc": "Gossip Girl."
@@ -8849,7 +8849,7 @@
   "names": [
    "24/7 Holby"
   ],
-  "icon": "http://172.110.220.61:80/images/74baff126a5401cec42c80f72f190bbf.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Holby",
   "desc": "Holby."
@@ -8859,7 +8859,7 @@
   "names": [
    "24/7 Holby City"
   ],
-  "icon": "http://172.110.220.61:80/images/74baff126a5401cec42c80f72f190bbf.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Holby City",
   "desc": "Holby City."
@@ -8919,7 +8919,7 @@
   "names": [
    "24/7 Home"
   ],
-  "icon": "http://172.110.220.61:80/images/5b46bc95b5054369d22a7fd3a079c2ed.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Home",
   "desc": "Home."
@@ -9137,7 +9137,7 @@
   "names": [
    "24/7 House of Cards"
   ],
-  "icon": "http://172.110.220.61:80/images/98defea7219d4905bf70c8d3b8be2d17.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "House Of Cards",
   "desc": "House Of Cards."
@@ -9177,7 +9177,7 @@
   "names": [
    "24/7 How Its Made"
   ],
-  "icon": "https://i.imgur.com/94axerZ.png",
+  "icon": "",
   "block_mins": 30,
   "title": "How Its Made",
   "desc": "How Its Made."
@@ -9556,7 +9556,7 @@
   "names": [
    "24/7 Ice"
   ],
-  "icon": "https://i.imgur.com/UW4tI0R.png",
+  "icon": "",
   "block_mins": 60,
   "title": "Ice",
   "desc": "Ice."
@@ -10862,7 +10862,7 @@
   "names": [
    "24/7 Kentucky Ayahuasca"
   ],
-  "icon": "http://172.110.220.61:80/images/08af3977c0698a9e9a175baf2af8d140.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Kentucky Ayahuasca",
   "desc": "Kentucky Ayahuasca."
@@ -11390,7 +11390,7 @@
   "names": [
    "24/7 Laurel and Hardy"
   ],
-  "icon": "https://i.imgur.com/NUnAxa7.png",
+  "icon": "",
   "block_mins": 30,
   "title": "Laurel and Hardy",
   "desc": "Laurel and Hardy."
@@ -11933,7 +11933,7 @@
   "names": [
    "24/7 Live at the Apollo"
   ],
-  "icon": "http://172.110.220.61:80/images/fd0a5c193185f3e4b2712f85c2ba81f6.jpg",
+  "icon": "",
   "block_mins": 30,
   "title": "Live at the Apollo",
   "desc": "Live at the Apollo."
@@ -12043,7 +12043,7 @@
   "names": [
    "24/7 Lone Star Law"
   ],
-  "icon": "http://172.110.220.61:80/images/c4a0655e10caaafc5c9fb65b765bfa8b.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Lone Star Law",
   "desc": "Lone Star Law."
@@ -12242,7 +12242,7 @@
   "names": [
    "24/7 Lost In Space"
   ],
-  "icon": "https://i.imgur.com/x2EkQdS.png",
+  "icon": "",
   "block_mins": 30,
   "title": "Lost In Space",
   "desc": "Lost In Space."
@@ -12431,7 +12431,7 @@
   "names": [
    "24/7 Love Thy Neighbor"
   ],
-  "icon": "http://172.110.220.61:80/images/1de1afc412dfaeeab3c791c749fb0b47.jpg",
+  "icon": "",
   "block_mins": 30,
   "title": "Love Thy Neighbor",
   "desc": "Love Thy Neighbor."
@@ -12741,7 +12741,7 @@
   "names": [
    "24/7 Magic for Humans"
   ],
-  "icon": "http://172.110.220.61:80/images/aff3c18a28deba56f1d5536d73a958f7.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Magic for Humans",
   "desc": "Magic for Humans."
@@ -12761,7 +12761,7 @@
   "names": [
    "24/7 Magnum P.I (1980)"
   ],
-  "icon": "https://i.imgur.com/BQtK0o4.png",
+  "icon": "",
   "block_mins": 60,
   "title": "Magnum P.I (1980)",
   "desc": "Magnum P.I (1980)."
@@ -13478,7 +13478,7 @@
   "names": [
    "24/7 Max Steel"
   ],
-  "icon": "http://172.110.220.61:80/images/343c9b5f10e532cca49de39e1e8085ef.jpg",
+  "icon": "",
   "block_mins": 30,
   "title": "Max Steel",
   "desc": "Max Steel."
@@ -13685,7 +13685,7 @@
   "names": [
    "24/7 Miami Vice"
   ],
-  "icon": "https://i.imgur.com/b6oEQWg.png",
+  "icon": "",
   "block_mins": 60,
   "title": "Miami Vice",
   "desc": "Miami Vice."
@@ -13905,7 +13905,7 @@
   "names": [
    "24/7 Mirage"
   ],
-  "icon": "http://172.110.220.61:80/images/a04989eee2c68c28eea39e88d3898147.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Mirage",
   "desc": "Mirage."
@@ -14065,7 +14065,7 @@
   "names": [
    "24/7 Mom"
   ],
-  "icon": "https://i.imgur.com/Mj3IJ41.png",
+  "icon": "",
   "block_mins": 30,
   "title": "Mom",
   "desc": "Mom."
@@ -14393,7 +14393,7 @@
   "names": [
    "24/7 Mum"
   ],
-  "icon": "http://172.110.220.61:80/images/1ba59a13b20e0565806b850b16c9c4bb.jpg",
+  "icon": "",
   "block_mins": 30,
   "title": "Mum",
   "desc": "Mum."
@@ -15050,7 +15050,7 @@
   "names": [
    "24/7 Night on Earth"
   ],
-  "icon": "http://172.110.220.61:80/images/008dab2d3db44965242e623001971a72.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Night on Earth",
   "desc": "Night on Earth."
@@ -16054,7 +16054,7 @@
   "names": [
    "24/7 Pawn Stars"
   ],
-  "icon": "https://i.imgur.com/WrlPX5l.png",
+  "icon": "",
   "block_mins": 60,
   "title": "Pawn Stars",
   "desc": "Pawn Stars."
@@ -16608,7 +16608,7 @@
   "names": [
    "24/7 Primeval"
   ],
-  "icon": "http://172.110.220.61:80/images/3b1c351a01dfe443621870ffb1b29145.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Primeval",
   "desc": "Primeval."
@@ -16777,7 +16777,7 @@
   "names": [
    "24/7 Proven Innocent"
   ],
-  "icon": "http://172.110.220.61:80/images/dc235d38addaff154eecbfce36e3f10e.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Proven Innocent",
   "desc": "Proven Innocent."
@@ -17434,7 +17434,7 @@
   "names": [
    "24/7 Rescue Me"
   ],
-  "icon": "https://i.imgur.com/MFDf1Dw.png",
+  "icon": "",
   "block_mins": 60,
   "title": "Rescue Me",
   "desc": "Rescue Me."
@@ -18297,7 +18297,7 @@
   "names": [
    "24/7 Sanford and Son"
   ],
-  "icon": "https://i.imgur.com/GvMXyf9.png",
+  "icon": "",
   "block_mins": 30,
   "title": "Sanford and Son",
   "desc": "Sanford and Son."
@@ -18447,7 +18447,7 @@
   "names": [
    "24/7 Schitt's Creek"
   ],
-  "icon": "http://172.110.220.61:80/images/3cb95c5b919c7becde2d803c9eb415db.jpg",
+  "icon": "",
   "block_mins": 30,
   "title": "Schitt's Creek",
   "desc": "Schitt's Creek."
@@ -18557,7 +18557,7 @@
   "names": [
    "24/7 Scot Squad"
   ],
-  "icon": "http://172.110.220.61:80/images/65765260b99bf45da85a19fff2f9067b.jpg",
+  "icon": "",
   "block_mins": 30,
   "title": "Scot Squad",
   "desc": "Scot Squad."
@@ -18735,7 +18735,7 @@
   "names": [
    "24/7 Seinfeld"
   ],
-  "icon": "https://i.imgur.com/sTiXRoi.png",
+  "icon": "",
   "block_mins": 30,
   "title": "Seinfeld",
   "desc": "Seinfeld."
@@ -19171,7 +19171,7 @@
   "names": [
    "24/7 Silver Spoons"
   ],
-  "icon": "https://i.imgur.com/rGXKXTX.png",
+  "icon": "",
   "block_mins": 30,
   "title": "Silver Spoons",
   "desc": "Silver Spoons."
@@ -19683,7 +19683,7 @@
   "names": [
    "24/7 Splitting Up Together"
   ],
-  "icon": "http://172.110.220.61:80/images/fabfe9080ba8327acb6da200434dafd0.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Splitting Up Together",
   "desc": "Splitting Up Together."
@@ -19723,7 +19723,7 @@
   "names": [
    "24/7 Spring Baking Championship"
   ],
-  "icon": "http://172.110.220.61:80/images/2246f9265022768c07e827fd80f6aa93.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Spring Baking Championship",
   "desc": "Spring Baking Championship."
@@ -20030,7 +20030,7 @@
   "names": [
    "24/7 Step By Step"
   ],
-  "icon": "https://i.imgur.com/Debj7c7.png",
+  "icon": "",
   "block_mins": 30,
   "title": "Step By Step",
   "desc": "Step By Step."
@@ -20070,7 +20070,7 @@
   "names": [
    "24/7 Steven Seagal"
   ],
-  "icon": "https://i.imgur.com/SPRaawM.png",
+  "icon": "",
   "block_mins": 120,
   "title": "Steven Seagal",
   "desc": "Steven Seagal movie presentation."
@@ -20729,7 +20729,7 @@
   "names": [
    "24/7 Survive"
   ],
-  "icon": "http://172.110.220.61:80/images/4750863e99c844a796b1af4ddd4c3073.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Survive",
   "desc": "Survive."
@@ -20978,7 +20978,7 @@
   "names": [
    "24/7 Teachers"
   ],
-  "icon": "http://172.110.220.61:80/images/57bfc07c025b67504d33b1978a4f3e31.jpg",
+  "icon": "",
   "block_mins": 30,
   "title": "Teachers",
   "desc": "Teachers."
@@ -21333,7 +21333,7 @@
   "names": [
    "24/7 The Arrangement"
   ],
-  "icon": "http://172.110.220.61:80/images/ac20b441540b365d4eabd0e51bf12317.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "The Arrangement",
   "desc": "The Arrangement."
@@ -21472,7 +21472,7 @@
   "names": [
    "24/7 The Beatles"
   ],
-  "icon": "http://172.110.220.61:80/images/8ac4241e1dbb07c9179975e294fd4d63.jpg",
+  "icon": "",
   "block_mins": 30,
   "title": "The Beatles",
   "desc": "The Beatles."
@@ -21740,7 +21740,7 @@
   "names": [
    "24/7 The Circle"
   ],
-  "icon": "http://172.110.220.61:80/images/bac5166b7c6c900a1888ea56c4f02cfc.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "The Circle",
   "desc": "The Circle."
@@ -21810,7 +21810,7 @@
   "names": [
    "24/7 The Cosby Show"
   ],
-  "icon": "https://i.imgur.com/oVrgJ1T.png",
+  "icon": "",
   "block_mins": 30,
   "title": "The Cosby Show",
   "desc": "The Cosby Show."
@@ -21938,7 +21938,7 @@
   "names": [
    "24/7 The Detour"
   ],
-  "icon": "https://i.imgur.com/FRsgI4T.png",
+  "icon": "",
   "block_mins": 30,
   "title": "The Detour",
   "desc": "The Detour."
@@ -21988,7 +21988,7 @@
   "names": [
    "24/7 The Drew Carey Show"
   ],
-  "icon": "https://i.imgur.com/va8d1vE.png",
+  "icon": "",
   "block_mins": 30,
   "title": "The Drew Carey Show",
   "desc": "The Drew Carey Show."
@@ -22167,7 +22167,7 @@
   "names": [
    "24/7 The First 48"
   ],
-  "icon": "https://i.imgur.com/xTtVuB0.png",
+  "icon": "",
   "block_mins": 60,
   "title": "The First 48",
   "desc": "The First 48."
@@ -22367,7 +22367,7 @@
   "names": [
    "24/7 The Goldbergs"
   ],
-  "icon": "https://i.imgur.com/adFu1GH.png",
+  "icon": "",
   "block_mins": 30,
   "title": "The Goldbergs",
   "desc": "The Goldbergs."
@@ -22396,7 +22396,7 @@
   "names": [
    "24/7 The Good Place"
   ],
-  "icon": "https://i.imgur.com/dgECRUq.png",
+  "icon": "",
   "block_mins": 60,
   "title": "The Good Place",
   "desc": "The Good Place."
@@ -22636,7 +22636,7 @@
   "names": [
    "24/7 The Honeymooners"
   ],
-  "icon": "https://i.imgur.com/0zFPPY2.png",
+  "icon": "",
   "block_mins": 30,
   "title": "The Honeymooners",
   "desc": "The Honeymooners."
@@ -22885,7 +22885,7 @@
   "names": [
    "24/7 The Kominsky Method"
   ],
-  "icon": "https://i.imgur.com/mKw2wxR.png",
+  "icon": "",
   "block_mins": 30,
   "title": "The Kominsky Method",
   "desc": "The Kominsky Method."
@@ -22935,7 +22935,7 @@
   "names": [
    "24/7 The Last Kingdom"
   ],
-  "icon": "https://i.imgur.com/0TSYrbb.png",
+  "icon": "",
   "block_mins": 60,
   "title": "The Last Kingdom",
   "desc": "The Last Kingdom."
@@ -22955,7 +22955,7 @@
   "names": [
    "24/7 The Last Man on Earth"
   ],
-  "icon": "http://172.110.220.61:80/images/34b6d5aad6305eefe2e8e6f9ade3f5ff.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "The Last Man on Earth",
   "desc": "The Last Man on Earth."
@@ -22995,7 +22995,7 @@
   "names": [
    "24/7 The Last Tycoon"
   ],
-  "icon": "http://172.110.220.61:80/images/659add7abfac02763e95259e2494f41d.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "The Last Tycoon",
   "desc": "The Last Tycoon."
@@ -23264,7 +23264,7 @@
   "names": [
    "24/7 The Middle"
   ],
-  "icon": "https://i.imgur.com/OarrZwP.png",
+  "icon": "",
   "block_mins": 30,
   "title": "The Middle",
   "desc": "The Middle."
@@ -23663,7 +23663,7 @@
   "names": [
    "24/7 The Path"
   ],
-  "icon": "http://172.110.220.61:80/images/0ba482c4a439cb5b9ccbfb5942374434.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "The Path",
   "desc": "The Path."
@@ -24309,7 +24309,7 @@
   "names": [
    "24/7 The Split"
   ],
-  "icon": "http://172.110.220.61:80/images/94f47997b579f5306f7d2e7dce834a66.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "The Split",
   "desc": "The Split."
@@ -24577,7 +24577,7 @@
   "names": [
    "24/7 The Village"
   ],
-  "icon": "http://172.110.220.61:80/images/d53f23310fecd2e5576421b09a848693.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "The Village",
   "desc": "The Village."
@@ -24745,7 +24745,7 @@
   "names": [
    "24/7 The X-Files"
   ],
-  "icon": "https://i.imgur.com/lKqh0SK.png",
+  "icon": "",
   "block_mins": 60,
   "title": "The X-Files",
   "desc": "The X-Files."
@@ -24934,7 +24934,7 @@
   "names": [
    "24/7 Through the Wormhole"
   ],
-  "icon": "https://i.imgur.com/MBl5tQP.png",
+  "icon": "",
   "block_mins": 60,
   "title": "Through the Wormhole",
   "desc": "Through the Wormhole."
@@ -25024,7 +25024,7 @@
   "names": [
    "24/7 Timeless"
   ],
-  "icon": "http://172.110.220.61:80/images/e0d369ebb3615f4bb3e54a6bdcf05379.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Timeless",
   "desc": "Timeless."
@@ -25104,7 +25104,7 @@
   "names": [
    "24/7 Tom Cruise"
   ],
-  "icon": "https://i.imgur.com/ZW2R5ph.png",
+  "icon": "",
   "block_mins": 120,
   "title": "Tom Cruise",
   "desc": "Tom Cruise movie presentation."
@@ -25802,7 +25802,7 @@
   "names": [
    "24/7 Unforgettable"
   ],
-  "icon": "http://172.110.220.61:80/images/e76f6018793fbc7ada7523fa3f85e452.jpg",
+  "icon": "",
   "block_mins": 60,
   "title": "Unforgettable",
   "desc": "Unforgettable."
