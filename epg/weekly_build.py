@@ -5,7 +5,8 @@ Reproduces the curated final build (10,940 channels / ~485k programmes /
 10,550 icons) from fresh weekly data, then validates with hard gates.
 Only a fully-validated file is promoted to ~/workspace/your_files/epg.xml.
 
-PIPELINE (reconstructed from the build scripts in this directory):  1. epg_logos4.xml  -- base: 386 missing tvg-ids integrated + logo waves 1-4
+PIPELINE (reconstructed from the build scripts in this directory):
+  1. epg_logos4.xml  -- base: 386 missing tvg-ids integrated + logo waves 1-4
                        (one-time curation; the channel ROSTER is stable and is
                        reloaded from the previous final build each week)
   2. apply_pubfeed.py (batch 1: 26 verified epg.pw matches, DE/BR/IN/FR/AU/GB)
@@ -19,6 +20,12 @@ WEEKLY REFRESH SOURCES (what is actually re-fetchable):
     fresh ~1-4 day windows for the 206 verified replacement channels.
     Because the windows are short, the automation runs DAILY (11:00 UTC);
     a weekly cadence would leave these channels stale 4-6 days a week.
+  - EPGShare01 international feeds (https://epgshare01.online/epgshare01/
+    epg_ripper_{CODE}.xml.gz): ~90 country/themed XMLTV feeds, no signup,
+    fresh ~4-5 day windows. 772 verified channel matches
+    (pubfeed/epgshare_matches.json: 599 exact-ID + 173 exact-after-strip,
+    same-country only). Best-effort fetch -- a failed feed only skips its
+    channels, never aborts the run.
   - 24/7 synthetic marathon grids: openly synthetic filler; shifted forward so
     the grid re-anchors at build time every run (daily re-anchor keeps the
     ~2.5-day grids perpetually fresh; NOT extended to 7 days -- that would
@@ -38,7 +45,8 @@ NOT re-run weekly (documented dead ends, kept local-only, never published):
     bulk service XML (service_epg_full.xml) was a user-provided file, so bulk
     provider programmes are not re-fetchable by automation.
 
-NEVER logs secrets: the only network fetch here is the public epg.pw feeds.
+NEVER logs secrets: the only network fetches here are the public epg.pw
+and EPGShare01 feeds.
 
 CI MODE (GitHub Actions): set EPG_PREV_BUILD to the previous epg.xml
 (downloaded from the latest release), EPG_RUNS_DIR to a workspace dir, and
@@ -72,9 +80,18 @@ LOGOS247 = os.path.join(BUILD_DIR, 'logos247_results.json')
 FEED_CCS = ['DE', 'BR', 'AU', 'CA', 'GB', 'FR', 'IN', 'US', 'ID']
 FEED_URL = 'https://epg.pw/xmltv/epg_{cc}.xml.gz'
 
+# EPGShare01 international feeds (https://epgshare01.online): ~90 country/
+# themed XMLTV feeds, no signup. 772 verified channel matches
+# (599 exact-ID + 173 exact-after-strip, same-country) in
+# pubfeed/epgshare_matches.json. Feed codes are derived from that file;
+# downloads are best-effort (a blocked/failed feed only skips its channels,
+# never aborts the run).
+EPGSHARE_URL = 'https://epgshare01.online/epgshare01/epg_ripper_{code}.xml.gz'
+EPGSHARE_MATCHES = os.path.join(PUBFEED_DIR, 'epgshare_matches.json')
+
 # Known-good build this pipeline reproduces.
 KNOWN_CHANNELS = 10940
-KNOWN_PROGRAMMES = 485477
+KNOWN_PROGRAMMES = 562288
 KNOWN_ICONS = 10550
 
 # Hard gates.
@@ -231,6 +248,36 @@ def fetch_feeds(workdir):
             raise RuntimeError(f"feed {cc} downloaded but is not valid gzip/XMLTV: {e}")
         paths[cc] = dest
         log(f"  {cc}: {os.path.getsize(dest)} bytes")
+    return paths
+
+
+def fetch_epgshare_feeds(workdir, codes):
+    """Download EPGShare01 per-country feeds. Best-effort: an individual
+    feed failure is logged and skipped (its channels simply keep their
+    carried-forward programmes) -- unlike epg.pw, this source never aborts
+    the run, because the site sometimes blocks datacenter IPs/VPNs."""
+    feed_dir = os.path.join(workdir, 'epgshare')
+    os.makedirs(feed_dir, exist_ok=True)
+    paths = {}
+    for code in sorted(codes):
+        url = EPGSHARE_URL.format(code=code)
+        dest = os.path.join(feed_dir, f'epgshare_{code}.xml.gz')
+        log(f"fetching epgshare {code} ...")
+        if not download(url, dest):
+            log(f"  WARNING: epgshare {code} download failed; skipping")
+            continue
+        try:
+            with gzip.open(dest, 'rb') as f:
+                head = f.read(200)
+            assert b'<tv' in head
+        except Exception as e:
+            log(f"  WARNING: epgshare {code} not valid gzip/XMLTV ({e}); skipping")
+            continue
+        paths[code] = dest
+        log(f"  {code}: {os.path.getsize(dest)} bytes")
+    if not paths:
+        log("WARNING: no EPGShare01 feeds downloaded; those channels keep "
+            "carried-forward programmes")
     return paths
 
 
@@ -736,6 +783,28 @@ def main(argv):
             'refreshed': len(verified_fresh),
             'fresh_programmes': sum(len(v) for v in verified_fresh.values()),
             'skipped_lt5': [(t, n) for t, n in skipped]}
+
+        # 3b. EPGShare01 international feeds (best-effort; never aborts).
+        # Reuses extract_feed_programmes: same >=5-programme rule, same
+        # cutoff semantics. The epg.pw verified set wins on any overlap.
+        es_raw = json.load(open(EPGSHARE_MATCHES)) \
+            if os.path.isfile(EPGSHARE_MATCHES) else {}
+        es_matches = {t: (v['feed_channel_id'], v['feed_code'])
+                      for t, v in es_raw.items() if t in roster}
+        es_codes = sorted(set(fcc for _, fcc in es_matches.values()))
+        es_paths = fetch_epgshare_feeds(workdir, es_codes) if es_codes else {}
+        es_matches = {t: v for t, v in es_matches.items() if v[1] in es_paths}
+        es_fresh, es_skipped = extract_feed_programmes(
+            es_matches, es_paths, cutoff14)
+        for tid, progs in es_fresh.items():
+            if tid not in verified_fresh:
+                verified_fresh[tid] = progs
+        report['stages']['epgshare'] = {
+            'targets': len(es_matches),
+            'refreshed': len(es_fresh),
+            'fresh_programmes': sum(len(v) for v in es_fresh.values()),
+            'skipped_lt5': len(es_skipped),
+            'feeds_ok': len(es_paths), 'feeds_wanted': len(es_codes)}
 
         # 4. optional provider XML hook for regular channels
         service_progs = load_service_xml(service_xml) if service_xml else {}
