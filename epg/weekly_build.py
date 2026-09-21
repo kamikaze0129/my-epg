@@ -91,7 +91,7 @@ EPGSHARE_MATCHES = os.path.join(PUBFEED_DIR, 'epgshare_matches.json')
 
 # Known-good build this pipeline reproduces.
 KNOWN_CHANNELS = 10940
-KNOWN_PROGRAMMES = 562288
+KNOWN_PROGRAMMES = 561796
 KNOWN_ICONS = 10550
 
 # Hard gates.
@@ -118,10 +118,10 @@ def is_placeholder_prog(elem):
     return PLACEHOLDER_MARK in (elem.findtext('desc') or '')
 
 
-def rolling_placeholder(cid, anchor):
-    """One placeholder block spanning anchor -> anchor+7d for channel cid."""
-    return serialize_fresh_prog(fmt_ts(anchor),
-                                fmt_ts(anchor + timedelta(days=PLACEHOLDER_DAYS)),
+def rolling_placeholder(cid, start):
+    """One honest placeholder block spanning start -> start+7d for channel cid."""
+    return serialize_fresh_prog(fmt_ts(start),
+                                fmt_ts(start + timedelta(days=PLACEHOLDER_DAYS)),
                                 cid, PLACEHOLDER_TITLE, PLACEHOLDER_DESC)
 
 # Batch order for the verified pubfeed set (later batches override earlier).
@@ -474,13 +474,16 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
       file (~120MB -> ~200MB) for zero user benefit -- the daily rebuild
       re-anchors them every morning so they never go stale.
     - placeholder: drop the old fixed-date block, write one fresh rolling
-      placeholder (anchor -> anchor+7d). The text openly states no schedule
-      was supplied; only the dates roll.
+      placeholder. The text openly states no schedule was supplied; only the
+      dates roll. If fresh verified data arrives for the channel, the real
+      listings replace the placeholder (with a tail placeholder only if the
+      fresh schedule ends within 12h of the anchor).
     - regular: drop any stale placeholder blocks (prevents accumulation across
       runs), carry all other programmes unchanged (past programmes included --
-      keeps validation counts stable), then if nothing remains with
-      stop > anchor, append one fresh rolling placeholder so the channel shows
-      "Programming" instead of "No information".
+      keeps validation counts stable), then if the latest programme (carried
+      or freshly fetched) ends at or before anchor+12h, append one honest
+      placeholder starting at max(anchor, latest stop) so the channel shows
+      "Programming" instead of "No information" once its schedule runs out.
     Channels (id/display-name/icon) are preserved byte-faithfully.
     Returns counters dict.
     """
@@ -535,13 +538,37 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                 if stop and (cid not in reg_max_stop or stop > reg_max_stop[cid]):
                     reg_max_stop[cid] = stop
             elem.clear()
+        # Freshness: a channel counts as covered only if some programme
+        # extends past anchor+12h (this mirrors the validation gate). The
+        # latest stop must include the fresh verified/service programmes
+        # appended below -- previously only carried stops were considered,
+        # so a channel whose schedule ran out soon (but after the anchor)
+        # lost its placeholder and went dark in the guide. Now such
+        # channels get an honest tail placeholder starting at
+        # max(anchor, latest stop), so it never overlaps real listings.
+        horizon = anchor + timedelta(hours=12)
+        epoch = datetime.min.replace(tzinfo=timezone.utc)
+        fresh_max_stop = {}
+        stop_re = re.compile(r'stop="(\d{14})')
+        for src in (verified_fresh, service_progs):
+            for fcid, plist in src.items():
+                for p in plist:
+                    m = stop_re.search(p)
+                    if m:
+                        st = parse_ts(m.group(1))
+                        if st and (fcid not in fresh_max_stop
+                                   or st > fresh_max_stop[fcid]):
+                            fresh_max_stop[fcid] = st
         for cid in order:
-            if classes.get(cid) == 'placeholder':
-                fout.write(rolling_placeholder(cid, anchor))
-                c['placeholder_written'] += 1
-            elif classes.get(cid) == 'regular' \
-                    and reg_max_stop.get(cid, datetime.min.replace(tzinfo=timezone.utc)) <= anchor:
-                fout.write(rolling_placeholder(cid, anchor))
+            if classes.get(cid) not in ('placeholder', 'regular'):
+                continue
+            latest = reg_max_stop.get(cid, epoch)
+            fs = fresh_max_stop.get(cid)
+            if fs and fs > latest:
+                latest = fs
+            if latest <= horizon:
+                start = max(anchor, latest) if latest > epoch else anchor
+                fout.write(rolling_placeholder(cid, start))
                 c['placeholder_written'] += 1
         for tid in sorted(verified_fresh):
             for p in verified_fresh[tid]:
@@ -673,9 +700,9 @@ def validate(out_path):
                         f"{rep['unparseable_time']} unparseable times")
     if rep['icons'] < ICON_MIN:
         failures.append(f"icon coverage {rep['icons']} below minimum {ICON_MIN}")
-    if rep['stale_channels'] > 0.10 * rep['channels']:
+    if rep['stale_channels'] > 0.02 * rep['channels']:
         failures.append(f"freshness: {rep['stale_channels']} channels with no "
-                        f"coverage past now+12h (>10%)")
+                        f"coverage past now+12h (>2%)")
     if rep['logos247_missing_ids']:
         failures.append(f"{rep['logos247_missing_ids']} logos247 ids missing from output")
     rep['failures'] = failures
