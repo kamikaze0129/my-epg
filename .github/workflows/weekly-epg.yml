@@ -54,6 +54,11 @@ jobs:
           mkdir -p run_out
           python3 epg/weekly_build.py --no-promote --out "$GITHUB_WORKSPACE/epg_new.xml"
 
+          - name: Build 24/7 EPG
+  run: |
+    python3 epg/build_247_epg.py --manifest epg/247_manifest.json --out "$GITHUB_WORKSPACE/epg_247.xml"
+    ls -la "$GITHUB_WORKSPACE/epg_247.xml"
+
       - name: Upload run report
         if: always()
         uses: actions/upload-artifact@v4
@@ -73,7 +78,7 @@ jobs:
             exit 1
           fi
           cp "$GITHUB_WORKSPACE/epg_new.xml" "$GITHUB_WORKSPACE/epg.xml"
-          gh release create "$TAG" "$GITHUB_WORKSPACE/epg.xml" \
-            --title "$TITLE" \
-            --notes "Weekly automated EPG rebuild. TiviMate source URL unchanged: https://github.com/kamikaze0129/my-epg/releases/latest/download/epg.xml"
-          echo "released $TAG"
+          gh release create "$TAG" "$GITHUB_WORKSPACE/epg.xml" "$GITHUB_WORKSPACE/epg_247.xml" \
+  --title "$TITLE" \
+  --notes "Daily automated EPG rebuild. Main guide: https://github.com/kamikaze0129/my-epg/releases/latest/download/epg.xml | 24/7 marathon guide: https://github.com/kamikaze0129/my-epg/releases/latest/download/epg_247.xml"
+
