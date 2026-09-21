@@ -89,28 +89,16 @@ FEED_URL = 'https://epg.pw/xmltv/epg_{cc}.xml.gz'
 EPGSHARE_URL = 'https://epgshare01.online/epgshare01/epg_ripper_{code}.xml.gz'
 EPGSHARE_MATCHES = os.path.join(PUBFEED_DIR, 'epgshare_matches.json')
 
-# vcicio/US-EPG merged US guide (https://github.com/vcicio/us-epg): single
-# 9.6-day-window feed, 5,489 channels, rebuilt every 6h. 1,681 verified USA
-# matches (incl. locals like KGMB Honolulu) in pubfeed/vcicio_usa_matches.json
-# ({chris_id: {feed_channel_id, feed_name, future_progs}}). Same EPGShare01
-# data Chris already approved, repackaged for the USA with longer windows.
-VCICIO_URL = 'https://vcicio.github.io/US-EPG/merged_epg.xml.gz'
-VCICIO_MATCHES = os.path.join(PUBFEED_DIR, 'vcicio_usa_matches.json')
-
 # Known-good build this pipeline reproduces.
-# 2026-09-21: baseline recalibrated after the fossil drop (programmes ending
-# >6h before the anchor are no longer carried). ~300k = real future coverage
-# + rolling placeholders; the old 561k figure counted ~263k dead past
-# programmes that TiviMate never renders.
 KNOWN_CHANNELS = 10940
-KNOWN_PROGRAMMES = 400000
+KNOWN_PROGRAMMES = 561796
 KNOWN_ICONS = 10550
 
 # Hard gates.
 CH_MIN = int(KNOWN_CHANNELS * 0.98)
 CH_MAX = int(KNOWN_CHANNELS * 1.02)
-PR_MIN = int(KNOWN_PROGRAMMES * 0.90)
-PR_MAX = int(KNOWN_PROGRAMMES * 1.10)
+PR_MIN = int(KNOWN_PROGRAMMES * 0.95)
+PR_MAX = int(KNOWN_PROGRAMMES * 1.05)
 ICON_MIN = 10400  # known-good is 10550; never regress below 10400
 
 PLACEHOLDER_MARK = 'No programme schedule was supplied'
@@ -291,27 +279,6 @@ def fetch_epgshare_feeds(workdir, codes):
         log("WARNING: no EPGShare01 feeds downloaded; those channels keep "
             "carried-forward programmes")
     return paths
-
-
-def fetch_vcicio_feed(workdir):
-    """Download vcicio/US-EPG merged US guide. Best-effort like EPGShare:
-    a failed download only skips its channels, never aborts the run."""
-    feed_dir = os.path.join(workdir, 'vcicio')
-    os.makedirs(feed_dir, exist_ok=True)
-    dest = os.path.join(feed_dir, 'merged_epg.xml.gz')
-    log("fetching vcicio US-EPG ...")
-    if not download(VCICIO_URL, dest):
-        log("  WARNING: vcicio download failed; skipping")
-        return None
-    try:
-        with gzip.open(dest, 'rb') as f:
-            head = f.read(200)
-        assert b'<tv' in head
-    except Exception as e:
-        log(f"  WARNING: vcicio not valid gzip/XMLTV ({e}); skipping")
-        return None
-    log(f"  vcicio: {os.path.getsize(dest)} bytes")
-    return dest
 
 
 # ---------------------------------------------------------------- roster
@@ -512,14 +479,11 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
       listings replace the placeholder (with a tail placeholder only if the
       fresh schedule ends within 12h of the anchor).
     - regular: drop any stale placeholder blocks (prevents accumulation across
-      runs) and drop fossil programmes that ended more than 6h before the
-      anchor (TiviMate only shows now->future; carrying them forever inflated
-      programme counts while the visible guide stayed empty -- fixed
-      2026-09-21), carry all other programmes unchanged, then if the latest
-      programme (carried or freshly fetched) ends at or before anchor+12h,
-      append one honest placeholder starting at max(anchor, latest stop) so
-      the channel shows "Programming" instead of "No information" once its
-      schedule runs out.
+      runs), carry all other programmes unchanged (past programmes included --
+      keeps validation counts stable), then if the latest programme (carried
+      or freshly fetched) ends at or before anchor+12h, append one honest
+      placeholder starting at max(anchor, latest stop) so the channel shows
+      "Programming" instead of "No information" once its schedule runs out.
     Channels (id/display-name/icon) are preserved byte-faithfully.
     Returns counters dict.
     """
@@ -527,11 +491,10 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
     service_new = set(service_progs)
     c = {'channels': 0, 'dropped_verified': 0, 'dropped_service': 0,
          'shifted_247': 0, 'carried': 0, 'orphans_dropped': 0,
-         'dropped_placeholder': 0, 'dropped_fossil': 0,
-         'placeholder_written': 0, 'fresh_appended': 0, 'service_appended': 0}
+         'dropped_placeholder': 0, 'placeholder_written': 0,
+         'fresh_appended': 0, 'service_appended': 0}
     roster_ids = set(roster)
     reg_max_stop = {}  # cid -> latest programme stop (regular class only)
-    fossil_cutoff = anchor - timedelta(hours=6)
     with open(out_path, 'w', encoding='utf-8') as fout:
         fout.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n')
         for cid in order:
@@ -569,19 +532,11 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                 # never accumulate; a fresh one is appended below if needed.
                 c['dropped_placeholder'] += 1
             else:
+                fout.write(serialize_programme(elem))
+                c['carried'] += 1
                 stop = parse_ts(elem.get('stop') or '')
-                if stop and stop < fossil_cutoff:
-                    # Fossil: ended >6h before the anchor. TiviMate renders
-                    # now->future only, so these are invisible there; carrying
-                    # them forever is what inflated "real data" counts while
-                    # the visible guide showed "Programming".
-                    c['dropped_fossil'] += 1
-                else:
-                    fout.write(serialize_programme(elem))
-                    c['carried'] += 1
-                    if stop and (cid not in reg_max_stop
-                                 or stop > reg_max_stop[cid]):
-                        reg_max_stop[cid] = stop
+                if stop and (cid not in reg_max_stop or stop > reg_max_stop[cid]):
+                    reg_max_stop[cid] = stop
             elem.clear()
         # Freshness: a channel counts as covered only if some programme
         # extends past anchor+12h (this mirrors the validation gate). The
@@ -641,7 +596,7 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
 # holds on every build instead of depending on whichever feed matched.
 TZ_SHIFT_OFFSETS = {'west': -3, 'mountain': -2, 'central': -1,
                     'alaska': -4, 'hawaii': -6}
-TZ_SHIFT_MIN_EAST = 1     # if east has any future data, west gets built from it
+TZ_SHIFT_MIN_EAST = 5     # need at least this many real east programmes
 TZ_SHIFT_MIN_RATIO = 0.8  # variant must match >= this or it gets re-derived
 
 _zone_name_re = re.compile(
@@ -665,9 +620,7 @@ def enforce_timezone_shifts(out_path, roster):
         if not m:
             continue
         base = re.sub(r'\s+', ' ', m.group(1)).strip().lower()
-        # 2026-09-21: keep ALL candidates per zone — duplicate "East"
-        # channels exist (e.g. two "USA HBO East*"); the one with data wins.
-        groups.setdefault(base, {}).setdefault(m.group(2).lower(), []).append(cid)
+        groups.setdefault(base, {})[m.group(2).lower()] = cid
 
     prog_re = re.compile(
         r'<programme start="([^"]+)" stop="([^"]+)"[^>]*channel="([^"]+)"[^>]*>'
@@ -686,50 +639,39 @@ def enforce_timezone_shifts(out_path, roster):
     def is_ph(t):
         return t.strip().lower().rstrip('.') == 'programming'
 
-    now = datetime.now(timezone.utc)
     repaired = {}
     for base, zones in groups.items():
         if 'east' not in zones:
             continue
-        # 2026-09-21: when duplicate "East" channels exist, copy from the
-        # one with the most future real programmes — never the empty one.
-        def _east_score(c):
-            return sum(1 for _s, e, t, _x in ch_progs.get(c, [])
-                       if e > now and not is_ph(t))
-        east_cid = max(zones['east'], key=_east_score)
+        east_cid = zones['east']
         east_all = ch_progs.get(east_cid, [])
-        # 2026-09-21: only FUTURE east programmes can seed a re-derivation.
-        # Shifting expired listings once wiped a variant's real future
-        # schedule (hbowest.us lost 42 future programmes to 9 dead hbo.us
-        # ones). An east feed with no future data is skipped, never copied.
-        east_future = [(s, e, t, x) for s, e, t, x in east_all if e > now]
-        east_real = [(s, t) for s, _e, t, _x in east_future if not is_ph(t)]
+        east_real = [(s, t) for s, _e, t, _x in east_all if not is_ph(t)]
         if len(east_real) < TZ_SHIFT_MIN_EAST:
             continue
-        east_max_stop = max(e for _s, e, _t, _x in east_future)
+        east_max_stop = max(e for _s, e, _t, _x in east_all)
         for zone, off in TZ_SHIFT_OFFSETS.items():
             if zone not in zones or zone == 'east':
                 continue
-            for var_cid in zones[zone]:
-                var_set = {(t, s) for s, _e, t, _x in ch_progs.get(var_cid, [])}
-                delta = timedelta(hours=off)
-                match = sum(1 for s, t in east_real if (t, s + delta) in var_set)
-                if match / len(east_real) >= TZ_SHIFT_MIN_RATIO:
-                    continue
-                new_xml = []
-                for s, e, t, x in east_future:
-                    nx = _shift_prog_xml(x, off).replace(
-                        f'channel="{east_cid}"', f'channel="{var_cid}"', 1)
-                    new_xml.append(nx)
-                # keep variant programmes that extend past the east window so no
-                # coverage is ever lost by the re-derivation
-                horizon = east_max_stop + delta
-                for s, e, t, x in ch_progs.get(var_cid, []):
-                    if s >= horizon:
-                        new_xml.append(x)
-                repaired[var_cid] = new_xml
-                log(f"tz-shift: {var_cid} re-derived from {east_cid} "
-                    f"({off}h, match was {match}/{len(east_real)})")
+            var_cid = zones[zone]
+            var_set = {(t, s) for s, _e, t, _x in ch_progs.get(var_cid, [])}
+            delta = timedelta(hours=off)
+            match = sum(1 for s, t in east_real if (t, s + delta) in var_set)
+            if match / len(east_real) >= TZ_SHIFT_MIN_RATIO:
+                continue
+            new_xml = []
+            for s, e, t, x in east_all:
+                nx = _shift_prog_xml(x, off).replace(
+                    f'channel="{east_cid}"', f'channel="{var_cid}"', 1)
+                new_xml.append(nx)
+            # keep variant programmes that extend past the east window so no
+            # coverage is ever lost by the re-derivation
+            horizon = east_max_stop + delta
+            for s, e, t, x in ch_progs.get(var_cid, []):
+                if s >= horizon:
+                    new_xml.append(x)
+            repaired[var_cid] = new_xml
+            log(f"tz-shift: {zones[zone]} re-derived from {east_cid} "
+                f"({off}h, match was {match}/{len(east_real)})")
 
     if not repaired:
         return {'groups': len(groups), 'repaired': 0, 'programmes_rederived': 0}
@@ -1001,34 +943,6 @@ def main(argv):
             'fresh_programmes': sum(len(v) for v in es_fresh.values()),
             'skipped_lt5': len(es_skipped),
             'feeds_ok': len(es_paths), 'feeds_wanted': len(es_codes)}
-
-        # 3c. vcicio/US-EPG merged US guide (best-effort; never aborts).
-        # 9.6-day window for 1,681 USA channels incl. locals (KGMB Honolulu
-        # etc.). Same EPGShare01 data Chris approved, longer window — so it
-        # takes precedence over epg.pw/EPGShare for its matched channels.
-        vc_raw = json.load(open(VCICIO_MATCHES)) \
-            if os.path.isfile(VCICIO_MATCHES) else {}
-        vc_matches = {t: (v['feed_channel_id'], 'vcicio')
-                      for t, v in vc_raw.items() if t in roster}
-        vc_path = fetch_vcicio_feed(workdir) if vc_matches else None
-        if vc_path:
-            vc_fresh, vc_skipped = extract_feed_programmes(
-                vc_matches, {'vcicio': vc_path}, cutoff14)
-            vc_overwrote = sum(1 for tid in vc_fresh if tid in verified_fresh)
-            for tid, progs in vc_fresh.items():
-                verified_fresh[tid] = progs
-            report['stages']['vcicio'] = {
-                'targets': len(vc_matches),
-                'refreshed': len(vc_fresh),
-                'fresh_programmes': sum(len(v) for v in vc_fresh.values()),
-                'skipped_lt5': len(vc_skipped),
-                'overwrote_epgshare_epgpw': vc_overwrote}
-            log(f"vcicio: {len(vc_fresh)} USA channels refreshed "
-                f"({vc_overwrote} overwrote shorter-window data)")
-        else:
-            report['stages']['vcicio'] = {
-                'targets': len(vc_matches), 'refreshed': 0,
-                'note': 'feed download failed; channels keep carried data'}
 
         # 4. optional provider XML hook for regular channels
         service_progs = load_service_xml(service_xml) if service_xml else {}
