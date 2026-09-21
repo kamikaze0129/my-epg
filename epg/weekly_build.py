@@ -585,6 +585,117 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
     return c
 
 
+# ---------------------------------------------------------------- timezone shifts
+# Chris's rule (2026-09-21): USA timezone-variant channels are delay feeds of
+# the East Coast feed. East is the base; variants shift back:
+#   West -3h, Mountain -2h, Central -1h, Alaska -4h, Hawaii -6h.
+# Verified 2026-09-21: 14 of 20 east/west pairs already shift correctly;
+# HBO/NatGeo/StarZ/StarzEncore/Flix/Bravo West did not (0-27% title match),
+# and no Alaska/Hawaii channels exist at all. This step re-derives any
+# variant whose programmes don't match the shifted East feed, so the rule
+# holds on every build instead of depending on whichever feed matched.
+TZ_SHIFT_OFFSETS = {'west': -3, 'mountain': -2, 'central': -1,
+                    'alaska': -4, 'hawaii': -6}
+TZ_SHIFT_MIN_EAST = 5     # need at least this many real east programmes
+TZ_SHIFT_MIN_RATIO = 0.8  # variant must match >= this or it gets re-derived
+
+_zone_name_re = re.compile(
+    r'^USA\s+(.+?)\s+(East|West|Mountain|Central|Alaska|Hawaii)\s*\*?\s*$', re.I)
+_ts_attr_re = re.compile(r'(start|stop)="(\d{14})([^"]*)"')
+
+
+def _shift_prog_xml(xml, hours):
+    def rep(m):
+        attr, digits, rest = m.group(1), m.group(2), m.group(3)
+        dt = datetime.strptime(digits, '%Y%m%d%H%M%S') + timedelta(hours=hours)
+        return f'{attr}="{dt.strftime("%Y%m%d%H%M%S")}{rest}"'
+    return _ts_attr_re.sub(rep, xml)
+
+
+def enforce_timezone_shifts(out_path, roster):
+    """Re-derive broken USA timezone-variant feeds from the East feed."""
+    groups = {}
+    for cid, (name, _icon) in roster.items():
+        m = _zone_name_re.match(name or '')
+        if not m:
+            continue
+        base = re.sub(r'\s+', ' ', m.group(1)).strip().lower()
+        groups.setdefault(base, {})[m.group(2).lower()] = cid
+
+    prog_re = re.compile(
+        r'<programme start="([^"]+)" stop="([^"]+)"[^>]*channel="([^"]+)"[^>]*>'
+        r'(.*?)</programme>', re.S)
+    title_re = re.compile(r'<title[^>]*>([^<]*)</title>')
+    text = open(out_path, encoding='utf-8').read()
+    ch_progs = {}
+    for m in prog_re.finditer(text):
+        s = parse_ts(m.group(1))
+        e = parse_ts(m.group(2))
+        tm = title_re.search(m.group(4))
+        title = tm.group(1) if tm else ''
+        if s and e:
+            ch_progs.setdefault(m.group(3), []).append((s, e, title, m.group(0)))
+
+    def is_ph(t):
+        return t.strip().lower().rstrip('.') == 'programming'
+
+    repaired = {}
+    for base, zones in groups.items():
+        if 'east' not in zones:
+            continue
+        east_cid = zones['east']
+        east_all = ch_progs.get(east_cid, [])
+        east_real = [(s, t) for s, _e, t, _x in east_all if not is_ph(t)]
+        if len(east_real) < TZ_SHIFT_MIN_EAST:
+            continue
+        east_max_stop = max(e for _s, e, _t, _x in east_all)
+        for zone, off in TZ_SHIFT_OFFSETS.items():
+            if zone not in zones or zone == 'east':
+                continue
+            var_cid = zones[zone]
+            var_set = {(t, s) for s, _e, t, _x in ch_progs.get(var_cid, [])}
+            delta = timedelta(hours=off)
+            match = sum(1 for s, t in east_real if (t, s + delta) in var_set)
+            if match / len(east_real) >= TZ_SHIFT_MIN_RATIO:
+                continue
+            new_xml = []
+            for s, e, t, x in east_all:
+                nx = _shift_prog_xml(x, off).replace(
+                    f'channel="{east_cid}"', f'channel="{var_cid}"', 1)
+                new_xml.append(nx)
+            # keep variant programmes that extend past the east window so no
+            # coverage is ever lost by the re-derivation
+            horizon = east_max_stop + delta
+            for s, e, t, x in ch_progs.get(var_cid, []):
+                if s >= horizon:
+                    new_xml.append(x)
+            repaired[var_cid] = new_xml
+            log(f"tz-shift: {zones[zone]} re-derived from {east_cid} "
+                f"({off}h, match was {match}/{len(east_real)})")
+
+    if not repaired:
+        return {'groups': len(groups), 'repaired': 0, 'programmes_rederived': 0}
+
+    tv_close = text.rfind('</tv>')
+    body, tail = text[:tv_close], text[tv_close:]
+    tmp = out_path + '.tzfix'
+    with open(tmp, 'w', encoding='utf-8') as fout:
+        last = 0
+        for m in prog_re.finditer(body):
+            if m.group(3) in repaired:
+                fout.write(body[last:m.start()])
+                last = m.end()
+        fout.write(body[last:])
+        for xmls in repaired.values():
+            for x in xmls:
+                fout.write(x + '\n')
+        fout.write(tail)
+    os.replace(tmp, out_path)
+    return {'groups': len(groups), 'repaired': len(repaired),
+            'programmes_rederived': sum(len(v) for v in repaired.values())}
+
+
+
 def ensure_icons(out_path, roster):
     """Idempotent icon ensure from logos247_results.json.
 
@@ -845,6 +956,13 @@ def main(argv):
         counters = build_output(PREV_BUILD, out_path, roster, order, classes,
                                 min_start_247, verified_fresh, service_progs, anchor)
         report['stages']['build'] = counters
+
+        # 5b. enforce Chris's USA timezone-shift rule (east base; west -3h,
+        # mountain -2h, central -1h, alaska -4h, hawaii -6h)
+        tzc = enforce_timezone_shifts(out_path, roster)
+        report['stages']['tz_shifts'] = tzc
+        log(f"tz-shifts: {tzc['repaired']} variant feeds re-derived "
+            f"across {tzc['groups']} east/west groups")
 
         # 6. idempotent icon ensure
         filled = ensure_icons(out_path, roster)
