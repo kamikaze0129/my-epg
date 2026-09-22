@@ -1,0 +1,48 @@
+{
+ "_meta": {
+  "week": 3,
+  "season": 2026,
+  "valid_until_utc": "2026-09-28T04:00:00+00:00",
+  "source": "ESPN schedule via live browser 2026-09-21",
+  "note": "13 Sunday-afternoon games -> 13 Sunday Ticket channels 705-717. Channel->game order is best-effort."
+ },
+ "epg-usa-nfl-sunday-705-detroit-lions-vs-buffalo-bills-08-15-pm-edt-81cba79d": [
+  "  <programme start=\"20260927170000 +0000\" stop=\"20260927201500 +0000\" channel=\"epg-usa-nfl-sunday-705-detroit-lions-vs-buffalo-bills-08-15-pm-edt-81cba79d\">\n    <title>NFL Football: Los Angeles Chargers at Buffalo Bills</title>\n    <desc>Week 3. Sunday Ticket. Kickoff 1:00 PM ET on FOX. Highmark Stadium, Orchard Park, NY.</desc>\n    <category>Sports</category>\n  </programme>\n"
+ ],
+ "m3u-usa-nfl-sunday-706-detroit-lions-vs-buffalo-bills-0815-pm-ed": [
+  "  <programme start=\"20260927170000 +0000\" stop=\"20260927201500 +0000\" channel=\"m3u-usa-nfl-sunday-706-detroit-lions-vs-buffalo-bills-0815-pm-ed\">\n    <title>NFL Football: Carolina Panthers at Cleveland Browns</title>\n    <desc>Week 3. Sunday Ticket. Kickoff 1:00 PM ET on FOX. Huntington Bank Field, Cleveland, OH.</desc>\n    <category>Sports</category>\n  </programme>\n"
+ ],
+ "m3u-usa-nfl-sunday-707-detroit-lions-vs-buffalo-bills-0815-pm-ed": [
+  "  <programme start=\"20260927170000 +0000\" stop=\"20260927201500 +0000\" channel=\"m3u-usa-nfl-sunday-707-detroit-lions-vs-buffalo-bills-0815-pm-ed\">\n    <title>NFL Football: New York Jets at Detroit Lions</title>\n    <desc>Week 3. Sunday Ticket. Kickoff 1:00 PM ET on FOX. Ford Field, Detroit, MI.</desc>\n    <category>Sports</category>\n  </programme>\n"
+ ],
+ "m3u-usa-nfl-sunday-708": [
+  "  <programme start=\"20260927170000 +0000\" stop=\"20260927201500 +0000\" channel=\"m3u-usa-nfl-sunday-708\">\n    <title>NFL Football: Houston Texans at Indianapolis Colts</title>\n    <desc>Week 3. Sunday Ticket. Kickoff 1:00 PM ET on CBS. Lucas Oil Stadium, Indianapolis, IN.</desc>\n    <category>Sports</category>\n  </programme>\n"
+ ],
+ "m3u-usa-nfl-sunday-709": [
+  "  <programme start=\"20260927170000 +0000\" stop=\"20260927201500 +0000\" channel=\"m3u-usa-nfl-sunday-709\">\n    <title>NFL Football: Kansas City Chiefs at Miami Dolphins</title>\n    <desc>Week 3. Sunday Ticket. Kickoff 1:00 PM ET on CBS. Hard Rock Stadium, Miami Gardens, FL.</desc>\n    <category>Sports</category>\n  </programme>\n"
+ ],
+ "m3u-usa-nfl-sunday-710": [
+  "  <programme start=\"20260927170000 +0000\" stop=\"20260927201500 +0000\" channel=\"m3u-usa-nfl-sunday-710\">\n    <title>NFL Football: Tennessee Titans at New York Giants</title>\n    <desc>Week 3. Sunday Ticket. Kickoff 1:00 PM ET on CBS. MetLife Stadium, East Rutherford, NJ.</desc>\n    <category>Sports</category>\n  </programme>\n"
+ ],
+ "m3u-usa-nfl-sunday-711": [
+  "  <programme start=\"20260927170000 +0000\" stop=\"20260927201500 +0000\" channel=\"m3u-usa-nfl-sunday-711\">\n    <title>NFL Football: Cincinnati Bengals at Pittsburgh Steelers</title>\n    <desc>Week 3. Sunday Ticket. Kickoff 1:00 PM ET on CBS. Acrisure Stadium, Pittsburgh, PA.</desc>\n    <category>Sports</category>\n  </programme>\n"
+ ],
+ "m3u-usa-nfl-sunday-712": [
+  "  <programme start=\"20260927170000 +0000\" stop=\"20260927201500 +0000\" channel=\"m3u-usa-nfl-sunday-712\">\n    <title>NFL Football: Seattle Seahawks at Washington Commanders</title>\n    <desc>Week 3. Sunday Ticket. Kickoff 1:00 PM ET on FOX. Northwest Stadium, Landover, MD.</desc>\n    <category>Sports</category>\n  </programme>\n"
+ ],
+ "m3u-usa-nfl-sunday-713": [
+  "  <programme start=\"20260927170000 +0000\" stop=\"20260927201500 +0000\" channel=\"m3u-usa-nfl-sunday-713\">\n    <title>NFL Football: New England Patriots at Jacksonville Jaguars</title>\n    <desc>Week 3. Sunday Ticket. Kickoff 1:00 PM ET on CBS. EverBank Stadium, Jacksonville, FL.</desc>\n    <category>Sports</category>\n  </programme>\n"
+ ],
+ "m3u-usa-nfl-sunday-714": [
+  "  <programme start=\"20260927200500 +0000\" stop=\"20260927232000 +0000\" channel=\"m3u-usa-nfl-sunday-714\">\n    <title>NFL Football: Arizona Cardinals at San Francisco 49ers</title>\n    <desc>Week 3. Sunday Ticket. Kickoff 4:05 PM ET on FOX. Levi's Stadium, Santa Clara, CA.</desc>\n    <category>Sports</category>\n  </programme>\n"
+ ],
+ "m3u-usa-nfl-sunday-715": [
+  "  <programme start=\"20260927200500 +0000\" stop=\"20260927232000 +0000\" channel=\"m3u-usa-nfl-sunday-715\">\n    <title>NFL Football: Minnesota Vikings at Tampa Bay Buccaneers</title>\n    <desc>Week 3. Sunday Ticket. Kickoff 4:05 PM ET on FOX. Raymond James Stadium, Tampa, FL.</desc>\n    <category>Sports</category>\n  </programme>\n"
+ ],
+ "m3u-usa-nfl-sunday-716": [
+  "  <programme start=\"20260927202500 +0000\" stop=\"20260927234000 +0000\" channel=\"m3u-usa-nfl-sunday-716\">\n    <title>NFL Football: Baltimore Ravens vs Dallas Cowboys (NFL International Series)</title>\n    <desc>Week 3. Sunday Ticket. Kickoff 4:25 PM ET on CBS. Maracana Stadium, Rio de Janeiro, Brazil.</desc>\n    <category>Sports</category>\n  </programme>\n"
+ ],
+ "m3u-usa-nfl-sunday-717": [
+  "  <programme start=\"20260927202500 +0000\" stop=\"20260927234000 +0000\" channel=\"m3u-usa-nfl-sunday-717\">\n    <title>NFL Football: Las Vegas Raiders at New Orleans Saints</title>\n    <desc>Week 3. Sunday Ticket. Kickoff 4:25 PM ET on CBS. Caesars Superdome, New Orleans, LA.</desc>\n    <category>Sports</category>\n  </programme>\n"
+ ]
+}

@@ -89,6 +89,15 @@ FEED_URL = 'https://epg.pw/xmltv/epg_{cc}.xml.gz'
 EPGSHARE_URL = 'https://epgshare01.online/epgshare01/epg_ripper_{code}.xml.gz'
 EPGSHARE_MATCHES = os.path.join(PUBFEED_DIR, 'epgshare_matches.json')
 
+# NFL Sunday Ticket guide (manual schedule injection).
+# nfl_sunday_ticket.json holds {channel_id: [programme XML strings]} built
+# from ESPN's published schedule via the live browser. Games are one-off
+# events, so the file carries valid_until_utc and the stage skips itself
+# once the games have ended. Channel->game order is best-effort: the
+# provider assigns games to its 705-717 numbers opaquely, and channels
+# 705-707 bake the matchup into their IDs (they rename weekly).
+NFL_SCHEDULE = os.path.join(BUILD_DIR, 'nfl_sunday_ticket.json')
+
 # Known-good build this pipeline reproduces.
 KNOWN_CHANNELS = 10940
 KNOWN_PROGRAMMES = 561796
@@ -943,6 +952,28 @@ def main(argv):
             'fresh_programmes': sum(len(v) for v in es_fresh.values()),
             'skipped_lt5': len(es_skipped),
             'feeds_ok': len(es_paths), 'feeds_wanted': len(es_codes)}
+
+        # 3d. NFL Sunday Ticket schedule injection (best-effort; never aborts).
+        # One-off game entries from nfl_sunday_ticket.json. Skips itself once
+        # valid_until_utc has passed. Only fills channels with no real future
+        # data -- never overwrites existing listings.
+        nfl_injected = 0
+        try:
+            if os.path.isfile(NFL_SCHEDULE):
+                nfl_raw = json.load(open(NFL_SCHEDULE))
+                valid_until = nfl_raw.get('_meta', {}).get('valid_until_utc', '')
+                if valid_until and datetime.now(timezone.utc).isoformat() < valid_until:
+                    for tcid, plist in nfl_raw.items():
+                        if tcid.startswith('_') or tcid not in roster:
+                            continue
+                        if tcid not in verified_fresh:
+                            verified_fresh[tcid] = plist
+                            nfl_injected += 1
+                else:
+                    log("nfl: schedule expired, skipping")
+        except Exception as e:
+            log(f"nfl: injection failed ({e}); continuing")
+        report['stages']['nfl'] = {'injected_channels': nfl_injected}
 
         # 4. optional provider XML hook for regular channels
         service_progs = load_service_xml(service_xml) if service_xml else {}
