@@ -6,7 +6,14 @@
 # and published as a dated release (asset always named epg.xml, so the
 # TiviMate URL https://github.com/kamikaze0129/my-epg/releases/latest/download/epg.xml
 # never changes). Release creation uses the automatic GITHUB_TOKEN — no PAT,
-# no vault, no secrets of any kind.
+# no vault involved.
+#
+# Provider EPG: before the rebuild, epg/pull_provider_epg.py pulls a fresh
+# 7-day guide from the provider's per-stream API using the IPTV_HOST /
+# IPTV_USER / IPTV_PASS repository secrets and writes
+# provider_epg_fresh.xml. The rebuild consumes it via EPG_SERVICE_XML. If the
+# pull fails (or the secrets are absent), the build continues on carried
+# data — the release never breaks because of the provider step.
 #
 # Known limitation (accepted by repo owner): without a provider XMLTV file,
 # regular non-public-feed schedules are carried forward from the previous
@@ -46,10 +53,27 @@ jobs:
           head -c 200 prev_epg.xml | grep -q '<tv' || { echo "downloaded file is not XMLTV"; exit 1; }
           echo "previous build downloaded OK"
 
+      - name: Pull provider EPG
+        env:
+          IPTV_HOST: ${{ secrets.IPTV_HOST }}
+          IPTV_USER: ${{ secrets.IPTV_USER }}
+          IPTV_PASS: ${{ secrets.IPTV_PASS }}
+          PROVIDER_PULL_BUDGET_S: '12600'
+        run: |
+          # The schedule is Sunday-only; the day check keeps manual dispatches
+          # on other days from triggering a multi-hour pull.
+          if [ "$(date -u +%u)" = "7" ]; then
+            python3 epg/pull_provider_epg.py --out "$GITHUB_WORKSPACE/provider_epg_fresh.xml" || true
+            ls -la "$GITHUB_WORKSPACE/provider_epg_fresh.xml" || echo "provider pull produced no file"
+          else
+            echo "not Sunday; skipping provider pull"
+          fi
+
       - name: Weekly rebuild
         env:
           EPG_PREV_BUILD: ${{ github.workspace }}/prev_epg.xml
           EPG_RUNS_DIR: ${{ github.workspace }}/run_out
+          EPG_SERVICE_XML: ${{ github.workspace }}/provider_epg_fresh.xml
         run: |
           mkdir -p run_out
           python3 epg/weekly_build.py --no-promote --out "$GITHUB_WORKSPACE/epg_new.xml"
@@ -80,4 +104,4 @@ jobs:
           cp "$GITHUB_WORKSPACE/epg_new.xml" "$GITHUB_WORKSPACE/epg.xml"
           gh release create "$TAG" "$GITHUB_WORKSPACE/epg.xml" "$GITHUB_WORKSPACE/epg_247.xml" \
             --title "$TITLE" \
-            --notes "Daily automated EPG rebuild. Main guide: https://github.com/kamikaze0129/my-epg/releases/latest/download/epg.xml | 24/7 marathon guide: https://github.com/kamikaze0129/my-epg/releases/latest/download/epg_247.xml"
+            --notes "Weekly automated EPG rebuild. Main guide: https://github.com/kamikaze0129/my-epg/releases/latest/download/epg.xml | 24/7 marathon guide: https://github.com/kamikaze0129/my-epg/releases/latest/download/epg_247.xml"
