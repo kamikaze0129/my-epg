@@ -895,6 +895,7 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
          'placeholder_written': 0, 'fresh_appended': 0, 'service_appended': 0}
     roster_ids = set(roster)
     reg_max_stop = {}  # cid -> latest programme stop (regular class only)
+    reg_min_start = {}  # cid -> earliest programme start (for leading-gap fill)
     fossil_cutoff = anchor - timedelta(hours=6)
     # Programme clones (Alaska/Hawaii playlist aliases): source_id ->
     # [target_ids]. Clone copies are written wherever the source's
@@ -960,6 +961,7 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                     for _t in clone_targets.get(cid, ()):
                         fout.write(serialize_programme(elem, channel=_t))
                     c['carried'] += 1
+                    start_ts = parse_ts(elem.get('start') or '')
                     if stop and (cid not in reg_max_stop
                                  or stop > reg_max_stop[cid]):
                         reg_max_stop[cid] = stop
@@ -967,6 +969,13 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                             if (_t not in reg_max_stop
                                     or stop > reg_max_stop[_t]):
                                 reg_max_stop[_t] = stop
+                    if start_ts and (cid not in reg_min_start
+                                     or start_ts < reg_min_start[cid]):
+                        reg_min_start[cid] = start_ts
+                        for _t in clone_targets.get(cid, ()):
+                            if (_t not in reg_min_start
+                                    or start_ts < reg_min_start[_t]):
+                                reg_min_start[_t] = start_ts
             elem.clear()
         # Freshness: a channel counts as covered only if some programme
         # extends past anchor+12h (this mirrors the validation gate). The
@@ -979,7 +988,9 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
         horizon = anchor + timedelta(hours=12)
         epoch = datetime.min.replace(tzinfo=timezone.utc)
         fresh_max_stop = {}
+        fresh_min_start = {}
         stop_re = re.compile(r'stop="(\d{14})')
+        start_re = re.compile(r'start="(\d{14})')
         for src in (verified_fresh, service_progs):
             for fcid, plist in src.items():
                 for p in plist:
@@ -989,11 +1000,20 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                         if st and (fcid not in fresh_max_stop
                                    or st > fresh_max_stop[fcid]):
                             fresh_max_stop[fcid] = st
-        # Clone targets inherit their source's latest stop so the rolling
-        # placeholder loop below never overlaps cloned real listings.
+                    m2 = start_re.search(p)
+                    if m2:
+                        st2 = parse_ts(m2.group(1))
+                        if st2 and (fcid not in fresh_min_start
+                                    or st2 < fresh_min_start[fcid]):
+                            fresh_min_start[fcid] = st2
+        # Clone targets inherit their source's latest stop and earliest start
+        # so the rolling placeholder loop below never overlaps cloned real
+        # listings and fills leading gaps correctly.
         for _tid, _sid in CLONE_SOURCES.items():
             if _tid in roster_ids and _sid in fresh_max_stop:
                 fresh_max_stop[_tid] = fresh_max_stop[_sid]
+            if _tid in roster_ids and _sid in fresh_min_start:
+                fresh_min_start[_tid] = fresh_min_start[_sid]
         for cid in order:
             if classes.get(cid) not in ('placeholder', 'regular'):
                 continue
@@ -1001,10 +1021,25 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
             fs = fresh_max_stop.get(cid)
             if fs and fs > latest:
                 latest = fs
+            # Leading gap: if the first programme starts after anchor, fill
+            # from anchor to that start so there's no "No information" gap.
+            first = reg_min_start.get(cid)
+            ffs = fresh_min_start.get(cid)
+            if ffs and (first is None or ffs < first):
+                first = ffs
+            if first and first > anchor:
+                fout.write(serialize_fresh_prog(fmt_ts(anchor),
+                                               fmt_ts(first),
+                                               cid, PLACEHOLDER_TITLE,
+                                               PLACEHOLDER_DESC))
+                c['placeholder_written'] += 1
             if latest <= horizon:
                 start = max(anchor, latest) if latest > epoch else anchor
-                fout.write(rolling_placeholder(cid, start))
-                c['placeholder_written'] += 1
+                # Don't double-write if we already filled a leading gap that
+                # extends past latest (shouldn't happen, but be safe).
+                if not (first and first > anchor and start < first):
+                    fout.write(rolling_placeholder(cid, start))
+                    c['placeholder_written'] += 1
         for tid in sorted(verified_fresh):
             for p in verified_fresh[tid]:
                 fout.write(p)
