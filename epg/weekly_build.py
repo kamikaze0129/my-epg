@@ -60,6 +60,16 @@ from datetime import datetime, timezone, timedelta
 from xml.etree.ElementTree import iterparse
 from xml.sax.saxutils import escape
 
+# Strip characters illegal in XML 1.0 (control chars except tab/newline/CR).
+# Provider feeds occasionally contain these in titles/descs; they would make
+# the rebuilt output not well-formed and trip the fatal XML validation gate.
+_ILLEGAL_XML_RE = re.compile(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]')
+
+
+def _sanitize_xml_text(s):
+    """Remove illegal XML 1.0 chars so reconstructed programme XML stays well-formed."""
+    return _ILLEGAL_XML_RE.sub('', s) if s else s
+
 # ---------------------------------------------------------------- config
 BUILD_DIR = os.path.dirname(os.path.abspath(__file__))
 PREV_BUILD = os.path.expanduser('~/workspace/your_files/epg.xml')
@@ -872,10 +882,10 @@ def load_service_xml(path):
             continue
         tm = re.search(r'<title[^>]*>(.*?)</title>', inner, re.S)
         dm = re.search(r'<desc[^>]*>(.*?)</desc>', inner, re.S)
-        title = (tm.group(1).strip() if tm else '')
+        title = _sanitize_xml_text(tm.group(1).strip() if tm else '')
         if not title:
             continue
-        desc = dm.group(1).strip() if dm else ''
+        desc = _sanitize_xml_text(dm.group(1).strip() if dm else '')
         ts = ''
         for k in ('start_timestamp', 'stop_timestamp'):
             mm = re.search(k + r'="([^"]*)"', attrs)

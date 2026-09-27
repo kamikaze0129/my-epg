@@ -1,0 +1,132 @@
+{
+ "run_ts_utc": "20260927-220030",
+ "workdir": "/home/hatch/workspace/epg_actions/epg/work/20260927-220030",
+ "no_promote": true,
+ "stages": {
+  "feeds": {
+   "verified_targets": 631,
+   "refreshed": 629,
+   "fresh_programmes": 34165,
+   "skipped_lt5": [
+    [
+     "etvplus.in",
+     4
+    ],
+    [
+     "geminimovieshd.in",
+     3
+    ]
+   ]
+  },
+  "epgshare": {
+   "targets": 859,
+   "refreshed": 783,
+   "fresh_programmes": 75687,
+   "skipped_lt5": 76,
+   "feeds_ok": 46,
+   "feeds_wanted": 46
+  },
+  "epgtalk": {
+   "targets": 1007,
+   "refreshed": 1007,
+   "fresh_programmes": 172584,
+   "skipped_lt5": 0,
+   "feeds_ok": 3,
+   "feeds_wanted": 3
+  },
+  "vcicio": {
+   "targets": 1655,
+   "refreshed": 1655,
+   "fresh_programmes": 122291,
+   "skipped_lt5": 0,
+   "won_longest_span": 1620,
+   "incumbent_kept_longer": 35,
+   "placeholder_rejected": 0
+  },
+  "iptv_epg_org": {
+   "targets": 23,
+   "refreshed": 23,
+   "fresh_programmes": 3655,
+   "skipped_lt5": 0
+  },
+  "sky_de": {
+   "targets": 6,
+   "refreshed": 6,
+   "fresh_programmes": 429,
+   "skipped_lt5": 0
+  },
+  "sky_uk": {
+   "targets": 2,
+   "refreshed": 2,
+   "fresh_programmes": 1082,
+   "skipped_lt5": 0
+  },
+  "iptvtalk": {
+   "targets": 2,
+   "refreshed": 2,
+   "fresh_programmes": 499,
+   "skipped_lt5": 0
+  },
+  "tvguide": {
+   "targets": 11,
+   "refreshed": 0,
+   "fresh_programmes": 0,
+   "skipped": 0
+  },
+  "events": {
+   "channels": 0,
+   "programmes": 0
+  },
+  "nfl": {
+   "injected_channels": 13,
+   "renamed": 3
+  },
+  "build": {
+   "channels": 10952,
+   "dropped_verified": 183748,
+   "dropped_service": 0,
+   "shifted_247": 206352,
+   "carried": 0,
+   "orphans_dropped": 1,
+   "dropped_placeholder": 4707,
+   "dropped_fossil": 166579,
+   "placeholder_written": 4797,
+   "fresh_appended": 319464,
+   "service_appended": 0
+  },
+  "tz_shifts": {
+   "groups": 62,
+   "repaired": 20,
+   "programmes_rederived": 1980
+  },
+  "fix_247_aliases": {
+   "pairs": 273,
+   "icons_fixed": 273,
+   "programmes_copied": 23820
+  },
+  "icons_filled": 0,
+  "validation": {
+   "channels": 10952,
+   "programmes": 556330,
+   "icons": 10621,
+   "dup_channel_ids": 0,
+   "orphans": 0,
+   "missing_title_time": 0,
+   "invalid_duration": 0,
+   "unparseable_time": 0,
+   "stale_channels": 0,
+   "logos247_missing_ids": 0,
+   "failures": []
+  },
+  "freshness": {
+   "programmes_total": 556330,
+   "programmes_starting_within_window": 556300,
+   "fresh_pct": 99.99,
+   "as_of_utc": "2026-09-27 22:05:47"
+  }
+ },
+ "icon_losers": [
+  "epg-24-7-hunted-e77b2975"
+ ],
+ "result": "OK"
+}
