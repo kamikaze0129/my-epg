@@ -72,9 +72,11 @@ def _sanitize_xml_text(s):
 
 # ---------------------------------------------------------------- config
 BUILD_DIR = os.path.dirname(os.path.abspath(__file__))
-PREV_BUILD = os.path.expanduser('~/workspace/your_files/epg.xml')
+# CI override: EPG_PREV_BUILD env var (set by GitHub Actions workflow)
+PREV_BUILD = os.environ.get('EPG_PREV_BUILD') or os.path.expanduser('~/workspace/your_files/epg.xml')
 PUBFEED_DIR = os.path.join(BUILD_DIR, 'pubfeed')
-HIDDEN_RUNS = os.path.join(BUILD_DIR, 'hidden_runs')
+# CI override: EPG_RUNS_DIR env var (set by GitHub Actions workflow)
+HIDDEN_RUNS = os.environ.get('EPG_RUNS_DIR') or os.path.join(BUILD_DIR, 'hidden_runs')
 BACKUP_DIR = os.path.join(HIDDEN_RUNS, 'backups')
 LOGOS247 = os.path.join(BUILD_DIR, 'logos247_results.json')
 
