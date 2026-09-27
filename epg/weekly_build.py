@@ -163,6 +163,13 @@ ROSTER_ADDITIONS = {  # target_id: display_name (icon filled by icon stages)
     'stream-648359': 'USA ABC4 KITV Honolulu',
 }
 
+# Display-name disambiguation for channels that share a name with another
+# channel in Chris's playlist (2026-09-27). Applied after the roster is built.
+DISPLAY_NAME_OVERRIDES = {
+    'ctv2ottawa.ca': 'CA CTV 2 (Ottawa)',  # was "CA CTV 2 (London)", dup of ctv2london.ca
+    'msgsnplus2.us': 'USA MSG Sportsnet Plus 2 HD',  # was "USA MSG 2 PLUS HD", dup of msg2.us
+}
+
 # Programme clones: target_id -> source_id. The target is a playlist alias of
 # the same station and inherits the source's programmes verbatim. Sources are
 # previous-build channels whose timestamps are already in local air time
@@ -293,6 +300,9 @@ def shift_ts_str(s, delta):
 
 # ---------------------------------------------------------------- serializers
 def serialize_channel(cid, name, icon):
+    # Apply display-name disambiguation overrides (e.g. duplicate channel names
+    # in Chris's playlist).
+    name = DISPLAY_NAME_OVERRIDES.get(cid, name)
     out = [f'  <channel id="{esc_q(cid)}">\n',
            f'    <display-name>{escape(name or "")}</display-name>\n']
     if icon:
