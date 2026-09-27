@@ -1,0 +1,111 @@
+[
+ {
+  "stream_id": 182083,
+  "stream_name": "CA SPORTSNET_PPV",
+  "ppv_number": null,
+  "epg_channel_id": null,
+  "duration_min_estimated": 240,
+  "status": "blank",
+  "missing_from_epg": true
+ },
+ {
+  "stream_id": 1321694,
+  "stream_name": "USA PPV04:",
+  "ppv_number": 4,
+  "epg_channel_id": "m3u-usa-ppv04-williams-grove-speedway-0700-pm-edt",
+  "duration_min_estimated": 240,
+  "status": "blank"
+ },
+ {
+  "stream_id": 1321695,
+  "stream_name": "USA PPV05:",
+  "ppv_number": 5,
+  "epg_channel_id": "m3u-usa-ppv05-stockton-dirt-track-0915-pm-edt",
+  "duration_min_estimated": 240,
+  "status": "blank"
+ },
+ {
+  "stream_id": 1321727,
+  "stream_name": "USA PPV02:",
+  "ppv_number": 2,
+  "epg_channel_id": "m3u-usa-ppv02-land-of-legends-raceway-0600-pm-edt",
+  "duration_min_estimated": 240,
+  "status": "blank"
+ },
+ {
+  "stream_id": 2583439,
+  "stream_name": "USA PPV06:",
+  "ppv_number": 6,
+  "epg_channel_id": "m3u-usa-ppv06-heartland-modified-tour-lakeside-speedway-91826-08",
+  "duration_min_estimated": 240,
+  "status": "blank"
+ },
+ {
+  "stream_id": 2583440,
+  "stream_name": "USA PPV07:",
+  "ppv_number": 7,
+  "epg_channel_id": "m3u-usa-ppv07",
+  "duration_min_estimated": 240,
+  "status": "blank"
+ },
+ {
+  "stream_id": 2583441,
+  "stream_name": "USA PPV09: Vado Speedway Park 9/19/26 @ 09:00 PM EDT",
+  "ppv_number": 9,
+  "epg_channel_id": "m3u-usa-ppv09",
+  "duration_min_estimated": 240,
+  "status": "past",
+  "event_title": "Vado Speedway Park",
+  "start_utc": "20260920010000 +0000",
+  "tz_label": "EDT"
+ },
+ {
+  "stream_id": 2583442,
+  "stream_name": "USA PPV08:",
+  "ppv_number": 8,
+  "epg_channel_id": "m3u-usa-ppv08",
+  "duration_min_estimated": 240,
+  "status": "blank"
+ },
+ {
+  "stream_id": 2601762,
+  "stream_name": "USA PPV10: Heartland Modified Tour 81 Speedway 9/19/26 @ 08:00 PM EDT",
+  "ppv_number": 10,
+  "epg_channel_id": "m3u-usa-ppv10",
+  "duration_min_estimated": 240,
+  "status": "past",
+  "event_title": "Heartland Modified Tour 81 Speedway",
+  "start_utc": "20260920000000 +0000",
+  "tz_label": "EDT"
+ },
+ {
+  "stream_id": 2618431,
+  "stream_name": "USA PPV11: Smack Fighting Championship: Zach Pannell vs Kimbo Slice Jr (fite tv) @ 07:00 PM EDT",
+  "ppv_number": 11,
+  "epg_channel_id": null,
+  "duration_min_estimated": 240,
+  "status": "dateless",
+  "event_title": "Smack Fighting Championship: Zach Pannell vs Kimbo Slice Jr (fite tv)",
+  "time_hint": "Smack Fighting Championship: Zach Pannell vs Kimbo Slice Jr (fite tv) @ 07:00 PM EDT",
+  "missing_from_epg": true
+ },
+ {
+  "stream_id": 2910024,
+  "stream_name": "USA PPV01: USMTS Featherlite Fall Jamboree Deer Creek Speedway 9/24/26 @ 08:00 PM EDT",
+  "ppv_number": 1,
+  "epg_channel_id": "m3u-usa-ppv01-wwe-smackdown-0800-pm-edt",
+  "duration_min_estimated": 240,
+  "status": "future",
+  "event_title": "USMTS Featherlite Fall Jamboree Deer Creek Speedway",
+  "start_utc": "20260925000000 +0000",
+  "tz_label": "EDT"
+ },
+ {
+  "stream_id": 2915231,
+  "stream_name": "USA PPV03:",
+  "ppv_number": 3,
+  "epg_channel_id": "m3u-usa-ppv03-cedar-lake-speedway-0615-pm-edt",
+  "duration_min_estimated": 240,
+  "status": "blank"
+ }
+]

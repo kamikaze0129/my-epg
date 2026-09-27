@@ -119,15 +119,6 @@
   "desc": "24/7 channel title derived from channel name."
  },
  {
-  "id": "epg-24-7-hunted-e77b2975",
-  "names": [
-   "24/7 Hunted"
-  ],
-  "block_mins": 60,
-  "title": "Hunted",
-  "desc": "24/7 channel title derived from channel name."
- },
- {
   "id": "epg-24-7-listeners-65913583",
   "names": [
    "24/7 Listeners"

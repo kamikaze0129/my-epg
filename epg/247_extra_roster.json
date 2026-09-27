@@ -1,0 +1,1252 @@
+[
+ {
+  "id": "m3u-247-7seeds",
+  "names": [
+   "24/7 7Seeds"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-aeon-flux",
+  "names": [
+   "24/7 Aeon Flux"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-akame-ga-kill",
+  "names": [
+   "24/7 Akame ga Kill"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-alphablocks",
+  "names": [
+   "24/7 Alphablocks"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-arthur",
+  "names": [
+   "24/7 Arthur"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-assassination-classroom",
+  "names": [
+   "24/7 Assassination Classroom"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-attack-on-titan",
+  "names": [
+   "24/7 Attack On Titan"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-baby-looney-tunes",
+  "names": [
+   "24/7 Baby Looney Tunes"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-ben-and-hollys-little-kingdom",
+  "names": [
+   "24/7 Ben And Hollys Little Kingdom"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-black-butler",
+  "names": [
+   "24/7 Black Butler"
+  ],
+  "icon": "https://i.ibb.co/6Ph42yv/kuroshitsuji-5f8334b1d3ec1.png",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-black-clover",
+  "names": [
+   "24/7 Black Clover"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-bleach",
+  "names": [
+   "24/7 Bleach"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-blood-lad",
+  "names": [
+   "24/7 Blood Lad"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-blue-exorcist",
+  "names": [
+   "24/7 Blue Exorcist"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-blues-clues",
+  "names": [
+   "24/7 Blues Clues"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-blues-clues-and-you",
+  "names": [
+   "24/7 Blues Clues And You"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-bluey",
+  "names": [
+   "24/7 Bluey"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-bubble-guppies",
+  "names": [
+   "24/7 Bubble Guppies"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-care-bears-welcome-to-care-a-lot",
+  "names": [
+   "24/7 Care Bears Welcome To Care-A-Lot"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-challenge-of-the-gobots",
+  "names": [
+   "24/7 Challenge of the GoBots"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-chuggington",
+  "names": [
+   "24/7 Chuggington"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-clifford-the-big-red-dog",
+  "names": [
+   "24/7 Clifford The Big Red Dog"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-cliffords-puppy-days",
+  "names": [
+   "24/7 Cliffords Puppy Days"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-cocomelon",
+  "names": [
+   "24/7 CoComelon"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-code-geass-lelouch-of-the-rebellion",
+  "names": [
+   "24/7 Code Geass Lelouch of the Rebellion"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-cowboy-bebop",
+  "names": [
+   "24/7 Cowboy Bebop"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-curious-george",
+  "names": [
+   "24/7 Curious George"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-d-gray-man",
+  "names": [
+   "24/7 D Gray Man"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-date-a-live",
+  "names": [
+   "24/7 Date A Live"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-davey-and-goliath",
+  "names": [
+   "24/7 Davey And Goliath"
+  ],
+  "icon": null,
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-death-note",
+  "names": [
+   "24/7 Death Note"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-demon-slayer",
+  "names": [
+   "24/7 Demon Slayer"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-doc-mcstuffins",
+  "names": [
+   "24/7 Doc Mcstuffins"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-dragon-ball",
+  "names": [
+   "24/7 Dragon Ball"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-dragon-ball-gt",
+  "names": [
+   "24/7 Dragon Ball Gt"
+  ],
+  "icon": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Dragon_Ball_GT_logo.png",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-dragon-ball-kai",
+  "names": [
+   "24/7 Dragon Ball Kai"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-dragon-ball-super",
+  "names": [
+   "24/7 Dragon Ball Super"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-durarara",
+  "names": [
+   "24/7 Durarara!!"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-elfen-lied",
+  "names": [
+   "24/7 Elfen Lied"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-fate-zero",
+  "names": [
+   "24/7 Fate Zero"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-fighting-spirit",
+  "names": [
+   "24/7 Fighting Spirit"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-flcl-cartoon",
+  "names": [
+   "24/7 FLCL Cartoon"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-franklin",
+  "names": [
+   "24/7 Franklin"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-fruits-basket",
+  "names": [
+   "24/7 Fruits Basket"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-fullmetal-alchemist",
+  "names": [
+   "24/7 Fullmetal Alchemist"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-fullmetal-alchemist-brotherhood",
+  "names": [
+   "24/7 Fullmetal Alchemist Brotherhood"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-gabbys-dollhouse",
+  "names": [
+   "24/7 Gabbys Dollhouse"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-garfield-and-friends",
+  "names": [
+   "24/7 Garfield And Friends"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-gumby-adventures",
+  "names": [
+   "24/7 Gumby Adventures"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-gurren-lagann",
+  "names": [
+   "24/7 Gurren Lagann"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-hellsing-ultimate",
+  "names": [
+   "24/7 Hellsing Ultimate"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-high-school-dxd",
+  "names": [
+   "24/7 High School DxD"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-highschool-of-the-dead",
+  "names": [
+   "24/7 Highschool Of The Dead"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-hunter-x-hunter",
+  "names": [
+   "24/7 Hunter x Hunter"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-initial-d",
+  "names": [
+   "24/7 Initial D"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-inuyasha",
+  "names": [
+   "24/7 InuYasha"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon",
+  "names": [
+   "24/7 Is It Wrong to Try to Pick Up Girls in a Dungeon"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-kill-la-kill",
+  "names": [
+   "24/7 Kill La Kill"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-lazytown",
+  "names": [
+   "24/7 Lazytown"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-little-bear",
+  "names": [
+   "24/7 Little Bear"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-little-einsteins",
+  "names": [
+   "24/7 Little Einsteins"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-littlest-pet-shop",
+  "names": [
+   "24/7 Littlest Pet Shop"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-log-horizon",
+  "names": [
+   "24/7 Log Horizon"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-magi-the-labyrinth-of-magic",
+  "names": [
+   "24/7 Magi The Labyrinth of Magic"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-maid-sama",
+  "names": [
+   "24/7 Maid Sama!"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-mickey-and-the-roadster-racers",
+  "names": [
+   "24/7 Mickey And The Roadster Racers"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-mickey-mouse",
+  "names": [
+   "24/7 Mickey Mouse"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-mister-rogers-neighborhood",
+  "names": [
+   "24/7 Mister Rogers Neighborhood"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-misterjaw",
+  "names": [
+   "24/7 Misterjaw"
+  ],
+  "icon": null,
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-mobile-suit-gundam",
+  "names": [
+   "24/7 Mobile Suit Gundam"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-muppet-babies",
+  "names": [
+   "24/7 Muppet Babies"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-muppet-babies-old",
+  "names": [
+   "24/7 Muppet Babies Old"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-my-hero-academia",
+  "names": [
+   "24/7 My Hero Academia"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-naruto-shippuden",
+  "names": [
+   "24/7 Naruto Shippuden"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-neon-genesis-evangelion",
+  "names": [
+   "24/7 Neon Genesis Evangelion"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-ninja-scroll-tv",
+  "names": [
+   "24/7 Ninja Scroll TV"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-no-game-no-life",
+  "names": [
+   "24/7 No Game No Life"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-noragami",
+  "names": [
+   "24/7 Noragami"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-numberblocks",
+  "names": [
+   "24/7 Numberblocks"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-one-punch-man",
+  "names": [
+   "24/7 One Punch Man"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-ouran-high-school-host-club",
+  "names": [
+   "24/7 Ouran High School Host Club"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-parasyte-the-maxim",
+  "names": [
+   "24/7 Parasyte The Maxim"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-pee-wees-playhouse",
+  "names": [
+   "24/7 Pee Wees Playhouse"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-pound-puppies",
+  "names": [
+   "24/7 Pound Puppies"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-pound-puppies-2011",
+  "names": [
+   "24/7 Pound Puppies 2011"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-psycho-pass",
+  "names": [
+   "24/7 Psycho Pass"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-puppy-dog-pals",
+  "names": [
+   "24/7 Puppy Dog Pals"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-rosario-vampire",
+  "names": [
+   "24/7 Rosario + Vampire"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-samurai-champloo",
+  "names": [
+   "24/7 Samurai Champloo"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-seraph-of-the-end",
+  "names": [
+   "24/7 Seraph Of The End"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-sesame-street",
+  "names": [
+   "24/7 Sesame Street"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-snorks",
+  "names": [
+   "24/7 Snorks"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-snow-white-with-the-red-hair",
+  "names": [
+   "24/7 Snow White with the Red Hair"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-soul-eater",
+  "names": [
+   "24/7 Soul Eater"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-special-agent-oso",
+  "names": [
+   "24/7 Special Agent Oso"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-steins-gate",
+  "names": [
+   "24/7 Steins;Gate"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-super-why",
+  "names": [
+   "24/7 Super Why"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-superkitties",
+  "names": [
+   "24/7 SuperKitties"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-superted",
+  "names": [
+   "24/7 Superted"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-sword-art-online",
+  "names": [
+   "24/7 Sword Art Online"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-talespin",
+  "names": [
+   "24/7 Talespin"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-team-umizoomi",
+  "names": [
+   "24/7 Team Umizoomi"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-that-time-i-got-reincarnated-as-a-slime",
+  "names": [
+   "24/7 That Time I Got Reincarnated As A Slime"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-the-adventures-of-the-gummi-bears",
+  "names": [
+   "24/7 The Adventures Of The Gummi Bears"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-the-backyardigans",
+  "names": [
+   "24/7 The Backyardigans"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-the-busy-world-of-richard-scarry",
+  "names": [
+   "24/7 The Busy World Of Richard Scarry"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-the-devil-is-a-part-timer",
+  "names": [
+   "24/7 The Devil Is A Part Timer"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-the-muppet-show",
+  "names": [
+   "24/7 The Muppet Show"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-the-new-adventures-of-winnie-the-pooh",
+  "names": [
+   "24/7 The New Adventures Of Winnie The Pooh"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-the-rising-of-the-shield-hero",
+  "names": [
+   "24/7 The Rising of the Shield Hero"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-the-seven-deadly-sins",
+  "names": [
+   "24/7 The Seven Deadly Sins"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-the-wonder-pets",
+  "names": [
+   "24/7 The Wonder Pets!"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-the-world-god-only-knows",
+  "names": [
+   "24/7 The World God Only Knows"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-thomas-the-tank-engine-and-friends",
+  "names": [
+   "24/7 Thomas The Tank Engine And Friends"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-tiny-toon-adventures-1990",
+  "names": [
+   "24/7 Tiny Toon Adventures (1990)"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-tokyo-ghoul",
+  "names": [
+   "24/7 Tokyo Ghoul"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-toradora",
+  "names": [
+   "24/7 Toradora!"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-tots",
+  "names": [
+   "24/7 TOTS"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-trigun",
+  "names": [
+   "24/7 Trigun"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-trolls-the-beat-goes-on",
+  "names": [
+   "24/7 Trolls The Beat Goes On!"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-vampire-knight",
+  "names": [
+   "24/7 Vampire Knight"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-veggie-tales-in-the-house",
+  "names": [
+   "24/7 Veggie tales In The House"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-yo-gabba-gabba",
+  "names": [
+   "24/7 Yo Gabba Gabba!"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-yu-yu-hakusho",
+  "names": [
+   "24/7 Yu Yu Hakusho"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ },
+ {
+  "id": "m3u-247-zoboomafoo",
+  "names": [
+   "24/7 Zoboomafoo"
+  ],
+  "icon": "",
+  "block_mins": 10080,
+  "title": "Programming",
+  "desc": "No programme schedule was supplied for this channel in the source EPG."
+ }
+]

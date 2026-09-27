@@ -1,0 +1,101 @@
+[
+ {
+  "stream_id": 3248979,
+  "stream_name": "Fanatiz 01: Namibia vs Congo @ Sep 24 9:00AM ET",
+  "fanatiz_number": 1,
+  "epg_channel_id": null,
+  "event_title": "Namibia vs Congo",
+  "start_utc": "20260924130000 +0000",
+  "tz_assumed": "America/New_York",
+  "duration_min_estimated": 180,
+  "status": "past"
+ },
+ {
+  "stream_id": 3248980,
+  "stream_name": "Fanatiz 02: Congo DR vs Equatorial Guinea @ Sep 24 12:00PM ET",
+  "fanatiz_number": 2,
+  "epg_channel_id": null,
+  "event_title": "Congo DR vs Equatorial Guinea",
+  "start_utc": "20260924160000 +0000",
+  "tz_assumed": "America/New_York",
+  "duration_min_estimated": 180,
+  "status": "past"
+ },
+ {
+  "stream_id": 3248981,
+  "stream_name": "Fanatiz 03: Libya vs Botswana @ Sep 24 12:00PM ET",
+  "fanatiz_number": 3,
+  "epg_channel_id": null,
+  "event_title": "Libya vs Botswana",
+  "start_utc": "20260924160000 +0000",
+  "tz_assumed": "America/New_York",
+  "duration_min_estimated": 180,
+  "status": "past"
+ },
+ {
+  "stream_id": 3248982,
+  "stream_name": "Fanatiz 04: Mauritania vs Central African Republic @ Sep 24 12:00PM ET",
+  "fanatiz_number": 4,
+  "epg_channel_id": null,
+  "event_title": "Mauritania vs Central African Republic",
+  "start_utc": "20260924160000 +0000",
+  "tz_assumed": "America/New_York",
+  "duration_min_estimated": 180,
+  "status": "past"
+ },
+ {
+  "stream_id": 3248983,
+  "stream_name": "Fanatiz 05: Sierra Leone vs Zimbabwe @ Sep 24 3:00PM ET",
+  "fanatiz_number": 5,
+  "epg_channel_id": null,
+  "event_title": "Sierra Leone vs Zimbabwe",
+  "start_utc": "20260924190000 +0000",
+  "tz_assumed": "America/New_York",
+  "duration_min_estimated": 180,
+  "status": "past"
+ },
+ {
+  "stream_id": 3248984,
+  "stream_name": "Fanatiz 06: Atl\u00e9tico Tembetary vs Spvo. Ite\u00f1o @ Sep 24 3:00PM ET",
+  "fanatiz_number": 6,
+  "epg_channel_id": null,
+  "event_title": "Atl\u00e9tico Tembetary vs Spvo. Ite\u00f1o",
+  "start_utc": "20260924190000 +0000",
+  "tz_assumed": "America/New_York",
+  "duration_min_estimated": 180,
+  "status": "past"
+ },
+ {
+  "stream_id": 3248985,
+  "stream_name": "Fanatiz 07: C\u00f4te d'Ivoire vs Ghana @ Sep 24 3:00PM ET",
+  "fanatiz_number": 7,
+  "epg_channel_id": null,
+  "event_title": "C\u00f4te d'Ivoire vs Ghana",
+  "start_utc": "20260924190000 +0000",
+  "tz_assumed": "America/New_York",
+  "duration_min_estimated": 180,
+  "status": "past"
+ },
+ {
+  "stream_id": 3248986,
+  "stream_name": "Fanatiz 08: Cameroon vs Comoros @ Sep 24 3:00PM ET",
+  "fanatiz_number": 8,
+  "epg_channel_id": null,
+  "event_title": "Cameroon vs Comoros",
+  "start_utc": "20260924190000 +0000",
+  "tz_assumed": "America/New_York",
+  "duration_min_estimated": 180,
+  "status": "past"
+ },
+ {
+  "stream_id": 3248987,
+  "stream_name": "Fanatiz 09: Tunisia vs Uganda @ Sep 24 3:00PM ET",
+  "fanatiz_number": 9,
+  "epg_channel_id": null,
+  "event_title": "Tunisia vs Uganda",
+  "start_utc": "20260924190000 +0000",
+  "tz_assumed": "America/New_York",
+  "duration_min_estimated": 180,
+  "status": "past"
+ }
+]

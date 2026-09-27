@@ -14,6 +14,7 @@ Usage: python3 build_247_epg.py [--service-xml PATH] [--prod-epg PATH] [--out PA
 """
 import argparse
 import json
+import os
 import re
 import sys
 from collections import Counter
@@ -22,6 +23,70 @@ from xml.sax.saxutils import escape, quoteattr
 
 TS_FMT = "%Y%m%d%H%M%S +0000"
 JUNK_DESCS = {"programming.", "programming", "no information.", "no information", ""}
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Obsolete 24/7 channel id superseded by m3u-247-hunted; dropped from roster/output.
+OBSOLETE_247_IDS = {"epg-24-7-hunted-e77b2975"}
+# Extra roster (24/7 Toddler + 24/7 Anime streams absent from the service data),
+# shipped next to this script so CI stays self-contained.
+EXTRA_ROSTER_FILE = "247_extra_roster.json"
+# Icon layers applied at the end of the build, in order. Chris's hand-made
+# icons WIN (overwrite anything); the poster-hunt results fill gaps ONLY.
+# Both shipped next to this script so CI stays self-contained.
+CHRIS_ICON_FILE = "chris_icon_urls.json"
+POSTER_ICON_FILE = "poster_hunt_urls.json"
+
+
+def load_json_file(name):
+    """Load a JSON file shipped next to this script; {} if missing/unreadable."""
+    path = os.path.join(SCRIPT_DIR, name)
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError) as exc:
+        print(f"      WARNING: could not load {name}: {exc}", flush=True)
+        return {}
+
+
+def apply_roster_updates(manifest):
+    """Drop obsolete ids, merge the extra Toddler/Anime roster, apply icon layers."""
+    before = len(manifest)
+    manifest = [e for e in manifest if e.get("id") not in OBSOLETE_247_IDS]
+    dropped = before - len(manifest)
+    if dropped:
+        print(f"      dropped {dropped} obsolete channel id(s)", flush=True)
+
+    extra = load_json_file(EXTRA_ROSTER_FILE)
+    if isinstance(extra, dict):  # tolerate {id: entry} shape too
+        extra = list(extra.values())
+    extra = extra or []
+    have = {e["id"] for e in manifest}
+    added = 0
+    for e in extra:
+        if e.get("id") and e["id"] not in have:
+            manifest.append(e)
+            have.add(e["id"])
+            added += 1
+    print(f"      extra roster: +{added} channels (toddler/anime), "
+          f"{len(extra) - added} skipped as dupes", flush=True)
+
+    chris = load_json_file(CHRIS_ICON_FILE)
+    n_chris = 0
+    for e in manifest:
+        url = chris.get(e["id"])
+        if url:
+            e["icon"] = url  # Chris's hand-made icons WIN: overwrite anything
+            n_chris += 1
+    posters = load_json_file(POSTER_ICON_FILE)
+    n_fill = 0
+    for e in manifest:
+        if not e.get("icon") and posters.get(e["id"]):
+            e["icon"] = posters[e["id"]]  # fill gaps only, never overwrite
+            n_fill += 1
+    print(f"      icons: chris layer overwrote {n_chris}, poster layer filled {n_fill} gaps",
+          flush=True)
+    return manifest
 
 def parse_service_channels(data):
     """id -> (display_names, is_247)"""
@@ -124,6 +189,9 @@ def main():
         if args.emit_manifest:
             json.dump(manifest, open(args.emit_manifest, "w", encoding="utf-8"))
             print(f"      manifest written to {args.emit_manifest}", flush=True)
+
+    print("      applying roster updates + icon layers...", flush=True)
+    manifest = apply_roster_updates(manifest)
 
     anchor = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
     end = anchor + timedelta(days=args.days)

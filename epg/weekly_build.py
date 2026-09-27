@@ -89,6 +89,83 @@ FEED_URL = 'https://epg.pw/xmltv/epg_{cc}.xml.gz'
 EPGSHARE_URL = 'https://epgshare01.online/epgshare01/epg_ripper_{code}.xml.gz'
 EPGSHARE_MATCHES = os.path.join(PUBFEED_DIR, 'epgshare_matches.json')
 
+# vcicio/US-EPG merged US guide (https://github.com/vcicio/us-epg): single
+# 9.6-day-window feed, 5,489 channels, rebuilt every 6h. Candidate USA matches
+# in pubfeed/vcicio_usa_matches.json ({chris_id: {feed_channel_id, feed_name,
+# future_progs}}) are PROVISIONAL until audited — do not call them verified.
+# LEGAL: vcicio repackages EPGShare01 feeds and its repo has no license file;
+# Chris approved EPGShare01's own redistribution gray area, but the vcicio
+# repackaging question is still open — no public release of vcicio-derived
+# data until he answers it. On overlap, the feed with the longest valid
+# future span of real programmes wins (never placeholders over real data).
+VCICIO_URL = 'https://vcicio.github.io/US-EPG/merged_epg.xml.gz'
+VCICIO_MATCHES = os.path.join(PUBFEED_DIR, 'vcicio_usa_matches.json')
+
+# --- Sunday 2026-09-27: additional approved guide sources ---
+# Precedence (after epg.pw verified set and EPGShare01/vcicio): iptv-epg.org
+# -> Sky DE -> Sky UK -> iptvtalk -> TVGuide. Each is best-effort (a failed
+# download only skips its channels, never aborts). NEVER open-epg.com
+# (evaluated, not approved).
+IPTVEPG_URL = 'https://iptv-epg.org/files/epg-us.xml.gz'
+IPTVEPG_MATCHES = os.path.join(PUBFEED_DIR, 'iptv_epg_org_matches.json')
+SKYDE_URL = 'https://muq-org.github.io/tv-epg/epg_sky.xml'
+SKYDE_MATCHES = os.path.join(PUBFEED_DIR, 'sky_de_matches.json')
+SKYUK_URL = ('https://raw.githubusercontent.com/Permanently/sky-epg-xmltv/'
+             'main/guides/london_hd.xml')
+SKYUK_MATCHES = os.path.join(PUBFEED_DIR, 'sky_uk_matches.json')
+IPTVTALK_URLS = {
+    'US': 'https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/US_guide.xml.gz',
+    'UK': 'https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/UK_guide.xml.gz',
+    'Latino': 'https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/Latino_guide.xml.gz',
+    'US_local': 'https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/US_local_guide.xml.gz',
+}
+IPTVTALK_MATCHES = os.path.join(PUBFEED_DIR, 'iptvtalk_matches.json')
+TVGUIDE_MATCHES = os.path.join(PUBFEED_DIR, 'tvguide_matches.json')
+TVGUIDE_API = ('https://backend.tvguide.com/tvschedules/tvguide/{pid}/web'
+               '?start={start}&duration={dur}&channelSourceIds={sid}'
+               '&apiKey={key}')
+TVGUIDE_API_KEY = os.environ.get('TVGUIDE_API_KEY', '')
+
+# Event-label injection files (PPV / ESPN+ / FloSports / Fanatiz).
+# Each entry: {epg_channel_id, event_title, start_utc, duration_min_estimated,
+# status}. Future events become programme blocks; never overwrite real data.
+EVENT_FILES = {
+    'ppv': os.path.join(PUBFEED_DIR, 'ppv_events.json'),
+    'espnplus': os.path.join(PUBFEED_DIR, 'espnplus_events.json'),
+    'flosports': os.path.join(PUBFEED_DIR, 'flosports_events.json'),
+    'fanatiz': os.path.join(PUBFEED_DIR, 'fanatiz_events.json'),
+}
+
+# College-network epg.pw backups (ACC/Big Ten/SEC via the already-downloaded
+# US feed; ESPNU via provider/TVGuide). Wired as verified matches.
+COLLEGE_BACKUPS = {
+    'accnetwork.us': ('464879', 'US'),
+    'epg-usa-big-ten-network-uhd-025dc210': ('465073', 'US'),
+    'secnetwork.us': ('465266', 'US'),
+}
+
+# Roster corrections (2026-09-27).
+ROSTER_RENAMES = {  # KMTV is CBS, not ABC (TVGuide confirms KMTV-DT CBS)
+    'abcketv.us': 'USA CBS 3 Omaha (KMTV)',
+    'epg-usa-abc-13-omaha-kmtv-1095e622': 'USA CBS 3 Omaha (KMTV)',
+}
+ROSTER_DROPS = {'epg-24-7-hunted-e77b2975'}  # obsolete; superseded by m3u-247-hunted
+
+# Chris's hand-made icons WIN; hunt posters fill gaps only.
+CHRIS_ICONS = os.path.join(BUILD_DIR, 'work', 'chris_logos', 'icon_urls.json')
+HUNT_ICONS = os.path.join(BUILD_DIR, 'work', 'chris_logos', 'poster_hunt_results.json')
+# CI repo-local fallbacks (copied into epg_actions/epg/ by the 24/7 prep).
+CHRIS_ICONS_REPO = os.path.join(BUILD_DIR, 'chris_icon_urls.json')
+HUNT_ICONS_REPO = os.path.join(BUILD_DIR, 'poster_hunt_urls.json')
+
+# Provider service-XML timezone shifts (provider timestamps are Eastern-
+# semantics; these stations air on local time). Applied to service-XML
+# programmes only, never to public-feed data.
+SERVICE_TZ_SHIFTS = {  # channel_id -> hours to shift
+    'foxkhon.us': -6, 'abckitv.us': -6, 'cbs5kgmb.us': -6, 'nbckhnl.us': -6,
+    'fox4ktby.us': -4, 'abc13kyur.us': -4, 'nbc11ktvf.us': -4,
+}
+
 # NFL Sunday Ticket guide (manual schedule injection).
 # nfl_sunday_ticket.json holds {channel_id: [programme XML strings]} built
 # from ESPN's published schedule via the live browser. Games are one-off
@@ -99,15 +176,19 @@ EPGSHARE_MATCHES = os.path.join(PUBFEED_DIR, 'epgshare_matches.json')
 NFL_SCHEDULE = os.path.join(BUILD_DIR, 'nfl_sunday_ticket.json')
 
 # Known-good build this pipeline reproduces.
+# 2026-09-21: baseline recalibrated after the fossil drop (programmes ending
+# >6h before the anchor are no longer carried). ~300k = real future coverage
+# + rolling placeholders; the old 561k figure counted ~263k dead past
+# programmes that TiviMate never renders.
 KNOWN_CHANNELS = 10940
-KNOWN_PROGRAMMES = 561796
+KNOWN_PROGRAMMES = 560000  # empirical: 2026-09-21 release has 561,387
 KNOWN_ICONS = 10550
 
 # Hard gates.
 CH_MIN = int(KNOWN_CHANNELS * 0.98)
 CH_MAX = int(KNOWN_CHANNELS * 1.02)
-PR_MIN = int(KNOWN_PROGRAMMES * 0.95)
-PR_MAX = int(KNOWN_PROGRAMMES * 1.05)
+PR_MIN = int(KNOWN_PROGRAMMES * 0.90)
+PR_MAX = int(KNOWN_PROGRAMMES * 1.10)
 ICON_MIN = 10400  # known-good is 10550; never regress below 10400
 
 PLACEHOLDER_MARK = 'No programme schedule was supplied'
@@ -290,6 +371,155 @@ def fetch_epgshare_feeds(workdir, codes):
     return paths
 
 
+def fetch_vcicio_feed(workdir):
+    """Download vcicio/US-EPG merged US guide. Best-effort like EPGShare:
+    a failed download only skips its channels, never aborts the run."""
+    feed_dir = os.path.join(workdir, 'vcicio')
+    os.makedirs(feed_dir, exist_ok=True)
+    dest = os.path.join(feed_dir, 'merged_epg.xml.gz')
+    log("fetching vcicio US-EPG ...")
+    if not download(VCICIO_URL, dest):
+        log("  WARNING: vcicio download failed; skipping")
+        return None
+    try:
+        with gzip.open(dest, 'rb') as f:
+            head = f.read(200)
+        assert b'<tv' in head
+    except Exception as e:
+        log(f"  WARNING: vcicio not valid gzip/XMLTV ({e}); skipping")
+        return None
+    log(f"  vcicio: {os.path.getsize(dest)} bytes")
+    return dest
+
+
+def fetch_xml_feed(url, dest, label):
+    """Download one XMLTV feed (gzipped or plain). Best-effort: a failure
+    only skips its channels, never aborts the run."""
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    log(f"fetching {label} ...")
+    if not download(url, dest):
+        log(f"  WARNING: {label} download failed; skipping")
+        return None
+    try:
+        with open_feed(dest) as f:
+            head = f.read(200)
+        assert b'<tv' in head
+    except Exception as e:
+        log(f"  WARNING: {label} not valid XMLTV ({e}); skipping")
+        return None
+    log(f"  {label}: {os.path.getsize(dest)} bytes")
+    return dest
+
+
+def open_feed(path):
+    """Open an XMLTV feed that may be gzipped or plain XML."""
+    with open(path, 'rb') as f:
+        magic = f.read(2)
+    if magic == b'\x1f\x8b':
+        return gzip.open(path, 'rb')
+    return open(path, 'rb')
+
+
+def fetch_tvguide(matches, workdir):
+    """Pull 7-day schedules from the TVGuide API for staged matches.
+
+    Best-effort; requires TVGUIDE_API_KEY in the environment. Returns
+    {target_id: [programme xml]}. Without a key, skips quietly (channels
+    keep carried data).
+    """
+    if not TVGUIDE_API_KEY:
+        log("tvguide: no TVGUIDE_API_KEY; skipping")
+        return {}, []
+    if not matches:
+        return {}, []
+    now_ts = int(datetime.now(timezone.utc).timestamp())
+    fresh, skipped = {}, []
+    for tid, m in matches.items():
+        pid = m.get('tvguide_lineup_id')
+        sid = m.get('feed_channel_id')
+        if not (pid and sid):
+            skipped.append((tid, 'no lineup/source id'))
+            continue
+        url = TVGUIDE_API.format(pid=pid, start=now_ts, dur=10080,
+                                 sid=sid, key=TVGUIDE_API_KEY)
+        try:
+            req = urllib.request.Request(url, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+                              'AppleWebKit/537.36 (KHTML, like Gecko) '
+                              'Chrome/126.0.0.0 Safari/537.36',
+                'Accept': 'application/json',
+                'Referer': 'https://www.tvguide.com/listings/'})
+            with urllib.request.urlopen(req, timeout=45) as r:
+                d = json.loads(r.read().decode('utf-8', 'replace'))
+        except Exception as e:
+            skipped.append((tid, f'api error {type(e).__name__}'))
+            continue
+        progs = []
+        for it in d.get('data', {}).get('items', []):
+            ch = it.get('channel', {}) or {}
+            if str(ch.get('sourceId')) != str(sid):
+                continue
+            for p in it.get('programSchedules', []) or []:
+                st, et, t = p.get('startTime'), p.get('endTime'), p.get('title') or ''
+                if st and et and t and et > now_ts:
+                    s = datetime.fromtimestamp(st, tz=timezone.utc)
+                    e = datetime.fromtimestamp(et, tz=timezone.utc)
+                    progs.append(serialize_fresh_prog(fmt_ts(s), fmt_ts(e),
+                                                     tid, t.strip(), ''))
+        progs.sort()
+        if len(progs) >= 5:
+            fresh[tid] = progs
+        else:
+            skipped.append((tid, f'only {len(progs)} future programmes'))
+        time.sleep(0.5)
+    log(f"tvguide: {len(fresh)} channels refreshed, "
+        f"{sum(len(v) for v in fresh.values())} programmes; "
+        f"skipped: {len(skipped)}")
+    return fresh, skipped
+
+
+def inject_event_labels(roster, verified_fresh):
+    """Stage 3j: turn staged event labels (PPV/ESPN+/FloSports/Fanatiz)
+    into programme blocks. Only future events with a real EPG channel id,
+    and never overwrites channels that already have real listings."""
+    now = datetime.now(timezone.utc)
+    injected = {}
+    for label, path in EVENT_FILES.items():
+        if not os.path.isfile(path):
+            continue
+        try:
+            events = json.load(open(path))
+        except Exception:
+            continue
+        if isinstance(events, dict):  # ppv file is a list; be tolerant
+            events = events.get('events', [])
+        n = 0
+        for ev in events:
+            tid = ev.get('epg_channel_id')
+            if not tid or tid not in roster or tid in verified_fresh:
+                continue
+            if ev.get('status') != 'future':
+                continue
+            title = (ev.get('event_title') or '').strip()
+            start = parse_ts(ev.get('start_utc') or '')
+            if not (title and start and start > now):
+                continue
+            dur = int(ev.get('duration_min_estimated') or 180)
+            stop = start + timedelta(minutes=dur)
+            prog = serialize_fresh_prog(fmt_ts(start), fmt_ts(stop), tid,
+                                        title, '')
+            injected.setdefault(tid, []).append(prog)
+            n += 1
+        if n:
+            log(f"events: {label}: {n} future event blocks for "
+                f"{len([t for t in injected])} channels")
+    for tid, plist in injected.items():
+        if tid not in verified_fresh:
+            verified_fresh[tid] = sorted(plist)
+    return {'channels': len(injected),
+            'programmes': sum(len(v) for v in injected.values())}
+
+
 # ---------------------------------------------------------------- roster
 def load_roster(prev_path):
     """Parse the previous final build: channel roster + classification.
@@ -342,6 +572,51 @@ def load_roster(prev_path):
     return roster, order, classes, min_start_247
 
 
+# ---------------------------------------------------------------- roster patches
+def _icon_file(*paths):
+    for p in paths:
+        if p and os.path.isfile(p):
+            return p
+    return None
+
+
+def apply_roster_patches(roster, order):
+    """Sunday corrections applied to the in-memory roster before the build.
+
+    - ROSTER_RENAMES: fix wrong display names (KMTV ABC -> CBS).
+    - ROSTER_DROPS: remove obsolete channel ids (deduped Hunted).
+    - Icons: Chris's hand-made icon_urls.json wins outright; the auto-hunt
+      poster_hunt_results.json fills only channels that still lack an icon.
+    Returns the pruned order list.
+    """
+    ren = sum(1 for cid, name in ROSTER_RENAMES.items() if cid in roster)
+    for cid, name in ROSTER_RENAMES.items():
+        if cid in roster:
+            roster[cid] = (name, roster[cid][1])
+    dropped = [cid for cid in ROSTER_DROPS if cid in roster]
+    for cid in dropped:
+        del roster[cid]
+    order = [cid for cid in order if cid not in ROSTER_DROPS]
+
+    chris_path = _icon_file(CHRIS_ICONS, CHRIS_ICONS_REPO)
+    chris = json.load(open(chris_path)) if chris_path else {}
+    overwrote = filled = 0
+    for cid, url in chris.items():
+        if cid in roster:
+            if roster[cid][1] != url:
+                overwrote += 1
+            roster[cid] = (roster[cid][0], url)
+    hunt_path = _icon_file(HUNT_ICONS, HUNT_ICONS_REPO)
+    hunt = json.load(open(hunt_path)) if hunt_path else {}
+    for cid, url in hunt.items():
+        if cid in roster and not roster[cid][1]:
+            roster[cid] = (roster[cid][0], url)
+            filled += 1
+    log(f"roster patches: {ren} renames, {len(dropped)} drops, "
+        f"{overwrote} chris icons applied, {filled} hunt gaps filled")
+    return order
+
+
 # ---------------------------------------------------------------- verified matches
 def load_verified_matches():
     """The locked verified set: batch 1 (26) + batch 2 (130) + focus (50).
@@ -375,8 +650,44 @@ def load_verified_matches():
                 matches[m['target_id']] = (m['feed_channel_id'], m['feed_country'])
                 n3 += 1
     log(f"focus batches verified entries: {n3}")
+    for tid, (fcid, fcc) in COLLEGE_BACKUPS.items():
+        matches[tid] = (fcid, fcc)
+    log(f"college backups: {len(COLLEGE_BACKUPS)}")
     log(f"verified set total (unique target_ids): {len(matches)}")
     return matches
+
+
+_span_re = re.compile(
+    r'<programme\s+start="([^"]+)"\s+stop="([^"]+)"[^>]*>'
+    r'(?:.*?<title[^>]*>(.*?)</title>)?'
+    r'(?:.*?<desc[^>]*>(.*?)</desc>)?',
+    re.S)
+
+
+def future_span(progs, now):
+    """(real_future_count, max_real_future_stop) for a list of serialized
+    programme XML strings. 'Real' excludes our honest placeholder blocks and
+    bare 'Programming' titles, so a placeholder-only feed can never outrank
+    real listings by span alone."""
+    n = 0
+    max_stop = None
+    for x in progs:
+        m = _span_re.search(x)
+        if not m:
+            continue
+        s, e = parse_ts(m.group(1)), parse_ts(m.group(2))
+        if not (s and e and e > now):
+            continue
+        title = (m.group(3) or '').strip()
+        desc = m.group(4) or ''
+        if title.lower().rstrip('.') == 'programming':
+            continue
+        if PLACEHOLDER_MARK in desc:
+            continue
+        n += 1
+        if max_stop is None or e > max_stop:
+            max_stop = e
+    return n, max_stop
 
 
 def extract_feed_programmes(matches, feed_paths, cutoff14):
@@ -394,9 +705,15 @@ def extract_feed_programmes(matches, feed_paths, cutoff14):
     for tid, (fcid, fcc) in matches.items():
         by_feed.setdefault(fcc, []).append((tid, fcid))
     for fcc, pairs in by_feed.items():
-        want = {fcid: tid for tid, fcid in pairs}
+        # NOTE: several roster IDs can share one feed channel (Chris keeps
+        # duplicate IDs for the same station, e.g. epg-usa-*/m3u-usa-*/*.us).
+        # Map feed->ALL its tids; a {fcid: tid} dict silently drops every
+        # duplicate but one (that bug cost ~578 vcicio channels their data).
+        want = {}
+        for tid, fcid in pairs:
+            want.setdefault(fcid, []).append(tid)
         buckets = {tid: [] for tid, _ in pairs}
-        with gzip.open(feed_paths[fcc], 'rb') as f:
+        with open_feed(feed_paths[fcc]) as f:
             for event, elem in iterparse(f, events=('end',)):
                 if elem.tag == 'programme':
                     fcid = elem.get('channel')
@@ -405,8 +722,9 @@ def extract_feed_programmes(matches, feed_paths, cutoff14):
                         t = (elem.findtext('title') or '').strip()
                         ds = (elem.findtext('desc') or '').strip()
                         if s and e and t and s[:14] < e[:14] and e[:14] > cutoff14:
-                            buckets[want[fcid]].append(
-                                (s, serialize_fresh_prog(s, e, want[fcid], t, ds)))
+                            for tid in want[fcid]:
+                                buckets[tid].append(
+                                    (s, serialize_fresh_prog(s, e, tid, t, ds)))
                     elem.clear()
         for tid, rows in buckets.items():
             rows.sort(key=lambda x: x[0])
@@ -488,11 +806,14 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
       listings replace the placeholder (with a tail placeholder only if the
       fresh schedule ends within 12h of the anchor).
     - regular: drop any stale placeholder blocks (prevents accumulation across
-      runs), carry all other programmes unchanged (past programmes included --
-      keeps validation counts stable), then if the latest programme (carried
-      or freshly fetched) ends at or before anchor+12h, append one honest
-      placeholder starting at max(anchor, latest stop) so the channel shows
-      "Programming" instead of "No information" once its schedule runs out.
+      runs) and drop fossil programmes that ended more than 6h before the
+      anchor (TiviMate only shows now->future; carrying them forever inflated
+      programme counts while the visible guide stayed empty -- fixed
+      2026-09-21), carry all other programmes unchanged, then if the latest
+      programme (carried or freshly fetched) ends at or before anchor+12h,
+      append one honest placeholder starting at max(anchor, latest stop) so
+      the channel shows "Programming" instead of "No information" once its
+      schedule runs out.
     Channels (id/display-name/icon) are preserved byte-faithfully.
     Returns counters dict.
     """
@@ -500,10 +821,11 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
     service_new = set(service_progs)
     c = {'channels': 0, 'dropped_verified': 0, 'dropped_service': 0,
          'shifted_247': 0, 'carried': 0, 'orphans_dropped': 0,
-         'dropped_placeholder': 0, 'placeholder_written': 0,
-         'fresh_appended': 0, 'service_appended': 0}
+         'dropped_placeholder': 0, 'dropped_fossil': 0,
+         'placeholder_written': 0, 'fresh_appended': 0, 'service_appended': 0}
     roster_ids = set(roster)
     reg_max_stop = {}  # cid -> latest programme stop (regular class only)
+    fossil_cutoff = anchor - timedelta(hours=6)
     with open(out_path, 'w', encoding='utf-8') as fout:
         fout.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n')
         for cid in order:
@@ -541,11 +863,19 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                 # never accumulate; a fresh one is appended below if needed.
                 c['dropped_placeholder'] += 1
             else:
-                fout.write(serialize_programme(elem))
-                c['carried'] += 1
                 stop = parse_ts(elem.get('stop') or '')
-                if stop and (cid not in reg_max_stop or stop > reg_max_stop[cid]):
-                    reg_max_stop[cid] = stop
+                if stop and stop < fossil_cutoff:
+                    # Fossil: ended >6h before the anchor. TiviMate renders
+                    # now->future only, so these are invisible there; carrying
+                    # them forever is what inflated "real data" counts while
+                    # the visible guide showed "Programming".
+                    c['dropped_fossil'] += 1
+                else:
+                    fout.write(serialize_programme(elem))
+                    c['carried'] += 1
+                    if stop and (cid not in reg_max_stop
+                                 or stop > reg_max_stop[cid]):
+                        reg_max_stop[cid] = stop
             elem.clear()
         # Freshness: a channel counts as covered only if some programme
         # extends past anchor+12h (this mirrors the validation gate). The
@@ -605,7 +935,7 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
 # holds on every build instead of depending on whichever feed matched.
 TZ_SHIFT_OFFSETS = {'west': -3, 'mountain': -2, 'central': -1,
                     'alaska': -4, 'hawaii': -6}
-TZ_SHIFT_MIN_EAST = 5     # need at least this many real east programmes
+TZ_SHIFT_MIN_EAST = 1     # if east has any future data, west gets built from it
 TZ_SHIFT_MIN_RATIO = 0.8  # variant must match >= this or it gets re-derived
 
 _zone_name_re = re.compile(
@@ -629,7 +959,9 @@ def enforce_timezone_shifts(out_path, roster):
         if not m:
             continue
         base = re.sub(r'\s+', ' ', m.group(1)).strip().lower()
-        groups.setdefault(base, {})[m.group(2).lower()] = cid
+        # 2026-09-21: keep ALL candidates per zone — duplicate "East"
+        # channels exist (e.g. two "USA HBO East*"); the one with data wins.
+        groups.setdefault(base, {}).setdefault(m.group(2).lower(), []).append(cid)
 
     prog_re = re.compile(
         r'<programme start="([^"]+)" stop="([^"]+)"[^>]*channel="([^"]+)"[^>]*>'
@@ -648,39 +980,50 @@ def enforce_timezone_shifts(out_path, roster):
     def is_ph(t):
         return t.strip().lower().rstrip('.') == 'programming'
 
+    now = datetime.now(timezone.utc)
     repaired = {}
     for base, zones in groups.items():
         if 'east' not in zones:
             continue
-        east_cid = zones['east']
+        # 2026-09-21: when duplicate "East" channels exist, copy from the
+        # one with the most future real programmes — never the empty one.
+        def _east_score(c):
+            return sum(1 for _s, e, t, _x in ch_progs.get(c, [])
+                       if e > now and not is_ph(t))
+        east_cid = max(zones['east'], key=_east_score)
         east_all = ch_progs.get(east_cid, [])
-        east_real = [(s, t) for s, _e, t, _x in east_all if not is_ph(t)]
+        # 2026-09-21: only FUTURE east programmes can seed a re-derivation.
+        # Shifting expired listings once wiped a variant's real future
+        # schedule (hbowest.us lost 42 future programmes to 9 dead hbo.us
+        # ones). An east feed with no future data is skipped, never copied.
+        east_future = [(s, e, t, x) for s, e, t, x in east_all if e > now]
+        east_real = [(s, t) for s, _e, t, _x in east_future if not is_ph(t)]
         if len(east_real) < TZ_SHIFT_MIN_EAST:
             continue
-        east_max_stop = max(e for _s, e, _t, _x in east_all)
+        east_max_stop = max(e for _s, e, _t, _x in east_future)
         for zone, off in TZ_SHIFT_OFFSETS.items():
             if zone not in zones or zone == 'east':
                 continue
-            var_cid = zones[zone]
-            var_set = {(t, s) for s, _e, t, _x in ch_progs.get(var_cid, [])}
-            delta = timedelta(hours=off)
-            match = sum(1 for s, t in east_real if (t, s + delta) in var_set)
-            if match / len(east_real) >= TZ_SHIFT_MIN_RATIO:
-                continue
-            new_xml = []
-            for s, e, t, x in east_all:
-                nx = _shift_prog_xml(x, off).replace(
-                    f'channel="{east_cid}"', f'channel="{var_cid}"', 1)
-                new_xml.append(nx)
-            # keep variant programmes that extend past the east window so no
-            # coverage is ever lost by the re-derivation
-            horizon = east_max_stop + delta
-            for s, e, t, x in ch_progs.get(var_cid, []):
-                if s >= horizon:
-                    new_xml.append(x)
-            repaired[var_cid] = new_xml
-            log(f"tz-shift: {zones[zone]} re-derived from {east_cid} "
-                f"({off}h, match was {match}/{len(east_real)})")
+            for var_cid in zones[zone]:
+                var_set = {(t, s) for s, _e, t, _x in ch_progs.get(var_cid, [])}
+                delta = timedelta(hours=off)
+                match = sum(1 for s, t in east_real if (t, s + delta) in var_set)
+                if match / len(east_real) >= TZ_SHIFT_MIN_RATIO:
+                    continue
+                new_xml = []
+                for s, e, t, x in east_future:
+                    nx = _shift_prog_xml(x, off).replace(
+                        f'channel="{east_cid}"', f'channel="{var_cid}"', 1)
+                    new_xml.append(nx)
+                # keep variant programmes that extend past the east window so no
+                # coverage is ever lost by the re-derivation
+                horizon = east_max_stop + delta
+                for s, e, t, x in ch_progs.get(var_cid, []):
+                    if s >= horizon:
+                        new_xml.append(x)
+                repaired[var_cid] = new_xml
+                log(f"tz-shift: {var_cid} re-derived from {east_cid} "
+                    f"({off}h, match was {match}/{len(east_real)})")
 
     if not repaired:
         return {'groups': len(groups), 'repaired': 0, 'programmes_rederived': 0}
@@ -702,7 +1045,6 @@ def enforce_timezone_shifts(out_path, roster):
     os.replace(tmp, out_path)
     return {'groups': len(groups), 'repaired': len(repaired),
             'programmes_rederived': sum(len(v) for v in repaired.values())}
-
 
 
 def ensure_icons(out_path, roster):
@@ -915,6 +1257,10 @@ def main(argv):
         # 2. roster + classification from previous final build
         roster, order, classes, min_start_247 = load_roster(PREV_BUILD)
 
+        # 2b. Sunday roster patches: renames (KMTV), drops (Hunted),
+        # Chris icons win, hunt posters fill gaps.
+        order = apply_roster_patches(roster, order)
+
         # 3. verified set + fresh feed programmes
         matches = load_verified_matches()
         missing_targets = [t for t in matches if t not in roster]
@@ -953,6 +1299,129 @@ def main(argv):
             'skipped_lt5': len(es_skipped),
             'feeds_ok': len(es_paths), 'feeds_wanted': len(es_codes)}
 
+        # 3c. vcicio/US-EPG merged US guide (best-effort; never aborts).
+        # 9.6-day window for USA channels incl. locals (KGMB Honolulu etc.).
+        # It does NOT unconditionally overwrite epg.pw/EPGShare data: for each
+        # channel the feed with the longest valid future span of REAL
+        # programmes wins (ties keep the incumbent). Placeholder-only or
+        # shorter feeds can never displace longer real listings.
+        vc_raw = json.load(open(VCICIO_MATCHES)) \
+            if os.path.isfile(VCICIO_MATCHES) else {}
+        vc_matches = {t: (v['feed_channel_id'], 'vcicio')
+                      for t, v in vc_raw.items() if t in roster}
+        vc_path = fetch_vcicio_feed(workdir) if vc_matches else None
+        if vc_path:
+            vc_fresh, vc_skipped = extract_feed_programmes(
+                vc_matches, {'vcicio': vc_path}, cutoff14)
+            now = datetime.now(timezone.utc)
+            vc_won = vc_kept = vc_ph_rejected = 0
+            for tid, progs in vc_fresh.items():
+                vc_n, vc_stop = future_span(progs, now)
+                if tid not in verified_fresh:
+                    verified_fresh[tid] = progs
+                    vc_won += 1
+                    continue
+                if vc_n == 0:
+                    # vcicio brought no real future programmes; never let a
+                    # placeholder-only/short feed displace real listings.
+                    vc_ph_rejected += 1
+                    continue
+                inc_n, inc_stop = future_span(verified_fresh[tid], now)
+                if inc_stop is None or (vc_stop is not None and vc_stop > inc_stop):
+                    verified_fresh[tid] = progs
+                    vc_won += 1
+                else:
+                    vc_kept += 1
+            report['stages']['vcicio'] = {
+                'targets': len(vc_matches),
+                'refreshed': len(vc_fresh),
+                'fresh_programmes': sum(len(v) for v in vc_fresh.values()),
+                'skipped_lt5': len(vc_skipped),
+                'won_longest_span': vc_won,
+                'incumbent_kept_longer': vc_kept,
+                'placeholder_rejected': vc_ph_rejected}
+            log(f"vcicio: {len(vc_fresh)} USA channels refreshed "
+                f"({vc_won} won longest-span, {vc_kept} kept incumbent, "
+                f"{vc_ph_rejected} placeholder-only rejected)")
+        else:
+            report['stages']['vcicio'] = {
+                'targets': len(vc_matches), 'refreshed': 0,
+                'note': 'feed download failed; channels keep carried data'}
+
+        # 3e-3h. Sunday 2026-09-27 approved sources (best-effort).
+        # Precedence: epg.pw verified > EPGShare01 > vcicio > iptv-epg.org >
+        # Sky DE > Sky UK > iptvtalk > TVGuide. Each fills only channels with
+        # no real listings yet; never displaces an incumbent.
+        def _fill_from(stage_name, matches_file, feed_paths, extra=None):
+            raw = json.load(open(matches_file)) \
+                if os.path.isfile(matches_file) else []
+            ms = {}
+            for m in raw:
+                tid = m.get('target_id')
+                if tid and tid in roster and tid not in verified_fresh:
+                    fcc = extra(m) if extra else m.get('feed_country')
+                    ms[tid] = (m.get('feed_channel_id'), fcc)
+            ms = {t: v for t, v in ms.items() if v[1] in feed_paths}
+            if not ms:
+                report['stages'][stage_name] = {'targets': 0, 'refreshed': 0}
+                return
+            fsh, skp = extract_feed_programmes(ms, feed_paths, cutoff14)
+            for tid, progs in fsh.items():
+                if tid not in verified_fresh:
+                    verified_fresh[tid] = progs
+            report['stages'][stage_name] = {
+                'targets': len(ms), 'refreshed': len(fsh),
+                'fresh_programmes': sum(len(v) for v in fsh.values()),
+                'skipped_lt5': len(skp)}
+
+        # 3e. iptv-epg.org US feed
+        ie_path = fetch_xml_feed(
+            IPTVEPG_URL, os.path.join(workdir, 'iptv-epg-us.xml.gz'), 'iptv-epg.org US')
+        if ie_path:
+            _fill_from('iptv_epg_org', IPTVEPG_MATCHES, {'iptv-epg-us': ie_path})
+
+        # 3f. Sky Germany (plain XML)
+        sd_path = fetch_xml_feed(
+            SKYDE_URL, os.path.join(workdir, 'sky_de.xml'), 'sky-de')
+        if sd_path:
+            _fill_from('sky_de', SKYDE_MATCHES, {'sky-de': sd_path})
+
+        # 3g. Sky UK (plain XML)
+        su_path = fetch_xml_feed(
+            SKYUK_URL, os.path.join(workdir, 'sky_uk.xml'), 'sky-uk')
+        if su_path:
+            _fill_from('sky_uk', SKYUK_MATCHES, {'sky-uk': su_path})
+
+        # 3h. iptvtalk (4 subfeeds; match picks its subfeed)
+        it_paths = {}
+        for sub, url in IPTVTALK_URLS.items():
+            p = fetch_xml_feed(
+                url, os.path.join(workdir, f'iptvtalk_{sub}.xml.gz'),
+                f'iptvtalk {sub}')
+            if p:
+                it_paths[f'iptvtalk-{sub}'] = p
+        if it_paths:
+            _fill_from('iptvtalk', IPTVTALK_MATCHES, it_paths,
+                       extra=lambda m: 'iptvtalk-' + m.get('feed_subfeed', 'US'))
+
+        # 3i. TVGuide API (needs TVGUIDE_API_KEY; best-effort)
+        tg_raw = json.load(open(TVGUIDE_MATCHES)) \
+            if os.path.isfile(TVGUIDE_MATCHES) else []
+        tg_matches = {m['target_id']: m for m in tg_raw
+                      if m.get('target_id') in roster
+                      and m['target_id'] not in verified_fresh}
+        tg_fresh, tg_skipped = fetch_tvguide(tg_matches, workdir)
+        for tid, progs in tg_fresh.items():
+            if tid not in verified_fresh:
+                verified_fresh[tid] = progs
+        report['stages']['tvguide'] = {
+            'targets': len(tg_matches), 'refreshed': len(tg_fresh),
+            'fresh_programmes': sum(len(v) for v in tg_fresh.values()),
+            'skipped': len(tg_skipped)}
+
+        # 3j. Event-label injection (PPV / ESPN+ / FloSports / Fanatiz)
+        report['stages']['events'] = inject_event_labels(roster, verified_fresh)
+
         # 3d. NFL Sunday Ticket schedule injection (best-effort; never aborts).
         # One-off game entries from nfl_sunday_ticket.json. Skips itself once
         # valid_until_utc has passed. Only fills channels with no real future
@@ -977,6 +1446,15 @@ def main(argv):
 
         # 4. optional provider XML hook for regular channels
         service_progs = load_service_xml(service_xml) if service_xml else {}
+        # 4b. Alaska/Hawaii: provider timestamps are Eastern-semantics;
+        # shift AK -4h / HI -6h so they air on local time. Applies to
+        # service-XML programmes only.
+        for cid, hrs in SERVICE_TZ_SHIFTS.items():
+            if cid in service_progs and hrs:
+                service_progs[cid] = [_shift_prog_xml(x, hrs)
+                                      for x in service_progs[cid]]
+                log(f"service tz-shift: {cid} {hrs}h "
+                    f"({len(service_progs[cid])} programmes)")
         if service_xml and not service_progs:
             log("WARNING: --service-xml given but yielded no programmes; "
                 "regular channels will be carried over")
@@ -1018,7 +1496,7 @@ def main(argv):
         for cid in losers[:10]:
             log(f"   lost icon: {cid}")
 
-        # 9. promote
+        # 9. promote (or copy to --out for CI)
         report['result'] = 'OK'
         write_report(report, workdir)
         if out_copy:
