@@ -1223,6 +1223,85 @@ def enforce_timezone_shifts(out_path, roster):
             'programmes_rederived': sum(len(v) for v in repaired.values())}
 
 
+def fix_247_aliases(out_path):
+    """2026-09-27: Copy 24/7 marathon data to m3u-* alias channels.
+
+    The roster contains both m3u-247-X (with real marathon schedules and
+    Chris's catbox logos) and m3u-X (empty, dead imgur icons). Some of
+    Chris's TiviMate sources use the m3u-X IDs. This copies the icon
+    and all programmes from each m3u-247-X to its m3u-X counterpart.
+    """
+    text = open(out_path, encoding='utf-8').read()
+
+    # Find m247 icons: <channel id="m3u-247-xxx"> ... <icon src="..." />
+    ch_icon_re = re.compile(
+        r'<channel id="(m3u-247-[^"]+)">.*?<icon src="([^"]+)"', re.S)
+    icons_247 = {m.group(1): m.group(2) for m in ch_icon_re.finditer(text)}
+
+    # Find which m3u-* (non-247) channels exist
+    ch_id_re = re.compile(r'<channel id="(m3u-(?!247-)[^"]+)"')
+    m3u_ids = set(m.group(1) for m in ch_id_re.finditer(text))
+
+    # Build pairs
+    pairs = {}  # m3u_id -> (m247_id, icon)
+    for m247_id, icon in icons_247.items():
+        m3u_id = 'm3u-' + m247_id[8:]
+        if m3u_id in m3u_ids:
+            pairs[m3u_id] = (m247_id, icon)
+
+    if not pairs:
+        return {'pairs': 0, 'icons_fixed': 0, 'programmes_copied': 0}
+
+    # Collect programmes from m247 channels
+    prog_re = re.compile(
+        r'<programme start="[^"]+" stop="[^"]+"[^>]*channel="([^"]+)"[^>]*>'
+        r'.*?</programme>', re.S)
+    progs_247 = {}
+    for m in prog_re.finditer(text):
+        cid = m.group(1)
+        if cid in icons_247:
+            progs_247.setdefault(cid, []).append(m.group(0))
+
+    # Fix icons: replace <icon src="..."> inside m3u-* channel blocks
+    icons_fixed = 0
+    def _fix_icon(m):
+        nonlocal icons_fixed
+        cid, inner = m.group(1), m.group(2)
+        if cid in pairs:
+            new_icon = pairs[cid][1]
+            inner2, n = re.subn(r'<icon src="[^"]+"',
+                                f'<icon src="{new_icon}"', inner, count=1)
+            if n:
+                icons_fixed += 1
+                return f'<channel id="{cid}">{inner2}</channel>'
+        return m.group(0)
+
+    ch_block_re = re.compile(r'<channel id="(m3u-(?!247-)[^"]+)">(.*?)</channel>', re.S)
+    text = ch_block_re.sub(_fix_icon, text)
+
+    # Inject copied programmes before </tv>
+    injected = 0
+    prog_copies = []
+    for m3u_id, (m247_id, _icon) in pairs.items():
+        for prog_xml in progs_247.get(m247_id, []):
+            new_prog = prog_xml.replace(f'channel="{m247_id}"',
+                                        f'channel="{m3u_id}"', 1)
+            prog_copies.append(new_prog)
+            injected += 1
+    if prog_copies:
+        text = text.replace('</tv>', ''.join(prog_copies) + '</tv>', 1)
+
+    # Write back
+    tmp = out_path + '.tmp247'
+    with open(tmp, 'w', encoding='utf-8') as f:
+        f.write(text)
+    os.replace(tmp, out_path)
+    log(f"247-aliases: {len(pairs)} channels, {icons_fixed} icons fixed, "
+        f"{injected} programmes copied")
+    return {'pairs': len(pairs), 'icons_fixed': icons_fixed,
+            'programmes_copied': injected}
+
+
 def ensure_icons(out_path, roster):
     """Idempotent icon ensure from logos247_results.json.
 
@@ -1704,6 +1783,10 @@ def main(argv):
         report['stages']['tz_shifts'] = tzc
         log(f"tz-shifts: {tzc['repaired']} variant feeds re-derived "
             f"across {tzc['groups']} east/west groups")
+
+        # 5c. 2026-09-27: copy 24/7 marathon data+icons to m3u-* aliases
+        a247 = fix_247_aliases(out_path)
+        report['stages']['fix_247_aliases'] = a247
 
         # 6. idempotent icon ensure
         filled = ensure_icons(out_path, roster)
