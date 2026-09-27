@@ -47,7 +47,7 @@ TZ_MIN_RATIO = 0.8
 ZONE_RE = re.compile(
     r"^USA\s+(.+?)\s+(East|West|Mountain|Central|Alaska|Hawaii)\s*\*?\s*$", re.I)
 NFL_RE = re.compile(r"nfl-sunday-7\d\d")
-EXPECTED_247_CHANNELS = 2757
+EXPECTED_247_CHANNELS = 2881
 
 
 def parse_ts(s):

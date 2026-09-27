@@ -5,6 +5,11 @@ Reproduces the curated final build (10,940 channels / ~485k programmes /
 10,550 icons) from fresh weekly data, then validates with hard gates.
 Only a fully-validated file is promoted to ~/workspace/your_files/epg.xml.
 
+CI MODE (GitHub Actions): set EPG_PREV_BUILD to the previous epg.xml
+(downloaded from the latest release), EPG_RUNS_DIR to a workspace dir, and
+pass --no-promote --out <path> so the validated build lands at a known path
+for the release step. No credentials needed: feeds are public.
+
 PIPELINE (reconstructed from the build scripts in this directory):
   1. epg_logos4.xml  -- base: 386 missing tvg-ids integrated + logo waves 1-4
                        (one-time curation; the channel ROSTER is stable and is
@@ -47,11 +52,6 @@ NOT re-run weekly (documented dead ends, kept local-only, never published):
 
 NEVER logs secrets: the only network fetches here are the public epg.pw
 and EPGShare01 feeds.
-
-CI MODE (GitHub Actions): set EPG_PREV_BUILD to the previous epg.xml
-(downloaded from the latest release), EPG_RUNS_DIR to a workspace dir, and
-pass --no-promote --out <path> so the validated build lands at a known path
-for the release step. No credentials needed: feeds are public.
 """
 import gzip
 import json
@@ -150,6 +150,56 @@ ROSTER_RENAMES = {  # KMTV is CBS, not ABC (TVGuide confirms KMTV-DT CBS)
     'epg-usa-abc-13-omaha-kmtv-1095e622': 'USA CBS 3 Omaha (KMTV)',
 }
 ROSTER_DROPS = {'epg-24-7-hunted-e77b2975'}  # obsolete; superseded by m3u-247-hunted
+
+# Roster additions: provider playlist channels whose numeric stream ids never
+# entered the roster (load_roster only carries ids from the previous build, so
+# without this they can never appear). Keys are the provider programme keys
+# (stream-<id> for streams with no epg_channel_id). Added 2026-09-27:
+# Alaska/Hawaii locals from Chris's playlist.
+ROSTER_ADDITIONS = {  # target_id: display_name (icon filled by icon stages)
+    'stream-648019': 'AK Fairbanks NBC KTVF',
+    'stream-648020': 'AK Juneau-Douglas NBC KATH',
+    'stream-648341': 'USA ABC13 KYUR Anchorage',
+    'stream-648677': 'USA NBC2 KTUU Anchorage',
+    'stream-517241': 'USA FOX 4 KTBY Anchorage',
+    'stream-517488': 'USA ABC 13 KYUR Anchorage',
+    'stream-517790': 'USA NBC 2 KTUU Anchorage',
+    'stream-517901': 'USA NBC 11 KTVF Fairbanks',
+    'stream-648084': 'HI Honolulu CBS KGMB',
+    'stream-648085': 'HI Honolulu FOX KHON',
+    'stream-648086': 'HI Honolulu NBC KHNL',
+    'stream-517437': 'USA ABC 4 KITV Honolulu',
+    'stream-648359': 'USA ABC4 KITV Honolulu',
+}
+
+# Programme clones: target_id -> source_id. The target is a playlist alias of
+# the same station and inherits the source's programmes verbatim. Sources are
+# previous-build channels whose timestamps are already in local air time
+# (Alaska -4h / Hawaii -6h applied at ingest), so clones are NEVER re-shifted.
+# Targets without a source (648020 KATH Juneau, 648677/517790 KTUU Anchorage:
+# no EPG source exists anywhere in the pipeline) keep honest placeholders.
+CLONE_SOURCES = {
+    'stream-648019': 'nbc11ktvf.us',
+    'stream-648341': 'abc13kyur.us',
+    'stream-517241': 'fox4ktby.us',
+    'stream-517488': 'abc13kyur.us',
+    'stream-517901': 'nbc11ktvf.us',
+    'stream-648084': 'cbs5kgmb.us',
+    'stream-648085': 'foxkhon.us',
+    'stream-648086': 'nbckhnl.us',
+    'stream-517437': 'abckitv.us',
+    'stream-648359': 'abckitv.us',
+}
+
+# Fossilized per-event display names: numbered event channels (BIG10+, ESPN+,
+# PPV) whose names baked in a past event (e.g. "Fri @ Sep 18") and now lie in
+# the guide. Strip to the honest generic number until a fresh event-label
+# stage renames them with current events. (regex, replacement)
+ROSTER_RENAME_PATTERNS = [
+    (re.compile(r'^(BIG10\+\s*\d+):.*', re.I), r'\1'),
+    (re.compile(r'^(USA\s+ESPN\+\s*\d+):.*', re.I), r'\1'),
+    (re.compile(r'^(USA\s+PPV\d+):.*', re.I), r'\1'),
+]
 
 # Chris's hand-made icons WIN; hunt posters fill gaps only.
 CHRIS_ICONS = os.path.join(BUILD_DIR, 'work', 'chris_logos', 'icon_urls.json')
@@ -580,11 +630,15 @@ def _icon_file(*paths):
     return None
 
 
-def apply_roster_patches(roster, order):
+def apply_roster_patches(roster, order, classes):
     """Sunday corrections applied to the in-memory roster before the build.
 
     - ROSTER_RENAMES: fix wrong display names (KMTV ABC -> CBS).
+    - ROSTER_RENAME_PATTERNS: strip fossilized per-event names to honest
+      generic (BIG10+/ESPN+/PPV numbered event channels).
     - ROSTER_DROPS: remove obsolete channel ids (deduped Hunted).
+    - ROSTER_ADDITIONS: insert playlist channels missing from the roster
+      (Alaska/Hawaii numeric stream ids); classed 'regular'.
     - Icons: Chris's hand-made icon_urls.json wins outright; the auto-hunt
       poster_hunt_results.json fills only channels that still lack an icon.
     Returns the pruned order list.
@@ -593,10 +647,25 @@ def apply_roster_patches(roster, order):
     for cid, name in ROSTER_RENAMES.items():
         if cid in roster:
             roster[cid] = (name, roster[cid][1])
+    pat_ren = 0
+    for rx, repl in ROSTER_RENAME_PATTERNS:
+        for cid in list(roster):
+            name, icon = roster[cid]
+            new = rx.sub(repl, name or '')
+            if new != name:
+                roster[cid] = (new, icon)
+                pat_ren += 1
     dropped = [cid for cid in ROSTER_DROPS if cid in roster]
     for cid in dropped:
         del roster[cid]
     order = [cid for cid in order if cid not in ROSTER_DROPS]
+    added = 0
+    for cid, name in ROSTER_ADDITIONS.items():
+        if cid not in roster:
+            roster[cid] = (name, '')
+            order.append(cid)
+            classes[cid] = 'regular'
+            added += 1
 
     chris_path = _icon_file(CHRIS_ICONS, CHRIS_ICONS_REPO)
     chris = json.load(open(chris_path)) if chris_path else {}
@@ -612,7 +681,8 @@ def apply_roster_patches(roster, order):
         if cid in roster and not roster[cid][1]:
             roster[cid] = (roster[cid][0], url)
             filled += 1
-    log(f"roster patches: {ren} renames, {len(dropped)} drops, "
+    log(f"roster patches: {ren} renames, {pat_ren} pattern renames, "
+        f"{len(dropped)} drops, {added} additions, "
         f"{overwrote} chris icons applied, {filled} hunt gaps filled")
     return order
 
@@ -826,6 +896,18 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
     roster_ids = set(roster)
     reg_max_stop = {}  # cid -> latest programme stop (regular class only)
     fossil_cutoff = anchor - timedelta(hours=6)
+    # Programme clones (Alaska/Hawaii playlist aliases): source_id ->
+    # [target_ids]. Clone copies are written wherever the source's
+    # programmes are written, with the channel id swapped. Sources are
+    # already in local air time; clones are NEVER re-shifted.
+    clone_targets = {}
+    for _tid, _sid in CLONE_SOURCES.items():
+        if _tid in roster_ids and _sid in roster_ids:
+            clone_targets.setdefault(_sid, []).append(_tid)
+    _chan_attr_re = re.compile(r'channel="[^"]*"')
+    if clone_targets:
+        log(f"build: {sum(len(v) for v in clone_targets.values())} clone "
+            f"targets from {len(clone_targets)} sources")
     with open(out_path, 'w', encoding='utf-8') as fout:
         fout.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n')
         for cid in order:
@@ -851,6 +933,9 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                 ms = min_start_247.get(cid)
                 delta = (anchor - ms) if ms else timedelta(0)
                 fout.write(serialize_programme(elem, delta=delta))
+                for _t in clone_targets.get(cid, ()):
+                    fout.write(serialize_programme(elem, channel=_t,
+                                                  delta=delta))
                 c['shifted_247'] += 1
             elif cls == 'placeholder':
                 # Old fixed-date block is expired by design; drop it. A fresh
@@ -872,10 +957,16 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                     c['dropped_fossil'] += 1
                 else:
                     fout.write(serialize_programme(elem))
+                    for _t in clone_targets.get(cid, ()):
+                        fout.write(serialize_programme(elem, channel=_t))
                     c['carried'] += 1
                     if stop and (cid not in reg_max_stop
                                  or stop > reg_max_stop[cid]):
                         reg_max_stop[cid] = stop
+                        for _t in clone_targets.get(cid, ()):
+                            if (_t not in reg_max_stop
+                                    or stop > reg_max_stop[_t]):
+                                reg_max_stop[_t] = stop
             elem.clear()
         # Freshness: a channel counts as covered only if some programme
         # extends past anchor+12h (this mirrors the validation gate). The
@@ -898,6 +989,11 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                         if st and (fcid not in fresh_max_stop
                                    or st > fresh_max_stop[fcid]):
                             fresh_max_stop[fcid] = st
+        # Clone targets inherit their source's latest stop so the rolling
+        # placeholder loop below never overlaps cloned real listings.
+        for _tid, _sid in CLONE_SOURCES.items():
+            if _tid in roster_ids and _sid in fresh_max_stop:
+                fresh_max_stop[_tid] = fresh_max_stop[_sid]
         for cid in order:
             if classes.get(cid) not in ('placeholder', 'regular'):
                 continue
@@ -913,12 +1009,20 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
             for p in verified_fresh[tid]:
                 fout.write(p)
                 c['fresh_appended'] += 1
+                for _t in clone_targets.get(tid, ()):
+                    fout.write(_chan_attr_re.sub(f'channel="{_t}"', p,
+                                                 count=1))
+                    c['fresh_appended'] += 1
         for cid in sorted(service_new):
             if cid in roster_ids and classes.get(cid) == 'regular' \
                     and cid not in verified_new:
                 for p in service_progs[cid]:
                     fout.write(p)
                     c['service_appended'] += 1
+                    for _t in clone_targets.get(cid, ()):
+                        fout.write(_chan_attr_re.sub(f'channel="{_t}"', p,
+                                                     count=1))
+                        c['service_appended'] += 1
         fout.write('</tv>\n')
     log("build: " + ", ".join(f"{k}={v}" for k, v in c.items()))
     return c
@@ -1259,7 +1363,7 @@ def main(argv):
 
         # 2b. Sunday roster patches: renames (KMTV), drops (Hunted),
         # Chris icons win, hunt posters fill gaps.
-        order = apply_roster_patches(roster, order)
+        order = apply_roster_patches(roster, order, classes)
 
         # 3. verified set + fresh feed programmes
         matches = load_verified_matches()
@@ -1425,24 +1529,58 @@ def main(argv):
         # 3d. NFL Sunday Ticket schedule injection (best-effort; never aborts).
         # One-off game entries from nfl_sunday_ticket.json. Skips itself once
         # valid_until_utc has passed. Only fills channels with no real future
-        # data -- never overwrites existing listings.
+        # data -- never overwrites existing listings. Also refreshes the
+        # roster display names from the injected matchup (2026-09-27: the
+        # old code injected programmes but left 705-707 showing last week's
+        # matchup and 708-713 blank).
         nfl_injected = 0
+        nfl_renamed = 0
         try:
             if os.path.isfile(NFL_SCHEDULE):
                 nfl_raw = json.load(open(NFL_SCHEDULE))
                 valid_until = nfl_raw.get('_meta', {}).get('valid_until_utc', '')
                 if valid_until and datetime.now(timezone.utc).isoformat() < valid_until:
+                    _disp_names = nfl_raw.get('_display_names', {}) or {}
+                    _nfl_title_re = re.compile(
+                        r'<title[^>]*>\s*NFL Football:\s*(.+?)\s+at\s+(.+?)\s*</title>',
+                        re.I)
+                    _nfl_kick_re = re.compile(
+                        r'Kickoff\s+(\d{1,2}:\d{2}\s*[AP]M\s*ET)', re.I)
+                    _nfl_num_re = re.compile(r'nfl-sunday-(70[5-9]|71[0-7])\b',
+                                             re.I)
                     for tcid, plist in nfl_raw.items():
                         if tcid.startswith('_') or tcid not in roster:
                             continue
                         if tcid not in verified_fresh:
                             verified_fresh[tcid] = plist
                             nfl_injected += 1
+                        # Derive the display name from the injected game:
+                        # prefer the updater's _display_names, else parse
+                        # the programme XML.
+                        _disp = _disp_names.get(tcid)
+                        if not _disp:
+                            _nm = _nfl_num_re.search(tcid)
+                            _t = _nfl_title_re.search(plist[0] if plist else '')
+                            _k = _nfl_kick_re.search(plist[0] if plist else '')
+                            if _nm and _t:
+                                _away = _t.group(1).strip()
+                                _home = _t.group(2).strip()
+                                _kick = _k.group(1).strip() if _k else ''
+                                _disp = (f"USA NFL Sunday {_nm.group(1)}: "
+                                         f"{_away} vs {_home}")
+                                if _kick:
+                                    _disp += f" @ {_kick}"
+                        if _disp and roster[tcid][0] != _disp:
+                            roster[tcid] = (_disp, roster[tcid][1])
+                            nfl_renamed += 1
                 else:
                     log("nfl: schedule expired, skipping")
         except Exception as e:
             log(f"nfl: injection failed ({e}); continuing")
-        report['stages']['nfl'] = {'injected_channels': nfl_injected}
+        report['stages']['nfl'] = {'injected_channels': nfl_injected,
+                                   'renamed': nfl_renamed}
+        if nfl_renamed:
+            log(f"nfl: refreshed {nfl_renamed} display names")
 
         # 4. optional provider XML hook for regular channels
         service_progs = load_service_xml(service_xml) if service_xml else {}
@@ -1499,13 +1637,13 @@ def main(argv):
         # 9. promote (or copy to --out for CI)
         report['result'] = 'OK'
         write_report(report, workdir)
-        if out_copy:
-            shutil.copy2(out_path, out_copy)
-            log(f"copied final build -> {out_copy}")
         if no_promote:
             log(f"OK: all gates passed. --no-promote: new build left at {out_path}")
         else:
             promote(out_path)
+        if out_copy:
+            shutil.copy2(out_path, out_copy)
+            log(f"copied final build -> {out_copy}")
         log(f"done: {vrep['channels']} channels, {vrep['programmes']} programmes, "
             f"{vrep['icons']} icons")
         return 0
