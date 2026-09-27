@@ -951,13 +951,7 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                 c['dropped_placeholder'] += 1
             else:
                 stop = parse_ts(elem.get('stop') or '')
-                title = (elem.findtext('title') or '').strip()
-                if not title:
-                    # Empty-title programmes are junk (feed corruption or
-                    # malformed data). Drop them so they don't pollute
-                    # min/max tracking and block gap-fill placeholders.
-                    c['dropped_fossil'] += 1
-                elif stop and stop < fossil_cutoff:
+                if stop and stop < fossil_cutoff:
                     # Fossil: ended >6h before the anchor. TiviMate renders
                     # now->future only, so these are invisible there; carrying
                     # them forever is what inflated "real data" counts while
