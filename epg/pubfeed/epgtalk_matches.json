@@ -1,0 +1,5037 @@
+{
+ "22nacional.mx": {
+  "feed_channel_id": "I127.91060.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "2mmaroc.ca": {
+  "feed_channel_id": "I394.63234.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "4seven.uk": {
+  "feed_channel_id": "I510.89542.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "5star.uk": {
+  "feed_channel_id": "I15.52336.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "92news.uk": {
+  "feed_channel_id": "I252.10918.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "ALTSPRT": {
+  "feed_channel_id": "I413.65596.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "AMC.cz": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "AMC.hr": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "AMC.hu": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "AMC.ro": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "ARTCinema.sa": {
+  "feed_channel_id": "I515.10120.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "ARTE.de": {
+  "feed_channel_id": "I78.87847.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "ARYFamily.pk": {
+  "feed_channel_id": "I391.34879.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "AXN.cz": {
+  "feed_channel_id": "I87.72534.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "AXN.hr": {
+  "feed_channel_id": "I87.72534.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "AXN.hu": {
+  "feed_channel_id": "I87.72534.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "AnimalPlanet.cz": {
+  "feed_channel_id": "I282.16331.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "AnimalPlanet.dk": {
+  "feed_channel_id": "I282.57394.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "AnimalPlanet.hr": {
+  "feed_channel_id": "I282.57394.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "AnimalPlanet.nl": {
+  "feed_channel_id": "I282.16331.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Antena3.ro": {
+  "feed_channel_id": "I458.16800.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "BBCEarth.dk": {
+  "feed_channel_id": "I811.53128.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "BYUTV": {
+  "feed_channel_id": "I374.21855.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "BabyFirstTV.us": {
+  "feed_channel_id": "I106.78831.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "BabyTV.de": {
+  "feed_channel_id": "I96.48542.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "BabyTV.nl": {
+  "feed_channel_id": "I96.48542.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "BabyTV.tr": {
+  "feed_channel_id": "I96.48542.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "BabyTVAr.qa": {
+  "feed_channel_id": "I96.48542.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "Boomerang.cz": {
+  "feed_channel_id": "I298.21883.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Boomerang.de": {
+  "feed_channel_id": "I298.21883.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "Boomerang.dk": {
+  "feed_channel_id": "I286.105266.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "Boomerang.hu": {
+  "feed_channel_id": "I298.21883.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Boomerang.nl": {
+  "feed_channel_id": "I298.21883.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Boomerang.no": {
+  "feed_channel_id": "I286.105266.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "Boomerang.ro": {
+  "feed_channel_id": "I298.21883.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "BoomerangAr.qa": {
+  "feed_channel_id": "I286.105266.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "CBC.eg": {
+  "feed_channel_id": "I196.16261.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "CartoonNetwork.de": {
+  "feed_channel_id": "I296.12131.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "CartoonNetwork.dk": {
+  "feed_channel_id": "I296.60048.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "CartoonNetwork.nl": {
+  "feed_channel_id": "I296.12131.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "CartoonNetwork.no": {
+  "feed_channel_id": "I296.60048.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "CartoonNetwork.ro": {
+  "feed_channel_id": "I296.12131.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "CartoonNetwork.tr": {
+  "feed_channel_id": "I296.60048.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "CartoonNetworkTCM.hu": {
+  "feed_channel_id": "I296.12131.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Cinemax.bg": {
+  "feed_channel_id": "I516.35975.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Cinemax.cz": {
+  "feed_channel_id": "I515.10120.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Cinemax.hu": {
+  "feed_channel_id": "I515.10120.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "CityTV.co": {
+  "feed_channel_id": "I214.10125.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "ComedyCentral.de": {
+  "feed_channel_id": "I249.10149.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "ComedyCentral.hu": {
+  "feed_channel_id": "I249.10149.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "DiscoveryChannel.de": {
+  "feed_channel_id": "I278.11150.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "DiscoveryChannel.dk": {
+  "feed_channel_id": "I278.11150.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "DiscoveryChannel.fi": {
+  "feed_channel_id": "I278.11150.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "DiscoveryChannel.hu": {
+  "feed_channel_id": "I278.56905.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "DiscoveryChannel.no": {
+  "feed_channel_id": "I278.56905.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "DiscoveryChannel.ro": {
+  "feed_channel_id": "I278.11150.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "DiscoveryScience.cz": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "DiscoveryScience.dk": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "DiscoveryScience.hu": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "DiscoveryScience.nl": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "DiscoveryScience.no": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "DiscoveryWorld.nl": {
+  "feed_channel_id": "I228.66488.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "DiscoveryWorld.no": {
+  "feed_channel_id": "I228.66488.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "DisneyChannel.cz": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "DisneyChannel.de": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "DisneyChannel.dk": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "DisneyChannel.fi": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "DisneyChannel.hu": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "DisneyChannel.no": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "DisneyChannel.ro": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "DisneyChannel.tr": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "DisneyJunior.fi": {
+  "feed_channel_id": "I231.61311.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "DisneyJunior.il": {
+  "feed_channel_id": "I231.61311.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "DisneyJunior.no": {
+  "feed_channel_id": "I231.61311.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "DisneyXD.fi": {
+  "feed_channel_id": "I292.18279.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "DisneyXD.no": {
+  "feed_channel_id": "I292.18279.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Dutv.hr": {
+  "feed_channel_id": "I1337.68073.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "EPG123.104524.XMLTV.CO": {
+  "feed_channel_id": "I501.105877.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "EPG123.62889.XMLTV.CO": {
+  "feed_channel_id": "I129.20742.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "EPG123.72139.XMLTV.CO": {
+  "feed_channel_id": "I486.72139.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "EPG123.90971.XMLTV.CO": {
+  "feed_channel_id": "I258.14988.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "ESPNMBR": {
+  "feed_channel_id": "I209.45507.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Euronews.de": {
+  "feed_channel_id": "I459.83671.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "Eurosport1.cz": {
+  "feed_channel_id": "I462.66603.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "Eurosport1.de": {
+  "feed_channel_id": "I462.66603.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "Eurosport1.dk": {
+  "feed_channel_id": "I462.66603.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "Eurosport1.gr": {
+  "feed_channel_id": "I462.66603.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "Eurosport1.hu": {
+  "feed_channel_id": "I462.66603.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "Eurosport1.tr": {
+  "feed_channel_id": "I462.66603.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "FOXNews.id": {
+  "feed_channel_id": "I2.1.19600.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "FXHD.qa": {
+  "feed_channel_id": "I248.14321.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "Fairchild.ca": {
+  "feed_channel_id": "I483.57825.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "Film4.hu": {
+  "feed_channel_id": "I487.21494.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "FilmAndArts.mx": {
+  "feed_channel_id": "I322.106731.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "FoodNetwork.hu": {
+  "feed_channel_id": "I231.12574.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "FoxSports2.nl": {
+  "feed_channel_id": "I209.45507.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "FoxSports3.nl": {
+  "feed_channel_id": "I295.79042.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "GarageTV.es": {
+  "feed_channel_id": "I365.50263.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "HBO.bg": {
+  "feed_channel_id": "I501.10240.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "HBO.cz": {
+  "feed_channel_id": "I501.10240.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "HBO.hu": {
+  "feed_channel_id": "I501.10240.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "HBO2.bg": {
+  "feed_channel_id": "I390.68140.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "HBO2.cz": {
+  "feed_channel_id": "I390.68140.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "HBO2.hr": {
+  "feed_channel_id": "I390.68140.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "HBO2.hu": {
+  "feed_channel_id": "I390.68140.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "HistoryChannel.hu": {
+  "feed_channel_id": "I269.57708.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "HistoryChannel.rs": {
+  "feed_channel_id": "I269.57708.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "HistoryChannel.uk": {
+  "feed_channel_id": "I269.57708.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "HistoryHD.il": {
+  "feed_channel_id": "I269.57708.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "I24NEWA": {
+  "feed_channel_id": "I579.87374.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "InvestigationDiscovery.nl": {
+  "feed_channel_id": "I591.62496.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "InvestigationDiscovery.no": {
+  "feed_channel_id": "I435.65342.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "KTV.de": {
+  "feed_channel_id": "I703.117379.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "LasEstrellas.mx": {
+  "feed_channel_id": "I1004.16461.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "MTV.dk": {
+  "feed_channel_id": "I758.80924.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "MTV.nl": {
+  "feed_channel_id": "I758.80924.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "MTVGermany.de": {
+  "feed_channel_id": "I160.10986.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "MTVHits.de": {
+  "feed_channel_id": "I759.24214.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "MTVIndia.mu": {
+  "feed_channel_id": "I160.10986.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "MTVLive.de": {
+  "feed_channel_id": "I572.49141.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "Mariavision.mx": {
+  "feed_channel_id": "I461.12034.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "NBATV.th": {
+  "feed_channel_id": "I216.32281.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "NCKLDN": {
+  "feed_channel_id": "I299.11006.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "NatGeo.hu": {
+  "feed_channel_id": "I778.49534.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "NatGeo.nl": {
+  "feed_channel_id": "I778.49534.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "NatGeoWild.bg": {
+  "feed_channel_id": "I781.56425.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "NatGeoWild.de": {
+  "feed_channel_id": "I780.23305.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "NatGeoWild.dk": {
+  "feed_channel_id": "I780.23305.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "NatGeoWild.hu": {
+  "feed_channel_id": "I781.56425.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "NickHits.nl": {
+  "feed_channel_id": "I519.90209.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "NickJr.nl": {
+  "feed_channel_id": "I301.82649.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Nickelodeon.cz": {
+  "feed_channel_id": "I299.11006.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Nickelodeon.dk": {
+  "feed_channel_id": "I813.69261.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "Nickelodeon.hr": {
+  "feed_channel_id": "I813.69261.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "Nickelodeon.hu": {
+  "feed_channel_id": "I299.11006.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Nickelodeon.nl": {
+  "feed_channel_id": "I299.11006.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Nickelodeon.no": {
+  "feed_channel_id": "I813.69261.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "Nickelodeon.ro": {
+  "feed_channel_id": "I299.11006.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Nicktoons.hu": {
+  "feed_channel_id": "I302.30420.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Nicktoons.nl": {
+  "feed_channel_id": "I302.30420.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "One.de": {
+  "feed_channel_id": "I840.90457.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "ParamountNetwork.dk": {
+  "feed_channel_id": "I241.11163.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Phoenix.de": {
+  "feed_channel_id": "I853.83627.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "QVC.de": {
+  "feed_channel_id": "I901.83633.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "RAII": {
+  "feed_channel_id": "I555.19040.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "REVEL": {
+  "feed_channel_id": "I1015.32561.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "REVHD": {
+  "feed_channel_id": "I214.61036.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "RTETwo.ie": {
+  "feed_channel_id": "I939.99521.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "SkyAction.de": {
+  "feed_channel_id": "I996.24031.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "SkyCinemaFamily.de": {
+  "feed_channel_id": "I1005.24040.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "SkyCinemaPremieren.de": {
+  "feed_channel_id": "I1008.59691.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "SkyCinemaThriller.de": {
+  "feed_channel_id": "I1005.50176.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "SkyComedy.uk": {
+  "feed_channel_id": "I1019.113613.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "SkySportNews.de": {
+  "feed_channel_id": "I1068.87131.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "SonyMax.hu": {
+  "feed_channel_id": "I1140.116704.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "SonyMovieChannel.hu": {
+  "feed_channel_id": "I568.69130.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Sport1.cz": {
+  "feed_channel_id": "I1149.67214.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "Sport1.hu": {
+  "feed_channel_id": "I1149.67214.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "StarzComedy.us": {
+  "feed_channel_id": "I249.10149.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "Syfy.de": {
+  "feed_channel_id": "I244.11097.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "TLC.de": {
+  "feed_channel_id": "I280.11158.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "TLC.hr": {
+  "feed_channel_id": "I280.11158.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "TLC.hu": {
+  "feed_channel_id": "I280.11158.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "TLC.mx": {
+  "feed_channel_id": "I1239.79654.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "TLC.nl": {
+  "feed_channel_id": "I280.11158.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "TLC.ro": {
+  "feed_channel_id": "I280.11158.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "TVCNews.uk": {
+  "feed_channel_id": "I1299.117901.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "TeleNovelas.mx": {
+  "feed_channel_id": "I699.37232.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "Tooncast.br": {
+  "feed_channel_id": "I711.63109.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "TruTV.uk": {
+  "feed_channel_id": "I246.10153.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "VOXup.de": {
+  "feed_channel_id": "I1364.113043.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "aande.br": {
+  "feed_channel_id": "I265.10035.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "aande.ca": {
+  "feed_channel_id": "I265.10035.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "aande.us": {
+  "feed_channel_id": "I265.10035.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "aandemundo.ar": {
+  "feed_channel_id": "I265.10035.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "aandemundo.mx": {
+  "feed_channel_id": "I265.10035.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "aaraby.eg": {
+  "feed_channel_id": "I759.24214.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "accnetwork.us": {
+  "feed_channel_id": "I612.111905.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "accuweather.us": {
+  "feed_channel_id": "I361.91994.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "adultswim.ca": {
+  "feed_channel_id": "I17.16496.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "aljazeera.uk": {
+  "feed_channel_id": "I50.102458.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "amc.ar": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "amc.br": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "amc.ca": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "amc.es": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "amc.mx": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "amc.pl": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "amc.pt": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "amc.uk": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "amc.us": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "amcplus.us": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "animalplanet.br": {
+  "feed_channel_id": "I282.16331.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "animalplanet.mx": {
+  "feed_channel_id": "I282.16331.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "animalplanet.pl": {
+  "feed_channel_id": "I282.57394.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "animalplanet.se": {
+  "feed_channel_id": "I282.16331.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "animalplanet.uk": {
+  "feed_channel_id": "I62.20707.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "aspiretv.us": {
+  "feed_channel_id": "I381.97409.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "axn.br": {
+  "feed_channel_id": "I87.72534.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "axn.es": {
+  "feed_channel_id": "I87.72534.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "axn.mx": {
+  "feed_channel_id": "I87.72534.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "axn.pl": {
+  "feed_channel_id": "I87.72534.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "axstv.us": {
+  "feed_channel_id": "I340.28506.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "aymsports.mx": {
+  "feed_channel_id": "I89.34863.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "b4umusic.uk": {
+  "feed_channel_id": "I90.68054.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "babyfirsttv.pl": {
+  "feed_channel_id": "I96.48542.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "babytv.br": {
+  "feed_channel_id": "I96.48542.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "babytv.it": {
+  "feed_channel_id": "I96.48542.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "babytv.mx": {
+  "feed_channel_id": "I96.48542.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "babytv.pt": {
+  "feed_channel_id": "I96.48542.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "babytv.uk": {
+  "feed_channel_id": "I96.48542.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "bandamax.mx": {
+  "feed_channel_id": "I433.54867.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "bbc1wales.uk": {
+  "feed_channel_id": "I162.21441.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "bbc4.uk": {
+  "feed_channel_id": "I109.20684.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "bbcalba.uk": {
+  "feed_channel_id": "I104.60940.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "bbcamerica.us": {
+  "feed_channel_id": "I264.64492.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "bbccbeebies.pl": {
+  "feed_channel_id": "I317.83283.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "bbcearth.ca": {
+  "feed_channel_id": "I811.53128.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "bbcearth.pl": {
+  "feed_channel_id": "I811.53128.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "bbcearth.se": {
+  "feed_channel_id": "I811.53128.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "bbcnews.uk": {
+  "feed_channel_id": "I117.83285.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "bbcscotland.uk": {
+  "feed_channel_id": "I1000.110540.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "bbcworld.ca": {
+  "feed_channel_id": "I510.89542.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "bbcworldnews.pt": {
+  "feed_channel_id": "I510.89542.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "bbcworldnewsnorthamerica.us": {
+  "feed_channel_id": "I510.89542.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "beinsport.ca": {
+  "feed_channel_id": "I1412.91308.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "betgospel.us": {
+  "feed_channel_id": "I362.16484.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "bether.us": {
+  "feed_channel_id": "I330.14897.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "bitme.mx": {
+  "feed_channel_id": "I112.72801.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "blaze.es": {
+  "feed_channel_id": "I279.101972.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "blaze.pt": {
+  "feed_channel_id": "I279.101972.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "blaze.uk": {
+  "feed_channel_id": "I279.101972.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "bloombergtv.mx": {
+  "feed_channel_id": "I353.71799.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "bloombergtv.uk": {
+  "feed_channel_id": "I353.71799.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "bloombergtv.us": {
+  "feed_channel_id": "I353.71799.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "boomerang.br": {
+  "feed_channel_id": "I298.21883.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "boomerang.mx": {
+  "feed_channel_id": "I298.21883.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "boomerang.pl": {
+  "feed_channel_id": "I286.105266.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "boomerang.se": {
+  "feed_channel_id": "I298.21883.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "boomerang.us": {
+  "feed_channel_id": "I298.21883.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "bravo.ca": {
+  "feed_channel_id": "I237.10057.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "btsport1.uk": {
+  "feed_channel_id": "I1240.97542.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "btsport2.uk": {
+  "feed_channel_id": "I1246.82451.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "btsport3.uk": {
+  "feed_channel_id": "I1248.95772.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "canal14.ni": {
+  "feed_channel_id": "I124.90518.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "canalonce.mx": {
+  "feed_channel_id": "I447.36139.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "cartoonito.it": {
+  "feed_channel_id": "I1000.55719.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "cartoonito.uk": {
+  "feed_channel_id": "I1000.55719.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "cartoonnetwork.ar": {
+  "feed_channel_id": "I296.12131.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "cartoonnetwork.br": {
+  "feed_channel_id": "I296.12131.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cartoonnetwork.ca": {
+  "feed_channel_id": "I296.12131.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cartoonnetwork.mx": {
+  "feed_channel_id": "I296.12131.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "cartoonnetwork.pl": {
+  "feed_channel_id": "I296.60048.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cartoonnetwork.pt": {
+  "feed_channel_id": "I296.12131.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "cartoonnetwork.se": {
+  "feed_channel_id": "I296.12131.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cartoonnetwork.uk": {
+  "feed_channel_id": "I306.17667.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "cbbc.uk": {
+  "feed_channel_id": "I315.83281.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "cbc.eg": {
+  "feed_channel_id": "I196.16261.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cbccalgary.ca": {
+  "feed_channel_id": "I245.15939.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cbcedmonton.ca": {
+  "feed_channel_id": "I196.16261.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "cbcfredericton.ca": {
+  "feed_channel_id": "I196.16261.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cbchalifax.ca": {
+  "feed_channel_id": "I1010.72723.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cbcmontreal.ca": {
+  "feed_channel_id": "I206.10092.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cbcottawa.ca": {
+  "feed_channel_id": "I208.10097.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cbcregina.ca": {
+  "feed_channel_id": "I196.16261.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "cbctoronto.ca": {
+  "feed_channel_id": "I210.46245.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cbcvancouver.ca": {
+  "feed_channel_id": "I251.10100.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cbcwindsor.ca": {
+  "feed_channel_id": "I587.10088.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cbcwinnipeg.ca": {
+  "feed_channel_id": "I1090.72940.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cbssportsnetworkusa.us": {
+  "feed_channel_id": "I221.16365.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cgtn.us": {
+  "feed_channel_id": "I2053.29114.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "channel4.uk": {
+  "feed_channel_id": "I1021.50716.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "chsn.us": {
+  "feed_channel_id": "I25.183131.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cinecanal.ar": {
+  "feed_channel_id": "I163.70424.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "cinecanal.mx": {
+  "feed_channel_id": "I163.70424.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "cinemax.br": {
+  "feed_channel_id": "I515.10120.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "cinemax.mx": {
+  "feed_channel_id": "I515.10120.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "cinemax.pl": {
+  "feed_channel_id": "I516.35975.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cinemax.us": {
+  "feed_channel_id": "I515.34933.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cleo.us": {
+  "feed_channel_id": "I341.110289.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "clublandtv.uk": {
+  "feed_channel_id": "I375.97304.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "cmt.ca": {
+  "feed_channel_id": "I327.10138.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cmt.us": {
+  "feed_channel_id": "I327.10138.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "cnbc.us": {
+  "feed_channel_id": "I355.10139.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cnbcworld.us": {
+  "feed_channel_id": "I357.26849.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cnn.ca": {
+  "feed_channel_id": "I202.58646.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cnn.mx": {
+  "feed_channel_id": "I358.10146.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "cnn.ro": {
+  "feed_channel_id": "I202.58646.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cnn.uk": {
+  "feed_channel_id": "I202.58646.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cnn.us": {
+  "feed_channel_id": "I202.58646.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "cnnespanol.us": {
+  "feed_channel_id": "I419.17054.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cnninternational.us": {
+  "feed_channel_id": "I358.10146.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cnninternationalna.ca": {
+  "feed_channel_id": "I358.10146.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "colors.uk": {
+  "feed_channel_id": "I387.103000.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "colorsrishtey.uk": {
+  "feed_channel_id": "I388.77777.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "comedycentral.br": {
+  "feed_channel_id": "I249.10149.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "comedycentral.es": {
+  "feed_channel_id": "I249.10149.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "comedycentral.mx": {
+  "feed_channel_id": "I249.10149.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "comedycentral.se": {
+  "feed_channel_id": "I249.10149.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "comedycentral.uk": {
+  "feed_channel_id": "I249.10149.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "comedycentral.us": {
+  "feed_channel_id": "I249.62420.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "comedytv.us": {
+  "feed_channel_id": "I382.82470.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cookingchannel.ca": {
+  "feed_channel_id": "I232.30156.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cookingchannel.us": {
+  "feed_channel_id": "I232.30156.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cottagelife.ca": {
+  "feed_channel_id": "I641.26779.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "court.us": {
+  "feed_channel_id": "I395.117160.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "cozinetwork.us": {
+  "feed_channel_id": "I80.78851.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "crave1.ca": {
+  "feed_channel_id": "I300.10191.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "crave2.ca": {
+  "feed_channel_id": "I301.12222.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "crave3.ca": {
+  "feed_channel_id": "I302.12223.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "crave4.ca": {
+  "feed_channel_id": "I303.21351.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "crimeinvestigation.us": {
+  "feed_channel_id": "I571.61469.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cspan.us": {
+  "feed_channel_id": "I350.10161.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "cspan2.us": {
+  "feed_channel_id": "I351.10162.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "ctv2barrie.ca": {
+  "feed_channel_id": "I209.10116.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "ctv2london.ca": {
+  "feed_channel_id": "I209.10116.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "ctv2ottawa.ca": {
+  "feed_channel_id": "I209.10116.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "ctv2toronto.ca": {
+  "feed_channel_id": "I209.10116.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "ctvcalgary.ca": {
+  "feed_channel_id": "I900.62890.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "ctvedmonton.ca": {
+  "feed_channel_id": "I205.65995.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "ctvhalifax.ca": {
+  "feed_channel_id": "I1011.72780.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "ctvkitchener.ca": {
+  "feed_channel_id": "I205.65995.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "ctvmontreal.ca": {
+  "feed_channel_id": "I205.65995.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "ctvottawa.ca": {
+  "feed_channel_id": "I205.65995.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "ctvtoronto.ca": {
+  "feed_channel_id": "I212.44784.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "ctvvancouver.ca": {
+  "feed_channel_id": "I205.65995.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "ctvwinnipeg.ca": {
+  "feed_channel_id": "I205.65995.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "dave.uk": {
+  "feed_channel_id": "I1306.73129.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "daystar.us": {
+  "feed_channel_id": "I413.105267.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "dejaview.ca": {
+  "feed_channel_id": "I636.26873.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "depelicula.mx": {
+  "feed_channel_id": "I207.19736.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "destinationamerica.us": {
+  "feed_channel_id": "I286.60468.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "discoverchannel.br": {
+  "feed_channel_id": "I278.11150.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "discovery.pl": {
+  "feed_channel_id": "I425.17444.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "discoverychannel.es": {
+  "feed_channel_id": "I278.11150.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "discoverychannel.it": {
+  "feed_channel_id": "I278.11150.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "discoverychannel.mx": {
+  "feed_channel_id": "I278.11150.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "discoverychannel.pt": {
+  "feed_channel_id": "I278.11150.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "discoverychannel.uk": {
+  "feed_channel_id": "I425.17444.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "discoverychannel.us": {
+  "feed_channel_id": "I278.56905.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "discoverydmax.uk": {
+  "feed_channel_id": "I437.83579.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "discoveryfamilia.us": {
+  "feed_channel_id": "I436.58428.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "discoveryfamily.us": {
+  "feed_channel_id": "I294.16618.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "discoveryhdtheater.mx": {
+  "feed_channel_id": "I225.65940.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "discoveryhistory.uk": {
+  "feed_channel_id": "I428.24280.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "discoveryhomehealth.br": {
+  "feed_channel_id": "I216.97928.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "discoverykids.ar": {
+  "feed_channel_id": "I221.45955.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "discoverykids.br": {
+  "feed_channel_id": "I221.45955.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "discoverykids.mx": {
+  "feed_channel_id": "I221.45955.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "discoverylife.pl": {
+  "feed_channel_id": "I261.16125.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "discoverylife.us": {
+  "feed_channel_id": "I261.16125.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "discoveryscience.br": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "discoveryscience.it": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "discoveryscience.mx": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "discoveryscience.pl": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "discoveryscience.se": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "discoveryscience.uk": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "discoveryscience.us": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "discoverytheater.br": {
+  "feed_channel_id": "I225.65940.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "discoveryturbo.br": {
+  "feed_channel_id": "I434.24284.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "discoveryturbo.mx": {
+  "feed_channel_id": "I434.24284.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "discoveryturbo.uk": {
+  "feed_channel_id": "I434.24284.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "discoveryworld.br": {
+  "feed_channel_id": "I228.66488.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "discoveryworld.mx": {
+  "feed_channel_id": "I228.66488.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "discoveryworld.se": {
+  "feed_channel_id": "I228.66488.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "disney.br": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "disney.co": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "disneychannel.ar": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "disneychannel.ca": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "disneychannel.es": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "disneychannel.mx": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "disneychannel.pl": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "disneychannel.pt": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "disneychannel.se": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "disneychannel.us": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "disneyjunior.ar": {
+  "feed_channel_id": "I231.61311.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "disneyjunior.ca": {
+  "feed_channel_id": "I231.61311.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "disneyjunior.es": {
+  "feed_channel_id": "I231.61311.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "disneyjunior.pl": {
+  "feed_channel_id": "I231.61311.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "disneyjunior.pt": {
+  "feed_channel_id": "I231.61311.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "disneyxd.br": {
+  "feed_channel_id": "I292.18279.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "disneyxd.ca": {
+  "feed_channel_id": "I292.60006.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "disneyxd.mx": {
+  "feed_channel_id": "I292.18279.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "disneyxd.pl": {
+  "feed_channel_id": "I292.18279.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "disneyxd.us": {
+  "feed_channel_id": "I292.18279.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "distritocomedia.mx": {
+  "feed_channel_id": "I235.55980.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "dmax.es": {
+  "feed_channel_id": "I437.83579.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "dogtv.pt": {
+  "feed_channel_id": "I562.82446.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "dogtv.us": {
+  "feed_channel_id": "I562.82446.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "drama.uk": {
+  "feed_channel_id": "I1309.82575.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "e4.uk": {
+  "feed_channel_id": "I446.25117.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "e4extra.uk": {
+  "feed_channel_id": "I448.31786.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "eentertainment.br": {
+  "feed_channel_id": "I236.10989.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "eentertainment.mx": {
+  "feed_channel_id": "I236.10989.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "eentertainment.se": {
+  "feed_channel_id": "I236.10989.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "elgourmet.mx": {
+  "feed_channel_id": "I279.45910.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "epg-arg-cnn-en-espanol-hd-9969acf4": {
+  "feed_channel_id": "I419.17054.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-arg-fox-news-c4d168b7": {
+  "feed_channel_id": "I2.1.19600.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-at-3-sat-fhd-b7872589": {
+  "feed_channel_id": "I5.83545.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-at-oe24-tv-cbfdb09d": {
+  "feed_channel_id": "I838.100923.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-bg-national-geographic-hd-01fac4ad": {
+  "feed_channel_id": "I778.49534.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-bih-axn-e3c47981": {
+  "feed_channel_id": "I87.72534.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-br-mtv-hd-dbdbd847": {
+  "feed_channel_id": "I758.80924.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-br-mtv-live-fhd-c2baa596": {
+  "feed_channel_id": "I572.49141.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-bein-sports-bf7f264c": {
+  "feed_channel_id": "I1412.91308.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-bein-sports-hd-7cb811de": {
+  "feed_channel_id": "I1412.91308.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-boomerang-af7a0446": {
+  "feed_channel_id": "I298.21883.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-cnbc-4b40cf1c": {
+  "feed_channel_id": "I355.10139.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-ctv-2-ottawa-d5be331b": {
+  "feed_channel_id": "I209.10116.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-ctv-toronto-967f862a": {
+  "feed_channel_id": "I212.44784.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-ctv-toronto-cfto-dd003cca": {
+  "feed_channel_id": "I212.44784.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-ctv2-189984ea": {
+  "feed_channel_id": "I209.10116.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-fox-news-cd7cf4db": {
+  "feed_channel_id": "I2.1.19600.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-global-news-hd-650f2320": {
+  "feed_channel_id": "I68.15993.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-global-news-montreal-ffc1ec74": {
+  "feed_channel_id": "I234.17406.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-hgtv-5429e9b5": {
+  "feed_channel_id": "I415.21257.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-ca-investigation-discovery-0f8ed9b4": {
+  "feed_channel_id": "I591.62496.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-ca-lifetime-7d2a6940": {
+  "feed_channel_id": "I252.10918.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-lifetime-movie-network-be17b5f6": {
+  "feed_channel_id": "I253.18480.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-magnolia-network-a9a1a616": {
+  "feed_channel_id": "I230.18544.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-makeful-3199c3de": {
+  "feed_channel_id": "I530.99429.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-mlb-network-acee2507": {
+  "feed_channel_id": "I213.62081.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-much-music-851e59ae": {
+  "feed_channel_id": "I486.72139.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-ca-oxygen-true-crime-a9a723c7": {
+  "feed_channel_id": "I251.70522.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-paramount-network-95943036": {
+  "feed_channel_id": "I241.11163.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-rds-fr-d395ff91": {
+  "feed_channel_id": "I123.15676.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-rds-hd-556b2f47": {
+  "feed_channel_id": "I123.15676.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-sportsman-channel-hd-e36500d5": {
+  "feed_channel_id": "I605.33930.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-sportsnet-360-daae1caf": {
+  "feed_channel_id": "I410.49952.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-sportsnet-c83f8c0a": {
+  "feed_channel_id": "I428.49882.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-sportsnet-east-cf4ac3e9": {
+  "feed_channel_id": "I406.18798.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-sportsnet-east-hd-f1fcdfe2": {
+  "feed_channel_id": "I406.18798.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-sportsnet-west-fhd-6d994d3b": {
+  "feed_channel_id": "I408.18800.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-sportsnet-west-hd-932efd1a": {
+  "feed_channel_id": "I408.18800.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-tsn-1-94688a58": {
+  "feed_channel_id": "I400.11182.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-tsn-1-hd-56e74e85": {
+  "feed_channel_id": "I400.11182.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-tsn-2-b9ea7689": {
+  "feed_channel_id": "I401.18990.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-tsn-2-hd-d16831c7": {
+  "feed_channel_id": "I401.18990.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-tsn-3-87b656e3": {
+  "feed_channel_id": "I402.90118.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-tsn-3-hd-2c55fe0b": {
+  "feed_channel_id": "I402.90118.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-tsn-4-b6bb14f4": {
+  "feed_channel_id": "I403.90122.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-tsn-4-hd-4193be0f": {
+  "feed_channel_id": "I403.90122.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ca-tsn-5-f2c19890": {
+  "feed_channel_id": "I404.90124.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-ca-tsn-5-hd-5f842118": {
+  "feed_channel_id": "I404.90124.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-cl-tv-chile-hd-87e864c5": {
+  "feed_channel_id": "I437.16046.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-co-caracol-international-hd-81d88460": {
+  "feed_channel_id": "I145.39719.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "epg-co-ntn24-96b7a406": {
+  "feed_channel_id": "I418.61988.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-co-tv-chile-665a6bf8": {
+  "feed_channel_id": "I437.16046.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-de-3sat-affc1aa1": {
+  "feed_channel_id": "I5.83545.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-de-dmax-fhd-31c5b7aa": {
+  "feed_channel_id": "I437.83579.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-de-e-fhd-277f38dc": {
+  "feed_channel_id": "I236.10989.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-de-oe24-tv-b4c01b99": {
+  "feed_channel_id": "I838.100923.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-de-sky-cinema-hits-fhd-e71602f7": {
+  "feed_channel_id": "I1003.49453.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-de-toggo-plus-fhd-5aee01f8": {
+  "feed_channel_id": "I1276.100062.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-de-vox-fhd-429b988a": {
+  "feed_channel_id": "I1360.88715.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-dk-h2-fhd-04348bb1": {
+  "feed_channel_id": "I1032.97203.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-dk-investigation-discovery-hd-f53ae7e2": {
+  "feed_channel_id": "I435.65342.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-es-antena-3-fhd-4d95fa0f": {
+  "feed_channel_id": "I458.16800.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-es-atreseries-fhd-90ae3ea7": {
+  "feed_channel_id": "I42.90917.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "epg-fi-h2-fhd-9d2451b9": {
+  "feed_channel_id": "I1032.97203.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-it-disney-junior-d2896146": {
+  "feed_channel_id": "I231.61311.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-it-dmax-1-hd-0c2243bb": {
+  "feed_channel_id": "I439.58792.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-it-dmax-79a50952": {
+  "feed_channel_id": "I437.83579.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-it-history-21a77f1e": {
+  "feed_channel_id": "I269.57708.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-la-telemundo-cb627741": {
+  "feed_channel_id": "I193.24521.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-la-unimas-miami-887da2e6": {
+  "feed_channel_id": "I408.68040.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-mx-cnn-en-espa-ol-fef96dc2": {
+  "feed_channel_id": "I419.17054.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-mx-foro-tv-fhd-66e36e70": {
+  "feed_channel_id": "I331.72313.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "epg-mx-fox-sports-2-fhd-f4cc96e6": {
+  "feed_channel_id": "I341.71328.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "epg-mx-fox-sports-2-hd-7c310ff1": {
+  "feed_channel_id": "I341.71328.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "epg-mx-fox-sports-3-fhd-30564d5b": {
+  "feed_channel_id": "I343.112239.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "epg-mx-fox-sports-3-hd-610516e6": {
+  "feed_channel_id": "I343.112239.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "epg-mx-fox-sports-a37cf224": {
+  "feed_channel_id": "I338.61704.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-mx-las-estrellas-65d992df": {
+  "feed_channel_id": "I1004.16461.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-mx-mtv-80s-hd-29da8836": {
+  "feed_channel_id": "I754.24170.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-mx-mtv-fhd-c247bd32": {
+  "feed_channel_id": "I160.10986.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-mx-ntn24-fhd-b22eac2a": {
+  "feed_channel_id": "I418.61988.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-mx-teleformula-51ec81ac": {
+  "feed_channel_id": "I685.34344.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-mx-telehit-0c8d498d": {
+  "feed_channel_id": "I687.15211.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-mx-teleritmo-704790c9": {
+  "feed_channel_id": "I693.32749.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-mx-tv-m-xiquense-hd-9f2c51f4": {
+  "feed_channel_id": "I724.92422.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-no-eurosport-1-fhd-05c7698d": {
+  "feed_channel_id": "I462.66603.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-no-vox-fhd-5a20a8d5": {
+  "feed_channel_id": "I1360.88715.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-pl-e-fhd-ae13e2b9": {
+  "feed_channel_id": "I236.10989.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-pl-h2-fhd-cf8f0297": {
+  "feed_channel_id": "I1032.97203.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-pl-mtv-live-hd-f6bdf767": {
+  "feed_channel_id": "I572.49141.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-pl-national-geographic-hd-e042d74d": {
+  "feed_channel_id": "I778.49534.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-pl-national-geographic-wild-hd-20b0d739": {
+  "feed_channel_id": "I781.56425.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-pt-axn-fhd-feb1a027": {
+  "feed_channel_id": "I87.72534.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "epg-pt-mtv-fhd-c0c356b8": {
+  "feed_channel_id": "I160.10986.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ro-e-fhd-b6bb0fd2": {
+  "feed_channel_id": "I236.10989.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-ro-hbo-2-45169392": {
+  "feed_channel_id": "I390.68140.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-ro-investigation-discovery-cb4908dc": {
+  "feed_channel_id": "I591.62496.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-ro-national-geographic-41bebf69": {
+  "feed_channel_id": "I276.24959.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-se-discovery-channel-aced6f48": {
+  "feed_channel_id": "I278.11150.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-se-disney-junior-833e31f6": {
+  "feed_channel_id": "I231.61311.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-se-nick-jr-e31628c7": {
+  "feed_channel_id": "I301.82649.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-uk-4seven-9ae1211a": {
+  "feed_channel_id": "I9.89562.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-uk-al-jazeera-hd-2fc02e76": {
+  "feed_channel_id": "I50.102458.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-uk-bbc-world-news-cfb386a2": {
+  "feed_channel_id": "I510.89542.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-uk-club-mtv-26b8be46": {
+  "feed_channel_id": "I189.89006.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-uk-disney-junior-fhd-f5ee0829": {
+  "feed_channel_id": "I231.61311.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "epg-uk-e-b9f64a05": {
+  "feed_channel_id": "I236.10989.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-uk-gb-news-a1d11f3c": {
+  "feed_channel_id": "I506.118853.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-uk-investigation-discovery-9d06abb0": {
+  "feed_channel_id": "I591.62496.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-uk-itv-2-01ca33ef": {
+  "feed_channel_id": "I664.69228.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-uk-itv-2-hd-c328eee1": {
+  "feed_channel_id": "I664.69228.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-uk-life-time-hd-9d376521": {
+  "feed_channel_id": "I252.10918.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-uk-more-4-fhd-88d91324": {
+  "feed_channel_id": "I747.47657.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-uk-more4-2457cdcb": {
+  "feed_channel_id": "I747.47657.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-uk-mtv-80s-8e4ac7a2": {
+  "feed_channel_id": "I754.24170.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-uk-now-80s-f207b1f1": {
+  "feed_channel_id": "I828.108488.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-uk-paramount-a3c4ded6": {
+  "feed_channel_id": "I533.106214.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-uk-sky-sports-f1-uhd-30265079": {
+  "feed_channel_id": "I1080.74410.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-uk-skysports-f1-cd287f22": {
+  "feed_channel_id": "I1080.74410.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-uk-sony-channel-3e60b579": {
+  "feed_channel_id": "I1137.31759.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-usa-a-e-sd-918101f9": {
+  "feed_channel_id": "I265.10035.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-a-e-uhd-26b4d8ee": {
+  "feed_channel_id": "I265.10035.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-abc-washington-3d7a2a6c": {
+  "feed_channel_id": "I187.20456.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-al-jazeera-hd-7447c309": {
+  "feed_channel_id": "I50.102458.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-usa-amc-74a12ccc": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-bein-sports-hd-e9b77104": {
+  "feed_channel_id": "I1412.91308.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-bet-her-west-4c54a337": {
+  "feed_channel_id": "I330.14897.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-big-ten-network-uhd-025dc210": {
+  "feed_channel_id": "I610.58321.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-boomerang-506d080c": {
+  "feed_channel_id": "I298.21883.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-cartoon-network-uhd-b4cd8ba5": {
+  "feed_channel_id": "I296.12131.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-cinemax-east-816867a4": {
+  "feed_channel_id": "I515.34933.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-cinemax-east-uhd-fe03eeee": {
+  "feed_channel_id": "I515.34933.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-cnbc-sd-fd1d6601": {
+  "feed_channel_id": "I355.10139.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-cnbc-uhd-1c0c2500": {
+  "feed_channel_id": "I355.10139.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-cnn-3c400058": {
+  "feed_channel_id": "I202.58646.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-cnn-uhd-5d904fdb": {
+  "feed_channel_id": "I202.58646.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-comedy-central-east-uhd-a6c83615": {
+  "feed_channel_id": "I249.62420.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-comedy-central-fhd-55a8b2e9": {
+  "feed_channel_id": "I249.10149.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-cozi-tv-d8b33e43": {
+  "feed_channel_id": "I80.78851.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-discovery-channel-hd-ea2e52e0": {
+  "feed_channel_id": "I278.56905.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-discovery-science-c4a0d5cf": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-usa-discovery-science-uhd-a51c862f": {
+  "feed_channel_id": "I431.24282.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "epg-usa-disney-channel-65539321": {
+  "feed_channel_id": "I290.10171.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-disney-channel-east-dafb046c": {
+  "feed_channel_id": "I290.59684.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-disney-junior-uhd-d4b8c6a7": {
+  "feed_channel_id": "I231.61311.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "epg-usa-disney-xd-c43c58db": {
+  "feed_channel_id": "I292.18279.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-espn-hd-01119602": {
+  "feed_channel_id": "I206.32645.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-espn-hd-backup-4c307b12": {
+  "feed_channel_id": "I206.32645.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-espn-sd-fe5d8ac0": {
+  "feed_channel_id": "I206.32645.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-espn-uhd-28b252de": {
+  "feed_channel_id": "I208.60696.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-food-network-5d6c714e": {
+  "feed_channel_id": "I231.12574.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-food-network-east-uhd-7d5eb66c": {
+  "feed_channel_id": "I231.50747.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-fox-business-uhd-0512943f": {
+  "feed_channel_id": "I359.58649.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-fox-deportes-320b6730": {
+  "feed_channel_id": "I465.15377.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-fox-deportes-hd-91ab36f0": {
+  "feed_channel_id": "I465.72189.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-fox-news-channel-da3a2d74": {
+  "feed_channel_id": "I360.16374.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-fox-news-sd-9b9d4e30": {
+  "feed_channel_id": "I2.1.19600.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-freeform-113d9909": {
+  "feed_channel_id": "I311.10093.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-fuse-dda70839": {
+  "feed_channel_id": "I339.59116.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-fx-6d38c83f": {
+  "feed_channel_id": "I248.14321.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-fx-east-uhd-c0c550ac": {
+  "feed_channel_id": "I248.58574.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-fxx-east-2941c8c8": {
+  "feed_channel_id": "I259.66379.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-galavision-62676ce8": {
+  "feed_channel_id": "I404.68367.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-great-american-family-country-f0773e84": {
+  "feed_channel_id": "I326.16062.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-hallmark-channel-92084cd9": {
+  "feed_channel_id": "I312.11221.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-hallmark-channel-uhd-0d27557b": {
+  "feed_channel_id": "I312.11221.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-hallmark-movies-mysteries-uhd-a0149fe5": {
+  "feed_channel_id": "I565.46710.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-hbo-east-bad286d2": {
+  "feed_channel_id": "I501.19548.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-hgtv-east-08cd1145": {
+  "feed_channel_id": "I229.14902.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-hgtv-east-uhd-1f9ac27c": {
+  "feed_channel_id": "I229.14902.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-magnolia-network-a01f5ce3": {
+  "feed_channel_id": "I230.18544.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-mav-tv-98df1e89": {
+  "feed_channel_id": "I214.61036.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-metv-55175053": {
+  "feed_channel_id": "I77.70436.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-metv-kaza-c099503e": {
+  "feed_channel_id": "I77.70436.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-mgm-hits-ba512ef0": {
+  "feed_channel_id": "I559.67929.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-mgm-marquee-cf15b22c": {
+  "feed_channel_id": "I560.74073.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-mgm-uhd-d194fcd5": {
+  "feed_channel_id": "I558.65687.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-mlb-network-4b3d2552": {
+  "feed_channel_id": "I213.62081.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-mlb-network-sd-08e1ff9e": {
+  "feed_channel_id": "I213.62081.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-mtv-14b7d5bf": {
+  "feed_channel_id": "I160.10986.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-mtv-2-0851c793": {
+  "feed_channel_id": "I332.16361.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-mtv-2-west-c547b1be": {
+  "feed_channel_id": "I332.16361.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-nba-tv-sd-33020a0e": {
+  "feed_channel_id": "I216.32281.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-nba-tv-uhd-1158e883": {
+  "feed_channel_id": "I216.32281.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-nbc-sport-network-d799de1f": {
+  "feed_channel_id": "I619.194412.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-nbc-sports-bay-area-hd-3560ab2a": {
+  "feed_channel_id": "I419.63138.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-nbc-universo-ee390240": {
+  "feed_channel_id": "I410.14791.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-nfl-network-backup-282341d7": {
+  "feed_channel_id": "I212.34710.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-nfl-network-eda847e3": {
+  "feed_channel_id": "I212.34710.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-nfl-network-sd-ff117746": {
+  "feed_channel_id": "I212.34710.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-nfl-redzone-3900ad75": {
+  "feed_channel_id": "I211.65025.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-nfl-redzone-sd-05f7c2a6": {
+  "feed_channel_id": "I211.65025.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-nfl-redzone-uhd-b0a5703a": {
+  "feed_channel_id": "I211.65025.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-nhl-network-a79415ac": {
+  "feed_channel_id": "I215.58570.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-nhl-network-hd-da2d2a8f": {
+  "feed_channel_id": "I215.58570.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-qvc-037755b8": {
+  "feed_channel_id": "I70.11069.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-sony-movie-channel-6b171aa3": {
+  "feed_channel_id": "I568.69130.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-sportsman-channel-hd-87f46588": {
+  "feed_channel_id": "I605.33930.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-starz-encore-action-6785f86f": {
+  "feed_channel_id": "I541.14871.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-starz-encore-action-sd-a5820304": {
+  "feed_channel_id": "I541.14871.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-starz-encore-suspense-e8ab355e": {
+  "feed_channel_id": "I539.14766.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-tcm-21e90c45": {
+  "feed_channel_id": "I681.19246.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "epg-usa-turner-classic-movies-850b23aa": {
+  "feed_channel_id": "I1288.20726.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "epg-usa-tv-land-b3466155": {
+  "feed_channel_id": "I106.16123.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-tvland-uhd-b4c14b00": {
+  "feed_channel_id": "I106.16123.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-usa-network-backup-50ffb78a": {
+  "feed_channel_id": "I242.11207.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-usa-network-east-21e43a19": {
+  "feed_channel_id": "I242.58452.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "epg-usa-vh1-uhd-4fe33edd": {
+  "feed_channel_id": "I335.11218.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "epg-usa-yes-network-hd-837d048d": {
+  "feed_channel_id": "I1702.46275.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "espn.br": {
+  "feed_channel_id": "I206.32645.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "espn.us": {
+  "feed_channel_id": "I206.32645.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "espn2.ar": {
+  "feed_channel_id": "I209.45507.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "espn2.mx": {
+  "feed_channel_id": "I209.45507.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "espn2.us": {
+  "feed_channel_id": "I209.12444.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "espn3.ar": {
+  "feed_channel_id": "I295.79042.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "espn3.mx": {
+  "feed_channel_id": "I295.79042.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "espndeportes.us": {
+  "feed_channel_id": "I466.25595.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "espnu.us": {
+  "feed_channel_id": "I208.45654.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "euronews.it": {
+  "feed_channel_id": "I459.83671.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "euronews.pt": {
+  "feed_channel_id": "I459.83671.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "euronews.uk": {
+  "feed_channel_id": "I459.83671.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "europaeuropa.mx": {
+  "feed_channel_id": "I306.27741.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "eurosport.it": {
+  "feed_channel_id": "I462.66603.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "eurosport.se": {
+  "feed_channel_id": "I462.66603.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "eurosport1.es": {
+  "feed_channel_id": "I462.66603.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "eurosport1.pl": {
+  "feed_channel_id": "I462.66603.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "eurosport1.pt": {
+  "feed_channel_id": "I462.66603.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "ewtn.us": {
+  "feed_channel_id": "I477.46612.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "fandueltv.us": {
+  "feed_channel_id": "I602.21345.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "fightbox.pl": {
+  "feed_channel_id": "I320.78763.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "fightnetwork.ca": {
+  "feed_channel_id": "I388.81448.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "fightnetwork.us": {
+  "feed_channel_id": "I388.81448.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "film4.uk": {
+  "feed_channel_id": "I489.68051.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "filmandarts.mx": {
+  "feed_channel_id": "I322.106731.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "filmboxarthouse.pl": {
+  "feed_channel_id": "I325.83525.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "fiveusa.uk": {
+  "feed_channel_id": "I22.52335.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "foodnetwork.br": {
+  "feed_channel_id": "I231.12574.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "foodnetwork.it": {
+  "feed_channel_id": "I231.12574.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "foodnetwork.mx": {
+  "feed_channel_id": "I231.12574.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "foodnetwork.pt": {
+  "feed_channel_id": "I231.12574.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "foodnetwork.uk": {
+  "feed_channel_id": "I491.44718.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "foodnetwork.us": {
+  "feed_channel_id": "I231.50747.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "fox.mx": {
+  "feed_channel_id": "I584.81785.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "foxdeportes.us": {
+  "feed_channel_id": "I465.72189.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "foxlife.ar": {
+  "feed_channel_id": "I332.101732.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "foxlife.br": {
+  "feed_channel_id": "I332.101732.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "foxlife.es": {
+  "feed_channel_id": "I332.101732.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "foxlife.pt": {
+  "feed_channel_id": "I332.101732.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "foxnews.us": {
+  "feed_channel_id": "I2.1.19600.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "foxsports.ar": {
+  "feed_channel_id": "I338.61704.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "foxsports.br": {
+  "feed_channel_id": "I338.61704.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "foxsports1.cl": {
+  "feed_channel_id": "I338.61704.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "foxsports2.ar": {
+  "feed_channel_id": "I341.71328.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "foxsports2.br": {
+  "feed_channel_id": "I341.71328.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "foxsports2.cl": {
+  "feed_channel_id": "I341.71328.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "foxsports2.us": {
+  "feed_channel_id": "I341.71328.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "foxsports3.ar": {
+  "feed_channel_id": "I343.112239.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "foxsportsracing.ca": {
+  "feed_channel_id": "I421.30189.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "france24.uk": {
+  "feed_channel_id": "I1030.60961.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "freeform.us": {
+  "feed_channel_id": "I311.10093.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "freespeechnetwork.us": {
+  "feed_channel_id": "I348.16220.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "fueltv.pt": {
+  "feed_channel_id": "I351.116115.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "fx.ar": {
+  "feed_channel_id": "I248.14321.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "fx.br": {
+  "feed_channel_id": "I248.14321.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "fx.ca": {
+  "feed_channel_id": "I248.14321.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "fx.mx": {
+  "feed_channel_id": "I248.14321.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "fx.us": {
+  "feed_channel_id": "I248.14321.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "fxm.us": {
+  "feed_channel_id": "I258.14988.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "fxmovies.mx": {
+  "feed_channel_id": "I258.14988.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "fxx.ca": {
+  "feed_channel_id": "I259.17927.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "fyi.us": {
+  "feed_channel_id": "I266.16834.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "gacfamily.us": {
+  "feed_channel_id": "I326.16062.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "galavision.us": {
+  "feed_channel_id": "I404.68367.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "gameshownetwork.ca": {
+  "feed_channel_id": "I233.14909.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "glitz.ar": {
+  "feed_channel_id": "I372.24459.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "glitz.mx": {
+  "feed_channel_id": "I372.24459.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "globalmontreal.ca": {
+  "feed_channel_id": "I234.17406.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "globalnewsbc1.ca": {
+  "feed_channel_id": "I68.15993.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "golden.mx": {
+  "feed_channel_id": "I373.16298.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "goldenedge.mx": {
+  "feed_channel_id": "I374.16423.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "goldenplus.mx": {
+  "feed_channel_id": "I377.68317.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "golfchannel.mx": {
+  "feed_channel_id": "I218.14899.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "golfchannel.pl": {
+  "feed_channel_id": "I218.61854.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "greatmovies.uk": {
+  "feed_channel_id": "I533.81450.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "grio.us": {
+  "feed_channel_id": "I342.132272.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "h2.se": {
+  "feed_channel_id": "I1032.97203.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "hallmark.us": {
+  "feed_channel_id": "I312.11221.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "hallmarkmoviesmysteries.us": {
+  "feed_channel_id": "I565.46710.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "hbo.br": {
+  "feed_channel_id": "I501.10240.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "hbo.pl": {
+  "feed_channel_id": "I501.10240.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "hbo.us": {
+  "feed_channel_id": "I501.19548.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "hbo2.br": {
+  "feed_channel_id": "I390.68140.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "hbo2.ca": {
+  "feed_channel_id": "I390.68140.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "hbo2.pl": {
+  "feed_channel_id": "I390.68140.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "hbofamily.br": {
+  "feed_channel_id": "I391.34879.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "hboplusbrasil.br": {
+  "feed_channel_id": "I399.75537.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "hbopluseste.ar": {
+  "feed_channel_id": "I399.75537.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "hbosignature.ar": {
+  "feed_channel_id": "I406.74450.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "hbosignature.br": {
+  "feed_channel_id": "I406.74450.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "hbowest.us": {
+  "feed_channel_id": "I504.19566.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "hboxtreme.br": {
+  "feed_channel_id": "I409.34887.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "hdnetmovies.us": {
+  "feed_channel_id": "I566.33668.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "heroesandiconstv.us": {
+  "feed_channel_id": "I358.61780.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "hgtv.br": {
+  "feed_channel_id": "I415.21257.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "hgtv.pl": {
+  "feed_channel_id": "I415.21257.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "hgtv.us": {
+  "feed_channel_id": "I229.14902.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "history2.br": {
+  "feed_channel_id": "I1032.97203.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "history2.ca": {
+  "feed_channel_id": "I1032.97203.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "history2.uk": {
+  "feed_channel_id": "I422.100817.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "historychannel.ar": {
+  "feed_channel_id": "I269.57708.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "historychannel.mx": {
+  "feed_channel_id": "I269.57708.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "hln.ca": {
+  "feed_channel_id": "I425.113876.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "hln.us": {
+  "feed_channel_id": "I425.113876.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "homeshoppingnetwork.us": {
+  "feed_channel_id": "I70.62077.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "hsn2.us": {
+  "feed_channel_id": "I310.10270.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "htv.ar": {
+  "feed_channel_id": "I427.15969.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "imagentv.mx": {
+  "feed_channel_id": "I433.101111.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "independentfilmchannel.us": {
+  "feed_channel_id": "I333.14873.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "insp.us": {
+  "feed_channel_id": "I364.11066.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "investigationdiscovery.ca": {
+  "feed_channel_id": "I251.70522.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "investigationdiscovery.mx": {
+  "feed_channel_id": "I591.62496.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "investigationdiscovery.se": {
+  "feed_channel_id": "I591.62496.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "ion.us": {
+  "feed_channel_id": "I592.117676.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "islamchannel.uk": {
+  "feed_channel_id": "I598.42539.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "itv1anglia.uk": {
+  "feed_channel_id": "I656.50523.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "itv2.uk": {
+  "feed_channel_id": "I664.69228.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "itv3.uk": {
+  "feed_channel_id": "I669.69374.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "itv4.uk": {
+  "feed_channel_id": "I674.69375.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "jewelrytelevision.us": {
+  "feed_channel_id": "I72.16604.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "justicecentral.us": {
+  "feed_channel_id": "I383.78850.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "lfctv.uk": {
+  "feed_channel_id": "I1010.91169.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "lifetime.ar": {
+  "feed_channel_id": "I252.10918.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "lifetime.br": {
+  "feed_channel_id": "I252.10918.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "lifetime.mx": {
+  "feed_channel_id": "I252.10918.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "lifetime.pl": {
+  "feed_channel_id": "I252.10918.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "lifetimenetwork.us": {
+  "feed_channel_id": "I252.60150.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "lifetimetv.ca": {
+  "feed_channel_id": "I252.10918.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "lmn.us": {
+  "feed_channel_id": "I253.18480.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "lovenature.ca": {
+  "feed_channel_id": "I810.52745.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-curiosity-stream": {
+  "feed_channel_id": "I204.110951.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "m3u-fear-factor": {
+  "feed_channel_id": "I485.115049.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "m3u-la-hbo-plus": {
+  "feed_channel_id": "I399.75537.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "m3u-la-telemundo": {
+  "feed_channel_id": "I193.24521.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-la-telemundo-chicago": {
+  "feed_channel_id": "I193.24521.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-la-telemundo-denver": {
+  "feed_channel_id": "I193.24521.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "m3u-la-telemundo-internacional-fhd": {
+  "feed_channel_id": "I406.77606.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "m3u-la-telemundo-philadelphia": {
+  "feed_channel_id": "I193.24521.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "m3u-usa-amc": {
+  "feed_channel_id": "I254.10021.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-usa-big-ten-network": {
+  "feed_channel_id": "I610.58321.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-usa-cine-mexicano": {
+  "feed_channel_id": "I160.16424.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "m3u-usa-espn-2-backup": {
+  "feed_channel_id": "I209.12444.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "m3u-usa-espn-u-hd": {
+  "feed_channel_id": "I208.60696.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-usa-fail-army": {
+  "feed_channel_id": "I481.115130.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "m3u-usa-haunt-tv": {
+  "feed_channel_id": "I541.132955.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "m3u-usa-next-level-sports": {
+  "feed_channel_id": "I623.87000.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-usa-nick-jr": {
+  "feed_channel_id": "I301.82649.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-usa-nosey": {
+  "feed_channel_id": "I50.5.113685.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-usa-qvc-3": {
+  "feed_channel_id": "I318.101260.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-usa-real-madrid-tv": {
+  "feed_channel_id": "I559.109784.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "m3u-usa-rewind-tv": {
+  "feed_channel_id": "I1019.156817.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "m3u-usa-science-channel": {
+  "feed_channel_id": "I284.57390.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-usa-sky-news": {
+  "feed_channel_id": "I1049.16234.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "m3u-usa-tbs-east": {
+  "feed_channel_id": "I247.58515.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-usa-the-first": {
+  "feed_channel_id": "I347.114934.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-usa-the-word-network": {
+  "feed_channel_id": "I373.21781.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-usa-thegrio": {
+  "feed_channel_id": "I342.132272.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "m3u-usa-universal-crime": {
+  "feed_channel_id": "I746.122765.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "m3u-usa-univision-kunw": {
+  "feed_channel_id": "I402.11118.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "m3u-usa-willow-cricket-hd": {
+  "feed_channel_id": "I625.80621.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "magnolianetwork.us": {
+  "feed_channel_id": "I230.18544.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "makeful.ca": {
+  "feed_channel_id": "I530.99429.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "mariavision.mx": {
+  "feed_channel_id": "I462.110114.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "masn.us": {
+  "feed_channel_id": "I432.59607.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "metv.us": {
+  "feed_channel_id": "I77.70436.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "mgmhits.us": {
+  "feed_channel_id": "I559.67929.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "mgmmarquee.us": {
+  "feed_channel_id": "I560.74073.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "mileniotelevision.mx": {
+  "feed_channel_id": "I474.99566.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "mlbnetwork.us": {
+  "feed_channel_id": "I213.62081.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "monumentalsportsnetwork.us": {
+  "feed_channel_id": "I424.32537.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "more4.uk": {
+  "feed_channel_id": "I747.47657.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "motortrend.us": {
+  "feed_channel_id": "I281.31046.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "mtv.ar": {
+  "feed_channel_id": "I758.80924.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "mtv.es": {
+  "feed_channel_id": "I160.10986.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "mtv.it": {
+  "feed_channel_id": "I336.22561.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "mtv.se": {
+  "feed_channel_id": "I160.10986.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "mtv.uk": {
+  "feed_channel_id": "I758.80924.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "mtv2.ca": {
+  "feed_channel_id": "I332.16361.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "mtv2.us": {
+  "feed_channel_id": "I332.16361.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "mtvclassic.uk": {
+  "feed_channel_id": "I336.22561.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "mtvclassic.us": {
+  "feed_channel_id": "I336.22561.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "mtvhits.uk": {
+  "feed_channel_id": "I759.24214.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "mtvlive.uk": {
+  "feed_channel_id": "I572.49141.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "mtvlive.us": {
+  "feed_channel_id": "I572.49141.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "mtvmusic.uk": {
+  "feed_channel_id": "I762.58695.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "natgeo.ca": {
+  "feed_channel_id": "I276.24959.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "natgeo.es": {
+  "feed_channel_id": "I276.24959.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "natgeo.se": {
+  "feed_channel_id": "I276.24959.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "natgeokids.br": {
+  "feed_channel_id": "I501.105877.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "natgeokids.mx": {
+  "feed_channel_id": "I501.105877.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "natgeowild.ar": {
+  "feed_channel_id": "I781.56425.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "natgeowild.br": {
+  "feed_channel_id": "I780.23305.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "natgeowild.ca": {
+  "feed_channel_id": "I780.23305.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "natgeowild.es": {
+  "feed_channel_id": "I780.23305.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "natgeowild.it": {
+  "feed_channel_id": "I780.23305.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "natgeowild.mx": {
+  "feed_channel_id": "I780.23305.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "natgeowild.se": {
+  "feed_channel_id": "I780.23305.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "natgeowild.uk": {
+  "feed_channel_id": "I780.23305.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "natgeowild.us": {
+  "feed_channel_id": "I283.66804.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "nationalgeographic.ar": {
+  "feed_channel_id": "I778.49534.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "nationalgeographic.pt": {
+  "feed_channel_id": "I778.49534.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "nationalgeographicwild.pt": {
+  "feed_channel_id": "I781.56425.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "nbatv.ca": {
+  "feed_channel_id": "I216.32281.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "nbatv.us": {
+  "feed_channel_id": "I216.32281.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "nbcsportsbayarea.us": {
+  "feed_channel_id": "I419.63138.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "nbcsportscalifornia.us": {
+  "feed_channel_id": "I438.73565.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "nbcuniverso.us": {
+  "feed_channel_id": "I410.14791.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "newenglandsportsnetwork.us": {
+  "feed_channel_id": "I434.35038.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "newsmax.us": {
+  "feed_channel_id": "I1115.97163.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "newsnation.us": {
+  "feed_channel_id": "I307.91097.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "nflnetwork.us": {
+  "feed_channel_id": "I212.34710.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "nflnetworkcanada.ca": {
+  "feed_channel_id": "I212.34710.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "nhlnetwork.us": {
+  "feed_channel_id": "I215.58570.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "nickelodeon.ar": {
+  "feed_channel_id": "I299.11006.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "nickelodeon.br": {
+  "feed_channel_id": "I813.69261.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "nickelodeon.ca": {
+  "feed_channel_id": "I299.11006.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "nickelodeon.es": {
+  "feed_channel_id": "I299.11006.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "nickelodeon.mx": {
+  "feed_channel_id": "I299.11006.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "nickelodeon.pl": {
+  "feed_channel_id": "I299.11006.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "nickelodeon.pt": {
+  "feed_channel_id": "I813.69261.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "nickelodeon.se": {
+  "feed_channel_id": "I299.11006.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "nickelodeon.uk": {
+  "feed_channel_id": "I809.83626.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "nickelodeon.us": {
+  "feed_channel_id": "I299.11006.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "nickjr.br": {
+  "feed_channel_id": "I301.82649.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "nickjr.es": {
+  "feed_channel_id": "I301.82649.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "nickjr.pt": {
+  "feed_channel_id": "I301.82649.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "nickjunior.it": {
+  "feed_channel_id": "I301.82649.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "nickmusic.us": {
+  "feed_channel_id": "I519.90209.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "nicktoons.pl": {
+  "feed_channel_id": "I302.30420.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "nicktoons.uk": {
+  "feed_channel_id": "I815.31168.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "now80s.uk": {
+  "feed_channel_id": "I828.108488.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "ntv.de": {
+  "feed_channel_id": "I771.66607.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "ntvcjon.ca": {
+  "feed_channel_id": "I771.66607.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "omni2.ca": {
+  "feed_channel_id": "I216.31558.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "outdoorchannel.us": {
+  "feed_channel_id": "I606.14776.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "outsidetv.us": {
+  "feed_channel_id": "I390.80651.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "ovation.us": {
+  "feed_channel_id": "I274.15807.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "paramountchannel.ar": {
+  "feed_channel_id": "I533.106214.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "paramountchannel.it": {
+  "feed_channel_id": "I241.11163.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "paramountnetwork.ca": {
+  "feed_channel_id": "I241.11163.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "paramountnetwork.se": {
+  "feed_channel_id": "I241.11163.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "pbsamerica.uk": {
+  "feed_channel_id": "I1046.131428.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "pixltv.us": {
+  "feed_channel_id": "I388.70113.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "polsatfood.pl": {
+  "feed_channel_id": "I231.12574.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "popmax.uk": {
+  "feed_channel_id": "I1039.56896.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "premiersports1.uk": {
+  "feed_channel_id": "I867.79027.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "premiersports2.uk": {
+  "feed_channel_id": "I869.109162.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "quest.uk": {
+  "feed_channel_id": "I886.62391.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "questred.uk": {
+  "feed_channel_id": "I891.102471.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "raiitalia.it": {
+  "feed_channel_id": "I555.19040.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "rainews.it": {
+  "feed_channel_id": "I2022.78803.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "raipremium.it": {
+  "feed_channel_id": "I2023.46350.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "rds.ca": {
+  "feed_channel_id": "I123.15676.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "rds2.ca": {
+  "feed_channel_id": "I192.73271.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "rdsinfo.ca": {
+  "feed_channel_id": "I124.39080.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "realmadridtv.es": {
+  "feed_channel_id": "I559.109784.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "revolt.us": {
+  "feed_channel_id": "I384.83098.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "rfdtv.us": {
+  "feed_channel_id": "I345.63717.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "s4c.uk": {
+  "feed_channel_id": "I959.25342.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "shortstv.us": {
+  "feed_channel_id": "I573.67454.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "showtime.us": {
+  "feed_channel_id": "I545.11115.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "showtimeextreme.us": {
+  "feed_channel_id": "I549.18086.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "showtimefamilyzone.us": {
+  "feed_channel_id": "I552.103892.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "showtimenext.us": {
+  "feed_channel_id": "I551.68342.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "showtimeshowcase.us": {
+  "feed_channel_id": "I550.61001.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "showtimewest.us": {
+  "feed_channel_id": "I545.11115.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "showtimewomen.us": {
+  "feed_channel_id": "I585.25272.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "shoxbet.us": {
+  "feed_channel_id": "I548.68340.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "sixx.de": {
+  "feed_channel_id": "I989.83661.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "skyaction.uk": {
+  "feed_channel_id": "I996.24031.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "skyanimation.uk": {
+  "feed_channel_id": "I998.115495.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skyarts.uk": {
+  "feed_channel_id": "I991.24919.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skyatlantic.uk": {
+  "feed_channel_id": "I993.70434.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skycinemacomedy.uk": {
+  "feed_channel_id": "I1001.24039.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skycinemadrama.it": {
+  "feed_channel_id": "I1000.61179.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skycinemafamily.it": {
+  "feed_channel_id": "I1005.24040.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skydocumentaries.uk": {
+  "feed_channel_id": "I1025.114274.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skydrama.uk": {
+  "feed_channel_id": "I1000.61179.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skyfamily.uk": {
+  "feed_channel_id": "I1005.24040.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skygreats.uk": {
+  "feed_channel_id": "I1007.24042.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skyhistory.uk": {
+  "feed_channel_id": "I1028.21558.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "skyhits.uk": {
+  "feed_channel_id": "I1003.49453.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skynature.uk": {
+  "feed_channel_id": "I1046.114269.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skynews.uk": {
+  "feed_channel_id": "I1049.16234.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skypremiere.uk": {
+  "feed_channel_id": "I1008.59691.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skyscifihorror.uk": {
+  "feed_channel_id": "I1007.61178.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skyselect.uk": {
+  "feed_channel_id": "I1004.65340.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "skysportsaction.uk": {
+  "feed_channel_id": "I1072.59533.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skysportscricket.uk": {
+  "feed_channel_id": "I1079.51204.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skysportsf1.uk": {
+  "feed_channel_id": "I1080.74410.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "skysportsfootball.uk": {
+  "feed_channel_id": "I1001.104327.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skysportsmix.uk": {
+  "feed_channel_id": "I1093.100265.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skysportsnews.uk": {
+  "feed_channel_id": "I1095.20643.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skysportsplus.uk": {
+  "feed_channel_id": "I1069.104324.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skysportspremiereleague.uk": {
+  "feed_channel_id": "I1098.89362.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skysportsracing.uk": {
+  "feed_channel_id": "I1101.30505.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skythriller.uk": {
+  "feed_channel_id": "I1005.50176.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "skywitness.uk": {
+  "feed_channel_id": "I1125.17443.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "slice.ca": {
+  "feed_channel_id": "I601.15181.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "smithsonian.ca": {
+  "feed_channel_id": "I1129.110553.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "smithsonianchannel.us": {
+  "feed_channel_id": "I570.58532.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "sony.us": {
+  "feed_channel_id": "I568.69130.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "sonyhd.mx": {
+  "feed_channel_id": "I1137.31759.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "sonytv.uk": {
+  "feed_channel_id": "I1137.31759.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "space.ar": {
+  "feed_channel_id": "I581.62982.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "space.br": {
+  "feed_channel_id": "I581.62982.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "space.mx": {
+  "feed_channel_id": "I581.62982.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "sportsmanchannel.us": {
+  "feed_channel_id": "I605.33930.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "sportsnet360.ca": {
+  "feed_channel_id": "I410.49952.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "sportsneteast.ca": {
+  "feed_channel_id": "I406.18798.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "sportsnetone.ca": {
+  "feed_channel_id": "I409.68858.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "sportsnetontario.ca": {
+  "feed_channel_id": "I405.62111.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "sportsnetpacific.ca": {
+  "feed_channel_id": "I407.18801.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "sportsnetwest.ca": {
+  "feed_channel_id": "I408.18800.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "sportsnetworld.ca": {
+  "feed_channel_id": "I420.57735.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "starplus.uk": {
+  "feed_channel_id": "I1155.25115.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "starz.us": {
+  "feed_channel_id": "I525.34941.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "starzencore.us": {
+  "feed_channel_id": "I535.36225.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "starzencoreaction.us": {
+  "feed_channel_id": "I541.14871.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "starzencoreblack.us": {
+  "feed_channel_id": "I540.14870.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "starzencoreclassics.us": {
+  "feed_channel_id": "I537.14764.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "starzencorefamily.us": {
+  "feed_channel_id": "I542.102903.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "starzencorewesterns.us": {
+  "feed_channel_id": "I538.102906.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "starzinblack.us": {
+  "feed_channel_id": "I530.67235.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "studiouniversal.ar": {
+  "feed_channel_id": "I678.90605.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "studiouniversal.br": {
+  "feed_channel_id": "I678.90605.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "studiouniversal.mx": {
+  "feed_channel_id": "I678.90605.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "syfy.ar": {
+  "feed_channel_id": "I244.11097.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "syfy.br": {
+  "feed_channel_id": "I244.11097.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "syfy.es": {
+  "feed_channel_id": "I244.11097.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "syfy.mx": {
+  "feed_channel_id": "I244.11097.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "syfy.uk": {
+  "feed_channel_id": "I244.11097.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "talkingpictures.uk": {
+  "feed_channel_id": "I1182.103481.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "tastemade.us": {
+  "feed_channel_id": "I235.107076.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "tbs.ar": {
+  "feed_channel_id": "I247.67890.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "tbs.br": {
+  "feed_channel_id": "I247.67890.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "tbs.us": {
+  "feed_channel_id": "I247.67890.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "tcm.ar": {
+  "feed_channel_id": "I681.19246.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "tcm.br": {
+  "feed_channel_id": "I681.19246.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "tcm.es": {
+  "feed_channel_id": "I681.19246.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "tcm.mx": {
+  "feed_channel_id": "I681.19246.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "teennick.us": {
+  "feed_channel_id": "I682.72294.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "telemundokmasld.us": {
+  "feed_channel_id": "I193.24521.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "telemundowsns.us": {
+  "feed_channel_id": "I193.24521.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "telemundowwsi.us": {
+  "feed_channel_id": "I193.24521.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "tennischannel.us": {
+  "feed_channel_id": "I217.33395.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "thebox.uk": {
+  "feed_channel_id": "I1223.21492.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "theweathernetwork.ca": {
+  "feed_channel_id": "I505.10170.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "tinypop.uk": {
+  "feed_channel_id": "I1047.153520.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "tlc.ca": {
+  "feed_channel_id": "I280.11158.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "tlc.pt": {
+  "feed_channel_id": "I280.11158.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "tlc.se": {
+  "feed_channel_id": "I280.11158.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "tlc.uk": {
+  "feed_channel_id": "I1236.17454.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "tmc.us": {
+  "feed_channel_id": "I553.11160.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "tnt.br": {
+  "feed_channel_id": "I245.11164.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "tnt.mx": {
+  "feed_channel_id": "I245.11164.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "tntseries.ar": {
+  "feed_channel_id": "I706.106709.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "tntseries.br": {
+  "feed_channel_id": "I706.106709.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "tntseries.mx": {
+  "feed_channel_id": "I706.106709.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "tntsports4.uk": {
+  "feed_channel_id": "I1249.46594.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "tntsports5.uk": {
+  "feed_channel_id": "I1251.100882.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "tooncast.br": {
+  "feed_channel_id": "I711.63109.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "tooncast.mx": {
+  "feed_channel_id": "I711.63109.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "traceurban.pt": {
+  "feed_channel_id": "I1279.71760.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "travelxp.ca": {
+  "feed_channel_id": "I715.102898.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "trtworld.uk": {
+  "feed_channel_id": "I1284.104305.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "truecrime.uk": {
+  "feed_channel_id": "I1285.31756.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 1
+ },
+ "trutv.ar": {
+  "feed_channel_id": "I246.64490.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "trutv.mx": {
+  "feed_channel_id": "I246.10153.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "tsn1.ca": {
+  "feed_channel_id": "I400.11182.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "tsn2.ca": {
+  "feed_channel_id": "I401.18990.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "tsn3.ca": {
+  "feed_channel_id": "I402.90118.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "tsn4.ca": {
+  "feed_channel_id": "I403.90122.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "tsn5.ca": {
+  "feed_channel_id": "I404.90124.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "tudn.mx": {
+  "feed_channel_id": "I464.75176.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "turnerclassicmovies.ca": {
+  "feed_channel_id": "I681.19246.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "turnerclassicmovies.us": {
+  "feed_channel_id": "I681.19246.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "tvasports.ca": {
+  "feed_channel_id": "I193.73142.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "tvasports2.ca": {
+  "feed_channel_id": "I1884.90206.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "tvcdeportes.mx": {
+  "feed_channel_id": "I730.57580.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 1
+ },
+ "tveinternacional.mx": {
+  "feed_channel_id": "I460.16217.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "tveinteu.es": {
+  "feed_channel_id": "I1300.90320.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "tvlandeast.us": {
+  "feed_channel_id": "I106.16123.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "tvone.us": {
+  "feed_channel_id": "I328.61960.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "tycsports.ar": {
+  "feed_channel_id": "I469.111046.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "tycsports.us": {
+  "feed_channel_id": "I469.111046.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "unicable.mx": {
+  "feed_channel_id": "I739.84425.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "uptv.us": {
+  "feed_channel_id": "I338.44940.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "usanetwork.us": {
+  "feed_channel_id": "I242.58452.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "vh1.ar": {
+  "feed_channel_id": "I335.60046.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "vh1.it": {
+  "feed_channel_id": "I335.11218.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "vh1.mx": {
+  "feed_channel_id": "I335.11218.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "vh1.us": {
+  "feed_channel_id": "I335.11218.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "wapatv.us": {
+  "feed_channel_id": "I414.44322.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "weatherchannel.us": {
+  "feed_channel_id": "I362.11187.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "weathernation.us": {
+  "feed_channel_id": "I13.7.113774.gracenote.com",
+  "feed_code": "US",
+  "tier": 2
+ },
+ "wetv.us": {
+  "feed_channel_id": "I260.16409.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "wfnfishing.us": {
+  "feed_channel_id": "I394.63234.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "wgn9chicago.us": {
+  "feed_channel_id": "I192.20455.gracenote.com",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "willowcricket.us": {
+  "feed_channel_id": "I625.80621.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ },
+ "wion.uk": {
+  "feed_channel_id": "I1382.114980.schedulesdirect.org",
+  "feed_code": "UK",
+  "tier": 2
+ },
+ "worldofbusinessideas.mx": {
+  "feed_channel_id": "I772.59014.schedulesdirect.org",
+  "feed_code": "Latino",
+  "tier": 2
+ },
+ "zoomoo.ar": {
+  "feed_channel_id": "I432.97041.schedulesdirect.org",
+  "feed_code": "US",
+  "tier": 1
+ }
+}

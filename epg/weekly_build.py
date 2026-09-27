@@ -111,6 +111,22 @@ IPTVTALK_URLS = {
     'US_local': 'https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/US_local_guide.xml.gz',
 }
 IPTVTALK_MATCHES = os.path.join(PUBFEED_DIR, 'iptvtalk_matches.json')
+
+# EPGTalk 7-day guides (https://github.com/acidjesuz/EPGTalk): US/UK/Latino
+# XMLTV, ~7.4-day windows, Schedules Direct/Gracenote channel IDs matched by
+# normalized display name in pubfeed/epgtalk_matches.json
+# ({our_id: {feed_channel_id, feed_code, tier}}; tier 1 = exact name match,
+# tier 2 = market/callsign-stripped match). Numbered event channels
+# (ESPN+ 016, Canal 19, ...) are never matched. Stage 3b2 runs right after
+# EPGShare01: it never displaces epg.pw/EPGShare01 data (fills only channels
+# with no real listings yet), and because it runs before the legacy iptvtalk
+# stage (3h, same upstream guides), EPGTalk wins on any overlap there too.
+EPGTALK_URLS = {
+    'US': 'https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/US_guide.xml.gz',
+    'UK': 'https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/UK_guide.xml.gz',
+    'Latino': 'https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/Latino_guide.xml.gz',
+}
+EPGTALK_MATCHES = os.path.join(PUBFEED_DIR, 'epgtalk_matches.json')
 TVGUIDE_MATCHES = os.path.join(PUBFEED_DIR, 'tvguide_matches.json')
 TVGUIDE_API = ('https://backend.tvguide.com/tvschedules/tvguide/{pid}/web'
                '?start={start}&duration={dur}&channelSourceIds={sid}'
@@ -418,6 +434,26 @@ def fetch_epgshare_feeds(workdir, codes):
         log(f"  {code}: {os.path.getsize(dest)} bytes")
     if not paths:
         log("WARNING: no EPGShare01 feeds downloaded; those channels keep "
+            "carried-forward programmes")
+    return paths
+
+
+def fetch_epgtalk_feeds(workdir, codes):
+    """Download EPGTalk 7-day guides (US/UK/Latino). Best-effort: an
+    individual feed failure is logged and skipped (its channels simply keep
+    their carried-forward programmes) -- this source never aborts the run."""
+    paths = {}
+    for code in sorted(codes):
+        url = EPGTALK_URLS.get(code)
+        if not url:
+            log(f"  WARNING: no EPGTalk URL for code {code}; skipping")
+            continue
+        dest = os.path.join(workdir, f'epgtalk_{code}.xml.gz')
+        p = fetch_xml_feed(url, dest, f'EPGTalk {code}')
+        if p:
+            paths[code] = p
+    if not paths:
+        log("WARNING: no EPGTalk feeds downloaded; those channels keep "
             "carried-forward programmes")
     return paths
 
@@ -1435,6 +1471,31 @@ def main(argv):
             'fresh_programmes': sum(len(v) for v in es_fresh.values()),
             'skipped_lt5': len(es_skipped),
             'feeds_ok': len(es_paths), 'feeds_wanted': len(es_codes)}
+
+        # 3b2. EPGTalk 7-day guides (best-effort; never aborts).
+        # Name-matched in pubfeed/epgtalk_matches.json. Same >=5-programme
+        # rule and cutoff semantics as EPGShare01. Fills only channels with
+        # no real listings yet, so the epg.pw verified set and EPGShare01 win
+        # on overlap; runs before the legacy iptvtalk stage (3h, same upstream
+        # guides), so EPGTalk wins there as well.
+        et_raw = json.load(open(EPGTALK_MATCHES)) \
+            if os.path.isfile(EPGTALK_MATCHES) else {}
+        et_matches = {t: (v['feed_channel_id'], v['feed_code'])
+                      for t, v in et_raw.items() if t in roster}
+        et_codes = sorted(set(fcc for _, fcc in et_matches.values()))
+        et_paths = fetch_epgtalk_feeds(workdir, et_codes) if et_codes else {}
+        et_matches = {t: v for t, v in et_matches.items() if v[1] in et_paths}
+        et_fresh, et_skipped = extract_feed_programmes(
+            et_matches, et_paths, cutoff14)
+        for tid, progs in et_fresh.items():
+            if tid not in verified_fresh:
+                verified_fresh[tid] = progs
+        report['stages']['epgtalk'] = {
+            'targets': len(et_matches),
+            'refreshed': len(et_fresh),
+            'fresh_programmes': sum(len(v) for v in et_fresh.values()),
+            'skipped_lt5': len(et_skipped),
+            'feeds_ok': len(et_paths), 'feeds_wanted': len(et_codes)}
 
         # 3c. vcicio/US-EPG merged US guide (best-effort; never aborts).
         # 9.6-day window for USA channels incl. locals (KGMB Honolulu etc.).
