@@ -5,11 +5,6 @@ Reproduces the curated final build (10,940 channels / ~485k programmes /
 10,550 icons) from fresh weekly data, then validates with hard gates.
 Only a fully-validated file is promoted to ~/workspace/your_files/epg.xml.
 
-CI MODE (GitHub Actions): set EPG_PREV_BUILD to the previous epg.xml
-(downloaded from the latest release), EPG_RUNS_DIR to a workspace dir, and
-pass --no-promote --out <path> so the validated build lands at a known path
-for the release step. No credentials needed: feeds are public.
-
 PIPELINE (reconstructed from the build scripts in this directory):
   1. epg_logos4.xml  -- base: 386 missing tvg-ids integrated + logo waves 1-4
                        (one-time curation; the channel ROSTER is stable and is
@@ -67,13 +62,9 @@ from xml.sax.saxutils import escape
 
 # ---------------------------------------------------------------- config
 BUILD_DIR = os.path.dirname(os.path.abspath(__file__))
-# Env overrides let this run on a stateless CI runner (e.g. GitHub Actions):
-# EPG_PREV_BUILD = previous final epg.xml (downloaded from latest release),
-# EPG_RUNS_DIR  = where run reports/backups go (repo-local on CI).
-PREV_BUILD = os.environ.get('EPG_PREV_BUILD',
-                            os.path.expanduser('~/workspace/your_files/epg.xml'))
+PREV_BUILD = os.path.expanduser('~/workspace/your_files/epg.xml')
 PUBFEED_DIR = os.path.join(BUILD_DIR, 'pubfeed')
-HIDDEN_RUNS = os.environ.get('EPG_RUNS_DIR', os.path.join(BUILD_DIR, 'hidden_runs'))
+HIDDEN_RUNS = os.path.join(BUILD_DIR, 'hidden_runs')
 BACKUP_DIR = os.path.join(HIDDEN_RUNS, 'backups')
 LOGOS247 = os.path.join(BUILD_DIR, 'logos247_results.json')
 
@@ -950,7 +941,13 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                 c['dropped_placeholder'] += 1
             else:
                 stop = parse_ts(elem.get('stop') or '')
-                if stop and stop < fossil_cutoff:
+                title = (elem.findtext('title') or '').strip()
+                if not title:
+                    # Empty-title programmes are junk (feed corruption or
+                    # malformed data). Drop them so they don't pollute
+                    # min/max tracking and block gap-fill placeholders.
+                    c['dropped_fossil'] += 1
+                elif stop and stop < fossil_cutoff:
                     # Fossil: ended >6h before the anchor. TiviMate renders
                     # now->future only, so these are invisible there; carrying
                     # them forever is what inflated "real data" counts while
@@ -1370,14 +1367,11 @@ def main(argv):
     no_promote = '--no-promote' in argv
     service_xml = None
     workdir = None
-    out_copy = None
     for i, a in enumerate(argv):
         if a == '--service-xml' and i + 1 < len(argv):
             service_xml = argv[i + 1]
         if a == '--workdir' and i + 1 < len(argv):
             workdir = argv[i + 1]
-        if a == '--out' and i + 1 < len(argv):
-            out_copy = argv[i + 1]
     if not service_xml:
         service_xml = os.environ.get('EPG_SERVICE_XML')
     ts = datetime.now(timezone.utc).strftime('%Y%m%d-%H%M%S')
@@ -1669,16 +1663,13 @@ def main(argv):
         for cid in losers[:10]:
             log(f"   lost icon: {cid}")
 
-        # 9. promote (or copy to --out for CI)
+        # 9. promote
         report['result'] = 'OK'
         write_report(report, workdir)
         if no_promote:
             log(f"OK: all gates passed. --no-promote: new build left at {out_path}")
         else:
             promote(out_path)
-        if out_copy:
-            shutil.copy2(out_path, out_copy)
-            log(f"copied final build -> {out_copy}")
         log(f"done: {vrep['channels']} channels, {vrep['programmes']} programmes, "
             f"{vrep['icons']} icons")
         return 0
