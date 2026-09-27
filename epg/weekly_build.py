@@ -1132,7 +1132,11 @@ _ts_attr_re = re.compile(r'(start|stop)="(\d{14})([^"]*)"')
 def _shift_prog_xml(xml, hours):
     def rep(m):
         attr, digits, rest = m.group(1), m.group(2), m.group(3)
-        dt = datetime.strptime(digits, '%Y%m%d%H%M%S') + timedelta(hours=hours)
+        try:
+            dt = datetime.strptime(digits, '%Y%m%d%H%M%S') + timedelta(hours=hours)
+        except (ValueError, TypeError):
+            # Malformed timestamp from provider feed — leave as-is rather than crashing
+            return m.group(0)
         return f'{attr}="{dt.strftime("%Y%m%d%H%M%S")}{rest}"'
     return _ts_attr_re.sub(rep, xml)
 
