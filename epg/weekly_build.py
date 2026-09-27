@@ -1736,13 +1736,11 @@ def main(argv):
                             _t = _nfl_title_re.search(plist[0] if plist else '')
                             _k = _nfl_kick_re.search(plist[0] if plist else '')
                             if _nm and _t:
-                                _away = _t.group(1).strip()
-                                _home = _t.group(2).strip()
-                                _kick = _k.group(1).strip() if _k else ''
-                                _disp = (f"USA NFL Sunday {_nm.group(1)}: "
-                                         f"{_away} vs {_home}")
-                                if _kick:
-                                    _disp += f" @ {_kick}"
+                                # 2026-09-27: Keep display-name as "USA NFL Sunday 7XX:"
+                                # to match Chris's playlist tvg-name for TiviMate
+                                # auto-matching. Matchup details stay in programme
+                                # titles, not the channel name.
+                                _disp = f"USA NFL Sunday {_nm.group(1)}:"
                         if _disp and roster[tcid][0] != _disp:
                             roster[tcid] = (_disp, roster[tcid][1])
                             nfl_renamed += 1
