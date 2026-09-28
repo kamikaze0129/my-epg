@@ -259,6 +259,13 @@ NFL_SCHEDULE = os.path.join(BUILD_DIR, 'nfl_sunday_ticket.json')
 # NCAA and are excluded.
 NHL_SCHEDULE = os.path.join(BUILD_DIR, 'nhl_schedule.json')
 
+# WNBA playoff injection (same pattern as NFL/NHL). wnba_playoffs.json holds
+# {channel_id: [programme XML strings]} for USA WNBA 01-07, built from ESPN's
+# published schedule via update_wnba_schedule.py. Games are one-off events,
+# so the file carries valid_until_utc and the stage skips itself once the
+# games have ended.
+WNBA_SCHEDULE = os.path.join(BUILD_DIR, 'wnba_playoffs.json')
+
 # Known-good build this pipeline reproduces.
 # 2026-09-21: baseline recalibrated after the fossil drop (programmes ending
 # >6h before the anchor are no longer carried). ~300k = real future coverage
@@ -1825,6 +1832,52 @@ def main(argv):
                                    'renamed': nhl_renamed}
         if nhl_renamed:
             log(f"nhl: refreshed {nhl_renamed} display names")
+
+        # 3d3. WNBA playoff injection (best-effort; never aborts).
+        # Same pattern as NFL/NHL: one-off game entries from wnba_playoffs.json.
+        # Skips itself once valid_until_utc has passed. Only fills channels
+        # with no real future data -- never overwrites existing listings.
+        # Also refreshes the roster display names from the injected matchup.
+        wnba_injected = 0
+        wnba_renamed = 0
+        try:
+            if os.path.isfile(WNBA_SCHEDULE):
+                wnba_raw = json.load(open(WNBA_SCHEDULE))
+                valid_until = wnba_raw.get('_meta', {}).get('valid_until_utc', '')
+                if valid_until and datetime.now(timezone.utc).isoformat() < valid_until:
+                    _disp_names = wnba_raw.get('_display_names', {}) or {}
+                    _wnba_title_re = re.compile(
+                        r'<title[^>]*>\s*WNBA[^:]*:\s*(.+?)\s+at\s+(.+?)\s*</title>',
+                        re.I)
+                    _wnba_tip_re = re.compile(
+                        r'Tipoff\s+(\d{1,2}:\d{2}\s*[AP]M\s*ET)', re.I)
+                    _wnba_num_re = re.compile(r'm3u-usa-wnba-0([1-7])\b', re.I)
+                    for tcid, plist in wnba_raw.items():
+                        if tcid.startswith('_') or tcid not in roster:
+                            continue
+                        if tcid not in verified_fresh:
+                            verified_fresh[tcid] = plist
+                            wnba_injected += 1
+                        _disp = _disp_names.get(tcid)
+                        if not _disp:
+                            _nm = _wnba_num_re.search(tcid)
+                            _t = _wnba_title_re.search(plist[0] if plist else '')
+                            _k = _wnba_tip_re.search(plist[0] if plist else '')
+                            if _nm and _t:
+                                _disp = (f"USA WNBA 0{_nm.group(1)}: "
+                                         f"{_t.group(1)} vs {_t.group(2)}"
+                                         + (f" @ {_k.group(1)}" if _k else ""))
+                        if _disp and roster[tcid][0] != _disp:
+                            roster[tcid] = (_disp, roster[tcid][1])
+                            wnba_renamed += 1
+                else:
+                    log("wnba: schedule expired, skipping")
+        except Exception as e:
+            log(f"wnba: injection failed ({e}); continuing")
+        report['stages']['wnba'] = {'injected_channels': wnba_injected,
+                                    'renamed': wnba_renamed}
+        if wnba_renamed:
+            log(f"wnba: refreshed {wnba_renamed} display names")
 
         # 4. optional provider XML hook for regular channels
         service_progs = load_service_xml(service_xml) if service_xml else {}
