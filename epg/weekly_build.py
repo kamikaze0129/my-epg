@@ -1277,6 +1277,18 @@ def fix_247_aliases(out_path):
     Chris's catbox logos) and m3u-X (empty, dead imgur icons). Some of
     Chris's TiviMate sources use the m3u-X IDs. This copies the icon
     and all programmes from each m3u-247-X to its m3u-X counterpart.
+
+    2026-09-28 pass 2: the 156 extra-roster 24/7 channels (Toddler/Anime)
+    exist ONLY in the standalone 24/7 file as m3u-247-X; their provider-ID
+    counterparts (m3u-X) sit in this main file with a "Programming"
+    placeholder and a dead icon. TiviMate matches Chris's playlist by
+    provider ID, so without this the real marathon grids never reach his
+    guide -- refreshing the 24/7 source could not fix it (wrong IDs, not
+    stale data). This pass generates the same deterministic marathon
+    blocks build_247_epg.py writes and injects them under the m3u-X IDs,
+    after stripping the placeholder block. A channel is only touched when
+    its current programmes are all placeholders (or absent) -- real data
+    is never overwritten.
     """
     text = open(out_path, encoding='utf-8').read()
 
@@ -1285,21 +1297,33 @@ def fix_247_aliases(out_path):
         r'<channel id="(m3u-247-[^"]+)">.*?<icon src="([^"]+)"', re.S)
     icons_247 = {m.group(1): m.group(2) for m in ch_icon_re.finditer(text)}
 
+    # All channel ids in this file
+    main_ids = set(re.findall(r'<channel id="([^"]+)">', text))
+
     # Find which m3u-* (non-247) channels exist
     ch_id_re = re.compile(r'<channel id="(m3u-(?!247-)[^"]+)"')
     m3u_ids = set(m.group(1) for m in ch_id_re.finditer(text))
 
-    # Build pairs
+    # Existing programme titles per channel (one scan) -- placeholder-only
+    # safety check: never overwrite real listings.
+    title_re = re.compile(
+        r'<programme[^>]*channel="([^"]+)"[^>]*>.*?<title[^>]*>([^<]*)</title>',
+        re.S)
+    titles_by_cid = {}
+    for c, t in title_re.findall(text):
+        titles_by_cid.setdefault(c, set()).add(t.strip())
+
+    def _is_placeholder_only(cid):
+        return not (titles_by_cid.get(cid, set()) - {'Programming'})
+
+    # Build pairs (pass 1: m3u-247-X counterpart already in this file)
     pairs = {}  # m3u_id -> (m247_id, icon)
     for m247_id, icon in icons_247.items():
         m3u_id = 'm3u-' + m247_id[8:]
-        if m3u_id in m3u_ids:
+        if m3u_id in m3u_ids and _is_placeholder_only(m3u_id):
             pairs[m3u_id] = (m247_id, icon)
 
-    if not pairs:
-        return {'pairs': 0, 'icons_fixed': 0, 'programmes_copied': 0}
-
-    # Collect programmes from m247 channels
+    # Collect programmes from m247 channels present in this file
     prog_re = re.compile(
         r'<programme start="[^"]+" stop="[^"]+"[^>]*channel="([^"]+)"[^>]*>'
         r'.*?</programme>', re.S)
@@ -1309,8 +1333,86 @@ def fix_247_aliases(out_path):
         if cid in icons_247:
             progs_247.setdefault(cid, []).append(m.group(0))
 
+    # ---- pass 2: extra-roster 24/7 channels absent from this file ----
+    extra_pairs = 0
+    try:
+        extra = json.load(open(os.path.join(BUILD_DIR, '247_extra_roster.json'),
+                               encoding='utf-8'))
+        if isinstance(extra, dict):
+            extra = list(extra.values())
+        chris_layer = json.load(open(os.path.join(BUILD_DIR, 'chris_icon_urls.json'),
+                                     encoding='utf-8'))
+        poster_layer = json.load(open(os.path.join(BUILD_DIR, 'poster_hunt_urls.json'),
+                                      encoding='utf-8'))
+    except (OSError, ValueError) as exc:
+        log(f"247-aliases pass 2 skipped: {exc}")
+        extra, chris_layer, poster_layer = [], {}, {}
+    if extra:
+        # Known slug mismatches: extra-roster m3u-247-X id -> actual
+        # provider m3u-* id in this file (same stream, different slug).
+        EXTRA_ALIASES = {
+            'm3u-247-care-bears-welcome-to-care-a-lot':
+                'm3u-care-bears-welcome-to-carealot',
+            'm3u-247-steins-gate': 'm3u-steinsgate',
+        }
+        anchor = datetime.now(timezone.utc).replace(
+            hour=0, minute=0, second=0, microsecond=0)
+        end = anchor + timedelta(days=7)
+        for e in extra:
+            m247_id = e.get('id')
+            if not (m247_id and m247_id.startswith('m3u-247-')):
+                continue
+            m3u_id = EXTRA_ALIASES.get(m247_id, 'm3u-' + m247_id[8:])
+            if (m3u_id in pairs or m3u_id not in m3u_ids
+                    or m247_id in main_ids
+                    or not _is_placeholder_only(m3u_id)):
+                continue
+            icon = (chris_layer.get(m247_id) or poster_layer.get(m247_id)
+                    or e.get('icon'))
+            if not icon:
+                continue
+            block_mins = int(e.get('block_mins') or 30)
+            title = e.get('title') or m3u_id
+            desc = e.get('desc') or ''
+            gen = []
+            t = anchor
+            while t < end:
+                stop = min(t + timedelta(minutes=block_mins), end)
+                gen.append(
+                    f'  <programme start="{t.strftime("%Y%m%d%H%M%S +0000")}" '
+                    f'stop="{stop.strftime("%Y%m%d%H%M%S +0000")}" '
+                    f'channel="{m247_id}">\n'
+                    f'    <title>{escape(title)}</title>\n'
+                    f'    <desc>{escape(desc)}</desc>\n'
+                    f'  </programme>')
+                t = stop
+            icons_247[m247_id] = icon
+            progs_247[m247_id] = gen
+            pairs[m3u_id] = (m247_id, icon)
+            extra_pairs += 1
+
+    if not pairs:
+        return {'pairs': 0, 'icons_fixed': 0, 'programmes_copied': 0,
+                'extra_roster_pairs': 0, 'placeholders_stripped': 0}
+
+    # Remove the placeholder programmes on paired m3u-* channels (one scan)
+    # so the injected marathon blocks never overlap them.
+    paired_ids = set(pairs)
+    stripped = [0]
+    prog_all_re = re.compile(
+        r'<programme[^>]*channel="([^"]+)"[^>]*>.*?</programme>\s*', re.S)
+
+    def _strip_prog(m):
+        if m.group(1) in paired_ids:
+            stripped[0] += 1
+            return ''
+        return m.group(0)
+
+    text = prog_all_re.subn(_strip_prog, text)[0]
+
     # Fix icons: replace <icon src="..."> inside m3u-* channel blocks
     icons_fixed = 0
+
     def _fix_icon(m):
         nonlocal icons_fixed
         cid, inner = m.group(1), m.group(2)
@@ -1318,6 +1420,11 @@ def fix_247_aliases(out_path):
             new_icon = pairs[cid][1]
             inner2, n = re.subn(r'<icon src="[^"]+"',
                                 f'<icon src="{new_icon}"', inner, count=1)
+            if not n:
+                # no icon element at all: insert one after display-name
+                inner2, n = re.subn(r'(<display-name[^>]*>[^<]*</display-name>)',
+                                    rf'\g<1><icon src="{new_icon}" />',
+                                    inner, count=1)
             if n:
                 icons_fixed += 1
                 return f'<channel id="{cid}">{inner2}</channel>'
@@ -1343,10 +1450,12 @@ def fix_247_aliases(out_path):
     with open(tmp, 'w', encoding='utf-8') as f:
         f.write(text)
     os.replace(tmp, out_path)
-    log(f"247-aliases: {len(pairs)} channels, {icons_fixed} icons fixed, "
+    log(f"247-aliases: {len(pairs)} channels ({extra_pairs} extra-roster), "
+        f"{icons_fixed} icons fixed, {stripped[0]} placeholders stripped, "
         f"{injected} programmes copied")
     return {'pairs': len(pairs), 'icons_fixed': icons_fixed,
-            'programmes_copied': injected}
+            'programmes_copied': injected, 'extra_roster_pairs': extra_pairs,
+            'placeholders_stripped': stripped[0]}
 
 
 def ensure_icons(out_path, roster):
