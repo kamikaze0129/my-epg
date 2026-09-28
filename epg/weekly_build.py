@@ -257,7 +257,7 @@ NFL_SCHEDULE = os.path.join(BUILD_DIR, 'nfl_sunday_ticket.json')
 # + rolling placeholders; the old 561k figure counted ~263k dead past
 # programmes that TiviMate never renders.
 KNOWN_CHANNELS = 10940
-KNOWN_PROGRAMMES = 585000  # empirical: 2026-09-27 CI with service XML has ~620k (was 560k without)
+KNOWN_PROGRAMMES = 745000  # empirical: 2026-09-28 CI has ~745k (31 new 24/7 channels + fixes)
 KNOWN_ICONS = 10550
 
 # Hard gates.
