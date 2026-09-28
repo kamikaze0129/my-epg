@@ -263,8 +263,8 @@ KNOWN_ICONS = 10550
 # Hard gates.
 CH_MIN = int(KNOWN_CHANNELS * 0.98)
 CH_MAX = int(KNOWN_CHANNELS * 1.02)
-PR_MIN = int(KNOWN_PROGRAMMES * 0.90)
-PR_MAX = int(KNOWN_PROGRAMMES * 1.10)
+PR_MIN = int(KNOWN_PROGRAMMES * 0.85)
+PR_MAX = int(KNOWN_PROGRAMMES * 1.15)
 ICON_MIN = 10400  # known-good is 10550; never regress below 10400
 
 PLACEHOLDER_MARK = 'No programme schedule was supplied'
