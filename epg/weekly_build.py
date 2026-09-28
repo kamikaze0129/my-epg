@@ -266,6 +266,14 @@ NHL_SCHEDULE = os.path.join(BUILD_DIR, 'nhl_schedule.json')
 # games have ended.
 WNBA_SCHEDULE = os.path.join(BUILD_DIR, 'wnba_playoffs.json')
 
+# BIG10+ injection (same pattern as NFL/NHL/WNBA). big10plus_schedule.json
+# holds {logical_channel_id: [programme XML strings]} for BIG10+ 01-24, built
+# from ESPN's published schedule via update_big10plus_schedule.py. Keys are
+# LOGICAL ids (m3u-big10-01 .. m3u-big10-24); the roster carries fossilized
+# per-event IDs (m3u-big10-04-volleyball-w-...-fri-sep-18-...), so stage 3d4
+# resolves each number to the actual roster ID via regex at build time.
+BIG10PLUS_SCHEDULE = os.path.join(BUILD_DIR, 'big10plus_schedule.json')
+
 # Known-good build this pipeline reproduces.
 # 2026-09-21: baseline recalibrated after the fossil drop (programmes ending
 # >6h before the anchor are no longer carried). ~300k = real future coverage
@@ -1878,6 +1886,68 @@ def main(argv):
                                     'renamed': wnba_renamed}
         if wnba_renamed:
             log(f"wnba: refreshed {wnba_renamed} display names")
+
+        # 3d4. BIG10+ schedule injection (best-effort; never aborts).
+        # Same pattern as NFL/NHL/WNBA: one-off event entries from
+        # big10plus_schedule.json. Skips itself once valid_until_utc has
+        # passed. Only fills channels with no real future data -- never
+        # overwrites existing listings. Also refreshes the roster display
+        # names from the injected matchup (the old code left fossilized
+        # "Fri @ Sep 18" names in the guide).
+        # Number-based resolution: the JSON is keyed by logical IDs
+        # (m3u-big10-01 .. m3u-big10-24); each is resolved to the actual
+        # roster ID (fossilized per-event form) here, and the programme
+        # XML channel attributes are rewritten to match.
+        big10_injected = 0
+        big10_renamed = 0
+        big10_unmatched = []
+        try:
+            if os.path.isfile(BIG10PLUS_SCHEDULE):
+                big10_raw = json.load(open(BIG10PLUS_SCHEDULE))
+                valid_until = big10_raw.get('_meta', {}).get(
+                    'valid_until_utc', '')
+                if valid_until and datetime.now(timezone.utc).isoformat() < valid_until:
+                    _disp_names = big10_raw.get('_display_names', {}) or {}
+                    _big10_lid_re = re.compile(r'^m3u-big10-0*(\d+)$', re.I)
+                    _big10_rid_re = re.compile(r'^m3u-big10-0*(\d+)(?:-|$)',
+                                               re.I)
+                    _big10_chan_re = re.compile(r'channel="[^"]*"')
+                    _num_to_id = {}
+                    for _cid in roster:
+                        _m = _big10_rid_re.match(_cid)
+                        if _m:
+                            _num_to_id.setdefault(int(_m.group(1)), _cid)
+                    for _lid, _plist in big10_raw.items():
+                        if _lid.startswith('_'):
+                            continue
+                        _lm = _big10_lid_re.match(_lid)
+                        if not _lm:
+                            continue
+                        _tcid = _num_to_id.get(int(_lm.group(1)))
+                        if not _tcid:
+                            big10_unmatched.append(_lid)
+                            continue
+                        if _tcid not in verified_fresh:
+                            verified_fresh[_tcid] = [
+                                _big10_chan_re.sub(
+                                    f'channel="{_tcid}"', _p, count=1)
+                                for _p in _plist]
+                            big10_injected += 1
+                        _disp = _disp_names.get(_lid)
+                        if _disp and roster[_tcid][0] != _disp:
+                            roster[_tcid] = (_disp, roster[_tcid][1])
+                            big10_renamed += 1
+                else:
+                    log("big10+: schedule expired, skipping")
+        except Exception as e:
+            log(f"big10+: injection failed ({e}); continuing")
+        report['stages']['big10plus'] = {'injected_channels': big10_injected,
+                                         'renamed': big10_renamed,
+                                         'unmatched': big10_unmatched}
+        if big10_renamed:
+            log(f"big10+: refreshed {big10_renamed} display names")
+        if big10_unmatched:
+            log(f"big10+: no roster match for {big10_unmatched}")
 
         # 4. optional provider XML hook for regular channels
         service_progs = load_service_xml(service_xml) if service_xml else {}
