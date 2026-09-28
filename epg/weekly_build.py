@@ -274,6 +274,14 @@ WNBA_SCHEDULE = os.path.join(BUILD_DIR, 'wnba_playoffs.json')
 # resolves each number to the actual roster ID via regex at build time.
 BIG10PLUS_SCHEDULE = os.path.join(BUILD_DIR, 'big10plus_schedule.json')
 
+# FloRacing injection (same pattern as NFL/NHL/WNBA/BIG10+).
+# floracing_schedule.json holds {channel_id: [programme XML strings]} for
+# the single USA Flo Racing channel (m3u-usa-flo-racing), built from
+# FloRacing's public schedule API via update_floracing_schedule.py. The
+# channel ID is stable (no fossilized per-event IDs), so stage 3d5 maps
+# directly -- no number resolution needed.
+FLORACING_SCHEDULE = os.path.join(BUILD_DIR, 'floracing_schedule.json')
+
 # Known-good build this pipeline reproduces.
 # 2026-09-21: baseline recalibrated after the fossil drop (programmes ending
 # >6h before the anchor are no longer carried). ~300k = real future coverage
@@ -1948,6 +1956,39 @@ def main(argv):
             log(f"big10+: refreshed {big10_renamed} display names")
         if big10_unmatched:
             log(f"big10+: no roster match for {big10_unmatched}")
+
+        # 3d5. FloRacing schedule injection (best-effort; never aborts).
+        # Same pattern as NFL/NHL/WNBA/BIG10+: event entries from
+        # floracing_schedule.json for USA Flo Racing (m3u-usa-flo-racing).
+        # Skips itself once valid_until_utc has passed. Only fills the
+        # channel when it has no real future data -- never overwrites
+        # existing listings. The channel ID is stable, so no number
+        # resolution is needed; the JSON is keyed by the real roster ID.
+        floracing_injected = 0
+        try:
+            if os.path.isfile(FLORACING_SCHEDULE):
+                flo_raw = json.load(open(FLORACING_SCHEDULE))
+                valid_until = flo_raw.get('_meta', {}).get('valid_until_utc',
+                                                           '')
+                if valid_until and datetime.now(timezone.utc).isoformat() < valid_until:
+                    _disp_names = flo_raw.get('_display_names', {}) or {}
+                    for tcid, plist in flo_raw.items():
+                        if tcid.startswith('_') or tcid not in roster:
+                            continue
+                        if tcid not in verified_fresh:
+                            verified_fresh[tcid] = plist
+                            floracing_injected += 1
+                        _disp = _disp_names.get(tcid)
+                        if _disp and roster[tcid][0] != _disp:
+                            roster[tcid] = (_disp, roster[tcid][1])
+                else:
+                    log("floracing: schedule expired, skipping")
+        except Exception as e:
+            log(f"floracing: injection failed ({e}); continuing")
+        report['stages']['floracing'] = {
+            'injected_channels': floracing_injected}
+        if floracing_injected:
+            log(f"floracing: injected {floracing_injected} channel(s)")
 
         # 4. optional provider XML hook for regular channels
         service_progs = load_service_xml(service_xml) if service_xml else {}
