@@ -22,7 +22,7 @@ name: Weekly EPG rebuild
 
 on:
   schedule:
-    - cron: '0 15 * * 0,4'
+    - cron: '0 15 * * 0,2,4'
   workflow_dispatch:
     inputs:
       tag_suffix:
