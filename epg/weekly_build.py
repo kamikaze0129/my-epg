@@ -1502,11 +1502,14 @@ def main(argv):
     no_promote = '--no-promote' in argv
     service_xml = None
     workdir = None
+    out_arg = None
     for i, a in enumerate(argv):
         if a == '--service-xml' and i + 1 < len(argv):
             service_xml = argv[i + 1]
         if a == '--workdir' and i + 1 < len(argv):
             workdir = argv[i + 1]
+        if a == '--out' and i + 1 < len(argv):
+            out_arg = argv[i + 1]
     if not service_xml:
         service_xml = os.environ.get('EPG_SERVICE_XML')
     ts = datetime.now(timezone.utc).strftime('%Y%m%d-%H%M%S')
@@ -1786,7 +1789,7 @@ def main(argv):
 
         # 5. build
         anchor = datetime.now(timezone.utc).replace(minute=0, second=0, microsecond=0)
-        out_path = os.path.join(workdir, 'epg_new.xml')
+        out_path = out_arg or os.path.join(workdir, 'epg_new.xml')
         counters = build_output(PREV_BUILD, out_path, roster, order, classes,
                                 min_start_247, verified_fresh, service_progs, anchor)
         report['stages']['build'] = counters
