@@ -1248,5 +1248,315 @@
     "block_mins": 30,
     "title": "Zoboomafoo",
     "desc": "Zoboomafoo marathon."
+  },
+  {
+    "id": "m3u-247-agent-elvis",
+    "names": [
+      "24/7 Agent Elvis"
+    ],
+    "icon": "https://files.catbox.moe/ilba0y.png",
+    "block_mins": 30,
+    "title": "Agent Elvis",
+    "desc": "Agent Elvis marathon."
+  },
+  {
+    "id": "m3u-247-bobs-burgers",
+    "names": [
+      "24/7 Bobs Burgers"
+    ],
+    "icon": "https://files.catbox.moe/1nmxnx.png",
+    "block_mins": 30,
+    "title": "Bobs Burgers",
+    "desc": "Bobs Burgers marathon."
+  },
+  {
+    "id": "m3u-247-bojack-horseman",
+    "names": [
+      "24/7 Bojack Horseman"
+    ],
+    "icon": "https://files.catbox.moe/fo3pei.png",
+    "block_mins": 30,
+    "title": "Bojack Horseman",
+    "desc": "Bojack Horseman marathon."
+  },
+  {
+    "id": "m3u-247-daria",
+    "names": [
+      "24/7 Daria"
+    ],
+    "icon": "https://files.catbox.moe/6jrqx6.png",
+    "block_mins": 30,
+    "title": "Daria",
+    "desc": "Daria marathon."
+  },
+  {
+    "id": "m3u-247-f-is-for-family",
+    "names": [
+      "24/7 F Is For Family"
+    ],
+    "icon": "https://files.catbox.moe/83f4br.png",
+    "block_mins": 30,
+    "title": "F Is For Family",
+    "desc": "F Is For Family marathon."
+  },
+  {
+    "id": "m3u-247-family-guy",
+    "names": [
+      "24/7 Family Guy"
+    ],
+    "icon": "https://files.catbox.moe/v3d00p.png",
+    "block_mins": 30,
+    "title": "Family Guy",
+    "desc": "Family Guy marathon."
+  },
+  {
+    "id": "m3u-247-fugget-about-it",
+    "names": [
+      "24/7 Fugget About It"
+    ],
+    "icon": "https://files.catbox.moe/506s1c.png",
+    "block_mins": 30,
+    "title": "Fugget About It",
+    "desc": "Fugget About It marathon."
+  },
+  {
+    "id": "m3u-247-futurama",
+    "names": [
+      "24/7 Futurama"
+    ],
+    "icon": "https://files.catbox.moe/kahyk9.png",
+    "block_mins": 30,
+    "title": "Futurama",
+    "desc": "Futurama marathon."
+  },
+  {
+    "id": "m3u-247-harley-quinn",
+    "names": [
+      "24/7 Harley Quinn"
+    ],
+    "icon": "https://files.catbox.moe/h95nbv.png",
+    "block_mins": 30,
+    "title": "Harley Quinn",
+    "desc": "Harley Quinn marathon."
+  },
+  {
+    "id": "m3u-247-harvey-birdman-attorney-at-law",
+    "names": [
+      "24/7 Harvey Birdman Attorney At Law"
+    ],
+    "icon": "https://files.catbox.moe/yeyodi.png",
+    "block_mins": 30,
+    "title": "Harvey Birdman Attorney At Law",
+    "desc": "Harvey Birdman Attorney At Law marathon."
+  },
+  {
+    "id": "m3u-247-home-movies",
+    "names": [
+      "24/7 Home Movies"
+    ],
+    "icon": "https://files.catbox.moe/fbhvj0.png",
+    "block_mins": 30,
+    "title": "Home Movies",
+    "desc": "Home Movies marathon."
+  },
+  {
+    "id": "m3u-247-kevin-spencer",
+    "names": [
+      "24/7 Kevin Spencer"
+    ],
+    "icon": "https://files.catbox.moe/np61e5.png",
+    "block_mins": 30,
+    "title": "Kevin Spencer",
+    "desc": "Kevin Spencer marathon."
+  },
+  {
+    "id": "m3u-247-king-of-the-hill",
+    "names": [
+      "24/7 King Of The Hill"
+    ],
+    "icon": "https://files.catbox.moe/bhu1so.png",
+    "block_mins": 30,
+    "title": "King Of The Hill",
+    "desc": "King Of The Hill marathon."
+  },
+  {
+    "id": "m3u-247-liquid-television",
+    "names": [
+      "24/7 Liquid Television"
+    ],
+    "icon": "https://files.catbox.moe/yciy39.png",
+    "block_mins": 30,
+    "title": "Liquid Television",
+    "desc": "Liquid Television marathon."
+  },
+  {
+    "id": "m3u-247-love-death-and-robots",
+    "names": [
+      "24/7 Love Death And Robots"
+    ],
+    "icon": "https://files.catbox.moe/7p7bsw.png",
+    "block_mins": 30,
+    "title": "Love Death And Robots",
+    "desc": "Love Death And Robots marathon."
+  },
+  {
+    "id": "m3u-247-metalocalypse",
+    "names": [
+      "24/7 Metalocalypse"
+    ],
+    "icon": "https://files.catbox.moe/9srol7.png",
+    "block_mins": 30,
+    "title": "Metalocalypse",
+    "desc": "Metalocalypse marathon."
+  },
+  {
+    "id": "m3u-247-mike-tyson-mysteries",
+    "names": [
+      "24/7 Mike Tyson Mysteries"
+    ],
+    "icon": "https://files.catbox.moe/uiy8r0.png",
+    "block_mins": 30,
+    "title": "Mike Tyson Mysteries",
+    "desc": "Mike Tyson Mysteries marathon."
+  },
+  {
+    "id": "m3u-247-rick-and-morty",
+    "names": [
+      "24/7 Rick And Morty"
+    ],
+    "icon": "https://files.catbox.moe/vydkgh.png",
+    "block_mins": 30,
+    "title": "Rick And Morty",
+    "desc": "Rick And Morty marathon."
+  },
+  {
+    "id": "m3u-247-robot-chicken",
+    "names": [
+      "24/7 Robot Chicken"
+    ],
+    "icon": "https://files.catbox.moe/ai0x3a.png",
+    "block_mins": 30,
+    "title": "Robot Chicken",
+    "desc": "Robot Chicken marathon."
+  },
+  {
+    "id": "m3u-247-space-ghost-coast-to-coast",
+    "names": [
+      "24/7 Space Ghost Coast To Coast"
+    ],
+    "icon": "https://files.catbox.moe/qupdaz.png",
+    "block_mins": 30,
+    "title": "Space Ghost Coast To Coast",
+    "desc": "Space Ghost Coast To Coast marathon."
+  },
+  {
+    "id": "m3u-247-spitting-image",
+    "names": [
+      "24/7 Spitting Image"
+    ],
+    "icon": "https://files.catbox.moe/czkvp3.png",
+    "block_mins": 30,
+    "title": "Spitting Image",
+    "desc": "Spitting Image marathon."
+  },
+  {
+    "id": "m3u-247-squidbillies",
+    "names": [
+      "24/7 Squidbillies"
+    ],
+    "icon": "https://files.catbox.moe/yuyb85.png",
+    "block_mins": 30,
+    "title": "Squidbillies",
+    "desc": "Squidbillies marathon."
+  },
+  {
+    "id": "m3u-247-superjail",
+    "names": [
+      "24/7 Superjail"
+    ],
+    "icon": "https://files.catbox.moe/rm1h0c.png",
+    "block_mins": 30,
+    "title": "Superjail",
+    "desc": "Superjail marathon."
+  },
+  {
+    "id": "m3u-247-the-boondocks",
+    "names": [
+      "24/7 The Boondocks"
+    ],
+    "icon": "https://files.catbox.moe/2oqml4.png",
+    "block_mins": 30,
+    "title": "The Boondocks",
+    "desc": "The Boondocks marathon."
+  },
+  {
+    "id": "m3u-247-the-brak-show",
+    "names": [
+      "24/7 The Brak Show"
+    ],
+    "icon": "https://files.catbox.moe/o9u99d.png",
+    "block_mins": 30,
+    "title": "The Brak Show",
+    "desc": "The Brak Show marathon."
+  },
+  {
+    "id": "m3u-247-the-cleveland-show",
+    "names": [
+      "24/7 The Cleveland Show"
+    ],
+    "icon": "https://files.catbox.moe/0i3sa5.png",
+    "block_mins": 30,
+    "title": "The Cleveland Show",
+    "desc": "The Cleveland Show marathon."
+  },
+  {
+    "id": "m3u-247-the-great-north",
+    "names": [
+      "24/7 The Great North"
+    ],
+    "icon": "https://files.catbox.moe/h1czix.png",
+    "block_mins": 30,
+    "title": "The Great North",
+    "desc": "The Great North marathon."
+  },
+  {
+    "id": "m3u-247-the-life-and-times-of-tim",
+    "names": [
+      "24/7 The Life And Times Of Tim"
+    ],
+    "icon": "https://files.catbox.moe/kat3di.png",
+    "block_mins": 30,
+    "title": "The Life And Times Of Tim",
+    "desc": "The Life And Times Of Tim marathon."
+  },
+  {
+    "id": "m3u-247-the-pjs",
+    "names": [
+      "24/7 The Pjs"
+    ],
+    "icon": "https://files.catbox.moe/urj1mb.png",
+    "block_mins": 30,
+    "title": "The Pjs",
+    "desc": "The Pjs marathon."
+  },
+  {
+    "id": "m3u-247-the-ren-and-stimpy-show",
+    "names": [
+      "24/7 The Ren And Stimpy Show"
+    ],
+    "icon": "https://files.catbox.moe/f860zp.png",
+    "block_mins": 30,
+    "title": "The Ren And Stimpy Show",
+    "desc": "The Ren And Stimpy Show marathon."
+  },
+  {
+    "id": "m3u-247-the-simpsons-treehouse-of-horror",
+    "names": [
+      "24/7 The Simpsons Treehouse Of Horror"
+    ],
+    "icon": "https://files.catbox.moe/jujjuc.png",
+    "block_mins": 30,
+    "title": "The Simpsons Treehouse Of Horror",
+    "desc": "The Simpsons Treehouse Of Horror marathon."
   }
 ]
