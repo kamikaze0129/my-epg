@@ -251,6 +251,14 @@ SERVICE_TZ_SHIFTS = {  # channel_id -> hours to shift
 # 705-707 bake the matchup into their IDs (they rename weekly).
 NFL_SCHEDULE = os.path.join(BUILD_DIR, 'nfl_sunday_ticket.json')
 
+# NHL schedule injection (same pattern as NFL). nhl_schedule.json holds
+# {channel_id: [programme XML strings]} for USA NHL 01-06, built from ESPN's
+# published schedule via update_nhl_schedule.py. Games are one-off events,
+# so the file carries valid_until_utc and the stage skips itself once the
+# games have ended. Only USA NHL 01-06 -- the 18-42 channels are mislabeled
+# NCAA and are excluded.
+NHL_SCHEDULE = os.path.join(BUILD_DIR, 'nhl_schedule.json')
+
 # Known-good build this pipeline reproduces.
 # 2026-09-21: baseline recalibrated after the fossil drop (programmes ending
 # >6h before the anchor are no longer carried). ~300k = real future coverage
@@ -1771,6 +1779,52 @@ def main(argv):
                                    'renamed': nfl_renamed}
         if nfl_renamed:
             log(f"nfl: refreshed {nfl_renamed} display names")
+
+        # 3d2. NHL schedule injection (best-effort; never aborts).
+        # Same pattern as NFL: one-off game entries from nhl_schedule.json.
+        # Skips itself once valid_until_utc has passed. Only fills channels
+        # with no real future data -- never overwrites existing listings.
+        # Also refreshes the roster display names from the injected matchup.
+        nhl_injected = 0
+        nhl_renamed = 0
+        try:
+            if os.path.isfile(NHL_SCHEDULE):
+                nhl_raw = json.load(open(NHL_SCHEDULE))
+                valid_until = nhl_raw.get('_meta', {}).get('valid_until_utc', '')
+                if valid_until and datetime.now(timezone.utc).isoformat() < valid_until:
+                    _disp_names = nhl_raw.get('_display_names', {}) or {}
+                    _nhl_title_re = re.compile(
+                        r'<title[^>]*>\s*NHL Hockey:\s*(.+?)\s+at\s+(.+?)\s*</title>',
+                        re.I)
+                    _nhl_kick_re = re.compile(
+                        r'Puck drop\s+(\d{1,2}:\d{2}\s*[AP]M\s*ET)', re.I)
+                    _nhl_num_re = re.compile(r'm3u-usa-nhl-0([1-6])\b', re.I)
+                    for tcid, plist in nhl_raw.items():
+                        if tcid.startswith('_') or tcid not in roster:
+                            continue
+                        if tcid not in verified_fresh:
+                            verified_fresh[tcid] = plist
+                            nhl_injected += 1
+                        _disp = _disp_names.get(tcid)
+                        if not _disp:
+                            _nm = _nhl_num_re.search(tcid)
+                            _t = _nhl_title_re.search(plist[0] if plist else '')
+                            _k = _nhl_kick_re.search(plist[0] if plist else '')
+                            if _nm and _t:
+                                _disp = (f"USA NHL 0{_nm.group(1)}: "
+                                         f"{_t.group(1)} vs {_t.group(2)}"
+                                         + (f" @ {_k.group(1)}" if _k else ""))
+                        if _disp and roster[tcid][0] != _disp:
+                            roster[tcid] = (_disp, roster[tcid][1])
+                            nhl_renamed += 1
+                else:
+                    log("nhl: schedule expired, skipping")
+        except Exception as e:
+            log(f"nhl: injection failed ({e}); continuing")
+        report['stages']['nhl'] = {'injected_channels': nhl_injected,
+                                   'renamed': nhl_renamed}
+        if nhl_renamed:
+            log(f"nhl: refreshed {nhl_renamed} display names")
 
         # 4. optional provider XML hook for regular channels
         service_progs = load_service_xml(service_xml) if service_xml else {}
