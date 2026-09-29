@@ -213294,6 +213294,2105 @@
      "stop": "2026-10-15T00:05:00+00:00"
     }
    ]
+  },
+  "retroplex.us": {
+   "source": "tvinsider",
+   "source_url": "https://www.tvinsider.com/network/retroplex/schedule/",
+   "programmes": [
+    {
+     "start": "2026-09-29T15:53:00+00:00",
+     "title": "Don&#8217;t Wait, Django&#8230; Shoot!",
+     "episode": "Feature Film \u2022 1967",
+     "desc": "Django returns to his hometown and discovers his father has been murdered by a ruthless gang.",
+     "stop": "2026-09-29T17:22:00+00:00"
+    },
+    {
+     "start": "2026-09-29T17:22:00+00:00",
+     "title": "The Unforgiven",
+     "episode": "Feature Film \u2022 1960",
+     "desc": "A Texas woman and her eldest son fight Kiowas over an adopted daughter.",
+     "stop": "2026-09-29T19:24:00+00:00"
+    },
+    {
+     "start": "2026-09-29T19:24:00+00:00",
+     "title": "Man About Town",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "A Hollywood agent (Ben Affleck) struggles with his career and his wife (Rebecca Romijn).",
+     "stop": "2026-09-29T21:04:00+00:00"
+    },
+    {
+     "start": "2026-09-29T21:04:00+00:00",
+     "title": "Pit Pony",
+     "episode": "TV Movie \u2022 1997",
+     "desc": "A horse's companionship helps a boy overcome his fears and work in a Nova Scotia coal mine.",
+     "stop": "2026-09-29T22:37:00+00:00"
+    },
+    {
+     "start": "2026-09-29T22:37:00+00:00",
+     "title": "Keeping Mum",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "A new housekeeper (Maggie Smith) has a drastic method of solving her employers' problems.",
+     "stop": "2026-09-30T00:21:00+00:00"
+    },
+    {
+     "start": "2026-09-30T00:21:00+00:00",
+     "title": "The Magic of the Golden Bear: Goldy III",
+     "episode": "Feature Film \u2022 1994",
+     "desc": "A failing magician (Cheech Marin) tries to trick an orphan girl (Bonnie Morgan) out of her pet bear.",
+     "stop": "2026-09-30T02:07:00+00:00"
+    },
+    {
+     "start": "2026-09-30T02:07:00+00:00",
+     "title": "Chappaquiddick",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "Scandal surrounds Sen. Ted Kennedy after a car accident kills his passenger Mary Jo Kopechne.",
+     "stop": "2026-09-30T03:54:00+00:00"
+    },
+    {
+     "start": "2026-09-30T03:54:00+00:00",
+     "title": "Pit Pony",
+     "episode": "TV Movie \u2022 1997",
+     "desc": "A horse's companionship helps a boy overcome his fears and work in a Nova Scotia coal mine.",
+     "stop": "2026-09-30T04:24:00+00:00"
+    },
+    {
+     "start": "2026-09-30T05:27:00+00:00",
+     "title": "Man About Town",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "A Hollywood agent (Ben Affleck) struggles with his career and his wife (Rebecca Romijn).",
+     "stop": "2026-09-30T07:07:00+00:00"
+    },
+    {
+     "start": "2026-09-30T07:07:00+00:00",
+     "title": "Lightning Raiders",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "A cowboy (Buster Crabbe) and his sidekick (Al \"Fuzzy\" St. John) track mail thieves to a hide-out.",
+     "stop": "2026-09-30T08:00:00+00:00"
+    },
+    {
+     "start": "2026-09-30T08:00:00+00:00",
+     "title": "Robin Hood of the Pecos",
+     "episode": "Feature Film \u2022 1941",
+     "desc": "Night rider (George \"Gabby\" Hayes) and singing partner (Roy Rogers) send carpetbaggers packing.",
+     "stop": "2026-09-30T08:54:00+00:00"
+    },
+    {
+     "start": "2026-09-30T08:54:00+00:00",
+     "title": "Shotgun",
+     "episode": "Feature Film \u2022 1955",
+     "desc": "Deputy (Sterling Hayden) rides with woman (Yvonne De Carlo), bounty hunter (Zachary Scott).",
+     "stop": "2026-09-30T10:15:00+00:00"
+    },
+    {
+     "start": "2026-09-30T10:15:00+00:00",
+     "title": "The Cowboy and the Senorita",
+     "episode": "Feature Film \u2022 1944",
+     "desc": "Cowboys ride to the rescue as villains try to cheat a girl out of a gold mine she's due to inherit.",
+     "stop": "2026-09-30T11:07:00+00:00"
+    },
+    {
+     "start": "2026-09-30T11:07:00+00:00",
+     "title": "Man About Town",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "A Hollywood agent (Ben Affleck) struggles with his career and his wife (Rebecca Romijn).",
+     "stop": "2026-09-30T12:47:00+00:00"
+    },
+    {
+     "start": "2026-09-30T12:47:00+00:00",
+     "title": "Tumbleweed Trail",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A singing undercover agent (Eddie Dean) and his sidekick (Roscoe Ates) catch cattle rustlers.",
+     "stop": "2026-09-30T13:46:00+00:00"
+    },
+    {
+     "start": "2026-09-30T13:46:00+00:00",
+     "title": "Pit Pony",
+     "episode": "TV Movie \u2022 1997",
+     "desc": "A horse's companionship helps a boy overcome his fears and work in a Nova Scotia coal mine.",
+     "stop": "2026-09-30T15:19:00+00:00"
+    },
+    {
+     "start": "2026-09-30T15:19:00+00:00",
+     "title": "Stage to Mesa City",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "A U.S. marshal with a bullwhip links a postmaster to robberies.",
+     "stop": "2026-09-30T16:12:00+00:00"
+    },
+    {
+     "start": "2026-09-30T16:12:00+00:00",
+     "title": "Keeping Mum",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "A new housekeeper (Maggie Smith) has a drastic method of solving her employers' problems.",
+     "stop": "2026-09-30T17:56:00+00:00"
+    },
+    {
+     "start": "2026-09-30T17:56:00+00:00",
+     "title": "Little Big Horn",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "Cavalry officers (Lloyd Bridges, John Ireland) try to warn Gen. Custer.",
+     "stop": "2026-09-30T19:23:00+00:00"
+    },
+    {
+     "start": "2026-09-30T19:23:00+00:00",
+     "title": "The Magic of the Golden Bear: Goldy III",
+     "episode": "Feature Film \u2022 1994",
+     "desc": "A failing magician (Cheech Marin) tries to trick an orphan girl (Bonnie Morgan) out of her pet bear.",
+     "stop": "2026-09-30T21:09:00+00:00"
+    },
+    {
+     "start": "2026-09-30T21:09:00+00:00",
+     "title": "Along the Navajo Trail",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Gypsies help a U.S. deputy marshal (Roy Rogers) pose as a singing drifter and bust an oil syndicate.",
+     "stop": "2026-09-30T22:02:00+00:00"
+    },
+    {
+     "start": "2026-09-30T22:02:00+00:00",
+     "title": "Brother Outlaw",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Two brothers search for the culprits behind a bank robbery and confront a famous gunfighter.",
+     "stop": "2026-09-30T23:25:00+00:00"
+    },
+    {
+     "start": "2026-09-30T23:25:00+00:00",
+     "title": "Little Big Horn",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "Cavalry officers (Lloyd Bridges, John Ireland) try to warn Gen. Custer.",
+     "stop": "2026-10-01T00:52:00+00:00"
+    },
+    {
+     "start": "2026-10-01T00:52:00+00:00",
+     "title": "John Wayne Behind-the-Scenes: Filming of Stunts, Chases, Fights, Crashes &#038; Gun Battles",
+     "episode": "Special \u2022 2017",
+     "desc": "A behind-the-scenes look at the stunts, fights, gun battles and chases from John Wayne movies.",
+     "stop": "2026-10-01T02:24:00+00:00"
+    },
+    {
+     "start": "2026-10-01T02:24:00+00:00",
+     "title": "Promise",
+     "episode": "Feature Film \u2022 2021",
+     "desc": "A Union scout sets out on a deadly mission to learn the fate of his true love and her little girl.",
+     "stop": "2026-10-01T02:54:00+00:00"
+    },
+    {
+     "start": "2026-10-01T04:22:00+00:00",
+     "title": "Night of the Living Dead",
+     "episode": "Feature Film \u2022 1968",
+     "desc": "A ragtag group of Pennsylvanians barricade themselves in a farmhouse to remain safe from zombies.",
+     "stop": "2026-10-01T06:00:00+00:00"
+    },
+    {
+     "start": "2026-10-01T06:00:00+00:00",
+     "title": "Little Big Horn",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "Cavalry officers (Lloyd Bridges, John Ireland) try to warn Gen. Custer.",
+     "stop": "2026-10-01T07:27:00+00:00"
+    },
+    {
+     "start": "2026-10-01T07:27:00+00:00",
+     "title": "Stage to Mesa City",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "A U.S. marshal with a bullwhip links a postmaster to robberies.",
+     "stop": "2026-10-01T08:20:00+00:00"
+    },
+    {
+     "start": "2026-10-01T08:20:00+00:00",
+     "title": "The Cowboy and the Senorita",
+     "episode": "Feature Film \u2022 1944",
+     "desc": "Cowboys ride to the rescue as villains try to cheat a girl out of a gold mine she's due to inherit.",
+     "stop": "2026-10-01T09:12:00+00:00"
+    },
+    {
+     "start": "2026-10-01T09:12:00+00:00",
+     "title": "Tumbleweed Trail",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A singing undercover agent (Eddie Dean) and his sidekick (Roscoe Ates) catch cattle rustlers.",
+     "stop": "2026-10-01T10:11:00+00:00"
+    },
+    {
+     "start": "2026-10-01T10:11:00+00:00",
+     "title": "Brother Outlaw",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Two brothers search for the culprits behind a bank robbery and confront a famous gunfighter.",
+     "stop": "2026-10-01T11:34:00+00:00"
+    },
+    {
+     "start": "2026-10-01T11:34:00+00:00",
+     "title": "Along the Navajo Trail",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Gypsies help a U.S. deputy marshal (Roy Rogers) pose as a singing drifter and bust an oil syndicate.",
+     "stop": "2026-10-01T12:27:00+00:00"
+    },
+    {
+     "start": "2026-10-01T12:27:00+00:00",
+     "title": "John Wayne Behind-the-Scenes: Filming of Stunts, Chases, Fights, Crashes &#038; Gun Battles",
+     "episode": "Special \u2022 2017",
+     "desc": "A behind-the-scenes look at the stunts, fights, gun battles and chases from John Wayne movies.",
+     "stop": "2026-10-01T14:00:00+00:00"
+    },
+    {
+     "start": "2026-10-01T14:00:00+00:00",
+     "title": "Return of the Lash",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "A whip-wielding bounty hunter's (Lash La Rue) sidekick (Al \"Fuzzy\" St. John) has amnesia.",
+     "stop": "2026-10-01T14:54:00+00:00"
+    },
+    {
+     "start": "2026-10-01T14:54:00+00:00",
+     "title": "Gentlemen With Guns",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A cowboy (Buster Crabbe) and his sidekick (Al St. John) thwart a ranch takeover.",
+     "stop": "2026-10-01T15:48:00+00:00"
+    },
+    {
+     "start": "2026-10-01T15:48:00+00:00",
+     "title": "Brother Outlaw",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Two brothers search for the culprits behind a bank robbery and confront a famous gunfighter.",
+     "stop": "2026-10-01T17:11:00+00:00"
+    },
+    {
+     "start": "2026-10-01T17:11:00+00:00",
+     "title": "Randy Rides Alone",
+     "episode": "Feature Film \u2022 1934",
+     "desc": "Government agent Randy Bowers has to escape from jail to find a man behind saloon slayings.",
+     "stop": "2026-10-01T18:05:00+00:00"
+    },
+    {
+     "start": "2026-10-01T18:05:00+00:00",
+     "title": "Bells of Coronado",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "A singing insurance sleuth catches uranium-ore crooks who kill a mine owner.",
+     "stop": "2026-10-01T19:00:00+00:00"
+    },
+    {
+     "start": "2026-10-01T19:00:00+00:00",
+     "title": "John Wayne Behind-the-Scenes: Filming of Stunts, Chases, Fights, Crashes &#038; Gun Battles",
+     "episode": "Special \u2022 2017",
+     "desc": "A behind-the-scenes look at the stunts, fights, gun battles and chases from John Wayne movies.",
+     "stop": "2026-10-01T20:33:00+00:00"
+    },
+    {
+     "start": "2026-10-01T20:33:00+00:00",
+     "title": "Cariboo Trail",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Jim and Mike head into Canada's British Columbia intending to dig for gold but find trouble instead.",
+     "stop": "2026-10-01T21:55:00+00:00"
+    },
+    {
+     "start": "2026-10-01T21:55:00+00:00",
+     "title": "The Proud Rebel",
+     "episode": "Feature Film \u2022 1958",
+     "desc": "Widow (Olivia de Havilland) helps Southern widower (Alan Ladd) with mute son after Civil War.",
+     "stop": "2026-10-01T23:39:00+00:00"
+    },
+    {
+     "start": "2026-10-01T23:39:00+00:00",
+     "title": "Bad Man&#8217;s River",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Con artists use an outlaw (Lee Van Cleef) in a scheme to bilk Mexico.",
+     "stop": "2026-10-02T01:12:00+00:00"
+    },
+    {
+     "start": "2026-10-02T01:12:00+00:00",
+     "title": "Night of the Living Dead",
+     "episode": "Feature Film \u2022 1968",
+     "desc": "A ragtag group of Pennsylvanians barricade themselves in a farmhouse to remain safe from zombies.",
+     "stop": "2026-10-02T01:42:00+00:00"
+    },
+    {
+     "start": "2026-10-02T04:18:00+00:00",
+     "title": "Gentlemen With Guns",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A cowboy (Buster Crabbe) and his sidekick (Al St. John) thwart a ranch takeover.",
+     "stop": "2026-10-02T05:12:00+00:00"
+    },
+    {
+     "start": "2026-10-02T05:12:00+00:00",
+     "title": "Return of the Lash",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "A whip-wielding bounty hunter's (Lash La Rue) sidekick (Al \"Fuzzy\" St. John) has amnesia.",
+     "stop": "2026-10-02T06:06:00+00:00"
+    },
+    {
+     "start": "2026-10-02T06:06:00+00:00",
+     "title": "Driftin&#8217; River",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A singing cowboy (Eddie Dean) and his sidekick (Roscoe Ates) secure horses for the U.S. government.",
+     "stop": "2026-10-02T07:03:00+00:00"
+    },
+    {
+     "start": "2026-10-02T07:03:00+00:00",
+     "title": "Bells of Coronado",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "A singing insurance sleuth catches uranium-ore crooks who kill a mine owner.",
+     "stop": "2026-10-02T07:58:00+00:00"
+    },
+    {
+     "start": "2026-10-02T07:58:00+00:00",
+     "title": "Riders of Destiny",
+     "episode": "Feature Film \u2022 1933",
+     "desc": "Washington sends a singing cowboy (John Wayne) to end a water-rights fight.",
+     "stop": "2026-10-02T08:50:00+00:00"
+    },
+    {
+     "start": "2026-10-02T08:50:00+00:00",
+     "title": "Randy Rides Alone",
+     "episode": "Feature Film \u2022 1934",
+     "desc": "Government agent Randy Bowers has to escape from jail to find a man behind saloon slayings.",
+     "stop": "2026-10-02T09:44:00+00:00"
+    },
+    {
+     "start": "2026-10-02T09:44:00+00:00",
+     "title": "Rough Riders&#8217; Round-Up",
+     "episode": "Feature Film \u2022 1939",
+     "desc": "A singing Roughrider joins the border patrol and nabs a gang of gold thieves.",
+     "stop": "2026-10-02T10:38:00+00:00"
+    },
+    {
+     "start": "2026-10-02T10:38:00+00:00",
+     "title": "Outride the Devil: A Morning With Doc Holliday",
+     "episode": "Special \u2022 2007",
+     "desc": "Kit Hussey presents the highlights from the last fourteen years of Doc Holliday's life.",
+     "stop": "2026-10-02T12:06:00+00:00"
+    },
+    {
+     "start": "2026-10-02T12:06:00+00:00",
+     "title": "Cariboo Trail",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Jim and Mike head into Canada's British Columbia intending to dig for gold but find trouble instead.",
+     "stop": "2026-10-02T13:28:00+00:00"
+    },
+    {
+     "start": "2026-10-02T13:28:00+00:00",
+     "title": "Bad Man&#8217;s River",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Con artists use an outlaw (Lee Van Cleef) in a scheme to bilk Mexico.",
+     "stop": "2026-10-02T15:01:00+00:00"
+    },
+    {
+     "start": "2026-10-02T15:01:00+00:00",
+     "title": "The Proud Rebel",
+     "episode": "Feature Film \u2022 1958",
+     "desc": "Widow (Olivia de Havilland) helps Southern widower (Alan Ladd) with mute son after Civil War.",
+     "stop": "2026-10-02T16:45:00+00:00"
+    },
+    {
+     "start": "2026-10-02T16:45:00+00:00",
+     "title": "Riders of Destiny",
+     "episode": "Feature Film \u2022 1933",
+     "desc": "Washington sends a singing cowboy (John Wayne) to end a water-rights fight.",
+     "stop": "2026-10-02T17:37:00+00:00"
+    },
+    {
+     "start": "2026-10-02T17:37:00+00:00",
+     "title": "Rough Riders&#8217; Round-Up",
+     "episode": "Feature Film \u2022 1939",
+     "desc": "A singing Roughrider joins the border patrol and nabs a gang of gold thieves.",
+     "stop": "2026-10-02T18:31:00+00:00"
+    },
+    {
+     "start": "2026-10-02T18:31:00+00:00",
+     "title": "Driftin&#8217; River",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A singing cowboy (Eddie Dean) and his sidekick (Roscoe Ates) secure horses for the U.S. government.",
+     "stop": "2026-10-02T19:28:00+00:00"
+    },
+    {
+     "start": "2026-10-02T19:28:00+00:00",
+     "title": "Outride the Devil: A Morning With Doc Holliday",
+     "episode": "Special \u2022 2007",
+     "desc": "Kit Hussey presents the highlights from the last fourteen years of Doc Holliday's life.",
+     "stop": "2026-10-02T20:56:00+00:00"
+    },
+    {
+     "start": "2026-10-02T20:56:00+00:00",
+     "title": "Premium",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "A struggling actor deals with a series of personal and professional challengers.",
+     "stop": "2026-10-02T22:35:00+00:00"
+    },
+    {
+     "start": "2026-10-02T22:35:00+00:00",
+     "title": "Keeping Mum",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "A new housekeeper (Maggie Smith) has a drastic method of solving her employers' problems.",
+     "stop": "2026-10-03T00:19:00+00:00"
+    },
+    {
+     "start": "2026-10-03T00:19:00+00:00",
+     "title": "Played",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "Rival gangs hire a British thug (Mick Rossi) to complete a hit in Los Angeles.",
+     "stop": "2026-10-03T01:47:00+00:00"
+    },
+    {
+     "start": "2026-10-03T01:47:00+00:00",
+     "title": "Black Pioneer",
+     "episode": "Feature Film \u2022 2020",
+     "desc": "Enslaved pioneer Green Flake embarks on a journey that becomes vital to the settlement of Utah.",
+     "stop": "2026-10-03T03:28:00+00:00"
+    },
+    {
+     "start": "2026-10-03T03:28:00+00:00",
+     "title": "Don&#8217;t Wait, Django&#8230; Shoot!",
+     "episode": "Feature Film \u2022 1967",
+     "desc": "Django returns to his hometown and discovers his father has been murdered by a ruthless gang.",
+     "stop": "2026-10-03T03:58:00+00:00"
+    },
+    {
+     "start": "2026-10-03T04:57:00+00:00",
+     "title": "Keeping Mum",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "A new housekeeper (Maggie Smith) has a drastic method of solving her employers' problems.",
+     "stop": "2026-10-03T06:41:00+00:00"
+    },
+    {
+     "start": "2026-10-03T06:41:00+00:00",
+     "title": "Premium",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "A struggling actor deals with a series of personal and professional challengers.",
+     "stop": "2026-10-03T08:20:00+00:00"
+    },
+    {
+     "start": "2026-10-03T08:20:00+00:00",
+     "title": "Played",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "Rival gangs hire a British thug (Mick Rossi) to complete a hit in Los Angeles.",
+     "stop": "2026-10-03T09:48:00+00:00"
+    },
+    {
+     "start": "2026-10-03T09:48:00+00:00",
+     "title": "Don&#8217;t Wait, Django&#8230; Shoot!",
+     "episode": "Feature Film \u2022 1967",
+     "desc": "Django returns to his hometown and discovers his father has been murdered by a ruthless gang.",
+     "stop": "2026-10-03T11:17:00+00:00"
+    },
+    {
+     "start": "2026-10-03T11:17:00+00:00",
+     "title": "Black Pioneer",
+     "episode": "Feature Film \u2022 2020",
+     "desc": "Enslaved pioneer Green Flake embarks on a journey that becomes vital to the settlement of Utah.",
+     "stop": "2026-10-03T12:58:00+00:00"
+    },
+    {
+     "start": "2026-10-03T12:58:00+00:00",
+     "title": "Colorado",
+     "episode": "Feature Film \u2022 1940",
+     "desc": "A cowboy (Roy Rogers) tracks down his brother, a traitor during the Civil War.",
+     "stop": "2026-10-03T13:52:00+00:00"
+    },
+    {
+     "start": "2026-10-03T13:52:00+00:00",
+     "title": "In Old Caliente",
+     "episode": "Feature Film \u2022 1939",
+     "desc": "A singing cowboy (Roy Rogers) makes newly annexed California safe for settlers.",
+     "stop": "2026-10-03T14:46:00+00:00"
+    },
+    {
+     "start": "2026-10-03T14:46:00+00:00",
+     "title": "Stagecoach Outlaws",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Cowboy Billy Carson (Buster Crabbe) and his sidekick (Al \"Fuzzy\" St. John) save a stagecoach line.",
+     "stop": "2026-10-03T15:42:00+00:00"
+    },
+    {
+     "start": "2026-10-03T15:42:00+00:00",
+     "title": "Lightning Raiders",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "A cowboy (Buster Crabbe) and his sidekick (Al \"Fuzzy\" St. John) track mail thieves to a hide-out.",
+     "stop": "2026-10-03T16:35:00+00:00"
+    },
+    {
+     "start": "2026-10-03T16:35:00+00:00",
+     "title": "Don Ricardo Returns",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "An aristocrat (Fred Coby) fights his cousin for the family fortune in old California.",
+     "stop": "2026-10-03T17:44:00+00:00"
+    },
+    {
+     "start": "2026-10-03T17:44:00+00:00",
+     "title": "The Stranger",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A federal agent finds a Nazi war criminal living in New England.",
+     "stop": "2026-10-03T19:20:00+00:00"
+    },
+    {
+     "start": "2026-10-03T19:20:00+00:00",
+     "title": "Tucker: The Man and His Dream",
+     "episode": "Feature Film \u2022 1988",
+     "desc": "Washington and Detroit's Big Three crush Preston Tucker's (Jeff Bridges) 1940s car of tomorrow.",
+     "stop": "2026-10-03T21:11:00+00:00"
+    },
+    {
+     "start": "2026-10-03T21:11:00+00:00",
+     "title": "Battle Ground",
+     "episode": "Feature Film \u2022 2013",
+     "desc": "Three British soldiers become stranded in no man's land after a failed charge on German trenches.",
+     "stop": "2026-10-03T22:51:00+00:00"
+    },
+    {
+     "start": "2026-10-03T22:51:00+00:00",
+     "title": "Double Whammy",
+     "episode": "Feature Film \u2022 2001",
+     "desc": "A police officer (Denis Leary) fails in his attempt to stop a shooting.",
+     "stop": "2026-10-04T00:25:00+00:00"
+    },
+    {
+     "start": "2026-10-04T00:25:00+00:00",
+     "title": "The Promise",
+     "episode": "Feature Film \u2022 2016",
+     "desc": "Two men compete for the love of the same woman as the Ottoman Empire crumbles into war-torn chaos.",
+     "stop": "2026-10-04T02:39:00+00:00"
+    },
+    {
+     "start": "2026-10-04T02:39:00+00:00",
+     "title": "Tucker: The Man and His Dream",
+     "episode": "Feature Film \u2022 1988",
+     "desc": "Washington and Detroit's Big Three crush Preston Tucker's (Jeff Bridges) 1940s car of tomorrow.",
+     "stop": "2026-10-04T03:09:00+00:00"
+    },
+    {
+     "start": "2026-10-04T04:30:00+00:00",
+     "title": "The Stranger",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A federal agent finds a Nazi war criminal living in New England.",
+     "stop": "2026-10-04T06:06:00+00:00"
+    },
+    {
+     "start": "2026-10-04T06:06:00+00:00",
+     "title": "Colorado",
+     "episode": "Feature Film \u2022 1940",
+     "desc": "A cowboy (Roy Rogers) tracks down his brother, a traitor during the Civil War.",
+     "stop": "2026-10-04T07:00:00+00:00"
+    },
+    {
+     "start": "2026-10-04T07:00:00+00:00",
+     "title": "The Carson City Kid",
+     "episode": "Feature Film \u2022 1940",
+     "desc": "A gunslinger (Roy Rogers) goes to work for the gambler (Bob Steele) who killed his brother.",
+     "stop": "2026-10-04T07:54:00+00:00"
+    },
+    {
+     "start": "2026-10-04T07:54:00+00:00",
+     "title": "In Old Caliente",
+     "episode": "Feature Film \u2022 1939",
+     "desc": "A singing cowboy (Roy Rogers) makes newly annexed California safe for settlers.",
+     "stop": "2026-10-04T08:48:00+00:00"
+    },
+    {
+     "start": "2026-10-04T08:48:00+00:00",
+     "title": "Lights of Old Santa Fe",
+     "episode": "Feature Film \u2022 1944",
+     "desc": "A singing cowboy (Roy Rogers) saves a woman's (Dale Evans) rodeo show from bankruptcy.",
+     "stop": "2026-10-04T09:45:00+00:00"
+    },
+    {
+     "start": "2026-10-04T09:45:00+00:00",
+     "title": "Stagecoach Outlaws",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Cowboy Billy Carson (Buster Crabbe) and his sidekick (Al \"Fuzzy\" St. John) save a stagecoach line.",
+     "stop": "2026-10-04T10:41:00+00:00"
+    },
+    {
+     "start": "2026-10-04T10:41:00+00:00",
+     "title": "Rimfire",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "Army agent (James Millican) links gold and murder to gambler's (Reed Hadley) ghost.",
+     "stop": "2026-10-04T11:46:00+00:00"
+    },
+    {
+     "start": "2026-10-04T11:46:00+00:00",
+     "title": "Lightning Raiders",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "A cowboy (Buster Crabbe) and his sidekick (Al \"Fuzzy\" St. John) track mail thieves to a hide-out.",
+     "stop": "2026-10-04T12:39:00+00:00"
+    },
+    {
+     "start": "2026-10-04T12:39:00+00:00",
+     "title": "Under California Stars",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "Rustlers hold a singing rancher's (Roy Rogers) horse, Trigger, for ransom.",
+     "stop": "2026-10-04T13:49:00+00:00"
+    },
+    {
+     "start": "2026-10-04T13:49:00+00:00",
+     "title": "Don Ricardo Returns",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "An aristocrat (Fred Coby) fights his cousin for the family fortune in old California.",
+     "stop": "2026-10-04T14:58:00+00:00"
+    },
+    {
+     "start": "2026-10-04T14:58:00+00:00",
+     "title": "The Stranger",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A federal agent finds a Nazi war criminal living in New England.",
+     "stop": "2026-10-04T16:34:00+00:00"
+    },
+    {
+     "start": "2026-10-04T16:34:00+00:00",
+     "title": "Shotgun",
+     "episode": "Feature Film \u2022 1955",
+     "desc": "Deputy (Sterling Hayden) rides with woman (Yvonne De Carlo), bounty hunter (Zachary Scott).",
+     "stop": "2026-10-04T17:55:00+00:00"
+    },
+    {
+     "start": "2026-10-04T17:55:00+00:00",
+     "title": "Tucker: The Man and His Dream",
+     "episode": "Feature Film \u2022 1988",
+     "desc": "Washington and Detroit's Big Three crush Preston Tucker's (Jeff Bridges) 1940s car of tomorrow.",
+     "stop": "2026-10-04T19:46:00+00:00"
+    },
+    {
+     "start": "2026-10-04T19:46:00+00:00",
+     "title": "Brother Outlaw",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Two brothers search for the culprits behind a bank robbery and confront a famous gunfighter.",
+     "stop": "2026-10-04T21:09:00+00:00"
+    },
+    {
+     "start": "2026-10-04T21:09:00+00:00",
+     "title": "Double Whammy",
+     "episode": "Feature Film \u2022 2001",
+     "desc": "A police officer (Denis Leary) fails in his attempt to stop a shooting.",
+     "stop": "2026-10-04T22:43:00+00:00"
+    },
+    {
+     "start": "2026-10-04T22:43:00+00:00",
+     "title": "Exit the Dragon, Enter the Tiger",
+     "episode": "Feature Film \u2022 1976",
+     "desc": "A fighter (Bruce Li) finds drug smugglers behind the death of Bruce Lee.",
+     "stop": "2026-10-05T00:02:00+00:00"
+    },
+    {
+     "start": "2026-10-05T00:02:00+00:00",
+     "title": "The Promise",
+     "episode": "Feature Film \u2022 2016",
+     "desc": "Two men compete for the love of the same woman as the Ottoman Empire crumbles into war-torn chaos.",
+     "stop": "2026-10-05T02:16:00+00:00"
+    },
+    {
+     "start": "2026-10-05T02:16:00+00:00",
+     "title": "The Silencer",
+     "episode": "TV Movie \u2022 1999",
+     "desc": "An FBI agent and an assassin infiltrate a terrorist group.",
+     "stop": "2026-10-05T03:49:00+00:00"
+    },
+    {
+     "start": "2026-10-05T03:49:00+00:00",
+     "title": "One Man&#8217;s Justice",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "Army drill sergeant seeks revenge on gunrunners responsible for the deaths of his wife and daughter.",
+     "stop": "2026-10-05T04:19:00+00:00"
+    },
+    {
+     "start": "2026-10-05T05:30:00+00:00",
+     "title": "The Carson City Kid",
+     "episode": "Feature Film \u2022 1940",
+     "desc": "A gunslinger (Roy Rogers) goes to work for the gambler (Bob Steele) who killed his brother.",
+     "stop": "2026-10-05T06:24:00+00:00"
+    },
+    {
+     "start": "2026-10-05T06:24:00+00:00",
+     "title": "Stage to Mesa City",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "A U.S. marshal with a bullwhip links a postmaster to robberies.",
+     "stop": "2026-10-05T07:17:00+00:00"
+    },
+    {
+     "start": "2026-10-05T07:17:00+00:00",
+     "title": "Lights of Old Santa Fe",
+     "episode": "Feature Film \u2022 1944",
+     "desc": "A singing cowboy (Roy Rogers) saves a woman's (Dale Evans) rodeo show from bankruptcy.",
+     "stop": "2026-10-05T08:14:00+00:00"
+    },
+    {
+     "start": "2026-10-05T08:14:00+00:00",
+     "title": "Robin Hood of the Pecos",
+     "episode": "Feature Film \u2022 1941",
+     "desc": "Night rider (George \"Gabby\" Hayes) and singing partner (Roy Rogers) send carpetbaggers packing.",
+     "stop": "2026-10-05T09:08:00+00:00"
+    },
+    {
+     "start": "2026-10-05T09:08:00+00:00",
+     "title": "Rimfire",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "Army agent (James Millican) links gold and murder to gambler's (Reed Hadley) ghost.",
+     "stop": "2026-10-05T10:13:00+00:00"
+    },
+    {
+     "start": "2026-10-05T10:13:00+00:00",
+     "title": "The Cowboy and the Senorita",
+     "episode": "Feature Film \u2022 1944",
+     "desc": "Cowboys ride to the rescue as villains try to cheat a girl out of a gold mine she's due to inherit.",
+     "stop": "2026-10-05T11:05:00+00:00"
+    },
+    {
+     "start": "2026-10-05T11:05:00+00:00",
+     "title": "Under California Stars",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "Rustlers hold a singing rancher's (Roy Rogers) horse, Trigger, for ransom.",
+     "stop": "2026-10-05T12:15:00+00:00"
+    },
+    {
+     "start": "2026-10-05T12:15:00+00:00",
+     "title": "Outlaws of the Plains",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "Billy the Kid (Buster Crabbe) saves investors from a gold-land scam.",
+     "stop": "2026-10-05T13:10:00+00:00"
+    },
+    {
+     "start": "2026-10-05T13:10:00+00:00",
+     "title": "Shotgun",
+     "episode": "Feature Film \u2022 1955",
+     "desc": "Deputy (Sterling Hayden) rides with woman (Yvonne De Carlo), bounty hunter (Zachary Scott).",
+     "stop": "2026-10-05T14:31:00+00:00"
+    },
+    {
+     "start": "2026-10-05T14:31:00+00:00",
+     "title": "Romance of the West",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A singing Indian agent (Eddie Dean) courts a schoolmarm (Joan Barton) and thwarts land-grabbers.",
+     "stop": "2026-10-05T15:30:00+00:00"
+    },
+    {
+     "start": "2026-10-05T15:30:00+00:00",
+     "title": "Brother Outlaw",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Two brothers search for the culprits behind a bank robbery and confront a famous gunfighter.",
+     "stop": "2026-10-05T16:53:00+00:00"
+    },
+    {
+     "start": "2026-10-05T16:53:00+00:00",
+     "title": "Susanna Pass",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "A singing game warden (Roy Rogers) on horseback investigates dynamiting at a lake.",
+     "stop": "2026-10-05T17:46:00+00:00"
+    },
+    {
+     "start": "2026-10-05T17:46:00+00:00",
+     "title": "Bells of Coronado",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "A singing insurance sleuth catches uranium-ore crooks who kill a mine owner.",
+     "stop": "2026-10-05T18:41:00+00:00"
+    },
+    {
+     "start": "2026-10-05T18:41:00+00:00",
+     "title": "One Man&#8217;s Justice",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "Army drill sergeant seeks revenge on gunrunners responsible for the deaths of his wife and daughter.",
+     "stop": "2026-10-05T20:22:00+00:00"
+    },
+    {
+     "start": "2026-10-05T20:22:00+00:00",
+     "title": "Exit the Dragon, Enter the Tiger",
+     "episode": "Feature Film \u2022 1976",
+     "desc": "A fighter (Bruce Li) finds drug smugglers behind the death of Bruce Lee.",
+     "stop": "2026-10-05T21:41:00+00:00"
+    },
+    {
+     "start": "2026-10-05T21:41:00+00:00",
+     "title": "The Silencer",
+     "episode": "TV Movie \u2022 1999",
+     "desc": "An FBI agent and an assassin infiltrate a terrorist group.",
+     "stop": "2026-10-05T23:14:00+00:00"
+    },
+    {
+     "start": "2026-10-05T23:14:00+00:00",
+     "title": "The Cowboy and the Indians",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "Rancher Gene Autry tries to aid neighboring Navajos suffering from malnutrition.",
+     "stop": "2026-10-06T00:25:00+00:00"
+    },
+    {
+     "start": "2026-10-06T00:25:00+00:00",
+     "title": "Oklahoma Annie",
+     "episode": "Feature Film \u2022 1952",
+     "desc": "Singing shopkeeper (Judy Canova) becomes sheriff boyfriend's (John Russell) deputy.",
+     "stop": "2026-10-06T01:57:00+00:00"
+    },
+    {
+     "start": "2026-10-06T01:57:00+00:00",
+     "title": "The Unforgiven",
+     "episode": "Feature Film \u2022 1960",
+     "desc": "A Texas woman and her eldest son fight Kiowas over an adopted daughter.",
+     "stop": "2026-10-06T02:27:00+00:00"
+    },
+    {
+     "start": "2026-10-06T04:00:00+00:00",
+     "title": "Stage to Mesa City",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "A U.S. marshal with a bullwhip links a postmaster to robberies.",
+     "stop": "2026-10-06T04:53:00+00:00"
+    },
+    {
+     "start": "2026-10-06T04:53:00+00:00",
+     "title": "The Dawn Rider",
+     "episode": "Feature Film \u2022 1935",
+     "desc": "A revenge-driven cowboy relentlessly pursues the gang of bandits responsible for his father's death.",
+     "stop": "2026-10-06T05:47:00+00:00"
+    },
+    {
+     "start": "2026-10-06T05:47:00+00:00",
+     "title": "Robin Hood of the Pecos",
+     "episode": "Feature Film \u2022 1941",
+     "desc": "Night rider (George \"Gabby\" Hayes) and singing partner (Roy Rogers) send carpetbaggers packing.",
+     "stop": "2026-10-06T06:41:00+00:00"
+    },
+    {
+     "start": "2026-10-06T06:41:00+00:00",
+     "title": "The Desert Trail",
+     "episode": "Feature Film \u2022 1935",
+     "desc": "Two bickering buddies (John Wayne, Eddy Chandler) are mistaken for bank robbers.",
+     "stop": "2026-10-06T07:34:00+00:00"
+    },
+    {
+     "start": "2026-10-06T07:34:00+00:00",
+     "title": "The Cowboy and the Senorita",
+     "episode": "Feature Film \u2022 1944",
+     "desc": "Cowboys ride to the rescue as villains try to cheat a girl out of a gold mine she's due to inherit.",
+     "stop": "2026-10-06T08:26:00+00:00"
+    },
+    {
+     "start": "2026-10-06T08:26:00+00:00",
+     "title": "The Man From Utah",
+     "episode": "Feature Film \u2022 1934",
+     "desc": "A tough cowboy has a confrontation with a gang of outlaws using a rodeo as its base of operations.",
+     "stop": "2026-10-06T09:19:00+00:00"
+    },
+    {
+     "start": "2026-10-06T09:19:00+00:00",
+     "title": "Outlaws of the Plains",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "Billy the Kid (Buster Crabbe) saves investors from a gold-land scam.",
+     "stop": "2026-10-06T10:14:00+00:00"
+    },
+    {
+     "start": "2026-10-06T10:14:00+00:00",
+     "title": "Man From Oklahoma",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Roy rides to the rescue to save a lady friend when a devious rancher tries to instigate a feud.",
+     "stop": "2026-10-06T11:08:00+00:00"
+    },
+    {
+     "start": "2026-10-06T11:08:00+00:00",
+     "title": "Romance of the West",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A singing Indian agent (Eddie Dean) courts a schoolmarm (Joan Barton) and thwarts land-grabbers.",
+     "stop": "2026-10-06T12:07:00+00:00"
+    },
+    {
+     "start": "2026-10-06T12:07:00+00:00",
+     "title": "Twilight in the Sierras",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Singing parole man (Roy Rogers) saves Cuban singer (Estelita Rodriguez) from counterfeiters.",
+     "stop": "2026-10-06T13:03:00+00:00"
+    },
+    {
+     "start": "2026-10-06T13:03:00+00:00",
+     "title": "Bells of Coronado",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "A singing insurance sleuth catches uranium-ore crooks who kill a mine owner.",
+     "stop": "2026-10-06T13:58:00+00:00"
+    },
+    {
+     "start": "2026-10-06T13:58:00+00:00",
+     "title": "The Cowboy and the Indians",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "Rancher Gene Autry tries to aid neighboring Navajos suffering from malnutrition.",
+     "stop": "2026-10-06T15:09:00+00:00"
+    },
+    {
+     "start": "2026-10-06T15:09:00+00:00",
+     "title": "Susanna Pass",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "A singing game warden (Roy Rogers) on horseback investigates dynamiting at a lake.",
+     "stop": "2026-10-06T16:02:00+00:00"
+    },
+    {
+     "start": "2026-10-06T16:02:00+00:00",
+     "title": "Oklahoma Annie",
+     "episode": "Feature Film \u2022 1952",
+     "desc": "Singing shopkeeper (Judy Canova) becomes sheriff boyfriend's (John Russell) deputy.",
+     "stop": "2026-10-06T17:34:00+00:00"
+    },
+    {
+     "start": "2026-10-06T17:34:00+00:00",
+     "title": "The Dawn Rider",
+     "episode": "Feature Film \u2022 1935",
+     "desc": "A revenge-driven cowboy relentlessly pursues the gang of bandits responsible for his father's death.",
+     "stop": "2026-10-06T18:28:00+00:00"
+    },
+    {
+     "start": "2026-10-06T18:28:00+00:00",
+     "title": "The Desert Trail",
+     "episode": "Feature Film \u2022 1935",
+     "desc": "Two bickering buddies (John Wayne, Eddy Chandler) are mistaken for bank robbers.",
+     "stop": "2026-10-06T19:21:00+00:00"
+    },
+    {
+     "start": "2026-10-06T19:21:00+00:00",
+     "title": "The Man From Utah",
+     "episode": "Feature Film \u2022 1934",
+     "desc": "A tough cowboy has a confrontation with a gang of outlaws using a rodeo as its base of operations.",
+     "stop": "2026-10-06T20:14:00+00:00"
+    },
+    {
+     "start": "2026-10-06T20:14:00+00:00",
+     "title": "Man From Oklahoma",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Roy rides to the rescue to save a lady friend when a devious rancher tries to instigate a feud.",
+     "stop": "2026-10-06T21:08:00+00:00"
+    },
+    {
+     "start": "2026-10-06T21:08:00+00:00",
+     "title": "Twilight in the Sierras",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Singing parole man (Roy Rogers) saves Cuban singer (Estelita Rodriguez) from counterfeiters.",
+     "stop": "2026-10-06T22:04:00+00:00"
+    },
+    {
+     "start": "2026-10-06T22:04:00+00:00",
+     "title": "The Unforgiven",
+     "episode": "Feature Film \u2022 1960",
+     "desc": "A Texas woman and her eldest son fight Kiowas over an adopted daughter.",
+     "stop": "2026-10-07T00:07:00+00:00"
+    },
+    {
+     "start": "2026-10-07T00:07:00+00:00",
+     "title": "Outride the Devil: A Morning With Doc Holliday",
+     "episode": "Special \u2022 2007",
+     "desc": "Kit Hussey presents the highlights from the last fourteen years of Doc Holliday's life.",
+     "stop": "2026-10-07T01:35:00+00:00"
+    },
+    {
+     "start": "2026-10-07T01:35:00+00:00",
+     "title": "John Wayne Behind-the-Scenes: Filming of Stunts, Chases, Fights, Crashes &#038; Gun Battles",
+     "episode": "Special \u2022 2017",
+     "desc": "A behind-the-scenes look at the stunts, fights, gun battles and chases from John Wayne movies.",
+     "stop": "2026-10-07T03:07:00+00:00"
+    },
+    {
+     "start": "2026-10-07T03:07:00+00:00",
+     "title": "McLintock!",
+     "episode": "Feature Film \u2022 1963",
+     "desc": "Cattle baron (John Wayne) tries to tame wife (Maureen O'Hara).",
+     "stop": "2026-10-07T03:37:00+00:00"
+    },
+    {
+     "start": "2026-10-07T05:15:00+00:00",
+     "title": "The Desert Trail",
+     "episode": "Feature Film \u2022 1935",
+     "desc": "Two bickering buddies (John Wayne, Eddy Chandler) are mistaken for bank robbers.",
+     "stop": "2026-10-07T06:08:00+00:00"
+    },
+    {
+     "start": "2026-10-07T06:08:00+00:00",
+     "title": "Overland Riders",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "Cowboy Billy Carson (Buster Crabbe) and pal (Al \"Fuzzy\" St. John) squash land-grab.",
+     "stop": "2026-10-07T07:02:00+00:00"
+    },
+    {
+     "start": "2026-10-07T07:02:00+00:00",
+     "title": "The Man From Utah",
+     "episode": "Feature Film \u2022 1934",
+     "desc": "A tough cowboy has a confrontation with a gang of outlaws using a rodeo as its base of operations.",
+     "stop": "2026-10-07T07:55:00+00:00"
+    },
+    {
+     "start": "2026-10-07T07:55:00+00:00",
+     "title": "Pioneer Justice",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "A bullwhipper (Al \"Lash\" La Rue) and his sidekick (Al \"Fuzzy\" St. John) oust a sagebrush tyrant.",
+     "stop": "2026-10-07T08:50:00+00:00"
+    },
+    {
+     "start": "2026-10-07T08:50:00+00:00",
+     "title": "Man From Oklahoma",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Roy rides to the rescue to save a lady friend when a devious rancher tries to instigate a feud.",
+     "stop": "2026-10-07T09:44:00+00:00"
+    },
+    {
+     "start": "2026-10-07T09:44:00+00:00",
+     "title": "The Tioga Kid",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "A Texas Ranger (Eddie Dean) shoots at rustlers and an outlaw who's his double.",
+     "stop": "2026-10-07T10:39:00+00:00"
+    },
+    {
+     "start": "2026-10-07T10:39:00+00:00",
+     "title": "Twilight in the Sierras",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Singing parole man (Roy Rogers) saves Cuban singer (Estelita Rodriguez) from counterfeiters.",
+     "stop": "2026-10-07T11:35:00+00:00"
+    },
+    {
+     "start": "2026-10-07T11:35:00+00:00",
+     "title": "Check Your Guns",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "A singing sheriff (Eddie Dean) and his partner (Roscoe Ates) run outlaws out of Red Gap.",
+     "stop": "2026-10-07T12:29:00+00:00"
+    },
+    {
+     "start": "2026-10-07T12:29:00+00:00",
+     "title": "Outride the Devil: A Morning With Doc Holliday",
+     "episode": "Special \u2022 2007",
+     "desc": "Kit Hussey presents the highlights from the last fourteen years of Doc Holliday's life.",
+     "stop": "2026-10-07T13:57:00+00:00"
+    },
+    {
+     "start": "2026-10-07T13:57:00+00:00",
+     "title": "McLintock!",
+     "episode": "Feature Film \u2022 1963",
+     "desc": "Cattle baron (John Wayne) tries to tame wife (Maureen O'Hara).",
+     "stop": "2026-10-07T16:05:00+00:00"
+    },
+    {
+     "start": "2026-10-07T16:05:00+00:00",
+     "title": "John Wayne Behind-the-Scenes: Filming of Stunts, Chases, Fights, Crashes &#038; Gun Battles",
+     "episode": "Special \u2022 2017",
+     "desc": "A behind-the-scenes look at the stunts, fights, gun battles and chases from John Wayne movies.",
+     "stop": "2026-10-07T17:37:00+00:00"
+    },
+    {
+     "start": "2026-10-07T17:37:00+00:00",
+     "title": "Cheyenne Takes Over",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "Arizona cowboy (Al \"Lash\" La Rue) and sidekick (Al \"Fuzzy\" St. John) find body, save ranch.",
+     "stop": "2026-10-07T18:37:00+00:00"
+    },
+    {
+     "start": "2026-10-07T18:37:00+00:00",
+     "title": "Overland Riders",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "Cowboy Billy Carson (Buster Crabbe) and pal (Al \"Fuzzy\" St. John) squash land-grab.",
+     "stop": "2026-10-07T19:31:00+00:00"
+    },
+    {
+     "start": "2026-10-07T19:31:00+00:00",
+     "title": "Oath of Vengeance",
+     "episode": "Feature Film \u2022 1944",
+     "desc": "Billy Carson (Buster Crabbe) and his buddy (Al \"Fuzzy\" St. John) ride for revenge.",
+     "stop": "2026-10-07T20:27:00+00:00"
+    },
+    {
+     "start": "2026-10-07T20:27:00+00:00",
+     "title": "Pioneer Justice",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "A bullwhipper (Al \"Lash\" La Rue) and his sidekick (Al \"Fuzzy\" St. John) oust a sagebrush tyrant.",
+     "stop": "2026-10-07T21:22:00+00:00"
+    },
+    {
+     "start": "2026-10-07T21:22:00+00:00",
+     "title": "The Lucky Texan",
+     "episode": "Feature Film \u2022 1934",
+     "desc": "Jerry finds a gold nugget in his horse's shoe and has to fend off two crooks trying to steal it.",
+     "stop": "2026-10-07T22:15:00+00:00"
+    },
+    {
+     "start": "2026-10-07T22:15:00+00:00",
+     "title": "The Tioga Kid",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "A Texas Ranger (Eddie Dean) shoots at rustlers and an outlaw who's his double.",
+     "stop": "2026-10-07T23:10:00+00:00"
+    },
+    {
+     "start": "2026-10-07T23:10:00+00:00",
+     "title": "Cariboo Trail",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Jim and Mike head into Canada's British Columbia intending to dig for gold but find trouble instead.",
+     "stop": "2026-10-08T00:32:00+00:00"
+    },
+    {
+     "start": "2026-10-08T00:32:00+00:00",
+     "title": "Check Your Guns",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "A singing sheriff (Eddie Dean) and his partner (Roscoe Ates) run outlaws out of Red Gap.",
+     "stop": "2026-10-08T01:26:00+00:00"
+    },
+    {
+     "start": "2026-10-08T01:26:00+00:00",
+     "title": "Brother Outlaw",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Two brothers search for the culprits behind a bank robbery and confront a famous gunfighter.",
+     "stop": "2026-10-08T02:49:00+00:00"
+    },
+    {
+     "start": "2026-10-08T02:49:00+00:00",
+     "title": "The Proud Rebel",
+     "episode": "Feature Film \u2022 1958",
+     "desc": "Widow (Olivia de Havilland) helps Southern widower (Alan Ladd) with mute son after Civil War.",
+     "stop": "2026-10-08T03:19:00+00:00"
+    },
+    {
+     "start": "2026-10-08T04:33:00+00:00",
+     "title": "Overland Riders",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "Cowboy Billy Carson (Buster Crabbe) and pal (Al \"Fuzzy\" St. John) squash land-grab.",
+     "stop": "2026-10-08T05:27:00+00:00"
+    },
+    {
+     "start": "2026-10-08T05:27:00+00:00",
+     "title": "Prairie Rustlers",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Cowboy Billy Carson (Buster Crabbe) catches up to his look-alike killer cousin.",
+     "stop": "2026-10-08T06:21:00+00:00"
+    },
+    {
+     "start": "2026-10-08T06:21:00+00:00",
+     "title": "Pioneer Justice",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "A bullwhipper (Al \"Lash\" La Rue) and his sidekick (Al \"Fuzzy\" St. John) oust a sagebrush tyrant.",
+     "stop": "2026-10-08T07:16:00+00:00"
+    },
+    {
+     "start": "2026-10-08T07:16:00+00:00",
+     "title": "Wild Country",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "Marshal (Eddie Dean) and pal (Roscoe Ates) track escaped convict.",
+     "stop": "2026-10-08T08:13:00+00:00"
+    },
+    {
+     "start": "2026-10-08T08:13:00+00:00",
+     "title": "The Tioga Kid",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "A Texas Ranger (Eddie Dean) shoots at rustlers and an outlaw who's his double.",
+     "stop": "2026-10-08T09:08:00+00:00"
+    },
+    {
+     "start": "2026-10-08T09:08:00+00:00",
+     "title": "Thunder Town",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "Ex-convict (Bob Steele) returns to ranch, proves he was framed.",
+     "stop": "2026-10-08T10:03:00+00:00"
+    },
+    {
+     "start": "2026-10-08T10:03:00+00:00",
+     "title": "Check Your Guns",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "A singing sheriff (Eddie Dean) and his partner (Roscoe Ates) run outlaws out of Red Gap.",
+     "stop": "2026-10-08T10:57:00+00:00"
+    },
+    {
+     "start": "2026-10-08T10:57:00+00:00",
+     "title": "Tornado Range",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "A land-office agent (Eddie Dean) ends a feud outlaws started between settlers and ranchers.",
+     "stop": "2026-10-08T11:52:00+00:00"
+    },
+    {
+     "start": "2026-10-08T11:52:00+00:00",
+     "title": "Cheyenne Takes Over",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "Arizona cowboy (Al \"Lash\" La Rue) and sidekick (Al \"Fuzzy\" St. John) find body, save ranch.",
+     "stop": "2026-10-08T12:52:00+00:00"
+    },
+    {
+     "start": "2026-10-08T12:52:00+00:00",
+     "title": "In Old Amarillo",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "A singing troubleshooter brings water and justice to bone-dry Texas.",
+     "stop": "2026-10-08T13:48:00+00:00"
+    },
+    {
+     "start": "2026-10-08T13:48:00+00:00",
+     "title": "Oath of Vengeance",
+     "episode": "Feature Film \u2022 1944",
+     "desc": "Billy Carson (Buster Crabbe) and his buddy (Al \"Fuzzy\" St. John) ride for revenge.",
+     "stop": "2026-10-08T14:44:00+00:00"
+    },
+    {
+     "start": "2026-10-08T14:44:00+00:00",
+     "title": "Under California Stars",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "Rustlers hold a singing rancher's (Roy Rogers) horse, Trigger, for ransom.",
+     "stop": "2026-10-08T15:54:00+00:00"
+    },
+    {
+     "start": "2026-10-08T15:54:00+00:00",
+     "title": "The Lucky Texan",
+     "episode": "Feature Film \u2022 1934",
+     "desc": "Jerry finds a gold nugget in his horse's shoe and has to fend off two crooks trying to steal it.",
+     "stop": "2026-10-08T16:47:00+00:00"
+    },
+    {
+     "start": "2026-10-08T16:47:00+00:00",
+     "title": "The Proud Rebel",
+     "episode": "Feature Film \u2022 1958",
+     "desc": "Widow (Olivia de Havilland) helps Southern widower (Alan Ladd) with mute son after Civil War.",
+     "stop": "2026-10-08T18:31:00+00:00"
+    },
+    {
+     "start": "2026-10-08T18:31:00+00:00",
+     "title": "Brother Outlaw",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Two brothers search for the culprits behind a bank robbery and confront a famous gunfighter.",
+     "stop": "2026-10-08T19:54:00+00:00"
+    },
+    {
+     "start": "2026-10-08T19:54:00+00:00",
+     "title": "Cariboo Trail",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Jim and Mike head into Canada's British Columbia intending to dig for gold but find trouble instead.",
+     "stop": "2026-10-08T21:16:00+00:00"
+    },
+    {
+     "start": "2026-10-08T21:16:00+00:00",
+     "title": "Prairie Rustlers",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Cowboy Billy Carson (Buster Crabbe) catches up to his look-alike killer cousin.",
+     "stop": "2026-10-08T22:10:00+00:00"
+    },
+    {
+     "start": "2026-10-08T22:10:00+00:00",
+     "title": "Little Big Horn",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "Cavalry officers (Lloyd Bridges, John Ireland) try to warn Gen. Custer.",
+     "stop": "2026-10-08T23:37:00+00:00"
+    },
+    {
+     "start": "2026-10-08T23:37:00+00:00",
+     "title": "Wild Country",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "Marshal (Eddie Dean) and pal (Roscoe Ates) track escaped convict.",
+     "stop": "2026-10-09T00:34:00+00:00"
+    },
+    {
+     "start": "2026-10-09T00:34:00+00:00",
+     "title": "Panhandle",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "Ex-gunfighter (Rod Cameron) seeks gambler who killed his brother.",
+     "stop": "2026-10-09T02:00:00+00:00"
+    },
+    {
+     "start": "2026-10-09T02:00:00+00:00",
+     "title": "Thunder Town",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "Ex-convict (Bob Steele) returns to ranch, proves he was framed.",
+     "stop": "2026-10-09T02:55:00+00:00"
+    },
+    {
+     "start": "2026-10-09T02:55:00+00:00",
+     "title": "The Magnificent Matador",
+     "episode": "Feature Film \u2022 1955",
+     "desc": "Aging matador (Anthony Quinn) faces fear, loves rich American (Maureen O'Hara).",
+     "stop": "2026-10-09T03:25:00+00:00"
+    },
+    {
+     "start": "2026-10-09T04:31:00+00:00",
+     "title": "Tornado Range",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "A land-office agent (Eddie Dean) ends a feud outlaws started between settlers and ranchers.",
+     "stop": "2026-10-09T05:26:00+00:00"
+    },
+    {
+     "start": "2026-10-09T05:26:00+00:00",
+     "title": "The Trail Beyond",
+     "episode": "Feature Film \u2022 1934",
+     "desc": "A cowboy (John Wayne) and an old friend (Noah Beery Jr.) search for a young woman and a gold mine.",
+     "stop": "2026-10-09T06:22:00+00:00"
+    },
+    {
+     "start": "2026-10-09T06:22:00+00:00",
+     "title": "In Old Amarillo",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "A singing troubleshooter brings water and justice to bone-dry Texas.",
+     "stop": "2026-10-09T07:18:00+00:00"
+    },
+    {
+     "start": "2026-10-09T07:18:00+00:00",
+     "title": "Sagebrush Trail",
+     "episode": "Feature Film \u2022 1933",
+     "desc": "An escaped convict (John Wayne) tracks a killer out West with a young woman's help.",
+     "stop": "2026-10-09T08:12:00+00:00"
+    },
+    {
+     "start": "2026-10-09T08:12:00+00:00",
+     "title": "Under California Stars",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "Rustlers hold a singing rancher's (Roy Rogers) horse, Trigger, for ransom.",
+     "stop": "2026-10-09T09:22:00+00:00"
+    },
+    {
+     "start": "2026-10-09T09:22:00+00:00",
+     "title": "West of the Divide",
+     "episode": "Feature Film \u2022 1934",
+     "desc": "A cowboy (John Wayne) courts a chic ranch girl (Virginia Brown Faire) and avenges his slain parents.",
+     "stop": "2026-10-09T10:15:00+00:00"
+    },
+    {
+     "start": "2026-10-09T10:15:00+00:00",
+     "title": "Little Big Horn",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "Cavalry officers (Lloyd Bridges, John Ireland) try to warn Gen. Custer.",
+     "stop": "2026-10-09T11:42:00+00:00"
+    },
+    {
+     "start": "2026-10-09T11:42:00+00:00",
+     "title": "Rimfire",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "Army agent (James Millican) links gold and murder to gambler's (Reed Hadley) ghost.",
+     "stop": "2026-10-09T12:47:00+00:00"
+    },
+    {
+     "start": "2026-10-09T12:47:00+00:00",
+     "title": "Panhandle",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "Ex-gunfighter (Rod Cameron) seeks gambler who killed his brother.",
+     "stop": "2026-10-09T14:13:00+00:00"
+    },
+    {
+     "start": "2026-10-09T14:13:00+00:00",
+     "title": "Shotgun",
+     "episode": "Feature Film \u2022 1955",
+     "desc": "Deputy (Sterling Hayden) rides with woman (Yvonne De Carlo), bounty hunter (Zachary Scott).",
+     "stop": "2026-10-09T15:34:00+00:00"
+    },
+    {
+     "start": "2026-10-09T15:34:00+00:00",
+     "title": "The Magnificent Matador",
+     "episode": "Feature Film \u2022 1955",
+     "desc": "Aging matador (Anthony Quinn) faces fear, loves rich American (Maureen O'Hara).",
+     "stop": "2026-10-09T17:10:00+00:00"
+    },
+    {
+     "start": "2026-10-09T17:10:00+00:00",
+     "title": "Fighting Man of the Plains",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "Outlaw (Randolph Scott) takes dead lawman's ID, becomes Kansas marshal.",
+     "stop": "2026-10-09T18:45:00+00:00"
+    },
+    {
+     "start": "2026-10-09T18:45:00+00:00",
+     "title": "The Trail Beyond",
+     "episode": "Feature Film \u2022 1934",
+     "desc": "A cowboy (John Wayne) and an old friend (Noah Beery Jr.) search for a young woman and a gold mine.",
+     "stop": "2026-10-09T19:41:00+00:00"
+    },
+    {
+     "start": "2026-10-09T19:41:00+00:00",
+     "title": "Sagebrush Trail",
+     "episode": "Feature Film \u2022 1933",
+     "desc": "An escaped convict (John Wayne) tracks a killer out West with a young woman's help.",
+     "stop": "2026-10-09T20:35:00+00:00"
+    },
+    {
+     "start": "2026-10-09T20:35:00+00:00",
+     "title": "West of the Divide",
+     "episode": "Feature Film \u2022 1934",
+     "desc": "A cowboy (John Wayne) courts a chic ranch girl (Virginia Brown Faire) and avenges his slain parents.",
+     "stop": "2026-10-09T21:28:00+00:00"
+    },
+    {
+     "start": "2026-10-09T21:28:00+00:00",
+     "title": "Rimfire",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "Army agent (James Millican) links gold and murder to gambler's (Reed Hadley) ghost.",
+     "stop": "2026-10-09T22:33:00+00:00"
+    },
+    {
+     "start": "2026-10-09T22:33:00+00:00",
+     "title": "The Adventures of Marco Polo",
+     "episode": "Feature Film \u2022 1998",
+     "desc": "The Italian traveler (Don Diamont) meets Kublai Khan in China.",
+     "stop": "2026-10-10T00:11:00+00:00"
+    },
+    {
+     "start": "2026-10-10T00:11:00+00:00",
+     "title": "The Last Warrior",
+     "episode": "Feature Film \u2022 2000",
+     "desc": "A man leads earthquake survivors against a gang of violent convicts bent on ruling the world.",
+     "stop": "2026-10-10T01:47:00+00:00"
+    },
+    {
+     "start": "2026-10-10T01:47:00+00:00",
+     "title": "Metamorphosis: The Alien Factor",
+     "episode": "Feature Film \u2022 1991",
+     "desc": "Teen girls (Tara Leigh, Dianna Flaherty) meet mutant-tissue monster at lab.",
+     "stop": "2026-10-10T03:25:00+00:00"
+    },
+    {
+     "start": "2026-10-10T03:25:00+00:00",
+     "title": "Fighting Man of the Plains",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "Outlaw (Randolph Scott) takes dead lawman's ID, becomes Kansas marshal.",
+     "stop": "2026-10-10T03:55:00+00:00"
+    },
+    {
+     "start": "2026-10-10T05:00:00+00:00",
+     "title": "Shotgun",
+     "episode": "Feature Film \u2022 1955",
+     "desc": "Deputy (Sterling Hayden) rides with woman (Yvonne De Carlo), bounty hunter (Zachary Scott).",
+     "stop": "2026-10-10T06:21:00+00:00"
+    },
+    {
+     "start": "2026-10-10T06:21:00+00:00",
+     "title": "The Last Warrior",
+     "episode": "Feature Film \u2022 2000",
+     "desc": "A man leads earthquake survivors against a gang of violent convicts bent on ruling the world.",
+     "stop": "2026-10-10T07:57:00+00:00"
+    },
+    {
+     "start": "2026-10-10T07:57:00+00:00",
+     "title": "The Adventures of Marco Polo",
+     "episode": "Feature Film \u2022 1998",
+     "desc": "The Italian traveler (Don Diamont) meets Kublai Khan in China.",
+     "stop": "2026-10-10T09:35:00+00:00"
+    },
+    {
+     "start": "2026-10-10T09:35:00+00:00",
+     "title": "Metamorphosis: The Alien Factor",
+     "episode": "Feature Film \u2022 1991",
+     "desc": "Teen girls (Tara Leigh, Dianna Flaherty) meet mutant-tissue monster at lab.",
+     "stop": "2026-10-10T11:13:00+00:00"
+    },
+    {
+     "start": "2026-10-10T11:13:00+00:00",
+     "title": "Range Beyond the Blue",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "Undercover men (Eddie Dean, Roscoe Ates) save a woman's (Helen Mowery) stage line.",
+     "stop": "2026-10-10T12:08:00+00:00"
+    },
+    {
+     "start": "2026-10-10T12:08:00+00:00",
+     "title": "Frontier Fugitives",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Texas Rangers (Tex Ritter, Dave O'Brien, Guy Wilkerson) find trapper alive after all.",
+     "stop": "2026-10-10T13:05:00+00:00"
+    },
+    {
+     "start": "2026-10-10T13:05:00+00:00",
+     "title": "The Navajo Kid",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "An adopted Indian (Bob Steele) seeks revenge on the man who killed his father.",
+     "stop": "2026-10-10T14:03:00+00:00"
+    },
+    {
+     "start": "2026-10-10T14:03:00+00:00",
+     "title": "Fighting Man of the Plains",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "Outlaw (Randolph Scott) takes dead lawman's ID, becomes Kansas marshal.",
+     "stop": "2026-10-10T15:38:00+00:00"
+    },
+    {
+     "start": "2026-10-10T15:38:00+00:00",
+     "title": "Twilight in the Sierras",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Singing parole man (Roy Rogers) saves Cuban singer (Estelita Rodriguez) from counterfeiters.",
+     "stop": "2026-10-10T16:34:00+00:00"
+    },
+    {
+     "start": "2026-10-10T16:34:00+00:00",
+     "title": "Man From Oklahoma",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Roy rides to the rescue to save a lady friend when a devious rancher tries to instigate a feud.",
+     "stop": "2026-10-10T17:28:00+00:00"
+    },
+    {
+     "start": "2026-10-10T17:28:00+00:00",
+     "title": "Stars Over Texas",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A singing cowboy (Eddie Dean) and his pals herd cattle to a ranch where there's trouble.",
+     "stop": "2026-10-10T18:26:00+00:00"
+    },
+    {
+     "start": "2026-10-10T18:26:00+00:00",
+     "title": "Ambush Trail",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A stranger (Bob Steele) and his sidekick (Syd Saylor) save ranchers from a bad guy.",
+     "stop": "2026-10-10T19:25:00+00:00"
+    },
+    {
+     "start": "2026-10-10T19:25:00+00:00",
+     "title": "Frontier Fugitives",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Texas Rangers (Tex Ritter, Dave O'Brien, Guy Wilkerson) find trapper alive after all.",
+     "stop": "2026-10-10T20:22:00+00:00"
+    },
+    {
+     "start": "2026-10-10T20:22:00+00:00",
+     "title": "Range Beyond the Blue",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "Undercover men (Eddie Dean, Roscoe Ates) save a woman's (Helen Mowery) stage line.",
+     "stop": "2026-10-10T21:17:00+00:00"
+    },
+    {
+     "start": "2026-10-10T21:17:00+00:00",
+     "title": "The Navajo Kid",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "An adopted Indian (Bob Steele) seeks revenge on the man who killed his father.",
+     "stop": "2026-10-10T22:15:00+00:00"
+    },
+    {
+     "start": "2026-10-10T22:15:00+00:00",
+     "title": "Don&#8217;t Wait, Django&#8230; Shoot!",
+     "episode": "Feature Film \u2022 1967",
+     "desc": "Django returns to his hometown and discovers his father has been murdered by a ruthless gang.",
+     "stop": "2026-10-10T23:44:00+00:00"
+    },
+    {
+     "start": "2026-10-10T23:44:00+00:00",
+     "title": "Black Pioneer",
+     "episode": "Feature Film \u2022 2020",
+     "desc": "Enslaved pioneer Green Flake embarks on a journey that becomes vital to the settlement of Utah.",
+     "stop": "2026-10-11T01:25:00+00:00"
+    },
+    {
+     "start": "2026-10-11T01:25:00+00:00",
+     "title": "The Unforgiven",
+     "episode": "Feature Film \u2022 1960",
+     "desc": "A Texas woman and her eldest son fight Kiowas over an adopted daughter.",
+     "stop": "2026-10-11T03:27:00+00:00"
+    },
+    {
+     "start": "2026-10-11T03:27:00+00:00",
+     "title": "Twilight in the Sierras",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Singing parole man (Roy Rogers) saves Cuban singer (Estelita Rodriguez) from counterfeiters.",
+     "stop": "2026-10-11T03:57:00+00:00"
+    },
+    {
+     "start": "2026-10-11T04:23:00+00:00",
+     "title": "Stars Over Texas",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A singing cowboy (Eddie Dean) and his pals herd cattle to a ranch where there's trouble.",
+     "stop": "2026-10-11T05:21:00+00:00"
+    },
+    {
+     "start": "2026-10-11T05:21:00+00:00",
+     "title": "Man From Oklahoma",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Roy rides to the rescue to save a lady friend when a devious rancher tries to instigate a feud.",
+     "stop": "2026-10-11T06:15:00+00:00"
+    },
+    {
+     "start": "2026-10-11T06:15:00+00:00",
+     "title": "Ambush Trail",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A stranger (Bob Steele) and his sidekick (Syd Saylor) save ranchers from a bad guy.",
+     "stop": "2026-10-11T07:14:00+00:00"
+    },
+    {
+     "start": "2026-10-11T07:14:00+00:00",
+     "title": "Border Feud",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "Marshal (Al \"Lash\" La Rue) with whip and sheriff (Al \"Fuzzy\" St. John) end gold-mine feud.",
+     "stop": "2026-10-11T08:09:00+00:00"
+    },
+    {
+     "start": "2026-10-11T08:09:00+00:00",
+     "title": "Range Beyond the Blue",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "Undercover men (Eddie Dean, Roscoe Ates) save a woman's (Helen Mowery) stage line.",
+     "stop": "2026-10-11T09:04:00+00:00"
+    },
+    {
+     "start": "2026-10-11T09:04:00+00:00",
+     "title": "Paradise Canyon",
+     "episode": "Feature Film \u2022 1935",
+     "desc": "A federal agent tracks down a gang of counterfeiters operating along the Mexican border.",
+     "stop": "2026-10-11T09:58:00+00:00"
+    },
+    {
+     "start": "2026-10-11T09:58:00+00:00",
+     "title": "Frontier Fugitives",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Texas Rangers (Tex Ritter, Dave O'Brien, Guy Wilkerson) find trapper alive after all.",
+     "stop": "2026-10-11T10:55:00+00:00"
+    },
+    {
+     "start": "2026-10-11T10:55:00+00:00",
+     "title": "The Lawless Frontier",
+     "episode": "Feature Film \u2022 1935",
+     "desc": "A cowboy fights for justice against an outlaw who is partnered with a crooked sheriff.",
+     "stop": "2026-10-11T11:45:00+00:00"
+    },
+    {
+     "start": "2026-10-11T11:45:00+00:00",
+     "title": "The Navajo Kid",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "An adopted Indian (Bob Steele) seeks revenge on the man who killed his father.",
+     "stop": "2026-10-11T12:43:00+00:00"
+    },
+    {
+     "start": "2026-10-11T12:43:00+00:00",
+     "title": "Texas Terror",
+     "episode": "Feature Film \u2022 1935",
+     "desc": "A lawman (John Wayne) gets the outlaw (LeRoy Mason) who shot his friend.",
+     "stop": "2026-10-11T13:35:00+00:00"
+    },
+    {
+     "start": "2026-10-11T13:35:00+00:00",
+     "title": "Twilight in the Sierras",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Singing parole man (Roy Rogers) saves Cuban singer (Estelita Rodriguez) from counterfeiters.",
+     "stop": "2026-10-11T14:31:00+00:00"
+    },
+    {
+     "start": "2026-10-11T14:31:00+00:00",
+     "title": "Susanna Pass",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "A singing game warden (Roy Rogers) on horseback investigates dynamiting at a lake.",
+     "stop": "2026-10-11T15:24:00+00:00"
+    },
+    {
+     "start": "2026-10-11T15:24:00+00:00",
+     "title": "Man From Oklahoma",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Roy rides to the rescue to save a lady friend when a devious rancher tries to instigate a feud.",
+     "stop": "2026-10-11T16:18:00+00:00"
+    },
+    {
+     "start": "2026-10-11T16:18:00+00:00",
+     "title": "The Hawk of Powder River",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "A U.S. marshal (Eddie Dean) on a secret mission stops an outlaw (Jennifer Holt) and her gang.",
+     "stop": "2026-10-11T17:12:00+00:00"
+    },
+    {
+     "start": "2026-10-11T17:12:00+00:00",
+     "title": "Ambush Trail",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A stranger (Bob Steele) and his sidekick (Syd Saylor) save ranchers from a bad guy.",
+     "stop": "2026-10-11T18:11:00+00:00"
+    },
+    {
+     "start": "2026-10-11T18:11:00+00:00",
+     "title": "The Cowboy and the Indians",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "Rancher Gene Autry tries to aid neighboring Navajos suffering from malnutrition.",
+     "stop": "2026-10-11T19:22:00+00:00"
+    },
+    {
+     "start": "2026-10-11T19:22:00+00:00",
+     "title": "Black Pioneer",
+     "episode": "Feature Film \u2022 2020",
+     "desc": "Enslaved pioneer Green Flake embarks on a journey that becomes vital to the settlement of Utah.",
+     "stop": "2026-10-11T21:03:00+00:00"
+    },
+    {
+     "start": "2026-10-11T21:03:00+00:00",
+     "title": "Don&#8217;t Wait, Django&#8230; Shoot!",
+     "episode": "Feature Film \u2022 1967",
+     "desc": "Django returns to his hometown and discovers his father has been murdered by a ruthless gang.",
+     "stop": "2026-10-11T22:32:00+00:00"
+    },
+    {
+     "start": "2026-10-11T22:32:00+00:00",
+     "title": "Oklahoma Annie",
+     "episode": "Feature Film \u2022 1952",
+     "desc": "Singing shopkeeper (Judy Canova) becomes sheriff boyfriend's (John Russell) deputy.",
+     "stop": "2026-10-12T00:04:00+00:00"
+    },
+    {
+     "start": "2026-10-12T00:04:00+00:00",
+     "title": "The Unforgiven",
+     "episode": "Feature Film \u2022 1960",
+     "desc": "A Texas woman and her eldest son fight Kiowas over an adopted daughter.",
+     "stop": "2026-10-12T02:06:00+00:00"
+    },
+    {
+     "start": "2026-10-12T02:06:00+00:00",
+     "title": "The Blood of Heroes",
+     "episode": "Feature Film \u2022 1989",
+     "desc": "Roving future gladiators (Rutger Hauer, Joan Chen, Vincent Phillip D'Onofrio) vs. ruling elite's.",
+     "stop": "2026-10-12T03:52:00+00:00"
+    },
+    {
+     "start": "2026-10-12T03:52:00+00:00",
+     "title": "Twice Upon a Yesterday",
+     "episode": "Feature Film \u2022 1998",
+     "desc": "A man (Douglas Henshall) travels in time to try to keep his girlfriend (Lena Headey).",
+     "stop": "2026-10-12T04:22:00+00:00"
+    },
+    {
+     "start": "2026-10-12T05:25:00+00:00",
+     "title": "Border Feud",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "Marshal (Al \"Lash\" La Rue) with whip and sheriff (Al \"Fuzzy\" St. John) end gold-mine feud.",
+     "stop": "2026-10-12T06:20:00+00:00"
+    },
+    {
+     "start": "2026-10-12T06:20:00+00:00",
+     "title": "Prairie Badmen",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "Cowboys (Buster Crabbe, Al \"Fuzzy\" St. John) help medicine-show man with treasure map.",
+     "stop": "2026-10-12T07:14:00+00:00"
+    },
+    {
+     "start": "2026-10-12T07:14:00+00:00",
+     "title": "Paradise Canyon",
+     "episode": "Feature Film \u2022 1935",
+     "desc": "A federal agent tracks down a gang of counterfeiters operating along the Mexican border.",
+     "stop": "2026-10-12T08:08:00+00:00"
+    },
+    {
+     "start": "2026-10-12T08:08:00+00:00",
+     "title": "Flaming Bullets",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "The Texas Rangers bust a gang of jail breakers.",
+     "stop": "2026-10-12T09:06:00+00:00"
+    },
+    {
+     "start": "2026-10-12T09:06:00+00:00",
+     "title": "The Lawless Frontier",
+     "episode": "Feature Film \u2022 1935",
+     "desc": "A cowboy fights for justice against an outlaw who is partnered with a crooked sheriff.",
+     "stop": "2026-10-12T09:56:00+00:00"
+    },
+    {
+     "start": "2026-10-12T09:56:00+00:00",
+     "title": "The Westward Trail",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "Marshal (Eddie Dean) saves ranch, sings \"When Shorty Plays the Schottische.\"",
+     "stop": "2026-10-12T10:54:00+00:00"
+    },
+    {
+     "start": "2026-10-12T10:54:00+00:00",
+     "title": "Texas Terror",
+     "episode": "Feature Film \u2022 1935",
+     "desc": "A lawman (John Wayne) gets the outlaw (LeRoy Mason) who shot his friend.",
+     "stop": "2026-10-12T11:46:00+00:00"
+    },
+    {
+     "start": "2026-10-12T11:46:00+00:00",
+     "title": "Man From Oklahoma",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Roy rides to the rescue to save a lady friend when a devious rancher tries to instigate a feud.",
+     "stop": "2026-10-12T12:40:00+00:00"
+    },
+    {
+     "start": "2026-10-12T12:40:00+00:00",
+     "title": "Susanna Pass",
+     "episode": "Feature Film \u2022 1949",
+     "desc": "A singing game warden (Roy Rogers) on horseback investigates dynamiting at a lake.",
+     "stop": "2026-10-12T13:33:00+00:00"
+    },
+    {
+     "start": "2026-10-12T13:33:00+00:00",
+     "title": "The Star Packer",
+     "episode": "Feature Film \u2022 1934",
+     "desc": "An incognito U.S. marshal (John Wayne) learns his girlfriend's (Verna Hillie) uncle is an outlaw.",
+     "stop": "2026-10-12T14:24:00+00:00"
+    },
+    {
+     "start": "2026-10-12T14:24:00+00:00",
+     "title": "The Hawk of Powder River",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "A U.S. marshal (Eddie Dean) on a secret mission stops an outlaw (Jennifer Holt) and her gang.",
+     "stop": "2026-10-12T15:18:00+00:00"
+    },
+    {
+     "start": "2026-10-12T15:18:00+00:00",
+     "title": "Prairie Outlaws",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A Texas Ranger (Eddie Dean) and his pals (Roscoe Ates, Al \"Lash\" La Rue) lay telegraph cable.",
+     "stop": "2026-10-12T16:16:00+00:00"
+    },
+    {
+     "start": "2026-10-12T16:16:00+00:00",
+     "title": "Prairie Badmen",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "Cowboys (Buster Crabbe, Al \"Fuzzy\" St. John) help medicine-show man with treasure map.",
+     "stop": "2026-10-12T17:10:00+00:00"
+    },
+    {
+     "start": "2026-10-12T17:10:00+00:00",
+     "title": "In Old Amarillo",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "A singing troubleshooter brings water and justice to bone-dry Texas.",
+     "stop": "2026-10-12T18:06:00+00:00"
+    },
+    {
+     "start": "2026-10-12T18:06:00+00:00",
+     "title": "Oklahoma Annie",
+     "episode": "Feature Film \u2022 1952",
+     "desc": "Singing shopkeeper (Judy Canova) becomes sheriff boyfriend's (John Russell) deputy.",
+     "stop": "2026-10-12T19:38:00+00:00"
+    },
+    {
+     "start": "2026-10-12T19:38:00+00:00",
+     "title": "Twilight in the Sierras",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Singing parole man (Roy Rogers) saves Cuban singer (Estelita Rodriguez) from counterfeiters.",
+     "stop": "2026-10-12T20:34:00+00:00"
+    },
+    {
+     "start": "2026-10-12T20:34:00+00:00",
+     "title": "Twice Upon a Yesterday",
+     "episode": "Feature Film \u2022 1998",
+     "desc": "A man (Douglas Henshall) travels in time to try to keep his girlfriend (Lena Headey).",
+     "stop": "2026-10-12T22:07:00+00:00"
+    },
+    {
+     "start": "2026-10-12T22:07:00+00:00",
+     "title": "The Blood of Heroes",
+     "episode": "Feature Film \u2022 1989",
+     "desc": "Roving future gladiators (Rutger Hauer, Joan Chen, Vincent Phillip D'Onofrio) vs. ruling elite's.",
+     "stop": "2026-10-12T23:53:00+00:00"
+    },
+    {
+     "start": "2026-10-12T23:53:00+00:00",
+     "title": "Cariboo Trail",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Jim and Mike head into Canada's British Columbia intending to dig for gold but find trouble instead.",
+     "stop": "2026-10-13T01:15:00+00:00"
+    },
+    {
+     "start": "2026-10-13T01:15:00+00:00",
+     "title": "Outride the Devil: A Morning With Doc Holliday",
+     "episode": "Special \u2022 2007",
+     "desc": "Kit Hussey presents the highlights from the last fourteen years of Doc Holliday's life.",
+     "stop": "2026-10-13T02:43:00+00:00"
+    },
+    {
+     "start": "2026-10-13T02:43:00+00:00",
+     "title": "John Wayne Behind-the-Scenes: Filming of Stunts, Chases, Fights, Crashes &#038; Gun Battles",
+     "episode": "Special \u2022 2017",
+     "desc": "A behind-the-scenes look at the stunts, fights, gun battles and chases from John Wayne movies.",
+     "stop": "2026-10-13T03:13:00+00:00"
+    },
+    {
+     "start": "2026-10-13T04:15:00+00:00",
+     "title": "Prairie Outlaws",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A Texas Ranger (Eddie Dean) and his pals (Roscoe Ates, Al \"Lash\" La Rue) lay telegraph cable.",
+     "stop": "2026-10-13T05:13:00+00:00"
+    },
+    {
+     "start": "2026-10-13T05:13:00+00:00",
+     "title": "Prairie Badmen",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "Cowboys (Buster Crabbe, Al \"Fuzzy\" St. John) help medicine-show man with treasure map.",
+     "stop": "2026-10-13T06:07:00+00:00"
+    },
+    {
+     "start": "2026-10-13T06:07:00+00:00",
+     "title": "Tumbleweed Trail",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A singing undercover agent (Eddie Dean) and his sidekick (Roscoe Ates) catch cattle rustlers.",
+     "stop": "2026-10-13T07:06:00+00:00"
+    },
+    {
+     "start": "2026-10-13T07:06:00+00:00",
+     "title": "Flaming Bullets",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "The Texas Rangers bust a gang of jail breakers.",
+     "stop": "2026-10-13T08:04:00+00:00"
+    },
+    {
+     "start": "2026-10-13T08:04:00+00:00",
+     "title": "Yankee Fakir",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "A snake-oil salesman (Douglas Fowley) helps a sheriff's daughter (Joan Woodbury).",
+     "stop": "2026-10-13T09:15:00+00:00"
+    },
+    {
+     "start": "2026-10-13T09:15:00+00:00",
+     "title": "Man From Oklahoma",
+     "episode": "Feature Film \u2022 1945",
+     "desc": "Roy rides to the rescue to save a lady friend when a devious rancher tries to instigate a feud.",
+     "stop": "2026-10-13T10:09:00+00:00"
+    },
+    {
+     "start": "2026-10-13T10:09:00+00:00",
+     "title": "Bells of Coronado",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "A singing insurance sleuth catches uranium-ore crooks who kill a mine owner.",
+     "stop": "2026-10-13T11:04:00+00:00"
+    },
+    {
+     "start": "2026-10-13T11:04:00+00:00",
+     "title": "The Star Packer",
+     "episode": "Feature Film \u2022 1934",
+     "desc": "An incognito U.S. marshal (John Wayne) learns his girlfriend's (Verna Hillie) uncle is an outlaw.",
+     "stop": "2026-10-13T11:55:00+00:00"
+    },
+    {
+     "start": "2026-10-13T11:55:00+00:00",
+     "title": "Colorado Serenade",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A singing cowboy (Eddie Dean) and a federal agent (David Sharpe) catch a crook with connections.",
+     "stop": "2026-10-13T13:02:00+00:00"
+    },
+    {
+     "start": "2026-10-13T13:02:00+00:00",
+     "title": "In Old Amarillo",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "A singing troubleshooter brings water and justice to bone-dry Texas.",
+     "stop": "2026-10-13T13:58:00+00:00"
+    },
+    {
+     "start": "2026-10-13T13:58:00+00:00",
+     "title": "Twilight in the Sierras",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Singing parole man (Roy Rogers) saves Cuban singer (Estelita Rodriguez) from counterfeiters.",
+     "stop": "2026-10-13T14:54:00+00:00"
+    },
+    {
+     "start": "2026-10-13T14:54:00+00:00",
+     "title": "Cariboo Trail",
+     "episode": "Feature Film \u2022 1950",
+     "desc": "Jim and Mike head into Canada's British Columbia intending to dig for gold but find trouble instead.",
+     "stop": "2026-10-13T16:16:00+00:00"
+    },
+    {
+     "start": "2026-10-13T16:16:00+00:00",
+     "title": "Little Big Horn",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "Cavalry officers (Lloyd Bridges, John Ireland) try to warn Gen. Custer.",
+     "stop": "2026-10-13T17:43:00+00:00"
+    },
+    {
+     "start": "2026-10-13T17:43:00+00:00",
+     "title": "Brother Outlaw",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Two brothers search for the culprits behind a bank robbery and confront a famous gunfighter.",
+     "stop": "2026-10-13T19:06:00+00:00"
+    },
+    {
+     "start": "2026-10-13T19:06:00+00:00",
+     "title": "John Wayne Behind-the-Scenes: Filming of Stunts, Chases, Fights, Crashes &#038; Gun Battles",
+     "episode": "Special \u2022 2017",
+     "desc": "A behind-the-scenes look at the stunts, fights, gun battles and chases from John Wayne movies.",
+     "stop": "2026-10-13T20:38:00+00:00"
+    },
+    {
+     "start": "2026-10-13T20:38:00+00:00",
+     "title": "Outride the Devil: A Morning With Doc Holliday",
+     "episode": "Special \u2022 2007",
+     "desc": "Kit Hussey presents the highlights from the last fourteen years of Doc Holliday's life.",
+     "stop": "2026-10-13T22:06:00+00:00"
+    },
+    {
+     "start": "2026-10-13T22:06:00+00:00",
+     "title": "The Unforgiven",
+     "episode": "Feature Film \u2022 1960",
+     "desc": "A Texas woman and her eldest son fight Kiowas over an adopted daughter.",
+     "stop": "2026-10-14T00:08:00+00:00"
+    },
+    {
+     "start": "2026-10-14T00:08:00+00:00",
+     "title": "Panhandle",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "Ex-gunfighter (Rod Cameron) seeks gambler who killed his brother.",
+     "stop": "2026-10-14T01:34:00+00:00"
+    },
+    {
+     "start": "2026-10-14T01:34:00+00:00",
+     "title": "The Magnificent Matador",
+     "episode": "Feature Film \u2022 1955",
+     "desc": "Aging matador (Anthony Quinn) faces fear, loves rich American (Maureen O'Hara).",
+     "stop": "2026-10-14T03:10:00+00:00"
+    },
+    {
+     "start": "2026-10-14T03:10:00+00:00",
+     "title": "Brother Outlaw",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Two brothers search for the culprits behind a bank robbery and confront a famous gunfighter.",
+     "stop": "2026-10-14T03:40:00+00:00"
+    },
+    {
+     "start": "2026-10-14T04:33:00+00:00",
+     "title": "Panhandle",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "Ex-gunfighter (Rod Cameron) seeks gambler who killed his brother.",
+     "stop": "2026-10-14T05:58:00+00:00"
+    },
+    {
+     "start": "2026-10-14T05:58:00+00:00",
+     "title": "The Unforgiven",
+     "episode": "Feature Film \u2022 1960",
+     "desc": "A Texas woman and her eldest son fight Kiowas over an adopted daughter.",
+     "stop": "2026-10-14T08:00:00+00:00"
+    },
+    {
+     "start": "2026-10-14T08:00:00+00:00",
+     "title": "Local Programming",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "A singing sheriff (Eddie Dean) catches crooks trying to rob a Mexican rancher's gold.",
+     "stop": "2026-10-14T09:50:00+00:00"
+    },
+    {
+     "start": "2026-10-14T09:50:00+00:00",
+     "title": "Colorado Serenade",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A singing cowboy (Eddie Dean) and a federal agent (David Sharpe) catch a crook with connections.",
+     "stop": "2026-10-14T10:57:00+00:00"
+    },
+    {
+     "start": "2026-10-14T10:57:00+00:00",
+     "title": "Black Hills",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "Cowboys get the drop on trigger-happy saloon keeper.",
+     "stop": "2026-10-14T11:56:00+00:00"
+    },
+    {
+     "start": "2026-10-14T11:56:00+00:00",
+     "title": "Little Big Horn",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "Cavalry officers (Lloyd Bridges, John Ireland) try to warn Gen. Custer.",
+     "stop": "2026-10-14T13:23:00+00:00"
+    },
+    {
+     "start": "2026-10-14T13:23:00+00:00",
+     "title": "Return of the Lash",
+     "episode": "Feature Film \u2022 1947",
+     "desc": "A whip-wielding bounty hunter's (Lash La Rue) sidekick (Al \"Fuzzy\" St. John) has amnesia.",
+     "stop": "2026-10-14T14:17:00+00:00"
+    },
+    {
+     "start": "2026-10-14T14:17:00+00:00",
+     "title": "Brother Outlaw",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Two brothers search for the culprits behind a bank robbery and confront a famous gunfighter.",
+     "stop": "2026-10-14T15:40:00+00:00"
+    },
+    {
+     "start": "2026-10-14T15:40:00+00:00",
+     "title": "Down Missouri Way",
+     "episode": "Feature Film \u2022 1946",
+     "desc": "A Hollywood director (John Carradine) needs a mule for a movie and finds one attending college.",
+     "stop": "2026-10-14T16:55:00+00:00"
+    },
+    {
+     "start": "2026-10-14T16:55:00+00:00",
+     "title": "Panhandle",
+     "episode": "Feature Film \u2022 1948",
+     "desc": "Ex-gunfighter (Rod Cameron) seeks gambler who killed his brother.",
+     "stop": "2026-10-14T18:21:00+00:00"
+    },
+    {
+     "start": "2026-10-14T18:21:00+00:00",
+     "title": "Pit Pony",
+     "episode": "TV Movie \u2022 1997",
+     "desc": "A horse's companionship helps a boy overcome his fears and work in a Nova Scotia coal mine.",
+     "stop": "2026-10-14T19:54:00+00:00"
+    },
+    {
+     "start": "2026-10-14T19:54:00+00:00",
+     "title": "The Magnificent Matador",
+     "episode": "Feature Film \u2022 1955",
+     "desc": "Aging matador (Anthony Quinn) faces fear, loves rich American (Maureen O'Hara).",
+     "stop": "2026-10-14T21:30:00+00:00"
+    },
+    {
+     "start": "2026-10-14T21:30:00+00:00",
+     "title": "The Treasure",
+     "episode": "Feature Film \u2022 1990",
+     "desc": "Sea captain helps kids with clues.",
+     "stop": "2026-10-14T23:00:00+00:00"
+    },
+    {
+     "start": "2026-10-14T23:00:00+00:00",
+     "title": "Back to the Secret Garden",
+     "episode": "Feature Film \u2022 2000",
+     "desc": "An American girl in England is obsessed with solving the mystery of a magical garden.",
+     "stop": "2026-10-14T23:30:00+00:00"
+    }
+   ]
   }
  }
 }
