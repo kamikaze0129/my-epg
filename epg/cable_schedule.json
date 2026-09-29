@@ -1,774 +1,6 @@
 {
  "updated_utc": "2026-09-29T19:51:36.431141+00:00",
  "sources": {
-  "msnow.us": {
-   "source": "msnow",
-   "source_url": "https://mobileapi.vsnewstools.com/resources/schedule/msnbc-schedule",
-   "programmes": [
-    {
-     "start": "2026-09-28T08:00:00+00:00",
-     "stop": "2026-09-28T09:00:00+00:00",
-     "title": "The Briefing with Jen Psaki: Weekend",
-     "desc": "Jen Psaki tackles the biggest issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-09-28T09:00:00+00:00",
-     "stop": "2026-09-28T10:00:00+00:00",
-     "title": "Way Too Early With Ali Vitali",
-     "desc": "Inside-the-beltway political news and critical stories shaping the national conversation."
-    },
-    {
-     "start": "2026-09-28T10:00:00+00:00",
-     "stop": "2026-09-28T13:00:00+00:00",
-     "title": "Morning Joe",
-     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
-    },
-    {
-     "start": "2026-09-28T13:00:00+00:00",
-     "stop": "2026-09-28T15:00:00+00:00",
-     "title": "Money, Power, Politics With Stephanie Ruhle",
-     "desc": "Host Stephanie Ruhle brings her business acumen, hard-hitting interview style and original reporting to mornings, helping you understand what's happening today and why it matters; make sense of it all, together."
-    },
-    {
-     "start": "2026-09-28T15:00:00+00:00",
-     "stop": "2026-09-28T16:00:00+00:00",
-     "title": "State of Play with Peter Alexander",
-     "desc": "Peter Alexander holds those in power accountable, leaning on his years of reporting from the heart of DC to relentlessly push for the answers you need. Because what happens in Washington impacts what happens in your home."
-    },
-    {
-     "start": "2026-09-28T16:00:00+00:00",
-     "stop": "2026-09-28T18:00:00+00:00",
-     "title": "On the Line With Alicia Menendez",
-     "desc": "Alicia Menendez leads insightful conversations that bring us to a deeper understanding of the day's headlines, focusing on what's at stake for our country and our communities."
-    },
-    {
-     "start": "2026-09-28T18:00:00+00:00",
-     "stop": "2026-09-28T20:00:00+00:00",
-     "title": "The Moment With Katy Tur",
-     "desc": "Katy Tur cuts through the noise with sharp political analysis, breaking news, and impactful interviews on the stories driving the national conversation."
-    },
-    {
-     "start": "2026-09-28T20:00:00+00:00",
-     "stop": "2026-09-28T22:00:00+00:00",
-     "title": "Deadline: White House",
-     "desc": "In-depth reporting on political developments and dynamic discussions with leading newsmakers, with insights into complex issues."
-    },
-    {
-     "start": "2026-09-28T22:00:00+00:00",
-     "stop": "2026-09-28T23:00:00+00:00",
-     "title": "The Beat With Ari Melber",
-     "desc": "Attorney and journalist Ari Melber dives into political and news stories with interviews and original reporting from around the nation."
-    },
-    {
-     "start": "2026-09-28T23:00:00+00:00",
-     "stop": "2026-09-29T00:00:00+00:00",
-     "title": "The Weeknight",
-     "desc": "Luke Russert, Michael Steele, and Symone Sanders Townsend's one-on-one conversations with politicians and newsmakers, and the breaking issues of the day."
-    },
-    {
-     "start": "2026-09-29T00:00:00+00:00",
-     "stop": "2026-09-29T01:00:00+00:00",
-     "title": "All in With Chris Hayes",
-     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
-    },
-    {
-     "start": "2026-09-29T01:00:00+00:00",
-     "stop": "2026-09-29T02:00:00+00:00",
-     "title": "The Rachel Maddow Show",
-     "desc": "Through her unique approach to storytelling, Rachel Maddow provides in-depth reporting to illuminate the current state of political affairs and reveals the importance of transparency and accountability from our leaders."
-    },
-    {
-     "start": "2026-09-29T02:00:00+00:00",
-     "stop": "2026-09-29T03:00:00+00:00",
-     "title": "The Last Word With Lawrence O'Donnell",
-     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
-    },
-    {
-     "start": "2026-09-29T03:00:00+00:00",
-     "stop": "2026-09-29T04:00:00+00:00",
-     "title": "The 11th Hour With Ali Velshi",
-     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
-    },
-    {
-     "start": "2026-09-29T04:00:00+00:00",
-     "stop": "2026-09-29T05:00:00+00:00",
-     "title": "The Rachel Maddow Show",
-     "desc": "Through her unique approach to storytelling, Rachel Maddow provides in-depth reporting to illuminate the current state of political affairs and reveals the importance of transparency and accountability from our leaders."
-    },
-    {
-     "start": "2026-09-29T05:00:00+00:00",
-     "stop": "2026-09-29T06:00:00+00:00",
-     "title": "The Last Word With Lawrence O'Donnell",
-     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
-    },
-    {
-     "start": "2026-09-29T06:00:00+00:00",
-     "stop": "2026-09-29T07:00:00+00:00",
-     "title": "The 11th Hour With Ali Velshi",
-     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
-    },
-    {
-     "start": "2026-09-29T07:00:00+00:00",
-     "stop": "2026-09-29T08:00:00+00:00",
-     "title": "All in With Chris Hayes",
-     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
-    },
-    {
-     "start": "2026-09-29T08:00:00+00:00",
-     "stop": "2026-09-29T09:00:00+00:00",
-     "title": "The Rachel Maddow Show",
-     "desc": "Through her unique approach to storytelling, Rachel Maddow provides in-depth reporting to illuminate the current state of political affairs and reveals the importance of transparency and accountability from our leaders."
-    },
-    {
-     "start": "2026-09-29T09:00:00+00:00",
-     "stop": "2026-09-29T10:00:00+00:00",
-     "title": "Way Too Early With Ali Vitali",
-     "desc": "Inside-the-beltway political news and critical stories shaping the national conversation."
-    },
-    {
-     "start": "2026-09-29T10:00:00+00:00",
-     "stop": "2026-09-29T13:00:00+00:00",
-     "title": "Morning Joe",
-     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
-    },
-    {
-     "start": "2026-09-29T13:00:00+00:00",
-     "stop": "2026-09-29T15:00:00+00:00",
-     "title": "Money, Power, Politics With Stephanie Ruhle",
-     "desc": "Host Stephanie Ruhle brings her business acumen, hard-hitting interview style and original reporting to mornings, helping you understand what's happening today and why it matters; make sense of it all, together."
-    },
-    {
-     "start": "2026-09-29T15:00:00+00:00",
-     "stop": "2026-09-29T16:00:00+00:00",
-     "title": "State of Play with Peter Alexander",
-     "desc": "Peter Alexander holds those in power accountable, leaning on his years of reporting from the heart of DC to relentlessly push for the answers you need. Because what happens in Washington impacts what happens in your home."
-    },
-    {
-     "start": "2026-09-29T16:00:00+00:00",
-     "stop": "2026-09-29T18:00:00+00:00",
-     "title": "On the Line With Alicia Menendez",
-     "desc": "Alicia Menendez leads insightful conversations that bring us to a deeper understanding of the day's headlines, focusing on what's at stake for our country and our communities."
-    },
-    {
-     "start": "2026-09-29T18:00:00+00:00",
-     "stop": "2026-09-29T20:00:00+00:00",
-     "title": "The Moment With Katy Tur",
-     "desc": "Katy Tur cuts through the noise with sharp political analysis, breaking news, and impactful interviews on the stories driving the national conversation."
-    },
-    {
-     "start": "2026-09-29T20:00:00+00:00",
-     "stop": "2026-09-29T22:00:00+00:00",
-     "title": "Deadline: White House",
-     "desc": "In-depth reporting on political developments and dynamic discussions with leading newsmakers, with insights into complex issues."
-    },
-    {
-     "start": "2026-09-29T22:00:00+00:00",
-     "stop": "2026-09-29T23:00:00+00:00",
-     "title": "The Beat With Ari Melber",
-     "desc": "Attorney and journalist Ari Melber dives into political and news stories with interviews and original reporting from around the nation."
-    },
-    {
-     "start": "2026-09-29T23:00:00+00:00",
-     "stop": "2026-09-30T00:00:00+00:00",
-     "title": "The Weeknight",
-     "desc": "Luke Russert, Michael Steele, and Symone Sanders Townsend's one-on-one conversations with politicians and newsmakers, and the breaking issues of the day."
-    },
-    {
-     "start": "2026-09-30T00:00:00+00:00",
-     "stop": "2026-09-30T01:00:00+00:00",
-     "title": "All in With Chris Hayes",
-     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
-    },
-    {
-     "start": "2026-09-30T01:00:00+00:00",
-     "stop": "2026-09-30T02:00:00+00:00",
-     "title": "The Briefing With Jen Psaki",
-     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-09-30T02:00:00+00:00",
-     "stop": "2026-09-30T03:00:00+00:00",
-     "title": "The Last Word With Lawrence O'Donnell",
-     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
-    },
-    {
-     "start": "2026-09-30T03:00:00+00:00",
-     "stop": "2026-09-30T04:00:00+00:00",
-     "title": "The 11th Hour With Ali Velshi",
-     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
-    },
-    {
-     "start": "2026-09-30T04:00:00+00:00",
-     "stop": "2026-09-30T05:00:00+00:00",
-     "title": "The Briefing With Jen Psaki",
-     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-09-30T05:00:00+00:00",
-     "stop": "2026-09-30T06:00:00+00:00",
-     "title": "The Last Word With Lawrence O'Donnell",
-     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
-    },
-    {
-     "start": "2026-09-30T06:00:00+00:00",
-     "stop": "2026-09-30T07:00:00+00:00",
-     "title": "The 11th Hour With Ali Velshi",
-     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
-    },
-    {
-     "start": "2026-09-30T07:00:00+00:00",
-     "stop": "2026-09-30T08:00:00+00:00",
-     "title": "All in With Chris Hayes",
-     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
-    },
-    {
-     "start": "2026-09-30T08:00:00+00:00",
-     "stop": "2026-09-30T09:00:00+00:00",
-     "title": "The Briefing With Jen Psaki",
-     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-09-30T09:00:00+00:00",
-     "stop": "2026-09-30T10:00:00+00:00",
-     "title": "Way Too Early With Ali Vitali",
-     "desc": "Inside-the-beltway political news and critical stories shaping the national conversation."
-    },
-    {
-     "start": "2026-09-30T10:00:00+00:00",
-     "stop": "2026-09-30T13:00:00+00:00",
-     "title": "Morning Joe",
-     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
-    },
-    {
-     "start": "2026-09-30T13:00:00+00:00",
-     "stop": "2026-09-30T15:00:00+00:00",
-     "title": "Money, Power, Politics With Stephanie Ruhle",
-     "desc": "Host Stephanie Ruhle brings her business acumen, hard-hitting interview style and original reporting to mornings, helping you understand what's happening today and why it matters; make sense of it all, together."
-    },
-    {
-     "start": "2026-09-30T15:00:00+00:00",
-     "stop": "2026-09-30T16:00:00+00:00",
-     "title": "State of Play with Peter Alexander",
-     "desc": "Peter Alexander holds those in power accountable, leaning on his years of reporting from the heart of DC to relentlessly push for the answers you need. Because what happens in Washington impacts what happens in your home."
-    },
-    {
-     "start": "2026-09-30T16:00:00+00:00",
-     "stop": "2026-09-30T18:00:00+00:00",
-     "title": "On the Line With Alicia Menendez",
-     "desc": "Alicia Menendez leads insightful conversations that bring us to a deeper understanding of the day's headlines, focusing on what's at stake for our country and our communities."
-    },
-    {
-     "start": "2026-09-30T18:00:00+00:00",
-     "stop": "2026-09-30T20:00:00+00:00",
-     "title": "The Moment With Katy Tur",
-     "desc": "Katy Tur cuts through the noise with sharp political analysis, breaking news, and impactful interviews on the stories driving the national conversation."
-    },
-    {
-     "start": "2026-09-30T20:00:00+00:00",
-     "stop": "2026-09-30T22:00:00+00:00",
-     "title": "Deadline: White House",
-     "desc": "In-depth reporting on political developments and dynamic discussions with leading newsmakers, with insights into complex issues."
-    },
-    {
-     "start": "2026-09-30T22:00:00+00:00",
-     "stop": "2026-09-30T23:00:00+00:00",
-     "title": "The Beat With Ari Melber",
-     "desc": "Attorney and journalist Ari Melber dives into political and news stories with interviews and original reporting from around the nation."
-    },
-    {
-     "start": "2026-09-30T23:00:00+00:00",
-     "stop": "2026-10-01T00:00:00+00:00",
-     "title": "The Weeknight",
-     "desc": "Luke Russert, Michael Steele, and Symone Sanders Townsend's one-on-one conversations with politicians and newsmakers, and the breaking issues of the day."
-    },
-    {
-     "start": "2026-10-01T00:00:00+00:00",
-     "stop": "2026-10-01T01:00:00+00:00",
-     "title": "All in With Chris Hayes",
-     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
-    },
-    {
-     "start": "2026-10-01T01:00:00+00:00",
-     "stop": "2026-10-01T02:00:00+00:00",
-     "title": "The Briefing With Jen Psaki",
-     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-10-01T02:00:00+00:00",
-     "stop": "2026-10-01T03:00:00+00:00",
-     "title": "The Last Word With Lawrence O'Donnell",
-     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
-    },
-    {
-     "start": "2026-10-01T03:00:00+00:00",
-     "stop": "2026-10-01T04:00:00+00:00",
-     "title": "The 11th Hour With Ali Velshi",
-     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
-    },
-    {
-     "start": "2026-10-01T04:00:00+00:00",
-     "stop": "2026-10-01T05:00:00+00:00",
-     "title": "The Briefing With Jen Psaki",
-     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-10-01T05:00:00+00:00",
-     "stop": "2026-10-01T06:00:00+00:00",
-     "title": "The Last Word With Lawrence O'Donnell",
-     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
-    },
-    {
-     "start": "2026-10-01T06:00:00+00:00",
-     "stop": "2026-10-01T07:00:00+00:00",
-     "title": "The 11th Hour With Ali Velshi",
-     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
-    },
-    {
-     "start": "2026-10-01T07:00:00+00:00",
-     "stop": "2026-10-01T08:00:00+00:00",
-     "title": "All in With Chris Hayes",
-     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
-    },
-    {
-     "start": "2026-10-01T08:00:00+00:00",
-     "stop": "2026-10-01T09:00:00+00:00",
-     "title": "The Briefing With Jen Psaki",
-     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-10-01T09:00:00+00:00",
-     "stop": "2026-10-01T10:00:00+00:00",
-     "title": "Way Too Early With Ali Vitali",
-     "desc": "Inside-the-beltway political news and critical stories shaping the national conversation."
-    },
-    {
-     "start": "2026-10-01T10:00:00+00:00",
-     "stop": "2026-10-01T13:00:00+00:00",
-     "title": "Morning Joe",
-     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
-    },
-    {
-     "start": "2026-10-01T13:00:00+00:00",
-     "stop": "2026-10-01T15:00:00+00:00",
-     "title": "Money, Power, Politics With Stephanie Ruhle",
-     "desc": "Host Stephanie Ruhle brings her business acumen, hard-hitting interview style and original reporting to mornings, helping you understand what's happening today and why it matters; make sense of it all, together."
-    },
-    {
-     "start": "2026-10-01T15:00:00+00:00",
-     "stop": "2026-10-01T16:00:00+00:00",
-     "title": "State of Play with Peter Alexander",
-     "desc": "Peter Alexander holds those in power accountable, leaning on his years of reporting from the heart of DC to relentlessly push for the answers you need. Because what happens in Washington impacts what happens in your home."
-    },
-    {
-     "start": "2026-10-01T16:00:00+00:00",
-     "stop": "2026-10-01T18:00:00+00:00",
-     "title": "On the Line With Alicia Menendez",
-     "desc": "Alicia Menendez leads insightful conversations that bring us to a deeper understanding of the day's headlines, focusing on what's at stake for our country and our communities."
-    },
-    {
-     "start": "2026-10-01T18:00:00+00:00",
-     "stop": "2026-10-01T20:00:00+00:00",
-     "title": "The Moment With Katy Tur",
-     "desc": "Katy Tur cuts through the noise with sharp political analysis, breaking news, and impactful interviews on the stories driving the national conversation."
-    },
-    {
-     "start": "2026-10-01T20:00:00+00:00",
-     "stop": "2026-10-01T22:00:00+00:00",
-     "title": "Deadline: White House",
-     "desc": "In-depth reporting on political developments and dynamic discussions with leading newsmakers, with insights into complex issues."
-    },
-    {
-     "start": "2026-10-01T22:00:00+00:00",
-     "stop": "2026-10-01T23:00:00+00:00",
-     "title": "The Beat With Ari Melber",
-     "desc": "Attorney and journalist Ari Melber dives into political and news stories with interviews and original reporting from around the nation."
-    },
-    {
-     "start": "2026-10-01T23:00:00+00:00",
-     "stop": "2026-10-02T00:00:00+00:00",
-     "title": "The Weeknight",
-     "desc": "Luke Russert, Michael Steele, and Symone Sanders Townsend's one-on-one conversations with politicians and newsmakers, and the breaking issues of the day."
-    },
-    {
-     "start": "2026-10-02T00:00:00+00:00",
-     "stop": "2026-10-02T01:00:00+00:00",
-     "title": "All in With Chris Hayes",
-     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
-    },
-    {
-     "start": "2026-10-02T01:00:00+00:00",
-     "stop": "2026-10-02T02:00:00+00:00",
-     "title": "The Briefing With Jen Psaki",
-     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-10-02T02:00:00+00:00",
-     "stop": "2026-10-02T03:00:00+00:00",
-     "title": "The Last Word With Lawrence O'Donnell",
-     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
-    },
-    {
-     "start": "2026-10-02T03:00:00+00:00",
-     "stop": "2026-10-02T04:00:00+00:00",
-     "title": "The 11th Hour With Ali Velshi",
-     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
-    },
-    {
-     "start": "2026-10-02T04:00:00+00:00",
-     "stop": "2026-10-02T05:00:00+00:00",
-     "title": "The Briefing With Jen Psaki",
-     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-10-02T05:00:00+00:00",
-     "stop": "2026-10-02T06:00:00+00:00",
-     "title": "The Last Word With Lawrence O'Donnell",
-     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
-    },
-    {
-     "start": "2026-10-02T06:00:00+00:00",
-     "stop": "2026-10-02T07:00:00+00:00",
-     "title": "The 11th Hour With Ali Velshi",
-     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
-    },
-    {
-     "start": "2026-10-02T07:00:00+00:00",
-     "stop": "2026-10-02T08:00:00+00:00",
-     "title": "All in With Chris Hayes",
-     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
-    },
-    {
-     "start": "2026-10-02T08:00:00+00:00",
-     "stop": "2026-10-02T09:00:00+00:00",
-     "title": "The Briefing With Jen Psaki",
-     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-10-02T09:00:00+00:00",
-     "stop": "2026-10-02T10:00:00+00:00",
-     "title": "Way Too Early With Ali Vitali",
-     "desc": "Inside-the-beltway political news and critical stories shaping the national conversation."
-    },
-    {
-     "start": "2026-10-02T10:00:00+00:00",
-     "stop": "2026-10-02T13:00:00+00:00",
-     "title": "Morning Joe",
-     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
-    },
-    {
-     "start": "2026-10-02T13:00:00+00:00",
-     "stop": "2026-10-02T15:00:00+00:00",
-     "title": "Money, Power, Politics With Stephanie Ruhle",
-     "desc": "Host Stephanie Ruhle brings her business acumen, hard-hitting interview style and original reporting to mornings, helping you understand what's happening today and why it matters; make sense of it all, together."
-    },
-    {
-     "start": "2026-10-02T15:00:00+00:00",
-     "stop": "2026-10-02T16:00:00+00:00",
-     "title": "State of Play with Peter Alexander",
-     "desc": "Peter Alexander holds those in power accountable, leaning on his years of reporting from the heart of DC to relentlessly push for the answers you need. Because what happens in Washington impacts what happens in your home."
-    },
-    {
-     "start": "2026-10-02T16:00:00+00:00",
-     "stop": "2026-10-02T18:00:00+00:00",
-     "title": "On the Line With Alicia Menendez",
-     "desc": "Alicia Menendez leads insightful conversations that bring us to a deeper understanding of the day's headlines, focusing on what's at stake for our country and our communities."
-    },
-    {
-     "start": "2026-10-02T18:00:00+00:00",
-     "stop": "2026-10-02T20:00:00+00:00",
-     "title": "The Moment With Katy Tur",
-     "desc": "Katy Tur cuts through the noise with sharp political analysis, breaking news, and impactful interviews on the stories driving the national conversation."
-    },
-    {
-     "start": "2026-10-02T20:00:00+00:00",
-     "stop": "2026-10-02T22:00:00+00:00",
-     "title": "Deadline: White House",
-     "desc": "In-depth reporting on political developments and dynamic discussions with leading newsmakers, with insights into complex issues."
-    },
-    {
-     "start": "2026-10-02T22:00:00+00:00",
-     "stop": "2026-10-02T23:00:00+00:00",
-     "title": "The Beat With Ari Melber",
-     "desc": "Attorney and journalist Ari Melber dives into political and news stories with interviews and original reporting from around the nation."
-    },
-    {
-     "start": "2026-10-02T23:00:00+00:00",
-     "stop": "2026-10-03T00:00:00+00:00",
-     "title": "The Weeknight",
-     "desc": "Luke Russert, Michael Steele, and Symone Sanders Townsend's one-on-one conversations with politicians and newsmakers, and the breaking issues of the day."
-    },
-    {
-     "start": "2026-10-03T00:00:00+00:00",
-     "stop": "2026-10-03T01:00:00+00:00",
-     "title": "All in With Chris Hayes",
-     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
-    },
-    {
-     "start": "2026-10-03T01:00:00+00:00",
-     "stop": "2026-10-03T02:00:00+00:00",
-     "title": "The Briefing With Jen Psaki",
-     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-10-03T02:00:00+00:00",
-     "stop": "2026-10-03T03:00:00+00:00",
-     "title": "The Last Word With Lawrence O'Donnell",
-     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
-    },
-    {
-     "start": "2026-10-03T03:00:00+00:00",
-     "stop": "2026-10-03T04:00:00+00:00",
-     "title": "The 11th Hour With Ali Velshi",
-     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
-    },
-    {
-     "start": "2026-10-03T04:00:00+00:00",
-     "stop": "2026-10-03T05:00:00+00:00",
-     "title": "The Briefing With Jen Psaki",
-     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-10-03T05:00:00+00:00",
-     "stop": "2026-10-03T06:00:00+00:00",
-     "title": "The Last Word With Lawrence O'Donnell",
-     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
-    },
-    {
-     "start": "2026-10-03T06:00:00+00:00",
-     "stop": "2026-10-03T07:00:00+00:00",
-     "title": "The 11th Hour With Ali Velshi",
-     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
-    },
-    {
-     "start": "2026-10-03T07:00:00+00:00",
-     "stop": "2026-10-03T08:00:00+00:00",
-     "title": "Secrets of the Desert",
-     "desc": "The mystery surrounding the deaths of three women deep in the Sonoran desert takes 17 years to untangle."
-    },
-    {
-     "start": "2026-10-03T08:00:00+00:00",
-     "stop": "2026-10-03T09:00:00+00:00",
-     "title": "Secrets of the Desert",
-     "desc": "The mystery surrounding the deaths of three women deep in the Sonoran desert takes 17 years to untangle."
-    },
-    {
-     "start": "2026-10-03T09:00:00+00:00",
-     "stop": "2026-10-03T10:00:00+00:00",
-     "title": "Silent Witness",
-     "desc": "When a young woman is found dead in a field on the outskirts of Green Bay, Wis., a fitness tracker helps detectives solve the mystery."
-    },
-    {
-     "start": "2026-10-03T10:00:00+00:00",
-     "stop": "2026-10-03T11:00:00+00:00",
-     "title": "Morning Joe: Weekend",
-     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
-    },
-    {
-     "start": "2026-10-03T11:00:00+00:00",
-     "stop": "2026-10-03T14:00:00+00:00",
-     "title": "The Weekend",
-     "desc": "Jonathan Capehart, Eugene Daniels and Jackie Alemany set the agenda for Saturday, Sunday, and the week ahead; fresh analysis of the week's biggest events."
-    },
-    {
-     "start": "2026-10-03T14:00:00+00:00",
-     "stop": "2026-10-03T17:00:00+00:00",
-     "title": "Connect With Jacob Soboroff",
-     "desc": "Jacob Soboroff brings viewers closer to the news, people and conversations shaping America, forging a meaningful link between himself, his audience and the communities at the center of the national dialogue."
-    },
-    {
-     "start": "2026-10-03T17:00:00+00:00",
-     "stop": "2026-10-03T20:00:00+00:00",
-     "title": "The Assignment With Antonia Hylton",
-     "desc": "Antonia Hylton tackles everything from major breaking news and original, compelling reporting, to the most important political and cultural debates of our time."
-    },
-    {
-     "start": "2026-10-03T20:00:00+00:00",
-     "stop": "2026-10-03T21:00:00+00:00",
-     "title": "Deadline: White House: Weekend",
-     "desc": "Highlights from \"Deadline: White House.\""
-    },
-    {
-     "start": "2026-10-03T21:00:00+00:00",
-     "stop": "2026-10-03T22:00:00+00:00",
-     "title": "PoliticsNation",
-     "desc": "Sharpton approaches news stories with an eye toward equality and justice and brings to light the news and updates on under-reported issues that require a national platform."
-    },
-    {
-     "start": "2026-10-03T22:00:00+00:00",
-     "stop": "2026-10-03T23:00:00+00:00",
-     "title": "The Beat: Weekend",
-     "desc": "Highlights from \"The Beat With Ari Melber.\""
-    },
-    {
-     "start": "2026-10-03T23:00:00+00:00",
-     "stop": "2026-10-04T00:00:00+00:00",
-     "title": "The Best of The Weeknight",
-     "desc": "Highlights from \"The Weeknight.\""
-    },
-    {
-     "start": "2026-10-04T00:00:00+00:00",
-     "stop": "2026-10-04T01:00:00+00:00",
-     "title": "The Weekend",
-     "desc": "Jonathan Capehart, Eugene Daniels and Jackie Alemany set the agenda for Saturday, Sunday, and the week ahead; fresh analysis of the week's biggest events."
-    },
-    {
-     "start": "2026-10-04T01:00:00+00:00",
-     "stop": "2026-10-04T02:00:00+00:00",
-     "title": "Connect With Jacob Soboroff",
-     "desc": "Jacob Soboroff brings viewers closer to the news, people and conversations shaping America, forging a meaningful link between himself, his audience and the communities at the center of the national dialogue."
-    },
-    {
-     "start": "2026-10-04T02:00:00+00:00",
-     "stop": "2026-10-04T03:00:00+00:00",
-     "title": "Crooked on MS NOW",
-     "desc": "MS NOW teams up with Crooked Media to bring you the smartest, funniest and most talked-about moments of the week from their chart-topping podcasts."
-    },
-    {
-     "start": "2026-10-04T03:00:00+00:00",
-     "stop": "2026-10-04T04:00:00+00:00",
-     "title": "Lovett or Leave It",
-     "desc": "Each week, former Obama speechwriter Jon Lovett and a panel of comedians, actors and journalists break down the week's biggest news and make fun of whatever BS came out of our insane political nightmare factory."
-    },
-    {
-     "start": "2026-10-04T04:00:00+00:00",
-     "stop": "2026-10-04T05:00:00+00:00",
-     "title": "The Beat: Weekend",
-     "desc": "Highlights from \"The Beat With Ari Melber.\""
-    },
-    {
-     "start": "2026-10-04T05:00:00+00:00",
-     "stop": "2026-10-04T06:00:00+00:00",
-     "title": "The Pink Gun Mystery - Part 1",
-     "desc": "When a complicated Texas love triangle ends in murder, a pink gun leads to an arrest, until new evidence prompts investigators to rethink the case."
-    },
-    {
-     "start": "2026-10-04T06:00:00+00:00",
-     "stop": "2026-10-04T07:00:00+00:00",
-     "title": "The Pink Gun Mystery - Part 2",
-     "desc": "When a complicated Texas love triangle ends in murder, a pink gun leads to an arrest, until new evidence prompts investigators to rethink the case."
-    },
-    {
-     "start": "2026-10-04T07:00:00+00:00",
-     "stop": "2026-10-04T08:00:00+00:00",
-     "title": "Suspicion",
-     "desc": "The neighbors enjoy mixing business with pleasure then a murder makes them face the reality that a killer is in their midst."
-    },
-    {
-     "start": "2026-10-04T08:00:00+00:00",
-     "stop": "2026-10-04T09:00:00+00:00",
-     "title": "Buried Secrets",
-     "desc": "In Pembroke Pines, Fla., a rookie detective reopens a 15-year-old case about the disappearance of young father David Jackson."
-    },
-    {
-     "start": "2026-10-04T09:00:00+00:00",
-     "stop": "2026-10-04T10:00:00+00:00",
-     "title": "Who Killed the Radio Star?",
-     "desc": "Investigators are suspicious when a wealthy former radio DJ mysteriously disappears from his yacht in the Pacific Ocean."
-    },
-    {
-     "start": "2026-10-04T10:00:00+00:00",
-     "stop": "2026-10-04T11:00:00+00:00",
-     "title": "Morning Joe: Weekend",
-     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
-    },
-    {
-     "start": "2026-10-04T11:00:00+00:00",
-     "stop": "2026-10-04T14:00:00+00:00",
-     "title": "The Weekend",
-     "desc": "Jonathan Capehart, Eugene Daniels and Jackie Alemany set the agenda for Saturday, Sunday, and the week ahead; fresh analysis of the week's biggest events."
-    },
-    {
-     "start": "2026-10-04T14:00:00+00:00",
-     "stop": "2026-10-04T17:00:00+00:00",
-     "title": "Connect With Jacob Soboroff",
-     "desc": "Jacob Soboroff brings viewers closer to the news, people and conversations shaping America, forging a meaningful link between himself, his audience and the communities at the center of the national dialogue."
-    },
-    {
-     "start": "2026-10-04T17:00:00+00:00",
-     "stop": "2026-10-04T20:00:00+00:00",
-     "title": "The Assignment With Antonia Hylton",
-     "desc": "Antonia Hylton tackles everything from major breaking news and original, compelling reporting, to the most important political and cultural debates of our time."
-    },
-    {
-     "start": "2026-10-04T20:00:00+00:00",
-     "stop": "2026-10-04T21:00:00+00:00",
-     "title": "The Best People With Nicolle Wallace",
-     "desc": "Who are The Best People? They're the most magnetic and engaging people in the room; the ones who know how to get that extra something out of every collaboration, connection and endeavor."
-    },
-    {
-     "start": "2026-10-04T21:00:00+00:00",
-     "stop": "2026-10-04T22:00:00+00:00",
-     "title": "PoliticsNation",
-     "desc": "Sharpton approaches news stories with an eye toward equality and justice and brings to light the news and updates on under-reported issues that require a national platform."
-    },
-    {
-     "start": "2026-10-04T22:00:00+00:00",
-     "stop": "2026-10-04T23:00:00+00:00",
-     "title": "The Beat: Weekend",
-     "desc": "Highlights from \"The Beat With Ari Melber.\""
-    },
-    {
-     "start": "2026-10-04T23:00:00+00:00",
-     "stop": "2026-10-05T00:00:00+00:00",
-     "title": "The Weekend",
-     "desc": "Jonathan Capehart, Eugene Daniels and Jackie Alemany set the agenda for Saturday, Sunday, and the week ahead; fresh analysis of the week's biggest events."
-    },
-    {
-     "start": "2026-10-05T00:00:00+00:00",
-     "stop": "2026-10-05T01:00:00+00:00",
-     "title": "Crooked on MS NOW",
-     "desc": "MS NOW teams up with Crooked Media to bring you the smartest, funniest and most talked-about moments of the week from their chart-topping podcasts."
-    },
-    {
-     "start": "2026-10-05T01:00:00+00:00",
-     "stop": "2026-10-05T02:00:00+00:00",
-     "title": "The Briefing with Jen Psaki: Weekend",
-     "desc": "Jen Psaki tackles the biggest issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-10-05T02:00:00+00:00",
-     "stop": "2026-10-05T03:00:00+00:00",
-     "title": "The Last Word: Weekend",
-     "desc": "Highlights from \"The Last Word with Lawrence O'Donnell.\""
-    },
-    {
-     "start": "2026-10-05T03:00:00+00:00",
-     "stop": "2026-10-05T04:00:00+00:00",
-     "title": "The 11th Hour With Ali Velshi",
-     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
-    },
-    {
-     "start": "2026-10-05T04:00:00+00:00",
-     "stop": "2026-10-05T05:00:00+00:00",
-     "title": "The Briefing with Jen Psaki: Weekend",
-     "desc": "Jen Psaki tackles the biggest issues of the week and features one-on-one interviews with newsmakers."
-    },
-    {
-     "start": "2026-10-05T05:00:00+00:00",
-     "stop": "2026-10-05T06:00:00+00:00",
-     "title": "Deadly Conspiracy",
-     "desc": "Family man Jack Jessee is murdered in his home, but the case goes cold until a dogged detective unravels a conspiracy and pins down the perpetrators."
-    },
-    {
-     "start": "2026-10-05T06:00:00+00:00",
-     "stop": "2026-10-05T07:00:00+00:00",
-     "title": "Poison",
-     "desc": "Months after a woman and her husband come down with the same mysterious illness, the woman dies after experiencing the same symptoms; old recordings reveal the twisted truth about her demise."
-    },
-    {
-     "start": "2026-10-05T07:00:00+00:00",
-     "stop": "2026-10-05T08:00:00+00:00",
-     "title": "Written in Blood",
-     "desc": "Detectives find a message written in blood during a murder investigation."
-    },
-    {
-     "start": "2026-10-05T08:00:00+00:00",
-     "stop": "2026-10-05T09:00:00+00:00",
-     "title": "The Briefing with Jen Psaki: Weekend",
-     "desc": "Jen Psaki tackles the biggest issues of the week and features one-on-one interviews with newsmakers."
-    }
-   ]
-  },
   "foxbusiness.us": {
    "source": "fbn",
    "source_url": "https://schedule-tool.foxnews.com/schedule/feed/fox-business.json",
@@ -211867,6 +211099,774 @@
     }
    ],
    "note": "qvc-st-variant-main-feed"
+  },
+  "msnbc.us": {
+   "source": "msnow",
+   "source_url": "https://mobileapi.vsnewstools.com/resources/schedule/msnbc-schedule",
+   "programmes": [
+    {
+     "start": "2026-09-28T08:00:00+00:00",
+     "stop": "2026-09-28T09:00:00+00:00",
+     "title": "The Briefing with Jen Psaki: Weekend",
+     "desc": "Jen Psaki tackles the biggest issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-09-28T09:00:00+00:00",
+     "stop": "2026-09-28T10:00:00+00:00",
+     "title": "Way Too Early With Ali Vitali",
+     "desc": "Inside-the-beltway political news and critical stories shaping the national conversation."
+    },
+    {
+     "start": "2026-09-28T10:00:00+00:00",
+     "stop": "2026-09-28T13:00:00+00:00",
+     "title": "Morning Joe",
+     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
+    },
+    {
+     "start": "2026-09-28T13:00:00+00:00",
+     "stop": "2026-09-28T15:00:00+00:00",
+     "title": "Money, Power, Politics With Stephanie Ruhle",
+     "desc": "Host Stephanie Ruhle brings her business acumen, hard-hitting interview style and original reporting to mornings, helping you understand what's happening today and why it matters; make sense of it all, together."
+    },
+    {
+     "start": "2026-09-28T15:00:00+00:00",
+     "stop": "2026-09-28T16:00:00+00:00",
+     "title": "State of Play with Peter Alexander",
+     "desc": "Peter Alexander holds those in power accountable, leaning on his years of reporting from the heart of DC to relentlessly push for the answers you need. Because what happens in Washington impacts what happens in your home."
+    },
+    {
+     "start": "2026-09-28T16:00:00+00:00",
+     "stop": "2026-09-28T18:00:00+00:00",
+     "title": "On the Line With Alicia Menendez",
+     "desc": "Alicia Menendez leads insightful conversations that bring us to a deeper understanding of the day's headlines, focusing on what's at stake for our country and our communities."
+    },
+    {
+     "start": "2026-09-28T18:00:00+00:00",
+     "stop": "2026-09-28T20:00:00+00:00",
+     "title": "The Moment With Katy Tur",
+     "desc": "Katy Tur cuts through the noise with sharp political analysis, breaking news, and impactful interviews on the stories driving the national conversation."
+    },
+    {
+     "start": "2026-09-28T20:00:00+00:00",
+     "stop": "2026-09-28T22:00:00+00:00",
+     "title": "Deadline: White House",
+     "desc": "In-depth reporting on political developments and dynamic discussions with leading newsmakers, with insights into complex issues."
+    },
+    {
+     "start": "2026-09-28T22:00:00+00:00",
+     "stop": "2026-09-28T23:00:00+00:00",
+     "title": "The Beat With Ari Melber",
+     "desc": "Attorney and journalist Ari Melber dives into political and news stories with interviews and original reporting from around the nation."
+    },
+    {
+     "start": "2026-09-28T23:00:00+00:00",
+     "stop": "2026-09-29T00:00:00+00:00",
+     "title": "The Weeknight",
+     "desc": "Luke Russert, Michael Steele, and Symone Sanders Townsend's one-on-one conversations with politicians and newsmakers, and the breaking issues of the day."
+    },
+    {
+     "start": "2026-09-29T00:00:00+00:00",
+     "stop": "2026-09-29T01:00:00+00:00",
+     "title": "All in With Chris Hayes",
+     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
+    },
+    {
+     "start": "2026-09-29T01:00:00+00:00",
+     "stop": "2026-09-29T02:00:00+00:00",
+     "title": "The Rachel Maddow Show",
+     "desc": "Through her unique approach to storytelling, Rachel Maddow provides in-depth reporting to illuminate the current state of political affairs and reveals the importance of transparency and accountability from our leaders."
+    },
+    {
+     "start": "2026-09-29T02:00:00+00:00",
+     "stop": "2026-09-29T03:00:00+00:00",
+     "title": "The Last Word With Lawrence O'Donnell",
+     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
+    },
+    {
+     "start": "2026-09-29T03:00:00+00:00",
+     "stop": "2026-09-29T04:00:00+00:00",
+     "title": "The 11th Hour With Ali Velshi",
+     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
+    },
+    {
+     "start": "2026-09-29T04:00:00+00:00",
+     "stop": "2026-09-29T05:00:00+00:00",
+     "title": "The Rachel Maddow Show",
+     "desc": "Through her unique approach to storytelling, Rachel Maddow provides in-depth reporting to illuminate the current state of political affairs and reveals the importance of transparency and accountability from our leaders."
+    },
+    {
+     "start": "2026-09-29T05:00:00+00:00",
+     "stop": "2026-09-29T06:00:00+00:00",
+     "title": "The Last Word With Lawrence O'Donnell",
+     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
+    },
+    {
+     "start": "2026-09-29T06:00:00+00:00",
+     "stop": "2026-09-29T07:00:00+00:00",
+     "title": "The 11th Hour With Ali Velshi",
+     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
+    },
+    {
+     "start": "2026-09-29T07:00:00+00:00",
+     "stop": "2026-09-29T08:00:00+00:00",
+     "title": "All in With Chris Hayes",
+     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
+    },
+    {
+     "start": "2026-09-29T08:00:00+00:00",
+     "stop": "2026-09-29T09:00:00+00:00",
+     "title": "The Rachel Maddow Show",
+     "desc": "Through her unique approach to storytelling, Rachel Maddow provides in-depth reporting to illuminate the current state of political affairs and reveals the importance of transparency and accountability from our leaders."
+    },
+    {
+     "start": "2026-09-29T09:00:00+00:00",
+     "stop": "2026-09-29T10:00:00+00:00",
+     "title": "Way Too Early With Ali Vitali",
+     "desc": "Inside-the-beltway political news and critical stories shaping the national conversation."
+    },
+    {
+     "start": "2026-09-29T10:00:00+00:00",
+     "stop": "2026-09-29T13:00:00+00:00",
+     "title": "Morning Joe",
+     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
+    },
+    {
+     "start": "2026-09-29T13:00:00+00:00",
+     "stop": "2026-09-29T15:00:00+00:00",
+     "title": "Money, Power, Politics With Stephanie Ruhle",
+     "desc": "Host Stephanie Ruhle brings her business acumen, hard-hitting interview style and original reporting to mornings, helping you understand what's happening today and why it matters; make sense of it all, together."
+    },
+    {
+     "start": "2026-09-29T15:00:00+00:00",
+     "stop": "2026-09-29T16:00:00+00:00",
+     "title": "State of Play with Peter Alexander",
+     "desc": "Peter Alexander holds those in power accountable, leaning on his years of reporting from the heart of DC to relentlessly push for the answers you need. Because what happens in Washington impacts what happens in your home."
+    },
+    {
+     "start": "2026-09-29T16:00:00+00:00",
+     "stop": "2026-09-29T18:00:00+00:00",
+     "title": "On the Line With Alicia Menendez",
+     "desc": "Alicia Menendez leads insightful conversations that bring us to a deeper understanding of the day's headlines, focusing on what's at stake for our country and our communities."
+    },
+    {
+     "start": "2026-09-29T18:00:00+00:00",
+     "stop": "2026-09-29T20:00:00+00:00",
+     "title": "The Moment With Katy Tur",
+     "desc": "Katy Tur cuts through the noise with sharp political analysis, breaking news, and impactful interviews on the stories driving the national conversation."
+    },
+    {
+     "start": "2026-09-29T20:00:00+00:00",
+     "stop": "2026-09-29T22:00:00+00:00",
+     "title": "Deadline: White House",
+     "desc": "In-depth reporting on political developments and dynamic discussions with leading newsmakers, with insights into complex issues."
+    },
+    {
+     "start": "2026-09-29T22:00:00+00:00",
+     "stop": "2026-09-29T23:00:00+00:00",
+     "title": "The Beat With Ari Melber",
+     "desc": "Attorney and journalist Ari Melber dives into political and news stories with interviews and original reporting from around the nation."
+    },
+    {
+     "start": "2026-09-29T23:00:00+00:00",
+     "stop": "2026-09-30T00:00:00+00:00",
+     "title": "The Weeknight",
+     "desc": "Luke Russert, Michael Steele, and Symone Sanders Townsend's one-on-one conversations with politicians and newsmakers, and the breaking issues of the day."
+    },
+    {
+     "start": "2026-09-30T00:00:00+00:00",
+     "stop": "2026-09-30T01:00:00+00:00",
+     "title": "All in With Chris Hayes",
+     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
+    },
+    {
+     "start": "2026-09-30T01:00:00+00:00",
+     "stop": "2026-09-30T02:00:00+00:00",
+     "title": "The Briefing With Jen Psaki",
+     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-09-30T02:00:00+00:00",
+     "stop": "2026-09-30T03:00:00+00:00",
+     "title": "The Last Word With Lawrence O'Donnell",
+     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
+    },
+    {
+     "start": "2026-09-30T03:00:00+00:00",
+     "stop": "2026-09-30T04:00:00+00:00",
+     "title": "The 11th Hour With Ali Velshi",
+     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
+    },
+    {
+     "start": "2026-09-30T04:00:00+00:00",
+     "stop": "2026-09-30T05:00:00+00:00",
+     "title": "The Briefing With Jen Psaki",
+     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-09-30T05:00:00+00:00",
+     "stop": "2026-09-30T06:00:00+00:00",
+     "title": "The Last Word With Lawrence O'Donnell",
+     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
+    },
+    {
+     "start": "2026-09-30T06:00:00+00:00",
+     "stop": "2026-09-30T07:00:00+00:00",
+     "title": "The 11th Hour With Ali Velshi",
+     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
+    },
+    {
+     "start": "2026-09-30T07:00:00+00:00",
+     "stop": "2026-09-30T08:00:00+00:00",
+     "title": "All in With Chris Hayes",
+     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
+    },
+    {
+     "start": "2026-09-30T08:00:00+00:00",
+     "stop": "2026-09-30T09:00:00+00:00",
+     "title": "The Briefing With Jen Psaki",
+     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-09-30T09:00:00+00:00",
+     "stop": "2026-09-30T10:00:00+00:00",
+     "title": "Way Too Early With Ali Vitali",
+     "desc": "Inside-the-beltway political news and critical stories shaping the national conversation."
+    },
+    {
+     "start": "2026-09-30T10:00:00+00:00",
+     "stop": "2026-09-30T13:00:00+00:00",
+     "title": "Morning Joe",
+     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
+    },
+    {
+     "start": "2026-09-30T13:00:00+00:00",
+     "stop": "2026-09-30T15:00:00+00:00",
+     "title": "Money, Power, Politics With Stephanie Ruhle",
+     "desc": "Host Stephanie Ruhle brings her business acumen, hard-hitting interview style and original reporting to mornings, helping you understand what's happening today and why it matters; make sense of it all, together."
+    },
+    {
+     "start": "2026-09-30T15:00:00+00:00",
+     "stop": "2026-09-30T16:00:00+00:00",
+     "title": "State of Play with Peter Alexander",
+     "desc": "Peter Alexander holds those in power accountable, leaning on his years of reporting from the heart of DC to relentlessly push for the answers you need. Because what happens in Washington impacts what happens in your home."
+    },
+    {
+     "start": "2026-09-30T16:00:00+00:00",
+     "stop": "2026-09-30T18:00:00+00:00",
+     "title": "On the Line With Alicia Menendez",
+     "desc": "Alicia Menendez leads insightful conversations that bring us to a deeper understanding of the day's headlines, focusing on what's at stake for our country and our communities."
+    },
+    {
+     "start": "2026-09-30T18:00:00+00:00",
+     "stop": "2026-09-30T20:00:00+00:00",
+     "title": "The Moment With Katy Tur",
+     "desc": "Katy Tur cuts through the noise with sharp political analysis, breaking news, and impactful interviews on the stories driving the national conversation."
+    },
+    {
+     "start": "2026-09-30T20:00:00+00:00",
+     "stop": "2026-09-30T22:00:00+00:00",
+     "title": "Deadline: White House",
+     "desc": "In-depth reporting on political developments and dynamic discussions with leading newsmakers, with insights into complex issues."
+    },
+    {
+     "start": "2026-09-30T22:00:00+00:00",
+     "stop": "2026-09-30T23:00:00+00:00",
+     "title": "The Beat With Ari Melber",
+     "desc": "Attorney and journalist Ari Melber dives into political and news stories with interviews and original reporting from around the nation."
+    },
+    {
+     "start": "2026-09-30T23:00:00+00:00",
+     "stop": "2026-10-01T00:00:00+00:00",
+     "title": "The Weeknight",
+     "desc": "Luke Russert, Michael Steele, and Symone Sanders Townsend's one-on-one conversations with politicians and newsmakers, and the breaking issues of the day."
+    },
+    {
+     "start": "2026-10-01T00:00:00+00:00",
+     "stop": "2026-10-01T01:00:00+00:00",
+     "title": "All in With Chris Hayes",
+     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
+    },
+    {
+     "start": "2026-10-01T01:00:00+00:00",
+     "stop": "2026-10-01T02:00:00+00:00",
+     "title": "The Briefing With Jen Psaki",
+     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-10-01T02:00:00+00:00",
+     "stop": "2026-10-01T03:00:00+00:00",
+     "title": "The Last Word With Lawrence O'Donnell",
+     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
+    },
+    {
+     "start": "2026-10-01T03:00:00+00:00",
+     "stop": "2026-10-01T04:00:00+00:00",
+     "title": "The 11th Hour With Ali Velshi",
+     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
+    },
+    {
+     "start": "2026-10-01T04:00:00+00:00",
+     "stop": "2026-10-01T05:00:00+00:00",
+     "title": "The Briefing With Jen Psaki",
+     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-10-01T05:00:00+00:00",
+     "stop": "2026-10-01T06:00:00+00:00",
+     "title": "The Last Word With Lawrence O'Donnell",
+     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
+    },
+    {
+     "start": "2026-10-01T06:00:00+00:00",
+     "stop": "2026-10-01T07:00:00+00:00",
+     "title": "The 11th Hour With Ali Velshi",
+     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
+    },
+    {
+     "start": "2026-10-01T07:00:00+00:00",
+     "stop": "2026-10-01T08:00:00+00:00",
+     "title": "All in With Chris Hayes",
+     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
+    },
+    {
+     "start": "2026-10-01T08:00:00+00:00",
+     "stop": "2026-10-01T09:00:00+00:00",
+     "title": "The Briefing With Jen Psaki",
+     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-10-01T09:00:00+00:00",
+     "stop": "2026-10-01T10:00:00+00:00",
+     "title": "Way Too Early With Ali Vitali",
+     "desc": "Inside-the-beltway political news and critical stories shaping the national conversation."
+    },
+    {
+     "start": "2026-10-01T10:00:00+00:00",
+     "stop": "2026-10-01T13:00:00+00:00",
+     "title": "Morning Joe",
+     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
+    },
+    {
+     "start": "2026-10-01T13:00:00+00:00",
+     "stop": "2026-10-01T15:00:00+00:00",
+     "title": "Money, Power, Politics With Stephanie Ruhle",
+     "desc": "Host Stephanie Ruhle brings her business acumen, hard-hitting interview style and original reporting to mornings, helping you understand what's happening today and why it matters; make sense of it all, together."
+    },
+    {
+     "start": "2026-10-01T15:00:00+00:00",
+     "stop": "2026-10-01T16:00:00+00:00",
+     "title": "State of Play with Peter Alexander",
+     "desc": "Peter Alexander holds those in power accountable, leaning on his years of reporting from the heart of DC to relentlessly push for the answers you need. Because what happens in Washington impacts what happens in your home."
+    },
+    {
+     "start": "2026-10-01T16:00:00+00:00",
+     "stop": "2026-10-01T18:00:00+00:00",
+     "title": "On the Line With Alicia Menendez",
+     "desc": "Alicia Menendez leads insightful conversations that bring us to a deeper understanding of the day's headlines, focusing on what's at stake for our country and our communities."
+    },
+    {
+     "start": "2026-10-01T18:00:00+00:00",
+     "stop": "2026-10-01T20:00:00+00:00",
+     "title": "The Moment With Katy Tur",
+     "desc": "Katy Tur cuts through the noise with sharp political analysis, breaking news, and impactful interviews on the stories driving the national conversation."
+    },
+    {
+     "start": "2026-10-01T20:00:00+00:00",
+     "stop": "2026-10-01T22:00:00+00:00",
+     "title": "Deadline: White House",
+     "desc": "In-depth reporting on political developments and dynamic discussions with leading newsmakers, with insights into complex issues."
+    },
+    {
+     "start": "2026-10-01T22:00:00+00:00",
+     "stop": "2026-10-01T23:00:00+00:00",
+     "title": "The Beat With Ari Melber",
+     "desc": "Attorney and journalist Ari Melber dives into political and news stories with interviews and original reporting from around the nation."
+    },
+    {
+     "start": "2026-10-01T23:00:00+00:00",
+     "stop": "2026-10-02T00:00:00+00:00",
+     "title": "The Weeknight",
+     "desc": "Luke Russert, Michael Steele, and Symone Sanders Townsend's one-on-one conversations with politicians and newsmakers, and the breaking issues of the day."
+    },
+    {
+     "start": "2026-10-02T00:00:00+00:00",
+     "stop": "2026-10-02T01:00:00+00:00",
+     "title": "All in With Chris Hayes",
+     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
+    },
+    {
+     "start": "2026-10-02T01:00:00+00:00",
+     "stop": "2026-10-02T02:00:00+00:00",
+     "title": "The Briefing With Jen Psaki",
+     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-10-02T02:00:00+00:00",
+     "stop": "2026-10-02T03:00:00+00:00",
+     "title": "The Last Word With Lawrence O'Donnell",
+     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
+    },
+    {
+     "start": "2026-10-02T03:00:00+00:00",
+     "stop": "2026-10-02T04:00:00+00:00",
+     "title": "The 11th Hour With Ali Velshi",
+     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
+    },
+    {
+     "start": "2026-10-02T04:00:00+00:00",
+     "stop": "2026-10-02T05:00:00+00:00",
+     "title": "The Briefing With Jen Psaki",
+     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-10-02T05:00:00+00:00",
+     "stop": "2026-10-02T06:00:00+00:00",
+     "title": "The Last Word With Lawrence O'Donnell",
+     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
+    },
+    {
+     "start": "2026-10-02T06:00:00+00:00",
+     "stop": "2026-10-02T07:00:00+00:00",
+     "title": "The 11th Hour With Ali Velshi",
+     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
+    },
+    {
+     "start": "2026-10-02T07:00:00+00:00",
+     "stop": "2026-10-02T08:00:00+00:00",
+     "title": "All in With Chris Hayes",
+     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
+    },
+    {
+     "start": "2026-10-02T08:00:00+00:00",
+     "stop": "2026-10-02T09:00:00+00:00",
+     "title": "The Briefing With Jen Psaki",
+     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-10-02T09:00:00+00:00",
+     "stop": "2026-10-02T10:00:00+00:00",
+     "title": "Way Too Early With Ali Vitali",
+     "desc": "Inside-the-beltway political news and critical stories shaping the national conversation."
+    },
+    {
+     "start": "2026-10-02T10:00:00+00:00",
+     "stop": "2026-10-02T13:00:00+00:00",
+     "title": "Morning Joe",
+     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
+    },
+    {
+     "start": "2026-10-02T13:00:00+00:00",
+     "stop": "2026-10-02T15:00:00+00:00",
+     "title": "Money, Power, Politics With Stephanie Ruhle",
+     "desc": "Host Stephanie Ruhle brings her business acumen, hard-hitting interview style and original reporting to mornings, helping you understand what's happening today and why it matters; make sense of it all, together."
+    },
+    {
+     "start": "2026-10-02T15:00:00+00:00",
+     "stop": "2026-10-02T16:00:00+00:00",
+     "title": "State of Play with Peter Alexander",
+     "desc": "Peter Alexander holds those in power accountable, leaning on his years of reporting from the heart of DC to relentlessly push for the answers you need. Because what happens in Washington impacts what happens in your home."
+    },
+    {
+     "start": "2026-10-02T16:00:00+00:00",
+     "stop": "2026-10-02T18:00:00+00:00",
+     "title": "On the Line With Alicia Menendez",
+     "desc": "Alicia Menendez leads insightful conversations that bring us to a deeper understanding of the day's headlines, focusing on what's at stake for our country and our communities."
+    },
+    {
+     "start": "2026-10-02T18:00:00+00:00",
+     "stop": "2026-10-02T20:00:00+00:00",
+     "title": "The Moment With Katy Tur",
+     "desc": "Katy Tur cuts through the noise with sharp political analysis, breaking news, and impactful interviews on the stories driving the national conversation."
+    },
+    {
+     "start": "2026-10-02T20:00:00+00:00",
+     "stop": "2026-10-02T22:00:00+00:00",
+     "title": "Deadline: White House",
+     "desc": "In-depth reporting on political developments and dynamic discussions with leading newsmakers, with insights into complex issues."
+    },
+    {
+     "start": "2026-10-02T22:00:00+00:00",
+     "stop": "2026-10-02T23:00:00+00:00",
+     "title": "The Beat With Ari Melber",
+     "desc": "Attorney and journalist Ari Melber dives into political and news stories with interviews and original reporting from around the nation."
+    },
+    {
+     "start": "2026-10-02T23:00:00+00:00",
+     "stop": "2026-10-03T00:00:00+00:00",
+     "title": "The Weeknight",
+     "desc": "Luke Russert, Michael Steele, and Symone Sanders Townsend's one-on-one conversations with politicians and newsmakers, and the breaking issues of the day."
+    },
+    {
+     "start": "2026-10-03T00:00:00+00:00",
+     "stop": "2026-10-03T01:00:00+00:00",
+     "title": "All in With Chris Hayes",
+     "desc": "Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation's leaders accountable for their actions."
+    },
+    {
+     "start": "2026-10-03T01:00:00+00:00",
+     "stop": "2026-10-03T02:00:00+00:00",
+     "title": "The Briefing With Jen Psaki",
+     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-10-03T02:00:00+00:00",
+     "stop": "2026-10-03T03:00:00+00:00",
+     "title": "The Last Word With Lawrence O'Donnell",
+     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
+    },
+    {
+     "start": "2026-10-03T03:00:00+00:00",
+     "stop": "2026-10-03T04:00:00+00:00",
+     "title": "The 11th Hour With Ali Velshi",
+     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
+    },
+    {
+     "start": "2026-10-03T04:00:00+00:00",
+     "stop": "2026-10-03T05:00:00+00:00",
+     "title": "The Briefing With Jen Psaki",
+     "desc": "Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-10-03T05:00:00+00:00",
+     "stop": "2026-10-03T06:00:00+00:00",
+     "title": "The Last Word With Lawrence O'Donnell",
+     "desc": "In his signature style, Lawrence O'Donnell goes into depth on the latest news developments and offers his take on the political stories driving the national conversation."
+    },
+    {
+     "start": "2026-10-03T06:00:00+00:00",
+     "stop": "2026-10-03T07:00:00+00:00",
+     "title": "The 11th Hour With Ali Velshi",
+     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
+    },
+    {
+     "start": "2026-10-03T07:00:00+00:00",
+     "stop": "2026-10-03T08:00:00+00:00",
+     "title": "Secrets of the Desert",
+     "desc": "The mystery surrounding the deaths of three women deep in the Sonoran desert takes 17 years to untangle."
+    },
+    {
+     "start": "2026-10-03T08:00:00+00:00",
+     "stop": "2026-10-03T09:00:00+00:00",
+     "title": "Secrets of the Desert",
+     "desc": "The mystery surrounding the deaths of three women deep in the Sonoran desert takes 17 years to untangle."
+    },
+    {
+     "start": "2026-10-03T09:00:00+00:00",
+     "stop": "2026-10-03T10:00:00+00:00",
+     "title": "Silent Witness",
+     "desc": "When a young woman is found dead in a field on the outskirts of Green Bay, Wis., a fitness tracker helps detectives solve the mystery."
+    },
+    {
+     "start": "2026-10-03T10:00:00+00:00",
+     "stop": "2026-10-03T11:00:00+00:00",
+     "title": "Morning Joe: Weekend",
+     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
+    },
+    {
+     "start": "2026-10-03T11:00:00+00:00",
+     "stop": "2026-10-03T14:00:00+00:00",
+     "title": "The Weekend",
+     "desc": "Jonathan Capehart, Eugene Daniels and Jackie Alemany set the agenda for Saturday, Sunday, and the week ahead; fresh analysis of the week's biggest events."
+    },
+    {
+     "start": "2026-10-03T14:00:00+00:00",
+     "stop": "2026-10-03T17:00:00+00:00",
+     "title": "Connect With Jacob Soboroff",
+     "desc": "Jacob Soboroff brings viewers closer to the news, people and conversations shaping America, forging a meaningful link between himself, his audience and the communities at the center of the national dialogue."
+    },
+    {
+     "start": "2026-10-03T17:00:00+00:00",
+     "stop": "2026-10-03T20:00:00+00:00",
+     "title": "The Assignment With Antonia Hylton",
+     "desc": "Antonia Hylton tackles everything from major breaking news and original, compelling reporting, to the most important political and cultural debates of our time."
+    },
+    {
+     "start": "2026-10-03T20:00:00+00:00",
+     "stop": "2026-10-03T21:00:00+00:00",
+     "title": "Deadline: White House: Weekend",
+     "desc": "Highlights from \"Deadline: White House.\""
+    },
+    {
+     "start": "2026-10-03T21:00:00+00:00",
+     "stop": "2026-10-03T22:00:00+00:00",
+     "title": "PoliticsNation",
+     "desc": "Sharpton approaches news stories with an eye toward equality and justice and brings to light the news and updates on under-reported issues that require a national platform."
+    },
+    {
+     "start": "2026-10-03T22:00:00+00:00",
+     "stop": "2026-10-03T23:00:00+00:00",
+     "title": "The Beat: Weekend",
+     "desc": "Highlights from \"The Beat With Ari Melber.\""
+    },
+    {
+     "start": "2026-10-03T23:00:00+00:00",
+     "stop": "2026-10-04T00:00:00+00:00",
+     "title": "The Best of The Weeknight",
+     "desc": "Highlights from \"The Weeknight.\""
+    },
+    {
+     "start": "2026-10-04T00:00:00+00:00",
+     "stop": "2026-10-04T01:00:00+00:00",
+     "title": "The Weekend",
+     "desc": "Jonathan Capehart, Eugene Daniels and Jackie Alemany set the agenda for Saturday, Sunday, and the week ahead; fresh analysis of the week's biggest events."
+    },
+    {
+     "start": "2026-10-04T01:00:00+00:00",
+     "stop": "2026-10-04T02:00:00+00:00",
+     "title": "Connect With Jacob Soboroff",
+     "desc": "Jacob Soboroff brings viewers closer to the news, people and conversations shaping America, forging a meaningful link between himself, his audience and the communities at the center of the national dialogue."
+    },
+    {
+     "start": "2026-10-04T02:00:00+00:00",
+     "stop": "2026-10-04T03:00:00+00:00",
+     "title": "Crooked on MS NOW",
+     "desc": "MS NOW teams up with Crooked Media to bring you the smartest, funniest and most talked-about moments of the week from their chart-topping podcasts."
+    },
+    {
+     "start": "2026-10-04T03:00:00+00:00",
+     "stop": "2026-10-04T04:00:00+00:00",
+     "title": "Lovett or Leave It",
+     "desc": "Each week, former Obama speechwriter Jon Lovett and a panel of comedians, actors and journalists break down the week's biggest news and make fun of whatever BS came out of our insane political nightmare factory."
+    },
+    {
+     "start": "2026-10-04T04:00:00+00:00",
+     "stop": "2026-10-04T05:00:00+00:00",
+     "title": "The Beat: Weekend",
+     "desc": "Highlights from \"The Beat With Ari Melber.\""
+    },
+    {
+     "start": "2026-10-04T05:00:00+00:00",
+     "stop": "2026-10-04T06:00:00+00:00",
+     "title": "The Pink Gun Mystery - Part 1",
+     "desc": "When a complicated Texas love triangle ends in murder, a pink gun leads to an arrest, until new evidence prompts investigators to rethink the case."
+    },
+    {
+     "start": "2026-10-04T06:00:00+00:00",
+     "stop": "2026-10-04T07:00:00+00:00",
+     "title": "The Pink Gun Mystery - Part 2",
+     "desc": "When a complicated Texas love triangle ends in murder, a pink gun leads to an arrest, until new evidence prompts investigators to rethink the case."
+    },
+    {
+     "start": "2026-10-04T07:00:00+00:00",
+     "stop": "2026-10-04T08:00:00+00:00",
+     "title": "Suspicion",
+     "desc": "The neighbors enjoy mixing business with pleasure then a murder makes them face the reality that a killer is in their midst."
+    },
+    {
+     "start": "2026-10-04T08:00:00+00:00",
+     "stop": "2026-10-04T09:00:00+00:00",
+     "title": "Buried Secrets",
+     "desc": "In Pembroke Pines, Fla., a rookie detective reopens a 15-year-old case about the disappearance of young father David Jackson."
+    },
+    {
+     "start": "2026-10-04T09:00:00+00:00",
+     "stop": "2026-10-04T10:00:00+00:00",
+     "title": "Who Killed the Radio Star?",
+     "desc": "Investigators are suspicious when a wealthy former radio DJ mysteriously disappears from his yacht in the Pacific Ocean."
+    },
+    {
+     "start": "2026-10-04T10:00:00+00:00",
+     "stop": "2026-10-04T11:00:00+00:00",
+     "title": "Morning Joe: Weekend",
+     "desc": "Hosts Joe Scarborough, Mika Brzezinski and Willie Geist present in-depth and informed discussions that help drive the day's current political conversation."
+    },
+    {
+     "start": "2026-10-04T11:00:00+00:00",
+     "stop": "2026-10-04T14:00:00+00:00",
+     "title": "The Weekend",
+     "desc": "Jonathan Capehart, Eugene Daniels and Jackie Alemany set the agenda for Saturday, Sunday, and the week ahead; fresh analysis of the week's biggest events."
+    },
+    {
+     "start": "2026-10-04T14:00:00+00:00",
+     "stop": "2026-10-04T17:00:00+00:00",
+     "title": "Connect With Jacob Soboroff",
+     "desc": "Jacob Soboroff brings viewers closer to the news, people and conversations shaping America, forging a meaningful link between himself, his audience and the communities at the center of the national dialogue."
+    },
+    {
+     "start": "2026-10-04T17:00:00+00:00",
+     "stop": "2026-10-04T20:00:00+00:00",
+     "title": "The Assignment With Antonia Hylton",
+     "desc": "Antonia Hylton tackles everything from major breaking news and original, compelling reporting, to the most important political and cultural debates of our time."
+    },
+    {
+     "start": "2026-10-04T20:00:00+00:00",
+     "stop": "2026-10-04T21:00:00+00:00",
+     "title": "The Best People With Nicolle Wallace",
+     "desc": "Who are The Best People? They're the most magnetic and engaging people in the room; the ones who know how to get that extra something out of every collaboration, connection and endeavor."
+    },
+    {
+     "start": "2026-10-04T21:00:00+00:00",
+     "stop": "2026-10-04T22:00:00+00:00",
+     "title": "PoliticsNation",
+     "desc": "Sharpton approaches news stories with an eye toward equality and justice and brings to light the news and updates on under-reported issues that require a national platform."
+    },
+    {
+     "start": "2026-10-04T22:00:00+00:00",
+     "stop": "2026-10-04T23:00:00+00:00",
+     "title": "The Beat: Weekend",
+     "desc": "Highlights from \"The Beat With Ari Melber.\""
+    },
+    {
+     "start": "2026-10-04T23:00:00+00:00",
+     "stop": "2026-10-05T00:00:00+00:00",
+     "title": "The Weekend",
+     "desc": "Jonathan Capehart, Eugene Daniels and Jackie Alemany set the agenda for Saturday, Sunday, and the week ahead; fresh analysis of the week's biggest events."
+    },
+    {
+     "start": "2026-10-05T00:00:00+00:00",
+     "stop": "2026-10-05T01:00:00+00:00",
+     "title": "Crooked on MS NOW",
+     "desc": "MS NOW teams up with Crooked Media to bring you the smartest, funniest and most talked-about moments of the week from their chart-topping podcasts."
+    },
+    {
+     "start": "2026-10-05T01:00:00+00:00",
+     "stop": "2026-10-05T02:00:00+00:00",
+     "title": "The Briefing with Jen Psaki: Weekend",
+     "desc": "Jen Psaki tackles the biggest issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-10-05T02:00:00+00:00",
+     "stop": "2026-10-05T03:00:00+00:00",
+     "title": "The Last Word: Weekend",
+     "desc": "Highlights from \"The Last Word with Lawrence O'Donnell.\""
+    },
+    {
+     "start": "2026-10-05T03:00:00+00:00",
+     "stop": "2026-10-05T04:00:00+00:00",
+     "title": "The 11th Hour With Ali Velshi",
+     "desc": "Ali Velshi delivers sharp, data-driven analysis of the day's stories in economics, politics, democracy, and foreign affairs; from MS NOW's Studio C in the heart of NYC, Velshi convenes a panel of guests to help viewers navigate the news."
+    },
+    {
+     "start": "2026-10-05T04:00:00+00:00",
+     "stop": "2026-10-05T05:00:00+00:00",
+     "title": "The Briefing with Jen Psaki: Weekend",
+     "desc": "Jen Psaki tackles the biggest issues of the week and features one-on-one interviews with newsmakers."
+    },
+    {
+     "start": "2026-10-05T05:00:00+00:00",
+     "stop": "2026-10-05T06:00:00+00:00",
+     "title": "Deadly Conspiracy",
+     "desc": "Family man Jack Jessee is murdered in his home, but the case goes cold until a dogged detective unravels a conspiracy and pins down the perpetrators."
+    },
+    {
+     "start": "2026-10-05T06:00:00+00:00",
+     "stop": "2026-10-05T07:00:00+00:00",
+     "title": "Poison",
+     "desc": "Months after a woman and her husband come down with the same mysterious illness, the woman dies after experiencing the same symptoms; old recordings reveal the twisted truth about her demise."
+    },
+    {
+     "start": "2026-10-05T07:00:00+00:00",
+     "stop": "2026-10-05T08:00:00+00:00",
+     "title": "Written in Blood",
+     "desc": "Detectives find a message written in blood during a murder investigation."
+    },
+    {
+     "start": "2026-10-05T08:00:00+00:00",
+     "stop": "2026-10-05T09:00:00+00:00",
+     "title": "The Briefing with Jen Psaki: Weekend",
+     "desc": "Jen Psaki tackles the biggest issues of the week and features one-on-one interviews with newsmakers."
+    }
+   ]
   }
  }
 }
