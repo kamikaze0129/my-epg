@@ -282,13 +282,22 @@ BIG10PLUS_SCHEDULE = os.path.join(BUILD_DIR, 'big10plus_schedule.json')
 # directly -- no number resolution needed.
 FLORACING_SCHEDULE = os.path.join(BUILD_DIR, 'floracing_schedule.json')
 
+# TV Passport local listings via update_tvpassport_schedule.py (stage 3d6).
+# Keyed by chris_id; values are pre-built XML programme strings.
+TVP_SCHEDULE = os.path.join(BUILD_DIR, 'tvpassport_schedule.json')
+
+# Cable-network listings via update_cable_schedule.py (stage 3d6).
+# {"sources": {chris_id: {"source":..., "source_url":...,
+#   "programmes": [{"start": ISO, "stop": ISO, "title":...}]}}}
+CABLE_SCHEDULE = os.path.join(BUILD_DIR, 'cable_schedule.json')
+
 # Known-good build this pipeline reproduces.
 # 2026-09-21: baseline recalibrated after the fossil drop (programmes ending
 # >6h before the anchor are no longer carried). ~300k = real future coverage
 # + rolling placeholders; the old 561k figure counted ~263k dead past
 # programmes that TiviMate never renders.
 KNOWN_CHANNELS = 10940
-KNOWN_PROGRAMMES = 745000  # empirical: 2026-09-28 CI has ~745k (31 new 24/7 channels + fixes)
+KNOWN_PROGRAMMES = 745000  # empirical: 2026-09-27 CI with service XML has ~620k (was 560k without)
 KNOWN_ICONS = 10550
 
 # Hard gates.
@@ -2098,6 +2107,92 @@ def main(argv):
             'injected_channels': floracing_injected}
         if floracing_injected:
             log(f"floracing: injected {floracing_injected} channel(s)")
+
+        # 3d6. TV Passport locals + cable-network injection (best-effort;
+        # never aborts). Chris's rule: FILL ONLY channels lacking meaningful
+        # future data, or APPEND strictly after existing real listings end.
+        # Never overwrite a healthy feed; never rename a provider display
+        # name. Guards in mapping_guards.py already vetted the staged
+        # mappings at updater time; this stage re-checks region routing
+        # defensively before injecting.
+        def _cable_prog_xml(cid, p):
+            fmt = lambda s: (datetime.fromisoformat(s).astimezone(timezone.utc)
+                             .strftime("%Y%m%d%H%M%S") + " +0000")
+            out = [f'  <programme start="{fmt(p["start"])}" '
+                   f'stop="{fmt(p["stop"])}" channel="{escape(cid)}">',
+                   f'    <title>{escape(p.get("title", ""))}</title>']
+            if p.get("episode"):
+                out.append(f'    <sub-title>{escape(p["episode"])}</sub-title>')
+            if p.get("desc"):
+                out.append(f'    <desc>{escape(p["desc"])}</desc>')
+            out.append('  </programme>')
+            return "\n".join(out) + "\n"
+
+        def _inject_3d6(schedule_path, kind):
+            """Returns (filled, appended) channel counts."""
+            filled, appended = 0, 0
+            try:
+                raw = json.load(open(schedule_path))
+            except Exception as e:
+                log(f"3d6/{kind}: no schedule file ({e}); skipping")
+                return 0, 0
+            now = datetime.now(timezone.utc)
+            # normalize both file formats to {cid: [xml programme strings]}
+            items = []
+            if kind == "tvp":
+                for tcid, plist in raw.items():
+                    if tcid.startswith("_") or tcid not in roster:
+                        continue
+                    items.append((tcid, plist, {}))
+            else:
+                for tcid, src in (raw.get("sources") or {}).items():
+                    if tcid not in roster:
+                        continue
+                    plist = [_cable_prog_xml(tcid, p)
+                             for p in src.get("programmes", [])
+                             if p.get("start") and p.get("stop")
+                             and p.get("title")]
+                    items.append((tcid, plist,
+                                  {"source": src.get("source", "")}))
+            for tcid, plist, meta in items:
+                if not plist:
+                    continue
+                # mapping-guard re-check (defense in depth)
+                try:
+                    from mapping_guards import check_mapping
+                    ok, reason = check_mapping(
+                        tcid, roster[tcid][0], meta.get("source", ""))
+                    if not ok:
+                        log(f"3d6/{kind}: guard reject {tcid} ({reason})")
+                        continue
+                except Exception:
+                    pass
+                existing = verified_fresh.get(tcid)
+                if not existing:
+                    verified_fresh[tcid] = sorted(plist)
+                    filled += 1
+                    continue
+                n_real, max_stop = future_span(existing, now)
+                if n_real == 0:
+                    # placeholder-only feed: replace with real data
+                    verified_fresh[tcid] = sorted(plist)
+                    filled += 1
+                    continue
+                # append strictly after existing real listings end
+                tail = [p for p in plist
+                        if parse_ts(_span_re.search(p).group(1)) > max_stop]
+                if tail:
+                    verified_fresh[tcid] = sorted(existing + tail)
+                    appended += 1
+            return filled, appended
+
+        tvp_f, tvp_a = _inject_3d6(TVP_SCHEDULE, "tvp")
+        cab_f, cab_a = _inject_3d6(CABLE_SCHEDULE, "cable")
+        report['stages']['tvp_locals'] = {'filled': tvp_f, 'appended': tvp_a}
+        report['stages']['cable'] = {'filled': cab_f, 'appended': cab_a}
+        if tvp_f or tvp_a or cab_f or cab_a:
+            log(f"3d6: tvp filled={tvp_f} appended={tvp_a} | "
+                f"cable filled={cab_f} appended={cab_a}")
 
         # 4. optional provider XML hook for regular channels
         service_progs = load_service_xml(service_xml) if service_xml else {}
