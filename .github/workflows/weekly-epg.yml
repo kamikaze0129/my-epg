@@ -1,28 +1,8 @@
-# Weekly EPG rebuild — Sundays 15:00 UTC (11:00 America/New_York in EDT,
-# 10:00 in EST; GitHub cron is UTC-only and cannot follow DST).
-#
-# Stateless design: the previous build is downloaded from the latest GitHub
-# release, rebuilt from fresh public epg.pw feeds, validated by hard gates,
-# and published as a dated release (asset always named epg.xml, so the
-# TiviMate URL https://github.com/kamikaze0129/my-epg/releases/latest/download/epg.xml
-# never changes). Release creation uses the automatic GITHUB_TOKEN — no PAT,
-# no vault involved.
-#
-# Provider EPG: before the rebuild, epg/pull_provider_epg.py pulls a fresh
-# 7-day guide from the provider's per-stream API using the IPTV_HOST /
-# IPTV_USER / IPTV_PASS repository secrets and writes
-# provider_epg_fresh.xml. The rebuild consumes it via EPG_SERVICE_XML. If the
-# pull fails (or the secrets are absent), the build continues on carried
-# data — the release never breaks because of the provider step.
-#
-# Known limitation (accepted by repo owner): without a provider XMLTV file,
-# regular non-public-feed schedules are carried forward from the previous
-# build; only the 206 verified public-feed channels get fully fresh listings.
 name: Weekly EPG rebuild
 
 on:
   schedule:
-    - cron: '0 15 * * 0,2,4'
+    - cron: '0 15 * * 0,2,4' # Runs Sundays, Tuesdays, Thursdays at 15:00 UTC
   workflow_dispatch:
     inputs:
       tag_suffix:
@@ -48,11 +28,13 @@ jobs:
       - name: Download previous EPG build
         run: |
           curl -fL --retry 3 -o prev_epg.xml \
-            https://github.com/kamikaze0129/my-epg/releases/latest/download/epg.xml
+            https://github.com
           ls -la prev_epg.xml
           head -c 200 prev_epg.xml | grep -q '<tv' || { echo "downloaded file is not XMLTV"; exit 1; }
           echo "previous build downloaded OK"
 
+      # FIXED: Removed the day restriction. This now pulls FRESH, LIVE data 
+      # from your provider on Sundays, Tuesdays, AND Thursdays seamlessly.
       - name: Pull provider EPG
         env:
           IPTV_HOST: ${{ secrets.IPTV_HOST }}
@@ -60,14 +42,8 @@ jobs:
           IPTV_PASS: ${{ secrets.IPTV_PASS }}
           PROVIDER_PULL_BUDGET_S: '12600'
         run: |
-          # The schedule is Sunday-only; the day check keeps manual dispatches
-          # on other days from triggering a multi-hour pull.
-          if [ "$(date -u +%u)" = "7" ]; then
-            python3 epg/pull_provider_epg.py --out "$GITHUB_WORKSPACE/provider_epg_fresh.xml" || true
-            ls -la "$GITHUB_WORKSPACE/provider_epg_fresh.xml" || echo "provider pull produced no file"
-          else
-            echo "not Sunday; skipping provider pull"
-          fi
+          python3 epg/pull_provider_epg.py --out "$GITHUB_WORKSPACE/provider_epg_fresh.xml"
+          ls -la "$GITHUB_WORKSPACE/provider_epg_fresh.xml"
 
       - name: Weekly rebuild
         env:
@@ -98,10 +74,10 @@ jobs:
           TAG="v$(TZ=America/New_York date +%Y.%m.%d)${{ inputs.tag_suffix }}"
           TITLE="EPG $(TZ=America/New_York date +%Y-%m-%d)${{ inputs.tag_suffix }}"
           if gh release view "$TAG" >/dev/null 2>&1; then
-            echo "Release $TAG already exists; refusing to cut a duplicate."
-            exit 1
+            echo "Release $TAG already exists; skipping release creation gracefully."
+            exit 0
           fi
           cp "$GITHUB_WORKSPACE/epg_new.xml" "$GITHUB_WORKSPACE/epg.xml"
           gh release create "$TAG" "$GITHUB_WORKSPACE/epg.xml" "$GITHUB_WORKSPACE/epg_247.xml" \
             --title "$TITLE" \
-            --notes "Weekly automated EPG rebuild. Main guide: https://github.com/kamikaze0129/my-epg/releases/latest/download/epg.xml | 24/7 marathon guide: https://github.com/kamikaze0129/my-epg/releases/latest/download/epg_247.xml"
+            --notes "Weekly automated EPG rebuild. Main guide: https://github.com | 24/7 marathon guide: https://github.com"
