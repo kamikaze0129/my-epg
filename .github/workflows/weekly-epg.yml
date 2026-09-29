@@ -82,3 +82,8 @@ jobs:
           gh release create "$TAG" "$GITHUB_WORKSPACE/epg.xml" "$GITHUB_WORKSPACE/epg_247.xml" \
             --title "$TITLE" \
             --notes "Weekly automated EPG rebuild. Main guide: https://github.com | 24/7 marathon guide: https://github.com"
+
+            if __name__ == "__main__":
+    # Correct path pointing to your main workspace directory
+    target_file = os.path.join(os.getcwd(), 'epg_new.xml')
+    patch_epg_file(target_file)
