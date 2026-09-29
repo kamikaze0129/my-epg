@@ -25,13 +25,11 @@ jobs:
         with:
           python-version: '3.12'
 
-    - name: Download previous EPG build
+      - name: Download previous EPG build
         run: |
-          # Try to download the file, but don't crash if it's missing or corrupt
           curl -fL --retry 3 -o prev_epg.xml \
             https://github.com || echo "<tv></tv>" > prev_epg.xml
           ls -la prev_epg.xml
-          # Create a safety fallback if the file doesn't look like XMLTV
           head -c 200 prev_epg.xml | grep -q '<tv' || echo "<?xml version='1.0' encoding='UTF-8'?><tv></tv>" > prev_epg.xml
           echo "previous build step resolved safely"
 
