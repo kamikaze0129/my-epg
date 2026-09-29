@@ -537,6 +537,9 @@ SOURCES = {
     # Albuquerque"; correct source is TV Insider the-movie-channel-extra,
     # verified live; guard passes with the corrected roster name)
     "360north.us": ("tvinsider", "the-movie-channel-extra"),
+    # RetroPlex (2026-09-29: was showing "Programming"; TV Insider retroplex
+    # verified live, 299 programmes; guard passes)
+    "retroplex.us": ("tvinsider", "retroplex"),
     # QVC2 via TVP (2026-09-29, verified real listings; fills stale qvc2.us)
     "qvc2.us": ("tvp", ("qvc2-hd", "19969", False)),
     # QVC 1/2/3 national feeds (2026-09-29, all verified live; Chris picked QVC3 URL)
