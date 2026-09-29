@@ -1137,6 +1137,18 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                     c['placeholder_written'] += 1
         for tid in sorted(verified_fresh):
             for p in verified_fresh[tid]:
+                # 2026-09-29: defensive drop of invalid-duration programmes
+                # (stop <= start) from live feeds — one bad feed entry must
+                # not nuke the whole build. Logged, not silent.
+                _m = _span_re.search(p)
+                if _m:
+                    _ds, _de = parse_ts(_m.group(1)), parse_ts(_m.group(2))
+                    if _ds and _de and _de <= _ds:
+                        log(f"drop_invalid_duration: {tid} "
+                            f"{_m.group(1)}->{_m.group(2)}")
+                        c['dropped_invalid_duration'] = \
+                            c.get('dropped_invalid_duration', 0) + 1
+                        continue
                 fout.write(p)
                 c['fresh_appended'] += 1
                 for _t in clone_targets.get(tid, ()):
