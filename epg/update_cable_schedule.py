@@ -537,6 +537,11 @@ SOURCES = {
     "paramountnetwork.us": ("tvinsider", "paramount-network"),
     "sundancetv.us": ("tvinsider", "sundance"),
     "teennick.us": ("tvinsider", "teennick"),
+    # QVC2 via TVP (2026-09-29, verified real listings; fills stale qvc2.us)
+    "qvc2.us": ("tvp", ("qvc2-hd", "19969", False)),
+    # QVC 1/2/3 national feeds (2026-09-29, all verified live; Chris picked QVC3 URL)
+    "epg-usa-qvc-037755b8": ("tvp", ("qvc-hd", "6115", False)),
+    "m3u-usa-qvc-3": ("tvp", ("qvc3", "32516", False)),
     # OnTVTonight
     "bether.us": ("ontvtonight", ("69022320", "bet-her")),
     # Pluto
