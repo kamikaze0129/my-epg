@@ -167,6 +167,10 @@ COLLEGE_BACKUPS = {
 ROSTER_RENAMES = {  # KMTV is CBS, not ABC (TVGuide confirms KMTV-DT CBS)
     'abcketv.us': 'USA CBS 3 Omaha (KMTV)',
     'epg-usa-abc-13-omaha-kmtv-1095e622': 'USA CBS 3 Omaha (KMTV)',
+    # 360north.us is the provider's tvg-id for USA The Movie Channel Xtra;
+    # the roster had fossilized it as "USA Fox KRQE Albuquerque" (wrong
+    # station entirely -- KRQE is covered by m3u-nm-alburquerque-fox-krqe).
+    '360north.us': 'USA The Movie Channel Xtra',
 }
 ROSTER_DROPS = {'epg-24-7-hunted-e77b2975'}  # obsolete; superseded by m3u-247-hunted
 
@@ -2193,6 +2197,12 @@ def main(argv):
                 n_real, max_stop = future_span(existing, now)
                 if n_real == 0:
                     # placeholder-only feed: replace with real data
+                    verified_fresh[tcid] = sorted(plist)
+                    filled += 1
+                    continue
+                if tcid in ROSTER_RENAMES:
+                    # identity correction (wrong station in roster): the old
+                    # programmes are wrong-station data -- replace, don't append
                     verified_fresh[tcid] = sorted(plist)
                     filled += 1
                     continue
