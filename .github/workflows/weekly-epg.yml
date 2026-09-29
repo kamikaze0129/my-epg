@@ -45,7 +45,7 @@ jobs:
           python3 epg/pull_provider_epg.py --out "$GITHUB_WORKSPACE/provider_epg_fresh.xml"
           ls -la "$GITHUB_WORKSPACE/provider_epg_fresh.xml"
 
-      - name: Weekly rebuild
+           - name: Weekly rebuild
         env:
           EPG_PREV_BUILD: ${{ github.workspace }}/prev_epg.xml
           EPG_RUNS_DIR: ${{ github.workspace }}/run_out
@@ -53,6 +53,7 @@ jobs:
         run: |
           mkdir -p run_out
           python3 epg/weekly_build.py --no-promote --out "$GITHUB_WORKSPACE/epg_new.xml"
+          pip install beautifulsoup4 requests # Installs the scraper requirements
           python3 epg/append_tvpassport.py
 
       - name: Build 24/7 EPG
@@ -82,8 +83,3 @@ jobs:
           gh release create "$TAG" "$GITHUB_WORKSPACE/epg.xml" "$GITHUB_WORKSPACE/epg_247.xml" \
             --title "$TITLE" \
             --notes "Weekly automated EPG rebuild. Main guide: https://github.com | 24/7 marathon guide: https://github.com"
-
-            if __name__ == "__main__":
-    # Correct path pointing to your main workspace directory
-    target_file = os.path.join(os.getcwd(), 'epg_new.xml')
-    patch_epg_file(target_file)
