@@ -45,6 +45,7 @@ CI_JSON = os.path.expanduser("~/workspace/epg_actions/epg/cable_schedule.json")
 
 DAYS_AHEAD = 7
 REQ_PAUSE = 1.0
+WBD_PAUSE = 12.0  # WBD GraphQL throttles on rapid hits
 
 
 def log(msg):
@@ -98,7 +99,7 @@ def parse_tvinsider(html):
         mm, dd, yyyy, body = parts[i], parts[i+1], parts[i+2], parts[i+3]
         day = datetime(int(yyyy), int(mm), int(dd))
         blocks = re.findall(
-            r'<a class="show-upcoming">.*?<time>([^<]+)</time>.*?<h3>([^<]*)</h3>'
+            r'<a class="show-upcoming[^"]*"[^>]*>.*?<time>([^<]+)</time>.*?<h3>([^<]*)</h3>'
             r'(?:.*?<h4>([^<]*)</h4>)?.*?<p>([^<]*)</p>',
             body, re.S)
         day_progs = []
@@ -417,6 +418,104 @@ def fetch_foxbusiness():
             })
     return progs, FBN_API
 
+
+# ---------- TV Passport national cable ----------
+
+TVP_BASE = "https://www.tvpassport.com"
+TVP_DISCOVERY = os.path.expanduser("~/workspace/tvp_cable_discovery.json")
+TVP_CABLE_REVIEW = os.path.expanduser("~/workspace/tvp_cable_mapping_review.json")
+
+def load_tvp_cable_mapping():
+    """chris_id -> (slug, tvp_id, is_west). East scraped, West derived."""
+    try:
+        disc = {e["network"]: e["feeds"]
+                for e in json.load(open(TVP_DISCOVERY, encoding="utf-8"))}
+        review = json.load(open(TVP_CABLE_REVIEW, encoding="utf-8"))
+    except (OSError, ValueError) as e:
+        log(f"TVP cable mapping unreadable ({e})")
+        return {}
+    out = {}
+    for e in review:
+        net = e["network"]
+        feeds = disc.get(net, [])
+        if not feeds:
+            continue
+        # prefer an East feed for scraping; only TVP feeds (with station id)
+        tvp_feeds = [f for f in feeds
+                     if f.get("tvp_id") or f.get("station_id")]
+        if not tvp_feeds:
+            continue
+        east = [f for f in tvp_feeds
+                if "east" in f["label"].lower() or "eastern" in f["label"].lower()]
+        east_feed = (east or tvp_feeds)[0]
+        slug = east_feed.get("slug")
+        sid = east_feed.get("tvp_id") or east_feed.get("station_id")
+        if not slug or not sid:
+            continue
+        for m in e.get("mappings", []):
+            if m.get("source") != "tvpassport":
+                continue
+            cid = m.get("chris_id")
+            if not cid or cid in SOURCES:
+                continue
+            label = (m.get("tvp_feed") or "East").lower()
+            is_west = any(w in label for w in ("west", "pacific"))
+            out[cid] = (slug, str(sid), is_west)
+    return out
+
+def fetch_tvp_cable(slug, tvp_id):
+    """Scrape TVP station pages (same parser as locals). Times are UTC."""
+    from zoneinfo import ZoneInfo
+    london = ZoneInfo("Europe/London")
+    now = datetime.now(timezone.utc)
+    cutoff = now + timedelta(days=DAYS_AHEAD)
+    progs = []
+    url = ""
+    for d in range(DAYS_AHEAD):
+        day = (now + timedelta(days=d)).date().isoformat()
+        url = f"{TVP_BASE}/tv-listings/stations/{slug}/{tvp_id}/{day}"
+        html = fetch(url)
+        for m in re.finditer(r'<div[^>]*data-st="([^"]+)"[^>]*>', html):
+            el = m.group(0)
+            def attr(name):
+                mm = re.search(r'%s="([^"]*)"' % re.escape(name), el)
+                return (mm.group(1).strip() if mm else "")
+            try:
+                local = datetime.strptime(attr("data-st"), "%Y-%m-%d %H:%M:%S"
+                                          ).replace(tzinfo=london)
+            except ValueError:
+                continue
+            try:
+                dur = int(attr("data-duration") or "0")
+            except ValueError:
+                dur = 0
+            if dur <= 0:
+                continue
+            start = local.astimezone(timezone.utc)
+            stop = start + timedelta(minutes=dur)
+            if not (now - timedelta(hours=6) <= start <= cutoff):
+                continue
+            title = attr("data-showName")
+            if not title:
+                continue
+            bits = [attr("data-episodeTitle"), attr("data-description")]
+            progs.append({
+                "start": start.isoformat(),
+                "stop": stop.isoformat(),
+                "title": title,
+                "desc": " ".join(b for b in bits if b).strip(),
+            })
+        time.sleep(REQ_PAUSE)
+    # de-dupe by start
+    seen, uniq = set(), []
+    for p in progs:
+        if p["start"] not in seen:
+            seen.add(p["start"])
+            uniq.append(p)
+    uniq.sort(key=lambda p: p["start"])
+    return uniq, url
+
+
 # ----------------------------------------------------------------- mapping
 # chris_id -> (source_type, source_arg). Populated from the staged review.
 # TVP-sourced cable feeds stay in update_tvpassport_schedule.py's domain;
@@ -428,6 +527,16 @@ SOURCES = {
     # TV Insider
     "betgospel.us": ("tvinsider", "bet-gospel"),
     "betsoul.us": ("tvinsider", "bet-soul"),
+    # TV Insider: final-9 (2026-09-29, all verified live; guards pass)
+    "adultswim.us": ("tvinsider", "adult-swim"),
+    "bloomberg.us": ("tvinsider", "bloomberg"),
+    "fs1.us": ("tvinsider", "fox-sports-1"),
+    "golfchannel.us": ("tvinsider", "golf-channel"),
+    "mgmplus.us": ("tvinsider", "mgm-plus"),
+    "nickjr.us": ("tvinsider", "nick-jr"),
+    "paramountnetwork.us": ("tvinsider", "paramount-network"),
+    "sundancetv.us": ("tvinsider", "sundance"),
+    "teennick.us": ("tvinsider", "teennick"),
     # OnTVTonight
     "bether.us": ("ontvtonight", ("69022320", "bet-her")),
     # Pluto
@@ -493,9 +602,14 @@ def load_review_extras():
 
 def main():
     load_review_extras()
-    log(f"{len(SOURCES)} cable sources configured")
     out = {"updated_utc": datetime.now(timezone.utc).isoformat(),
            "sources": {}}
+    wbd_cache = {}
+    tvp_cache = {}
+    for cid, tvp_arg in load_tvp_cable_mapping().items():
+        if cid not in SOURCES:
+            SOURCES[cid] = ("tvp", tvp_arg)
+    log(f"{len(SOURCES)} cable sources configured (incl TVP cable)")
     for cid, (stype, arg) in SOURCES.items():
         try:
             if stype == "tvinsider":
@@ -507,11 +621,23 @@ def main():
             elif stype == "starz":
                 progs, url = fetch_starz_official(arg)
             elif stype == "wbd":
-                progs, url = fetch_wbd(*arg)
+                # dedupe: one request per unique (brand, feed); the WBD
+                # endpoint throttles after a handful of rapid hits
+                if arg not in wbd_cache:
+                    if wbd_cache:
+                        time.sleep(WBD_PAUSE)
+                    wbd_cache[arg] = fetch_wbd(*arg)
+                progs, url = wbd_cache[arg]
             elif stype == "msnow":
                 progs, url = fetch_msnow()
             elif stype == "fbn":
                 progs, url = fetch_foxbusiness()
+            elif stype == "tvp":
+                # dedupe: one scrape per unique (slug, tvp_id)
+                key = (arg[0], arg[1])
+                if key not in tvp_cache:
+                    tvp_cache[key] = fetch_tvp_cable(arg[0], arg[1])
+                progs, url = tvp_cache[key]
             else:
                 continue
             # sanity: keep only future-ish programmes with real times
@@ -532,7 +658,7 @@ def main():
     with open(LOCAL_JSON, "rb") as f:
         content_b64 = __import__("base64").b64encode(f.read()).decode()
     req = urllib.request.Request(f"{API}/contents/epg/cable_schedule.json")
-    add_surrogate_to_request(req, CRED)
+    add_surrogate_to_request(req, CRED, allowed_hosts=["api.github.com"])
     try:
         with urllib.request.urlopen(req) as r:
             sha = json.loads(r.read())["sha"]
@@ -546,7 +672,7 @@ def main():
         f"{API}/contents/epg/cable_schedule.json",
         data=json.dumps(body).encode(),
         headers={"Content-Type": "application/json"}, method="PUT")
-    add_surrogate_to_request(req, CRED)
+    add_surrogate_to_request(req, CRED, allowed_hosts=["api.github.com"])
     resp = read_json_response(urllib.request.urlopen(req))
     log(f"pushed: {resp.get('commit', {}).get('sha', '')[:8]}")
 
