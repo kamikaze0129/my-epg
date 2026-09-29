@@ -27,11 +27,11 @@ jobs:
 
       - name: Download previous EPG build
         run: |
-          curl -fL --retry 3 -o prev_epg.xml \
-            https://github.com || echo "<tv></tv>" > prev_epg.xml
+          curl -fL --retry 5 --retry-delay 10 -o prev_epg.xml \
+            https://github.com/kamikaze0129/my-epg/releases/latest/download/epg.xml
           ls -la prev_epg.xml
-          head -c 200 prev_epg.xml | grep -q '<tv' || echo "<?xml version='1.0' encoding='UTF-8'?><tv></tv>" > prev_epg.xml
-          echo "previous build step resolved safely"
+          head -c 200 prev_epg.xml | grep -q '<tv' || (echo "ERROR: previous build download failed"; exit 1)
+          echo "previous build OK"
 
       - name: Pull provider EPG
         env:
@@ -51,8 +51,6 @@ jobs:
         run: |
           mkdir -p run_out
           python3 epg/weekly_build.py --no-promote --out "$GITHUB_WORKSPACE/epg_new.xml"
-          pip install beautifulsoup4 requests
-          python3 epg/append_tvpassport.py
 
       - name: Build 24/7 EPG
         run: |
@@ -80,4 +78,4 @@ jobs:
           cp "$GITHUB_WORKSPACE/epg_new.xml" "$GITHUB_WORKSPACE/epg.xml"
           gh release create "$TAG" "$GITHUB_WORKSPACE/epg.xml" "$GITHUB_WORKSPACE/epg_247.xml" \
             --title "$TITLE" \
-            --notes "Weekly automated EPG rebuild. Main guide: https://github.com | 24/7 marathon guide: https://github.com"
+            --notes "Weekly automated EPG rebuild. Main guide: https://github.com/kamikaze0129/my-epg/releases/latest/download/epg.xml | 24/7 marathon guide: https://github.com/kamikaze0129/my-epg/releases/latest/download/epg_247.xml"
