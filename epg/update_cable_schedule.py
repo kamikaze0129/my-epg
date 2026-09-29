@@ -537,6 +537,10 @@ SOURCES = {
     # QVC 1/2/3 national feeds (2026-09-29, all verified live; Chris picked QVC3 URL)
     "epg-usa-qvc-037755b8": ("tvp", ("qvc-hd", "6115", False)),
     "m3u-usa-qvc-3": ("tvp", ("qvc3", "32516", False)),
+    # QVC (ST) variants -> main QVC feed (2026-09-29, guards pass)
+    "epg-us-qvc-st-3ca626ed": ("tvp", ("qvc-hd", "6115", False)),
+    "qvc.us": ("tvp", ("qvc-hd", "6115", False)),
+    "m3u-us-qvc-st": ("tvp", ("qvc-hd", "6115", False)),
     # Cinemax spinoffs (2026-09-29, Chris supplied all URLs; guards pass)
     # ActionMax East via OnTVTonight (West derived via shift engine)
     "actionmax.us": ("ontvtonight", ("69046784", "actionmax-east")),
