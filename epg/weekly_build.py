@@ -189,6 +189,12 @@ ROSTER_ADDITIONS = {  # target_id: display_name (icon filled by icon stages)
     'stream-648086': 'HI Honolulu NBC KHNL',
     'stream-517437': 'USA ABC 4 KITV Honolulu',
     'stream-648359': 'USA ABC4 KITV Honolulu',
+    # Final-9 cable networks (2026-09-29): USA channels missing from roster,
+    # sources verified live on TV Insider. Chris confirmed provider carries them.
+    'adultswim.us': 'USA Adult Swim',
+    'bloomberg.us': 'USA Bloomberg TV',
+    'fs1.us': 'USA FS1',
+    'mgmplus.us': 'USA MGM+',
 }
 
 # Display-name disambiguation for channels that share a name with another
