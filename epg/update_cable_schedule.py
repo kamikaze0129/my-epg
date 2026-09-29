@@ -365,11 +365,66 @@ def fetch_starz_official(code):
     return progs, url
 
 
+# ---------- Official: MS NOW + Fox Business ----------
+
+MSNOW_API = "https://mobileapi.vsnewstools.com/resources/schedule/msnbc-schedule"
+FBN_API = "https://schedule-tool.foxnews.com/schedule/feed/fox-business.json"
+
+def fetch_msnow():
+    """ms.now/schedule — JSON array, UTC ISO times, ~7 day window. No auth."""
+    data = fetch_json(MSNOW_API)
+    progs = []
+    for item in data:
+        try:
+            start = datetime.fromisoformat(item["startTime"].replace("Z", "+00:00"))
+            end = datetime.fromisoformat(item["endTime"].replace("Z", "+00:00"))
+        except (KeyError, ValueError):
+            continue
+        progs.append({
+            "start": start.isoformat(),
+            "stop": end.isoformat(),
+            "title": (item.get("title") or "MS NOW").strip(),
+            "desc": (item.get("description") or "").strip(),
+        })
+    return progs, MSNOW_API
+
+def fetch_foxbusiness():
+    """foxbusiness.com/fbntv/schedule — day array (today+tomorrow). No auth."""
+    data = fetch_json(FBN_API)
+    progs = []
+    days = data.get("day", [])
+    if isinstance(days, dict):
+        days = [days]
+    for day in days:
+        shows = day.get("show", [])
+        if isinstance(shows, dict):
+            shows = [shows]
+        for s in shows:
+            try:
+                start = datetime.fromisoformat(s["start-utc"].replace("Z", "+00:00"))
+                end = datetime.fromisoformat(s["end-utc"].replace("Z", "+00:00"))
+            except (KeyError, ValueError):
+                try:
+                    start = datetime.fromisoformat(s["start"])
+                    end = datetime.fromisoformat(s["end"])
+                except (KeyError, ValueError):
+                    continue
+            progs.append({
+                "start": start.isoformat(),
+                "stop": end.isoformat(),
+                "title": (s.get("title") or "Fox Business").strip(),
+                "desc": (s.get("long-description") or s.get("description") or "").strip(),
+            })
+    return progs, FBN_API
+
 # ----------------------------------------------------------------- mapping
 # chris_id -> (source_type, source_arg). Populated from the staged review.
 # TVP-sourced cable feeds stay in update_tvpassport_schedule.py's domain;
 # official-site fetchers get wired here when their extractors land.
 SOURCES = {
+    # Official: MS NOW + Fox Business
+    "msnow.us": ("msnow", None),
+    "foxbusiness.us": ("fbn", None),
     # TV Insider
     "betgospel.us": ("tvinsider", "bet-gospel"),
     "betsoul.us": ("tvinsider", "bet-soul"),
@@ -453,6 +508,10 @@ def main():
                 progs, url = fetch_starz_official(arg)
             elif stype == "wbd":
                 progs, url = fetch_wbd(*arg)
+            elif stype == "msnow":
+                progs, url = fetch_msnow()
+            elif stype == "fbn":
+                progs, url = fetch_foxbusiness()
             else:
                 continue
             # sanity: keep only future-ish programmes with real times
