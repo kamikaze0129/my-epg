@@ -517,7 +517,7 @@ def fetch_tvp_cable(slug, tvp_id):
 # official-site fetchers get wired here when their extractors land.
 SOURCES = {
     # Official: MS NOW + Fox Business
-    "msnow.us": ("msnow", None),
+    "msnbc.us": ("msnow", None),
     "foxbusiness.us": ("fbn", None),
     # TV Insider
     "betgospel.us": ("tvinsider", "bet-gospel"),
