@@ -239,16 +239,11 @@ HBO_CINEMAX_FEEDS = {
     "cinemax.us": ("cinemax", "max-east"),
     "epg-usa-cinemax-east-816867a4": ("cinemax", "max-east"),
     "epg-usa-cinemax-east-uhd-fe03eeee": ("cinemax", "max-east"),
-    "actionmax.us": ("cinemax", "max-action-east"),
-    "epg-usa-cinemax-action-max-east-91c7973f": ("cinemax", "max-action-east"),
-    "epg-usa-cinemax-action-07dc64d9": ("cinemax", "max-action-east"),
-    "moremax.us": ("cinemax", "max-more-east"),
-    "epg-usa-cinemax-hits-east-2779670c": ("cinemax", "max-more-east"),
-    "epg-usa-cinemax-hits-fhd-4f225dbf": ("cinemax", "max-more-east"),
-    "5starmax.us": ("cinemax", "max-5star-east"),
+    # NOTE 2026-09-29: spinoffs moved to OnTVTonight/TV Insider (Chris-supplied
+    # URLs) -- WBD GraphQL refuses max-action/max-more/max-5star feeds.
+    # actionmax/moremax/5starmax now wired in SOURCES below; West variants
+    # derive via the timezone-shift engine.
     "cinemaxpasific.us": ("cinemax", "max-west"),
-    "actionmaxpacific.us": ("cinemax", "max-action-west"),
-    "moremaxpacific.us": ("cinemax", "max-more-west"),
 }
 
 
@@ -542,6 +537,17 @@ SOURCES = {
     # QVC 1/2/3 national feeds (2026-09-29, all verified live; Chris picked QVC3 URL)
     "epg-usa-qvc-037755b8": ("tvp", ("qvc-hd", "6115", False)),
     "m3u-usa-qvc-3": ("tvp", ("qvc3", "32516", False)),
+    # Cinemax spinoffs (2026-09-29, Chris supplied all URLs; guards pass)
+    # ActionMax East via OnTVTonight (West derived via shift engine)
+    "actionmax.us": ("ontvtonight", ("69046784", "actionmax-east")),
+    "epg-usa-cinemax-action-07dc64d9": ("ontvtonight", ("69046784", "actionmax-east")),
+    "epg-usa-cinemax-action-max-east-91c7973f": ("ontvtonight", ("69046784", "actionmax-east")),
+    # MoreMax/Hits East via OnTVTonight (West derived via shift engine)
+    "moremax.us": ("ontvtonight", ("69046789", "cinemax-hits-east")),
+    "epg-usa-cinemax-hits-east-2779670c": ("ontvtonight", ("69046789", "cinemax-hits-east")),
+    "epg-usa-cinemax-hits-fhd-4f225dbf": ("ontvtonight", ("69046789", "cinemax-hits-east")),
+    # 5StarMax via TV Insider (ID match; display name says "Classics")
+    "5starmax.us": ("tvinsider", "5-star-max"),
     # OnTVTonight
     "bether.us": ("ontvtonight", ("69022320", "bet-her")),
     # Pluto
