@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-09-29T19:33:54.711482+00:00",
+ "updated_utc": "2026-09-29T19:49:45.333720+00:00",
  "sources": {
   "msnow.us": {
    "source": "msnow",
@@ -207484,6 +207484,2260 @@
      "stop": "2026-10-06T05:00:00+00:00",
      "title": "Shopping",
      "desc": ""
+    }
+   ]
+  },
+  "actionmax.us": {
+   "source": "ontvtonight",
+   "source_url": "https://www.ontvtonight.com/guide/listings/channel/69046784/actionmax-east.html",
+   "programmes": [
+    {
+     "start": "2026-09-29T04:09:00+00:00",
+     "title": "The Shape of Water (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T06:13:00+00:00"
+    },
+    {
+     "start": "2026-09-29T06:13:00+00:00",
+     "title": "The Whistlers (2019)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T07:51:00+00:00"
+    },
+    {
+     "start": "2026-09-29T07:51:00+00:00",
+     "title": "Trance (2013)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T09:33:00+00:00"
+    },
+    {
+     "start": "2026-09-29T09:33:00+00:00",
+     "title": "The Usual Suspects (1995)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T11:22:00+00:00"
+    },
+    {
+     "start": "2026-09-29T11:22:00+00:00",
+     "title": "Destroy All Monsters (1968)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T12:52:00+00:00"
+    },
+    {
+     "start": "2026-09-29T12:52:00+00:00",
+     "title": "Godzilla Raids Again (1955)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T14:14:00+00:00"
+    },
+    {
+     "start": "2026-09-29T14:14:00+00:00",
+     "title": "Godzilla vs. Biollante (1989)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T15:59:00+00:00"
+    },
+    {
+     "start": "2026-09-29T15:59:00+00:00",
+     "title": "Godzilla vs. Gigan (1972)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T17:29:00+00:00"
+    },
+    {
+     "start": "2026-09-29T17:29:00+00:00",
+     "title": "The Snakes (2022)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T17:44:00+00:00"
+    },
+    {
+     "start": "2026-09-29T17:44:00+00:00",
+     "title": "DC League of Super-Pets (2022)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T19:30:00+00:00"
+    },
+    {
+     "start": "2026-09-29T19:30:00+00:00",
+     "title": "Camp Hell (2010)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T21:10:00+00:00"
+    },
+    {
+     "start": "2026-09-29T21:10:00+00:00",
+     "title": "Halloween: The Curse of Michael Myers (1995)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T22:38:00+00:00"
+    },
+    {
+     "start": "2026-09-29T22:38:00+00:00",
+     "title": "Halloween H20: 20 Years Later (1998)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T00:05:00+00:00"
+    },
+    {
+     "start": "2026-09-30T00:05:00+00:00",
+     "title": "Halloween: Resurrection (2002)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T01:35:00+00:00"
+    },
+    {
+     "start": "2026-09-30T01:35:00+00:00",
+     "title": "Beetlejuice Beetlejuice (2024)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T03:20:00+00:00"
+    },
+    {
+     "start": "2026-09-30T03:20:00+00:00",
+     "title": "Final Destination 5 (2011)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T04:52:00+00:00"
+    },
+    {
+     "start": "2026-09-29T04:52:00+00:00",
+     "title": "Happy Death Day (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T05:22:00+00:00"
+    }
+   ]
+  },
+  "epg-usa-cinemax-action-07dc64d9": {
+   "source": "ontvtonight",
+   "source_url": "https://www.ontvtonight.com/guide/listings/channel/69046784/actionmax-east.html",
+   "programmes": [
+    {
+     "start": "2026-09-29T04:09:00+00:00",
+     "title": "The Shape of Water (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T06:13:00+00:00"
+    },
+    {
+     "start": "2026-09-29T06:13:00+00:00",
+     "title": "The Whistlers (2019)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T07:51:00+00:00"
+    },
+    {
+     "start": "2026-09-29T07:51:00+00:00",
+     "title": "Trance (2013)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T09:33:00+00:00"
+    },
+    {
+     "start": "2026-09-29T09:33:00+00:00",
+     "title": "The Usual Suspects (1995)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T11:22:00+00:00"
+    },
+    {
+     "start": "2026-09-29T11:22:00+00:00",
+     "title": "Destroy All Monsters (1968)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T12:52:00+00:00"
+    },
+    {
+     "start": "2026-09-29T12:52:00+00:00",
+     "title": "Godzilla Raids Again (1955)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T14:14:00+00:00"
+    },
+    {
+     "start": "2026-09-29T14:14:00+00:00",
+     "title": "Godzilla vs. Biollante (1989)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T15:59:00+00:00"
+    },
+    {
+     "start": "2026-09-29T15:59:00+00:00",
+     "title": "Godzilla vs. Gigan (1972)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T17:29:00+00:00"
+    },
+    {
+     "start": "2026-09-29T17:29:00+00:00",
+     "title": "The Snakes (2022)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T17:44:00+00:00"
+    },
+    {
+     "start": "2026-09-29T17:44:00+00:00",
+     "title": "DC League of Super-Pets (2022)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T19:30:00+00:00"
+    },
+    {
+     "start": "2026-09-29T19:30:00+00:00",
+     "title": "Camp Hell (2010)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T21:10:00+00:00"
+    },
+    {
+     "start": "2026-09-29T21:10:00+00:00",
+     "title": "Halloween: The Curse of Michael Myers (1995)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T22:38:00+00:00"
+    },
+    {
+     "start": "2026-09-29T22:38:00+00:00",
+     "title": "Halloween H20: 20 Years Later (1998)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T00:05:00+00:00"
+    },
+    {
+     "start": "2026-09-30T00:05:00+00:00",
+     "title": "Halloween: Resurrection (2002)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T01:35:00+00:00"
+    },
+    {
+     "start": "2026-09-30T01:35:00+00:00",
+     "title": "Beetlejuice Beetlejuice (2024)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T03:20:00+00:00"
+    },
+    {
+     "start": "2026-09-30T03:20:00+00:00",
+     "title": "Final Destination 5 (2011)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T04:52:00+00:00"
+    },
+    {
+     "start": "2026-09-29T04:52:00+00:00",
+     "title": "Happy Death Day (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T05:22:00+00:00"
+    }
+   ]
+  },
+  "moremax.us": {
+   "source": "ontvtonight",
+   "source_url": "https://www.ontvtonight.com/guide/listings/channel/69046789/cinemax-hits-east.html",
+   "programmes": [
+    {
+     "start": "2026-09-30T03:34:00+00:00",
+     "title": "Kiss of the Spider Woman (1985)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T05:35:00+00:00"
+    },
+    {
+     "start": "2026-09-29T05:35:00+00:00",
+     "title": "Papillon (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T07:48:00+00:00"
+    },
+    {
+     "start": "2026-09-29T07:48:00+00:00",
+     "title": "Colette (2018)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T09:40:00+00:00"
+    },
+    {
+     "start": "2026-09-29T09:40:00+00:00",
+     "title": "Sound of My Voice (2011)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T11:08:00+00:00"
+    },
+    {
+     "start": "2026-09-29T11:08:00+00:00",
+     "title": "Fantastic Planet (1973)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T12:21:00+00:00"
+    },
+    {
+     "start": "2026-09-29T12:21:00+00:00",
+     "title": "My Big Fat Greek Wedding (2002)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T13:56:00+00:00"
+    },
+    {
+     "start": "2026-09-29T13:56:00+00:00",
+     "title": "Tyler Perry&#039;s Madea&#039;s Witness Protection (2012)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T15:51:00+00:00"
+    },
+    {
+     "start": "2026-09-29T15:51:00+00:00",
+     "title": "Due Date (2010)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T17:27:00+00:00"
+    },
+    {
+     "start": "2026-09-29T17:27:00+00:00",
+     "title": "Girls Trip (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T19:30:00+00:00"
+    },
+    {
+     "start": "2026-09-29T19:30:00+00:00",
+     "title": "Friendship (2024)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T21:11:00+00:00"
+    },
+    {
+     "start": "2026-09-29T21:11:00+00:00",
+     "title": "The Player (1992)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T23:16:00+00:00"
+    },
+    {
+     "start": "2026-09-29T23:16:00+00:00",
+     "title": "Rampage (2018)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T01:04:00+00:00"
+    },
+    {
+     "start": "2026-09-30T01:04:00+00:00",
+     "title": "Hall Pass (2011)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T02:51:00+00:00"
+    },
+    {
+     "start": "2026-09-30T02:51:00+00:00",
+     "title": "The Post (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T04:48:00+00:00"
+    },
+    {
+     "start": "2026-09-29T04:48:00+00:00",
+     "title": "A History of Violence (2005)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T05:18:00+00:00"
+    }
+   ]
+  },
+  "epg-usa-cinemax-hits-east-2779670c": {
+   "source": "ontvtonight",
+   "source_url": "https://www.ontvtonight.com/guide/listings/channel/69046789/cinemax-hits-east.html",
+   "programmes": [
+    {
+     "start": "2026-09-30T03:34:00+00:00",
+     "title": "Kiss of the Spider Woman (1985)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T05:35:00+00:00"
+    },
+    {
+     "start": "2026-09-29T05:35:00+00:00",
+     "title": "Papillon (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T07:48:00+00:00"
+    },
+    {
+     "start": "2026-09-29T07:48:00+00:00",
+     "title": "Colette (2018)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T09:40:00+00:00"
+    },
+    {
+     "start": "2026-09-29T09:40:00+00:00",
+     "title": "Sound of My Voice (2011)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T11:08:00+00:00"
+    },
+    {
+     "start": "2026-09-29T11:08:00+00:00",
+     "title": "Fantastic Planet (1973)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T12:21:00+00:00"
+    },
+    {
+     "start": "2026-09-29T12:21:00+00:00",
+     "title": "My Big Fat Greek Wedding (2002)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T13:56:00+00:00"
+    },
+    {
+     "start": "2026-09-29T13:56:00+00:00",
+     "title": "Tyler Perry&#039;s Madea&#039;s Witness Protection (2012)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T15:51:00+00:00"
+    },
+    {
+     "start": "2026-09-29T15:51:00+00:00",
+     "title": "Due Date (2010)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T17:27:00+00:00"
+    },
+    {
+     "start": "2026-09-29T17:27:00+00:00",
+     "title": "Girls Trip (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T19:30:00+00:00"
+    },
+    {
+     "start": "2026-09-29T19:30:00+00:00",
+     "title": "Friendship (2024)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T21:11:00+00:00"
+    },
+    {
+     "start": "2026-09-29T21:11:00+00:00",
+     "title": "The Player (1992)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T23:16:00+00:00"
+    },
+    {
+     "start": "2026-09-29T23:16:00+00:00",
+     "title": "Rampage (2018)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T01:04:00+00:00"
+    },
+    {
+     "start": "2026-09-30T01:04:00+00:00",
+     "title": "Hall Pass (2011)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T02:51:00+00:00"
+    },
+    {
+     "start": "2026-09-30T02:51:00+00:00",
+     "title": "The Post (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T04:48:00+00:00"
+    },
+    {
+     "start": "2026-09-29T04:48:00+00:00",
+     "title": "A History of Violence (2005)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T05:18:00+00:00"
+    }
+   ]
+  },
+  "epg-usa-cinemax-hits-fhd-4f225dbf": {
+   "source": "ontvtonight",
+   "source_url": "https://www.ontvtonight.com/guide/listings/channel/69046789/cinemax-hits-east.html",
+   "programmes": [
+    {
+     "start": "2026-09-30T03:34:00+00:00",
+     "title": "Kiss of the Spider Woman (1985)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T05:35:00+00:00"
+    },
+    {
+     "start": "2026-09-29T05:35:00+00:00",
+     "title": "Papillon (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T07:48:00+00:00"
+    },
+    {
+     "start": "2026-09-29T07:48:00+00:00",
+     "title": "Colette (2018)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T09:40:00+00:00"
+    },
+    {
+     "start": "2026-09-29T09:40:00+00:00",
+     "title": "Sound of My Voice (2011)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T11:08:00+00:00"
+    },
+    {
+     "start": "2026-09-29T11:08:00+00:00",
+     "title": "Fantastic Planet (1973)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T12:21:00+00:00"
+    },
+    {
+     "start": "2026-09-29T12:21:00+00:00",
+     "title": "My Big Fat Greek Wedding (2002)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T13:56:00+00:00"
+    },
+    {
+     "start": "2026-09-29T13:56:00+00:00",
+     "title": "Tyler Perry&#039;s Madea&#039;s Witness Protection (2012)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T15:51:00+00:00"
+    },
+    {
+     "start": "2026-09-29T15:51:00+00:00",
+     "title": "Due Date (2010)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T17:27:00+00:00"
+    },
+    {
+     "start": "2026-09-29T17:27:00+00:00",
+     "title": "Girls Trip (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T19:30:00+00:00"
+    },
+    {
+     "start": "2026-09-29T19:30:00+00:00",
+     "title": "Friendship (2024)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T21:11:00+00:00"
+    },
+    {
+     "start": "2026-09-29T21:11:00+00:00",
+     "title": "The Player (1992)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T23:16:00+00:00"
+    },
+    {
+     "start": "2026-09-29T23:16:00+00:00",
+     "title": "Rampage (2018)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T01:04:00+00:00"
+    },
+    {
+     "start": "2026-09-30T01:04:00+00:00",
+     "title": "Hall Pass (2011)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T02:51:00+00:00"
+    },
+    {
+     "start": "2026-09-30T02:51:00+00:00",
+     "title": "The Post (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T04:48:00+00:00"
+    },
+    {
+     "start": "2026-09-29T04:48:00+00:00",
+     "title": "A History of Violence (2005)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T05:18:00+00:00"
+    }
+   ]
+  },
+  "5starmax.us": {
+   "source": "tvinsider",
+   "source_url": "https://www.tvinsider.com/network/5-star-max/schedule/",
+   "programmes": [
+    {
+     "start": "2026-09-29T13:37:00+00:00",
+     "title": "Willy Wonka and the Chocolate Factory",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Boy (Peter Ostrum), grandfather (Jack Albertson) tour magic factory of a confectioner (Gene Wilder).",
+     "stop": "2026-09-29T15:17:00+00:00"
+    },
+    {
+     "start": "2026-09-29T15:17:00+00:00",
+     "title": "Charlie and the Chocolate Factory",
+     "episode": "Feature Film \u2022 2005",
+     "desc": "Five children tour the wondrous factory of an odd confectioner (Johnny Depp).",
+     "stop": "2026-09-29T17:12:00+00:00"
+    },
+    {
+     "start": "2026-09-29T17:12:00+00:00",
+     "title": "Just Friends",
+     "episode": "Feature Film \u2022 2005",
+     "desc": "A music executive (Ryan Reynolds) tries to woo his high-school crush (Amy Smart).",
+     "stop": "2026-09-29T18:48:00+00:00"
+    },
+    {
+     "start": "2026-09-29T18:48:00+00:00",
+     "title": "The Daytrippers",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "Kin (Pat McNamara, Anne Meara) help woman (Hope Davis) confront apparently unfaithful husband.",
+     "stop": "2026-09-29T20:15:00+00:00"
+    },
+    {
+     "start": "2026-09-29T20:15:00+00:00",
+     "title": "Heaven Help Us",
+     "episode": "Feature Film \u2022 1985",
+     "desc": "Students reject authority in 1965 Brooklyn at St. Basil's Catholic School for Boys.",
+     "stop": "2026-09-29T21:59:00+00:00"
+    },
+    {
+     "start": "2026-09-29T21:59:00+00:00",
+     "title": "Dim Sum Funeral",
+     "episode": "Feature Film \u2022 2008",
+     "desc": "The grown children of an overbearing Chinese matriarch reunite for her funeral.",
+     "stop": "2026-09-29T23:36:00+00:00"
+    },
+    {
+     "start": "2026-09-29T23:36:00+00:00",
+     "title": "The Usual Suspects",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "A detective questions a con man about his relationships with assorted criminals and an explosion.",
+     "stop": "2026-09-30T01:23:00+00:00"
+    },
+    {
+     "start": "2026-09-30T01:23:00+00:00",
+     "title": "Don&#8217;t Tell Mom the Babysitter&#8217;s Dead",
+     "episode": "Feature Film \u2022 1991",
+     "desc": "Now-in-charge L.A. teen (Christina Applegate) lands job to feed her siblings.",
+     "stop": "2026-09-30T03:08:00+00:00"
+    },
+    {
+     "start": "2026-09-30T03:08:00+00:00",
+     "title": "Godzilla vs. King Ghidorah",
+     "episode": "Feature Film \u2022 1991",
+     "desc": "Time travelers from the 23rd century hope to stop Godzilla's creation so they can destroy Japan.",
+     "stop": "2026-09-30T03:38:00+00:00"
+    },
+    {
+     "start": "2026-09-30T04:51:00+00:00",
+     "title": "William Shakespeare&#8217;s Romeo &#038; Juliet",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "Twentieth-century teenagers (Leonardo DiCaprio, Claire Danes) tragically fall in love.",
+     "stop": "2026-09-30T06:51:00+00:00"
+    },
+    {
+     "start": "2026-09-30T06:51:00+00:00",
+     "title": "Odd Jobs",
+     "episode": "Feature Film \u2022 1986",
+     "desc": "Five college buddies form their own moving business, competing with organized crime.",
+     "stop": "2026-09-30T08:20:00+00:00"
+    },
+    {
+     "start": "2026-09-30T08:20:00+00:00",
+     "title": "Road House",
+     "episode": "Feature Film \u2022 1989",
+     "desc": "Ph.D. bouncer (Patrick Swayze) tames bar, woos doctor (Kelly Lynch), cleans up town.",
+     "stop": "2026-09-30T10:17:00+00:00"
+    },
+    {
+     "start": "2026-09-30T10:17:00+00:00",
+     "title": "The Return of Godzilla",
+     "episode": "Feature Film \u2022 1984",
+     "desc": "Biologist Hayashida hears Okumura's story and concludes that Godzilla has come back to life.",
+     "stop": "2026-09-30T12:01:00+00:00"
+    },
+    {
+     "start": "2026-09-30T12:01:00+00:00",
+     "title": "Godzilla vs. Biollante",
+     "episode": "Feature Film \u2022 1989",
+     "desc": "A monster dinosaur wrecks Tokyo some more and meets a monster plant created from his own cells.",
+     "stop": "2026-09-30T13:46:00+00:00"
+    },
+    {
+     "start": "2026-09-30T13:46:00+00:00",
+     "title": "Red Riding Hood",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "A woman (Amanda Seyfried) learns that she has a connection to the werewolf tormenting her village.",
+     "stop": "2026-09-30T15:26:00+00:00"
+    },
+    {
+     "start": "2026-09-30T15:26:00+00:00",
+     "title": "Open Water",
+     "episode": "Feature Film \u2022 2003",
+     "desc": "Scuba divers (Blanchard Ryan, Daniel Travis) become stranded in shark-infested waters.",
+     "stop": "2026-09-30T16:46:00+00:00"
+    },
+    {
+     "start": "2026-09-30T16:46:00+00:00",
+     "title": "Dr. Seuss&#8217; Horton Hears a Who!",
+     "episode": "Feature Film \u2022 2008",
+     "desc": "An elephant discovers a tiny community that lives on a dust mote.",
+     "stop": "2026-09-30T18:13:00+00:00"
+    },
+    {
+     "start": "2026-09-30T18:13:00+00:00",
+     "title": "The Last Samurai",
+     "episode": "Feature Film \u2022 2003",
+     "desc": "In the 1870s, a Westerner is caught in the middle of a battle between the samurai and the emperor.",
+     "stop": "2026-09-30T20:48:00+00:00"
+    },
+    {
+     "start": "2026-09-30T20:48:00+00:00",
+     "title": "Cocktail",
+     "episode": "Feature Film \u2022 1988",
+     "desc": "Star bartender (Tom Cruise) leaves partner (Bryan Brown), meets nice girl (Elisabeth Shue).",
+     "stop": "2026-09-30T22:32:00+00:00"
+    },
+    {
+     "start": "2026-09-30T22:32:00+00:00",
+     "title": "Carrie",
+     "episode": "Feature Film \u2022 1976",
+     "desc": "A telekinetic social misfit (Sissy Spacek) wreaks havoc at the prom.",
+     "stop": "2026-10-01T00:11:00+00:00"
+    },
+    {
+     "start": "2026-10-01T00:11:00+00:00",
+     "title": "Final Destination 5",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "Survivors of a bridge disaster learn that they cannot cheat Death.",
+     "stop": "2026-10-01T01:43:00+00:00"
+    },
+    {
+     "start": "2026-10-01T01:43:00+00:00",
+     "title": "Full Metal Jacket",
+     "episode": "Feature Film \u2022 1987",
+     "desc": "A Marine and his companions endure basic training under a sadistic drill sergeant.",
+     "stop": "2026-10-01T03:40:00+00:00"
+    },
+    {
+     "start": "2026-10-01T03:40:00+00:00",
+     "title": "Fantastic Planet",
+     "episode": "Feature Film \u2022 1973",
+     "desc": "The 39-foot-tall pastel Draags keep leashes on the Oms, their tiny pets descended from humans.",
+     "stop": "2026-10-01T04:10:00+00:00"
+    },
+    {
+     "start": "2026-10-01T04:53:00+00:00",
+     "title": "A History of Violence",
+     "episode": "Feature Film \u2022 2005",
+     "desc": "Vicious criminals harass a man (Viggo Mortensen) and his wife (Maria Bello) and family.",
+     "stop": "2026-10-01T06:29:00+00:00"
+    },
+    {
+     "start": "2026-10-01T06:29:00+00:00",
+     "title": "Mississippi Masala",
+     "episode": "Feature Film \u2022 1991",
+     "desc": "A black man (Denzel Washington) loves an Indian woman (Sarita Choudhury) in a Mississippi town.",
+     "stop": "2026-10-01T10:24:00+00:00"
+    },
+    {
+     "start": "2026-10-01T10:24:00+00:00",
+     "title": "MacGruber",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A clueless soldier-of-fortune (Will Forte) must retrieve a stolen nuke from his sworn enemy.",
+     "stop": "2026-10-01T11:55:00+00:00"
+    },
+    {
+     "start": "2026-10-01T11:55:00+00:00",
+     "title": "The Daytrippers",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "Kin (Pat McNamara, Anne Meara) help woman (Hope Davis) confront apparently unfaithful husband.",
+     "stop": "2026-10-01T13:22:00+00:00"
+    },
+    {
+     "start": "2026-10-01T13:22:00+00:00",
+     "title": "The Hitcher",
+     "episode": "Feature Film \u2022 1986",
+     "desc": "A teen motorist (C. Thomas Howell) cannot get away from a psycho (Rutger Hauer).",
+     "stop": "2026-10-01T15:00:00+00:00"
+    },
+    {
+     "start": "2026-10-01T15:00:00+00:00",
+     "title": "Rodan",
+     "episode": "Feature Film \u2022 1957",
+     "desc": "A bug-eating pterodactyl flies out of a coal mine and wrecks Japan with sonic booms.",
+     "stop": "2026-10-01T16:23:00+00:00"
+    },
+    {
+     "start": "2026-10-01T16:23:00+00:00",
+     "title": "Mom and Dad Save the World",
+     "episode": "Feature Film \u2022 1992",
+     "desc": "Stupid planet emperor (Jon Lovitz) beams up California couple (Teri Garr, Jeffrey Jones).",
+     "stop": "2026-10-01T17:52:00+00:00"
+    },
+    {
+     "start": "2026-10-01T17:52:00+00:00",
+     "title": "Full Metal Jacket",
+     "episode": "Feature Film \u2022 1987",
+     "desc": "A Marine and his companions endure basic training under a sadistic drill sergeant.",
+     "stop": "2026-10-01T19:49:00+00:00"
+    },
+    {
+     "start": "2026-10-01T19:49:00+00:00",
+     "title": "Contagion",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "Around the world, doctors race to find a cure for a rapidly spreading virus that kills within days.",
+     "stop": "2026-10-01T21:36:00+00:00"
+    },
+    {
+     "start": "2026-10-01T21:36:00+00:00",
+     "title": "Head Office",
+     "episode": "Feature Film \u2022 1986",
+     "desc": "U.S. senator's son (Judge Reinhold) gets job at unethical conglomerate.",
+     "stop": "2026-10-01T23:08:00+00:00"
+    },
+    {
+     "start": "2026-10-01T23:08:00+00:00",
+     "title": "Halloween: The Curse of Michael Myers",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "An ancient Celtic ritual drives Dr. Loomis' patient to sacrifice an entire family in Illinois.",
+     "stop": "2026-10-02T00:36:00+00:00"
+    },
+    {
+     "start": "2026-10-02T00:36:00+00:00",
+     "title": "Halloween H20: 20 Years Later",
+     "episode": "Feature Film \u2022 1998",
+     "desc": "A woman's (Jamie Lee Curtis) lethal brother returns for her 20 years later.",
+     "stop": "2026-10-02T02:03:00+00:00"
+    },
+    {
+     "start": "2026-10-02T02:03:00+00:00",
+     "title": "Halloween: Resurrection",
+     "episode": "Feature Film \u2022 2002",
+     "desc": "Collegians spend the night in Michael Myers' (Brad Loree) childhood home.",
+     "stop": "2026-10-02T03:33:00+00:00"
+    },
+    {
+     "start": "2026-10-02T03:33:00+00:00",
+     "title": "Due Date",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A high-strung man (Robert Downey Jr.) takes a road trip with an annoying stranger.",
+     "stop": "2026-10-02T04:03:00+00:00"
+    },
+    {
+     "start": "2026-10-02T05:09:00+00:00",
+     "title": "Godzilla",
+     "episode": "Feature Film \u2022 1956",
+     "desc": "U.S. newsman (Raymond Burr) in Tokyo recalls big dinosaur roused by nuke blast.",
+     "stop": "2026-10-02T06:46:00+00:00"
+    },
+    {
+     "start": "2026-10-02T06:46:00+00:00",
+     "title": "Godzilla vs. Mechagodzilla",
+     "episode": "Feature Film \u2022 1974",
+     "desc": "An Okinawan monster-god helps Godzilla defeat his bionic double.",
+     "stop": "2026-10-02T08:11:00+00:00"
+    },
+    {
+     "start": "2026-10-02T08:11:00+00:00",
+     "title": "The Wolfman",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A nobleman (Anthony Hopkins) uncovers a horrifying curse as he searches for his missing brother.",
+     "stop": "2026-10-02T09:54:00+00:00"
+    },
+    {
+     "start": "2026-10-02T09:54:00+00:00",
+     "title": "Shadows",
+     "episode": "Short Film \u2022 2020",
+     "desc": "A high school student explores her independence on homecoming night away from her watchful family.",
+     "stop": "2026-10-02T10:11:00+00:00"
+    },
+    {
+     "start": "2026-10-02T10:11:00+00:00",
+     "title": "Scanners",
+     "episode": "Feature Film \u2022 1981",
+     "desc": "Man (Stephen Lack) with explosive psychic powers hunts others.",
+     "stop": "2026-10-02T11:55:00+00:00"
+    },
+    {
+     "start": "2026-10-02T11:55:00+00:00",
+     "title": "The Return of Godzilla",
+     "episode": "Feature Film \u2022 1984",
+     "desc": "Biologist Hayashida hears Okumura's story and concludes that Godzilla has come back to life.",
+     "stop": "2026-10-02T13:39:00+00:00"
+    },
+    {
+     "start": "2026-10-02T13:39:00+00:00",
+     "title": "The Art of Getting By",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "A disaffected teenager (Freddie Highmore) meets a kindred spirit (Emma Roberts).",
+     "stop": "2026-10-02T15:03:00+00:00"
+    },
+    {
+     "start": "2026-10-02T15:03:00+00:00",
+     "title": "The Hobbit",
+     "episode": "TV Movie \u2022 1977",
+     "desc": "J.R.R. Tolkien's wee Bilbo Baggins helps dwarves fight the dragon Smaug.",
+     "stop": "2026-10-02T16:21:00+00:00"
+    },
+    {
+     "start": "2026-10-02T16:21:00+00:00",
+     "title": "A Clockwork Orange",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Alex and his droogs barbarize in a decaying near-future.",
+     "stop": "2026-10-02T18:38:00+00:00"
+    },
+    {
+     "start": "2026-10-02T18:38:00+00:00",
+     "title": "Ghidorah, the Three-Headed Monster",
+     "episode": "Feature Film \u2022 1964",
+     "desc": "Godzilla, Mothra and Rodan battle a flying dragon which threatens Tokyo.",
+     "stop": "2026-10-02T20:12:00+00:00"
+    },
+    {
+     "start": "2026-10-02T20:12:00+00:00",
+     "title": "Just Friends",
+     "episode": "Feature Film \u2022 2005",
+     "desc": "A music executive (Ryan Reynolds) tries to woo his high-school crush (Amy Smart).",
+     "stop": "2026-10-02T21:48:00+00:00"
+    },
+    {
+     "start": "2026-10-02T21:48:00+00:00",
+     "title": "My Big Fat Greek Wedding",
+     "episode": "Feature Film \u2022 2002",
+     "desc": "A woman (Nia Vardalos) wants her family to accept her true love (John Corbett).",
+     "stop": "2026-10-02T23:23:00+00:00"
+    },
+    {
+     "start": "2026-10-02T23:23:00+00:00",
+     "title": "Crazy, Stupid, Love.",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "A suddenly single 40-something (Steve Carell) needs help finding his groove again.",
+     "stop": "2026-10-03T01:22:00+00:00"
+    },
+    {
+     "start": "2026-10-03T01:22:00+00:00",
+     "title": "Hall Pass",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "Two men get permission from their wives to spend one week doing whatever they please.",
+     "stop": "2026-10-03T03:08:00+00:00"
+    },
+    {
+     "start": "2026-10-03T03:08:00+00:00",
+     "title": "Tyler Perry&#8217;s Madea&#8217;s Witness Protection",
+     "episode": "Feature Film \u2022 2012",
+     "desc": "Madea uses tough love on a Wall Street banker and his family.",
+     "stop": "2026-10-03T03:38:00+00:00"
+    },
+    {
+     "start": "2026-10-03T05:03:00+00:00",
+     "title": "Godzilla vs. Gigan",
+     "episode": "Feature Film \u2022 1972",
+     "desc": "Godzilla and Anguirus fight three-headed dragon Ghidorah and huge bird Gigan.",
+     "stop": "2026-10-03T06:33:00+00:00"
+    },
+    {
+     "start": "2026-10-03T06:33:00+00:00",
+     "title": "The Usual Suspects",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "A detective questions a con man about his relationships with assorted criminals and an explosion.",
+     "stop": "2026-10-03T08:20:00+00:00"
+    },
+    {
+     "start": "2026-10-03T08:20:00+00:00",
+     "title": "The Switch",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A woman (Jennifer Aniston) uses a friend's (Jason Bateman) sperm, unknowingly, to get pregnant.",
+     "stop": "2026-10-03T10:04:00+00:00"
+    },
+    {
+     "start": "2026-10-03T10:04:00+00:00",
+     "title": "Godzilla Raids Again",
+     "episode": "Feature Film \u2022 1955",
+     "desc": "Prehistoric monsters Godzilla and Anguirus battle it out in Osaka, Japan.",
+     "stop": "2026-10-03T11:26:00+00:00"
+    },
+    {
+     "start": "2026-10-03T11:26:00+00:00",
+     "title": "Godzilla vs. Hedorah",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Godzilla battles a monster that bloats itself on factory and automobile waste.",
+     "stop": "2026-10-03T12:52:00+00:00"
+    },
+    {
+     "start": "2026-10-03T12:52:00+00:00",
+     "title": "Godzilla vs. Megalon",
+     "episode": "Feature Film \u2022 1973",
+     "desc": "Godzilla and Jet Jaguar meet big cockroach and black chicken.",
+     "stop": "2026-10-03T14:14:00+00:00"
+    },
+    {
+     "start": "2026-10-03T14:14:00+00:00",
+     "title": "Godzilla vs. King Ghidorah",
+     "episode": "Feature Film \u2022 1991",
+     "desc": "Time travelers from the 23rd century hope to stop Godzilla's creation so they can destroy Japan.",
+     "stop": "2026-10-03T15:57:00+00:00"
+    },
+    {
+     "start": "2026-10-03T15:57:00+00:00",
+     "title": "Catfish",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "The paintings of a girl, supposedly 8 years old, lead a filmmaker's brother on an unusual odyssey.",
+     "stop": "2026-10-03T17:25:00+00:00"
+    },
+    {
+     "start": "2026-10-03T17:25:00+00:00",
+     "title": "Sweet Dreams",
+     "episode": "Feature Film \u2022 1985",
+     "desc": "Country singer Patsy Cline (Jessica Lange) on the road to tragic stardom.",
+     "stop": "2026-10-03T19:21:00+00:00"
+    },
+    {
+     "start": "2026-10-03T19:21:00+00:00",
+     "title": "A Streetcar Named Desire",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "A brute (Marlon Brando) clashes with his wife's (Kim Hunter) neurotic sister (Vivien Leigh).",
+     "stop": "2026-10-03T21:26:00+00:00"
+    },
+    {
+     "start": "2026-10-03T21:26:00+00:00",
+     "title": "Despicable Me",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "One of the world's greatest villains meets his match in three little orphans.",
+     "stop": "2026-10-03T23:01:00+00:00"
+    },
+    {
+     "start": "2026-10-03T23:01:00+00:00",
+     "title": "The Hangover Part II",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "An adventure ensues when Phil, Stu, Alan and Doug head to Thailand for Stu's wedding.",
+     "stop": "2026-10-04T00:43:00+00:00"
+    },
+    {
+     "start": "2026-10-04T00:43:00+00:00",
+     "title": "The Player",
+     "episode": "Feature Film \u2022 1992",
+     "desc": "Real-life movie stars fringe the satire of a Hollywood studio executive who gets away with murder.",
+     "stop": "2026-10-04T02:48:00+00:00"
+    },
+    {
+     "start": "2026-10-04T02:48:00+00:00",
+     "title": "Batman",
+     "episode": "Feature Film \u2022 1989",
+     "desc": "Caped Crusader (Michael Keaton) saves Gotham City from the Joker (Jack Nicholson).",
+     "stop": "2026-10-04T03:18:00+00:00"
+    },
+    {
+     "start": "2026-10-04T04:55:00+00:00",
+     "title": "Batman Returns",
+     "episode": "Feature Film \u2022 1992",
+     "desc": "Caped Crusader (Michael Keaton) vs. Penguin (Danny DeVito) and Catwoman (Michelle Pfeiffer).",
+     "stop": "2026-10-04T07:02:00+00:00"
+    },
+    {
+     "start": "2026-10-04T07:02:00+00:00",
+     "title": "Batman Forever",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "Batman (Val Kilmer) battles Two-Face (Tommy Lee Jones) and the Riddler (Jim Carrey).",
+     "stop": "2026-10-04T09:04:00+00:00"
+    },
+    {
+     "start": "2026-10-04T09:04:00+00:00",
+     "title": "Batman &#038; Robin",
+     "episode": "Feature Film \u2022 1997",
+     "desc": "Batgirl joins the caped crusaders to stop Mr. Freeze and Poison Ivy from wreaking revenge.",
+     "stop": "2026-10-04T11:11:00+00:00"
+    },
+    {
+     "start": "2026-10-04T11:11:00+00:00",
+     "title": "Hop",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "The Easter Bunny's reluctant heir (Russell Brand) goes to L.A. and lives with a slacker.",
+     "stop": "2026-10-04T12:46:00+00:00"
+    },
+    {
+     "start": "2026-10-04T12:46:00+00:00",
+     "title": "Robin Hood",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A skilled archer (Russell Crowe) and his men fight to free Nottingham from its despotic sheriff.",
+     "stop": "2026-10-04T15:07:00+00:00"
+    },
+    {
+     "start": "2026-10-04T15:07:00+00:00",
+     "title": "Ocean&#8217;s 11",
+     "episode": "Feature Film \u2022 1960",
+     "desc": "A crook (Frank Sinatra) and his 10 war buddies plan to rob five Las Vegas casinos on New Year's Eve.",
+     "stop": "2026-10-04T17:15:00+00:00"
+    },
+    {
+     "start": "2026-10-04T17:15:00+00:00",
+     "title": "Ocean&#8217;s Eleven",
+     "episode": "Feature Film \u2022 2001",
+     "desc": "Danny Ocean and his gang organize a big Las Vegas heist to steal $150 million.",
+     "stop": "2026-10-04T19:12:00+00:00"
+    },
+    {
+     "start": "2026-10-04T19:12:00+00:00",
+     "title": "Ocean&#8217;s Twelve",
+     "episode": "Feature Film \u2022 2004",
+     "desc": "After successfully robbing five casinos in one night, Danny Ocean and his crew have big problems.",
+     "stop": "2026-10-04T21:18:00+00:00"
+    },
+    {
+     "start": "2026-10-04T21:18:00+00:00",
+     "title": "Ocean&#8217;s Thirteen",
+     "episode": "Feature Film \u2022 2007",
+     "desc": "Danny Ocean and his gang plot revenge against a casino owner who wronged one of their own.",
+     "stop": "2026-10-04T23:21:00+00:00"
+    },
+    {
+     "start": "2026-10-04T23:21:00+00:00",
+     "title": "The Blair Witch Project",
+     "episode": "Feature Film \u2022 1999",
+     "desc": "Filmmakers (Heather Donahue, Michael C. Williams, Joshua Leonard) seek clues about a legendary witch.",
+     "stop": "2026-10-05T00:43:00+00:00"
+    },
+    {
+     "start": "2026-10-05T00:43:00+00:00",
+     "title": "Book of Shadows: Blair Witch 2",
+     "episode": "Feature Film \u2022 2000",
+     "desc": "Burkittsville campers wake to a chaotic scene.",
+     "stop": "2026-10-05T02:14:00+00:00"
+    },
+    {
+     "start": "2026-10-05T02:14:00+00:00",
+     "title": "Little Shop of Horrors",
+     "episode": "Feature Film \u2022 1986",
+     "desc": "A flower-shop clerk (Rick Moranis) feeds people to his alien talking plant.",
+     "stop": "2026-10-05T03:48:00+00:00"
+    },
+    {
+     "start": "2026-10-05T03:48:00+00:00",
+     "title": "Mass Ave",
+     "episode": "Short Film \u2022 2021",
+     "desc": "A racial profiling incident forever changes the relationship between a man and his son.",
+     "stop": "2026-10-05T04:18:00+00:00"
+    },
+    {
+     "start": "2026-10-05T04:09:00+00:00",
+     "title": "Get Him to the Greek",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A record exec must bring a boozy, lovestruck rock star to Hollywood for a big concert.",
+     "stop": "2026-10-05T05:59:00+00:00"
+    },
+    {
+     "start": "2026-10-05T05:59:00+00:00",
+     "title": "Destroy All Monsters!",
+     "episode": "Feature Film \u2022 1968",
+     "desc": "Scientists face Godzilla, Rodan, Mothra and lesser monsters.",
+     "stop": "2026-10-05T07:29:00+00:00"
+    },
+    {
+     "start": "2026-10-05T07:29:00+00:00",
+     "title": "Open Water",
+     "episode": "Feature Film \u2022 2003",
+     "desc": "Scuba divers (Blanchard Ryan, Daniel Travis) become stranded in shark-infested waters.",
+     "stop": "2026-10-05T08:49:00+00:00"
+    },
+    {
+     "start": "2026-10-05T08:49:00+00:00",
+     "title": "Dr. Seuss&#8217; Horton Hears a Who!",
+     "episode": "Feature Film \u2022 2008",
+     "desc": "An elephant discovers a tiny community that lives on a dust mote.",
+     "stop": "2026-10-05T10:18:00+00:00"
+    },
+    {
+     "start": "2026-10-05T10:18:00+00:00",
+     "title": "Christmas With the Kranks",
+     "episode": "Feature Film \u2022 2004",
+     "desc": "A couple scramble to put together a holiday celebration after their daughter decides to come home.",
+     "stop": "2026-10-05T11:57:00+00:00"
+    },
+    {
+     "start": "2026-10-05T11:57:00+00:00",
+     "title": "They All Laughed",
+     "episode": "Feature Film \u2022 1981",
+     "desc": "New York private eyes (Ben Gazzara, John Ritter) fall for wives they're following.",
+     "stop": "2026-10-05T13:53:00+00:00"
+    },
+    {
+     "start": "2026-10-05T13:53:00+00:00",
+     "title": "The Hitcher",
+     "episode": "Feature Film \u2022 1986",
+     "desc": "A teen motorist (C. Thomas Howell) cannot get away from a psycho (Rutger Hauer).",
+     "stop": "2026-10-05T15:31:00+00:00"
+    },
+    {
+     "start": "2026-10-05T15:31:00+00:00",
+     "title": "Due Date",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A high-strung man (Robert Downey Jr.) takes a road trip with an annoying stranger.",
+     "stop": "2026-10-05T17:07:00+00:00"
+    },
+    {
+     "start": "2026-10-05T17:07:00+00:00",
+     "title": "The Wolfman",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A nobleman (Anthony Hopkins) uncovers a horrifying curse as he searches for his missing brother.",
+     "stop": "2026-10-05T18:50:00+00:00"
+    },
+    {
+     "start": "2026-10-05T18:50:00+00:00",
+     "title": "They All Laughed",
+     "episode": "Feature Film \u2022 1981",
+     "desc": "New York private eyes (Ben Gazzara, John Ritter) fall for wives they're following.",
+     "stop": "2026-10-05T20:46:00+00:00"
+    },
+    {
+     "start": "2026-10-05T20:46:00+00:00",
+     "title": "MacGruber",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A clueless soldier-of-fortune (Will Forte) must retrieve a stolen nuke from his sworn enemy.",
+     "stop": "2026-10-05T22:17:00+00:00"
+    },
+    {
+     "start": "2026-10-05T22:17:00+00:00",
+     "title": "Mom and Dad Save the World",
+     "episode": "Feature Film \u2022 1992",
+     "desc": "Stupid planet emperor (Jon Lovitz) beams up California couple (Teri Garr, Jeffrey Jones).",
+     "stop": "2026-10-05T23:46:00+00:00"
+    },
+    {
+     "start": "2026-10-05T23:46:00+00:00",
+     "title": "Space Jam",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "NBA star Michael Jordan helps the good Looney Tunes take on the bad Monstars in a basketball game.",
+     "stop": "2026-10-06T01:14:00+00:00"
+    },
+    {
+     "start": "2026-10-06T01:14:00+00:00",
+     "title": "Head Office",
+     "episode": "Feature Film \u2022 1986",
+     "desc": "U.S. senator's son (Judge Reinhold) gets job at unethical conglomerate.",
+     "stop": "2026-10-06T02:46:00+00:00"
+    },
+    {
+     "start": "2026-10-06T02:46:00+00:00",
+     "title": "The Daytrippers",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "Kin (Pat McNamara, Anne Meara) help woman (Hope Davis) confront apparently unfaithful husband.",
+     "stop": "2026-10-06T03:16:00+00:00"
+    },
+    {
+     "start": "2026-10-06T04:13:00+00:00",
+     "title": "Due Date",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A high-strung man (Robert Downey Jr.) takes a road trip with an annoying stranger.",
+     "stop": "2026-10-06T05:49:00+00:00"
+    },
+    {
+     "start": "2026-10-06T05:49:00+00:00",
+     "title": "Rodan",
+     "episode": "Feature Film \u2022 1957",
+     "desc": "A bug-eating pterodactyl flies out of a coal mine and wrecks Japan with sonic booms.",
+     "stop": "2026-10-06T07:12:00+00:00"
+    },
+    {
+     "start": "2026-10-06T07:12:00+00:00",
+     "title": "Contagion",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "Around the world, doctors race to find a cure for a rapidly spreading virus that kills within days.",
+     "stop": "2026-10-06T08:59:00+00:00"
+    },
+    {
+     "start": "2026-10-06T08:59:00+00:00",
+     "title": "Halloween H20: 20 Years Later",
+     "episode": "Feature Film \u2022 1998",
+     "desc": "A woman's (Jamie Lee Curtis) lethal brother returns for her 20 years later.",
+     "stop": "2026-10-06T10:28:00+00:00"
+    },
+    {
+     "start": "2026-10-06T10:28:00+00:00",
+     "title": "Carrie",
+     "episode": "Feature Film \u2022 1976",
+     "desc": "A telekinetic social misfit (Sissy Spacek) wreaks havoc at the prom.",
+     "stop": "2026-10-06T12:07:00+00:00"
+    },
+    {
+     "start": "2026-10-06T12:07:00+00:00",
+     "title": "Son of Godzilla",
+     "episode": "Feature Film \u2022 1967",
+     "desc": "A scientist heats Godzilla's egg, hatching Minya.",
+     "stop": "2026-10-06T13:33:00+00:00"
+    },
+    {
+     "start": "2026-10-06T13:33:00+00:00",
+     "title": "Switch",
+     "episode": "Feature Film \u2022 1991",
+     "desc": "Slain playboy returns as sexy woman (Ellen Barkin) with male mind.",
+     "stop": "2026-10-06T15:17:00+00:00"
+    },
+    {
+     "start": "2026-10-06T15:17:00+00:00",
+     "title": "The Usual Suspects",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "A detective questions a con man about his relationships with assorted criminals and an explosion.",
+     "stop": "2026-10-06T17:04:00+00:00"
+    },
+    {
+     "start": "2026-10-06T17:04:00+00:00",
+     "title": "The Art of Getting By",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "A disaffected teenager (Freddie Highmore) meets a kindred spirit (Emma Roberts).",
+     "stop": "2026-10-06T18:28:00+00:00"
+    },
+    {
+     "start": "2026-10-06T18:28:00+00:00",
+     "title": "A Clockwork Orange",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Alex and his droogs barbarize in a decaying near-future.",
+     "stop": "2026-10-06T20:45:00+00:00"
+    },
+    {
+     "start": "2026-10-06T20:45:00+00:00",
+     "title": "Tyler Perry&#8217;s Madea&#8217;s Witness Protection",
+     "episode": "Feature Film \u2022 2012",
+     "desc": "Madea uses tough love on a Wall Street banker and his family.",
+     "stop": "2026-10-06T22:40:00+00:00"
+    },
+    {
+     "start": "2026-10-06T22:40:00+00:00",
+     "title": "Hall Pass",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "Two men get permission from their wives to spend one week doing whatever they please.",
+     "stop": "2026-10-07T00:26:00+00:00"
+    },
+    {
+     "start": "2026-10-07T00:26:00+00:00",
+     "title": "Crazy, Stupid, Love.",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "A suddenly single 40-something (Steve Carell) needs help finding his groove again.",
+     "stop": "2026-10-07T02:25:00+00:00"
+    },
+    {
+     "start": "2026-10-07T02:25:00+00:00",
+     "title": "Ghidorah, the Three-Headed Monster",
+     "episode": "Feature Film \u2022 1964",
+     "desc": "Godzilla, Mothra and Rodan battle a flying dragon which threatens Tokyo.",
+     "stop": "2026-10-07T03:59:00+00:00"
+    },
+    {
+     "start": "2026-10-07T03:59:00+00:00",
+     "title": "The Return of Godzilla",
+     "episode": "Feature Film \u2022 1984",
+     "desc": "Biologist Hayashida hears Okumura's story and concludes that Godzilla has come back to life.",
+     "stop": "2026-10-07T04:29:00+00:00"
+    },
+    {
+     "start": "2026-10-07T05:43:00+00:00",
+     "title": "Scanners",
+     "episode": "Feature Film \u2022 1981",
+     "desc": "Man (Stephen Lack) with explosive psychic powers hunts others.",
+     "stop": "2026-10-07T07:27:00+00:00"
+    },
+    {
+     "start": "2026-10-07T07:27:00+00:00",
+     "title": "The Hobbit",
+     "episode": "TV Movie \u2022 1977",
+     "desc": "J.R.R. Tolkien's wee Bilbo Baggins helps dwarves fight the dragon Smaug.",
+     "stop": "2026-10-07T08:45:00+00:00"
+    },
+    {
+     "start": "2026-10-07T08:45:00+00:00",
+     "title": "Just Friends",
+     "episode": "Feature Film \u2022 2005",
+     "desc": "A music executive (Ryan Reynolds) tries to woo his high-school crush (Amy Smart).",
+     "stop": "2026-10-07T10:23:00+00:00"
+    },
+    {
+     "start": "2026-10-07T10:23:00+00:00",
+     "title": "Ricochet",
+     "episode": "Feature Film \u2022 1991",
+     "desc": "Hit man (John Lithgow) seeks revenge on policeman turned DA (Denzel Washington).",
+     "stop": "2026-10-07T12:06:00+00:00"
+    },
+    {
+     "start": "2026-10-07T12:06:00+00:00",
+     "title": "Batman",
+     "episode": "Feature Film \u2022 1989",
+     "desc": "Caped Crusader (Michael Keaton) saves Gotham City from the Joker (Jack Nicholson).",
+     "stop": "2026-10-07T14:13:00+00:00"
+    },
+    {
+     "start": "2026-10-07T14:13:00+00:00",
+     "title": "Batman Returns",
+     "episode": "Feature Film \u2022 1992",
+     "desc": "Caped Crusader (Michael Keaton) vs. Penguin (Danny DeVito) and Catwoman (Michelle Pfeiffer).",
+     "stop": "2026-10-07T16:20:00+00:00"
+    },
+    {
+     "start": "2026-10-07T16:20:00+00:00",
+     "title": "Batman Forever",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "Batman (Val Kilmer) battles Two-Face (Tommy Lee Jones) and the Riddler (Jim Carrey).",
+     "stop": "2026-10-07T18:22:00+00:00"
+    },
+    {
+     "start": "2026-10-07T18:22:00+00:00",
+     "title": "Batman &#038; Robin",
+     "episode": "Feature Film \u2022 1997",
+     "desc": "Batgirl joins the caped crusaders to stop Mr. Freeze and Poison Ivy from wreaking revenge.",
+     "stop": "2026-10-07T20:27:00+00:00"
+    },
+    {
+     "start": "2026-10-07T20:27:00+00:00",
+     "title": "The Player",
+     "episode": "Feature Film \u2022 1992",
+     "desc": "Real-life movie stars fringe the satire of a Hollywood studio executive who gets away with murder.",
+     "stop": "2026-10-07T22:32:00+00:00"
+    },
+    {
+     "start": "2026-10-07T22:32:00+00:00",
+     "title": "Walk the Line",
+     "episode": "Feature Film \u2022 2005",
+     "desc": "The story of music legends Johnny Cash (Joaquin Phoenix) and June Carter Cash (Reese Witherspoon).",
+     "stop": "2026-10-08T00:48:00+00:00"
+    },
+    {
+     "start": "2026-10-08T00:48:00+00:00",
+     "title": "Despicable Me",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "One of the world's greatest villains meets his match in three little orphans.",
+     "stop": "2026-10-08T02:23:00+00:00"
+    },
+    {
+     "start": "2026-10-08T02:23:00+00:00",
+     "title": "Godzilla Raids Again",
+     "episode": "Feature Film \u2022 1955",
+     "desc": "Prehistoric monsters Godzilla and Anguirus battle it out in Osaka, Japan.",
+     "stop": "2026-10-08T03:45:00+00:00"
+    },
+    {
+     "start": "2026-10-08T03:45:00+00:00",
+     "title": "The Man",
+     "episode": "Feature Film \u2022 2005",
+     "desc": "An ATF agent (Samuel L. Jackson) squabbles with a salesman (Eugene Levy) in his custody.",
+     "stop": "2026-10-08T04:15:00+00:00"
+    },
+    {
+     "start": "2026-10-08T05:09:00+00:00",
+     "title": "A Streetcar Named Desire",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "A brute (Marlon Brando) clashes with his wife's (Kim Hunter) neurotic sister (Vivien Leigh).",
+     "stop": "2026-10-08T07:14:00+00:00"
+    },
+    {
+     "start": "2026-10-08T07:14:00+00:00",
+     "title": "Godzilla vs. Hedorah",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Godzilla battles a monster that bloats itself on factory and automobile waste.",
+     "stop": "2026-10-08T08:40:00+00:00"
+    },
+    {
+     "start": "2026-10-08T08:40:00+00:00",
+     "title": "Sweet Dreams",
+     "episode": "Feature Film \u2022 1985",
+     "desc": "Country singer Patsy Cline (Jessica Lange) on the road to tragic stardom.",
+     "stop": "2026-10-08T10:38:00+00:00"
+    },
+    {
+     "start": "2026-10-08T10:38:00+00:00",
+     "title": "Get Him to the Greek",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A record exec must bring a boozy, lovestruck rock star to Hollywood for a big concert.",
+     "stop": "2026-10-08T12:28:00+00:00"
+    },
+    {
+     "start": "2026-10-08T12:28:00+00:00",
+     "title": "Destroy All Monsters!",
+     "episode": "Feature Film \u2022 1968",
+     "desc": "Scientists face Godzilla, Rodan, Mothra and lesser monsters.",
+     "stop": "2026-10-08T13:58:00+00:00"
+    },
+    {
+     "start": "2026-10-08T13:58:00+00:00",
+     "title": "A History of Violence",
+     "episode": "Feature Film \u2022 2005",
+     "desc": "Vicious criminals harass a man (Viggo Mortensen) and his wife (Maria Bello) and family.",
+     "stop": "2026-10-08T15:34:00+00:00"
+    },
+    {
+     "start": "2026-10-08T15:34:00+00:00",
+     "title": "Open Water",
+     "episode": "Feature Film \u2022 2003",
+     "desc": "Scuba divers (Blanchard Ryan, Daniel Travis) become stranded in shark-infested waters.",
+     "stop": "2026-10-08T16:54:00+00:00"
+    },
+    {
+     "start": "2026-10-08T16:54:00+00:00",
+     "title": "Godzilla, King of the Monsters!",
+     "episode": "Feature Film \u2022 1956",
+     "desc": "U.S. newsman (Raymond Burr) in Tokyo recalls big dinosaur roused by nuke blast.",
+     "stop": "2026-10-08T18:16:00+00:00"
+    },
+    {
+     "start": "2026-10-08T18:16:00+00:00",
+     "title": "Green Zone",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "Army inspectors sniff out a huge cover-up while looking for weapons of mass destruction in Iraq.",
+     "stop": "2026-10-08T20:11:00+00:00"
+    },
+    {
+     "start": "2026-10-08T20:11:00+00:00",
+     "title": "Hop",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "The Easter Bunny's reluctant heir (Russell Brand) goes to L.A. and lives with a slacker.",
+     "stop": "2026-10-08T21:46:00+00:00"
+    },
+    {
+     "start": "2026-10-08T21:46:00+00:00",
+     "title": "Dr. Seuss&#8217; Horton Hears a Who!",
+     "episode": "Feature Film \u2022 2008",
+     "desc": "An elephant discovers a tiny community that lives on a dust mote.",
+     "stop": "2026-10-08T23:13:00+00:00"
+    },
+    {
+     "start": "2026-10-08T23:13:00+00:00",
+     "title": "Nanny McPhee Returns",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A nanny (Emma Thompson) uses magic to teach mischievous children a lesson.",
+     "stop": "2026-10-09T01:02:00+00:00"
+    },
+    {
+     "start": "2026-10-09T01:02:00+00:00",
+     "title": "Robin Hood",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A skilled archer (Russell Crowe) and his men fight to free Nottingham from its despotic sheriff.",
+     "stop": "2026-10-09T03:23:00+00:00"
+    },
+    {
+     "start": "2026-10-09T03:23:00+00:00",
+     "title": "The Blair Witch Project",
+     "episode": "Feature Film \u2022 1999",
+     "desc": "Filmmakers (Heather Donahue, Michael C. Williams, Joshua Leonard) seek clues about a legendary witch.",
+     "stop": "2026-10-09T03:53:00+00:00"
+    },
+    {
+     "start": "2026-10-09T04:45:00+00:00",
+     "title": "Book of Shadows: Blair Witch 2",
+     "episode": "Feature Film \u2022 2000",
+     "desc": "Burkittsville campers wake to a chaotic scene.",
+     "stop": "2026-10-09T06:16:00+00:00"
+    },
+    {
+     "start": "2026-10-09T06:16:00+00:00",
+     "title": "Mothra vs. Godzilla",
+     "episode": "Feature Film \u2022 1964",
+     "desc": "Mothra defends her offspring when Godzilla invades their Pacific island nursery.",
+     "stop": "2026-10-09T07:45:00+00:00"
+    },
+    {
+     "start": "2026-10-09T07:45:00+00:00",
+     "title": "Ocean&#8217;s Eleven",
+     "episode": "Feature Film \u2022 2001",
+     "desc": "Danny Ocean and his gang organize a big Las Vegas heist to steal $150 million.",
+     "stop": "2026-10-09T09:42:00+00:00"
+    },
+    {
+     "start": "2026-10-09T09:42:00+00:00",
+     "title": "User Zero",
+     "episode": "Short Film \u2022 2024",
+     "desc": "A passionate neuroscientist must save her patients from her own invention before losing her mind.",
+     "stop": "2026-10-09T10:01:00+00:00"
+    },
+    {
+     "start": "2026-10-09T10:01:00+00:00",
+     "title": "Full Metal Jacket",
+     "episode": "Feature Film \u2022 1987",
+     "desc": "A Marine and his companions endure basic training under a sadistic drill sergeant.",
+     "stop": "2026-10-09T11:58:00+00:00"
+    },
+    {
+     "start": "2026-10-09T11:58:00+00:00",
+     "title": "Due Date",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A high-strung man (Robert Downey Jr.) takes a road trip with an annoying stranger.",
+     "stop": "2026-10-09T13:34:00+00:00"
+    },
+    {
+     "start": "2026-10-09T13:34:00+00:00",
+     "title": "The Hitcher",
+     "episode": "Feature Film \u2022 1986",
+     "desc": "A teen motorist (C. Thomas Howell) cannot get away from a psycho (Rutger Hauer).",
+     "stop": "2026-10-09T15:12:00+00:00"
+    },
+    {
+     "start": "2026-10-09T15:12:00+00:00",
+     "title": "They All Laughed",
+     "episode": "Feature Film \u2022 1981",
+     "desc": "New York private eyes (Ben Gazzara, John Ritter) fall for wives they're following.",
+     "stop": "2026-10-09T17:08:00+00:00"
+    },
+    {
+     "start": "2026-10-09T17:08:00+00:00",
+     "title": "Mom and Dad Save the World",
+     "episode": "Feature Film \u2022 1992",
+     "desc": "Stupid planet emperor (Jon Lovitz) beams up California couple (Teri Garr, Jeffrey Jones).",
+     "stop": "2026-10-09T18:37:00+00:00"
+    },
+    {
+     "start": "2026-10-09T18:37:00+00:00",
+     "title": "Head Office",
+     "episode": "Feature Film \u2022 1986",
+     "desc": "U.S. senator's son (Judge Reinhold) gets job at unethical conglomerate.",
+     "stop": "2026-10-09T20:09:00+00:00"
+    },
+    {
+     "start": "2026-10-09T20:09:00+00:00",
+     "title": "The Daytrippers",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "Kin (Pat McNamara, Anne Meara) help woman (Hope Davis) confront apparently unfaithful husband.",
+     "stop": "2026-10-09T21:36:00+00:00"
+    },
+    {
+     "start": "2026-10-09T21:36:00+00:00",
+     "title": "Contagion",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "Around the world, doctors race to find a cure for a rapidly spreading virus that kills within days.",
+     "stop": "2026-10-09T23:23:00+00:00"
+    },
+    {
+     "start": "2026-10-09T23:23:00+00:00",
+     "title": "Halloween: The Curse of Michael Myers",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "An ancient Celtic ritual drives Dr. Loomis' patient to sacrifice an entire family in Illinois.",
+     "stop": "2026-10-10T00:51:00+00:00"
+    },
+    {
+     "start": "2026-10-10T00:51:00+00:00",
+     "title": "Halloween H20: 20 Years Later",
+     "episode": "Feature Film \u2022 1998",
+     "desc": "A woman's (Jamie Lee Curtis) lethal brother returns for her 20 years later.",
+     "stop": "2026-10-10T02:18:00+00:00"
+    },
+    {
+     "start": "2026-10-10T02:18:00+00:00",
+     "title": "Halloween: Resurrection",
+     "episode": "Feature Film \u2022 2002",
+     "desc": "Collegians spend the night in Michael Myers' (Brad Loree) childhood home.",
+     "stop": "2026-10-10T03:48:00+00:00"
+    },
+    {
+     "start": "2026-10-10T03:48:00+00:00",
+     "title": "Space Jam",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "NBA star Michael Jordan helps the good Looney Tunes take on the bad Monstars in a basketball game.",
+     "stop": "2026-10-10T04:18:00+00:00"
+    },
+    {
+     "start": "2026-10-10T05:16:00+00:00",
+     "title": "Christmas With the Kranks",
+     "episode": "Feature Film \u2022 2004",
+     "desc": "A couple scramble to put together a holiday celebration after their daughter decides to come home.",
+     "stop": "2026-10-10T06:55:00+00:00"
+    },
+    {
+     "start": "2026-10-10T06:55:00+00:00",
+     "title": "Rodan",
+     "episode": "Feature Film \u2022 1957",
+     "desc": "A bug-eating pterodactyl flies out of a coal mine and wrecks Japan with sonic booms.",
+     "stop": "2026-10-10T08:18:00+00:00"
+    },
+    {
+     "start": "2026-10-10T08:18:00+00:00",
+     "title": "Godzilla vs. Mechagodzilla",
+     "episode": "Feature Film \u2022 1974",
+     "desc": "An Okinawan monster-god helps Godzilla defeat his bionic double.",
+     "stop": "2026-10-10T09:43:00+00:00"
+    },
+    {
+     "start": "2026-10-10T09:43:00+00:00",
+     "title": "MacGruber",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A clueless soldier-of-fortune (Will Forte) must retrieve a stolen nuke from his sworn enemy.",
+     "stop": "2026-10-10T11:16:00+00:00"
+    },
+    {
+     "start": "2026-10-10T11:16:00+00:00",
+     "title": "The Usual Suspects",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "A detective questions a con man about his relationships with assorted criminals and an explosion.",
+     "stop": "2026-10-10T13:03:00+00:00"
+    },
+    {
+     "start": "2026-10-10T13:03:00+00:00",
+     "title": "Scanners",
+     "episode": "Feature Film \u2022 1981",
+     "desc": "Man (Stephen Lack) with explosive psychic powers hunts others.",
+     "stop": "2026-10-10T14:47:00+00:00"
+    },
+    {
+     "start": "2026-10-10T14:47:00+00:00",
+     "title": "Just Friends",
+     "episode": "Feature Film \u2022 2005",
+     "desc": "A music executive (Ryan Reynolds) tries to woo his high-school crush (Amy Smart).",
+     "stop": "2026-10-10T16:23:00+00:00"
+    },
+    {
+     "start": "2026-10-10T16:23:00+00:00",
+     "title": "Crazy, Stupid, Love.",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "A suddenly single 40-something (Steve Carell) needs help finding his groove again.",
+     "stop": "2026-10-10T18:22:00+00:00"
+    },
+    {
+     "start": "2026-10-10T18:22:00+00:00",
+     "title": "My Big Fat Greek Wedding",
+     "episode": "Feature Film \u2022 2002",
+     "desc": "A woman (Nia Vardalos) wants her family to accept her true love (John Corbett).",
+     "stop": "2026-10-10T19:57:00+00:00"
+    },
+    {
+     "start": "2026-10-10T19:57:00+00:00",
+     "title": "Hall Pass",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "Two men get permission from their wives to spend one week doing whatever they please.",
+     "stop": "2026-10-10T21:43:00+00:00"
+    },
+    {
+     "start": "2026-10-10T21:43:00+00:00",
+     "title": "The Switch",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A woman (Jennifer Aniston) uses a friend's (Jason Bateman) sperm, unknowingly, to get pregnant.",
+     "stop": "2026-10-10T23:25:00+00:00"
+    },
+    {
+     "start": "2026-10-10T23:25:00+00:00",
+     "title": "Tyler Perry&#8217;s Madea&#8217;s Witness Protection",
+     "episode": "Feature Film \u2022 2012",
+     "desc": "Madea uses tough love on a Wall Street banker and his family.",
+     "stop": "2026-10-11T01:20:00+00:00"
+    },
+    {
+     "start": "2026-10-11T01:20:00+00:00",
+     "title": "The Art of Getting By",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "A disaffected teenager (Freddie Highmore) meets a kindred spirit (Emma Roberts).",
+     "stop": "2026-10-11T02:44:00+00:00"
+    },
+    {
+     "start": "2026-10-11T02:44:00+00:00",
+     "title": "Carrie",
+     "episode": "Feature Film \u2022 1976",
+     "desc": "A telekinetic social misfit (Sissy Spacek) wreaks havoc at the prom.",
+     "stop": "2026-10-11T03:14:00+00:00"
+    },
+    {
+     "start": "2026-10-11T04:23:00+00:00",
+     "title": "Godzilla vs. Gigan",
+     "episode": "Feature Film \u2022 1972",
+     "desc": "Godzilla and Anguirus fight three-headed dragon Ghidorah and huge bird Gigan.",
+     "stop": "2026-10-11T05:53:00+00:00"
+    },
+    {
+     "start": "2026-10-11T05:53:00+00:00",
+     "title": "The Hobbit",
+     "episode": "TV Movie \u2022 1977",
+     "desc": "J.R.R. Tolkien's wee Bilbo Baggins helps dwarves fight the dragon Smaug.",
+     "stop": "2026-10-11T07:11:00+00:00"
+    },
+    {
+     "start": "2026-10-11T07:11:00+00:00",
+     "title": "Ghidorah, the Three-Headed Monster",
+     "episode": "Feature Film \u2022 1964",
+     "desc": "Godzilla, Mothra and Rodan battle a flying dragon which threatens Tokyo.",
+     "stop": "2026-10-11T08:45:00+00:00"
+    },
+    {
+     "start": "2026-10-11T08:45:00+00:00",
+     "title": "The Return of Godzilla",
+     "episode": "Feature Film \u2022 1984",
+     "desc": "Biologist Hayashida hears Okumura's story and concludes that Godzilla has come back to life.",
+     "stop": "2026-10-11T10:31:00+00:00"
+    },
+    {
+     "start": "2026-10-11T10:31:00+00:00",
+     "title": "A Streetcar Named Desire",
+     "episode": "Feature Film \u2022 1951",
+     "desc": "A brute (Marlon Brando) clashes with his wife's (Kim Hunter) neurotic sister (Vivien Leigh).",
+     "stop": "2026-10-11T12:36:00+00:00"
+    },
+    {
+     "start": "2026-10-11T12:36:00+00:00",
+     "title": "The Man",
+     "episode": "Feature Film \u2022 2005",
+     "desc": "An ATF agent (Samuel L. Jackson) squabbles with a salesman (Eugene Levy) in his custody.",
+     "stop": "2026-10-11T14:00:00+00:00"
+    },
+    {
+     "start": "2026-10-11T14:00:00+00:00",
+     "title": "Catfish",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "The paintings of a girl, supposedly 8 years old, lead a filmmaker's brother on an unusual odyssey.",
+     "stop": "2026-10-11T15:28:00+00:00"
+    },
+    {
+     "start": "2026-10-11T15:28:00+00:00",
+     "title": "The Player",
+     "episode": "Feature Film \u2022 1992",
+     "desc": "Real-life movie stars fringe the satire of a Hollywood studio executive who gets away with murder.",
+     "stop": "2026-10-11T17:33:00+00:00"
+    },
+    {
+     "start": "2026-10-11T17:33:00+00:00",
+     "title": "Walk the Line",
+     "episode": "Feature Film \u2022 2005",
+     "desc": "The story of music legends Johnny Cash (Joaquin Phoenix) and June Carter Cash (Reese Witherspoon).",
+     "stop": "2026-10-11T19:49:00+00:00"
+    },
+    {
+     "start": "2026-10-11T19:49:00+00:00",
+     "title": "The Hangover Part II",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "An adventure ensues when Phil, Stu, Alan and Doug head to Thailand for Stu's wedding.",
+     "stop": "2026-10-11T21:31:00+00:00"
+    },
+    {
+     "start": "2026-10-11T21:31:00+00:00",
+     "title": "Despicable Me",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "One of the world's greatest villains meets his match in three little orphans.",
+     "stop": "2026-10-11T23:06:00+00:00"
+    },
+    {
+     "start": "2026-10-11T23:06:00+00:00",
+     "title": "Batman",
+     "episode": "Feature Film \u2022 1989",
+     "desc": "Caped Crusader (Michael Keaton) saves Gotham City from the Joker (Jack Nicholson).",
+     "stop": "2026-10-12T01:13:00+00:00"
+    },
+    {
+     "start": "2026-10-12T01:13:00+00:00",
+     "title": "Batman Returns",
+     "episode": "Feature Film \u2022 1992",
+     "desc": "Caped Crusader (Michael Keaton) vs. Penguin (Danny DeVito) and Catwoman (Michelle Pfeiffer).",
+     "stop": "2026-10-12T03:20:00+00:00"
+    },
+    {
+     "start": "2026-10-12T03:20:00+00:00",
+     "title": "Batman Forever",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "Batman (Val Kilmer) battles Two-Face (Tommy Lee Jones) and the Riddler (Jim Carrey).",
+     "stop": "2026-10-12T03:50:00+00:00"
+    },
+    {
+     "start": "2026-10-12T05:22:00+00:00",
+     "title": "Batman &#038; Robin",
+     "episode": "Feature Film \u2022 1997",
+     "desc": "Batgirl joins the caped crusaders to stop Mr. Freeze and Poison Ivy from wreaking revenge.",
+     "stop": "2026-10-12T07:27:00+00:00"
+    },
+    {
+     "start": "2026-10-12T07:27:00+00:00",
+     "title": "Godzilla Raids Again",
+     "episode": "Feature Film \u2022 1955",
+     "desc": "Prehistoric monsters Godzilla and Anguirus battle it out in Osaka, Japan.",
+     "stop": "2026-10-12T08:49:00+00:00"
+    },
+    {
+     "start": "2026-10-12T08:49:00+00:00",
+     "title": "Sweet Dreams",
+     "episode": "Feature Film \u2022 1985",
+     "desc": "Country singer Patsy Cline (Jessica Lange) on the road to tragic stardom.",
+     "stop": "2026-10-12T10:47:00+00:00"
+    },
+    {
+     "start": "2026-10-12T10:47:00+00:00",
+     "title": "Nanny McPhee Returns",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A nanny (Emma Thompson) uses magic to teach mischievous children a lesson.",
+     "stop": "2026-10-12T12:36:00+00:00"
+    },
+    {
+     "start": "2026-10-12T12:36:00+00:00",
+     "title": "Hop",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "The Easter Bunny's reluctant heir (Russell Brand) goes to L.A. and lives with a slacker.",
+     "stop": "2026-10-12T14:11:00+00:00"
+    },
+    {
+     "start": "2026-10-12T14:11:00+00:00",
+     "title": "Dr. Seuss&#8217; Horton Hears a Who!",
+     "episode": "Feature Film \u2022 2008",
+     "desc": "An elephant discovers a tiny community that lives on a dust mote.",
+     "stop": "2026-10-12T15:39:00+00:00"
+    },
+    {
+     "start": "2026-10-12T15:39:00+00:00",
+     "title": "Little Shop of Horrors",
+     "episode": "Feature Film \u2022 1986",
+     "desc": "A flower-shop clerk (Rick Moranis) feeds people to his alien talking plant.",
+     "stop": "2026-10-12T17:14:00+00:00"
+    },
+    {
+     "start": "2026-10-12T17:14:00+00:00",
+     "title": "Mothra vs. Godzilla",
+     "episode": "Feature Film \u2022 1964",
+     "desc": "Mothra defends her offspring when Godzilla invades their Pacific island nursery.",
+     "stop": "2026-10-12T18:44:00+00:00"
+    },
+    {
+     "start": "2026-10-12T18:44:00+00:00",
+     "title": "Green Zone",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "Army inspectors sniff out a huge cover-up while looking for weapons of mass destruction in Iraq.",
+     "stop": "2026-10-12T20:39:00+00:00"
+    },
+    {
+     "start": "2026-10-12T20:39:00+00:00",
+     "title": "Ocean&#8217;s Eleven",
+     "episode": "Feature Film \u2022 2001",
+     "desc": "Danny Ocean and his gang organize a big Las Vegas heist to steal $150 million.",
+     "stop": "2026-10-12T22:36:00+00:00"
+    },
+    {
+     "start": "2026-10-12T22:36:00+00:00",
+     "title": "Ocean&#8217;s Twelve",
+     "episode": "Feature Film \u2022 2004",
+     "desc": "After successfully robbing five casinos in one night, Danny Ocean and his crew have big problems.",
+     "stop": "2026-10-13T00:42:00+00:00"
+    },
+    {
+     "start": "2026-10-13T00:42:00+00:00",
+     "title": "Ocean&#8217;s Thirteen",
+     "episode": "Feature Film \u2022 2007",
+     "desc": "Danny Ocean and his gang plot revenge against a casino owner who wronged one of their own.",
+     "stop": "2026-10-13T02:45:00+00:00"
+    },
+    {
+     "start": "2026-10-13T02:45:00+00:00",
+     "title": "Ocean&#8217;s 11",
+     "episode": "Feature Film \u2022 1960",
+     "desc": "A crook (Frank Sinatra) and his 10 war buddies plan to rob five Las Vegas casinos on New Year's Eve.",
+     "stop": "2026-10-13T03:15:00+00:00"
+    },
+    {
+     "start": "2026-10-13T04:53:00+00:00",
+     "title": "The Blair Witch Project",
+     "episode": "Feature Film \u2022 1999",
+     "desc": "Filmmakers (Heather Donahue, Michael C. Williams, Joshua Leonard) seek clues about a legendary witch.",
+     "stop": "2026-10-13T06:15:00+00:00"
+    },
+    {
+     "start": "2026-10-13T06:15:00+00:00",
+     "title": "Book of Shadows: Blair Witch 2",
+     "episode": "Feature Film \u2022 2000",
+     "desc": "Burkittsville campers wake to a chaotic scene.",
+     "stop": "2026-10-13T07:46:00+00:00"
+    },
+    {
+     "start": "2026-10-13T07:46:00+00:00",
+     "title": "Get Him to the Greek",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A record exec must bring a boozy, lovestruck rock star to Hollywood for a big concert.",
+     "stop": "2026-10-13T09:36:00+00:00"
+    },
+    {
+     "start": "2026-10-13T09:36:00+00:00",
+     "title": "Robin Hood",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A skilled archer (Russell Crowe) and his men fight to free Nottingham from its despotic sheriff.",
+     "stop": "2026-10-13T11:59:00+00:00"
+    },
+    {
+     "start": "2026-10-13T11:59:00+00:00",
+     "title": "The Wolfman",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A nobleman (Anthony Hopkins) uncovers a horrifying curse as he searches for his missing brother.",
+     "stop": "2026-10-13T13:42:00+00:00"
+    },
+    {
+     "start": "2026-10-13T13:42:00+00:00",
+     "title": "The Hitcher",
+     "episode": "Feature Film \u2022 1986",
+     "desc": "A teen motorist (C. Thomas Howell) cannot get away from a psycho (Rutger Hauer).",
+     "stop": "2026-10-13T15:20:00+00:00"
+    },
+    {
+     "start": "2026-10-13T15:20:00+00:00",
+     "title": "Head Office",
+     "episode": "Feature Film \u2022 1986",
+     "desc": "U.S. senator's son (Judge Reinhold) gets job at unethical conglomerate.",
+     "stop": "2026-10-13T16:52:00+00:00"
+    },
+    {
+     "start": "2026-10-13T16:52:00+00:00",
+     "title": "They All Laughed",
+     "episode": "Feature Film \u2022 1981",
+     "desc": "New York private eyes (Ben Gazzara, John Ritter) fall for wives they're following.",
+     "stop": "2026-10-13T18:48:00+00:00"
+    },
+    {
+     "start": "2026-10-13T18:48:00+00:00",
+     "title": "The Daytrippers",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "Kin (Pat McNamara, Anne Meara) help woman (Hope Davis) confront apparently unfaithful husband.",
+     "stop": "2026-10-13T20:15:00+00:00"
+    },
+    {
+     "start": "2026-10-13T20:15:00+00:00",
+     "title": "Space Jam",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "NBA star Michael Jordan helps the good Looney Tunes take on the bad Monstars in a basketball game.",
+     "stop": "2026-10-13T21:43:00+00:00"
+    },
+    {
+     "start": "2026-10-13T21:43:00+00:00",
+     "title": "MacGruber",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A clueless soldier-of-fortune (Will Forte) must retrieve a stolen nuke from his sworn enemy.",
+     "stop": "2026-10-13T23:14:00+00:00"
+    },
+    {
+     "start": "2026-10-13T23:14:00+00:00",
+     "title": "Contagion",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "Around the world, doctors race to find a cure for a rapidly spreading virus that kills within days.",
+     "stop": "2026-10-14T01:01:00+00:00"
+    },
+    {
+     "start": "2026-10-14T01:01:00+00:00",
+     "title": "Mom and Dad Save the World",
+     "episode": "Feature Film \u2022 1992",
+     "desc": "Stupid planet emperor (Jon Lovitz) beams up California couple (Teri Garr, Jeffrey Jones).",
+     "stop": "2026-10-14T02:30:00+00:00"
+    },
+    {
+     "start": "2026-10-14T02:30:00+00:00",
+     "title": "Halloween: The Curse of Michael Myers",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "An ancient Celtic ritual drives Dr. Loomis' patient to sacrifice an entire family in Illinois.",
+     "stop": "2026-10-14T03:58:00+00:00"
+    },
+    {
+     "start": "2026-10-14T03:58:00+00:00",
+     "title": "Rodan",
+     "episode": "Feature Film \u2022 1957",
+     "desc": "A bug-eating pterodactyl flies out of a coal mine and wrecks Japan with sonic booms.",
+     "stop": "2026-10-14T04:28:00+00:00"
+    },
+    {
+     "start": "2026-10-14T05:21:00+00:00",
+     "title": "Godzilla",
+     "episode": "Feature Film \u2022 1956",
+     "desc": "U.S. newsman (Raymond Burr) in Tokyo recalls big dinosaur roused by nuke blast.",
+     "stop": "2026-10-14T07:00:00+00:00"
+    },
+    {
+     "start": "2026-10-14T07:00:00+00:00",
+     "title": "Due Date",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A high-strung man (Robert Downey Jr.) takes a road trip with an annoying stranger.",
+     "stop": "2026-10-14T08:36:00+00:00"
+    },
+    {
+     "start": "2026-10-14T08:36:00+00:00",
+     "title": "Halloween: Resurrection",
+     "episode": "Feature Film \u2022 2002",
+     "desc": "Collegians spend the night in Michael Myers' (Brad Loree) childhood home.",
+     "stop": "2026-10-14T10:08:00+00:00"
+    },
+    {
+     "start": "2026-10-14T10:08:00+00:00",
+     "title": "Tyler Perry&#8217;s Madea&#8217;s Witness Protection",
+     "episode": "Feature Film \u2022 2012",
+     "desc": "Madea uses tough love on a Wall Street banker and his family.",
+     "stop": "2026-10-14T12:03:00+00:00"
+    },
+    {
+     "start": "2026-10-14T12:03:00+00:00",
+     "title": "Switch",
+     "episode": "Feature Film \u2022 1991",
+     "desc": "Slain playboy returns as sexy woman (Ellen Barkin) with male mind.",
+     "stop": "2026-10-14T13:47:00+00:00"
+    },
+    {
+     "start": "2026-10-14T13:47:00+00:00",
+     "title": "A Clockwork Orange",
+     "episode": "Feature Film \u2022 1971",
+     "desc": "Alex and his droogs barbarize in a decaying near-future.",
+     "stop": "2026-10-14T16:04:00+00:00"
+    },
+    {
+     "start": "2026-10-14T16:04:00+00:00",
+     "title": "The Return of Godzilla",
+     "episode": "Feature Film \u2022 1984",
+     "desc": "Biologist Hayashida hears Okumura's story and concludes that Godzilla has come back to life.",
+     "stop": "2026-10-14T17:48:00+00:00"
+    },
+    {
+     "start": "2026-10-14T17:48:00+00:00",
+     "title": "The Hobbit",
+     "episode": "TV Movie \u2022 1977",
+     "desc": "J.R.R. Tolkien's wee Bilbo Baggins helps dwarves fight the dragon Smaug.",
+     "stop": "2026-10-14T19:06:00+00:00"
+    },
+    {
+     "start": "2026-10-14T19:06:00+00:00",
+     "title": "Godzilla vs. Gigan",
+     "episode": "Feature Film \u2022 1972",
+     "desc": "Godzilla and Anguirus fight three-headed dragon Ghidorah and huge bird Gigan.",
+     "stop": "2026-10-14T20:36:00+00:00"
+    },
+    {
+     "start": "2026-10-14T20:36:00+00:00",
+     "title": "Hall Pass",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "Two men get permission from their wives to spend one week doing whatever they please.",
+     "stop": "2026-10-14T22:22:00+00:00"
+    },
+    {
+     "start": "2026-10-14T22:22:00+00:00",
+     "title": "My Big Fat Greek Wedding",
+     "episode": "Feature Film \u2022 2002",
+     "desc": "A woman (Nia Vardalos) wants her family to accept her true love (John Corbett).",
+     "stop": "2026-10-14T23:57:00+00:00"
+    },
+    {
+     "start": "2026-10-14T23:57:00+00:00",
+     "title": "Crazy, Stupid, Love.",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "A suddenly single 40-something (Steve Carell) needs help finding his groove again.",
+     "stop": "2026-10-15T00:27:00+00:00"
+    }
+   ]
+  },
+  "epg-usa-cinemax-action-max-east-91c7973f": {
+   "source": "ontvtonight",
+   "source_url": "https://www.ontvtonight.com/guide/listings/channel/69046784/actionmax-east.html",
+   "programmes": [
+    {
+     "start": "2026-09-29T04:09:00+00:00",
+     "title": "The Shape of Water (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T06:13:00+00:00"
+    },
+    {
+     "start": "2026-09-29T06:13:00+00:00",
+     "title": "The Whistlers (2019)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T07:51:00+00:00"
+    },
+    {
+     "start": "2026-09-29T07:51:00+00:00",
+     "title": "Trance (2013)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T09:33:00+00:00"
+    },
+    {
+     "start": "2026-09-29T09:33:00+00:00",
+     "title": "The Usual Suspects (1995)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T11:22:00+00:00"
+    },
+    {
+     "start": "2026-09-29T11:22:00+00:00",
+     "title": "Destroy All Monsters (1968)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T12:52:00+00:00"
+    },
+    {
+     "start": "2026-09-29T12:52:00+00:00",
+     "title": "Godzilla Raids Again (1955)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T14:14:00+00:00"
+    },
+    {
+     "start": "2026-09-29T14:14:00+00:00",
+     "title": "Godzilla vs. Biollante (1989)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T15:59:00+00:00"
+    },
+    {
+     "start": "2026-09-29T15:59:00+00:00",
+     "title": "Godzilla vs. Gigan (1972)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T17:29:00+00:00"
+    },
+    {
+     "start": "2026-09-29T17:29:00+00:00",
+     "title": "The Snakes (2022)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T17:44:00+00:00"
+    },
+    {
+     "start": "2026-09-29T17:44:00+00:00",
+     "title": "DC League of Super-Pets (2022)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T19:30:00+00:00"
+    },
+    {
+     "start": "2026-09-29T19:30:00+00:00",
+     "title": "Camp Hell (2010)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T21:10:00+00:00"
+    },
+    {
+     "start": "2026-09-29T21:10:00+00:00",
+     "title": "Halloween: The Curse of Michael Myers (1995)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T22:38:00+00:00"
+    },
+    {
+     "start": "2026-09-29T22:38:00+00:00",
+     "title": "Halloween H20: 20 Years Later (1998)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T00:05:00+00:00"
+    },
+    {
+     "start": "2026-09-30T00:05:00+00:00",
+     "title": "Halloween: Resurrection (2002)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T01:35:00+00:00"
+    },
+    {
+     "start": "2026-09-30T01:35:00+00:00",
+     "title": "Beetlejuice Beetlejuice (2024)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-30T03:20:00+00:00"
+    },
+    {
+     "start": "2026-09-30T03:20:00+00:00",
+     "title": "Final Destination 5 (2011)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T04:52:00+00:00"
+    },
+    {
+     "start": "2026-09-29T04:52:00+00:00",
+     "title": "Happy Death Day (2017)",
+     "episode": "",
+     "desc": "",
+     "stop": "2026-09-29T05:22:00+00:00"
     }
    ]
   }
