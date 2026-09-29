@@ -269,7 +269,8 @@ def main():
             if p["stop_utc"] > last_end:
                 last_end = p["stop_utc"]
         # display-name suggestion: keep provider convention
-        display_names[cid] = entry["chris_name"]
+        if entry.get("chris_name"):
+            display_names[cid] = entry["chris_name"]
         ok += 1
         log(f"  {cid}: {len(uniq)} programmes <- {slug}/{site_id}")
 
