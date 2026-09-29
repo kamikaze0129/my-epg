@@ -24,7 +24,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-         
+
       - name: Download previous EPG build
         run: |
           curl -fL --retry 3 -o prev_epg.xml \
@@ -33,8 +33,6 @@ jobs:
           head -c 200 prev_epg.xml | grep -q '<tv' || { echo "downloaded file is not XMLTV"; exit 1; }
           echo "previous build downloaded OK"
 
-      # FIXED: Removed the day restriction. This now pulls FRESH, LIVE data 
-      # from your provider on Sundays, Tuesdays, AND Thursdays seamlessly.
       - name: Pull provider EPG
         env:
           IPTV_HOST: ${{ secrets.IPTV_HOST }}
@@ -45,7 +43,7 @@ jobs:
           python3 epg/pull_provider_epg.py --out "$GITHUB_WORKSPACE/provider_epg_fresh.xml"
           ls -la "$GITHUB_WORKSPACE/provider_epg_fresh.xml"
 
-           - name: Weekly rebuild
+      - name: Weekly rebuild
         env:
           EPG_PREV_BUILD: ${{ github.workspace }}/prev_epg.xml
           EPG_RUNS_DIR: ${{ github.workspace }}/run_out
@@ -53,7 +51,7 @@ jobs:
         run: |
           mkdir -p run_out
           python3 epg/weekly_build.py --no-promote --out "$GITHUB_WORKSPACE/epg_new.xml"
-          pip install beautifulsoup4 requests # Installs the scraper requirements
+          pip install beautifulsoup4 requests
           python3 epg/append_tvpassport.py
 
       - name: Build 24/7 EPG
