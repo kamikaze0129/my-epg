@@ -211867,6 +211867,1433 @@
      "desc": "Jen Psaki tackles the biggest issues of the week and features one-on-one interviews with newsmakers."
     }
    ]
+  },
+  "360north.us": {
+   "source": "tvinsider",
+   "source_url": "https://www.tvinsider.com/network/the-movie-channel-extra/schedule/",
+   "programmes": [
+    {
+     "start": "2026-09-29T14:35:00+00:00",
+     "title": "The Core",
+     "episode": "Feature Film \u2022 2003",
+     "desc": "Scientists and astronauts must set off a nuclear device at the center of the Earth.",
+     "stop": "2026-09-29T16:50:00+00:00"
+    },
+    {
+     "start": "2026-09-29T16:50:00+00:00",
+     "title": "Baby Driver",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "A young getaway driver must face the music when a doomed heist threatens his life, love and freedom.",
+     "stop": "2026-09-29T18:45:00+00:00"
+    },
+    {
+     "start": "2026-09-29T18:45:00+00:00",
+     "title": "The Company Men",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "Three men try to survive during a year in which their company undergoes corporate downsizing.",
+     "stop": "2026-09-29T20:30:00+00:00"
+    },
+    {
+     "start": "2026-09-29T20:30:00+00:00",
+     "title": "The Talented Mr. Ripley",
+     "episode": "Feature Film \u2022 1999",
+     "desc": "One young man (Matt Damon) begins to assume the identity of another (Jude Law).",
+     "stop": "2026-09-29T22:55:00+00:00"
+    },
+    {
+     "start": "2026-09-29T22:55:00+00:00",
+     "title": "Dead Man Walking",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "A nun helps a double murderer deal with his actions and his execution in a New Orleans prison.",
+     "stop": "2026-09-30T01:00:00+00:00"
+    },
+    {
+     "start": "2026-09-30T01:00:00+00:00",
+     "title": "The Doors",
+     "episode": "Feature Film \u2022 1991",
+     "desc": "Jim Morrison (Val Kilmer) forms a band and turns tragic 1960s rock star.",
+     "stop": "2026-09-30T03:25:00+00:00"
+    },
+    {
+     "start": "2026-09-30T03:25:00+00:00",
+     "title": "The Crossing Guard",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "Jeweler (Jack Nicholson) warns drunken driver (David Morse) who killed daughter.",
+     "stop": "2026-09-30T03:55:00+00:00"
+    },
+    {
+     "start": "2026-09-30T05:20:00+00:00",
+     "title": "The Hunted",
+     "episode": "Feature Film \u2022 2003",
+     "desc": "A retired combat-trainer (Tommy Lee Jones) searches for a killer (Benicio del Toro) in Oregon.",
+     "stop": "2026-09-30T06:55:00+00:00"
+    },
+    {
+     "start": "2026-09-30T06:55:00+00:00",
+     "title": "Baby Driver",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "A young getaway driver must face the music when a doomed heist threatens his life, love and freedom.",
+     "stop": "2026-09-30T08:50:00+00:00"
+    },
+    {
+     "start": "2026-09-30T08:50:00+00:00",
+     "title": "Roadracers",
+     "episode": "TV Movie \u2022 1994",
+     "desc": "Rocker (David Arquette) and his girlfriend (Salma Hayek) want out of small town.",
+     "stop": "2026-09-30T10:25:00+00:00"
+    },
+    {
+     "start": "2026-09-30T10:25:00+00:00",
+     "title": "Young Adult",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "A writer (Charlize Theron) returns to her hometown to recapture her glory days and an old flame.",
+     "stop": "2026-09-30T12:00:00+00:00"
+    },
+    {
+     "start": "2026-09-30T12:00:00+00:00",
+     "title": "Failure to Launch",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "The parents of a young man who still lives at home hire a beautiful woman to entice him to leave.",
+     "stop": "2026-09-30T13:40:00+00:00"
+    },
+    {
+     "start": "2026-09-30T13:40:00+00:00",
+     "title": "Walking Out",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "A hunting trip turns into a battle for survival when a father and son encounter a grizzly bear.",
+     "stop": "2026-09-30T15:20:00+00:00"
+    },
+    {
+     "start": "2026-09-30T15:20:00+00:00",
+     "title": "The Silent Planet",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "A lone convict on a distant planet must confront his past when a new prisoner arrives.",
+     "stop": "2026-09-30T16:55:00+00:00"
+    },
+    {
+     "start": "2026-09-30T16:55:00+00:00",
+     "title": "Guns Up",
+     "episode": "Feature Film \u2022 2025",
+     "desc": "A mob henchman has one night to get his family out of the city while keeping his dark secret hidden.",
+     "stop": "2026-09-30T18:30:00+00:00"
+    },
+    {
+     "start": "2026-09-30T18:30:00+00:00",
+     "title": "Faster",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "An ex-con (Dwayne Johnson) begins a race against time to avenge his brother's murder.",
+     "stop": "2026-09-30T20:10:00+00:00"
+    },
+    {
+     "start": "2026-09-30T20:10:00+00:00",
+     "title": "Undisputed",
+     "episode": "Feature Film \u2022 2002",
+     "desc": "When the world's heavyweight champion goes to prison, everything points to an inevitable showdown.",
+     "stop": "2026-09-30T21:45:00+00:00"
+    },
+    {
+     "start": "2026-09-30T21:45:00+00:00",
+     "title": "The Silent Planet",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "A lone convict on a distant planet must confront his past when a new prisoner arrives.",
+     "stop": "2026-09-30T23:20:00+00:00"
+    },
+    {
+     "start": "2026-09-30T23:20:00+00:00",
+     "title": "Walking Out",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "A hunting trip turns into a battle for survival when a father and son encounter a grizzly bear.",
+     "stop": "2026-10-01T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-01T01:00:00+00:00",
+     "title": "The Friend",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "A writer's life gets thrown into disarray after her closest friend bequeaths her a Great Dane.",
+     "stop": "2026-10-01T03:00:00+00:00"
+    },
+    {
+     "start": "2026-10-01T03:00:00+00:00",
+     "title": "Nine",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "An Italian filmmaker (Daniel Day-Lewis) juggles relationships with the numerous women in his life.",
+     "stop": "2026-10-01T03:30:00+00:00"
+    },
+    {
+     "start": "2026-10-01T05:00:00+00:00",
+     "title": "Before Dawn",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "A young soldier grapples with the brutal realities of trench warfare during World War I.",
+     "stop": "2026-10-01T06:45:00+00:00"
+    },
+    {
+     "start": "2026-10-01T06:45:00+00:00",
+     "title": "Kickback",
+     "episode": "Feature Film \u2022 2022",
+     "desc": "The crusade of investigative journalist Andrew Jennings to expose corruption inside FIFA.",
+     "stop": "2026-10-01T08:30:00+00:00"
+    },
+    {
+     "start": "2026-10-01T08:30:00+00:00",
+     "title": "Undisputed",
+     "episode": "Feature Film \u2022 2002",
+     "desc": "When the world's heavyweight champion goes to prison, everything points to an inevitable showdown.",
+     "stop": "2026-10-01T10:05:00+00:00"
+    },
+    {
+     "start": "2026-10-01T10:05:00+00:00",
+     "title": "The Running Man",
+     "episode": "Feature Film \u2022 1987",
+     "desc": "Police-state scapegoat (Arnold Schwarzenegger) must play deadly TV game show.",
+     "stop": "2026-10-01T11:50:00+00:00"
+    },
+    {
+     "start": "2026-10-01T11:50:00+00:00",
+     "title": "Wild Wild West",
+     "episode": "Feature Film \u2022 1999",
+     "desc": "Secret agents (Will Smith, Kevin Kline) fight to stop a presidential assassination.",
+     "stop": "2026-10-01T13:40:00+00:00"
+    },
+    {
+     "start": "2026-10-01T13:40:00+00:00",
+     "title": "Lara Croft Tomb Raider: The Cradle of Life",
+     "episode": "Feature Film \u2022 2003",
+     "desc": "A globe-trotter (Angelina Jolie) battles a scientist (Ciar\u00e1n Hinds) for Pandora's box.",
+     "stop": "2026-10-01T15:40:00+00:00"
+    },
+    {
+     "start": "2026-10-01T15:40:00+00:00",
+     "title": "The Harvest",
+     "episode": "Feature Film \u2022 2013",
+     "desc": "A woman (Samantha Morton) becomes unhinged when she finds out that her dying son has a new friend.",
+     "stop": "2026-10-01T17:25:00+00:00"
+    },
+    {
+     "start": "2026-10-01T17:25:00+00:00",
+     "title": "Every Breath You Take",
+     "episode": "Feature Film \u2022 2021",
+     "desc": "A psychiatrist's life gets turned upside down when a patient takes her own life.",
+     "stop": "2026-10-01T19:15:00+00:00"
+    },
+    {
+     "start": "2026-10-01T19:15:00+00:00",
+     "title": "Restoration",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "A 1600s hedonist's marriage to the king's lover is Platonic.",
+     "stop": "2026-10-01T21:15:00+00:00"
+    },
+    {
+     "start": "2026-10-01T21:15:00+00:00",
+     "title": "Our Friend",
+     "episode": "Feature Film \u2022 2019",
+     "desc": "A caring man puts his own life on hold to help his friends, a couple facing a devastating crisis.",
+     "stop": "2026-10-01T23:25:00+00:00"
+    },
+    {
+     "start": "2026-10-01T23:25:00+00:00",
+     "title": "Comet",
+     "episode": "Feature Film \u2022 2014",
+     "desc": "A cynical lad (Justin Long) and a young woman begin a 6-year relationship after meeting by chance.",
+     "stop": "2026-10-02T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-02T01:00:00+00:00",
+     "title": "He&#8217;s Just Not That Into You",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "Men and women try to navigate through the complexities of modern relationships.",
+     "stop": "2026-10-02T03:10:00+00:00"
+    },
+    {
+     "start": "2026-10-02T03:10:00+00:00",
+     "title": "She&#8217;s the Man",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "Romantic complications ensue when a student poses as her twin brother and takes his place at school.",
+     "stop": "2026-10-02T03:40:00+00:00"
+    },
+    {
+     "start": "2026-10-02T05:00:00+00:00",
+     "title": "Airplane!",
+     "episode": "Feature Film \u2022 1980",
+     "desc": "Flight-shy pilot (Robert Hays) follows ex (Julie Hagerty) into midair crisis.",
+     "stop": "2026-10-02T06:30:00+00:00"
+    },
+    {
+     "start": "2026-10-02T06:30:00+00:00",
+     "title": "Airplane II: The Sequel",
+     "episode": "Feature Film \u2022 1982",
+     "desc": "A loony couple (Robert Hays, Julie Hagerty) head for the moon.",
+     "stop": "2026-10-02T08:00:00+00:00"
+    },
+    {
+     "start": "2026-10-02T08:00:00+00:00",
+     "title": "4:44 Last Day on Earth",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "Two lovers (Willem Dafoe, Shanyn Leigh) react to Earth's impending demise.",
+     "stop": "2026-10-02T09:25:00+00:00"
+    },
+    {
+     "start": "2026-10-02T09:25:00+00:00",
+     "title": "Rumpelstiltskin",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "Widow's wish to see her husband one last time frees a demonic being that wants her son's soul.",
+     "stop": "2026-10-02T11:00:00+00:00"
+    },
+    {
+     "start": "2026-10-02T11:00:00+00:00",
+     "title": "Best in Show",
+     "episode": "Feature Film \u2022 2000",
+     "desc": "Pampered pooches and their quirky owners compete in a prestigious dog show.",
+     "stop": "2026-10-02T12:35:00+00:00"
+    },
+    {
+     "start": "2026-10-02T12:35:00+00:00",
+     "title": "Teaching Mrs. Tingle",
+     "episode": "Feature Film \u2022 1999",
+     "desc": "With their futures threatened by accusations of cheating, teens take matters into their own hands.",
+     "stop": "2026-10-02T14:15:00+00:00"
+    },
+    {
+     "start": "2026-10-02T14:15:00+00:00",
+     "title": "A Perfect Murder",
+     "episode": "Feature Film \u2022 1998",
+     "desc": "A commodities broker persuades his wife's lover to kill her in order to inherit her trust fund.",
+     "stop": "2026-10-02T16:05:00+00:00"
+    },
+    {
+     "start": "2026-10-02T16:05:00+00:00",
+     "title": "The Relic",
+     "episode": "Feature Film \u2022 2025",
+     "desc": "A mother, who thinks her child is reaching out to her from beyond, unleashes evil in her home.",
+     "stop": "2026-10-02T18:00:00+00:00"
+    },
+    {
+     "start": "2026-10-02T18:00:00+00:00",
+     "title": "Blindness",
+     "episode": "Feature Film \u2022 2008",
+     "desc": "A doctor's wife is one of the few people who can see following an epidemic of blindness.",
+     "stop": "2026-10-02T20:05:00+00:00"
+    },
+    {
+     "start": "2026-10-02T20:05:00+00:00",
+     "title": "The Gift",
+     "episode": "Feature Film \u2022 2000",
+     "desc": "A psychic widow assists in a missing persons investigation.",
+     "stop": "2026-10-02T21:55:00+00:00"
+    },
+    {
+     "start": "2026-10-02T21:55:00+00:00",
+     "title": "Body Cam",
+     "episode": "Feature Film \u2022 2020",
+     "desc": "A police officer discovers something supernatural is targeting the cops in her unit.",
+     "stop": "2026-10-02T23:35:00+00:00"
+    },
+    {
+     "start": "2026-10-02T23:35:00+00:00",
+     "title": "Carriers",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "Fleeing from a pandemic, four friends discover a danger greater than any virus.",
+     "stop": "2026-10-03T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-03T01:00:00+00:00",
+     "title": "Blindness",
+     "episode": "Feature Film \u2022 2008",
+     "desc": "A doctor's wife is one of the few people who can see following an epidemic of blindness.",
+     "stop": "2026-10-03T03:05:00+00:00"
+    },
+    {
+     "start": "2026-10-03T03:05:00+00:00",
+     "title": "There Will Be Blood",
+     "episode": "Feature Film \u2022 2007",
+     "desc": "A Texas oil prospector (Daniel Day-Lewis) becomes morally bankrupt as his fortune grows.",
+     "stop": "2026-10-03T03:35:00+00:00"
+    },
+    {
+     "start": "2026-10-03T05:45:00+00:00",
+     "title": "The Dead Don&#8217;t Hurt",
+     "episode": "Feature Film \u2022 2023",
+     "desc": "A woman must fend for herself when the man she loves goes off to fight in the Civil War.",
+     "stop": "2026-10-03T07:55:00+00:00"
+    },
+    {
+     "start": "2026-10-03T07:55:00+00:00",
+     "title": "Not Without Hope",
+     "episode": "Feature Film \u2022 2025",
+     "desc": "Four friends battle massive waves, sharks, dehydration and hypothermia when their boat capsizes.",
+     "stop": "2026-10-03T10:00:00+00:00"
+    },
+    {
+     "start": "2026-10-03T10:00:00+00:00",
+     "title": "We Were Soldiers",
+     "episode": "Feature Film \u2022 2002",
+     "desc": "A lieutenant colonel and approximately 400 U.S. troops battle 2,000 North Vietnamese in 1965.",
+     "stop": "2026-10-03T12:20:00+00:00"
+    },
+    {
+     "start": "2026-10-03T12:20:00+00:00",
+     "title": "The Foreigner",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "A London businessman seeks revenge against the terrorists who killed his daughter in a bombing.",
+     "stop": "2026-10-03T14:15:00+00:00"
+    },
+    {
+     "start": "2026-10-03T14:15:00+00:00",
+     "title": "Run",
+     "episode": "Feature Film \u2022 2025",
+     "desc": "Smugglers, the police, locals and tourists get drawn into a dangerous web of survival and sacrifice.",
+     "stop": "2026-10-03T15:55:00+00:00"
+    },
+    {
+     "start": "2026-10-03T15:55:00+00:00",
+     "title": "Primal Fear",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "A high-profile murder intrigues a publicity-hungry lawyer (Richard Gere).",
+     "stop": "2026-10-03T18:05:00+00:00"
+    },
+    {
+     "start": "2026-10-03T18:05:00+00:00",
+     "title": "Raging Grace",
+     "episode": "Feature Film \u2022 2023",
+     "desc": "An undocumented immigrant secures an ideal job, but all is not as it seems.",
+     "stop": "2026-10-03T19:50:00+00:00"
+    },
+    {
+     "start": "2026-10-03T19:50:00+00:00",
+     "title": "Queen Bees",
+     "episode": "Feature Film \u2022 2021",
+     "desc": "While her house undergoes repairs, Helen temporarily moves into a nearby retirement community.",
+     "stop": "2026-10-03T21:35:00+00:00"
+    },
+    {
+     "start": "2026-10-03T21:35:00+00:00",
+     "title": "Office Christmas Party",
+     "episode": "Feature Film \u2022 2016",
+     "desc": "Two co-workers throw an epic Christmas party to close a sale and save their jobs.",
+     "stop": "2026-10-03T23:20:00+00:00"
+    },
+    {
+     "start": "2026-10-03T23:20:00+00:00",
+     "title": "Daddy&#8217;s Home",
+     "episode": "Feature Film \u2022 2015",
+     "desc": "An insecure man (Will Ferrell) competes with his stepchildren's freewheeling father (Mark Wahlberg).",
+     "stop": "2026-10-04T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-04T01:00:00+00:00",
+     "title": "Fist Fight",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "A fired teacher challenges the colleague (Charlie Day) who snitched on him to a fight after school.",
+     "stop": "2026-10-04T02:35:00+00:00"
+    },
+    {
+     "start": "2026-10-04T02:35:00+00:00",
+     "title": "Super",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "After his wife leaves him, a fry cook (Rainn Wilson) transforms himself into a costumed vigilante.",
+     "stop": "2026-10-04T03:05:00+00:00"
+    },
+    {
+     "start": "2026-10-04T04:15:00+00:00",
+     "title": "Fight or Flight",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "A mercenary takes on the job of tracking a high-value asset known only as \"The Ghost.\"",
+     "stop": "2026-10-04T06:00:00+00:00"
+    },
+    {
+     "start": "2026-10-04T06:00:00+00:00",
+     "title": "Faster",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "An ex-con (Dwayne Johnson) begins a race against time to avenge his brother's murder.",
+     "stop": "2026-10-04T07:40:00+00:00"
+    },
+    {
+     "start": "2026-10-04T07:40:00+00:00",
+     "title": "The Yards",
+     "episode": "Feature Film \u2022 2000",
+     "desc": "An ex-con takes a job at his corrupt uncle's subway-train business.",
+     "stop": "2026-10-04T09:40:00+00:00"
+    },
+    {
+     "start": "2026-10-04T09:40:00+00:00",
+     "title": "Daddy&#8217;s Home",
+     "episode": "Feature Film \u2022 2015",
+     "desc": "An insecure man (Will Ferrell) competes with his stepchildren's freewheeling father (Mark Wahlberg).",
+     "stop": "2026-10-04T11:20:00+00:00"
+    },
+    {
+     "start": "2026-10-04T11:20:00+00:00",
+     "title": "The Company Men",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "Three men try to survive during a year in which their company undergoes corporate downsizing.",
+     "stop": "2026-10-04T13:05:00+00:00"
+    },
+    {
+     "start": "2026-10-04T13:05:00+00:00",
+     "title": "Case 39",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "A social worker learns that there is more than meets the eye with a girl she saved from abuse.",
+     "stop": "2026-10-04T15:00:00+00:00"
+    },
+    {
+     "start": "2026-10-04T15:00:00+00:00",
+     "title": "The Contractor",
+     "episode": "Feature Film \u2022 2022",
+     "desc": "Hunted and on the run, an elite soldier must uncover the true motives of those who betrayed him.",
+     "stop": "2026-10-04T16:45:00+00:00"
+    },
+    {
+     "start": "2026-10-04T16:45:00+00:00",
+     "title": "The Untouchables",
+     "episode": "Feature Film \u2022 1987",
+     "desc": "Eliot Ness and his men fight Al Capone in Chicago during prohibition.",
+     "stop": "2026-10-04T18:45:00+00:00"
+    },
+    {
+     "start": "2026-10-04T18:45:00+00:00",
+     "title": "Baby Driver",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "A young getaway driver must face the music when a doomed heist threatens his life, love and freedom.",
+     "stop": "2026-10-04T20:45:00+00:00"
+    },
+    {
+     "start": "2026-10-04T20:45:00+00:00",
+     "title": "Edge of Tomorrow",
+     "episode": "Feature Film \u2022 2014",
+     "desc": "Caught in a time loop, a soldier (Tom Cruise) repeatedly relives the battle in which he died.",
+     "stop": "2026-10-04T22:40:00+00:00"
+    },
+    {
+     "start": "2026-10-04T22:40:00+00:00",
+     "title": "Vanilla Sky",
+     "episode": "Feature Film \u2022 2001",
+     "desc": "A disfigured womanizer (Tom Cruise) cannot distinguish dreams from reality.",
+     "stop": "2026-10-05T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-05T01:00:00+00:00",
+     "title": "Daniela Forever",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "After his girlfriend dies, a man joins a sleep trial to rebuild his life through lucid dreams.",
+     "stop": "2026-10-05T03:00:00+00:00"
+    },
+    {
+     "start": "2026-10-05T03:00:00+00:00",
+     "title": "The Time Traveler&#8217;s Wife",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "A time-traveler (Eric Bana) keeps moving in and out of the life of his true love (Rachel McAdams).",
+     "stop": "2026-10-05T03:30:00+00:00"
+    },
+    {
+     "start": "2026-10-05T04:50:00+00:00",
+     "title": "Dean",
+     "episode": "Feature Film \u2022 2016",
+     "desc": "A man falls in love with a woman while trying to keep his father from burning down the family home.",
+     "stop": "2026-10-05T06:25:00+00:00"
+    },
+    {
+     "start": "2026-10-05T06:25:00+00:00",
+     "title": "Planes, Trains and Automobiles",
+     "episode": "Feature Film \u2022 1987",
+     "desc": "A stranded ad exec and a salesman make unlikely co-travelers.",
+     "stop": "2026-10-05T08:00:00+00:00"
+    },
+    {
+     "start": "2026-10-05T08:00:00+00:00",
+     "title": "He&#8217;s Just Not That Into You",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "Men and women try to navigate through the complexities of modern relationships.",
+     "stop": "2026-10-05T10:10:00+00:00"
+    },
+    {
+     "start": "2026-10-05T10:10:00+00:00",
+     "title": "Show Dogs",
+     "episode": "Feature Film \u2022 2018",
+     "desc": "A canine cop and an FBI agent work undercover at the world's most exclusive dog show in Las Vegas.",
+     "stop": "2026-10-05T11:40:00+00:00"
+    },
+    {
+     "start": "2026-10-05T11:40:00+00:00",
+     "title": "Wakefield",
+     "episode": "Feature Film \u2022 2016",
+     "desc": "Howard Wakefield, a New York City lawyer, hides out in the attic of his home for weeks.",
+     "stop": "2026-10-05T13:30:00+00:00"
+    },
+    {
+     "start": "2026-10-05T13:30:00+00:00",
+     "title": "A Perfect Murder",
+     "episode": "Feature Film \u2022 1998",
+     "desc": "A commodities broker persuades his wife's lover to kill her in order to inherit her trust fund.",
+     "stop": "2026-10-05T15:20:00+00:00"
+    },
+    {
+     "start": "2026-10-05T15:20:00+00:00",
+     "title": "Lara Croft Tomb Raider: The Cradle of Life",
+     "episode": "Feature Film \u2022 2003",
+     "desc": "A globe-trotter (Angelina Jolie) battles a scientist (Ciar\u00e1n Hinds) for Pandora's box.",
+     "stop": "2026-10-05T17:20:00+00:00"
+    },
+    {
+     "start": "2026-10-05T17:20:00+00:00",
+     "title": "The Gift",
+     "episode": "Feature Film \u2022 2000",
+     "desc": "A psychic widow assists in a missing persons investigation.",
+     "stop": "2026-10-05T19:10:00+00:00"
+    },
+    {
+     "start": "2026-10-05T19:10:00+00:00",
+     "title": "Stardust",
+     "episode": "Feature Film \u2022 2007",
+     "desc": "A young man (Charlie Cox) ventures into a fairy realm to retrieve a fallen star (Claire Danes).",
+     "stop": "2026-10-05T21:20:00+00:00"
+    },
+    {
+     "start": "2026-10-05T21:20:00+00:00",
+     "title": "She&#8217;s the Man",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "Romantic complications ensue when a student poses as her twin brother and takes his place at school.",
+     "stop": "2026-10-05T23:10:00+00:00"
+    },
+    {
+     "start": "2026-10-05T23:10:00+00:00",
+     "title": "Up in the Air",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "A corporate downsizing specialist faces an end to life on the road as he nears a travel milestone.",
+     "stop": "2026-10-06T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-06T01:00:00+00:00",
+     "title": "The Terminal",
+     "episode": "Feature Film \u2022 2004",
+     "desc": "A European (Tom Hanks) living in an airport befriends a stewardess (Catherine Zeta-Jones).",
+     "stop": "2026-10-06T03:10:00+00:00"
+    },
+    {
+     "start": "2026-10-06T03:10:00+00:00",
+     "title": "Life During Wartime",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "Past traumas make it difficult for three sisters to find happiness in the present.",
+     "stop": "2026-10-06T03:40:00+00:00"
+    },
+    {
+     "start": "2026-10-06T04:50:00+00:00",
+     "title": "Welcome to Sarajevo",
+     "episode": "Feature Film \u2022 1997",
+     "desc": "A British war reporter (Stephen Dillane) tracks an orphanage's fate.",
+     "stop": "2026-10-06T06:35:00+00:00"
+    },
+    {
+     "start": "2026-10-06T06:35:00+00:00",
+     "title": "The Talented Mr. Ripley",
+     "episode": "Feature Film \u2022 1999",
+     "desc": "One young man (Matt Damon) begins to assume the identity of another (Jude Law).",
+     "stop": "2026-10-06T09:00:00+00:00"
+    },
+    {
+     "start": "2026-10-06T09:00:00+00:00",
+     "title": "The King&#8217;s Speech",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "An Australian actor tries to help Britain's King George VI overcome a speech impediment.",
+     "stop": "2026-10-06T11:00:00+00:00"
+    },
+    {
+     "start": "2026-10-06T11:00:00+00:00",
+     "title": "Marathon Man",
+     "episode": "Feature Film \u2022 1976",
+     "desc": "The CIA and a Nazi dentist (Laurence Olivier) chase a New York student (Dustin Hoffman).",
+     "stop": "2026-10-06T13:10:00+00:00"
+    },
+    {
+     "start": "2026-10-06T13:10:00+00:00",
+     "title": "The Harvest",
+     "episode": "Feature Film \u2022 2013",
+     "desc": "A woman (Samantha Morton) becomes unhinged when she finds out that her dying son has a new friend.",
+     "stop": "2026-10-06T14:55:00+00:00"
+    },
+    {
+     "start": "2026-10-06T14:55:00+00:00",
+     "title": "Seaside",
+     "episode": "Feature Film \u2022 2018",
+     "desc": "A woman runs away to the Oregon coast with her boyfriend when he inherits a family beach house.",
+     "stop": "2026-10-06T16:30:00+00:00"
+    },
+    {
+     "start": "2026-10-06T16:30:00+00:00",
+     "title": "The Beldham",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "A struggling new mother fights a generations-old presence lurking within her family's home.",
+     "stop": "2026-10-06T17:55:00+00:00"
+    },
+    {
+     "start": "2026-10-06T17:55:00+00:00",
+     "title": "Spontaneous",
+     "episode": "Feature Film \u2022 2020",
+     "desc": "Sparks fly between two high school seniors as their classmates inexplicably start to explode.",
+     "stop": "2026-10-06T19:40:00+00:00"
+    },
+    {
+     "start": "2026-10-06T19:40:00+00:00",
+     "title": "The Harvest",
+     "episode": "Feature Film \u2022 2013",
+     "desc": "A woman (Samantha Morton) becomes unhinged when she finds out that her dying son has a new friend.",
+     "stop": "2026-10-06T21:25:00+00:00"
+    },
+    {
+     "start": "2026-10-06T21:25:00+00:00",
+     "title": "Bang Bang",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "Following an eccentric retired pugilist obsessed with rectifying the sins of his past.",
+     "stop": "2026-10-06T23:10:00+00:00"
+    },
+    {
+     "start": "2026-10-06T23:10:00+00:00",
+     "title": "Day of the Fight",
+     "episode": "Feature Film \u2022 2023",
+     "desc": "A former boxing champion reconnects with his trainer, ex-wife, childhood friend, and abusive father.",
+     "stop": "2026-10-07T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-07T01:00:00+00:00",
+     "title": "The Yards",
+     "episode": "Feature Film \u2022 2000",
+     "desc": "An ex-con takes a job at his corrupt uncle's subway-train business.",
+     "stop": "2026-10-07T03:00:00+00:00"
+    },
+    {
+     "start": "2026-10-07T03:00:00+00:00",
+     "title": "Peep World",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "Members (Michael C. Hall, Sarah Silverman) of a dysfunctional Jewish family gather for a birthday.",
+     "stop": "2026-10-07T03:30:00+00:00"
+    },
+    {
+     "start": "2026-10-07T04:20:00+00:00",
+     "title": "Cheech &#038; Chong&#8217;s Last Movie",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "Cheech Marin and Tommy Chong discuss their lifelong friendship and popularity as a comedic duo.",
+     "stop": "2026-10-07T06:25:00+00:00"
+    },
+    {
+     "start": "2026-10-07T06:25:00+00:00",
+     "title": "Office Christmas Party",
+     "episode": "Feature Film \u2022 2016",
+     "desc": "Two co-workers throw an epic Christmas party to close a sale and save their jobs.",
+     "stop": "2026-10-07T08:15:00+00:00"
+    },
+    {
+     "start": "2026-10-07T08:15:00+00:00",
+     "title": "Queen Bees",
+     "episode": "Feature Film \u2022 2021",
+     "desc": "While her house undergoes repairs, Helen temporarily moves into a nearby retirement community.",
+     "stop": "2026-10-07T10:00:00+00:00"
+    },
+    {
+     "start": "2026-10-07T10:00:00+00:00",
+     "title": "Smoke Signals",
+     "episode": "Feature Film \u2022 1998",
+     "desc": "A geeky Indian (Evan Adams) helps a friend (Adam Beach) to find his dead father.",
+     "stop": "2026-10-07T11:30:00+00:00"
+    },
+    {
+     "start": "2026-10-07T11:30:00+00:00",
+     "title": "On the Line",
+     "episode": "Feature Film \u2022 2001",
+     "desc": "A shy man (Lance Bass) searches for a woman (Emmanuelle Chriqui) he met on a train.",
+     "stop": "2026-10-07T13:00:00+00:00"
+    },
+    {
+     "start": "2026-10-07T13:00:00+00:00",
+     "title": "Comet",
+     "episode": "Feature Film \u2022 2014",
+     "desc": "A cynical lad (Justin Long) and a young woman begin a 6-year relationship after meeting by chance.",
+     "stop": "2026-10-07T14:35:00+00:00"
+    },
+    {
+     "start": "2026-10-07T14:35:00+00:00",
+     "title": "Certain Women",
+     "episode": "Feature Film \u2022 2016",
+     "desc": "The lives of three women intersect in a small town.",
+     "stop": "2026-10-07T16:30:00+00:00"
+    },
+    {
+     "start": "2026-10-07T16:30:00+00:00",
+     "title": "The Dead Don&#8217;t Hurt",
+     "episode": "Feature Film \u2022 2023",
+     "desc": "A woman must fend for herself when the man she loves goes off to fight in the Civil War.",
+     "stop": "2026-10-07T18:40:00+00:00"
+    },
+    {
+     "start": "2026-10-07T18:40:00+00:00",
+     "title": "Wild Wild West",
+     "episode": "Feature Film \u2022 1999",
+     "desc": "Secret agents (Will Smith, Kevin Kline) fight to stop a presidential assassination.",
+     "stop": "2026-10-07T20:30:00+00:00"
+    },
+    {
+     "start": "2026-10-07T20:30:00+00:00",
+     "title": "Airplane!",
+     "episode": "Feature Film \u2022 1980",
+     "desc": "Flight-shy pilot (Robert Hays) follows ex (Julie Hagerty) into midair crisis.",
+     "stop": "2026-10-07T22:00:00+00:00"
+    },
+    {
+     "start": "2026-10-07T22:00:00+00:00",
+     "title": "Airplane II: The Sequel",
+     "episode": "Feature Film \u2022 1982",
+     "desc": "A loony couple (Robert Hays, Julie Hagerty) head for the moon.",
+     "stop": "2026-10-07T23:25:00+00:00"
+    },
+    {
+     "start": "2026-10-07T23:25:00+00:00",
+     "title": "Planes, Trains and Automobiles",
+     "episode": "Feature Film \u2022 1987",
+     "desc": "A stranded ad exec and a salesman make unlikely co-travelers.",
+     "stop": "2026-10-08T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-08T01:00:00+00:00",
+     "title": "Grumpy Old Men",
+     "episode": "Feature Film \u2022 1993",
+     "desc": "Minnesota neighbors (Jack Lemmon, Walter Matthau) compete for widow's (Ann-Margret) love.",
+     "stop": "2026-10-08T02:45:00+00:00"
+    },
+    {
+     "start": "2026-10-08T02:45:00+00:00",
+     "title": "Grumpier Old Men",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "Kids' wedding, romantic prospect preoccupy retirees (Jack Lemmon, Walter Matthau).",
+     "stop": "2026-10-08T03:15:00+00:00"
+    },
+    {
+     "start": "2026-10-08T04:30:00+00:00",
+     "title": "Tommy Boy",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "A ne'er-do-well auto-parts heir must stop his father's widow from selling the business.",
+     "stop": "2026-10-08T06:10:00+00:00"
+    },
+    {
+     "start": "2026-10-08T06:10:00+00:00",
+     "title": "Soul Men",
+     "episode": "Feature Film \u2022 2008",
+     "desc": "Estranged singers (Samuel L. Jackson, Bernie Mac) reunite for a tribute concert.",
+     "stop": "2026-10-08T07:50:00+00:00"
+    },
+    {
+     "start": "2026-10-08T07:50:00+00:00",
+     "title": "Planes, Trains and Automobiles",
+     "episode": "Feature Film \u2022 1987",
+     "desc": "A stranded ad exec and a salesman make unlikely co-travelers.",
+     "stop": "2026-10-08T09:25:00+00:00"
+    },
+    {
+     "start": "2026-10-08T09:25:00+00:00",
+     "title": "Comet",
+     "episode": "Feature Film \u2022 2014",
+     "desc": "A cynical lad (Justin Long) and a young woman begin a 6-year relationship after meeting by chance.",
+     "stop": "2026-10-08T11:00:00+00:00"
+    },
+    {
+     "start": "2026-10-08T11:00:00+00:00",
+     "title": "The First Wives Club",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "Dumped for younger women, college pals (Goldie Hawn, Bette Midler, Diane Keaton) seek revenge.",
+     "stop": "2026-10-08T12:45:00+00:00"
+    },
+    {
+     "start": "2026-10-08T12:45:00+00:00",
+     "title": "Wakefield",
+     "episode": "Feature Film \u2022 2016",
+     "desc": "Howard Wakefield, a New York City lawyer, hides out in the attic of his home for weeks.",
+     "stop": "2026-10-08T14:35:00+00:00"
+    },
+    {
+     "start": "2026-10-08T14:35:00+00:00",
+     "title": "The Lovely Bones",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "A young murder victim watches over her family -- and her killer -- from heaven.",
+     "stop": "2026-10-08T16:55:00+00:00"
+    },
+    {
+     "start": "2026-10-08T16:55:00+00:00",
+     "title": "Jacob&#8217;s Ladder",
+     "episode": "Feature Film \u2022 1990",
+     "desc": "Hellish hallucinations haunt a veteran (Tim Robbins) and others who were in his battalion.",
+     "stop": "2026-10-08T18:50:00+00:00"
+    },
+    {
+     "start": "2026-10-08T18:50:00+00:00",
+     "title": "The Violent Heart",
+     "episode": "Feature Film \u2022 2020",
+     "desc": "Long-buried secrets threaten to tear a couple apart.",
+     "stop": "2026-10-08T20:35:00+00:00"
+    },
+    {
+     "start": "2026-10-08T20:35:00+00:00",
+     "title": "The King&#8217;s Speech",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "An Australian actor tries to help Britain's King George VI overcome a speech impediment.",
+     "stop": "2026-10-08T22:35:00+00:00"
+    },
+    {
+     "start": "2026-10-08T22:35:00+00:00",
+     "title": "For Greater Glory: The True Story of Cristiada",
+     "episode": "Feature Film \u2022 2012",
+     "desc": "The Mexican government's attempt to secularize the country sets off the Cristero War.",
+     "stop": "2026-10-09T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-09T01:00:00+00:00",
+     "title": "Welcome to Sarajevo",
+     "episode": "Feature Film \u2022 1997",
+     "desc": "A British war reporter (Stephen Dillane) tracks an orphanage's fate.",
+     "stop": "2026-10-09T02:45:00+00:00"
+    },
+    {
+     "start": "2026-10-09T02:45:00+00:00",
+     "title": "Escape From Alcatraz",
+     "episode": "Feature Film \u2022 1979",
+     "desc": "A hardened con with a history of prison breaks, is sent to serve the rest of his life sentence.",
+     "stop": "2026-10-09T03:15:00+00:00"
+    },
+    {
+     "start": "2026-10-09T04:40:00+00:00",
+     "title": "Days of Thunder",
+     "episode": "Feature Film \u2022 1990",
+     "desc": "A stock-car driver goes to the edge for his manager, his brain-surgeon girlfriend and himself.",
+     "stop": "2026-10-09T06:30:00+00:00"
+    },
+    {
+     "start": "2026-10-09T06:30:00+00:00",
+     "title": "Flypaper",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "A man tries to protect a bank teller after two groups rob her bank at the same time.",
+     "stop": "2026-10-09T08:00:00+00:00"
+    },
+    {
+     "start": "2026-10-09T08:00:00+00:00",
+     "title": "The First Wives Club",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "Dumped for younger women, college pals (Goldie Hawn, Bette Midler, Diane Keaton) seek revenge.",
+     "stop": "2026-10-09T09:45:00+00:00"
+    },
+    {
+     "start": "2026-10-09T09:45:00+00:00",
+     "title": "Bran Nue Dae",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "A rebellious young man runs away from home but returns after experiencing an amazing journey.",
+     "stop": "2026-10-09T11:10:00+00:00"
+    },
+    {
+     "start": "2026-10-09T11:10:00+00:00",
+     "title": "Our Friend",
+     "episode": "Feature Film \u2022 2019",
+     "desc": "A caring man puts his own life on hold to help his friends, a couple facing a devastating crisis.",
+     "stop": "2026-10-09T13:20:00+00:00"
+    },
+    {
+     "start": "2026-10-09T13:20:00+00:00",
+     "title": "Stardust",
+     "episode": "Feature Film \u2022 2007",
+     "desc": "A young man (Charlie Cox) ventures into a fairy realm to retrieve a fallen star (Claire Danes).",
+     "stop": "2026-10-09T15:30:00+00:00"
+    },
+    {
+     "start": "2026-10-09T15:30:00+00:00",
+     "title": "Daniela Forever",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "After his girlfriend dies, a man joins a sleep trial to rebuild his life through lucid dreams.",
+     "stop": "2026-10-09T17:30:00+00:00"
+    },
+    {
+     "start": "2026-10-09T17:30:00+00:00",
+     "title": "Vanilla Sky",
+     "episode": "Feature Film \u2022 2001",
+     "desc": "A disfigured womanizer (Tom Cruise) cannot distinguish dreams from reality.",
+     "stop": "2026-10-09T19:50:00+00:00"
+    },
+    {
+     "start": "2026-10-09T19:50:00+00:00",
+     "title": "Raging Grace",
+     "episode": "Feature Film \u2022 2023",
+     "desc": "An undocumented immigrant secures an ideal job, but all is not as it seems.",
+     "stop": "2026-10-09T21:30:00+00:00"
+    },
+    {
+     "start": "2026-10-09T21:30:00+00:00",
+     "title": "Case 39",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "A social worker learns that there is more than meets the eye with a girl she saved from abuse.",
+     "stop": "2026-10-09T23:20:00+00:00"
+    },
+    {
+     "start": "2026-10-09T23:20:00+00:00",
+     "title": "Faster",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "An ex-con (Dwayne Johnson) begins a race against time to avenge his brother's murder.",
+     "stop": "2026-10-10T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-10T01:00:00+00:00",
+     "title": "Baby Driver",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "A young getaway driver must face the music when a doomed heist threatens his life, love and freedom.",
+     "stop": "2026-10-10T03:00:00+00:00"
+    },
+    {
+     "start": "2026-10-10T03:00:00+00:00",
+     "title": "Fist Fight",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "A fired teacher challenges the colleague (Charlie Day) who snitched on him to a fight after school.",
+     "stop": "2026-10-10T03:30:00+00:00"
+    },
+    {
+     "start": "2026-10-10T04:35:00+00:00",
+     "title": "The Layover",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "Two best friends compete for the same man while waiting for their plane to take off from St. Louis.",
+     "stop": "2026-10-10T06:05:00+00:00"
+    },
+    {
+     "start": "2026-10-10T06:05:00+00:00",
+     "title": "The Argument",
+     "episode": "Feature Film \u2022 2020",
+     "desc": "When a couple argue about a party, they decide to re-create the evening to determine who is right.",
+     "stop": "2026-10-10T07:30:00+00:00"
+    },
+    {
+     "start": "2026-10-10T07:30:00+00:00",
+     "title": "Anything Else",
+     "episode": "Feature Film \u2022 2003",
+     "desc": "A writer has problems with his girlfriend and an obsessive teacher with a history of mental illness.",
+     "stop": "2026-10-10T09:20:00+00:00"
+    },
+    {
+     "start": "2026-10-10T09:20:00+00:00",
+     "title": "Changeland",
+     "episode": "Feature Film \u2022 2019",
+     "desc": "A man meets up with his best friend in Thailand while going through a personal crisis.",
+     "stop": "2026-10-10T10:50:00+00:00"
+    },
+    {
+     "start": "2026-10-10T10:50:00+00:00",
+     "title": "Dean",
+     "episode": "Feature Film \u2022 2016",
+     "desc": "A man falls in love with a woman while trying to keep his father from burning down the family home.",
+     "stop": "2026-10-10T12:25:00+00:00"
+    },
+    {
+     "start": "2026-10-10T12:25:00+00:00",
+     "title": "Hard Truths",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "Pansy criticizes everyone, alienating family. Only sister Chantelle remains sympathetic to her.",
+     "stop": "2026-10-10T14:05:00+00:00"
+    },
+    {
+     "start": "2026-10-10T14:05:00+00:00",
+     "title": "Almost Famous",
+     "episode": "Feature Film \u2022 2000",
+     "desc": "An aspiring teenage journalist gets his big break when he follows an up-and-coming band.",
+     "stop": "2026-10-10T16:10:00+00:00"
+    },
+    {
+     "start": "2026-10-10T16:10:00+00:00",
+     "title": "Chuck",
+     "episode": "Feature Film \u2022 2016",
+     "desc": "Embattled New Jersey boxer Chuck Wepner takes on Muhammad Ali.",
+     "stop": "2026-10-10T17:50:00+00:00"
+    },
+    {
+     "start": "2026-10-10T17:50:00+00:00",
+     "title": "Million Dollar Baby",
+     "episode": "Feature Film \u2022 2004",
+     "desc": "A cantankerous trainer (Clint Eastwood) bonds with a female boxer (Hilary Swank).",
+     "stop": "2026-10-10T20:05:00+00:00"
+    },
+    {
+     "start": "2026-10-10T20:05:00+00:00",
+     "title": "Before Dawn",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "A young soldier grapples with the brutal realities of trench warfare during World War I.",
+     "stop": "2026-10-10T21:50:00+00:00"
+    },
+    {
+     "start": "2026-10-10T21:50:00+00:00",
+     "title": "Carriers",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "Fleeing from a pandemic, four friends discover a danger greater than any virus.",
+     "stop": "2026-10-10T23:15:00+00:00"
+    },
+    {
+     "start": "2026-10-10T23:15:00+00:00",
+     "title": "The Contractor",
+     "episode": "Feature Film \u2022 2022",
+     "desc": "Hunted and on the run, an elite soldier must uncover the true motives of those who betrayed him.",
+     "stop": "2026-10-11T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-11T01:00:00+00:00",
+     "title": "Edge of Tomorrow",
+     "episode": "Feature Film \u2022 2014",
+     "desc": "Caught in a time loop, a soldier (Tom Cruise) repeatedly relives the battle in which he died.",
+     "stop": "2026-10-11T03:00:00+00:00"
+    },
+    {
+     "start": "2026-10-11T03:00:00+00:00",
+     "title": "American Assassin",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "Three agents join forces to stop a mysterious operative who wants to start a global war.",
+     "stop": "2026-10-11T03:30:00+00:00"
+    },
+    {
+     "start": "2026-10-11T05:00:00+00:00",
+     "title": "The Hunted",
+     "episode": "Feature Film \u2022 2003",
+     "desc": "A retired combat-trainer (Tommy Lee Jones) searches for a killer (Benicio del Toro) in Oregon.",
+     "stop": "2026-10-11T06:35:00+00:00"
+    },
+    {
+     "start": "2026-10-11T06:35:00+00:00",
+     "title": "The Untouchables",
+     "episode": "Feature Film \u2022 1987",
+     "desc": "Eliot Ness and his men fight Al Capone in Chicago during prohibition.",
+     "stop": "2026-10-11T08:35:00+00:00"
+    },
+    {
+     "start": "2026-10-11T08:35:00+00:00",
+     "title": "The Company Men",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "Three men try to survive during a year in which their company undergoes corporate downsizing.",
+     "stop": "2026-10-11T10:20:00+00:00"
+    },
+    {
+     "start": "2026-10-11T10:20:00+00:00",
+     "title": "The Firm",
+     "episode": "Feature Film \u2022 1993",
+     "desc": "An Ivy League lawyer (Tom Cruise) goes to work at a small Memphis firm no one has ever left alive.",
+     "stop": "2026-10-11T13:00:00+00:00"
+    },
+    {
+     "start": "2026-10-11T13:00:00+00:00",
+     "title": "We Were Soldiers",
+     "episode": "Feature Film \u2022 2002",
+     "desc": "A lieutenant colonel and approximately 400 U.S. troops battle 2,000 North Vietnamese in 1965.",
+     "stop": "2026-10-11T15:20:00+00:00"
+    },
+    {
+     "start": "2026-10-11T15:20:00+00:00",
+     "title": "Run",
+     "episode": "Feature Film \u2022 2025",
+     "desc": "Smugglers, the police, locals and tourists get drawn into a dangerous web of survival and sacrifice.",
+     "stop": "2026-10-11T17:00:00+00:00"
+    },
+    {
+     "start": "2026-10-11T17:00:00+00:00",
+     "title": "Primal Fear",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "A high-profile murder intrigues a publicity-hungry lawyer (Richard Gere).",
+     "stop": "2026-10-11T19:15:00+00:00"
+    },
+    {
+     "start": "2026-10-11T19:15:00+00:00",
+     "title": "No Country for Old Men",
+     "episode": "Feature Film \u2022 2007",
+     "desc": "A hunter (Josh Brolin) becomes the hunted after taking money from the scene of a drug deal gone bad.",
+     "stop": "2026-10-11T21:20:00+00:00"
+    },
+    {
+     "start": "2026-10-11T21:20:00+00:00",
+     "title": "The Foreigner",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "A London businessman seeks revenge against the terrorists who killed his daughter in a bombing.",
+     "stop": "2026-10-11T23:20:00+00:00"
+    },
+    {
+     "start": "2026-10-11T23:20:00+00:00",
+     "title": "Body Cam",
+     "episode": "Feature Film \u2022 2020",
+     "desc": "A police officer discovers something supernatural is targeting the cops in her unit.",
+     "stop": "2026-10-12T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-12T01:00:00+00:00",
+     "title": "Cop Land",
+     "episode": "Feature Film \u2022 1997",
+     "desc": "New Jersey sheriff (Sylvester Stallone) tackles New York police cover-up.",
+     "stop": "2026-10-12T02:45:00+00:00"
+    },
+    {
+     "start": "2026-10-12T02:45:00+00:00",
+     "title": "Every Breath You Take",
+     "episode": "Feature Film \u2022 2021",
+     "desc": "A psychiatrist's life gets turned upside down when a patient takes her own life.",
+     "stop": "2026-10-12T03:15:00+00:00"
+    },
+    {
+     "start": "2026-10-12T04:35:00+00:00",
+     "title": "Kiss the Girls",
+     "episode": "Feature Film \u2022 1997",
+     "desc": "A doctor (Ashley Judd) and a detective (Morgan Freeman) track a serial killer.",
+     "stop": "2026-10-12T06:35:00+00:00"
+    },
+    {
+     "start": "2026-10-12T06:35:00+00:00",
+     "title": "Fight or Flight",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "A mercenary takes on the job of tracking a high-value asset known only as \"The Ghost.\"",
+     "stop": "2026-10-12T08:20:00+00:00"
+    },
+    {
+     "start": "2026-10-12T08:20:00+00:00",
+     "title": "Daddy&#8217;s Home",
+     "episode": "Feature Film \u2022 2015",
+     "desc": "An insecure man (Will Ferrell) competes with his stepchildren's freewheeling father (Mark Wahlberg).",
+     "stop": "2026-10-12T10:00:00+00:00"
+    },
+    {
+     "start": "2026-10-12T10:00:00+00:00",
+     "title": "Raging Grace",
+     "episode": "Feature Film \u2022 2023",
+     "desc": "An undocumented immigrant secures an ideal job, but all is not as it seems.",
+     "stop": "2026-10-12T11:45:00+00:00"
+    },
+    {
+     "start": "2026-10-12T11:45:00+00:00",
+     "title": "Vanilla Sky",
+     "episode": "Feature Film \u2022 2001",
+     "desc": "A disfigured womanizer (Tom Cruise) cannot distinguish dreams from reality.",
+     "stop": "2026-10-12T14:05:00+00:00"
+    },
+    {
+     "start": "2026-10-12T14:05:00+00:00",
+     "title": "Haunter",
+     "episode": "Feature Film \u2022 2013",
+     "desc": "A ghost tries to protect a girl and her family from a dead serial killer who can possess the living.",
+     "stop": "2026-10-12T15:45:00+00:00"
+    },
+    {
+     "start": "2026-10-12T15:45:00+00:00",
+     "title": "Seaside",
+     "episode": "Feature Film \u2022 2018",
+     "desc": "A woman runs away to the Oregon coast with her boyfriend when he inherits a family beach house.",
+     "stop": "2026-10-12T17:20:00+00:00"
+    },
+    {
+     "start": "2026-10-12T17:20:00+00:00",
+     "title": "Faster",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "An ex-con (Dwayne Johnson) begins a race against time to avenge his brother's murder.",
+     "stop": "2026-10-12T19:00:00+00:00"
+    },
+    {
+     "start": "2026-10-12T19:00:00+00:00",
+     "title": "Baby Driver",
+     "episode": "Feature Film \u2022 2017",
+     "desc": "A young getaway driver must face the music when a doomed heist threatens his life, love and freedom.",
+     "stop": "2026-10-12T21:00:00+00:00"
+    },
+    {
+     "start": "2026-10-12T21:00:00+00:00",
+     "title": "Bang Bang",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "Following an eccentric retired pugilist obsessed with rectifying the sins of his past.",
+     "stop": "2026-10-12T22:50:00+00:00"
+    },
+    {
+     "start": "2026-10-12T22:50:00+00:00",
+     "title": "Our Friend",
+     "episode": "Feature Film \u2022 2019",
+     "desc": "A caring man puts his own life on hold to help his friends, a couple facing a devastating crisis.",
+     "stop": "2026-10-13T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-13T01:00:00+00:00",
+     "title": "The Time Traveler&#8217;s Wife",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "A time-traveler (Eric Bana) keeps moving in and out of the life of his true love (Rachel McAdams).",
+     "stop": "2026-10-13T02:50:00+00:00"
+    },
+    {
+     "start": "2026-10-13T02:50:00+00:00",
+     "title": "Blue Valentine",
+     "episode": "Feature Film \u2022 2010",
+     "desc": "A couple (Ryan Gosling, Michelle Williams) cannot halt the downward spiral of their marriage.",
+     "stop": "2026-10-13T03:20:00+00:00"
+    },
+    {
+     "start": "2026-10-13T04:45:00+00:00",
+     "title": "Daniela Forever",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "After his girlfriend dies, a man joins a sleep trial to rebuild his life through lucid dreams.",
+     "stop": "2026-10-13T06:45:00+00:00"
+    },
+    {
+     "start": "2026-10-13T06:45:00+00:00",
+     "title": "The Dead Don&#8217;t Hurt",
+     "episode": "Feature Film \u2022 2023",
+     "desc": "A woman must fend for herself when the man she loves goes off to fight in the Civil War.",
+     "stop": "2026-10-13T09:00:00+00:00"
+    },
+    {
+     "start": "2026-10-13T09:00:00+00:00",
+     "title": "Day of the Fight",
+     "episode": "Feature Film \u2022 2023",
+     "desc": "A former boxing champion reconnects with his trainer, ex-wife, childhood friend, and abusive father.",
+     "stop": "2026-10-13T10:50:00+00:00"
+    },
+    {
+     "start": "2026-10-13T10:50:00+00:00",
+     "title": "Terms of Endearment",
+     "episode": "Feature Film \u2022 1983",
+     "desc": "A mother (Shirley MacLaine) and daughter (Debra Winger) maintain a strong but often turbulent bond.",
+     "stop": "2026-10-13T13:05:00+00:00"
+    },
+    {
+     "start": "2026-10-13T13:05:00+00:00",
+     "title": "Top Gun",
+     "episode": "Feature Film \u2022 1986",
+     "desc": "For Pete Mitchell being accepted into an elite training school for pilots is a dream come true.",
+     "stop": "2026-10-13T14:55:00+00:00"
+    },
+    {
+     "start": "2026-10-13T14:55:00+00:00",
+     "title": "Wild Wild West",
+     "episode": "Feature Film \u2022 1999",
+     "desc": "Secret agents (Will Smith, Kevin Kline) fight to stop a presidential assassination.",
+     "stop": "2026-10-13T16:45:00+00:00"
+    },
+    {
+     "start": "2026-10-13T16:45:00+00:00",
+     "title": "The Heart Specialist",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "The chief resident at a Florida hospital bets that he can teach a new intern about true love.",
+     "stop": "2026-10-13T18:30:00+00:00"
+    },
+    {
+     "start": "2026-10-13T18:30:00+00:00",
+     "title": "Flypaper",
+     "episode": "Feature Film \u2022 2011",
+     "desc": "A man tries to protect a bank teller after two groups rob her bank at the same time.",
+     "stop": "2026-10-13T20:00:00+00:00"
+    },
+    {
+     "start": "2026-10-13T20:00:00+00:00",
+     "title": "Smoke Signals",
+     "episode": "Feature Film \u2022 1998",
+     "desc": "A geeky Indian (Evan Adams) helps a friend (Adam Beach) to find his dead father.",
+     "stop": "2026-10-13T21:30:00+00:00"
+    },
+    {
+     "start": "2026-10-13T21:30:00+00:00",
+     "title": "She&#8217;s All That",
+     "episode": "Feature Film \u2022 1999",
+     "desc": "Teen (Freddie Prinze Jr.) bets a friend he can transform a geeky girl (Rachael Leigh Cook).",
+     "stop": "2026-10-13T23:10:00+00:00"
+    },
+    {
+     "start": "2026-10-13T23:10:00+00:00",
+     "title": "She&#8217;s the Man",
+     "episode": "Feature Film \u2022 2006",
+     "desc": "Romantic complications ensue when a student poses as her twin brother and takes his place at school.",
+     "stop": "2026-10-14T01:00:00+00:00"
+    },
+    {
+     "start": "2026-10-14T01:00:00+00:00",
+     "title": "Doin&#8217; It",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "A 30-year-old virgin gets in over her head when she's assigned to teach sex education.",
+     "stop": "2026-10-14T02:40:00+00:00"
+    },
+    {
+     "start": "2026-10-14T02:40:00+00:00",
+     "title": "Teaching Mrs. Tingle",
+     "episode": "Feature Film \u2022 1999",
+     "desc": "With their futures threatened by accusations of cheating, teens take matters into their own hands.",
+     "stop": "2026-10-14T03:10:00+00:00"
+    },
+    {
+     "start": "2026-10-14T04:20:00+00:00",
+     "title": "Don Jon",
+     "episode": "Feature Film \u2022 2013",
+     "desc": "A bartender's constant craving for porn threatens his first genuine relationship.",
+     "stop": "2026-10-14T05:55:00+00:00"
+    },
+    {
+     "start": "2026-10-14T05:55:00+00:00",
+     "title": "Airplane!",
+     "episode": "Feature Film \u2022 1980",
+     "desc": "Flight-shy pilot (Robert Hays) follows ex (Julie Hagerty) into midair crisis.",
+     "stop": "2026-10-14T07:25:00+00:00"
+    },
+    {
+     "start": "2026-10-14T07:25:00+00:00",
+     "title": "Three Wishes",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "A man recalls an encounter he, his widowed mom and his family had with a vagrant in 1955 suburbia.",
+     "stop": "2026-10-14T09:25:00+00:00"
+    },
+    {
+     "start": "2026-10-14T09:25:00+00:00",
+     "title": "Star Trek II: The Wrath of Khan",
+     "episode": "Feature Film \u2022 1982",
+     "desc": "Kirk (William Shatner), Spock (Leonard Nimoy) and crew battle an old foe (Ricardo Montalban).",
+     "stop": "2026-10-14T11:20:00+00:00"
+    },
+    {
+     "start": "2026-10-14T11:20:00+00:00",
+     "title": "Rumpelstiltskin",
+     "episode": "Feature Film \u2022 1995",
+     "desc": "Widow's wish to see her husband one last time frees a demonic being that wants her son's soul.",
+     "stop": "2026-10-14T12:55:00+00:00"
+    },
+    {
+     "start": "2026-10-14T12:55:00+00:00",
+     "title": "The Running Man",
+     "episode": "Feature Film \u2022 1987",
+     "desc": "Police-state scapegoat (Arnold Schwarzenegger) must play deadly TV game show.",
+     "stop": "2026-10-14T14:40:00+00:00"
+    },
+    {
+     "start": "2026-10-14T14:40:00+00:00",
+     "title": "Lara Croft: Tomb Raider",
+     "episode": "Feature Film \u2022 2001",
+     "desc": "A globe-trotter (Angelina Jolie) battles otherworldly creatures for an artifact.",
+     "stop": "2026-10-14T16:25:00+00:00"
+    },
+    {
+     "start": "2026-10-14T16:25:00+00:00",
+     "title": "Wakefield",
+     "episode": "Feature Film \u2022 2016",
+     "desc": "Howard Wakefield, a New York City lawyer, hides out in the attic of his home for weeks.",
+     "stop": "2026-10-14T18:15:00+00:00"
+    },
+    {
+     "start": "2026-10-14T18:15:00+00:00",
+     "title": "Cheech &#038; Chong&#8217;s Last Movie",
+     "episode": "Feature Film \u2022 2024",
+     "desc": "Cheech Marin and Tommy Chong discuss their lifelong friendship and popularity as a comedic duo.",
+     "stop": "2026-10-14T20:15:00+00:00"
+    },
+    {
+     "start": "2026-10-14T20:15:00+00:00",
+     "title": "The First Wives Club",
+     "episode": "Feature Film \u2022 1996",
+     "desc": "Dumped for younger women, college pals (Goldie Hawn, Bette Midler, Diane Keaton) seek revenge.",
+     "stop": "2026-10-14T22:00:00+00:00"
+    },
+    {
+     "start": "2026-10-14T22:00:00+00:00",
+     "title": "Show Dogs",
+     "episode": "Feature Film \u2022 2018",
+     "desc": "A canine cop and an FBI agent work undercover at the world's most exclusive dog show in Las Vegas.",
+     "stop": "2026-10-14T23:35:00+00:00"
+    },
+    {
+     "start": "2026-10-14T23:35:00+00:00",
+     "title": "Bran Nue Dae",
+     "episode": "Feature Film \u2022 2009",
+     "desc": "A rebellious young man runs away from home but returns after experiencing an amazing journey.",
+     "stop": "2026-10-15T00:05:00+00:00"
+    }
+   ]
   }
  }
 }
