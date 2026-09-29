@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-09-29T19:49:45.333720+00:00",
+ "updated_utc": "2026-09-29T19:51:36.431141+00:00",
  "sources": {
   "msnow.us": {
    "source": "msnow",
@@ -209740,6 +209740,2133 @@
      "stop": "2026-09-29T05:22:00+00:00"
     }
    ]
+  },
+  "epg-us-qvc-st-3ca626ed": {
+   "source": "tvp",
+   "source_url": "https://www.tvpassport.com/tv-listings/stations/qvc-hd/6115/2026-10-05",
+   "programmes": [
+    {
+     "start": "2026-09-29T14:00:00+00:00",
+     "stop": "2026-09-29T16:00:00+00:00",
+     "title": "Denim & Co.",
+     "desc": "Classic and affordable women's separates."
+    },
+    {
+     "start": "2026-09-29T16:00:00+00:00",
+     "stop": "2026-09-29T17:00:00+00:00",
+     "title": "Q Check - A Big Deal",
+     "desc": "Fast-Paced, weekday shopping destination."
+    },
+    {
+     "start": "2026-09-29T17:00:00+00:00",
+     "stop": "2026-09-29T18:00:00+00:00",
+     "title": "Peter Thomas Roth Clinical Skin Care",
+     "desc": "Peter Thomas Roth is a pioneer in skin care products."
+    },
+    {
+     "start": "2026-09-29T18:00:00+00:00",
+     "stop": "2026-09-29T19:00:00+00:00",
+     "title": "Barefoot Dreams -- California Style",
+     "desc": "Super-soft wraps, cardigans, blankets and more."
+    },
+    {
+     "start": "2026-09-29T19:00:00+00:00",
+     "stop": "2026-09-29T20:00:00+00:00",
+     "title": "How to Sparkle With Courtney -- Jewelry",
+     "desc": ""
+    },
+    {
+     "start": "2026-09-29T20:00:00+00:00",
+     "stop": "2026-09-29T21:00:00+00:00",
+     "title": "First Aid Beauty for FAB Skin",
+     "desc": "Rescue your skin with feel-good skin care."
+    },
+    {
+     "start": "2026-09-29T21:00:00+00:00",
+     "stop": "2026-09-29T22:00:00+00:00",
+     "title": "bareMinerals",
+     "desc": "Color and skin care with natural ingredients."
+    },
+    {
+     "start": "2026-09-29T22:00:00+00:00",
+     "stop": "2026-09-29T23:00:00+00:00",
+     "title": "Shoe Shopping With Jane",
+     "desc": "Fun footwear."
+    },
+    {
+     "start": "2026-09-29T23:00:00+00:00",
+     "stop": "2026-09-30T00:00:00+00:00",
+     "title": "Let It Glow - Beauty Gifts",
+     "desc": "It's time to get back to beauty with self-care and a chance to stock up early on gifts for all the beauty-lovers and glow-getters on your list (especially you) during Let It Glow - Beauty Gifts."
+    },
+    {
+     "start": "2026-09-30T00:00:00+00:00",
+     "stop": "2026-09-30T01:00:00+00:00",
+     "title": "Dennis Basso & Friends",
+     "desc": "Fashion, food, and friendship with the New York designer and some guests."
+    },
+    {
+     "start": "2026-09-30T01:00:00+00:00",
+     "stop": "2026-09-30T02:00:00+00:00",
+     "title": "Fire Light Lab Grown Diamond Jewelry",
+     "desc": "Radiant lab-grown diamond jewelry."
+    },
+    {
+     "start": "2026-09-30T02:00:00+00:00",
+     "stop": "2026-09-30T04:00:00+00:00",
+     "title": "Inspired Style with Amy",
+     "desc": ""
+    },
+    {
+     "start": "2026-09-30T04:00:00+00:00",
+     "stop": "2026-09-30T05:00:00+00:00",
+     "title": "Prepology Kitchen",
+     "desc": "Cook tools, smart solutions and fun colors for the kitchen."
+    },
+    {
+     "start": "2026-09-30T05:00:00+00:00",
+     "stop": "2026-09-30T06:00:00+00:00",
+     "title": "Philosophy -- Beauty",
+     "desc": "Line of skin care, fragrance, bath and body products and cosmetics."
+    },
+    {
+     "start": "2026-09-30T06:00:00+00:00",
+     "stop": "2026-09-30T07:00:00+00:00",
+     "title": "Clarks Footwear",
+     "desc": "Comfort shoes."
+    },
+    {
+     "start": "2026-09-30T07:00:00+00:00",
+     "stop": "2026-09-30T08:00:00+00:00",
+     "title": "Prepology Kitchen",
+     "desc": "Cook tools, smart solutions and fun colors for the kitchen."
+    },
+    {
+     "start": "2026-09-30T08:00:00+00:00",
+     "stop": "2026-09-30T09:00:00+00:00",
+     "title": "Lug - Bags & Accessories",
+     "desc": "Colorful bags with superb organization."
+    },
+    {
+     "start": "2026-09-30T09:00:00+00:00",
+     "stop": "2026-09-30T10:00:00+00:00",
+     "title": "Shoe Shopping With Jane",
+     "desc": "Fun footwear."
+    },
+    {
+     "start": "2026-09-30T10:00:00+00:00",
+     "stop": "2026-09-30T11:00:00+00:00",
+     "title": "Prepology Kitchen",
+     "desc": "Cook tools, smart solutions and fun colors for the kitchen."
+    },
+    {
+     "start": "2026-09-30T11:00:00+00:00",
+     "stop": "2026-09-30T12:00:00+00:00",
+     "title": "Dr. Kellyann -- Women's Wellness",
+     "desc": "Easy-to-follow bone broth formulas and lifestyle plans from a pioneering naturopathic practitioner and weight-loss specialist."
+    },
+    {
+     "start": "2026-09-30T12:00:00+00:00",
+     "stop": "2026-09-30T13:00:00+00:00",
+     "title": "Diamonique Classics Collection",
+     "desc": "Timeless, classic jewelry designs, including studs, pendants, bridal looks and hoops."
+    },
+    {
+     "start": "2026-09-30T13:00:00+00:00",
+     "stop": "2026-09-30T15:00:00+00:00",
+     "title": "Belle by Kim Gravel -- Fashion",
+     "desc": "Figure-focused fashion."
+    },
+    {
+     "start": "2026-09-30T15:00:00+00:00",
+     "stop": "2026-09-30T16:00:00+00:00",
+     "title": "In the Kitchen With Mary",
+     "desc": "Cookware, food, appliances and gadgets."
+    },
+    {
+     "start": "2026-09-30T16:00:00+00:00",
+     "stop": "2026-09-30T17:00:00+00:00",
+     "title": "Q Check - A Big Deal",
+     "desc": "Fast-Paced, weekday shopping destination."
+    },
+    {
+     "start": "2026-09-30T17:00:00+00:00",
+     "stop": "2026-09-30T18:00:00+00:00",
+     "title": "Kitchen Must-Haves",
+     "desc": "Cookware, gadgets, small appliances, cookbooks and more."
+    },
+    {
+     "start": "2026-09-30T18:00:00+00:00",
+     "stop": "2026-09-30T20:00:00+00:00",
+     "title": "Gourmet Holiday",
+     "desc": "Gourmet foods for everyday dining, holiday entertaining or gift-giving."
+    },
+    {
+     "start": "2026-09-30T20:00:00+00:00",
+     "stop": "2026-09-30T23:00:00+00:00",
+     "title": "Gourmet Holiday",
+     "desc": "Gourmet foods for everyday dining, holiday entertaining or gift-giving."
+    },
+    {
+     "start": "2026-09-30T23:00:00+00:00",
+     "stop": "2026-10-01T00:00:00+00:00",
+     "title": "RMS Beauty",
+     "desc": "Color cosmetics & skin care from a clean beauty leader since 2009."
+    },
+    {
+     "start": "2026-10-01T00:00:00+00:00",
+     "stop": "2026-10-01T01:00:00+00:00",
+     "title": "In the Kitchen With David -- PM Edition",
+     "desc": "Cooking and fun with David Venable."
+    },
+    {
+     "start": "2026-10-01T01:00:00+00:00",
+     "stop": "2026-10-01T02:00:00+00:00",
+     "title": "Carla Rockmore - Fashion",
+     "desc": "Joyful statement pieces designed by social media sensation hailed as the Real Life Carrie Bradshaw."
+    },
+    {
+     "start": "2026-10-01T02:00:00+00:00",
+     "stop": "2026-10-01T04:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-01T04:00:00+00:00",
+     "stop": "2026-10-01T05:00:00+00:00",
+     "title": "COOP Sleep Goods",
+     "desc": "Discover Coop's collection of hypoallergenic and adjustable pillows for the ultimate comfort."
+    },
+    {
+     "start": "2026-10-01T05:00:00+00:00",
+     "stop": "2026-10-01T06:00:00+00:00",
+     "title": "Doll 10 Beauty",
+     "desc": "Skin-loving cosmetics from Doris Dalton."
+    },
+    {
+     "start": "2026-10-01T06:00:00+00:00",
+     "stop": "2026-10-01T07:00:00+00:00",
+     "title": "Me by Jennie Garth - Fashion",
+     "desc": "Capsule collections with an effortless yet chic California vibe, inspired by the colors and textures of the actress' favorite US locations."
+    },
+    {
+     "start": "2026-10-01T07:00:00+00:00",
+     "stop": "2026-10-01T08:00:00+00:00",
+     "title": "COOP Sleep Goods",
+     "desc": "Discover Coop's collection of hypoallergenic and adjustable pillows for the ultimate comfort."
+    },
+    {
+     "start": "2026-10-01T08:00:00+00:00",
+     "stop": "2026-10-01T10:00:00+00:00",
+     "title": "Gourmet Holiday",
+     "desc": "Gourmet foods for everyday dining, holiday entertaining or gift-giving."
+    },
+    {
+     "start": "2026-10-01T10:00:00+00:00",
+     "stop": "2026-10-01T11:00:00+00:00",
+     "title": "Philosophy -- Beauty",
+     "desc": "Line of skin care, fragrance, bath and body products and cosmetics."
+    },
+    {
+     "start": "2026-10-01T11:00:00+00:00",
+     "stop": "2026-10-01T13:00:00+00:00",
+     "title": "Q the Real Talk With Jayne and Pat",
+     "desc": "Program Hosts and Q50 Ambassadors Jayne Brown & Pat James-Dementri share their favorite finds to support women."
+    },
+    {
+     "start": "2026-10-01T13:00:00+00:00",
+     "stop": "2026-10-01T15:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-01T15:00:00+00:00",
+     "stop": "2026-10-01T16:00:00+00:00",
+     "title": "Your Best Night's Sleep",
+     "desc": "A selection of comfortable and supportive bedding essentials."
+    },
+    {
+     "start": "2026-10-01T16:00:00+00:00",
+     "stop": "2026-10-01T17:00:00+00:00",
+     "title": "Q Check - A Big Deal",
+     "desc": "Fast-Paced, weekday shopping destination."
+    },
+    {
+     "start": "2026-10-01T17:00:00+00:00",
+     "stop": "2026-10-01T18:00:00+00:00",
+     "title": "Harry Slatkin Lights Up the Holidays",
+     "desc": "Luxurious candle and home fragrance collection from award-winning and world-renowned fragrance expert."
+    },
+    {
+     "start": "2026-10-01T18:00:00+00:00",
+     "stop": "2026-10-01T19:00:00+00:00",
+     "title": "Toni Brattin Hair Fabulous - Wigs & Hairpieces",
+     "desc": "Wigs, hairpieces and extensions for a great hair day in a flash."
+    },
+    {
+     "start": "2026-10-01T19:00:00+00:00",
+     "stop": "2026-10-01T20:00:00+00:00",
+     "title": "Your Best Night's Sleep",
+     "desc": "A selection of comfortable and supportive bedding essentials."
+    },
+    {
+     "start": "2026-10-01T20:00:00+00:00",
+     "stop": "2026-10-01T22:00:00+00:00",
+     "title": "Rick St. Nick's Gifts",
+     "desc": "Program Host Rick Domeier -- or Rick St. Nick as he's known during the holidays -- delivers this weekly edition of festive holiday finds, including perfect presents to please those topping your gift list."
+    },
+    {
+     "start": "2026-10-01T22:00:00+00:00",
+     "stop": "2026-10-01T23:00:00+00:00",
+     "title": "Football Team Shop",
+     "desc": "Officially licensed fan gear and collectibles."
+    },
+    {
+     "start": "2026-10-01T23:00:00+00:00",
+     "stop": "2026-10-02T00:00:00+00:00",
+     "title": "Laura Mercier Beauty",
+     "desc": "Cosmetics by leading French makeup artist."
+    },
+    {
+     "start": "2026-10-02T00:00:00+00:00",
+     "stop": "2026-10-02T01:00:00+00:00",
+     "title": "Anybody Fashion",
+     "desc": "Contemporary fashion designed especially for QVC."
+    },
+    {
+     "start": "2026-10-02T01:00:00+00:00",
+     "stop": "2026-10-02T02:00:00+00:00",
+     "title": "Inside Q With Mally -- Beauty Edition",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-02T02:00:00+00:00",
+     "stop": "2026-10-02T03:00:00+00:00",
+     "title": "Toni Brattin Hair Fabulous - Wigs & Hairpieces",
+     "desc": "Wigs, hairpieces and extensions for a great hair day in a flash."
+    },
+    {
+     "start": "2026-10-02T03:00:00+00:00",
+     "stop": "2026-10-02T04:00:00+00:00",
+     "title": "Your Best Night's Sleep",
+     "desc": "A selection of comfortable and supportive bedding essentials."
+    },
+    {
+     "start": "2026-10-02T04:00:00+00:00",
+     "stop": "2026-10-02T05:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-02T05:00:00+00:00",
+     "stop": "2026-10-02T06:00:00+00:00",
+     "title": "Silver Style Jewelry",
+     "desc": "Sterling silver jewelry."
+    },
+    {
+     "start": "2026-10-02T06:00:00+00:00",
+     "stop": "2026-10-02T07:00:00+00:00",
+     "title": "Third Person -- Jewelry",
+     "desc": "Playful, colorful gemstone jewelry set in precious metals."
+    },
+    {
+     "start": "2026-10-02T07:00:00+00:00",
+     "stop": "2026-10-02T08:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-02T08:00:00+00:00",
+     "stop": "2026-10-02T09:00:00+00:00",
+     "title": "Diamonique Classics Collection",
+     "desc": "Timeless, classic jewelry designs, including studs, pendants, bridal looks and hoops."
+    },
+    {
+     "start": "2026-10-02T09:00:00+00:00",
+     "stop": "2026-10-02T10:00:00+00:00",
+     "title": "Toni Brattin Hair Fabulous - Wigs & Hairpieces",
+     "desc": "Wigs, hairpieces and extensions for a great hair day in a flash."
+    },
+    {
+     "start": "2026-10-02T10:00:00+00:00",
+     "stop": "2026-10-02T11:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-02T11:00:00+00:00",
+     "stop": "2026-10-02T14:00:00+00:00",
+     "title": "Fri-YAY! Fashion Deals With Leah Williams",
+     "desc": "Deals on lots of looks with Leah Williams."
+    },
+    {
+     "start": "2026-10-02T14:00:00+00:00",
+     "stop": "2026-10-02T16:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-02T16:00:00+00:00",
+     "stop": "2026-10-02T17:00:00+00:00",
+     "title": "UltraFine Silver Nickel-Free Jewelry",
+     "desc": "Tarnish resistant silver designs."
+    },
+    {
+     "start": "2026-10-02T17:00:00+00:00",
+     "stop": "2026-10-02T19:00:00+00:00",
+     "title": "Creede Silver Sale",
+     "desc": "Sterling silver jewelry sale."
+    },
+    {
+     "start": "2026-10-02T19:00:00+00:00",
+     "stop": "2026-10-02T21:00:00+00:00",
+     "title": "Explore Your Style With Vanessa",
+     "desc": "Exploring some style with Vanessa."
+    },
+    {
+     "start": "2026-10-02T21:00:00+00:00",
+     "stop": "2026-10-02T23:00:00+00:00",
+     "title": "Fri-YAY! With Alberti and Amy: Style Edition",
+     "desc": "Celebrating the weekend in style with Alberti Popaj and Amy Stran."
+    },
+    {
+     "start": "2026-10-02T23:00:00+00:00",
+     "stop": "2026-10-03T00:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-03T00:00:00+00:00",
+     "stop": "2026-10-03T01:00:00+00:00",
+     "title": "RM Studio x Rebecca Minkoff -- Fashion",
+     "desc": "Effortlessly wearable pieces that blend bold femininity with everyday ease, rooted in the spirit of Downtown NYC and created exclusively for QVC by celebrated designer."
+    },
+    {
+     "start": "2026-10-03T01:00:00+00:00",
+     "stop": "2026-10-03T02:00:00+00:00",
+     "title": "Jane's Jewelry Favorites",
+     "desc": "Jane Treacy shares her jewelry loves."
+    },
+    {
+     "start": "2026-10-03T02:00:00+00:00",
+     "stop": "2026-10-03T04:00:00+00:00",
+     "title": "David Markstein Italian Jewelry",
+     "desc": "Features cutting-edge, must-have 14K gold, sterling silver, and bronze collection designed by an expert in the timeless artistry and luxury of Italian-crafted jewelry."
+    },
+    {
+     "start": "2026-10-03T04:00:00+00:00",
+     "stop": "2026-10-03T05:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-03T05:00:00+00:00",
+     "stop": "2026-10-03T07:00:00+00:00",
+     "title": "Dooney & Bourke",
+     "desc": "Prestigious brand of handbags and accessories."
+    },
+    {
+     "start": "2026-10-03T07:00:00+00:00",
+     "stop": "2026-10-03T08:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-03T08:00:00+00:00",
+     "stop": "2026-10-03T10:00:00+00:00",
+     "title": "Belle by Kim Gravel -- Fashion",
+     "desc": "Figure-focused fashion."
+    },
+    {
+     "start": "2026-10-03T10:00:00+00:00",
+     "stop": "2026-10-03T11:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-03T11:00:00+00:00",
+     "stop": "2026-10-03T14:00:00+00:00",
+     "title": "AM Style With Leah Williams",
+     "desc": "Wardrobe essentials, trends and accessories from popular brands."
+    },
+    {
+     "start": "2026-10-03T14:00:00+00:00",
+     "stop": "2026-10-03T18:00:00+00:00",
+     "title": "Saturday Morning Q",
+     "desc": "Weekly shopping showcase."
+    },
+    {
+     "start": "2026-10-03T18:00:00+00:00",
+     "stop": "2026-10-03T19:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-03T19:00:00+00:00",
+     "stop": "2026-10-03T20:00:00+00:00",
+     "title": "MacKenzie-Childs -- Home Decor",
+     "desc": "An imaginative and colorful collection to transform one's home into a happy place."
+    },
+    {
+     "start": "2026-10-03T20:00:00+00:00",
+     "stop": "2026-10-03T21:00:00+00:00",
+     "title": "Destination Vacation with Rick & Shawn: Destination Vacation with Rick & Shawn",
+     "desc": "We're off to New York's fabulous Finger Lakes to enjoy all things fall as we go upstate with Shawn Killinger and soon-to-be-retired Rick Domeier for brands and special guests with ties to upstate New York AND those who just want to get away with us."
+    },
+    {
+     "start": "2026-10-03T21:00:00+00:00",
+     "stop": "2026-10-03T23:00:00+00:00",
+     "title": "Beekman 1802 Beauty",
+     "desc": "Artisan-inspired goat milk beauty and skin care."
+    },
+    {
+     "start": "2026-10-03T23:00:00+00:00",
+     "stop": "2026-10-04T00:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-04T00:00:00+00:00",
+     "stop": "2026-10-04T02:00:00+00:00",
+     "title": "Belle by Kim Gravel -- Fashion",
+     "desc": "Figure-focused fashion."
+    },
+    {
+     "start": "2026-10-04T02:00:00+00:00",
+     "stop": "2026-10-04T03:00:00+00:00",
+     "title": "Beauty Best Sellers",
+     "desc": "Best-selling brands and must-haves."
+    },
+    {
+     "start": "2026-10-04T03:00:00+00:00",
+     "stop": "2026-10-04T04:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-04T04:00:00+00:00",
+     "stop": "2026-10-04T05:00:00+00:00",
+     "title": "Today's Top Tech",
+     "desc": "Computers, HDTV's, audio, cameras and more."
+    },
+    {
+     "start": "2026-10-04T05:00:00+00:00",
+     "stop": "2026-10-04T06:00:00+00:00",
+     "title": "Philosophy -- Beauty",
+     "desc": "Line of skin care, fragrance, bath and body products and cosmetics."
+    },
+    {
+     "start": "2026-10-04T06:00:00+00:00",
+     "stop": "2026-10-04T07:00:00+00:00",
+     "title": "Lock 'n' Lock Storage",
+     "desc": "Storage system."
+    },
+    {
+     "start": "2026-10-04T07:00:00+00:00",
+     "stop": "2026-10-04T08:00:00+00:00",
+     "title": "Today's Top Tech",
+     "desc": "Computers, HDTV's, audio, cameras and more."
+    },
+    {
+     "start": "2026-10-04T08:00:00+00:00",
+     "stop": "2026-10-04T09:00:00+00:00",
+     "title": "RM Studio x Rebecca Minkoff -- Fashion",
+     "desc": "Effortlessly wearable pieces that blend bold femininity with everyday ease, rooted in the spirit of Downtown NYC and created exclusively for QVC by celebrated designer."
+    },
+    {
+     "start": "2026-10-04T09:00:00+00:00",
+     "stop": "2026-10-04T10:00:00+00:00",
+     "title": "Harry Slatkin Lights Up the Holidays",
+     "desc": "Luxurious candle and home fragrance collection from award-winning and world-renowned fragrance expert."
+    },
+    {
+     "start": "2026-10-04T10:00:00+00:00",
+     "stop": "2026-10-04T11:00:00+00:00",
+     "title": "Today's Top Tech",
+     "desc": "Computers, HDTV's, audio, cameras and more."
+    },
+    {
+     "start": "2026-10-04T11:00:00+00:00",
+     "stop": "2026-10-04T13:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-04T13:00:00+00:00",
+     "stop": "2026-10-04T15:00:00+00:00",
+     "title": "Destination Vacation with Rick & Shawn: Destination Vacation with Rick & Shawn",
+     "desc": "We're off to New York's fabulous Finger Lakes to enjoy all things fall as we go upstate with Shawn Killinger and soon-to-be-retired Rick Domeier for brands and special guests with ties to upstate New York AND those who just want to get away with us."
+    },
+    {
+     "start": "2026-10-04T15:00:00+00:00",
+     "stop": "2026-10-04T16:00:00+00:00",
+     "title": "MacKenzie-Childs -- Home Decor",
+     "desc": "An imaginative and colorful collection to transform one's home into a happy place."
+    },
+    {
+     "start": "2026-10-04T16:00:00+00:00",
+     "stop": "2026-10-04T20:00:00+00:00",
+     "title": "In the Kitchen With David",
+     "desc": "Innovative appliances, kitchenware and cookbooks; food, fun and everything a home cook needs to create meals and memories."
+    },
+    {
+     "start": "2026-10-04T20:00:00+00:00",
+     "stop": "2026-10-04T22:00:00+00:00",
+     "title": "Temp-tations Presentable Kitchen",
+     "desc": "Versatile ceramic ovenware, dinnerware and accessories."
+    },
+    {
+     "start": "2026-10-04T22:00:00+00:00",
+     "stop": "2026-10-05T00:00:00+00:00",
+     "title": "Fall for Deals",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-05T00:00:00+00:00",
+     "stop": "2026-10-05T02:00:00+00:00",
+     "title": "Denim & Co.",
+     "desc": "Classic and affordable women's separates."
+    },
+    {
+     "start": "2026-10-05T02:00:00+00:00",
+     "stop": "2026-10-05T03:00:00+00:00",
+     "title": "Fire Light Lab Grown Diamond Jewelry",
+     "desc": "Radiant lab-grown diamond jewelry."
+    },
+    {
+     "start": "2026-10-05T03:00:00+00:00",
+     "stop": "2026-10-05T04:00:00+00:00",
+     "title": "Today's Top Tech",
+     "desc": "Computers, HDTV's, audio, cameras and more."
+    },
+    {
+     "start": "2026-10-05T04:00:00+00:00",
+     "stop": "2026-10-05T05:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T05:00:00+00:00",
+     "stop": "2026-10-05T06:00:00+00:00",
+     "title": "Gentle Souls by Kenneth Cole Footwear",
+     "desc": "Contemporary leather shoes with built-in comfort."
+    },
+    {
+     "start": "2026-10-05T06:00:00+00:00",
+     "stop": "2026-10-05T07:00:00+00:00",
+     "title": "Just Reduced - Fashion & Accessories",
+     "desc": "Clearance prices."
+    },
+    {
+     "start": "2026-10-05T07:00:00+00:00",
+     "stop": "2026-10-05T08:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T08:00:00+00:00",
+     "stop": "2026-10-05T10:00:00+00:00",
+     "title": "Belle by Kim Gravel -- Fashion",
+     "desc": "Figure-focused fashion."
+    },
+    {
+     "start": "2026-10-05T10:00:00+00:00",
+     "stop": "2026-10-05T11:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T11:00:00+00:00",
+     "stop": "2026-10-05T13:00:00+00:00",
+     "title": "Fashion Deals With Leah Williams",
+     "desc": "Deals on the looks you love with host Leah Williams."
+    },
+    {
+     "start": "2026-10-05T13:00:00+00:00",
+     "stop": "2026-10-05T16:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T16:00:00+00:00",
+     "stop": "2026-10-05T17:00:00+00:00",
+     "title": "Q Check - A Big Deal",
+     "desc": "Fast-Paced, weekday shopping destination."
+    },
+    {
+     "start": "2026-10-05T17:00:00+00:00",
+     "stop": "2026-10-05T18:00:00+00:00",
+     "title": "Inspirational Jewelry",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-05T18:00:00+00:00",
+     "stop": "2026-10-05T20:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T20:00:00+00:00",
+     "stop": "2026-10-05T22:00:00+00:00",
+     "title": "LOGO by Lori Goldstein",
+     "desc": "Contemporary fashion and accessories."
+    },
+    {
+     "start": "2026-10-05T22:00:00+00:00",
+     "stop": "2026-10-06T00:00:00+00:00",
+     "title": "PM Style With Amy Stran",
+     "desc": "Fashion, fun and friends with Amy Stran."
+    },
+    {
+     "start": "2026-10-06T00:00:00+00:00",
+     "stop": "2026-10-06T01:00:00+00:00",
+     "title": "Peace Love World - Fashion",
+     "desc": "Casual-cool fashion with inspirational messages."
+    },
+    {
+     "start": "2026-10-06T01:00:00+00:00",
+     "stop": "2026-10-06T02:00:00+00:00",
+     "title": "Felt Denim by Laurie Felt",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-06T02:00:00+00:00",
+     "stop": "2026-10-06T03:00:00+00:00",
+     "title": "Dennis by Dennis Basso",
+     "desc": "Outerwear & Sportswear by Couture Designer."
+    },
+    {
+     "start": "2026-10-06T03:00:00+00:00",
+     "stop": "2026-10-06T04:00:00+00:00",
+     "title": "Aimee Kestenberg Collection",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-06T04:00:00+00:00",
+     "stop": "2026-10-06T05:00:00+00:00",
+     "title": "Laura Geller Makeup Studio",
+     "desc": "Cosmetics from a New York make-up artist."
+    }
+   ],
+   "note": "qvc-st-variant-main-feed"
+  },
+  "qvc.us": {
+   "source": "tvp",
+   "source_url": "https://www.tvpassport.com/tv-listings/stations/qvc-hd/6115/2026-10-05",
+   "programmes": [
+    {
+     "start": "2026-09-29T14:00:00+00:00",
+     "stop": "2026-09-29T16:00:00+00:00",
+     "title": "Denim & Co.",
+     "desc": "Classic and affordable women's separates."
+    },
+    {
+     "start": "2026-09-29T16:00:00+00:00",
+     "stop": "2026-09-29T17:00:00+00:00",
+     "title": "Q Check - A Big Deal",
+     "desc": "Fast-Paced, weekday shopping destination."
+    },
+    {
+     "start": "2026-09-29T17:00:00+00:00",
+     "stop": "2026-09-29T18:00:00+00:00",
+     "title": "Peter Thomas Roth Clinical Skin Care",
+     "desc": "Peter Thomas Roth is a pioneer in skin care products."
+    },
+    {
+     "start": "2026-09-29T18:00:00+00:00",
+     "stop": "2026-09-29T19:00:00+00:00",
+     "title": "Barefoot Dreams -- California Style",
+     "desc": "Super-soft wraps, cardigans, blankets and more."
+    },
+    {
+     "start": "2026-09-29T19:00:00+00:00",
+     "stop": "2026-09-29T20:00:00+00:00",
+     "title": "How to Sparkle With Courtney -- Jewelry",
+     "desc": ""
+    },
+    {
+     "start": "2026-09-29T20:00:00+00:00",
+     "stop": "2026-09-29T21:00:00+00:00",
+     "title": "First Aid Beauty for FAB Skin",
+     "desc": "Rescue your skin with feel-good skin care."
+    },
+    {
+     "start": "2026-09-29T21:00:00+00:00",
+     "stop": "2026-09-29T22:00:00+00:00",
+     "title": "bareMinerals",
+     "desc": "Color and skin care with natural ingredients."
+    },
+    {
+     "start": "2026-09-29T22:00:00+00:00",
+     "stop": "2026-09-29T23:00:00+00:00",
+     "title": "Shoe Shopping With Jane",
+     "desc": "Fun footwear."
+    },
+    {
+     "start": "2026-09-29T23:00:00+00:00",
+     "stop": "2026-09-30T00:00:00+00:00",
+     "title": "Let It Glow - Beauty Gifts",
+     "desc": "It's time to get back to beauty with self-care and a chance to stock up early on gifts for all the beauty-lovers and glow-getters on your list (especially you) during Let It Glow - Beauty Gifts."
+    },
+    {
+     "start": "2026-09-30T00:00:00+00:00",
+     "stop": "2026-09-30T01:00:00+00:00",
+     "title": "Dennis Basso & Friends",
+     "desc": "Fashion, food, and friendship with the New York designer and some guests."
+    },
+    {
+     "start": "2026-09-30T01:00:00+00:00",
+     "stop": "2026-09-30T02:00:00+00:00",
+     "title": "Fire Light Lab Grown Diamond Jewelry",
+     "desc": "Radiant lab-grown diamond jewelry."
+    },
+    {
+     "start": "2026-09-30T02:00:00+00:00",
+     "stop": "2026-09-30T04:00:00+00:00",
+     "title": "Inspired Style with Amy",
+     "desc": ""
+    },
+    {
+     "start": "2026-09-30T04:00:00+00:00",
+     "stop": "2026-09-30T05:00:00+00:00",
+     "title": "Prepology Kitchen",
+     "desc": "Cook tools, smart solutions and fun colors for the kitchen."
+    },
+    {
+     "start": "2026-09-30T05:00:00+00:00",
+     "stop": "2026-09-30T06:00:00+00:00",
+     "title": "Philosophy -- Beauty",
+     "desc": "Line of skin care, fragrance, bath and body products and cosmetics."
+    },
+    {
+     "start": "2026-09-30T06:00:00+00:00",
+     "stop": "2026-09-30T07:00:00+00:00",
+     "title": "Clarks Footwear",
+     "desc": "Comfort shoes."
+    },
+    {
+     "start": "2026-09-30T07:00:00+00:00",
+     "stop": "2026-09-30T08:00:00+00:00",
+     "title": "Prepology Kitchen",
+     "desc": "Cook tools, smart solutions and fun colors for the kitchen."
+    },
+    {
+     "start": "2026-09-30T08:00:00+00:00",
+     "stop": "2026-09-30T09:00:00+00:00",
+     "title": "Lug - Bags & Accessories",
+     "desc": "Colorful bags with superb organization."
+    },
+    {
+     "start": "2026-09-30T09:00:00+00:00",
+     "stop": "2026-09-30T10:00:00+00:00",
+     "title": "Shoe Shopping With Jane",
+     "desc": "Fun footwear."
+    },
+    {
+     "start": "2026-09-30T10:00:00+00:00",
+     "stop": "2026-09-30T11:00:00+00:00",
+     "title": "Prepology Kitchen",
+     "desc": "Cook tools, smart solutions and fun colors for the kitchen."
+    },
+    {
+     "start": "2026-09-30T11:00:00+00:00",
+     "stop": "2026-09-30T12:00:00+00:00",
+     "title": "Dr. Kellyann -- Women's Wellness",
+     "desc": "Easy-to-follow bone broth formulas and lifestyle plans from a pioneering naturopathic practitioner and weight-loss specialist."
+    },
+    {
+     "start": "2026-09-30T12:00:00+00:00",
+     "stop": "2026-09-30T13:00:00+00:00",
+     "title": "Diamonique Classics Collection",
+     "desc": "Timeless, classic jewelry designs, including studs, pendants, bridal looks and hoops."
+    },
+    {
+     "start": "2026-09-30T13:00:00+00:00",
+     "stop": "2026-09-30T15:00:00+00:00",
+     "title": "Belle by Kim Gravel -- Fashion",
+     "desc": "Figure-focused fashion."
+    },
+    {
+     "start": "2026-09-30T15:00:00+00:00",
+     "stop": "2026-09-30T16:00:00+00:00",
+     "title": "In the Kitchen With Mary",
+     "desc": "Cookware, food, appliances and gadgets."
+    },
+    {
+     "start": "2026-09-30T16:00:00+00:00",
+     "stop": "2026-09-30T17:00:00+00:00",
+     "title": "Q Check - A Big Deal",
+     "desc": "Fast-Paced, weekday shopping destination."
+    },
+    {
+     "start": "2026-09-30T17:00:00+00:00",
+     "stop": "2026-09-30T18:00:00+00:00",
+     "title": "Kitchen Must-Haves",
+     "desc": "Cookware, gadgets, small appliances, cookbooks and more."
+    },
+    {
+     "start": "2026-09-30T18:00:00+00:00",
+     "stop": "2026-09-30T20:00:00+00:00",
+     "title": "Gourmet Holiday",
+     "desc": "Gourmet foods for everyday dining, holiday entertaining or gift-giving."
+    },
+    {
+     "start": "2026-09-30T20:00:00+00:00",
+     "stop": "2026-09-30T23:00:00+00:00",
+     "title": "Gourmet Holiday",
+     "desc": "Gourmet foods for everyday dining, holiday entertaining or gift-giving."
+    },
+    {
+     "start": "2026-09-30T23:00:00+00:00",
+     "stop": "2026-10-01T00:00:00+00:00",
+     "title": "RMS Beauty",
+     "desc": "Color cosmetics & skin care from a clean beauty leader since 2009."
+    },
+    {
+     "start": "2026-10-01T00:00:00+00:00",
+     "stop": "2026-10-01T01:00:00+00:00",
+     "title": "In the Kitchen With David -- PM Edition",
+     "desc": "Cooking and fun with David Venable."
+    },
+    {
+     "start": "2026-10-01T01:00:00+00:00",
+     "stop": "2026-10-01T02:00:00+00:00",
+     "title": "Carla Rockmore - Fashion",
+     "desc": "Joyful statement pieces designed by social media sensation hailed as the Real Life Carrie Bradshaw."
+    },
+    {
+     "start": "2026-10-01T02:00:00+00:00",
+     "stop": "2026-10-01T04:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-01T04:00:00+00:00",
+     "stop": "2026-10-01T05:00:00+00:00",
+     "title": "COOP Sleep Goods",
+     "desc": "Discover Coop's collection of hypoallergenic and adjustable pillows for the ultimate comfort."
+    },
+    {
+     "start": "2026-10-01T05:00:00+00:00",
+     "stop": "2026-10-01T06:00:00+00:00",
+     "title": "Doll 10 Beauty",
+     "desc": "Skin-loving cosmetics from Doris Dalton."
+    },
+    {
+     "start": "2026-10-01T06:00:00+00:00",
+     "stop": "2026-10-01T07:00:00+00:00",
+     "title": "Me by Jennie Garth - Fashion",
+     "desc": "Capsule collections with an effortless yet chic California vibe, inspired by the colors and textures of the actress' favorite US locations."
+    },
+    {
+     "start": "2026-10-01T07:00:00+00:00",
+     "stop": "2026-10-01T08:00:00+00:00",
+     "title": "COOP Sleep Goods",
+     "desc": "Discover Coop's collection of hypoallergenic and adjustable pillows for the ultimate comfort."
+    },
+    {
+     "start": "2026-10-01T08:00:00+00:00",
+     "stop": "2026-10-01T10:00:00+00:00",
+     "title": "Gourmet Holiday",
+     "desc": "Gourmet foods for everyday dining, holiday entertaining or gift-giving."
+    },
+    {
+     "start": "2026-10-01T10:00:00+00:00",
+     "stop": "2026-10-01T11:00:00+00:00",
+     "title": "Philosophy -- Beauty",
+     "desc": "Line of skin care, fragrance, bath and body products and cosmetics."
+    },
+    {
+     "start": "2026-10-01T11:00:00+00:00",
+     "stop": "2026-10-01T13:00:00+00:00",
+     "title": "Q the Real Talk With Jayne and Pat",
+     "desc": "Program Hosts and Q50 Ambassadors Jayne Brown & Pat James-Dementri share their favorite finds to support women."
+    },
+    {
+     "start": "2026-10-01T13:00:00+00:00",
+     "stop": "2026-10-01T15:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-01T15:00:00+00:00",
+     "stop": "2026-10-01T16:00:00+00:00",
+     "title": "Your Best Night's Sleep",
+     "desc": "A selection of comfortable and supportive bedding essentials."
+    },
+    {
+     "start": "2026-10-01T16:00:00+00:00",
+     "stop": "2026-10-01T17:00:00+00:00",
+     "title": "Q Check - A Big Deal",
+     "desc": "Fast-Paced, weekday shopping destination."
+    },
+    {
+     "start": "2026-10-01T17:00:00+00:00",
+     "stop": "2026-10-01T18:00:00+00:00",
+     "title": "Harry Slatkin Lights Up the Holidays",
+     "desc": "Luxurious candle and home fragrance collection from award-winning and world-renowned fragrance expert."
+    },
+    {
+     "start": "2026-10-01T18:00:00+00:00",
+     "stop": "2026-10-01T19:00:00+00:00",
+     "title": "Toni Brattin Hair Fabulous - Wigs & Hairpieces",
+     "desc": "Wigs, hairpieces and extensions for a great hair day in a flash."
+    },
+    {
+     "start": "2026-10-01T19:00:00+00:00",
+     "stop": "2026-10-01T20:00:00+00:00",
+     "title": "Your Best Night's Sleep",
+     "desc": "A selection of comfortable and supportive bedding essentials."
+    },
+    {
+     "start": "2026-10-01T20:00:00+00:00",
+     "stop": "2026-10-01T22:00:00+00:00",
+     "title": "Rick St. Nick's Gifts",
+     "desc": "Program Host Rick Domeier -- or Rick St. Nick as he's known during the holidays -- delivers this weekly edition of festive holiday finds, including perfect presents to please those topping your gift list."
+    },
+    {
+     "start": "2026-10-01T22:00:00+00:00",
+     "stop": "2026-10-01T23:00:00+00:00",
+     "title": "Football Team Shop",
+     "desc": "Officially licensed fan gear and collectibles."
+    },
+    {
+     "start": "2026-10-01T23:00:00+00:00",
+     "stop": "2026-10-02T00:00:00+00:00",
+     "title": "Laura Mercier Beauty",
+     "desc": "Cosmetics by leading French makeup artist."
+    },
+    {
+     "start": "2026-10-02T00:00:00+00:00",
+     "stop": "2026-10-02T01:00:00+00:00",
+     "title": "Anybody Fashion",
+     "desc": "Contemporary fashion designed especially for QVC."
+    },
+    {
+     "start": "2026-10-02T01:00:00+00:00",
+     "stop": "2026-10-02T02:00:00+00:00",
+     "title": "Inside Q With Mally -- Beauty Edition",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-02T02:00:00+00:00",
+     "stop": "2026-10-02T03:00:00+00:00",
+     "title": "Toni Brattin Hair Fabulous - Wigs & Hairpieces",
+     "desc": "Wigs, hairpieces and extensions for a great hair day in a flash."
+    },
+    {
+     "start": "2026-10-02T03:00:00+00:00",
+     "stop": "2026-10-02T04:00:00+00:00",
+     "title": "Your Best Night's Sleep",
+     "desc": "A selection of comfortable and supportive bedding essentials."
+    },
+    {
+     "start": "2026-10-02T04:00:00+00:00",
+     "stop": "2026-10-02T05:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-02T05:00:00+00:00",
+     "stop": "2026-10-02T06:00:00+00:00",
+     "title": "Silver Style Jewelry",
+     "desc": "Sterling silver jewelry."
+    },
+    {
+     "start": "2026-10-02T06:00:00+00:00",
+     "stop": "2026-10-02T07:00:00+00:00",
+     "title": "Third Person -- Jewelry",
+     "desc": "Playful, colorful gemstone jewelry set in precious metals."
+    },
+    {
+     "start": "2026-10-02T07:00:00+00:00",
+     "stop": "2026-10-02T08:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-02T08:00:00+00:00",
+     "stop": "2026-10-02T09:00:00+00:00",
+     "title": "Diamonique Classics Collection",
+     "desc": "Timeless, classic jewelry designs, including studs, pendants, bridal looks and hoops."
+    },
+    {
+     "start": "2026-10-02T09:00:00+00:00",
+     "stop": "2026-10-02T10:00:00+00:00",
+     "title": "Toni Brattin Hair Fabulous - Wigs & Hairpieces",
+     "desc": "Wigs, hairpieces and extensions for a great hair day in a flash."
+    },
+    {
+     "start": "2026-10-02T10:00:00+00:00",
+     "stop": "2026-10-02T11:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-02T11:00:00+00:00",
+     "stop": "2026-10-02T14:00:00+00:00",
+     "title": "Fri-YAY! Fashion Deals With Leah Williams",
+     "desc": "Deals on lots of looks with Leah Williams."
+    },
+    {
+     "start": "2026-10-02T14:00:00+00:00",
+     "stop": "2026-10-02T16:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-02T16:00:00+00:00",
+     "stop": "2026-10-02T17:00:00+00:00",
+     "title": "UltraFine Silver Nickel-Free Jewelry",
+     "desc": "Tarnish resistant silver designs."
+    },
+    {
+     "start": "2026-10-02T17:00:00+00:00",
+     "stop": "2026-10-02T19:00:00+00:00",
+     "title": "Creede Silver Sale",
+     "desc": "Sterling silver jewelry sale."
+    },
+    {
+     "start": "2026-10-02T19:00:00+00:00",
+     "stop": "2026-10-02T21:00:00+00:00",
+     "title": "Explore Your Style With Vanessa",
+     "desc": "Exploring some style with Vanessa."
+    },
+    {
+     "start": "2026-10-02T21:00:00+00:00",
+     "stop": "2026-10-02T23:00:00+00:00",
+     "title": "Fri-YAY! With Alberti and Amy: Style Edition",
+     "desc": "Celebrating the weekend in style with Alberti Popaj and Amy Stran."
+    },
+    {
+     "start": "2026-10-02T23:00:00+00:00",
+     "stop": "2026-10-03T00:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-03T00:00:00+00:00",
+     "stop": "2026-10-03T01:00:00+00:00",
+     "title": "RM Studio x Rebecca Minkoff -- Fashion",
+     "desc": "Effortlessly wearable pieces that blend bold femininity with everyday ease, rooted in the spirit of Downtown NYC and created exclusively for QVC by celebrated designer."
+    },
+    {
+     "start": "2026-10-03T01:00:00+00:00",
+     "stop": "2026-10-03T02:00:00+00:00",
+     "title": "Jane's Jewelry Favorites",
+     "desc": "Jane Treacy shares her jewelry loves."
+    },
+    {
+     "start": "2026-10-03T02:00:00+00:00",
+     "stop": "2026-10-03T04:00:00+00:00",
+     "title": "David Markstein Italian Jewelry",
+     "desc": "Features cutting-edge, must-have 14K gold, sterling silver, and bronze collection designed by an expert in the timeless artistry and luxury of Italian-crafted jewelry."
+    },
+    {
+     "start": "2026-10-03T04:00:00+00:00",
+     "stop": "2026-10-03T05:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-03T05:00:00+00:00",
+     "stop": "2026-10-03T07:00:00+00:00",
+     "title": "Dooney & Bourke",
+     "desc": "Prestigious brand of handbags and accessories."
+    },
+    {
+     "start": "2026-10-03T07:00:00+00:00",
+     "stop": "2026-10-03T08:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-03T08:00:00+00:00",
+     "stop": "2026-10-03T10:00:00+00:00",
+     "title": "Belle by Kim Gravel -- Fashion",
+     "desc": "Figure-focused fashion."
+    },
+    {
+     "start": "2026-10-03T10:00:00+00:00",
+     "stop": "2026-10-03T11:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-03T11:00:00+00:00",
+     "stop": "2026-10-03T14:00:00+00:00",
+     "title": "AM Style With Leah Williams",
+     "desc": "Wardrobe essentials, trends and accessories from popular brands."
+    },
+    {
+     "start": "2026-10-03T14:00:00+00:00",
+     "stop": "2026-10-03T18:00:00+00:00",
+     "title": "Saturday Morning Q",
+     "desc": "Weekly shopping showcase."
+    },
+    {
+     "start": "2026-10-03T18:00:00+00:00",
+     "stop": "2026-10-03T19:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-03T19:00:00+00:00",
+     "stop": "2026-10-03T20:00:00+00:00",
+     "title": "MacKenzie-Childs -- Home Decor",
+     "desc": "An imaginative and colorful collection to transform one's home into a happy place."
+    },
+    {
+     "start": "2026-10-03T20:00:00+00:00",
+     "stop": "2026-10-03T21:00:00+00:00",
+     "title": "Destination Vacation with Rick & Shawn: Destination Vacation with Rick & Shawn",
+     "desc": "We're off to New York's fabulous Finger Lakes to enjoy all things fall as we go upstate with Shawn Killinger and soon-to-be-retired Rick Domeier for brands and special guests with ties to upstate New York AND those who just want to get away with us."
+    },
+    {
+     "start": "2026-10-03T21:00:00+00:00",
+     "stop": "2026-10-03T23:00:00+00:00",
+     "title": "Beekman 1802 Beauty",
+     "desc": "Artisan-inspired goat milk beauty and skin care."
+    },
+    {
+     "start": "2026-10-03T23:00:00+00:00",
+     "stop": "2026-10-04T00:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-04T00:00:00+00:00",
+     "stop": "2026-10-04T02:00:00+00:00",
+     "title": "Belle by Kim Gravel -- Fashion",
+     "desc": "Figure-focused fashion."
+    },
+    {
+     "start": "2026-10-04T02:00:00+00:00",
+     "stop": "2026-10-04T03:00:00+00:00",
+     "title": "Beauty Best Sellers",
+     "desc": "Best-selling brands and must-haves."
+    },
+    {
+     "start": "2026-10-04T03:00:00+00:00",
+     "stop": "2026-10-04T04:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-04T04:00:00+00:00",
+     "stop": "2026-10-04T05:00:00+00:00",
+     "title": "Today's Top Tech",
+     "desc": "Computers, HDTV's, audio, cameras and more."
+    },
+    {
+     "start": "2026-10-04T05:00:00+00:00",
+     "stop": "2026-10-04T06:00:00+00:00",
+     "title": "Philosophy -- Beauty",
+     "desc": "Line of skin care, fragrance, bath and body products and cosmetics."
+    },
+    {
+     "start": "2026-10-04T06:00:00+00:00",
+     "stop": "2026-10-04T07:00:00+00:00",
+     "title": "Lock 'n' Lock Storage",
+     "desc": "Storage system."
+    },
+    {
+     "start": "2026-10-04T07:00:00+00:00",
+     "stop": "2026-10-04T08:00:00+00:00",
+     "title": "Today's Top Tech",
+     "desc": "Computers, HDTV's, audio, cameras and more."
+    },
+    {
+     "start": "2026-10-04T08:00:00+00:00",
+     "stop": "2026-10-04T09:00:00+00:00",
+     "title": "RM Studio x Rebecca Minkoff -- Fashion",
+     "desc": "Effortlessly wearable pieces that blend bold femininity with everyday ease, rooted in the spirit of Downtown NYC and created exclusively for QVC by celebrated designer."
+    },
+    {
+     "start": "2026-10-04T09:00:00+00:00",
+     "stop": "2026-10-04T10:00:00+00:00",
+     "title": "Harry Slatkin Lights Up the Holidays",
+     "desc": "Luxurious candle and home fragrance collection from award-winning and world-renowned fragrance expert."
+    },
+    {
+     "start": "2026-10-04T10:00:00+00:00",
+     "stop": "2026-10-04T11:00:00+00:00",
+     "title": "Today's Top Tech",
+     "desc": "Computers, HDTV's, audio, cameras and more."
+    },
+    {
+     "start": "2026-10-04T11:00:00+00:00",
+     "stop": "2026-10-04T13:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-04T13:00:00+00:00",
+     "stop": "2026-10-04T15:00:00+00:00",
+     "title": "Destination Vacation with Rick & Shawn: Destination Vacation with Rick & Shawn",
+     "desc": "We're off to New York's fabulous Finger Lakes to enjoy all things fall as we go upstate with Shawn Killinger and soon-to-be-retired Rick Domeier for brands and special guests with ties to upstate New York AND those who just want to get away with us."
+    },
+    {
+     "start": "2026-10-04T15:00:00+00:00",
+     "stop": "2026-10-04T16:00:00+00:00",
+     "title": "MacKenzie-Childs -- Home Decor",
+     "desc": "An imaginative and colorful collection to transform one's home into a happy place."
+    },
+    {
+     "start": "2026-10-04T16:00:00+00:00",
+     "stop": "2026-10-04T20:00:00+00:00",
+     "title": "In the Kitchen With David",
+     "desc": "Innovative appliances, kitchenware and cookbooks; food, fun and everything a home cook needs to create meals and memories."
+    },
+    {
+     "start": "2026-10-04T20:00:00+00:00",
+     "stop": "2026-10-04T22:00:00+00:00",
+     "title": "Temp-tations Presentable Kitchen",
+     "desc": "Versatile ceramic ovenware, dinnerware and accessories."
+    },
+    {
+     "start": "2026-10-04T22:00:00+00:00",
+     "stop": "2026-10-05T00:00:00+00:00",
+     "title": "Fall for Deals",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-05T00:00:00+00:00",
+     "stop": "2026-10-05T02:00:00+00:00",
+     "title": "Denim & Co.",
+     "desc": "Classic and affordable women's separates."
+    },
+    {
+     "start": "2026-10-05T02:00:00+00:00",
+     "stop": "2026-10-05T03:00:00+00:00",
+     "title": "Fire Light Lab Grown Diamond Jewelry",
+     "desc": "Radiant lab-grown diamond jewelry."
+    },
+    {
+     "start": "2026-10-05T03:00:00+00:00",
+     "stop": "2026-10-05T04:00:00+00:00",
+     "title": "Today's Top Tech",
+     "desc": "Computers, HDTV's, audio, cameras and more."
+    },
+    {
+     "start": "2026-10-05T04:00:00+00:00",
+     "stop": "2026-10-05T05:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T05:00:00+00:00",
+     "stop": "2026-10-05T06:00:00+00:00",
+     "title": "Gentle Souls by Kenneth Cole Footwear",
+     "desc": "Contemporary leather shoes with built-in comfort."
+    },
+    {
+     "start": "2026-10-05T06:00:00+00:00",
+     "stop": "2026-10-05T07:00:00+00:00",
+     "title": "Just Reduced - Fashion & Accessories",
+     "desc": "Clearance prices."
+    },
+    {
+     "start": "2026-10-05T07:00:00+00:00",
+     "stop": "2026-10-05T08:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T08:00:00+00:00",
+     "stop": "2026-10-05T10:00:00+00:00",
+     "title": "Belle by Kim Gravel -- Fashion",
+     "desc": "Figure-focused fashion."
+    },
+    {
+     "start": "2026-10-05T10:00:00+00:00",
+     "stop": "2026-10-05T11:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T11:00:00+00:00",
+     "stop": "2026-10-05T13:00:00+00:00",
+     "title": "Fashion Deals With Leah Williams",
+     "desc": "Deals on the looks you love with host Leah Williams."
+    },
+    {
+     "start": "2026-10-05T13:00:00+00:00",
+     "stop": "2026-10-05T16:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T16:00:00+00:00",
+     "stop": "2026-10-05T17:00:00+00:00",
+     "title": "Q Check - A Big Deal",
+     "desc": "Fast-Paced, weekday shopping destination."
+    },
+    {
+     "start": "2026-10-05T17:00:00+00:00",
+     "stop": "2026-10-05T18:00:00+00:00",
+     "title": "Inspirational Jewelry",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-05T18:00:00+00:00",
+     "stop": "2026-10-05T20:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T20:00:00+00:00",
+     "stop": "2026-10-05T22:00:00+00:00",
+     "title": "LOGO by Lori Goldstein",
+     "desc": "Contemporary fashion and accessories."
+    },
+    {
+     "start": "2026-10-05T22:00:00+00:00",
+     "stop": "2026-10-06T00:00:00+00:00",
+     "title": "PM Style With Amy Stran",
+     "desc": "Fashion, fun and friends with Amy Stran."
+    },
+    {
+     "start": "2026-10-06T00:00:00+00:00",
+     "stop": "2026-10-06T01:00:00+00:00",
+     "title": "Peace Love World - Fashion",
+     "desc": "Casual-cool fashion with inspirational messages."
+    },
+    {
+     "start": "2026-10-06T01:00:00+00:00",
+     "stop": "2026-10-06T02:00:00+00:00",
+     "title": "Felt Denim by Laurie Felt",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-06T02:00:00+00:00",
+     "stop": "2026-10-06T03:00:00+00:00",
+     "title": "Dennis by Dennis Basso",
+     "desc": "Outerwear & Sportswear by Couture Designer."
+    },
+    {
+     "start": "2026-10-06T03:00:00+00:00",
+     "stop": "2026-10-06T04:00:00+00:00",
+     "title": "Aimee Kestenberg Collection",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-06T04:00:00+00:00",
+     "stop": "2026-10-06T05:00:00+00:00",
+     "title": "Laura Geller Makeup Studio",
+     "desc": "Cosmetics from a New York make-up artist."
+    }
+   ],
+   "note": "qvc-st-variant-main-feed"
+  },
+  "m3u-us-qvc-st": {
+   "source": "tvp",
+   "source_url": "https://www.tvpassport.com/tv-listings/stations/qvc-hd/6115/2026-10-05",
+   "programmes": [
+    {
+     "start": "2026-09-29T14:00:00+00:00",
+     "stop": "2026-09-29T16:00:00+00:00",
+     "title": "Denim & Co.",
+     "desc": "Classic and affordable women's separates."
+    },
+    {
+     "start": "2026-09-29T16:00:00+00:00",
+     "stop": "2026-09-29T17:00:00+00:00",
+     "title": "Q Check - A Big Deal",
+     "desc": "Fast-Paced, weekday shopping destination."
+    },
+    {
+     "start": "2026-09-29T17:00:00+00:00",
+     "stop": "2026-09-29T18:00:00+00:00",
+     "title": "Peter Thomas Roth Clinical Skin Care",
+     "desc": "Peter Thomas Roth is a pioneer in skin care products."
+    },
+    {
+     "start": "2026-09-29T18:00:00+00:00",
+     "stop": "2026-09-29T19:00:00+00:00",
+     "title": "Barefoot Dreams -- California Style",
+     "desc": "Super-soft wraps, cardigans, blankets and more."
+    },
+    {
+     "start": "2026-09-29T19:00:00+00:00",
+     "stop": "2026-09-29T20:00:00+00:00",
+     "title": "How to Sparkle With Courtney -- Jewelry",
+     "desc": ""
+    },
+    {
+     "start": "2026-09-29T20:00:00+00:00",
+     "stop": "2026-09-29T21:00:00+00:00",
+     "title": "First Aid Beauty for FAB Skin",
+     "desc": "Rescue your skin with feel-good skin care."
+    },
+    {
+     "start": "2026-09-29T21:00:00+00:00",
+     "stop": "2026-09-29T22:00:00+00:00",
+     "title": "bareMinerals",
+     "desc": "Color and skin care with natural ingredients."
+    },
+    {
+     "start": "2026-09-29T22:00:00+00:00",
+     "stop": "2026-09-29T23:00:00+00:00",
+     "title": "Shoe Shopping With Jane",
+     "desc": "Fun footwear."
+    },
+    {
+     "start": "2026-09-29T23:00:00+00:00",
+     "stop": "2026-09-30T00:00:00+00:00",
+     "title": "Let It Glow - Beauty Gifts",
+     "desc": "It's time to get back to beauty with self-care and a chance to stock up early on gifts for all the beauty-lovers and glow-getters on your list (especially you) during Let It Glow - Beauty Gifts."
+    },
+    {
+     "start": "2026-09-30T00:00:00+00:00",
+     "stop": "2026-09-30T01:00:00+00:00",
+     "title": "Dennis Basso & Friends",
+     "desc": "Fashion, food, and friendship with the New York designer and some guests."
+    },
+    {
+     "start": "2026-09-30T01:00:00+00:00",
+     "stop": "2026-09-30T02:00:00+00:00",
+     "title": "Fire Light Lab Grown Diamond Jewelry",
+     "desc": "Radiant lab-grown diamond jewelry."
+    },
+    {
+     "start": "2026-09-30T02:00:00+00:00",
+     "stop": "2026-09-30T04:00:00+00:00",
+     "title": "Inspired Style with Amy",
+     "desc": ""
+    },
+    {
+     "start": "2026-09-30T04:00:00+00:00",
+     "stop": "2026-09-30T05:00:00+00:00",
+     "title": "Prepology Kitchen",
+     "desc": "Cook tools, smart solutions and fun colors for the kitchen."
+    },
+    {
+     "start": "2026-09-30T05:00:00+00:00",
+     "stop": "2026-09-30T06:00:00+00:00",
+     "title": "Philosophy -- Beauty",
+     "desc": "Line of skin care, fragrance, bath and body products and cosmetics."
+    },
+    {
+     "start": "2026-09-30T06:00:00+00:00",
+     "stop": "2026-09-30T07:00:00+00:00",
+     "title": "Clarks Footwear",
+     "desc": "Comfort shoes."
+    },
+    {
+     "start": "2026-09-30T07:00:00+00:00",
+     "stop": "2026-09-30T08:00:00+00:00",
+     "title": "Prepology Kitchen",
+     "desc": "Cook tools, smart solutions and fun colors for the kitchen."
+    },
+    {
+     "start": "2026-09-30T08:00:00+00:00",
+     "stop": "2026-09-30T09:00:00+00:00",
+     "title": "Lug - Bags & Accessories",
+     "desc": "Colorful bags with superb organization."
+    },
+    {
+     "start": "2026-09-30T09:00:00+00:00",
+     "stop": "2026-09-30T10:00:00+00:00",
+     "title": "Shoe Shopping With Jane",
+     "desc": "Fun footwear."
+    },
+    {
+     "start": "2026-09-30T10:00:00+00:00",
+     "stop": "2026-09-30T11:00:00+00:00",
+     "title": "Prepology Kitchen",
+     "desc": "Cook tools, smart solutions and fun colors for the kitchen."
+    },
+    {
+     "start": "2026-09-30T11:00:00+00:00",
+     "stop": "2026-09-30T12:00:00+00:00",
+     "title": "Dr. Kellyann -- Women's Wellness",
+     "desc": "Easy-to-follow bone broth formulas and lifestyle plans from a pioneering naturopathic practitioner and weight-loss specialist."
+    },
+    {
+     "start": "2026-09-30T12:00:00+00:00",
+     "stop": "2026-09-30T13:00:00+00:00",
+     "title": "Diamonique Classics Collection",
+     "desc": "Timeless, classic jewelry designs, including studs, pendants, bridal looks and hoops."
+    },
+    {
+     "start": "2026-09-30T13:00:00+00:00",
+     "stop": "2026-09-30T15:00:00+00:00",
+     "title": "Belle by Kim Gravel -- Fashion",
+     "desc": "Figure-focused fashion."
+    },
+    {
+     "start": "2026-09-30T15:00:00+00:00",
+     "stop": "2026-09-30T16:00:00+00:00",
+     "title": "In the Kitchen With Mary",
+     "desc": "Cookware, food, appliances and gadgets."
+    },
+    {
+     "start": "2026-09-30T16:00:00+00:00",
+     "stop": "2026-09-30T17:00:00+00:00",
+     "title": "Q Check - A Big Deal",
+     "desc": "Fast-Paced, weekday shopping destination."
+    },
+    {
+     "start": "2026-09-30T17:00:00+00:00",
+     "stop": "2026-09-30T18:00:00+00:00",
+     "title": "Kitchen Must-Haves",
+     "desc": "Cookware, gadgets, small appliances, cookbooks and more."
+    },
+    {
+     "start": "2026-09-30T18:00:00+00:00",
+     "stop": "2026-09-30T20:00:00+00:00",
+     "title": "Gourmet Holiday",
+     "desc": "Gourmet foods for everyday dining, holiday entertaining or gift-giving."
+    },
+    {
+     "start": "2026-09-30T20:00:00+00:00",
+     "stop": "2026-09-30T23:00:00+00:00",
+     "title": "Gourmet Holiday",
+     "desc": "Gourmet foods for everyday dining, holiday entertaining or gift-giving."
+    },
+    {
+     "start": "2026-09-30T23:00:00+00:00",
+     "stop": "2026-10-01T00:00:00+00:00",
+     "title": "RMS Beauty",
+     "desc": "Color cosmetics & skin care from a clean beauty leader since 2009."
+    },
+    {
+     "start": "2026-10-01T00:00:00+00:00",
+     "stop": "2026-10-01T01:00:00+00:00",
+     "title": "In the Kitchen With David -- PM Edition",
+     "desc": "Cooking and fun with David Venable."
+    },
+    {
+     "start": "2026-10-01T01:00:00+00:00",
+     "stop": "2026-10-01T02:00:00+00:00",
+     "title": "Carla Rockmore - Fashion",
+     "desc": "Joyful statement pieces designed by social media sensation hailed as the Real Life Carrie Bradshaw."
+    },
+    {
+     "start": "2026-10-01T02:00:00+00:00",
+     "stop": "2026-10-01T04:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-01T04:00:00+00:00",
+     "stop": "2026-10-01T05:00:00+00:00",
+     "title": "COOP Sleep Goods",
+     "desc": "Discover Coop's collection of hypoallergenic and adjustable pillows for the ultimate comfort."
+    },
+    {
+     "start": "2026-10-01T05:00:00+00:00",
+     "stop": "2026-10-01T06:00:00+00:00",
+     "title": "Doll 10 Beauty",
+     "desc": "Skin-loving cosmetics from Doris Dalton."
+    },
+    {
+     "start": "2026-10-01T06:00:00+00:00",
+     "stop": "2026-10-01T07:00:00+00:00",
+     "title": "Me by Jennie Garth - Fashion",
+     "desc": "Capsule collections with an effortless yet chic California vibe, inspired by the colors and textures of the actress' favorite US locations."
+    },
+    {
+     "start": "2026-10-01T07:00:00+00:00",
+     "stop": "2026-10-01T08:00:00+00:00",
+     "title": "COOP Sleep Goods",
+     "desc": "Discover Coop's collection of hypoallergenic and adjustable pillows for the ultimate comfort."
+    },
+    {
+     "start": "2026-10-01T08:00:00+00:00",
+     "stop": "2026-10-01T10:00:00+00:00",
+     "title": "Gourmet Holiday",
+     "desc": "Gourmet foods for everyday dining, holiday entertaining or gift-giving."
+    },
+    {
+     "start": "2026-10-01T10:00:00+00:00",
+     "stop": "2026-10-01T11:00:00+00:00",
+     "title": "Philosophy -- Beauty",
+     "desc": "Line of skin care, fragrance, bath and body products and cosmetics."
+    },
+    {
+     "start": "2026-10-01T11:00:00+00:00",
+     "stop": "2026-10-01T13:00:00+00:00",
+     "title": "Q the Real Talk With Jayne and Pat",
+     "desc": "Program Hosts and Q50 Ambassadors Jayne Brown & Pat James-Dementri share their favorite finds to support women."
+    },
+    {
+     "start": "2026-10-01T13:00:00+00:00",
+     "stop": "2026-10-01T15:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-01T15:00:00+00:00",
+     "stop": "2026-10-01T16:00:00+00:00",
+     "title": "Your Best Night's Sleep",
+     "desc": "A selection of comfortable and supportive bedding essentials."
+    },
+    {
+     "start": "2026-10-01T16:00:00+00:00",
+     "stop": "2026-10-01T17:00:00+00:00",
+     "title": "Q Check - A Big Deal",
+     "desc": "Fast-Paced, weekday shopping destination."
+    },
+    {
+     "start": "2026-10-01T17:00:00+00:00",
+     "stop": "2026-10-01T18:00:00+00:00",
+     "title": "Harry Slatkin Lights Up the Holidays",
+     "desc": "Luxurious candle and home fragrance collection from award-winning and world-renowned fragrance expert."
+    },
+    {
+     "start": "2026-10-01T18:00:00+00:00",
+     "stop": "2026-10-01T19:00:00+00:00",
+     "title": "Toni Brattin Hair Fabulous - Wigs & Hairpieces",
+     "desc": "Wigs, hairpieces and extensions for a great hair day in a flash."
+    },
+    {
+     "start": "2026-10-01T19:00:00+00:00",
+     "stop": "2026-10-01T20:00:00+00:00",
+     "title": "Your Best Night's Sleep",
+     "desc": "A selection of comfortable and supportive bedding essentials."
+    },
+    {
+     "start": "2026-10-01T20:00:00+00:00",
+     "stop": "2026-10-01T22:00:00+00:00",
+     "title": "Rick St. Nick's Gifts",
+     "desc": "Program Host Rick Domeier -- or Rick St. Nick as he's known during the holidays -- delivers this weekly edition of festive holiday finds, including perfect presents to please those topping your gift list."
+    },
+    {
+     "start": "2026-10-01T22:00:00+00:00",
+     "stop": "2026-10-01T23:00:00+00:00",
+     "title": "Football Team Shop",
+     "desc": "Officially licensed fan gear and collectibles."
+    },
+    {
+     "start": "2026-10-01T23:00:00+00:00",
+     "stop": "2026-10-02T00:00:00+00:00",
+     "title": "Laura Mercier Beauty",
+     "desc": "Cosmetics by leading French makeup artist."
+    },
+    {
+     "start": "2026-10-02T00:00:00+00:00",
+     "stop": "2026-10-02T01:00:00+00:00",
+     "title": "Anybody Fashion",
+     "desc": "Contemporary fashion designed especially for QVC."
+    },
+    {
+     "start": "2026-10-02T01:00:00+00:00",
+     "stop": "2026-10-02T02:00:00+00:00",
+     "title": "Inside Q With Mally -- Beauty Edition",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-02T02:00:00+00:00",
+     "stop": "2026-10-02T03:00:00+00:00",
+     "title": "Toni Brattin Hair Fabulous - Wigs & Hairpieces",
+     "desc": "Wigs, hairpieces and extensions for a great hair day in a flash."
+    },
+    {
+     "start": "2026-10-02T03:00:00+00:00",
+     "stop": "2026-10-02T04:00:00+00:00",
+     "title": "Your Best Night's Sleep",
+     "desc": "A selection of comfortable and supportive bedding essentials."
+    },
+    {
+     "start": "2026-10-02T04:00:00+00:00",
+     "stop": "2026-10-02T05:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-02T05:00:00+00:00",
+     "stop": "2026-10-02T06:00:00+00:00",
+     "title": "Silver Style Jewelry",
+     "desc": "Sterling silver jewelry."
+    },
+    {
+     "start": "2026-10-02T06:00:00+00:00",
+     "stop": "2026-10-02T07:00:00+00:00",
+     "title": "Third Person -- Jewelry",
+     "desc": "Playful, colorful gemstone jewelry set in precious metals."
+    },
+    {
+     "start": "2026-10-02T07:00:00+00:00",
+     "stop": "2026-10-02T08:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-02T08:00:00+00:00",
+     "stop": "2026-10-02T09:00:00+00:00",
+     "title": "Diamonique Classics Collection",
+     "desc": "Timeless, classic jewelry designs, including studs, pendants, bridal looks and hoops."
+    },
+    {
+     "start": "2026-10-02T09:00:00+00:00",
+     "stop": "2026-10-02T10:00:00+00:00",
+     "title": "Toni Brattin Hair Fabulous - Wigs & Hairpieces",
+     "desc": "Wigs, hairpieces and extensions for a great hair day in a flash."
+    },
+    {
+     "start": "2026-10-02T10:00:00+00:00",
+     "stop": "2026-10-02T11:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-02T11:00:00+00:00",
+     "stop": "2026-10-02T14:00:00+00:00",
+     "title": "Fri-YAY! Fashion Deals With Leah Williams",
+     "desc": "Deals on lots of looks with Leah Williams."
+    },
+    {
+     "start": "2026-10-02T14:00:00+00:00",
+     "stop": "2026-10-02T16:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-02T16:00:00+00:00",
+     "stop": "2026-10-02T17:00:00+00:00",
+     "title": "UltraFine Silver Nickel-Free Jewelry",
+     "desc": "Tarnish resistant silver designs."
+    },
+    {
+     "start": "2026-10-02T17:00:00+00:00",
+     "stop": "2026-10-02T19:00:00+00:00",
+     "title": "Creede Silver Sale",
+     "desc": "Sterling silver jewelry sale."
+    },
+    {
+     "start": "2026-10-02T19:00:00+00:00",
+     "stop": "2026-10-02T21:00:00+00:00",
+     "title": "Explore Your Style With Vanessa",
+     "desc": "Exploring some style with Vanessa."
+    },
+    {
+     "start": "2026-10-02T21:00:00+00:00",
+     "stop": "2026-10-02T23:00:00+00:00",
+     "title": "Fri-YAY! With Alberti and Amy: Style Edition",
+     "desc": "Celebrating the weekend in style with Alberti Popaj and Amy Stran."
+    },
+    {
+     "start": "2026-10-02T23:00:00+00:00",
+     "stop": "2026-10-03T00:00:00+00:00",
+     "title": "JAI Jewelry",
+     "desc": "Affordable luxury jewelry."
+    },
+    {
+     "start": "2026-10-03T00:00:00+00:00",
+     "stop": "2026-10-03T01:00:00+00:00",
+     "title": "RM Studio x Rebecca Minkoff -- Fashion",
+     "desc": "Effortlessly wearable pieces that blend bold femininity with everyday ease, rooted in the spirit of Downtown NYC and created exclusively for QVC by celebrated designer."
+    },
+    {
+     "start": "2026-10-03T01:00:00+00:00",
+     "stop": "2026-10-03T02:00:00+00:00",
+     "title": "Jane's Jewelry Favorites",
+     "desc": "Jane Treacy shares her jewelry loves."
+    },
+    {
+     "start": "2026-10-03T02:00:00+00:00",
+     "stop": "2026-10-03T04:00:00+00:00",
+     "title": "David Markstein Italian Jewelry",
+     "desc": "Features cutting-edge, must-have 14K gold, sterling silver, and bronze collection designed by an expert in the timeless artistry and luxury of Italian-crafted jewelry."
+    },
+    {
+     "start": "2026-10-03T04:00:00+00:00",
+     "stop": "2026-10-03T05:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-03T05:00:00+00:00",
+     "stop": "2026-10-03T07:00:00+00:00",
+     "title": "Dooney & Bourke",
+     "desc": "Prestigious brand of handbags and accessories."
+    },
+    {
+     "start": "2026-10-03T07:00:00+00:00",
+     "stop": "2026-10-03T08:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-03T08:00:00+00:00",
+     "stop": "2026-10-03T10:00:00+00:00",
+     "title": "Belle by Kim Gravel -- Fashion",
+     "desc": "Figure-focused fashion."
+    },
+    {
+     "start": "2026-10-03T10:00:00+00:00",
+     "stop": "2026-10-03T11:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-03T11:00:00+00:00",
+     "stop": "2026-10-03T14:00:00+00:00",
+     "title": "AM Style With Leah Williams",
+     "desc": "Wardrobe essentials, trends and accessories from popular brands."
+    },
+    {
+     "start": "2026-10-03T14:00:00+00:00",
+     "stop": "2026-10-03T18:00:00+00:00",
+     "title": "Saturday Morning Q",
+     "desc": "Weekly shopping showcase."
+    },
+    {
+     "start": "2026-10-03T18:00:00+00:00",
+     "stop": "2026-10-03T19:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-03T19:00:00+00:00",
+     "stop": "2026-10-03T20:00:00+00:00",
+     "title": "MacKenzie-Childs -- Home Decor",
+     "desc": "An imaginative and colorful collection to transform one's home into a happy place."
+    },
+    {
+     "start": "2026-10-03T20:00:00+00:00",
+     "stop": "2026-10-03T21:00:00+00:00",
+     "title": "Destination Vacation with Rick & Shawn: Destination Vacation with Rick & Shawn",
+     "desc": "We're off to New York's fabulous Finger Lakes to enjoy all things fall as we go upstate with Shawn Killinger and soon-to-be-retired Rick Domeier for brands and special guests with ties to upstate New York AND those who just want to get away with us."
+    },
+    {
+     "start": "2026-10-03T21:00:00+00:00",
+     "stop": "2026-10-03T23:00:00+00:00",
+     "title": "Beekman 1802 Beauty",
+     "desc": "Artisan-inspired goat milk beauty and skin care."
+    },
+    {
+     "start": "2026-10-03T23:00:00+00:00",
+     "stop": "2026-10-04T00:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-04T00:00:00+00:00",
+     "stop": "2026-10-04T02:00:00+00:00",
+     "title": "Belle by Kim Gravel -- Fashion",
+     "desc": "Figure-focused fashion."
+    },
+    {
+     "start": "2026-10-04T02:00:00+00:00",
+     "stop": "2026-10-04T03:00:00+00:00",
+     "title": "Beauty Best Sellers",
+     "desc": "Best-selling brands and must-haves."
+    },
+    {
+     "start": "2026-10-04T03:00:00+00:00",
+     "stop": "2026-10-04T04:00:00+00:00",
+     "title": "Dyson Cleaning",
+     "desc": "Innovative vacuums and accessories."
+    },
+    {
+     "start": "2026-10-04T04:00:00+00:00",
+     "stop": "2026-10-04T05:00:00+00:00",
+     "title": "Today's Top Tech",
+     "desc": "Computers, HDTV's, audio, cameras and more."
+    },
+    {
+     "start": "2026-10-04T05:00:00+00:00",
+     "stop": "2026-10-04T06:00:00+00:00",
+     "title": "Philosophy -- Beauty",
+     "desc": "Line of skin care, fragrance, bath and body products and cosmetics."
+    },
+    {
+     "start": "2026-10-04T06:00:00+00:00",
+     "stop": "2026-10-04T07:00:00+00:00",
+     "title": "Lock 'n' Lock Storage",
+     "desc": "Storage system."
+    },
+    {
+     "start": "2026-10-04T07:00:00+00:00",
+     "stop": "2026-10-04T08:00:00+00:00",
+     "title": "Today's Top Tech",
+     "desc": "Computers, HDTV's, audio, cameras and more."
+    },
+    {
+     "start": "2026-10-04T08:00:00+00:00",
+     "stop": "2026-10-04T09:00:00+00:00",
+     "title": "RM Studio x Rebecca Minkoff -- Fashion",
+     "desc": "Effortlessly wearable pieces that blend bold femininity with everyday ease, rooted in the spirit of Downtown NYC and created exclusively for QVC by celebrated designer."
+    },
+    {
+     "start": "2026-10-04T09:00:00+00:00",
+     "stop": "2026-10-04T10:00:00+00:00",
+     "title": "Harry Slatkin Lights Up the Holidays",
+     "desc": "Luxurious candle and home fragrance collection from award-winning and world-renowned fragrance expert."
+    },
+    {
+     "start": "2026-10-04T10:00:00+00:00",
+     "stop": "2026-10-04T11:00:00+00:00",
+     "title": "Today's Top Tech",
+     "desc": "Computers, HDTV's, audio, cameras and more."
+    },
+    {
+     "start": "2026-10-04T11:00:00+00:00",
+     "stop": "2026-10-04T13:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-04T13:00:00+00:00",
+     "stop": "2026-10-04T15:00:00+00:00",
+     "title": "Destination Vacation with Rick & Shawn: Destination Vacation with Rick & Shawn",
+     "desc": "We're off to New York's fabulous Finger Lakes to enjoy all things fall as we go upstate with Shawn Killinger and soon-to-be-retired Rick Domeier for brands and special guests with ties to upstate New York AND those who just want to get away with us."
+    },
+    {
+     "start": "2026-10-04T15:00:00+00:00",
+     "stop": "2026-10-04T16:00:00+00:00",
+     "title": "MacKenzie-Childs -- Home Decor",
+     "desc": "An imaginative and colorful collection to transform one's home into a happy place."
+    },
+    {
+     "start": "2026-10-04T16:00:00+00:00",
+     "stop": "2026-10-04T20:00:00+00:00",
+     "title": "In the Kitchen With David",
+     "desc": "Innovative appliances, kitchenware and cookbooks; food, fun and everything a home cook needs to create meals and memories."
+    },
+    {
+     "start": "2026-10-04T20:00:00+00:00",
+     "stop": "2026-10-04T22:00:00+00:00",
+     "title": "Temp-tations Presentable Kitchen",
+     "desc": "Versatile ceramic ovenware, dinnerware and accessories."
+    },
+    {
+     "start": "2026-10-04T22:00:00+00:00",
+     "stop": "2026-10-05T00:00:00+00:00",
+     "title": "Fall for Deals",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-05T00:00:00+00:00",
+     "stop": "2026-10-05T02:00:00+00:00",
+     "title": "Denim & Co.",
+     "desc": "Classic and affordable women's separates."
+    },
+    {
+     "start": "2026-10-05T02:00:00+00:00",
+     "stop": "2026-10-05T03:00:00+00:00",
+     "title": "Fire Light Lab Grown Diamond Jewelry",
+     "desc": "Radiant lab-grown diamond jewelry."
+    },
+    {
+     "start": "2026-10-05T03:00:00+00:00",
+     "stop": "2026-10-05T04:00:00+00:00",
+     "title": "Today's Top Tech",
+     "desc": "Computers, HDTV's, audio, cameras and more."
+    },
+    {
+     "start": "2026-10-05T04:00:00+00:00",
+     "stop": "2026-10-05T05:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T05:00:00+00:00",
+     "stop": "2026-10-05T06:00:00+00:00",
+     "title": "Gentle Souls by Kenneth Cole Footwear",
+     "desc": "Contemporary leather shoes with built-in comfort."
+    },
+    {
+     "start": "2026-10-05T06:00:00+00:00",
+     "stop": "2026-10-05T07:00:00+00:00",
+     "title": "Just Reduced - Fashion & Accessories",
+     "desc": "Clearance prices."
+    },
+    {
+     "start": "2026-10-05T07:00:00+00:00",
+     "stop": "2026-10-05T08:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T08:00:00+00:00",
+     "stop": "2026-10-05T10:00:00+00:00",
+     "title": "Belle by Kim Gravel -- Fashion",
+     "desc": "Figure-focused fashion."
+    },
+    {
+     "start": "2026-10-05T10:00:00+00:00",
+     "stop": "2026-10-05T11:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T11:00:00+00:00",
+     "stop": "2026-10-05T13:00:00+00:00",
+     "title": "Fashion Deals With Leah Williams",
+     "desc": "Deals on the looks you love with host Leah Williams."
+    },
+    {
+     "start": "2026-10-05T13:00:00+00:00",
+     "stop": "2026-10-05T16:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T16:00:00+00:00",
+     "stop": "2026-10-05T17:00:00+00:00",
+     "title": "Q Check - A Big Deal",
+     "desc": "Fast-Paced, weekday shopping destination."
+    },
+    {
+     "start": "2026-10-05T17:00:00+00:00",
+     "stop": "2026-10-05T18:00:00+00:00",
+     "title": "Inspirational Jewelry",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-05T18:00:00+00:00",
+     "stop": "2026-10-05T20:00:00+00:00",
+     "title": "Susan Graver Style",
+     "desc": "Designer fashions that are easy to wear and care for."
+    },
+    {
+     "start": "2026-10-05T20:00:00+00:00",
+     "stop": "2026-10-05T22:00:00+00:00",
+     "title": "LOGO by Lori Goldstein",
+     "desc": "Contemporary fashion and accessories."
+    },
+    {
+     "start": "2026-10-05T22:00:00+00:00",
+     "stop": "2026-10-06T00:00:00+00:00",
+     "title": "PM Style With Amy Stran",
+     "desc": "Fashion, fun and friends with Amy Stran."
+    },
+    {
+     "start": "2026-10-06T00:00:00+00:00",
+     "stop": "2026-10-06T01:00:00+00:00",
+     "title": "Peace Love World - Fashion",
+     "desc": "Casual-cool fashion with inspirational messages."
+    },
+    {
+     "start": "2026-10-06T01:00:00+00:00",
+     "stop": "2026-10-06T02:00:00+00:00",
+     "title": "Felt Denim by Laurie Felt",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-06T02:00:00+00:00",
+     "stop": "2026-10-06T03:00:00+00:00",
+     "title": "Dennis by Dennis Basso",
+     "desc": "Outerwear & Sportswear by Couture Designer."
+    },
+    {
+     "start": "2026-10-06T03:00:00+00:00",
+     "stop": "2026-10-06T04:00:00+00:00",
+     "title": "Aimee Kestenberg Collection",
+     "desc": ""
+    },
+    {
+     "start": "2026-10-06T04:00:00+00:00",
+     "stop": "2026-10-06T05:00:00+00:00",
+     "title": "Laura Geller Makeup Studio",
+     "desc": "Cosmetics from a New York make-up artist."
+    }
+   ],
+   "note": "qvc-st-variant-main-feed"
   }
  }
 }
