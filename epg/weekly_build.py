@@ -171,6 +171,10 @@ ROSTER_RENAMES = {  # KMTV is CBS, not ABC (TVGuide confirms KMTV-DT CBS)
     # the roster had fossilized it as "USA Fox KRQE Albuquerque" (wrong
     # station entirely -- KRQE is covered by m3u-nm-alburquerque-fox-krqe).
     '360north.us': 'USA The Movie Channel Xtra',
+    # retroplex.us was fossilized as "USA Latin RetroPlex TV" (the provider
+    # reuses this one tvg-id for East, West, AND Latin); the sourced feed is
+    # the East schedule, so the name says East honestly.
+    'retroplex.us': 'USA RetroPlex East',
 }
 ROSTER_DROPS = {'epg-24-7-hunted-e77b2975'}  # obsolete; superseded by m3u-247-hunted
 
