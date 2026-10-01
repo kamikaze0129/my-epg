@@ -2,7 +2,9 @@ name: Weekly EPG rebuild
 
 on:
   schedule:
-    - cron: '0 15 * * 0,2,4' # Runs Sundays, Tuesdays, Thursdays at 15:00 UTC
+    - cron: '0 15 * * 0,2,4' # Runs Sundays, Tuesdays, Thursdays at 15:00 UTC (backup trigger)
+  repository_dispatch:
+    types: [epg-rebuild]
   workflow_dispatch:
     inputs:
       tag_suffix:
