@@ -193,6 +193,20 @@ def main():
     print("      applying roster updates + icon layers...", flush=True)
     manifest = apply_roster_updates(manifest)
 
+    # 2026-10-01: rewrite http:// provider/IP-hosted logos to rehosted GitHub
+    # URLs (Android/TiviMate blocks cleartext http).
+    rmap = load_json_file("rehosted_logo_map.json")
+    if rmap:
+        n_rh = 0
+        for e in manifest:
+            new = rmap.get(e.get("icon"))
+            if new:
+                e["icon"] = new
+                n_rh += 1
+        if n_rh:
+            print(f"      rehosted logos: rewrote {n_rh} 24/7 icons to GitHub URLs",
+                  flush=True)
+
     anchor = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
     end = anchor + timedelta(days=args.days)
 

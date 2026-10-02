@@ -248,6 +248,11 @@ HUNT_ICONS = os.path.join(BUILD_DIR, 'work', 'chris_logos', 'poster_hunt_results
 CHRIS_ICONS_REPO = os.path.join(BUILD_DIR, 'chris_icon_urls.json')
 HUNT_ICONS_REPO = os.path.join(BUILD_DIR, 'poster_hunt_urls.json')
 
+# Rehosted logos (2026-10-01): ~4.3k http:// provider/IP-hosted channel logos
+# rehosted under epg/logos/rehosted/ because Android/TiviMate blocks
+# cleartext http. Maps old URL -> new raw.githubusercontent.com URL.
+REHOST_MAP_FILE = os.path.join(BUILD_DIR, 'rehosted_logo_map.json')
+
 # Provider service-XML timezone shifts (provider timestamps are Eastern-
 # semantics; these stations air on local time). Applied to service-XML
 # programmes only, never to public-feed data.
@@ -1493,6 +1498,29 @@ def fix_247_aliases(out_path):
             'placeholders_stripped': stripped[0]}
 
 
+def apply_rehosted_logos(roster):
+    """Rewrite roster icons via rehosted_logo_map.json (2026-10-01).
+
+    ~4.3k http:// provider/IP-hosted logos were rehosted on GitHub because
+    Android/TiviMate blocks cleartext http. Missing/unreadable map -> no-op.
+    Returns the number of roster icons rewritten.
+    """
+    try:
+        with open(REHOST_MAP_FILE, encoding='utf-8') as f:
+            rmap = json.load(f)
+    except (OSError, ValueError):
+        return 0
+    n = 0
+    for cid, (name, icon) in list(roster.items()):
+        new = rmap.get(icon)
+        if new:
+            roster[cid] = (name, new)
+            n += 1
+    if n:
+        log(f"rehosted logos: rewrote {n} roster icons to GitHub URLs")
+    return n
+
+
 def ensure_icons(out_path, roster):
     """Idempotent icon ensure from logos247_results.json.
 
@@ -2240,6 +2268,11 @@ def main(argv):
         if service_xml and not service_progs:
             log("WARNING: --service-xml given but yielded no programmes; "
                 "regular channels will be carried over")
+
+        # 4c. 2026-10-01: rewrite http:// provider logos to rehosted GitHub
+        # URLs (Android/TiviMate blocks cleartext http).
+        n_rehost = apply_rehosted_logos(roster)
+        report['stages']['rehosted_logos'] = {'rewritten': n_rehost}
 
         # 5. build
         anchor = datetime.now(timezone.utc).replace(minute=0, second=0, microsecond=0)
