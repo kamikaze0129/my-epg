@@ -207,6 +207,19 @@ def main():
             print(f"      rehosted logos: rewrote {n_rh} 24/7 icons to GitHub URLs",
                   flush=True)
 
+    # 2026-10-02: serve all GitHub-hosted logos via jsDelivr CDN — TiviMate
+    # does not reliably load raw.githubusercontent.com.
+    _old = "https://raw.githubusercontent.com/kamikaze0129/my-epg/main/"
+    _new = "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/"
+    n_cdn = 0
+    for e in manifest:
+        ic = e.get("icon")
+        if ic and ic.startswith(_old):
+            e["icon"] = _new + ic[len(_old):]
+            n_cdn += 1
+    if n_cdn:
+        print(f"      jsdelivr: rewrote {n_cdn} 24/7 icons to CDN URLs", flush=True)
+
     anchor = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
     end = anchor + timedelta(days=args.days)
 
