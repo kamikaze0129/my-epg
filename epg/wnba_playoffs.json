@@ -1,23 +1,24 @@
 {
  "_meta": {
-  "game_count": 6,
+  "game_count": 7,
   "season": 2026,
-  "valid_until_utc": "2026-10-07T08:00:00+00:00",
+  "valid_until_utc": "2026-10-09T08:00:00+00:00",
   "source": "ESPN scoreboard API (auto)",
   "note": "Each day's playoff games -> WNBA 01-07 in tipoff order. Channel->game order is best-effort."
  },
  "m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt": [
-  "  <programme start=\"20261002010000 +0000\" stop=\"20261002033000 +0000\" channel=\"m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt\">\n    <title>WNBA Basketball: Indiana Fever at Las Vegas Aces</title>\n    <desc>Indiana Fever at Las Vegas Aces. Tipoff 9:00 PM ET on USA Net. Michelob ULTRA Arena, Las Vegas.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n",
   "  <programme start=\"20261003010000 +0000\" stop=\"20261003033000 +0000\" channel=\"m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt\">\n    <title>WNBA Basketball: Dallas Wings at Golden State Valkyries</title>\n    <desc>Dallas Wings at Golden State Valkyries. Tipoff 9:00 PM ET on ESPN2. Chase Center, San Francisco.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n",
   "  <programme start=\"20261004040000 +0000\" stop=\"20261004063000 +0000\" channel=\"m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt\">\n    <title>WNBA Basketball: New York Liberty at Atlanta Dream</title>\n    <desc>New York Liberty at Atlanta Dream. Tipoff 12:00 AM ET on TV. Gateway Center, College Park.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n",
-  "  <programme start=\"20261007040000 +0000\" stop=\"20261007063000 +0000\" channel=\"m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt\">\n    <title>WNBA Basketball: New York Liberty at Atlanta Dream</title>\n    <desc>New York Liberty at Atlanta Dream. Tipoff 12:00 AM ET on TV. Gateway Center, College Park.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n"
+  "  <programme start=\"20261007040000 +0000\" stop=\"20261007063000 +0000\" channel=\"m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt\">\n    <title>WNBA Basketball: New York Liberty at Atlanta Dream</title>\n    <desc>New York Liberty at Atlanta Dream. Tipoff 12:00 AM ET on TV. Gateway Center, College Park.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n",
+  "  <programme start=\"20261009040000 +0000\" stop=\"20261009063000 +0000\" channel=\"m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt\">\n    <title>WNBA Basketball: Atlanta Dream at New York Liberty</title>\n    <desc>Atlanta Dream at New York Liberty. Tipoff 12:00 AM ET on TV. Barclays Center, Brooklyn.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n"
  ],
  "m3u-usa-wnba-02-new-york-liberty-vs-minnesota-lynx-0730-pm-edt": [
   "  <programme start=\"20261004040000 +0000\" stop=\"20261004063000 +0000\" channel=\"m3u-usa-wnba-02-new-york-liberty-vs-minnesota-lynx-0730-pm-edt\">\n    <title>WNBA Playoffs: Semifinal (teams TBD)</title>\n    <desc>Semifinal matchup to be determined. Tipoff 12:00 AM ET on TV.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n",
-  "  <programme start=\"20261007040000 +0000\" stop=\"20261007063000 +0000\" channel=\"m3u-usa-wnba-02-new-york-liberty-vs-minnesota-lynx-0730-pm-edt\">\n    <title>WNBA Playoffs: Semifinal (teams TBD)</title>\n    <desc>Semifinal matchup to be determined. Tipoff 12:00 AM ET on TV.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n"
+  "  <programme start=\"20261007040000 +0000\" stop=\"20261007063000 +0000\" channel=\"m3u-usa-wnba-02-new-york-liberty-vs-minnesota-lynx-0730-pm-edt\">\n    <title>WNBA Playoffs: Semifinal (teams TBD)</title>\n    <desc>Semifinal matchup to be determined. Tipoff 12:00 AM ET on TV.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n",
+  "  <programme start=\"20261009040000 +0000\" stop=\"20261009063000 +0000\" channel=\"m3u-usa-wnba-02-new-york-liberty-vs-minnesota-lynx-0730-pm-edt\">\n    <title>WNBA Playoffs: Semifinal (teams TBD)</title>\n    <desc>Semifinal matchup to be determined. Tipoff 12:00 AM ET on TV.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n"
  ],
  "_display_names": {
-  "m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt": "USA WNBA 01: New York Liberty vs Atlanta Dream @ 12:00 AM ET",
+  "m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt": "USA WNBA 01: Atlanta Dream vs New York Liberty @ 12:00 AM ET",
   "m3u-usa-wnba-02-new-york-liberty-vs-minnesota-lynx-0730-pm-edt": "USA WNBA 02: TBD vs TBD @ 12:00 AM ET"
  }
 }
