@@ -1521,6 +1521,25 @@ def apply_rehosted_logos(roster):
     return n
 
 
+# 2026-10-02: serve all GitHub-hosted logos via jsDelivr CDN — TiviMate
+# does not reliably load raw.githubusercontent.com. Runs after the rehost
+# map so already-migrated raw URLs get rewritten too.
+JSDELIVR_OLD_PREFIX = "https://raw.githubusercontent.com/kamikaze0129/my-epg/main/"
+JSDELIVR_NEW_PREFIX = "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/"
+
+def apply_jsdelivr_cdn(roster):
+    """Rewrite any kamikaze0129/my-epg raw.githubusercontent.com icon URLs
+    to the jsDelivr CDN equivalent. Returns the number rewritten."""
+    n = 0
+    for cid, (name, icon) in list(roster.items()):
+        if icon and icon.startswith(JSDELIVR_OLD_PREFIX):
+            roster[cid] = (name, JSDELIVR_NEW_PREFIX + icon[len(JSDELIVR_OLD_PREFIX):])
+            n += 1
+    if n:
+        log(f"jsdelivr: rewrote {n} roster icons to CDN URLs")
+    return n
+
+
 def ensure_icons(out_path, roster):
     """Idempotent icon ensure from logos247_results.json.
 
@@ -2273,6 +2292,10 @@ def main(argv):
         # URLs (Android/TiviMate blocks cleartext http).
         n_rehost = apply_rehosted_logos(roster)
         report['stages']['rehosted_logos'] = {'rewritten': n_rehost}
+
+        # 4d. 2026-10-02: serve all GitHub-hosted logos via jsDelivr CDN.
+        n_cdn = apply_jsdelivr_cdn(roster)
+        report['stages']['jsdelivr_cdn'] = {'rewritten': n_cdn}
 
         # 5. build
         anchor = datetime.now(timezone.utc).replace(minute=0, second=0, microsecond=0)
