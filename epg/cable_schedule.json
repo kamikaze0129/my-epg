@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-10-04T19:40:54.117188+00:00",
+ "updated_utc": "2026-10-04T19:42:14.434584+00:00",
  "sources": {
   "msnbc.us": {
    "source": "msnow",
@@ -301158,6 +301158,2132 @@
    "source": "nasa",
    "source_url": "https://plus.nasa.gov/wp-json/wp/v2/scheduled_video?per_page=100&page=4",
    "programmes": []
+  },
+  "m3u-usa-mytime-movie-network": {
+   "source": "plex",
+   "source_url": "https://epg.provider.plex.tv/grid?channelGridKey=644875d7af92c31f4a190bc2",
+   "programmes": [
+    {
+     "start": "2026-10-03T23:00:17+00:00",
+     "stop": "2026-10-04T00:45:34+00:00",
+     "title": "Cradle of Lies",
+     "episode": "",
+     "desc": "Marissa was in a coma while pregnant and wakes up five years later to find that the baby she delivered is gone"
+    },
+    {
+     "start": "2026-10-04T00:45:34+00:00",
+     "stop": "2026-10-04T02:40:12+00:00",
+     "title": "Fatal Memories",
+     "episode": "",
+     "desc": "In this thriller, a woman tries to help her sister recall the events of the fatal stabbing of their mother."
+    },
+    {
+     "start": "2026-10-04T02:40:12+00:00",
+     "stop": "2026-10-04T04:20:47+00:00",
+     "title": "Final Girl",
+     "episode": "",
+     "desc": "A violent game of cat and mouse between a group of sadistic killers and a young woman trained in the ways of death."
+    },
+    {
+     "start": "2026-10-04T04:20:47+00:00",
+     "stop": "2026-10-04T06:05:58+00:00",
+     "title": "Crash Site: A Family In Danger",
+     "episode": "",
+     "desc": "A Jeep crash sends a vacationing couple on a creepy trip back to safety."
+    },
+    {
+     "start": "2026-10-04T06:05:58+00:00",
+     "stop": "2026-10-04T07:55:07+00:00",
+     "title": "The Secrets of Comfort House",
+     "episode": "",
+     "desc": "A murder investigation in a small town focuses on Wendy Sinclair, who runs a shelter for the victims' wives."
+    },
+    {
+     "start": "2026-10-04T07:55:07+00:00",
+     "stop": "2026-10-04T09:40:54+00:00",
+     "title": "Fatal Performance",
+     "episode": "",
+     "desc": "A struggling actress is hired to impersonate a woman for a business meeting, but soon finds her life in danger."
+    },
+    {
+     "start": "2026-10-04T09:40:54+00:00",
+     "stop": "2026-10-04T10:10:14+00:00",
+     "title": "At Home With Tori",
+     "episode": "Episode 1",
+     "desc": "Tori teams up with Million Dollar Matchmaker Patti Stanger to host a series of dates for Morgan, one of her single friends."
+    },
+    {
+     "start": "2026-10-04T10:10:14+00:00",
+     "stop": "2026-10-04T10:40:04+00:00",
+     "title": "At Home With Tori",
+     "episode": "Episode 2",
+     "desc": "Tori teams up with Million Dollar Matchmaker Patti Stanger to host a series of dates for Morgan, one of her single friends."
+    },
+    {
+     "start": "2026-10-04T10:40:04+00:00",
+     "stop": "2026-10-04T12:25:00+00:00",
+     "title": "Falling For the Competition",
+     "episode": "",
+     "desc": "A local mom\u2019s and dad\u2019s group clash for the prestigious Modern Parenting Group of the Year award."
+    },
+    {
+     "start": "2026-10-04T12:25:00+00:00",
+     "stop": "2026-10-04T14:10:06+00:00",
+     "title": "Eat, Love, London",
+     "episode": "",
+     "desc": "Stella takes a job at a new London restaurant and ends up falling for the chef."
+    },
+    {
+     "start": "2026-10-04T14:10:06+00:00",
+     "stop": "2026-10-04T15:50:53+00:00",
+     "title": "Forever Love",
+     "episode": "",
+     "desc": "A couple's lost love goes full circle between the 50's and the present."
+    },
+    {
+     "start": "2026-10-04T15:50:53+00:00",
+     "stop": "2026-10-04T17:35:44+00:00",
+     "title": "FBI: Negotiator",
+     "episode": "",
+     "desc": "An FBI agent must negotiate with a woman holding a hospital hostage in order to get her hands on an experimental drug."
+    },
+    {
+     "start": "2026-10-04T17:35:44+00:00",
+     "stop": "2026-10-04T19:20:54+00:00",
+     "title": "Candid About Love",
+     "episode": "",
+     "desc": "Laura must get reclusive artist Shane to premiere his work at a gallery to help her own career."
+    },
+    {
+     "start": "2026-10-04T19:20:54+00:00",
+     "stop": "2026-10-04T21:10:51+00:00",
+     "title": "Midnight Stallion",
+     "episode": "",
+     "desc": "JACK and his daughter TERESA train a wild horse in hopes of winning enough money to save their farm."
+    },
+    {
+     "start": "2026-10-04T21:10:51+00:00",
+     "stop": "2026-10-04T23:00:04+00:00",
+     "title": "God's Club",
+     "episode": "",
+     "desc": "Welcome to God's Club: the inspirational story that explores the union of education and faith."
+    },
+    {
+     "start": "2026-10-04T23:00:04+00:00",
+     "stop": "2026-10-05T00:45:56+00:00",
+     "title": "Been There All Along",
+     "episode": "",
+     "desc": "Charley, the founder of a dating app must team up with marketing expert Liam, to save her company."
+    },
+    {
+     "start": "2026-10-05T00:45:56+00:00",
+     "stop": "2026-10-05T02:30:56+00:00",
+     "title": "How to Win a Prince",
+     "episode": "",
+     "desc": "A chronically single dating coach attempts to seduce a prince as she helps him navigate the NYC dating scene."
+    },
+    {
+     "start": "2026-10-05T02:30:56+00:00",
+     "stop": "2026-10-05T04:20:04+00:00",
+     "title": "Paparazzi Princess: The Paris Hilton Story",
+     "episode": "",
+     "desc": "A closer look at the lavish lifestyles of Hollywood Heiress' Paris Hilton, Nicole Richie, and Lindsay Lohan."
+    },
+    {
+     "start": "2026-10-05T04:20:04+00:00",
+     "stop": "2026-10-05T06:05:54+00:00",
+     "title": "The Bouquet",
+     "episode": "",
+     "desc": "Two estranged sisters set aside their differences to help their mother save her floral business."
+    },
+    {
+     "start": "2026-10-05T06:05:54+00:00",
+     "stop": "2026-10-05T07:55:00+00:00",
+     "title": "Hearts Under the Olive Tree",
+     "episode": "",
+     "desc": "Suffering from writer\u2019s block, an author heads to a farmland retreat to get inspired."
+    },
+    {
+     "start": "2026-10-05T07:55:00+00:00",
+     "stop": "2026-10-05T09:40:08+00:00",
+     "title": "Dance Together",
+     "episode": "",
+     "desc": "An injured dancer and a shy Deaf girl overcome bullies, disability stigma, and other high school obstacles."
+    },
+    {
+     "start": "2026-10-05T09:40:08+00:00",
+     "stop": "2026-10-05T10:15:23+00:00",
+     "title": "At Home With Tori",
+     "episode": "Episode 7",
+     "desc": "Tori is hosting a 90210 themed party and wants to create some classic Beverly Hills appys."
+    },
+    {
+     "start": "2026-10-05T10:15:23+00:00",
+     "stop": "2026-10-05T12:00:53+00:00",
+     "title": "Falling for the Manny",
+     "episode": "",
+     "desc": "Alice is up for partner at her firm and hires her sister\u2019s manny, Jacob, to help with her daughter."
+    },
+    {
+     "start": "2026-10-05T12:00:53+00:00",
+     "stop": "2026-10-05T13:45:31+00:00",
+     "title": "Maternal Instinct",
+     "episode": "",
+     "desc": "Teen witnesses mother's shooting, hides with a cop, facing danger as they evade the killer together."
+    },
+    {
+     "start": "2026-10-05T13:45:31+00:00",
+     "stop": "2026-10-05T15:30:55+00:00",
+     "title": "Been There All Along",
+     "episode": "",
+     "desc": "Charley, the founder of a dating app must team up with marketing expert Liam, to save her company."
+    },
+    {
+     "start": "2026-10-05T15:30:55+00:00",
+     "stop": "2026-10-05T17:15:12+00:00",
+     "title": "Cradle of Lies",
+     "episode": "",
+     "desc": "Marissa was in a coma while pregnant and wakes up five years later to find that the baby she delivered is gone"
+    },
+    {
+     "start": "2026-10-05T17:15:12+00:00",
+     "stop": "2026-10-05T19:00:49+00:00",
+     "title": "Fatal Performance",
+     "episode": "",
+     "desc": "A struggling actress is hired to impersonate a woman for a business meeting, but soon finds her life in danger."
+    },
+    {
+     "start": "2026-10-05T19:00:49+00:00",
+     "stop": "2026-10-05T20:45:58+00:00",
+     "title": "Sinkhole",
+     "episode": "",
+     "desc": "A group of teenagers get trapped in a sink hole and have to fight for their lives."
+    },
+    {
+     "start": "2026-10-05T20:45:58+00:00",
+     "stop": "2026-10-05T23:00:09+00:00",
+     "title": "Pure Country 2: The Gift",
+     "episode": "",
+     "desc": "Three angels bestow the gift of song to a young girl, who rises to fame and fortune as a country music star."
+    },
+    {
+     "start": "2026-10-05T23:00:09+00:00",
+     "stop": "2026-10-06T00:45:45+00:00",
+     "title": "Heartfelt",
+     "episode": "",
+     "desc": "Molly hurries to boyfriend Jackson's birthday party with some big news to deliver."
+    },
+    {
+     "start": "2026-10-06T00:45:45+00:00",
+     "stop": "2026-10-06T02:35:07+00:00",
+     "title": "The Wedding Contest",
+     "episode": "",
+     "desc": "When a couple can't decide on a wedding theme, they hire two wedding planners to compete for the job."
+    },
+    {
+     "start": "2026-10-06T02:35:07+00:00",
+     "stop": "2026-10-06T04:25:45+00:00",
+     "title": "When Love Came To Town",
+     "episode": "",
+     "desc": "Abby, an author is used to making up quirky, charming characters, but here in Bliss they have sprung to life."
+    },
+    {
+     "start": "2026-10-06T04:25:45+00:00",
+     "stop": "2026-10-06T06:20:05+00:00",
+     "title": "My Daddy is In Heaven",
+     "episode": "",
+     "desc": "Becca and Adam Smith along with their 5-year-old daughter Acie are a perfect family until a tragedy strikes"
+    },
+    {
+     "start": "2026-10-06T06:20:05+00:00",
+     "stop": "2026-10-06T08:05:28+00:00",
+     "title": "For the Love of Lily",
+     "episode": "",
+     "desc": "A career-minded city girl must build a garden with a plant-loving country boy to appease her boss."
+    },
+    {
+     "start": "2026-10-06T08:05:28+00:00",
+     "stop": "2026-10-06T08:32:19+00:00",
+     "title": "New Dogs, Old Tricks",
+     "episode": "",
+     "desc": "Tiny\u2019s bar will close unless he pays $17K; customers rally to save it. Meanwhile, Jay\u2019s hazing alarms."
+    },
+    {
+     "start": "2026-10-06T08:32:19+00:00",
+     "stop": "2026-10-06T09:00:04+00:00",
+     "title": "New Dogs, Old Tricks",
+     "episode": "",
+     "desc": "Alan handles Women\u2019s Lit as Tiny\u2019s Place plan is approved."
+    },
+    {
+     "start": "2026-10-06T09:00:04+00:00",
+     "stop": "2026-10-06T10:50:04+00:00",
+     "title": "Campus Caller",
+     "episode": "",
+     "desc": "When a university student goes missing, her mother a former cop goes in search for her."
+    },
+    {
+     "start": "2026-10-06T10:50:04+00:00",
+     "stop": "2026-10-06T12:35:54+00:00",
+     "title": "Heart of the Manor",
+     "episode": "",
+     "desc": "Real-estate agent Lisa competes with developer Matthew who wants to buy her family's manor."
+    },
+    {
+     "start": "2026-10-06T12:35:54+00:00",
+     "stop": "2026-10-06T14:20:02+00:00",
+     "title": "My Mother's Stalker",
+     "episode": "",
+     "desc": "Old friends gets together for a high school reunion, only for a crime to set off a series of tragic events."
+    },
+    {
+     "start": "2026-10-06T14:20:02+00:00",
+     "stop": "2026-10-06T16:05:56+00:00",
+     "title": "Candid About Love",
+     "episode": "",
+     "desc": "Laura must get reclusive artist Shane to premiere his work at a gallery to help her own career."
+    },
+    {
+     "start": "2026-10-06T16:05:56+00:00",
+     "stop": "2026-10-06T17:50:05+00:00",
+     "title": "Dance Together",
+     "episode": "",
+     "desc": "An injured dancer and a shy Deaf girl overcome bullies, disability stigma, and other high school obstacles."
+    },
+    {
+     "start": "2026-10-06T17:50:05+00:00",
+     "stop": "2026-10-06T19:30:51+00:00",
+     "title": "Forever Love",
+     "episode": "",
+     "desc": "A couple's lost love goes full circle between the 50's and the present."
+    },
+    {
+     "start": "2026-10-06T19:30:51+00:00",
+     "stop": "2026-10-06T21:15:33+00:00",
+     "title": "What Color is Love?",
+     "episode": "",
+     "desc": "A white woman has an affair with a pro-basketball star and challenges him for custody of their mixed-race son."
+    },
+    {
+     "start": "2026-10-06T21:15:33+00:00",
+     "stop": "2026-10-06T23:05:48+00:00",
+     "title": "Knockout",
+     "episode": "",
+     "desc": "A retired pro boxer, now a school janitor, tries to help a new student, who is being targeted by bullies."
+    },
+    {
+     "start": "2026-10-06T23:05:48+00:00",
+     "stop": "2026-10-07T01:00:06+00:00",
+     "title": "Hunt for Truth",
+     "episode": "",
+     "desc": "Carrie Evans uncovers unsettling truths about her family and boss Caswell Foxx while researching a major case."
+    },
+    {
+     "start": "2026-10-07T01:00:06+00:00",
+     "stop": "2026-10-07T02:55:08+00:00",
+     "title": "Hit And Run",
+     "episode": "",
+     "desc": "A lawyer is riding high after receiving a Not Guilty verdict for her client, but has to look over her shoulder when a woman she meets in a traffic accident is not all she appears to be."
+    },
+    {
+     "start": "2026-10-07T02:55:08+00:00",
+     "stop": "2026-10-07T03:48:14+00:00",
+     "title": "Blood Ties",
+     "episode": "Episode 1 - Blood Price: Part One",
+     "desc": "Murders believed to be committed by a vampire turn out to be the work of a servant demon of Astaroth."
+    },
+    {
+     "start": "2026-10-07T03:48:14+00:00",
+     "stop": "2026-10-07T04:40:57+00:00",
+     "title": "Blood Ties",
+     "episode": "Episode 2 - Blood Price: Part Two",
+     "desc": "Murders believed to be committed by a vampire turn out to be the work of a servant demon of Astaroth."
+    },
+    {
+     "start": "2026-10-07T04:40:57+00:00",
+     "stop": "2026-10-07T06:30:53+00:00",
+     "title": "The New Wife",
+     "episode": "",
+     "desc": "Six months after burying her husband, Ruby Asher seduces then murders Nicholas Landon, a wealthy politician."
+    },
+    {
+     "start": "2026-10-07T06:30:53+00:00",
+     "stop": "2026-10-07T08:20:32+00:00",
+     "title": "From Italy with Amore",
+     "episode": "",
+     "desc": "In the quest to find her dream man, Ariel meets Daniel who shows that food is the way to her heart."
+    },
+    {
+     "start": "2026-10-07T08:20:32+00:00",
+     "stop": "2026-10-07T08:50:02+00:00",
+     "title": "New Dogs, Old Tricks",
+     "episode": "",
+     "desc": "Jay's hazing ends abruptly after a Gamma Pi visit. Liz lies to cover for Mindy, causing big issues for others."
+    },
+    {
+     "start": "2026-10-07T08:50:02+00:00",
+     "stop": "2026-10-07T10:35:03+00:00",
+     "title": "FBI: Negotiator",
+     "episode": "",
+     "desc": "An FBI agent must negotiate with a woman holding a hospital hostage in order to get her hands on an experimental drug."
+    },
+    {
+     "start": "2026-10-07T10:35:03+00:00",
+     "stop": "2026-10-07T12:20:30+00:00",
+     "title": "Inspiring Love",
+     "episode": "",
+     "desc": "When Isla\u2019s art unexpectedly sells to Mark, a second commission sees them falling in love."
+    },
+    {
+     "start": "2026-10-07T12:20:30+00:00",
+     "stop": "2026-10-07T14:10:01+00:00",
+     "title": "The Secrets of Comfort House",
+     "episode": "",
+     "desc": "A murder investigation in a small town focuses on Wendy Sinclair, who runs a shelter for the victims' wives."
+    },
+    {
+     "start": "2026-10-07T14:10:01+00:00",
+     "stop": "2026-10-07T15:55:51+00:00",
+     "title": "The Bouquet",
+     "episode": "",
+     "desc": "Two estranged sisters set aside their differences to help their mother save her floral business."
+    },
+    {
+     "start": "2026-10-07T15:55:51+00:00",
+     "stop": "2026-10-07T17:45:06+00:00",
+     "title": "Campus Caller",
+     "episode": "",
+     "desc": "When a university student goes missing, her mother a former cop goes in search for her."
+    },
+    {
+     "start": "2026-10-07T17:45:06+00:00",
+     "stop": "2026-10-07T19:30:06+00:00",
+     "title": "A Slice of Romance",
+     "episode": "",
+     "desc": "PR exec Mikayla strikes a deal with pastry chef Austin to rebrand his caf\u00e9 to get dating advice."
+    },
+    {
+     "start": "2026-10-07T19:30:06+00:00",
+     "stop": "2026-10-07T21:15:11+00:00",
+     "title": "Eat, Love, London",
+     "episode": "",
+     "desc": "Stella takes a job at a new London restaurant and ends up falling for the chef."
+    },
+    {
+     "start": "2026-10-07T21:15:11+00:00",
+     "stop": "2026-10-07T23:05:54+00:00",
+     "title": "What Would Jesus Do?",
+     "episode": "",
+     "desc": "A small diverse group of Americans vow to walk in the steps of Jesus.They ask themselves \"What Would Jesus Do?"
+    },
+    {
+     "start": "2026-10-07T23:05:54+00:00",
+     "stop": "2026-10-08T00:50:01+00:00",
+     "title": "My Mother's Stalker",
+     "episode": "",
+     "desc": "Old friends gets together for a high school reunion, only for a crime to set off a series of tragic events."
+    },
+    {
+     "start": "2026-10-08T00:50:01+00:00",
+     "stop": "2026-10-08T02:35:56+00:00",
+     "title": "Desperate Hours",
+     "episode": "",
+     "desc": "A man kidnaps two girls in Oregon triggering the Amber Alert system throughout many surrounding states."
+    },
+    {
+     "start": "2026-10-08T02:35:56+00:00",
+     "stop": "2026-10-08T04:20:58+00:00",
+     "title": "Love to Kill",
+     "episode": "",
+     "desc": "A young gorgeous woman who uses her beauty and charm to lure wealthy men into giving her all their money and then she kills them."
+    },
+    {
+     "start": "2026-10-08T04:20:58+00:00",
+     "stop": "2026-10-08T06:10:27+00:00",
+     "title": "The Virginian",
+     "episode": "",
+     "desc": "After his parents are killed a boy is raised by a powerful cattle baron to uphold the \"code of the west\"."
+    },
+    {
+     "start": "2026-10-08T06:10:27+00:00",
+     "stop": "2026-10-08T07:55:55+00:00",
+     "title": "Heart of the Manor",
+     "episode": "",
+     "desc": "Real-estate agent Lisa competes with developer Matthew who wants to buy her family's manor."
+    },
+    {
+     "start": "2026-10-08T07:55:55+00:00",
+     "stop": "2026-10-08T09:40:53+00:00",
+     "title": "Dance Together",
+     "episode": "",
+     "desc": "An injured dancer and a shy Deaf girl overcome bullies, disability stigma, and other high school obstacles."
+    },
+    {
+     "start": "2026-10-08T09:40:53+00:00",
+     "stop": "2026-10-08T10:07:23+00:00",
+     "title": "New Dogs, Old Tricks",
+     "episode": "",
+     "desc": "Tiny\u2019s bar will close unless he pays $17K; customers rally to save it. Meanwhile, Jay\u2019s hazing alarms."
+    },
+    {
+     "start": "2026-10-08T10:07:23+00:00",
+     "stop": "2026-10-08T10:35:06+00:00",
+     "title": "New Dogs, Old Tricks",
+     "episode": "",
+     "desc": "Alan handles Women\u2019s Lit as Tiny\u2019s Place plan is approved."
+    },
+    {
+     "start": "2026-10-08T10:35:06+00:00",
+     "stop": "2026-10-08T12:20:13+00:00",
+     "title": "Food for the Heart",
+     "episode": "",
+     "desc": "After taking on too much with her meal delivery service, Lia accepts her neighbor Eli\u2019s help."
+    },
+    {
+     "start": "2026-10-08T12:20:13+00:00",
+     "stop": "2026-10-08T14:05:03+00:00",
+     "title": "Just for Showmance",
+     "episode": "",
+     "desc": "Tara marries Joe, a stranger as part of a TV show, but soon starts to fall for him after all."
+    },
+    {
+     "start": "2026-10-08T14:05:03+00:00",
+     "stop": "2026-10-08T15:50:05+00:00",
+     "title": "Falling For the Competition",
+     "episode": "",
+     "desc": "A local mom\u2019s and dad\u2019s group clash for the prestigious Modern Parenting Group of the Year award."
+    },
+    {
+     "start": "2026-10-08T15:50:05+00:00",
+     "stop": "2026-10-08T17:35:54+00:00",
+     "title": "Been There All Along",
+     "episode": "",
+     "desc": "Charley, the founder of a dating app must team up with marketing expert Liam, to save her company."
+    },
+    {
+     "start": "2026-10-08T17:35:54+00:00",
+     "stop": "2026-10-08T19:20:25+00:00",
+     "title": "Cradle of Lies",
+     "episode": "",
+     "desc": "Marissa was in a coma while pregnant and wakes up five years later to find that the baby she delivered is gone"
+    },
+    {
+     "start": "2026-10-08T19:20:25+00:00",
+     "stop": "2026-10-08T21:15:55+00:00",
+     "title": "Snowman's Pass",
+     "episode": "",
+     "desc": "Impresario aids fianc\u00e9e in search for her fallen climber, masking his true goal: finding a spy satellite."
+    },
+    {
+     "start": "2026-10-08T21:15:55+00:00",
+     "stop": "2026-10-08T23:05:01+00:00",
+     "title": "A Match in Manhattan",
+     "episode": "",
+     "desc": "When Celeste loses her teaching job, she becomes an au-pair for infamous New York  tycoon Richard Trapp."
+    },
+    {
+     "start": "2026-10-08T23:05:01+00:00",
+     "stop": "2026-10-09T00:55:12+00:00",
+     "title": "Out Of Reach",
+     "episode": "",
+     "desc": "A woman struggles to cut ties between her family and her husband's powerful new friends before it's too late."
+    },
+    {
+     "start": "2026-10-09T00:55:12+00:00",
+     "stop": "2026-10-09T02:45:49+00:00",
+     "title": "Driven Underground",
+     "episode": "",
+     "desc": "Single mom Sarah  hides her family in Oregon when her daughter is  a witness in a murder against the mob."
+    },
+    {
+     "start": "2026-10-09T02:45:49+00:00",
+     "stop": "2026-10-09T04:35:13+00:00",
+     "title": "Dancing Trees",
+     "episode": "",
+     "desc": "Martha, 18, has a form of autism. Although she is incapable of looking after herself, she is a mathematical genius."
+    },
+    {
+     "start": "2026-10-09T04:35:13+00:00",
+     "stop": "2026-10-09T06:20:02+00:00",
+     "title": "Anna Nicole",
+     "episode": "",
+     "desc": "Biopic of Anna Nicole Smith, Playmate and TV personality, culminates in a tragic fatal drug overdose."
+    },
+    {
+     "start": "2026-10-09T06:20:02+00:00",
+     "stop": "2026-10-09T08:04:59+00:00",
+     "title": "Falling for the Manny",
+     "episode": "",
+     "desc": "Alice is up for partner at her firm and hires her sister\u2019s manny, Jacob, to help with her daughter."
+    },
+    {
+     "start": "2026-10-09T08:04:59+00:00",
+     "stop": "2026-10-09T08:30:07+00:00",
+     "title": "New Dogs, Old Tricks",
+     "episode": "",
+     "desc": "Pete and DeeDee have an announcement for the Gamma brothers. Across campus, Sarah struggles with her new living situation."
+    },
+    {
+     "start": "2026-10-09T08:30:07+00:00",
+     "stop": "2026-10-09T08:55:20+00:00",
+     "title": "New Dogs, Old Tricks",
+     "episode": "Episode 9",
+     "desc": "At the Gamma Christmas Mixer, Sarah is missing and her friends' search leads to a shocking attack."
+    },
+    {
+     "start": "2026-10-09T08:55:20+00:00",
+     "stop": "2026-10-09T10:35:05+00:00",
+     "title": "The Beauty Of Love",
+     "episode": "",
+     "desc": "When her website loses popularity, Emma asks Jill for help. However, Jill's brother Jesse could be a barrier."
+    },
+    {
+     "start": "2026-10-09T10:35:05+00:00",
+     "stop": "2026-10-09T12:20:57+00:00",
+     "title": "Hearts Under the Olive Tree",
+     "episode": "",
+     "desc": "Suffering from writer\u2019s block, an author heads to a farmland retreat to get inspired."
+    },
+    {
+     "start": "2026-10-09T12:20:57+00:00",
+     "stop": "2026-10-09T14:05:03+00:00",
+     "title": "Eat, Love, London",
+     "episode": "",
+     "desc": "Stella takes a job at a new London restaurant and ends up falling for the chef."
+    },
+    {
+     "start": "2026-10-09T14:05:03+00:00",
+     "stop": "2026-10-09T15:55:04+00:00",
+     "title": "The Secrets of Comfort House",
+     "episode": "",
+     "desc": "A murder investigation in a small town focuses on Wendy Sinclair, who runs a shelter for the victims' wives."
+    },
+    {
+     "start": "2026-10-09T15:55:04+00:00",
+     "stop": "2026-10-09T17:40:02+00:00",
+     "title": "Dance Together",
+     "episode": "",
+     "desc": "An injured dancer and a shy Deaf girl overcome bullies, disability stigma, and other high school obstacles."
+    },
+    {
+     "start": "2026-10-09T17:40:02+00:00",
+     "stop": "2026-10-09T19:30:02+00:00",
+     "title": "Campus Caller",
+     "episode": "",
+     "desc": "When a university student goes missing, her mother a former cop goes in search for her."
+    },
+    {
+     "start": "2026-10-09T19:30:02+00:00",
+     "stop": "2026-10-09T21:20:02+00:00",
+     "title": "Two Chefs and a Wedding Cake",
+     "episode": "",
+     "desc": "A food critic at the top of her game meets a chef renowned for refusing food critics to his restaurant."
+    },
+    {
+     "start": "2026-10-09T21:20:02+00:00",
+     "stop": "2026-10-09T23:05:09+00:00",
+     "title": "Love at the Bootcamp",
+     "episode": "",
+     "desc": "A scattered marketing exec helps rebrand a bootcamp and discovers its strict owner may be just what she needs."
+    },
+    {
+     "start": "2026-10-09T23:05:09+00:00",
+     "stop": "2026-10-10T00:00:11+00:00",
+     "title": "Blood Ties",
+     "episode": "Episode 1 - Blood Price: Part One",
+     "desc": "Murders believed to be committed by a vampire turn out to be the work of a servant demon of Astaroth."
+    }
+   ]
+  },
+  "m3u-usa-shout": {
+   "source": "plex",
+   "source_url": "https://epg.provider.plex.tv/grid?channelGridKey=60d4edd6b2fdec002c141127",
+   "programmes": [
+    {
+     "start": "2026-10-03T23:07:53+00:00",
+     "stop": "2026-10-04T00:49:38+00:00",
+     "title": "The Temptations",
+     "episode": "Part 1",
+     "desc": "The true story behind the legendary Motown musical sensation is brought to life in this touching miniseries."
+    },
+    {
+     "start": "2026-10-04T00:49:38+00:00",
+     "stop": "2026-10-04T02:31:24+00:00",
+     "title": "The Temptations",
+     "episode": "Part 2",
+     "desc": "The true story behind the legendary Motown musical sensation is brought to life in this touching miniseries."
+    },
+    {
+     "start": "2026-10-04T02:31:24+00:00",
+     "stop": "2026-10-04T04:13:09+00:00",
+     "title": "The Temptations",
+     "episode": "Part 1",
+     "desc": "The true story behind the legendary Motown musical sensation is brought to life in this touching miniseries."
+    },
+    {
+     "start": "2026-10-04T04:13:09+00:00",
+     "stop": "2026-10-04T05:38:22+00:00",
+     "title": "The Laurel & Hardy Show",
+     "episode": "Bohemian Girl",
+     "desc": "Nifty comic opera with Stan and Ollie part of a gypsy caravan."
+    },
+    {
+     "start": "2026-10-04T05:38:22+00:00",
+     "stop": "2026-10-04T07:05:42+00:00",
+     "title": "The Laurel & Hardy Show",
+     "episode": "Our Relations",
+     "desc": "Stan and Ollie get into a snowballing comedy of errors with their long-lost twins."
+    },
+    {
+     "start": "2026-10-04T07:05:42+00:00",
+     "stop": "2026-10-04T08:22:47+00:00",
+     "title": "The Laurel & Hardy Show",
+     "episode": "Sons Of The Desert",
+     "desc": "Stan and Ollie sneak off to fraternal convention without telling their wives."
+    },
+    {
+     "start": "2026-10-04T08:22:47+00:00",
+     "stop": "2026-10-04T09:07:11+00:00",
+     "title": "The Laurel & Hardy Show",
+     "episode": "Beau Hunks",
+     "desc": "The boys join the Foreign Legion."
+    },
+    {
+     "start": "2026-10-04T09:07:11+00:00",
+     "stop": "2026-10-04T09:40:56+00:00",
+     "title": "The Laurel & Hardy Show",
+     "episode": "The Music Box",
+     "desc": "The Boys try to deliver a piano to a hilltop home."
+    },
+    {
+     "start": "2026-10-04T09:40:56+00:00",
+     "stop": "2026-10-04T10:08:52+00:00",
+     "title": "The Laurel & Hardy Show",
+     "episode": "Below Zero",
+     "desc": "Sidewalk musicians Stan and Ollie find a wallet of money."
+    },
+    {
+     "start": "2026-10-04T10:08:52+00:00",
+     "stop": "2026-10-04T10:36:47+00:00",
+     "title": "The Laurel & Hardy Show",
+     "episode": "Helpmates",
+     "desc": "Ollie asks Stan's help in straightening up the house after a wild party."
+    },
+    {
+     "start": "2026-10-04T10:36:47+00:00",
+     "stop": "2026-10-04T11:46:51+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "The Very Best of Johnny and Guests - Sammy Davis Jr., Shelley Winters, Michelle Pfeiffer, Burt Reynolds (8/1/80)",
+     "desc": "Sammy Davis Jr. is a fan of soap operas and Burt Reynolds surprises him. Shelley Winters talks about her book."
+    },
+    {
+     "start": "2026-10-04T11:46:51+00:00",
+     "stop": "2026-10-04T12:44:16+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Hollywood Icons Of The '90s - Jeff Daniels (1/23/86)",
+     "desc": "Jeff Daniels discusses the amazing experience of working with Jack Nicholson on \"Terms of Endearment.\""
+    },
+    {
+     "start": "2026-10-04T12:44:16+00:00",
+     "stop": "2026-10-04T13:40:38+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "The Best Of George Carlin (11/29/84)",
+     "desc": "No holiday is safe: Halloween, Thanksgiving and Easter all get the Carlin stand-up treatment in this episode."
+    },
+    {
+     "start": "2026-10-04T13:40:38+00:00",
+     "stop": "2026-10-04T14:59:23+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Animal Antics With Jim Fowler (1/31/80)",
+     "desc": "Jim Fowler, zoologist and host of the famed \"Wild Kingdom\" program, brings a vulture and two opossums."
+    },
+    {
+     "start": "2026-10-04T14:59:23+00:00",
+     "stop": "2026-10-04T15:55:44+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Comic Legends Of The '50s - Bob Hope (1/11/91)",
+     "desc": "Bob Hope talks all about American troops who were there to prevent Iraq\u2019s attempted takeover of Kuwait."
+    },
+    {
+     "start": "2026-10-04T15:55:44+00:00",
+     "stop": "2026-10-04T16:59:04+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "John Byner, Petula Clark",
+     "desc": "John Byner and Petula Clark head downtown to the show."
+    },
+    {
+     "start": "2026-10-04T16:59:04+00:00",
+     "stop": "2026-10-04T18:01:29+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Emmett Kelly, Jackson Five",
+     "desc": "Clowning legend Emmett Kelly, a musical performance from The Jackson 5, and Carol in \"A Swiped Life.\""
+    },
+    {
+     "start": "2026-10-04T18:01:29+00:00",
+     "stop": "2026-10-04T19:04:19+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Carl Reiner, Melba Moore",
+     "desc": "Carl Reiner and Melba Moore guest star on this episode."
+    },
+    {
+     "start": "2026-10-04T19:04:19+00:00",
+     "stop": "2026-10-04T20:06:57+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Shirley MacLaine",
+     "desc": "Guest Shirley MacLaine joins Carol in sharing some of their fan mail."
+    },
+    {
+     "start": "2026-10-04T20:06:57+00:00",
+     "stop": "2026-10-04T20:37:07+00:00",
+     "title": "Father Knows Best",
+     "episode": "No Partiality",
+     "desc": "Kathy demands equal rights with Betty and Bud. Jim agrees and says that whatever Betty gets to do, Kathy gets to do too."
+    },
+    {
+     "start": "2026-10-04T20:37:07+00:00",
+     "stop": "2026-10-04T21:07:00+00:00",
+     "title": "Father Knows Best",
+     "episode": "Close Decision",
+     "desc": "Bud is slacking off\u00d1he\u00d5s not doing his chores and he\u00d5s put off memorizing a poem to recite in church. Margaret insists he skip his softball game and catch up on his work, but Jim sneaks him out."
+    },
+    {
+     "start": "2026-10-04T21:07:00+00:00",
+     "stop": "2026-10-04T21:39:57+00:00",
+     "title": "Father Knows Best",
+     "episode": "Art of Salesmanship",
+     "desc": "Bud thinks he can earn much money fast by selling sauce-boats."
+    },
+    {
+     "start": "2026-10-04T21:39:57+00:00",
+     "stop": "2026-10-04T22:12:55+00:00",
+     "title": "Father Knows Best",
+     "episode": "Father's Private Life",
+     "desc": "Jim feels that his children need to work out their own problems."
+    },
+    {
+     "start": "2026-10-04T22:12:55+00:00",
+     "stop": "2026-10-04T22:46:10+00:00",
+     "title": "Father Knows Best",
+     "episode": "Lessons in Civics",
+     "desc": "The county wants to build a new highway right through the old community hall."
+    },
+    {
+     "start": "2026-10-04T22:46:10+00:00",
+     "stop": "2026-10-04T23:19:24+00:00",
+     "title": "Father Knows Best",
+     "episode": "Woman in the House",
+     "desc": "Jim wants to invite a friend of his over to the Anderson home."
+    },
+    {
+     "start": "2026-10-04T23:19:24+00:00",
+     "stop": "2026-10-04T23:52:22+00:00",
+     "title": "Father Knows Best",
+     "episode": "New Girl at School",
+     "desc": "There is a new girl at school and it is love at first sight for Bud Anderson."
+    },
+    {
+     "start": "2026-10-04T23:52:22+00:00",
+     "stop": "2026-10-05T00:25:07+00:00",
+     "title": "Father Knows Best",
+     "episode": "Kathy Makes Magic",
+     "desc": "Kathy trades her skaters for a magician's box."
+    },
+    {
+     "start": "2026-10-05T00:25:07+00:00",
+     "stop": "2026-10-05T01:22:59+00:00",
+     "title": "The Dean Martin Celebrity Roasts",
+     "episode": "Bob Hope",
+     "desc": "Dean Martin hosts a star studded celebrity roast of Bob Hope."
+    },
+    {
+     "start": "2026-10-05T01:22:59+00:00",
+     "stop": "2026-10-05T02:24:53+00:00",
+     "title": "The Dean Martin Celebrity Roasts",
+     "episode": "Telly Savalas",
+     "desc": "Dean Martin hosts a star studded celebrity roast of Telly Svalas"
+    },
+    {
+     "start": "2026-10-05T02:24:53+00:00",
+     "stop": "2026-10-05T03:26:24+00:00",
+     "title": "The Dean Martin Celebrity Roasts",
+     "episode": "Lucille Ball",
+     "desc": "Legendary comedienne Lucille Ball is roasted by Jack Benny, Milton Berle, Foster Brooks, Rich Little, and Don Rickles among others."
+    },
+    {
+     "start": "2026-10-05T03:26:24+00:00",
+     "stop": "2026-10-05T04:28:15+00:00",
+     "title": "The Dean Martin Celebrity Roasts",
+     "episode": "Jackie Gleason",
+     "desc": "Dean Martin hosts a star studded celebrity roast of Jackie Gleason."
+    },
+    {
+     "start": "2026-10-05T04:28:15+00:00",
+     "stop": "2026-10-05T04:58:09+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Dear Sally Rogers",
+     "desc": "Sally advertises for a husband on a national television show and is flooded with fan mail."
+    },
+    {
+     "start": "2026-10-05T04:58:09+00:00",
+     "stop": "2026-10-05T05:28:19+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Buddy Sorrell: Man and Boy",
+     "desc": "Buddy's behavior leads Rob and Sal to believe he's seeing a psychiatrist or having an affair."
+    },
+    {
+     "start": "2026-10-05T05:28:19+00:00",
+     "stop": "2026-10-05T05:58:13+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Bad Reception in Albany",
+     "desc": "Rob has to find a television set to watch a TV show for Alan Brady while attending an out-of-town wedding party with Laura."
+    },
+    {
+     "start": "2026-10-05T05:58:13+00:00",
+     "stop": "2026-10-05T06:28:20+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Talk to the Snail",
+     "desc": "When Rob, Sally and Buddy learn that Alan Brady is cutting down his writing staff, the trio seek a new gig together."
+    },
+    {
+     "start": "2026-10-05T06:28:20+00:00",
+     "stop": "2026-10-05T06:58:49+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "A Day in the Life of Alan Brady",
+     "desc": "A film crew takes over the Petrie house during Mille and Jerry's wedding anniversary party for an Alan Brady documentary."
+    },
+    {
+     "start": "2026-10-05T06:58:49+00:00",
+     "stop": "2026-10-05T07:27:56+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Obnoxious, Offensive, Egomaniac, Etc.",
+     "desc": "The \"The Alan Brady Show\" writing staff realizes they've sent Alan a script without first removing their insults."
+    },
+    {
+     "start": "2026-10-05T07:27:56+00:00",
+     "stop": "2026-10-05T07:58:00+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "The Man from My Uncle",
+     "desc": "The Petrie home becomes a command post when government agents put a neighbor's home under surveillance."
+    },
+    {
+     "start": "2026-10-05T07:58:00+00:00",
+     "stop": "2026-10-05T08:28:02+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "You Ought to Be in Pictures",
+     "desc": "Rob is cast opposite a gorgeous Italian actress in a low-budget film and turns out to be a terrible on-screen lover."
+    },
+    {
+     "start": "2026-10-05T08:28:02+00:00",
+     "stop": "2026-10-05T08:58:01+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Love Thy Other Neighbor",
+     "desc": "Rob and Laura are dismayed by Millie Helper's jealousy of their new neighbors."
+    },
+    {
+     "start": "2026-10-05T08:58:01+00:00",
+     "stop": "2026-10-05T09:28:12+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Long Night's Journey Into Day",
+     "desc": "Laura and Millie spend a harrowing night alone when Rob and Jerry go off on a fishing trip."
+    },
+    {
+     "start": "2026-10-05T09:28:12+00:00",
+     "stop": "2026-10-05T09:57:59+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "The Gunslinger",
+     "desc": "While anesthetized in Jerry's dentist's chair for a tooth extraction, Rob dreams he's a sheriff in the Old West."
+    },
+    {
+     "start": "2026-10-05T09:57:59+00:00",
+     "stop": "2026-10-05T10:28:32+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "The Last Chapter",
+     "desc": "After five years of struggle, Rob finally finishes his first book."
+    },
+    {
+     "start": "2026-10-05T10:28:32+00:00",
+     "stop": "2026-10-05T11:01:51+00:00",
+     "title": "Father Knows Best",
+     "episode": "Advantage to Betty",
+     "desc": "Betty is excited her tennis team has made the championships."
+    },
+    {
+     "start": "2026-10-05T11:01:51+00:00",
+     "stop": "2026-10-05T11:34:53+00:00",
+     "title": "Father Knows Best",
+     "episode": "The Big Test",
+     "desc": "For once in his life Bud has studied hard for a big test."
+    },
+    {
+     "start": "2026-10-05T11:34:53+00:00",
+     "stop": "2026-10-05T12:07:39+00:00",
+     "title": "Father Knows Best",
+     "episode": "Father is a Dope",
+     "desc": "Jim becomes paranoid after watching a family sitcom on television."
+    },
+    {
+     "start": "2026-10-05T12:07:39+00:00",
+     "stop": "2026-10-05T12:40:37+00:00",
+     "title": "Father Knows Best",
+     "episode": "Spirit of Youth",
+     "desc": "Betty, Bud and Kathy are convinced that Mom and Dad are very old."
+    },
+    {
+     "start": "2026-10-05T12:40:37+00:00",
+     "stop": "2026-10-05T13:13:20+00:00",
+     "title": "Father Knows Best",
+     "episode": "Bud, the Ladykiller",
+     "desc": "At school a dorky classmate of Bud's has a crush on him."
+    },
+    {
+     "start": "2026-10-05T13:13:20+00:00",
+     "stop": "2026-10-05T13:46:33+00:00",
+     "title": "Father Knows Best",
+     "episode": "Margaret's Premonition",
+     "desc": "Margaret's recent predictions have convinced that family that she has psychic powers."
+    },
+    {
+     "start": "2026-10-05T13:46:33+00:00",
+     "stop": "2026-10-05T14:17:13+00:00",
+     "title": "Father Knows Best",
+     "episode": "Stage to Yuma",
+     "desc": "Robert Young tells us at the beginning that \"the family is on vacation this week\"(lucky them) and then proceeds to introduce what is clearly meant to be a Western pilot for an entirely different show."
+    },
+    {
+     "start": "2026-10-05T14:17:13+00:00",
+     "stop": "2026-10-05T14:50:13+00:00",
+     "title": "Father Knows Best",
+     "episode": "Bad Influence",
+     "desc": "Bud has a new friend. Unfortunately, his new friend is a kleptomaniac and Bud gets blame for his friend's actions."
+    },
+    {
+     "start": "2026-10-05T14:50:13+00:00",
+     "stop": "2026-10-05T15:47:17+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Comic Legends Of The '60s - Carl Reiner (1/4/83)",
+     "desc": "Carl improvises Italian aria and riffs on tabloid celebrity stories. Greg Louganis shows off on a trampoline."
+    },
+    {
+     "start": "2026-10-05T15:47:17+00:00",
+     "stop": "2026-10-05T16:44:06+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "The Best Of Carnac (4/9/81)",
+     "desc": "Albert Brooks and Susan Sarandon head to the couch to talk about everything from love to clam shucking."
+    },
+    {
+     "start": "2026-10-05T16:44:06+00:00",
+     "stop": "2026-10-05T17:36:22+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Athletes - Joe Garagiola (3/19/87)",
+     "desc": "Joe Garagiola shows his first contract with the St. Louis Cardinals."
+    },
+    {
+     "start": "2026-10-05T17:36:22+00:00",
+     "stop": "2026-10-05T18:32:25+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Hollywood Icons Of The '80s - James Woods (1/8/81)",
+     "desc": "James Woods has some marriage advice. McLean Stevenson and Bum Phillips also have opinions on matrimony."
+    },
+    {
+     "start": "2026-10-05T18:32:25+00:00",
+     "stop": "2026-10-05T19:22:23+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "The Very Best of Johnny and Guests - Suzanne Pleshette, Don Rickles (5/15/75)",
+     "desc": "Suzanne Pleshette had some misadventures in Hollywood. Don Rickles makes a spill on Johnny's desk."
+    },
+    {
+     "start": "2026-10-05T19:22:23+00:00",
+     "stop": "2026-10-05T19:51:51+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Steve Lawrence",
+     "desc": "Steve Lawrence stars. Includes a take-off of film noir \"Laura.\" Also: Stella Toddler meets The Oldest Man."
+    },
+    {
+     "start": "2026-10-05T19:51:51+00:00",
+     "stop": "2026-10-05T20:20:19+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Family Show",
+     "desc": "It's time to say \"so long\" as Carol closes the book on one of the greatest shows in television history."
+    },
+    {
+     "start": "2026-10-05T20:20:19+00:00",
+     "stop": "2026-10-05T20:49:35+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Maggie Smith",
+     "desc": "Maggie Smith stars as Tim's girlfriend in a sketch where he is honored with a ship. And, a spoof of \"Jaws.\""
+    },
+    {
+     "start": "2026-10-05T20:49:35+00:00",
+     "stop": "2026-10-05T21:52:05+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Carol Channing, Steve Lawrence",
+     "desc": "Steve Lawrence and Carol Channing join Carol, Harvey, Vicki, and Lyle for a tribute to the Academy Awards."
+    },
+    {
+     "start": "2026-10-05T21:52:05+00:00",
+     "stop": "2026-10-05T22:21:20+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Jim Nabors",
+     "desc": "Premiere guest stars Jim Nabors! Includes Tim Conway as a soldier, and Jim dropping in on \"The Family.\""
+    },
+    {
+     "start": "2026-10-05T22:21:20+00:00",
+     "stop": "2026-10-05T22:50:50+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Steve Lawrence",
+     "desc": "Steve Lawrence stars in a take-off on film \"Double Indemnity\"..here named \"Double Calamity\", with Carol too."
+    },
+    {
+     "start": "2026-10-05T22:50:50+00:00",
+     "stop": "2026-10-05T23:53:55+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Nanette Fabray, Burt Reynolds",
+     "desc": "Burt Reynolds and Nanette Fabray join the gang for a series of Carol's patented commercial parodies."
+    },
+    {
+     "start": "2026-10-05T23:53:55+00:00",
+     "stop": "2026-10-06T00:25:17+00:00",
+     "title": "That Girl",
+     "episode": "The Other Woman",
+     "desc": "Ann suggests that her father escort Ethel Merman to a formal event, and the tabloids make him look like her new boyfriend."
+    },
+    {
+     "start": "2026-10-06T00:25:17+00:00",
+     "stop": "2026-10-06T00:58:00+00:00",
+     "title": "That Girl",
+     "episode": "He and She and He",
+     "desc": "Still obsessed with Ann, Noel Prince returns to New York to try to get her to marry him."
+    },
+    {
+     "start": "2026-10-06T00:58:00+00:00",
+     "stop": "2026-10-06T01:30:55+00:00",
+     "title": "That Girl",
+     "episode": "Odpdypahimcaifss",
+     "desc": "A scandal erupts when Donald's mother is invited to Ann's place and finds his pants in her closet."
+    },
+    {
+     "start": "2026-10-06T01:30:55+00:00",
+     "stop": "2026-10-06T02:03:54+00:00",
+     "title": "That Girl",
+     "episode": "Great Guy",
+     "desc": "Ann is worried about Pete's new boyfriend George (Albert Salmi), a jock who doesn't necessarily treat her like a lady."
+    },
+    {
+     "start": "2026-10-06T02:03:54+00:00",
+     "stop": "2026-10-06T02:36:35+00:00",
+     "title": "That Girl",
+     "episode": "The Detective Story",
+     "desc": "A series of obscene phone calls prompts Ann to call the NYPD, who sends over a detective who seems to be getting a little too close for comfort, especially Donald's."
+    },
+    {
+     "start": "2026-10-06T02:36:35+00:00",
+     "stop": "2026-10-06T03:09:20+00:00",
+     "title": "That Girl",
+     "episode": "If You Were Almost the Only Man in the World",
+     "desc": "After being hit by a fly ball at a baseball game, Ann meets a doctor who bears a striking resemblance to Donald."
+    },
+    {
+     "start": "2026-10-06T03:09:20+00:00",
+     "stop": "2026-10-06T03:42:11+00:00",
+     "title": "That Girl",
+     "episode": "Just Spell the Name Right",
+     "desc": "Ann hires press agent Eddie Edwards (Jessie White) to boost her career, but his method of doing so involves naming her in the divorce of one of her former soap opera co-stars (Robert Alda)."
+    },
+    {
+     "start": "2026-10-06T03:42:11+00:00",
+     "stop": "2026-10-06T04:14:55+00:00",
+     "title": "That Girl",
+     "episode": "The Beard",
+     "desc": "After a hunting trip, Donald decides to grow a beard, which doesn't necessarily turn Ann on."
+    },
+    {
+     "start": "2026-10-06T04:14:55+00:00",
+     "stop": "2026-10-06T04:44:15+00:00",
+     "title": "The Storyteller",
+     "episode": "Hans My Hedgehog",
+     "desc": "A barren peasant woman, desperately craving a child, naively says aloud that she wouldn't care what it looks like. Soon enough, she gives birth to a baby who resembles a hedgehog, much to the father's dismay and the scorn of the villagers."
+    },
+    {
+     "start": "2026-10-06T04:44:15+00:00",
+     "stop": "2026-10-06T05:12:32+00:00",
+     "title": "The Storyteller: Greek Myths",
+     "episode": "Perseus & The Gorgon",
+     "desc": "Owing to the Oracle's prophesy, Perseus is born in darkness and captivity. Together with his mother Dana\u00eb, the young son of Zeus manages to escape death at sea. After coming of age, the young hero vows to bring back back Medusa the Gorgon to stop the evil king Polydektes from marrying his mother. He is given special weapons and armor by the gods to complete his task but still cannot escape the prophesy that he will one day kill his grandfather."
+    },
+    {
+     "start": "2026-10-06T05:12:32+00:00",
+     "stop": "2026-10-06T05:41:51+00:00",
+     "title": "The Storyteller",
+     "episode": "Hans My Hedgehog",
+     "desc": "A barren peasant woman, desperately craving a child, naively says aloud that she wouldn't care what it looks like. Soon enough, she gives birth to a baby who resembles a hedgehog, much to the father's dismay and the scorn of the villagers."
+    },
+    {
+     "start": "2026-10-06T05:41:51+00:00",
+     "stop": "2026-10-06T06:10:08+00:00",
+     "title": "The Storyteller: Greek Myths",
+     "episode": "Perseus & The Gorgon",
+     "desc": "Owing to the Oracle's prophesy, Perseus is born in darkness and captivity. Together with his mother Dana\u00eb, the young son of Zeus manages to escape death at sea. After coming of age, the young hero vows to bring back back Medusa the Gorgon to stop the evil king Polydektes from marrying his mother. He is given special weapons and armor by the gods to complete his task but still cannot escape the prophesy that he will one day kill his grandfather."
+    },
+    {
+     "start": "2026-10-06T06:10:08+00:00",
+     "stop": "2026-10-06T06:39:28+00:00",
+     "title": "The Storyteller",
+     "episode": "Hans My Hedgehog",
+     "desc": "A barren peasant woman, desperately craving a child, naively says aloud that she wouldn't care what it looks like. Soon enough, she gives birth to a baby who resembles a hedgehog, much to the father's dismay and the scorn of the villagers."
+    },
+    {
+     "start": "2026-10-06T06:39:28+00:00",
+     "stop": "2026-10-06T07:07:45+00:00",
+     "title": "The Storyteller: Greek Myths",
+     "episode": "Perseus & The Gorgon",
+     "desc": "Owing to the Oracle's prophesy, Perseus is born in darkness and captivity. Together with his mother Dana\u00eb, the young son of Zeus manages to escape death at sea. After coming of age, the young hero vows to bring back back Medusa the Gorgon to stop the evil king Polydektes from marrying his mother. He is given special weapons and armor by the gods to complete his task but still cannot escape the prophesy that he will one day kill his grandfather."
+    },
+    {
+     "start": "2026-10-06T07:07:45+00:00",
+     "stop": "2026-10-06T07:37:04+00:00",
+     "title": "The Storyteller",
+     "episode": "Hans My Hedgehog",
+     "desc": "A barren peasant woman, desperately craving a child, naively says aloud that she wouldn't care what it looks like. Soon enough, she gives birth to a baby who resembles a hedgehog, much to the father's dismay and the scorn of the villagers."
+    },
+    {
+     "start": "2026-10-06T07:37:04+00:00",
+     "stop": "2026-10-06T08:05:21+00:00",
+     "title": "The Storyteller: Greek Myths",
+     "episode": "Perseus & The Gorgon",
+     "desc": "Owing to the Oracle's prophesy, Perseus is born in darkness and captivity. Together with his mother Dana\u00eb, the young son of Zeus manages to escape death at sea. After coming of age, the young hero vows to bring back back Medusa the Gorgon to stop the evil king Polydektes from marrying his mother. He is given special weapons and armor by the gods to complete his task but still cannot escape the prophesy that he will one day kill his grandfather."
+    },
+    {
+     "start": "2026-10-06T08:05:21+00:00",
+     "stop": "2026-10-06T08:34:41+00:00",
+     "title": "The Storyteller",
+     "episode": "Hans My Hedgehog",
+     "desc": "A barren peasant woman, desperately craving a child, naively says aloud that she wouldn't care what it looks like. Soon enough, she gives birth to a baby who resembles a hedgehog, much to the father's dismay and the scorn of the villagers."
+    },
+    {
+     "start": "2026-10-06T08:34:41+00:00",
+     "stop": "2026-10-06T09:02:58+00:00",
+     "title": "The Storyteller: Greek Myths",
+     "episode": "Perseus & The Gorgon",
+     "desc": "Owing to the Oracle's prophesy, Perseus is born in darkness and captivity. Together with his mother Dana\u00eb, the young son of Zeus manages to escape death at sea. After coming of age, the young hero vows to bring back back Medusa the Gorgon to stop the evil king Polydektes from marrying his mother. He is given special weapons and armor by the gods to complete his task but still cannot escape the prophesy that he will one day kill his grandfather."
+    },
+    {
+     "start": "2026-10-06T09:02:58+00:00",
+     "stop": "2026-10-06T09:32:17+00:00",
+     "title": "The Storyteller",
+     "episode": "Hans My Hedgehog",
+     "desc": "A barren peasant woman, desperately craving a child, naively says aloud that she wouldn't care what it looks like. Soon enough, she gives birth to a baby who resembles a hedgehog, much to the father's dismay and the scorn of the villagers."
+    },
+    {
+     "start": "2026-10-06T09:32:17+00:00",
+     "stop": "2026-10-06T10:00:34+00:00",
+     "title": "The Storyteller: Greek Myths",
+     "episode": "Perseus & The Gorgon",
+     "desc": "Owing to the Oracle's prophesy, Perseus is born in darkness and captivity. Together with his mother Dana\u00eb, the young son of Zeus manages to escape death at sea. After coming of age, the young hero vows to bring back back Medusa the Gorgon to stop the evil king Polydektes from marrying his mother. He is given special weapons and armor by the gods to complete his task but still cannot escape the prophesy that he will one day kill his grandfather."
+    },
+    {
+     "start": "2026-10-06T10:00:34+00:00",
+     "stop": "2026-10-06T10:30:02+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Family Show",
+     "desc": "Includes mother Carol offering daughter Vicki some advice on the way to the altar, and Tim as a handyman."
+    },
+    {
+     "start": "2026-10-06T10:30:02+00:00",
+     "stop": "2026-10-06T10:59:10+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Dick Van Dyke, Tony Randall",
+     "desc": "Dick Van Dyke & Tony Randall star! Includes Dick as a salesman, and Carol & Tony as marrieds."
+    },
+    {
+     "start": "2026-10-06T10:59:10+00:00",
+     "stop": "2026-10-06T11:26:03+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Mickey Rooney, John Davidson",
+     "desc": "Guests Mickey Rooney and John Davidson join Carol and Vicki to tell the tale of \"The Four Funns Of Broadway.\""
+    },
+    {
+     "start": "2026-10-06T11:26:03+00:00",
+     "stop": "2026-10-06T12:29:14+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "John Byner, Francine Beers",
+     "desc": "Sketches include an escaped convict seeking refuge in a diner, plus Carol and Vicki as robots."
+    },
+    {
+     "start": "2026-10-06T12:29:14+00:00",
+     "stop": "2026-10-06T13:32:48+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Tim Conway, Eydie Gorme",
+     "desc": "Tonights guests are Tim Conway and Eydie Gorme!"
+    },
+    {
+     "start": "2026-10-06T13:32:48+00:00",
+     "stop": "2026-10-06T14:01:37+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Nanette Fabray",
+     "desc": "Nanette Fabray appears on \"As The Stomach Turns.\" Also featured: \"Carol & Sis\" go gaga over Roger's briefcase."
+    },
+    {
+     "start": "2026-10-06T14:01:37+00:00",
+     "stop": "2026-10-06T15:05:21+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Garry Moore, Durward Kirby",
+     "desc": "Carol's old friends Garry Moore and Durward Kirby visit for the holidays."
+    },
+    {
+     "start": "2026-10-06T15:05:21+00:00",
+     "stop": "2026-10-06T15:34:15+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Lynn Redgrave",
+     "desc": "Lynn Redgrave joins Carol in \"A Dirty English Movie.\" In \"Carol & Sis\", Carol and Vicki try to hide a dog."
+    },
+    {
+     "start": "2026-10-06T15:34:15+00:00",
+     "stop": "2026-10-06T16:07:14+00:00",
+     "title": "Father Knows Best",
+     "episode": "Betty Hates Carter",
+     "desc": "Jim has decided to play match maker for his daughter for an upcoming ball."
+    },
+    {
+     "start": "2026-10-06T16:07:14+00:00",
+     "stop": "2026-10-06T16:40:10+00:00",
+     "title": "Father Knows Best",
+     "episode": "Jim, the Tyrant",
+     "desc": "Jim has had a bad day at work. When he comes home from the office his mood is amplified when the family ignores him"
+    },
+    {
+     "start": "2026-10-06T16:40:10+00:00",
+     "stop": "2026-10-06T17:12:49+00:00",
+     "title": "Father Knows Best",
+     "episode": "Betty's Brother",
+     "desc": "Because of the large age difference between Kathy and Betty, it has been easy for Kathy to be proud to have a sister like Betty. Bud is close in age to Betty and now is attending the same school. It is tough for him to follow after Betty."
+    },
+    {
+     "start": "2026-10-06T17:12:49+00:00",
+     "stop": "2026-10-06T17:45:29+00:00",
+     "title": "Father Knows Best",
+     "episode": "Betty Earns a Formal",
+     "desc": "Jim refused to buy a formal dress for the dance for Betty because it cost too much money."
+    },
+    {
+     "start": "2026-10-06T17:45:29+00:00",
+     "stop": "2026-10-06T18:18:06+00:00",
+     "title": "Father Knows Best",
+     "episode": "The House Painter",
+     "desc": "The Anderson's are getting their house painted. This starts a moral discussion and the family wage a bet. Betty and Jim are having a discussion about responsibility and pride in a job well done versus the old mighty dollar."
+    },
+    {
+     "start": "2026-10-06T18:18:06+00:00",
+     "stop": "2026-10-06T18:50:43+00:00",
+     "title": "Father Knows Best",
+     "episode": "Bud, The Wallflower",
+     "desc": "Bud is depressed because he has not been invited to the Sadie Hawkins dance at school. He decides to plan a camping trip."
+    },
+    {
+     "start": "2026-10-06T18:50:43+00:00",
+     "stop": "2026-10-06T19:23:50+00:00",
+     "title": "Father Knows Best",
+     "episode": "The Bus to Nowhere",
+     "desc": "Betty has been depressed for over a week. No one has been able to cheer her up. Betty seems to be facing a personal crisis and is searching for the meaning of life."
+    },
+    {
+     "start": "2026-10-06T19:23:50+00:00",
+     "stop": "2026-10-06T19:56:46+00:00",
+     "title": "Father Knows Best",
+     "episode": "Kathy, The Indian Giver",
+     "desc": "Kathy is much younger than Bud and Betty. Though they love her they often do want to play with her. Kathy is tired of being left alone with her dolls to play. She wants to have a real baby sister to play with."
+    },
+    {
+     "start": "2026-10-06T19:56:46+00:00",
+     "stop": "2026-10-06T21:14:50+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "TV Icons - Carl Sagan (3/25/77)",
+     "desc": "Astrophysicist and Pulitzer prize winner, Carl Sagan shares how he realized that he wanted to study astronomy."
+    },
+    {
+     "start": "2026-10-06T21:14:50+00:00",
+     "stop": "2026-10-06T22:39:15+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Hollywood Icons Of The '50s - Jack Palance (5/10/74)",
+     "desc": "Hollywood\u2019s Jack Palance doesn\u2019t like playing villains, but loved his psychotic antiques dealer role in Craze."
+    },
+    {
+     "start": "2026-10-06T22:39:15+00:00",
+     "stop": "2026-10-06T23:34:15+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Hollywood Icons Of The '60s - Walter Matthau (12/10/81)",
+     "desc": "Jack Lemmon and Walter Matthau regale Johnny with tales of making 5 movies together and a stunt gone wrong."
+    },
+    {
+     "start": "2026-10-06T23:34:15+00:00",
+     "stop": "2026-10-07T00:29:17+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Hollywood Icons Of The '80s - Emmanuel Lewis (5/5/83)",
+     "desc": "TV actor Emmanuel Lewis admits he watches The Tonight Show \u201conly once in a blue moon.\u201d"
+    },
+    {
+     "start": "2026-10-07T00:29:17+00:00",
+     "stop": "2026-10-07T01:03:38+00:00",
+     "title": "Monty Python's Flying Circus",
+     "episode": "Live From The Grill-O-Mat Snack Bar, Paignton",
+     "desc": "Contestants vie for incriminating photos in \"The Blackmail Game\"; a boxer spars with schoolgirls."
+    },
+    {
+     "start": "2026-10-07T01:03:38+00:00",
+     "stop": "2026-10-07T01:37:46+00:00",
+     "title": "Monty Python's Flying Circus",
+     "episode": "Archaeology Today",
+     "desc": "A dissatisfied bridegroom tries to exchange his spouse; hunters pursue a terrifying mosquito; domestic problems interrupt the work of Beethoven, Shakespeare, Michelangelo and other creative geniuses."
+    },
+    {
+     "start": "2026-10-07T01:37:46+00:00",
+     "stop": "2026-10-07T02:11:53+00:00",
+     "title": "Monty Python's Flying Circus",
+     "episode": "How Not To Be Seen",
+     "desc": "Conquistador coffee campaign; Repeating groove; Ramsey MacDonald striptease; Job hunter; International Chinese Communist Conspiracy; Crelm Toothpaste/Shrill petrol; Agatha Christie sketch (railway timetables); Mr Neville Shunte - railroad playwright; Gavin Millarrrrr writes; Film director/dentist Martin Curry (teeth); City gents vox pops; 'Crackpot Religions Ltd'; 'How not to be seen'; Crossing the Atlantic on a tricycle; Interview in filing cabinet; 'Yummy yummy'; Monty Python's Flying Circus again in thirty seconds."
+    },
+    {
+     "start": "2026-10-07T02:11:53+00:00",
+     "stop": "2026-10-07T02:47:33+00:00",
+     "title": "Monty Python's Flying Circus",
+     "episode": "Whicker's World / Njorl's Saga",
+     "desc": "A courteous murderer wins a suspended sentence by virtue of his charm; a search for Paris by way of Iceland is interrupted by a plane crash and a shipwreck. Also: how to dispose of pets before going on vacation."
+    },
+    {
+     "start": "2026-10-07T02:47:33+00:00",
+     "stop": "2026-10-07T03:20:58+00:00",
+     "title": "Monty Python's Flying Circus",
+     "episode": "Salad Days",
+     "desc": "A climbing expedition negotiates a hazardous London road; an attempt is made to determine whether an urban dwelling is a house or a lifeboat. Also: a mouse's quest for cheese, which leads to the production of a Western called \"Rogue Cheddar.\""
+    },
+    {
+     "start": "2026-10-07T03:20:58+00:00",
+     "stop": "2026-10-07T03:54:45+00:00",
+     "title": "Monty Python's Flying Circus",
+     "episode": "A Book At Bedtime",
+     "desc": "A Book at Bedtime'; 'Red Gauntlet'; Kamikaze Highlanders; No time to lose; Penguins; BBC pro-gramme planners; Unexploded Scotsmen; 'Spot the Looney'; Rival documentaries; 'Dad's Doctors'; Dad's Pooves'."
+    },
+    {
+     "start": "2026-10-07T03:54:45+00:00",
+     "stop": "2026-10-07T04:29:06+00:00",
+     "title": "Monty Python's Flying Circus",
+     "episode": "Live From The Grill-O-Mat Snack Bar, Paignton",
+     "desc": "Contestants vie for incriminating photos in \"The Blackmail Game\"; a boxer spars with schoolgirls."
+    },
+    {
+     "start": "2026-10-07T04:29:06+00:00",
+     "stop": "2026-10-07T05:02:02+00:00",
+     "title": "That Girl",
+     "episode": "The Drunkard",
+     "desc": "Ann helps sober up a comedian who thinks that they had an affair."
+    },
+    {
+     "start": "2026-10-07T05:02:02+00:00",
+     "stop": "2026-10-07T05:34:41+00:00",
+     "title": "That Girl",
+     "episode": "Old Man's Darling",
+     "desc": "An elderly man who ruins Ann's dress gets her a new one, but he keeps buying her gifts which she feels that she can't accept."
+    },
+    {
+     "start": "2026-10-07T05:34:41+00:00",
+     "stop": "2026-10-07T06:06:38+00:00",
+     "title": "That Girl",
+     "episode": "Sock It to Me",
+     "desc": "Ann's opportunity to perform in a Broadway play opposite Barry Sullivan is jeopardized by her inability to slap him."
+    },
+    {
+     "start": "2026-10-07T06:06:38+00:00",
+     "stop": "2026-10-07T06:39:06+00:00",
+     "title": "That Girl",
+     "episode": "The Hi-Jack and the Mighty",
+     "desc": "While working as a flight attendant in order to land a job on an airline television commercial, Ann mistakes a private investigator for a hijacker."
+    },
+    {
+     "start": "2026-10-07T06:39:06+00:00",
+     "stop": "2026-10-07T07:11:18+00:00",
+     "title": "That Girl",
+     "episode": "Eleven Angry Men and ",
+     "desc": "Ann is selected for jury duty."
+    },
+    {
+     "start": "2026-10-07T07:11:18+00:00",
+     "stop": "2026-10-07T07:43:18+00:00",
+     "title": "That Girl",
+     "episode": "7 1/4 (Part 1)",
+     "desc": "Ann flies to Los Angeles for a series of TV commercial along with Donald, who tags along to do a magazine story about violence in the entertainment industry."
+    },
+    {
+     "start": "2026-10-07T07:43:18+00:00",
+     "stop": "2026-10-07T08:15:49+00:00",
+     "title": "That Girl",
+     "episode": "7 1/4 (Part 2)",
+     "desc": "Ann's commercial work proves to be more grueling than she could possibly have expected."
+    },
+    {
+     "start": "2026-10-07T08:15:49+00:00",
+     "stop": "2026-10-07T08:47:46+00:00",
+     "title": "That Girl",
+     "episode": "Secret Ballot",
+     "desc": "Ann gets excited about voting in her first presidential election and learns all she can about the system, but she won't tell her father who she's voting for."
+    },
+    {
+     "start": "2026-10-07T08:47:46+00:00",
+     "stop": "2026-10-07T09:20:16+00:00",
+     "title": "That Girl",
+     "episode": "The Face in the Shower Room Door",
+     "desc": "Ann gets stuck in the shower and the new neighbor comes to her rescue."
+    },
+    {
+     "start": "2026-10-07T09:20:16+00:00",
+     "stop": "2026-10-07T09:52:06+00:00",
+     "title": "That Girl",
+     "episode": "A Muggy Day in Central Park",
+     "desc": "Ann is mugged in Central Park and, though she survives without a scratch, she desperately tries to conceal the incident from her father."
+    },
+    {
+     "start": "2026-10-07T09:52:06+00:00",
+     "stop": "2026-10-07T10:24:09+00:00",
+     "title": "That Girl",
+     "episode": "Just Donald and Me and Jerry Makes Three",
+     "desc": "Jerry and Ruth's marriage is on the rocks, and a remorseful Jerry is interrupting Ann and Donald's time with each other."
+    },
+    {
+     "start": "2026-10-07T10:24:09+00:00",
+     "stop": "2026-10-07T11:13:32+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "The Very Best of Johnny and Guests - Lucille Ball, Jay Leno, Erma Bombeck (4/28/77)",
+     "desc": "Lucille Ball and Johnny talk about their legacies. Jay Leno does standup."
+    },
+    {
+     "start": "2026-10-07T11:13:32+00:00",
+     "stop": "2026-10-07T12:34:38+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Hollywood Icons Of The '60s - Victor Buono (8/16/73)",
+     "desc": "Victor Buono drops in to talk about his recently released book of poetry, and to cut up with Johnny and Ed."
+    },
+    {
+     "start": "2026-10-07T12:34:38+00:00",
+     "stop": "2026-10-07T13:31:22+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Comic Legends Of The '50s - Milton Berle (1/14/88)",
+     "desc": "Join Johnny as he celebrates Milton Berle's 75th year in show business! Also, Carol Siskind does stand-up."
+    },
+    {
+     "start": "2026-10-07T13:31:22+00:00",
+     "stop": "2026-10-07T14:28:40+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Hollywood Icons Of The '80s - Kevin Bacon (1/31/92)",
+     "desc": "Kevin Bacon talks about this new kid and Amanda Plummer talks about her famous parents"
+    },
+    {
+     "start": "2026-10-07T14:28:40+00:00",
+     "stop": "2026-10-07T15:25:28+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "The Best Of The Mighty Carson Art Players (5/8/87)",
+     "desc": "Paul Reiser talks about getting a sensitive body part stuck in an exercise machine."
+    },
+    {
+     "start": "2026-10-07T15:25:28+00:00",
+     "stop": "2026-10-07T16:29:06+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Telly Savalas, Smothers Brothers",
+     "desc": "Who loves ya, Carol? Guest star Telly Savalas, that's who!"
+    },
+    {
+     "start": "2026-10-07T16:29:06+00:00",
+     "stop": "2026-10-07T16:58:26+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Tim Conway",
+     "desc": "Tim Conway guests for the movie spoof \"Sinful Woman\", a presentation of the Lyle-hosted Tearjerker Theatre."
+    },
+    {
+     "start": "2026-10-07T16:58:26+00:00",
+     "stop": "2026-10-07T18:01:51+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "John Byner, Francine Beers",
+     "desc": "Sketches include an escaped convict seeking refuge in a diner, plus Carol and Vicki as robots."
+    },
+    {
+     "start": "2026-10-07T18:01:51+00:00",
+     "stop": "2026-10-07T18:31:22+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Family Show",
+     "desc": "Carol struggles with \"Easy Open\" packaging, Harvey & Tim spoof Jacques Cousteau, and Carol & Vicki are torn."
+    },
+    {
+     "start": "2026-10-07T18:31:22+00:00",
+     "stop": "2026-10-07T18:59:31+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Family Show",
+     "desc": "Highlights Dick Van Dyke as a TV announcer who fills in when technical difficulties scuttle the movie."
+    },
+    {
+     "start": "2026-10-07T18:59:31+00:00",
+     "stop": "2026-10-07T20:01:56+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Nancy Wilson, Nanette Fabray",
+     "desc": "Guests Nancy Wilson and Nanette Fabray are here for tonight's \"As The Stomach Turns.\""
+    },
+    {
+     "start": "2026-10-07T20:01:56+00:00",
+     "stop": "2026-10-07T20:35:04+00:00",
+     "title": "Father Knows Best",
+     "episode": "The Historical Andersons",
+     "desc": "Bud is given an assignment to write an essay about a great man from the War of Independence."
+    },
+    {
+     "start": "2026-10-07T20:35:04+00:00",
+     "stop": "2026-10-07T21:07:42+00:00",
+     "title": "Father Knows Best",
+     "episode": "The Grass is Greener",
+     "desc": "In college Jim spent so much time with his four college pals that they were known as the Four Musketeers. Charly Bradley, one of his college pals, is in town."
+    },
+    {
+     "start": "2026-10-07T21:07:42+00:00",
+     "stop": "2026-10-07T21:40:35+00:00",
+     "title": "Father Knows Best",
+     "episode": "The Persistent Guest",
+     "desc": "Bud has a new friend that he has invited to stay over night at the Anderson Home."
+    },
+    {
+     "start": "2026-10-07T21:40:35+00:00",
+     "stop": "2026-10-07T22:13:43+00:00",
+     "title": "Father Knows Best",
+     "episode": "Family Reunion",
+     "desc": "Margaret is excited about her family reunion. Her excitement is not shared by the family. They have found all kinds of excuses to prevent them from going to her reunion."
+    },
+    {
+     "start": "2026-10-07T22:13:43+00:00",
+     "stop": "2026-10-07T22:46:32+00:00",
+     "title": "Father Knows Best",
+     "episode": "Family Dines Out",
+     "desc": "Betty has a new friend, Elouise Sanford. Elouise is from an upper class family. Betty is concerned that she will not be able to keep the friendship unless Elouise thinks they are from the same class."
+    },
+    {
+     "start": "2026-10-07T22:46:32+00:00",
+     "stop": "2026-10-07T23:19:14+00:00",
+     "title": "Father Knows Best",
+     "episode": "Bud, The Boxer",
+     "desc": "Eddie Jarvis is the school bully. He challenges Bud to a boxing match."
+    },
+    {
+     "start": "2026-10-07T23:19:14+00:00",
+     "stop": "2026-10-07T23:52:07+00:00",
+     "title": "Father Knows Best",
+     "episode": "Betty, Girl Engineer",
+     "desc": "After a job fair, Betty decides she would like to be an engineer."
+    },
+    {
+     "start": "2026-10-07T23:52:07+00:00",
+     "stop": "2026-10-08T00:24:59+00:00",
+     "title": "Father Knows Best",
+     "episode": "The Martins and the Coys",
+     "desc": "Betty and her boyfriend are getting along wonderful until his father and Jim have a fight. After the fight, he refuses to see her ever again."
+    },
+    {
+     "start": "2026-10-08T00:24:59+00:00",
+     "stop": "2026-10-08T00:55:25+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "The Sick Boy and the Sitter",
+     "desc": "Comedy writer Rob Petrie talks his wife Laura into leaving their \"sick\" son Ritchie with a babysitter while they attend a big party."
+    },
+    {
+     "start": "2026-10-08T00:55:25+00:00",
+     "stop": "2026-10-08T01:25:53+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "My Blonde-Haired Brunette",
+     "desc": "Laura dyes her hair blonde when she fears the romance in her marriage is fading."
+    },
+    {
+     "start": "2026-10-08T01:25:53+00:00",
+     "stop": "2026-10-08T01:56:02+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Sally and the Lab Technician",
+     "desc": "Laura matches up her pharmacist cousin, Thomas, with Rob's fireball co-writer, Sally, for a lopsided dinner party."
+    },
+    {
+     "start": "2026-10-08T01:56:02+00:00",
+     "stop": "2026-10-08T02:26:28+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Washington vs. the Bunny",
+     "desc": "Rob is torn between going to Washington, D.C. on business and attending Ritchie's school play."
+    },
+    {
+     "start": "2026-10-08T02:26:28+00:00",
+     "stop": "2026-10-08T02:56:20+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Oh How We Met the Night That We Danced",
+     "desc": "While clearing out the bedroom closet, Rob finds his old army boots, bringing back memories of how he and Laura first met."
+    },
+    {
+     "start": "2026-10-08T02:56:20+00:00",
+     "stop": "2026-10-08T03:26:44+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Harrison B. Harding of Camp Crowder, MO",
+     "desc": "Rob invites an old Army pal home to dinner but begins to fear he has a jewel thief on his hands."
+    },
+    {
+     "start": "2026-10-08T03:26:44+00:00",
+     "stop": "2026-10-08T03:57:24+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Jealousy!",
+     "desc": "Laura begins to worry when Rob has to work nights with a beautiful television star."
+    },
+    {
+     "start": "2026-10-08T03:57:24+00:00",
+     "stop": "2026-10-08T04:28:04+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "To Tell or Not to Tell",
+     "desc": "Complications ensue when Mel tells Rob that he wants Laura to dance on \"The Alan Brady Show.\""
+    },
+    {
+     "start": "2026-10-08T04:28:04+00:00",
+     "stop": "2026-10-08T05:28:01+00:00",
+     "title": "Space: 1999",
+     "episode": "Breakaway",
+     "desc": "Commander John Koenig, the new commander of Moonbase Alpha, leads the investigation of a mysterious disease at the station and uncovers evidence of a far greater looming disaster."
+    },
+    {
+     "start": "2026-10-08T05:28:01+00:00",
+     "stop": "2026-10-08T06:27:40+00:00",
+     "title": "Space: 1999",
+     "episode": "Matter Of Life And Death",
+     "desc": "Dr. Russell's presumed-dead husband mysteriously reappears on a reconnaissance mission to a nearby planet."
+    },
+    {
+     "start": "2026-10-08T06:27:40+00:00",
+     "stop": "2026-10-08T07:26:49+00:00",
+     "title": "Space: 1999",
+     "episode": "Black Sun",
+     "desc": "The moon is approaching a black hole. Professor Bergman is a able to rig up an energy shield around the moonbase, but Commander Koenig feels this is only a desperate measure and has an eagle with six personnel dispatched as the rest of the moonbase await certain death."
+    },
+    {
+     "start": "2026-10-08T07:26:49+00:00",
+     "stop": "2026-10-08T08:25:45+00:00",
+     "title": "Space: 1999",
+     "episode": "Ring Around The Moon",
+     "desc": "Maintenance technician Fred Clifford is possessed by an eerie yellow glow, which ultimately kills him. It transpires that it is coming from a planet called Triton, which captures the Alphans and insists that Helena should become the Eyes of Triton."
+    },
+    {
+     "start": "2026-10-08T08:25:45+00:00",
+     "stop": "2026-10-08T09:25:10+00:00",
+     "title": "Space: 1999",
+     "episode": "Earthbound",
+     "desc": "A vessel of alien pacifists, bound for Earth, lands on the moon. They are greeted as friends by all- except Commissioner Simmons who sees their vessel as way to return home."
+    },
+    {
+     "start": "2026-10-08T09:25:10+00:00",
+     "stop": "2026-10-08T10:24:52+00:00",
+     "title": "Space: 1999",
+     "episode": "Another Time, Another Place",
+     "desc": "A distortion in time produces two separate moons, with two separate Alphas from different eras."
+    },
+    {
+     "start": "2026-10-08T10:24:52+00:00",
+     "stop": "2026-10-08T10:57:30+00:00",
+     "title": "Father Knows Best",
+     "episode": "Dilemma for Margaret",
+     "desc": "Margaret is candid about some minor issues with her children."
+    },
+    {
+     "start": "2026-10-08T10:57:30+00:00",
+     "stop": "2026-10-08T11:30:24+00:00",
+     "title": "Father Knows Best",
+     "episode": "Hero Father",
+     "desc": "Bud impresses his classmates when his father gets Duke Snider to make a visit to Springfield."
+    },
+    {
+     "start": "2026-10-08T11:30:24+00:00",
+     "stop": "2026-10-08T12:03:15+00:00",
+     "title": "Father Knows Best",
+     "episode": "Father, the Naturalist",
+     "desc": "Kathy is excited because if she can find five more herbs, her folder will be complete and she can get her promotion to tribe princess."
+    },
+    {
+     "start": "2026-10-08T12:03:15+00:00",
+     "stop": "2026-10-08T12:35:51+00:00",
+     "title": "Father Knows Best",
+     "episode": "The Ten Dollar Question",
+     "desc": "Jim and Margaret are so tired of the family dynamics. The children will not stop tattling on each other. They offer a ten dollar review to the child that does not tattle for one week."
+    },
+    {
+     "start": "2026-10-08T12:35:51+00:00",
+     "stop": "2026-10-08T13:08:45+00:00",
+     "title": "Father Knows Best",
+     "episode": "Adopted Daughter",
+     "desc": "Kathy is cleaning up and finds a receipt for $25 from the adoption center. She is sure that she has been adopted and is determined to get Jim and Margaret to confuss the truth to her."
+    },
+    {
+     "start": "2026-10-08T13:08:45+00:00",
+     "stop": "2026-10-08T13:41:40+00:00",
+     "title": "Father Knows Best",
+     "episode": "Betty's Graduation",
+     "desc": "As Betty approaches her completion of High School she grows anxious. Jim tries to reassure her. As graduation grows nearer no one can reconcile Betty's fears."
+    },
+    {
+     "start": "2026-10-08T13:41:40+00:00",
+     "stop": "2026-10-08T14:14:33+00:00",
+     "title": "Father Knows Best",
+     "episode": "No Apron Strings",
+     "desc": "Bud's new girlfriend Georgia is jealous of Bud's family life. Because of this, she tries to make him chose between her and his mother."
+    },
+    {
+     "start": "2026-10-08T14:14:33+00:00",
+     "stop": "2026-10-08T14:47:25+00:00",
+     "title": "Father Knows Best",
+     "episode": "Never In Twain",
+     "desc": "Betty falls in love with a cowboy on a dude ranch. Neither her experience nor the love lasts."
+    },
+    {
+     "start": "2026-10-08T14:47:25+00:00",
+     "stop": "2026-10-08T16:11:36+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Hollywood Icons Of The '50s - Danny Thomas (1/20/76)",
+     "desc": "Comedian Danny Thomas chats working with fellow funny man Jonathan Winters and his latest show on NBC."
+    },
+    {
+     "start": "2026-10-08T16:11:36+00:00",
+     "stop": "2026-10-08T17:28:08+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "The Best Of Richard Pryor (12/14/76)",
+     "desc": "Tis the season --- for Richard Pryor to reminisce about\u2026serving time \u2013 10 days \u2013 for tax evasion."
+    },
+    {
+     "start": "2026-10-08T17:28:08+00:00",
+     "stop": "2026-10-08T18:51:36+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Hollywood Icons Of The '60s - Gregory Peck (8/3/77)",
+     "desc": "Gregory Peck dishes on WW2 hero General Douglas MacArthur, whom he played in the biopic."
+    },
+    {
+     "start": "2026-10-08T18:51:36+00:00",
+     "stop": "2026-10-08T19:41:11+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "The Very Best of Johnny and Guests - Clint Eastwood, Robert Klein, Buddy Hackett, Telly Savalas (4/3/73)",
+     "desc": "Clint Eastwood is on to talk Spaghetti Westerns and promote High Plains Drifter. Robert Klein does standup."
+    },
+    {
+     "start": "2026-10-08T19:41:11+00:00",
+     "stop": "2026-10-08T20:38:44+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Talk Show Greats - Jack Paar (11/18/86)",
+     "desc": "Jack Paar claims he quit hosting The Tonight Show because he knew Johnny needed a job."
+    },
+    {
+     "start": "2026-10-08T20:38:44+00:00",
+     "stop": "2026-10-08T21:41:51+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Paul Lynde, Peggy Lee",
+     "desc": "Paul Lynde and Peggy Lee are tonight's guests!"
+    },
+    {
+     "start": "2026-10-08T21:41:51+00:00",
+     "stop": "2026-10-08T22:10:58+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Steve Lawrence, Rock Hudson",
+     "desc": "Steve Lawrence and Rock Hudson spoof \"The Murderer Always Rings Twice\", and meet a decorator in \"Carol & Sis.\""
+    },
+    {
+     "start": "2026-10-08T22:10:58+00:00",
+     "stop": "2026-10-08T23:13:34+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Tim Conway, Diahann Carroll",
+     "desc": "Tim Conway steals Carol's heart in a sketch about two shoppers browsing waterbeds."
+    },
+    {
+     "start": "2026-10-08T23:13:34+00:00",
+     "stop": "2026-10-08T23:42:51+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Tim Conway, Ruth Buzzi",
+     "desc": "Tim Conway and Ruth Buzzi guest, with Buzzi as Chris' friend in \"Carol & Sis\", and Tim and Carol as survivors."
+    },
+    {
+     "start": "2026-10-08T23:42:51+00:00",
+     "stop": "2026-10-09T00:11:57+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Martha Raye, Mel Torme",
+     "desc": "Martha Raye and Mel Torme guest star! Martha appears in \"The Sunday Painters\". Mel and Martha join parodies."
+    },
+    {
+     "start": "2026-10-09T00:11:57+00:00",
+     "stop": "2026-10-09T00:44:47+00:00",
+     "title": "The Best Of Flip Wilson",
+     "episode": "Aretha Franklin, Charlie Callas, David Frost",
+     "desc": "Cast spoofs panel show & secret agent movies; Callas does stand-up and Aretha joins the Church Of What\u2019s Happening Now."
+    },
+    {
+     "start": "2026-10-09T00:44:47+00:00",
+     "stop": "2026-10-09T01:11:44+00:00",
+     "title": "The Best Of Flip Wilson",
+     "episode": "Ray Charles, Leslie Uggams, Don Rickles",
+     "desc": "Flip promotes his latest LP; Uggams rents Freddie Johnson a friend (Rickles) in NYC; Geraldine fawns over Ray Charles."
+    },
+    {
+     "start": "2026-10-09T01:11:44+00:00",
+     "stop": "2026-10-09T01:44:49+00:00",
+     "title": "The Best Of Flip Wilson",
+     "episode": "Tim Conway, Robert Klein, Diahann Carroll",
+     "desc": "Flip & Tim teach poker; Freddie Johnson meets Diahann at a society party and Klein does Borscht Belt routine."
+    },
+    {
+     "start": "2026-10-09T01:44:49+00:00",
+     "stop": "2026-10-09T02:17:53+00:00",
+     "title": "The Best Of Flip Wilson",
+     "episode": "Ray Stevens, George Carlin, Lena Horne",
+     "desc": "Carlin does monologue on NYC cops; Flip fixes Ray Stevens\u2019 TV set; Rev. Leroy visits Lena Horne at a nightclub."
+    },
+    {
+     "start": "2026-10-09T02:17:53+00:00",
+     "stop": "2026-10-09T02:50:54+00:00",
+     "title": "The Best Of Flip Wilson",
+     "episode": "Lily Tomlin, Hamilton Camp, Burt Holiday, Bob Henry",
+     "desc": "Lily does her famous Ernestine character; Camp & Tomlin have a blind date and Freddie Johnson lands in court."
+    },
+    {
+     "start": "2026-10-09T02:50:54+00:00",
+     "stop": "2026-10-09T03:22:22+00:00",
+     "title": "The Best Of Flip Wilson",
+     "episode": "Tim Conway, Johnny Brown, Sandy Duncan",
+     "desc": "Flip & Tim play pool; Sandy sells books to Freddie Johnson; Brown does impressions and Conway is a school headmaster."
+    },
+    {
+     "start": "2026-10-09T03:22:22+00:00",
+     "stop": "2026-10-09T03:57:58+00:00",
+     "title": "The Best Of Flip Wilson",
+     "episode": "Lucille Ball, Ed Sullivan, Osmond Brothers",
+     "desc": "Lucy & Flips are two halves of a horse; whole cast portray Peanuts characters; Geraldine & Lucy are car hops at the drive-in."
+    },
+    {
+     "start": "2026-10-09T03:57:58+00:00",
+     "stop": "2026-10-09T04:30:32+00:00",
+     "title": "The Best Of Flip Wilson",
+     "episode": "Joan Rivers, George Gobel",
+     "desc": "Flip does the shell game; Joan does stand-up and plays a cabdriver; Freddie Johnson buys jewelry from Gobel & Rivers."
+    },
+    {
+     "start": "2026-10-09T04:30:32+00:00",
+     "stop": "2026-10-09T05:00:57+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "The Unwelcome Houseguest",
+     "desc": "Rob reluctantly agrees to take care of Buddy's dog for the weekend and creates a furor when he brings the animal home."
+    },
+    {
+     "start": "2026-10-09T05:00:57+00:00",
+     "stop": "2026-10-09T05:31:31+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "The Meershatz Pipe",
+     "desc": "Rob fears he is no longer needed when his co-writers do a show without his help."
+    },
+    {
+     "start": "2026-10-09T05:31:31+00:00",
+     "stop": "2026-10-09T06:02:10+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Forty-Four Tickets",
+     "desc": "Rob invites 44 fellow PTA members to his television show, but forgets all about it until air time."
+    },
+    {
+     "start": "2026-10-09T06:02:10+00:00",
+     "stop": "2026-10-09T06:32:51+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Empress Carlotta's Necklace",
+     "desc": "Rob buys Laura a hideous necklace but Laura can't bring herself to tell Rob how she really feels about it. When Rob invites his parents to see the necklace, his mother has a surprising reaction."
+    },
+    {
+     "start": "2026-10-09T06:32:51+00:00",
+     "stop": "2026-10-09T07:03:32+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Sally Is a Girl",
+     "desc": "Rob and Buddy treat Sally as \"one of the guys\", even in the presence of Sally's date. When Laura wants Rob to treat Sally like a lady, Mel and Buddy get the wrong idea."
+    },
+    {
+     "start": "2026-10-09T07:03:32+00:00",
+     "stop": "2026-10-09T07:34:01+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Where Did I Come From?",
+     "desc": "Rob recalls the hilarious events leading up to Ritchie's birth when Ritchie asks the inevitable question."
+    },
+    {
+     "start": "2026-10-09T07:34:01+00:00",
+     "stop": "2026-10-09T08:04:36+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "The Curious Thing About Women",
+     "desc": "Unable to control her curiosity, Laura opens Rob's mail and she instantly regrets it."
+    },
+    {
+     "start": "2026-10-09T08:04:36+00:00",
+     "stop": "2026-10-09T08:35:04+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Punch Thy Neighbor",
+     "desc": "Rob's dentist pal, Jerry, strains the friendship when he starts knocking Rob's television show in public."
+    },
+    {
+     "start": "2026-10-09T08:35:04+00:00",
+     "stop": "2026-10-09T09:05:51+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "Who Owes Who What?",
+     "desc": "Buddy ignores Rob's efforts to collect an old debt."
+    },
+    {
+     "start": "2026-10-09T09:05:51+00:00",
+     "stop": "2026-10-09T09:36:46+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "The Talented Neighborhood",
+     "desc": "When his show announces a talent contest, Rob finds himself besieged by the parents of neighborhood prodigies."
+    },
+    {
+     "start": "2026-10-09T09:36:46+00:00",
+     "stop": "2026-10-09T10:07:26+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "A Word a Day",
+     "desc": "Ritchie's expanding vocabulary starts to branch out in unexpected directions."
+    },
+    {
+     "start": "2026-10-09T10:07:26+00:00",
+     "stop": "2026-10-09T10:38:03+00:00",
+     "title": "The Dick Van Dyke Show",
+     "episode": "The Boarder Incident",
+     "desc": "While his wife is away, Buddy moves in with the Petries and quickly wears out his welcome."
+    },
+    {
+     "start": "2026-10-09T10:38:03+00:00",
+     "stop": "2026-10-09T11:41:07+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Dyan Cannon, Paul Lynde",
+     "desc": "Paul Lynde plays a smarmy insurance salesman, and later appears on \"As The Stomach Turns.\""
+    },
+    {
+     "start": "2026-10-09T11:41:07+00:00",
+     "stop": "2026-10-09T12:44:46+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Joel Grey, Vincent Price",
+     "desc": "Joel Grey and Vincent Price play guests at a hotel where Carol is the switchboard operator."
+    },
+    {
+     "start": "2026-10-09T12:44:46+00:00",
+     "stop": "2026-10-09T13:13:19+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "James Garner, George Carlin, Ken Berry",
+     "desc": "Guests James Garner, George Carlin, and Ken Berry join the gang for an evening of can't-miss comedy."
+    },
+    {
+     "start": "2026-10-09T13:13:19+00:00",
+     "stop": "2026-10-09T13:42:45+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Tim Conway",
+     "desc": "Tim Conway plays an airport guard. Carol & Harvey play actors suffering Carol's lack of contact lenses."
+    },
+    {
+     "start": "2026-10-09T13:42:45+00:00",
+     "stop": "2026-10-09T14:12:10+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Nanette Fabray, Art Carney",
+     "desc": "Guests Art Carney and Nanette Fabray appear in \"Guess What's Coming To Dinner?\" and \"Passion On 10th Avenue.\""
+    },
+    {
+     "start": "2026-10-09T14:12:10+00:00",
+     "stop": "2026-10-09T14:41:21+00:00",
+     "title": "The Carol Burnett Show",
+     "episode": "Steve Lawrence",
+     "desc": "Steve Lawrence plays the director of a play put on by the P.T.A., and a hitman hired to kill Carol's husband."
+    },
+    {
+     "start": "2026-10-09T14:41:21+00:00",
+     "stop": "2026-10-09T15:44:12+00:00",
+     "title": "The Best Of The Carol Burnett Show",
+     "episode": "Maggie Smith",
+     "desc": "Maggie Smith returns to guest star as the erudite teacher of Eunice and Ed's son Bubba in \"The Family.\""
+    },
+    {
+     "start": "2026-10-09T15:44:12+00:00",
+     "stop": "2026-10-09T16:17:00+00:00",
+     "title": "Father Knows Best",
+     "episode": "Betty Goes To College",
+     "desc": "Margaret and Jim are excited about Betty starting college. Sadly, in their excitement, they overlook what their daughter actually wants to do."
+    },
+    {
+     "start": "2026-10-09T16:17:00+00:00",
+     "stop": "2026-10-09T16:50:03+00:00",
+     "title": "Father Knows Best",
+     "episode": "Man About Town",
+     "desc": "Bud tries to date an older woman named Marisa by lying about his age. However, things get sticky when Marissa wants to go to an exclusive restaurant."
+    },
+    {
+     "start": "2026-10-09T16:50:03+00:00",
+     "stop": "2026-10-09T17:22:35+00:00",
+     "title": "Father Knows Best",
+     "episode": "The Homing Pigeon",
+     "desc": "Buds homing pigeon and Betty scare the family by not returning home immediately."
+    },
+    {
+     "start": "2026-10-09T17:22:35+00:00",
+     "stop": "2026-10-09T17:55:41+00:00",
+     "title": "Father Knows Best",
+     "episode": "Spaghetti For Margaret",
+     "desc": "Jim finds himself in a sticky situation after having loaned money to an old high school teacher who dreams of becoming an acclaimed author."
+    },
+    {
+     "start": "2026-10-09T17:55:41+00:00",
+     "stop": "2026-10-09T18:28:16+00:00",
+     "title": "Father Knows Best",
+     "episode": "Betty\u00d5s Birthday",
+     "desc": "Betty decides that she does not want to celebrate her birthday."
+    },
+    {
+     "start": "2026-10-09T18:28:16+00:00",
+     "stop": "2026-10-09T19:00:47+00:00",
+     "title": "Father Knows Best",
+     "episode": "Bud, The Millionaire",
+     "desc": "Jim gives Bud an allowance in order to teach him about the value of money."
+    },
+    {
+     "start": "2026-10-09T19:00:47+00:00",
+     "stop": "2026-10-09T19:33:19+00:00",
+     "title": "Father Knows Best",
+     "episode": "The Old Days",
+     "desc": "At a PTA fundraiser, the Anderson parents and kids chose to swap styles for the day."
+    },
+    {
+     "start": "2026-10-09T19:33:19+00:00",
+     "stop": "2026-10-09T20:30:42+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Comic Legends Of The '80s - Charles Grodin (8/1/86)",
+     "desc": "Charles Grodin clears the air, Dom Irrera does stand-up and Tommy Walton is a world-famous hot dog vendor."
+    },
+    {
+     "start": "2026-10-09T20:30:42+00:00",
+     "stop": "2026-10-09T21:09:13+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "The Very Best of Johnny and Guests - Buddy Hackett, William Shatner (2/3/83)",
+     "desc": "Buddy Hackett got served a suckling pig at a New York restaurant; William Shatner talks presenting an award."
+    },
+    {
+     "start": "2026-10-09T21:09:13+00:00",
+     "stop": "2026-10-09T22:04:54+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Hollywood Icons Of The '50s - Elizabeth Taylor (2/21/92)",
+     "desc": "Oscar-winner Elizabeth Taylor chats about her new perfume, addiction programs, her seven husbands, and more."
+    },
+    {
+     "start": "2026-10-09T22:04:54+00:00",
+     "stop": "2026-10-09T23:01:39+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Comic Legends Of The '60s - Carl Reiner (11/12/87)",
+     "desc": "GOAT Carl Reiner performs a dance number, chats about writing screenplays and (wait for it) the Supreme Court."
+    },
+    {
+     "start": "2026-10-09T23:01:39+00:00",
+     "stop": "2026-10-09T23:58:17+00:00",
+     "title": "The Johnny Carson Show",
+     "episode": "Comic Legends Of The '70s - George Carlin (11/29/84)",
+     "desc": "George Carlin likes to harmonize on the phone with the dial tone."
+    },
+    {
+     "start": "2026-10-09T23:58:17+00:00",
+     "stop": "2026-10-10T00:30:47+00:00",
+     "title": "That Girl",
+     "episode": "The Seventh Time Around",
+     "desc": "Donald interviews a wealthy heiress named Trixie Weatherby (Benay Venuta), a woman who has been married six times. Ann fears she might turn Donald into her seventh husband."
+    }
+   ]
   }
  }
 }
