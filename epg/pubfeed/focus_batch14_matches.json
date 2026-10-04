@@ -5509,5 +5509,89 @@
   "match_basis": "FXM is the on-air brand of FX Movie Channel; same-country; feed programmes are all movies (Black Widow, Death on the Nile, etc.), Sept 20-22",
   "feed_programme_count": 26,
   "feed_fresh_count": 26
+ },
+ {
+  "target_id": "americasvoice.us",
+  "target_name": "USA Real America's Voice",
+  "target_country": "USA",
+  "feed_country": "US",
+  "feed_channel_id": "465187",
+  "feed_display_name": "Real Americas Voice",
+  "match_type": "alias_verified",
+  "match_basis": "Tier 1 wrong-feed correction 2026-10-04: americasvoice.us is the tvg-id in Chris's playlist for Real America's Voice but the roster carried CBS 13 WMAZ's schedule (verified in v2026.10.04fix1: NFL Football/Marshals/FBI). Feed 465187 titles (RAM Live, America's Top 10, Firewall) match the known-good RAV roster entry epg-usa-real-america-s-voice-949c8cce, already mapped to this feed in this file. mapping_guards PASS.",
+  "feed_programme_count": 28,
+  "feed_fresh_count": 20
+ },
+ {
+  "target_id": "tntpacific.us",
+  "target_name": "USA TNT West*",
+  "target_country": "USA",
+  "feed_country": "US",
+  "feed_channel_id": "465307",
+  "feed_display_name": "TNT HD (Pacific)",
+  "match_type": "tier1_west_feed",
+  "match_basis": "Tier 1 2026-10-04: placeholder-only in v2026.10.04fix1. Verified against live epg.pw US feed (FBI/The Batman, 21 progs). mapping_guards region-routing PASS. CAVEAT: epg.pw Pacific feeds run east-times (not a true -3h delay); a true -3h TNT West needs the shift engine, which requires a builder change (pair 'USA TNT East LHD*' with this channel).",
+  "feed_programme_count": 21,
+  "feed_fresh_count": 15
+ },
+ {
+  "target_id": "m3u-usa-mtv-west",
+  "target_name": "USA MTV West",
+  "target_country": "USA",
+  "feed_country": "US",
+  "feed_channel_id": "464997",
+  "feed_display_name": "MTV - Music Television HD (Pacific)",
+  "match_type": "tier1_west_feed",
+  "match_basis": "Tier 1 2026-10-04: placeholder-only in v2026.10.04fix1. Verified against live epg.pw US feed (Ridiculousness, 55 progs). mapping_guards region-routing PASS. CAVEAT: epg.pw Pacific feed runs east-times (not -3h); true -3h needs shift-engine pairing via builder change.",
+  "feed_programme_count": 55,
+  "feed_fresh_count": 42
+ },
+ {
+  "target_id": "m3u-usa-investigation-discovery-west",
+  "target_name": "USA Investigation Discovery West*",
+  "target_country": "USA",
+  "feed_country": "US",
+  "feed_channel_id": "465171",
+  "feed_display_name": "Investigation Discovery HD (Pacific)",
+  "match_type": "tier1_west_feed",
+  "match_basis": "Tier 1 2026-10-04: placeholder-only in v2026.10.04fix1. Verified against live epg.pw US feed (Murder Among Friends/On the Case, 33 progs); titles overlap the real ID East roster entry. mapping_guards region-routing PASS. CAVEAT: epg.pw Pacific feed runs east-times (not -3h); true -3h needs shift-engine pairing via builder change.",
+  "feed_programme_count": 33,
+  "feed_fresh_count": 24
+ },
+ {
+  "target_id": "m3u-usa-paramount-west",
+  "target_name": "USA Paramount West",
+  "target_country": "USA",
+  "feed_country": "US",
+  "feed_channel_id": "464882",
+  "feed_display_name": "Paramount Network HD",
+  "match_type": "tier1_west_feed",
+  "match_basis": "Tier 1 2026-10-04: placeholder-only in v2026.10.04fix1. Verified against live epg.pw US feed: Bar Rescue 18:00/20:00/22:00 exactly matches the real Paramount East roster entry paramountnetwork.us. mapping_guards PASS (feed region-neutral, soft pass). CAVEAT: east-times schedule, not -3h; true -3h needs shift-engine pairing via builder change.",
+  "feed_programme_count": 23,
+  "feed_fresh_count": 17
+ },
+ {
+  "target_id": "m3u-usa-lifetime-west",
+  "target_name": "USA Lifetime West",
+  "target_country": "USA",
+  "feed_country": "US",
+  "feed_channel_id": "465290",
+  "feed_display_name": "Lifetime HD",
+  "match_type": "tier1_west_feed",
+  "match_basis": "Tier 1 2026-10-04: placeholder-only in v2026.10.04fix1. Verified against live epg.pw US feed (27 progs, real Lifetime listings). mapping_guards PASS (feed region-neutral, soft pass). CAVEAT: east-times schedule, not -3h; true -3h needs shift-engine pairing via builder change.",
+  "feed_programme_count": 27,
+  "feed_fresh_count": 21
+ },
+ {
+  "target_id": "m3u-usa-pop-west",
+  "target_name": "USA POP West",
+  "target_country": "USA",
+  "feed_country": "US",
+  "feed_channel_id": "465134",
+  "feed_display_name": "POP HD",
+  "match_type": "tier1_west_feed",
+  "match_basis": "Tier 1 2026-10-04: placeholder-only in v2026.10.04fix1. Verified against live epg.pw US feed: NCIS 18:00/20:00/22:00 exactly matches the real Pop roster entry poptv.us. mapping_guards PASS (feed region-neutral, soft pass). CAVEAT: east-times schedule, not -3h; true -3h needs shift-engine pairing via builder change.",
+  "feed_programme_count": 31,
+  "feed_fresh_count": 22
  }
 ]
