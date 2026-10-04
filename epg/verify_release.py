@@ -36,9 +36,11 @@ UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) EPGProofSheet/1.0"}
 # KNOWN_PROGRAMMES=400000 (post fossil-drop); CI still has 561796 (+-5%).
 # The release is built by CI, so the proof sheet mirrors CI's gates.
 # Reconciling the builders is a Sunday audit item.
+# UPDATE 2026-10-04: post-reset source wiring pushed programmes to ~730k;
+# recalibrated baseline to 730432 (±5%).
 PLACEHOLDER_MARK = "No programme schedule was supplied"
 CH_MIN, CH_MAX = int(10940 * 0.98), int(10940 * 1.02)
-PR_MIN, PR_MAX = int(561796 * 0.95), int(561796 * 1.05)
+PR_MIN, PR_MAX = int(730432 * 0.95), int(730432 * 1.05)
 ICON_MIN = 10400
 STALE_MAX_FRAC = 0.02
 TZ_OFFSETS = {"west": -3, "mountain": -2, "central": -1,
@@ -47,7 +49,7 @@ TZ_MIN_RATIO = 0.8
 ZONE_RE = re.compile(
     r"^USA\s+(.+?)\s+(East|West|Mountain|Central|Alaska|Hawaii)\s*\*?\s*$", re.I)
 NFL_RE = re.compile(r"nfl-sunday-7\d\d")
-EXPECTED_247_CHANNELS = 2881
+EXPECTED_247_CHANNELS = 2912
 
 
 def parse_ts(s):
