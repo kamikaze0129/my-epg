@@ -36,6 +36,7 @@ jobs:
           echo "previous build OK"
 
       - name: Pull provider EPG
+        continue-on-error: true
         env:
           IPTV_HOST: ${{ secrets.IPTV_HOST }}
           IPTV_USER: ${{ secrets.IPTV_USER }}
