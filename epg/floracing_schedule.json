@@ -1,7 +1,7 @@
 {
  "_meta": {
-  "valid_until_utc": "2026-10-11T05:30:00+00:00",
-  "generated_utc": "2026-10-04T10:59:38.275709+00:00",
+  "valid_until_utc": "2026-10-12T02:15:00+00:00",
+  "generated_utc": "2026-10-05T10:59:37.967989+00:00",
   "source": "api.floracing.com public schedule (auto)",
   "note": "FloRacing events -> USA Flo Racing (m3u-usa-flo-racing). Real titles/times from FloRacing's own schedule; overlapping evening events kept at real times (best-effort, one channel). Marathon/evergreen blocks capped at 6h."
  },
@@ -9,12 +9,8 @@
   "m3u-usa-flo-racing": "USA Flo Racing"
  },
  "m3u-usa-flo-racing": [
-  "  <programme start=\"20261004105903 +0000\" stop=\"20261004165903 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261004105903 +0000\" stop=\"20261004165903 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261004130000 +0000\" stop=\"20261004190000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>MotoPlayGround Race at Ponca City</title>\n    <desc>MotoPlayGround Race at Ponca City -- Ponca City, OK \u00b7 Day 4. 9:00 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261004133000 +0000\" stop=\"20261004193000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>GNCC at Mason-Dixon</title>\n    <desc>GNCC at Mason-Dixon -- High Point Raceway \u00b7 Mount Morris, PA \u00b7 Day 2. 9:30 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261004160000 +0000\" stop=\"20261004220000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Vermont Milk Bowl at Thunder Road</title>\n    <desc>Vermont Milk Bowl at Thunder Road -- Thunder Road \u00b7 Barre, VT \u00b7 Day 2. 12:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261004170000 +0000\" stop=\"20261004230000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Championship Weekend at Riverhead</title>\n    <desc>Championship Weekend at Riverhead -- Riverhead Raceway \u00b7 Riverhead, NY \u00b7 Day 2. 1:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261005105903 +0000\" stop=\"20261005165903 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261005105903 +0000\" stop=\"20261005165903 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261007200000 +0000\" stop=\"20261008020000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>No Mercy 17</title>\n    <desc>No Mercy 17 -- Day 1. 4:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261008200000 +0000\" stop=\"20261009020000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>No Mercy 17</title>\n    <desc>No Mercy 17 -- Day 2. 4:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261009000000 +0000\" stop=\"20261009010000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Canadian Super DIRT Weekend at Cornwall</title>\n    <desc>Canadian Super DIRT Weekend at Cornwall -- Cornwall Motor Speedway \u00b7 South Stormont, ON. time TBD.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
@@ -33,6 +29,10 @@
   "  <programme start=\"20261010220000 +0000\" stop=\"20261011035959 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Championship Night at Langley</title>\n    <desc>Championship Night at Langley -- Larry King Law's Langley Speedway \u00b7 Hampton, VA. 6:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261010225500 +0000\" stop=\"20261011045500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Rod Wittkopf Memorial at 141 Speedway</title>\n    <desc>Rod Wittkopf Memorial at 141 Speedway -- 141 Speedway \u00b7 Maribel, WI \u00b7 Night 2. 6:55 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261010230000 +0000\" stop=\"20261011035959 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>NASCAR Weekly Racing at Hickory</title>\n    <desc>NASCAR Weekly Racing at Hickory -- Hickory Motor Speedway \u00b7 Newton, NC. 7:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261010233000 +0000\" stop=\"20261011053000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC/CRA Sprints at Mohave Valley</title>\n    <desc>USAC/CRA Sprints at Mohave Valley. 7:30 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n"
+  "  <programme start=\"20261010233000 +0000\" stop=\"20261011053000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC/CRA Sprints at Mohave Valley</title>\n    <desc>USAC/CRA Sprints at Mohave Valley. 7:30 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261011004500 +0000\" stop=\"20261011064500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>NARC 410 Sprints at Placerville</title>\n    <desc>NARC 410 Sprints at Placerville -- Placerville Speedway \u00b7 Placerville, CA. 8:45 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261011120000 +0000\" stop=\"20261011180000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>NASCAR Youth Series at Charlotte</title>\n    <desc>NASCAR Youth Series at Charlotte -- Charlotte Motor Speedway \u00b7 Concord, NC. 8:00 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261011140000 +0000\" stop=\"20261011200000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>No Mercy 17</title>\n    <desc>No Mercy 17 -- Day 5. 10:00 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261011201500 +0000\" stop=\"20261012021500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>NWMT at Thompson</title>\n    <desc>NWMT at Thompson -- Thompson Speedway Motorsports Park \u00b7 Thompson, CT. 4:15 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n"
  ]
 }
