@@ -223,10 +223,33 @@ def main():
     anchor = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
     end = anchor + timedelta(days=args.days)
 
+    # Per-channel episode schedule overrides (e.g. Bob's Burgers real episode
+    # titles anchored to a verified stream sync point). File:
+    # <channel_id>_247_schedule.json next to this script, with 'programmes'
+    # list of {start, stop, title, desc}.
+    def load_episode_override(cid):
+        fname = cid.replace("m3u-247-", "") + "_247_schedule.json"
+        path = os.path.join(SCRIPT_DIR, fname)
+        try:
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
+            progs = data.get("programmes", [])
+            # filter to our window
+            out = []
+            for p in progs:
+                s = datetime.strptime(p["start"][:14], "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
+                e = datetime.strptime(p["stop"][:14], "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
+                if e > anchor and s < end:
+                    out.append(p)
+            return out
+        except (OSError, ValueError):
+            return None
+
     channels_xml = []
     programmes_xml = []
     n_prog = 0
     n_icon = 0
+    n_override = 0
     for entry in manifest:
         cid = entry["id"]
         block_mins = entry["block_mins"]
@@ -242,6 +265,19 @@ def main():
             ch.append(f"    <icon src={quoteattr(icon)} />")
         ch.append("  </channel>")
         channels_xml.append("\n".join(ch))
+        # Episode override wins over generic blocks
+        override = load_episode_override(cid)
+        if override:
+            for p in override:
+                programmes_xml.append(
+                    f'  <programme start="{p["start"]}" stop="{p["stop"]}" channel={quoteattr(cid)}>\n'
+                    f"    <title>{escape(p['title'])}</title>\n"
+                    f"    <desc>{escape(p.get('desc', ''))}</desc>\n"
+                    f"  </programme>"
+                )
+                n_prog += 1
+            n_override += 1
+            continue
         t = anchor
         while t < end:
             stop = min(t + timedelta(minutes=block_mins), end)
