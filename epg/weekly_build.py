@@ -301,11 +301,18 @@ BIG10PLUS_SCHEDULE = os.path.join(BUILD_DIR, 'big10plus_schedule.json')
 # directly -- no number resolution needed.
 FLORACING_SCHEDULE = os.path.join(BUILD_DIR, 'floracing_schedule.json')
 
-# TV Passport local listings via update_tvpassport_schedule.py (stage 3d6).
+# NBA schedule injection (same pattern as NFL/NHL). nba_schedule.json holds
+# {channel_id: [programme XML strings]} for USA NBA 01-06 (NBA League Pass,
+# m3u-usa-nba-0X IDs), built from ESPN's published schedule via
+# update_nba_schedule.py. Games are one-off events, so the file carries
+# valid_until_utc and the stage skips itself once the games have ended.
+NBA_SCHEDULE = os.path.join(BUILD_DIR, 'nba_schedule.json')
+
+# TV Passport local listings via update_tvpassport_schedule.py (stage 3d7).
 # Keyed by chris_id; values are pre-built XML programme strings.
 TVP_SCHEDULE = os.path.join(BUILD_DIR, 'tvpassport_schedule.json')
 
-# Cable-network listings via update_cable_schedule.py (stage 3d6).
+# Cable-network listings via update_cable_schedule.py (stage 3d7).
 # {"sources": {chris_id: {"source":..., "source_url":...,
 #   "programmes": [{"start": ISO, "stop": ISO, "title":...}]}}}
 CABLE_SCHEDULE = os.path.join(BUILD_DIR, 'cable_schedule.json')
@@ -343,11 +350,13 @@ def is_placeholder_prog(elem):
     return PLACEHOLDER_MARK in (elem.findtext('desc') or '')
 
 
-def rolling_placeholder(cid, start):
-    """One honest placeholder block spanning start -> start+7d for channel cid."""
+def rolling_placeholder(cid, start, title=None):
+    """One honest placeholder block spanning start -> start+7d for channel cid.
+    Title defaults to the channel's display name (not generic 'Programming')."""
+    t = title or PLACEHOLDER_TITLE
     return serialize_fresh_prog(fmt_ts(start),
                                 fmt_ts(start + timedelta(days=PLACEHOLDER_DAYS)),
-                                cid, PLACEHOLDER_TITLE, PLACEHOLDER_DESC)
+                                cid, t, PLACEHOLDER_DESC)
 
 # Batch order for the verified pubfeed set (later batches override earlier).
 FOCUS_BATCH_FILES = (
@@ -1136,9 +1145,10 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
             if ffs and (first is None or ffs < first):
                 first = ffs
             if first and first > anchor:
+                disp = roster.get(cid, ('', ''))[0] or PLACEHOLDER_TITLE
                 fout.write(serialize_fresh_prog(fmt_ts(anchor),
                                                fmt_ts(first),
-                                               cid, PLACEHOLDER_TITLE,
+                                               cid, disp,
                                                PLACEHOLDER_DESC))
                 c['placeholder_written'] += 1
             if latest <= horizon:
@@ -1146,7 +1156,8 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                 # Don't double-write if we already filled a leading gap that
                 # extends past latest (shouldn't happen, but be safe).
                 if not (first and first > anchor and start < first):
-                    fout.write(rolling_placeholder(cid, start))
+                    disp = roster.get(cid, ('', ''))[0] or PLACEHOLDER_TITLE
+                    fout.write(rolling_placeholder(cid, start, disp))
                     c['placeholder_written'] += 1
         for tid in sorted(verified_fresh):
             for p in verified_fresh[tid]:
@@ -2181,7 +2192,45 @@ def main(argv):
         if floracing_injected:
             log(f"floracing: injected {floracing_injected} channel(s)")
 
-        # 3d6. TV Passport locals + cable-network injection (best-effort;
+        # 3d6. NBA schedule injection (best-effort; never aborts).
+        # Same pattern as NFL/NHL: one-off game entries from
+        # nba_schedule.json for USA NBA 01-06 (NBA League Pass,
+        # m3u-usa-nba-0X). Skips itself once valid_until_utc has passed.
+        # Only fills channels with no real future data -- never overwrites
+        # existing listings. Also refreshes the roster display names from
+        # the injected matchup. The JSON is keyed by the real roster IDs,
+        # so no number resolution is needed.
+        nba_injected = 0
+        nba_renamed = 0
+        try:
+            if os.path.isfile(NBA_SCHEDULE):
+                nba_raw = json.load(open(NBA_SCHEDULE))
+                valid_until = nba_raw.get('_meta', {}).get('valid_until_utc',
+                                                           '')
+                if valid_until and datetime.now(timezone.utc).isoformat() < valid_until:
+                    _disp_names = nba_raw.get('_display_names', {}) or {}
+                    for tcid, plist in nba_raw.items():
+                        if tcid.startswith('_') or tcid not in roster:
+                            continue
+                        if tcid not in verified_fresh:
+                            verified_fresh[tcid] = plist
+                            nba_injected += 1
+                        _disp = _disp_names.get(tcid)
+                        if _disp and roster[tcid][0] != _disp:
+                            roster[tcid] = (_disp, roster[tcid][1])
+                            nba_renamed += 1
+                else:
+                    log("nba: schedule expired, skipping")
+        except Exception as e:
+            log(f"nba: injection failed ({e}); continuing")
+        report['stages']['nba'] = {'injected_channels': nba_injected,
+                                   'renamed': nba_renamed}
+        if nba_injected:
+            log(f"nba: injected {nba_injected} channel(s)")
+        if nba_renamed:
+            log(f"nba: refreshed {nba_renamed} display names")
+
+        # 3d7. TV Passport locals + cable-network injection (best-effort;
         # never aborts). Chris's rule: FILL ONLY channels lacking meaningful
         # future data, or APPEND strictly after existing real listings end.
         # Never overwrite a healthy feed; never rename a provider display
