@@ -1,0 +1,3221 @@
+{
+ "channel_id": "m3u-247-bobs-burgers",
+ "anchor_episode_index": 199,
+ "anchor_start_utc": "2026-10-08T23:31:00+00:00",
+ "block_minutes": 22,
+ "programmes": [
+  {
+   "start": "20261008233100 +0000",
+   "stop": "20261008235300 +0000",
+   "title": "Bob's Burgers: S11E06 - Bob Belcher and the Terrible, Horrible, No Good, Very Bad Kids",
+   "desc": "The family must figure out how to keep the restaurant open after Bob's flattop breaks on the morning of the Ocean Avenue Business Association's: Ocean Fest on Ocean Avenue.",
+   "ep_index": 199
+  },
+  {
+   "start": "20261008235300 +0000",
+   "stop": "20261009001500 +0000",
+   "title": "Bob's Burgers: S11E07 - Diarrhea of a Poopy Kid",
+   "desc": "When Gene can't eat Thanksgiving dinner because of a stomach flu, the family tries to cheer him up.",
+   "ep_index": 200
+  },
+  {
+   "start": "20261009001500 +0000",
+   "stop": "20261009003700 +0000",
+   "title": "Bob's Burgers: S11E08 - The Terminalator II: Terminals of Endearment",
+   "desc": "When Linda's parents have a layover at an airport nearby, Bob and Linda attempt to turn it into their annual \"visit.\"",
+   "ep_index": 201
+  },
+  {
+   "start": "20261009003700 +0000",
+   "stop": "20261009005900 +0000",
+   "title": "Bob's Burgers: S11E09 - Mommy Boy",
+   "desc": "When Linda joins a women's business group, Gene gets possessive of her time. Meanwhile, Louise and Tina want to learn how to fight.",
+   "ep_index": 202
+  },
+  {
+   "start": "20261009005900 +0000",
+   "stop": "20261009012100 +0000",
+   "title": "Bob's Burgers: S11E10 - Yachty or Nice",
+   "desc": "When the Belchers get an unexpected invitation to cater the Glencrest Yacht Club's holiday boat parade, Bob wonders if there's a catch. Meanwhile, Louise has her eye on the present-loaded Santa Schoon",
+   "ep_index": 203
+  },
+  {
+   "start": "20261009012100 +0000",
+   "stop": "20261009014300 +0000",
+   "title": "Bob's Burgers: S11E11 - Romancing the Beef",
+   "desc": "Louise convinces her parents to cash in on the lucrative Valentine's Day dinner business, even though it means putting Bob and Linda's own Valentine's Day plans on hold. Meanwhile, Tina attends Tammy'",
+   "ep_index": 204
+  },
+  {
+   "start": "20261009014300 +0000",
+   "stop": "20261009020500 +0000",
+   "title": "Bob's Burgers: S11E12 - Die Card, or Card Trying",
+   "desc": "Linda drags Bob and the kids out into nature, determined to take the best holiday family portrait ever.",
+   "ep_index": 205
+  },
+  {
+   "start": "20261009020500 +0000",
+   "stop": "20261009022700 +0000",
+   "title": "Bob's Burgers: S11E13 - An Incon-wheelie-ent Truth",
+   "desc": "While on a family trip to the flea market, Bob and Linda are haunted by a lie they told Tina, Gene and Louise about what really happened to their beloved stuffed animal, Wheelie Mammoth.",
+   "ep_index": 206
+  },
+  {
+   "start": "20261009022700 +0000",
+   "stop": "20261009024900 +0000",
+   "title": "Bob's Burgers: S11E14 - Mr. Lonely Farts",
+   "desc": "When Linda and Tina go to the shoe store, Gene accidently is left home by himself. Meanwhile, Bob, Louise and Teddy go to buy restaurant equipment from a creepy guy whom Bob found on the internet.",
+   "ep_index": 207
+  },
+  {
+   "start": "20261009024900 +0000",
+   "stop": "20261009031100 +0000",
+   "title": "Bob's Burgers: S11E15 - Sheshank Redumption",
+   "desc": "Linda's new routine of diet and exercise gives her gastrointestinal trouble on the day of parent-teacher-student conferences.",
+   "ep_index": 208
+  },
+  {
+   "start": "20261009031100 +0000",
+   "stop": "20261009033300 +0000",
+   "title": "Bob's Burgers: S11E16 - Y Tu Tina Tambi\u00e9n",
+   "desc": "When Tina is forced to listen to Spanish audio lessons in the library to improve her grade, she develops an unexpected crush. Meanwhile, Louise and Gene want to dunk Mr. Frond at the Wagstaff Spring F",
+   "ep_index": 209
+  },
+  {
+   "start": "20261009033300 +0000",
+   "stop": "20261009035500 +0000",
+   "title": "Bob's Burgers: S11E17 - Fingers-loose",
+   "desc": "Tina faces a hall-monitor crisis when she falls in love with a new underground trend at Wagstaff that Mr. Frond is trying to squelch. Meanwhile, Bob and Linda try to come up with a way for Teddy to sn",
+   "ep_index": 210
+  },
+  {
+   "start": "20261009035500 +0000",
+   "stop": "20261009041700 +0000",
+   "title": "Bob's Burgers: S11E18 - Some Kind of Fender Benderful",
+   "desc": "When Bob gets into a four-car fender bender right outside the restaurant, he realizes finding out who is at fault will not be as simple as he thought.",
+   "ep_index": 211
+  },
+  {
+   "start": "20261009041700 +0000",
+   "stop": "20261009043900 +0000",
+   "title": "Bob's Burgers: S11E19 - Bridge Over Troubled Rudy",
+   "desc": "Louise ropes her siblings into an adventure; Mort teaches Bob, Linda and Teddy how to meditate.",
+   "ep_index": 212
+  },
+  {
+   "start": "20261009043900 +0000",
+   "stop": "20261009050100 +0000",
+   "title": "Bob's Burgers: S11E20 - Steal Magazine-olias",
+   "desc": "The Belcher kids get caught up in a game of cat-and-mouse when Dr. Yap comes to the restaurant in search of something that was taken from the waiting room of his dentistry office. Meanwhile, Bob, Lind",
+   "ep_index": 213
+  },
+  {
+   "start": "20261009050100 +0000",
+   "stop": "20261009052300 +0000",
+   "title": "Bob's Burgers: S11E21 - Tell Me Dumb Thing Good",
+   "desc": "Linda needs the kids' help in fighting for a fun, dumb, local tradition. Meanwhile, Bob is captivated by an online cucumber.",
+   "ep_index": 214
+  },
+  {
+   "start": "20261009052300 +0000",
+   "stop": "20261009054500 +0000",
+   "title": "Bob's Burgers: S11E22 - Vampire Disco Death Dance",
+   "desc": "After Tina and Bob plan a father-daughter date to see Bob's favorite old campy vampire-sing-along movie, Tina decides to invite her group of friends along, as well. Meanwhile, Linda opens a restaurant",
+   "ep_index": 215
+  },
+  {
+   "start": "20261009054500 +0000",
+   "stop": "20261009060700 +0000",
+   "title": "Bob's Burgers: S12E01 - Manic Pixie Crap Show",
+   "desc": "Louise must pay a debt to Millie by attending the Pixie Princess Promenade. Meanwhile, a bouquet in the shape of a dog forces Linda to confront her past.",
+   "ep_index": 216
+  },
+  {
+   "start": "20261009060700 +0000",
+   "stop": "20261009062900 +0000",
+   "title": "Bob's Burgers: S12E02 - Crystal Mess",
+   "desc": "In order to help with anxiety about an upcoming oral report, Mr. Frond lends Tina a crystal that his new girlfriend alleges has special powers. Meanwhile, Bob and Linda buy a box of imperfect produce ",
+   "ep_index": 217
+  },
+  {
+   "start": "20261009062900 +0000",
+   "stop": "20261009065100 +0000",
+   "title": "Bob's Burgers: S12E03 - The Pumpkinening",
+   "desc": "When a mysterious note is sent to Linda on Halloween, she and Gayle must travel to their hometown to face a wrong they committed 27 years ago.",
+   "ep_index": 218
+  },
+  {
+   "start": "20261009065100 +0000",
+   "stop": "20261009071300 +0000",
+   "title": "Bob's Burgers: S12E04 - Driving Big Dummy",
+   "desc": "Bob gets roped into a road trip with Teddy while Linda and the kids compete for the title of employee of the day.",
+   "ep_index": 219
+  },
+  {
+   "start": "20261009071300 +0000",
+   "stop": "20261009073500 +0000",
+   "title": "Bob's Burgers: S12E05 - Seven-tween Again",
+   "desc": "Gene has a freak-out about growing up and desperately tries to relive his youth; Linda is tempted to try the fancy new hair salon that opened up next to Bob's Burgers, but she's scared of her hairdres",
+   "ep_index": 220
+  },
+  {
+   "start": "20261009073500 +0000",
+   "stop": "20261009075700 +0000",
+   "title": "Bob's Burgers: S12E06 - Beach, Please",
+   "desc": "When the Belcher kids participate in a beach clean-up for Wagstaff Volunteer Day, Louise gets drawn into a battle of wits with Mr. Fischoeder; Teddy surprises Bob and Linda with a new look.",
+   "ep_index": 221
+  },
+  {
+   "start": "20261009075700 +0000",
+   "stop": "20261009081900 +0000",
+   "title": "Bob's Burgers: S12E07 - Loft in Bedslation",
+   "desc": "Linda and the girls attempt to build a loft bed for Louise in just one day; Bob and Gene host a group of gamers.",
+   "ep_index": 222
+  },
+  {
+   "start": "20261009081900 +0000",
+   "stop": "20261009084100 +0000",
+   "title": "Bob's Burgers: S12E08 - Stuck in the Kitchen with You",
+   "desc": "When Bob volunteers to cook Thanksgiving dinner for a retirement home, Louise gets stuck helping him on his most intense cooking day of the year. Meanwhile, Gene and Tina try to help Zeke entertain th",
+   "ep_index": 223
+  },
+  {
+   "start": "20261009084100 +0000",
+   "stop": "20261009090300 +0000",
+   "title": "Bob's Burgers: S12E09 - FOMO You Didn't",
+   "desc": "Susmita offers to help Tina with a photography class assignment, but Tina can't stop thinking about all the fun Tammy, Jocelyn, Zeke and Jimmy Jr. are having ditching class. Meanwhile, a woman who use",
+   "ep_index": 224
+  },
+  {
+   "start": "20261009090300 +0000",
+   "stop": "20261009092500 +0000",
+   "title": "Bob's Burgers: S12E10 - Gene's Christmas Break",
+   "desc": "After Gene breaks his favorite, extremely rare '70s era Christmas record, Tina and Louise join him in the search for another copy. Meanwhile, Teddy wants to do a neighborhood Secret Santa with Bob and",
+   "ep_index": 225
+  },
+  {
+   "start": "20261009092500 +0000",
+   "stop": "20261009094700 +0000",
+   "title": "Bob's Burgers: S12E11 - Touch of Eval(uations)",
+   "desc": "Louise realizes the new plan for student evaluating teachers has shifted the power at school from teacher to student; Bob and Linda find they don't agree on where their final resting place should be.",
+   "ep_index": 226
+  },
+  {
+   "start": "20261009094700 +0000",
+   "stop": "20261009100900 +0000",
+   "title": "Bob's Burgers: S12E12 - Ferry on My Wayward Bob and Linda",
+   "desc": "Bob and Linda accept a Valentine's Day dinner invitation from the chef of a fancy restaurant; the kids have a scheme to get cheap Valentine's Day candy, but first they'll have to make it past an unusu",
+   "ep_index": 227
+  },
+  {
+   "start": "20261009100900 +0000",
+   "stop": "20261009103100 +0000",
+   "title": "Bob's Burgers: S12E13 - Frigate Me Knot",
+   "desc": "Linda encourages Teddy to attend a farewell ceremony for the ship on which he served in the Navy, but it means confronting his Navy pals and his past.",
+   "ep_index": 228
+  },
+  {
+   "start": "20261009103100 +0000",
+   "stop": "20261009105300 +0000",
+   "title": "Bob's Burgers: S12E14 - Video Killed the Gene-io Star",
+   "desc": "Gene begrudgingly agrees to participate in a music video for Courtney; Teddy and Linda obsess over a mysterious customer at the restaurant.",
+   "ep_index": 229
+  },
+  {
+   "start": "20261009105300 +0000",
+   "stop": "20261009111500 +0000",
+   "title": "Bob's Burgers: S12E15 - Ancient Misbehavin",
+   "desc": "After feeling slighted by a teacher during a special Ancient Greece unit, Louise, Millie and Regular Sized Rudy take matters into their own hands to restore justice. Meanwhile, Bob gets a room of his ",
+   "ep_index": 230
+  },
+  {
+   "start": "20261009111500 +0000",
+   "stop": "20261009113700 +0000",
+   "title": "Bob's Burgers: S12E16 - Interview with a Pop-pop-pire",
+   "desc": "Big Bob is coming to dinner so that Tina can interview him for a school project. While the family waits for Pop Pop to arrive, they take turns coming up with their own versions of an infamous tree inc",
+   "ep_index": 231
+  },
+  {
+   "start": "20261009113700 +0000",
+   "stop": "20261009115900 +0000",
+   "title": "Bob's Burgers: S12E17 - The Spider House Rules",
+   "desc": "Louise befriends a house spider and hides it in her room after Linda and Bob tell her to remove it from the apartment. Meanwhile, Bob tries to make a friend outside of the people that come to the rest",
+   "ep_index": 232
+  },
+  {
+   "start": "20261009115900 +0000",
+   "stop": "20261009122100 +0000",
+   "title": "Bob's Burgers: S12E18 - Clear and Present Ginger",
+   "desc": "Linda has a big day planned when her friend comes to visit; Bob and the kids help Nat with her limo competition.",
+   "ep_index": 233
+  },
+  {
+   "start": "20261009122100 +0000",
+   "stop": "20261009124300 +0000",
+   "title": "Bob's Burgers: S12E19 - A-Sprout A Boy",
+   "desc": "When Gene becomes obsessed with an old handheld game, Bob offers to help with a school project, in hopes of steering his son towards more \"interesting\" pursuits. Meanwhile, Louise and Tina take over a",
+   "ep_index": 234
+  },
+  {
+   "start": "20261009124300 +0000",
+   "stop": "20261009130500 +0000",
+   "title": "Bob's Burgers: S12E20 - Sauce Side Story",
+   "desc": "When Louise, Gene and Tina try to track down a lost family recipe for a Mother's Day gift for Linda, first they have to navigate an old family feud.",
+   "ep_index": 235
+  },
+  {
+   "start": "20261009130500 +0000",
+   "stop": "20261009132700 +0000",
+   "title": "Bob's Burgers: S12E21 - Some Like It Bot: Eighth Grade Runner (1)",
+   "desc": "When Tina's new shirt is ridiculed by Tammy and Jocelyn in a Wagstaff News segment called \"Wow or Weird,\" she turns to her erotic friend-fiction and writes about a futuristic world in which she is a r",
+   "ep_index": 236
+  },
+  {
+   "start": "20261009132700 +0000",
+   "stop": "20261009134900 +0000",
+   "title": "Bob's Burgers: S12E22 - Some Like It Bot: Judge-bot Day (2)",
+   "desc": "Tina is on a mission that could get her into a lot of trouble. Then, her family reads her erotic friend fiction, finds out what Tina is up to and tries to stop her.",
+   "ep_index": 237
+  },
+  {
+   "start": "20261009134900 +0000",
+   "stop": "20261009141100 +0000",
+   "title": "Bob's Burgers: S13E01 - To Bob, or Not to Bob",
+   "desc": "Bob, Linda and the kids help Mr. Fischoeder put on a play to get his brother Felix to confess to a theft. Meanwhile, Louise is jealous of Tina's hands.",
+   "ep_index": 238
+  },
+  {
+   "start": "20261009141100 +0000",
+   "stop": "20261009143300 +0000",
+   "title": "Bob's Burgers: S13E02 - The Reeky Lake Show",
+   "desc": "The family's Labor Day lake trip takes a turn when the Belchers find themselves trapped in their cabin, hiding from what lurks outside.",
+   "ep_index": 239
+  },
+  {
+   "start": "20261009143300 +0000",
+   "stop": "20261009145500 +0000",
+   "title": "Bob's Burgers: S13E03 - What About Job?",
+   "desc": "A school assignment about careers sends Louise spiraling, trying to imagine what her future might hold.",
+   "ep_index": 240
+  },
+  {
+   "start": "20261009145500 +0000",
+   "stop": "20261009151700 +0000",
+   "title": "Bob's Burgers: S13E04 - Comet-y of Errors",
+   "desc": "At a comet watch party, Bob tries to keep Teddy from going off the deep end, looking for signs from the universe. Meanwhile, the kids try to make their comet wishes come true.",
+   "ep_index": 241
+  },
+  {
+   "start": "20261009151700 +0000",
+   "stop": "20261009153900 +0000",
+   "title": "Bob's Burgers: S13E05 - So You Stink You Can Dance",
+   "desc": "Tina cheers Jimmy Junior on at a semi-prestigious dancing seminar while Bob and Linda compete to see who can catch the most homerun balls outside of Wonder Wharf Stadium.",
+   "ep_index": 242
+  },
+  {
+   "start": "20261009153900 +0000",
+   "stop": "20261009160100 +0000",
+   "title": "Bob's Burgers: S13E06 - Apple Gore-chard! (But Not Gory)",
+   "desc": "Louise suspects there's something sinister afoot during a Halloween field trip to an apple orchard. Meanwhile, Tina and Gene hope to win the school costume parade.",
+   "ep_index": 243
+  },
+  {
+   "start": "20261009160100 +0000",
+   "stop": "20261009162300 +0000",
+   "title": "Bob's Burgers: S13E07 - Ready Player Gene",
+   "desc": "A VR arcade opens next door and Gene spends all his money. Meanwhile, Louise and Tina try to build a menu tower taller than they ever have before.",
+   "ep_index": 244
+  },
+  {
+   "start": "20261009162300 +0000",
+   "stop": "20261009164500 +0000",
+   "title": "Bob's Burgers: S13E08 - Putts-giving",
+   "desc": "The Belchers go to a mini golf course on Thanksgiving morning.",
+   "ep_index": 245
+  },
+  {
+   "start": "20261009164500 +0000",
+   "stop": "20261009170700 +0000",
+   "title": "Bob's Burgers: S13E09 - Show Mama from the Grave",
+   "desc": "Bob takes Linda and the kids to visit his mother's grave, but finding the headstone is harder than he expected. Meanwhile, Teddy makes a grave mistake while doing repairs in the Belcher's house.",
+   "ep_index": 246
+  },
+  {
+   "start": "20261009170700 +0000",
+   "stop": "20261009172900 +0000",
+   "title": "Bob's Burgers: S13E10 - The Plight Before Christmas",
+   "desc": "Bob and Linda try to attend all three kids' holiday performances at the same time.",
+   "ep_index": 247
+  },
+  {
+   "start": "20261009172900 +0000",
+   "stop": "20261009175100 +0000",
+   "title": "Bob's Burgers: S13E11 - Cheaty Cheaty Bang Bang",
+   "desc": "After a student accuses her of cheating on a test, Tina needs to get back to school to clear her name, but a snowstorm traps her and her family at home.",
+   "ep_index": 248
+  },
+  {
+   "start": "20261009175100 +0000",
+   "stop": "20261009181300 +0000",
+   "title": "Bob's Burgers: S13E12 - Oh Row You Didn't",
+   "desc": "A man trying to row from New Zealand to Nova Scotia visits the restaurant to have a burger and it changes everything.",
+   "ep_index": 249
+  },
+  {
+   "start": "20261009181300 +0000",
+   "stop": "20261009183500 +0000",
+   "title": "Bob's Burgers: S13E13 - Stop! Or My Mom Will Sleuth!",
+   "desc": "When Louise is accused of a theft at school, Linda uses her position as school office volunteer to try and solve the case from the inside.",
+   "ep_index": 250
+  },
+  {
+   "start": "20261009183500 +0000",
+   "stop": "20261009185700 +0000",
+   "title": "Bob's Burgers: S13E14 - These Boots Are Made for Stalking",
+   "desc": "When the coolest teens she's ever seen start coming into the restaurant, Tina decides she needs to be just like them. Meanwhile, Gene and Louise get into a battle of wills over stinky socks.",
+   "ep_index": 251
+  },
+  {
+   "start": "20261009185700 +0000",
+   "stop": "20261009191900 +0000",
+   "title": "Bob's Burgers: S13E15 - The Show (And Tell) Must Go On",
+   "desc": "Louise brings Tina along on a mission to find the perfect item for her last-ever Show and Tell. Meanwhile, Teddy goes overboard trying to impress a date at the restaurant.",
+   "ep_index": 252
+  },
+  {
+   "start": "20261009191900 +0000",
+   "stop": "20261009194100 +0000",
+   "title": "Bob's Burgers: S13E16 - What a (April) Fool Believes",
+   "desc": "Mr. Fischoeder challenges Bob to successfully prank him on April Fool's Day, or lose his lease.",
+   "ep_index": 253
+  },
+  {
+   "start": "20261009194100 +0000",
+   "stop": "20261009200300 +0000",
+   "title": "Bob's Burgers: S13E17 - Crows Encounters of the Bird Kind",
+   "desc": "Tina drags Bob along on a desperate quest to earn her bird-watching badge for ThunderGirls. Meanwhile, Louise and Gene try to keep their new restaurant game a secret from Linda.",
+   "ep_index": 254
+  },
+  {
+   "start": "20261009200300 +0000",
+   "stop": "20261009202500 +0000",
+   "title": "Bob's Burgers: S13E18 - Gift Card or Buy Trying",
+   "desc": "When a customer leaves a $100 gift card as a tip, Bob, Linda and the kids go on a $20-each shopping spree, and Gene has an awkward run-in with a former friend.",
+   "ep_index": 255
+  },
+  {
+   "start": "20261009202500 +0000",
+   "stop": "20261009204700 +0000",
+   "title": "Bob's Burgers: S13E19 - Crab-solutely Fabulous",
+   "desc": "The kids become a part of a crustacean-themed wrestling show. Meanwhile, Linda tries to form a 21-day habit.",
+   "ep_index": 256
+  },
+  {
+   "start": "20261009204700 +0000",
+   "stop": "20261009210900 +0000",
+   "title": "Bob's Burgers: S13E20 - Radio No You Didn't",
+   "desc": "Bob tells Linda and the kids the story behind an old, broken radio that used to belong to his grandmother Alice and the part it played in her discovery that a German spy lived in her building.",
+   "ep_index": 257
+  },
+  {
+   "start": "20261009210900 +0000",
+   "stop": "20261009213100 +0000",
+   "title": "Bob's Burgers: S13E21 - Mother Author Laser Pointer",
+   "desc": "Linda almost totally accidentally kidnaps a children\u2019s book author. Meanwhile, the kids help Mr. Frond try to get his cat out of a tree in front of the school.",
+   "ep_index": 258
+  },
+  {
+   "start": "20261009213100 +0000",
+   "stop": "20261009215300 +0000",
+   "title": "Bob's Burgers: S13E22 - Amelia",
+   "desc": "Louise takes a class assignment - and a few unhelpful comments by Wayne - very personally. And Bob hires a masseur-in-training to give Linda a massage for Mother's Day.",
+   "ep_index": 259
+  },
+  {
+   "start": "20261009215300 +0000",
+   "stop": "20261009221500 +0000",
+   "title": "Bob's Burgers: S14E01 - Fight at the Not Okay Chore-ral",
+   "desc": "When Linda and Bob suggest the kids do chores, the family ends up in a showdown.",
+   "ep_index": 260
+  },
+  {
+   "start": "20261009221500 +0000",
+   "stop": "20261009223700 +0000",
+   "title": "Bob's Burgers: S14E02 - The Amazing Rudy",
+   "desc": "Rudy attends an important dinner. The Belchers make an important casserole.",
+   "ep_index": 261
+  },
+  {
+   "start": "20261009223700 +0000",
+   "stop": "20261009225900 +0000",
+   "title": "Bob's Burgers: S14E03 - The Pickleorette",
+   "desc": "Bob and Linda help Gretchen throw her sister's bachelorette party. Meanwhile, Tina forces Gene and Louise to play a board game they found on the street.",
+   "ep_index": 262
+  },
+  {
+   "start": "20261009225900 +0000",
+   "stop": "20261009232100 +0000",
+   "title": "Bob's Burgers: S14E04 - Running Down a Gene",
+   "desc": "Gene tries to learn how to lucid dream in order to recover the world's most perfect song that he wrote while asleep. Meanwhile, Louise and Tina try to trap a cricket whose chirping is keeping Linda up",
+   "ep_index": 263
+  },
+  {
+   "start": "20261009232100 +0000",
+   "stop": "20261009234300 +0000",
+   "title": "Bob's Burgers: S14E05 - Bully-ieve It or Not",
+   "desc": "The Belcher kids learn a secret about Zeke's past, while Bob rekindles his feud with Jimmy Pesto.",
+   "ep_index": 264
+  },
+  {
+   "start": "20261009234300 +0000",
+   "stop": "20261010000500 +0000",
+   "title": "Bob's Burgers: S14E06 - Escape from Which Island?",
+   "desc": "Mr. Fischoeder enlists Bob to be his personal chef for a glamping trip on his exclusive club's secret island. Meanwhile, Linda gives the kids a crash-course on cocktail party etiquette.",
+   "ep_index": 265
+  },
+  {
+   "start": "20261010000500 +0000",
+   "stop": "20261010002700 +0000",
+   "title": "Bob's Burgers: S14E07 - The (Raccoon) King and I",
+   "desc": "During a neighborhood block party, Linda makes a mistake that could threaten the life of her favorite alley raccoon.",
+   "ep_index": 266
+  },
+  {
+   "start": "20261010002700 +0000",
+   "stop": "20261010004900 +0000",
+   "title": "Bob's Burgers: S14E08 - Wharf, Me Worry?",
+   "desc": "During their special day at the wharf with Big Bob, the kids get into trouble with the Wharf's newest fortune-telling giant clam.",
+   "ep_index": 267
+  },
+  {
+   "start": "20261010004900 +0000",
+   "stop": "20261010011100 +0000",
+   "title": "Bob's Burgers: S14E09 - Fraud of the Dead: Zombie-docu-pocalypse",
+   "desc": "A documentary film profiling world class archer Louise Belcher is interrupted by unexpected visitors.",
+   "ep_index": 268
+  },
+  {
+   "start": "20261010011100 +0000",
+   "stop": "20261010013300 +0000",
+   "title": "Bob's Burgers: S14E10 - The Nightmare 2 Days Before Christmas",
+   "desc": "When the power goes out two days before Christmas, The Belchers must spend the holiday at Mr. Fischoeder's family's old hunting lodge.",
+   "ep_index": 269
+  },
+  {
+   "start": "20261010013300 +0000",
+   "stop": "20261010015500 +0000",
+   "title": "Bob's Burgers: S14E11 - Mission Impossi-Bob",
+   "desc": "Teddy gets stuck in an underground survival bunker, and he calls on Bob to find him and get him out.",
+   "ep_index": 270
+  },
+  {
+   "start": "20261010015500 +0000",
+   "stop": "20261010021700 +0000",
+   "title": "Bob's Burgers: S14E12 - Jade in the Shade",
+   "desc": "On a tour of the town's bootlegging history, Linda and Louise stumble into a treasure-hunting adventure. Meanwhile, Bob, Tina and Gene play host to a group of street performers looking to settle a bee",
+   "ep_index": 271
+  },
+  {
+   "start": "20261010021700 +0000",
+   "stop": "20261010023900 +0000",
+   "title": "Bob's Burgers: S14E13 - Butt Sweat and Fears",
+   "desc": "Tina is determined to get some upper butt action at Chelsea's party, but in her attempts to dry off her nervous butt sweat, her skirt ends up stuck in the dryer. Meanwhile, Teddy tries to get in on th",
+   "ep_index": 272
+  },
+  {
+   "start": "20261010023900 +0000",
+   "stop": "20261010030100 +0000",
+   "title": "Bob's Burgers: S14E14 - The Big Stieblitzki",
+   "desc": "When the family gets invited to Rudy's father's birthday party, they scramble to make him look better than Paul, who's trying to hit on Rudy's mother. Meanwhile, Tina attempts to convince a woman to c",
+   "ep_index": 273
+  },
+  {
+   "start": "20261010030100 +0000",
+   "stop": "20261010032300 +0000",
+   "title": "Bob's Burgers: S14E15 - The Right Tough Stuff",
+   "desc": "When Gayle tells the family she's sending in an audition tape to be on Tough Stuff Island, Linda is determined to make her tape boring to save her from being humiliated on a rejection reel. Bob strugg",
+   "ep_index": 274
+  },
+  {
+   "start": "20261010032300 +0000",
+   "stop": "20261010034500 +0000",
+   "title": "Bob's Burgers: S14E16 - To Catch a Beef",
+   "desc": "When Bosco goes to Bob needing to learn how to make a burger for an undercover mission to oust criminal and burger joint owner Vincent Balicki, it becomes obvious that the sergeant is severely lacking",
+   "ep_index": 275
+  },
+  {
+   "start": "20261010034500 +0000",
+   "stop": "20261010040700 +0000",
+   "title": "Bob's Burgers: S15E01 - The Tina Table: The Tables Have Tina-Ed",
+   "desc": "Tina attempts to save her school news segment by interviewing Mr. Frond about his revolutionary new computer game. Meanwhile, Bob and Linda entertain Teddy by making up the plots to popular horror mov",
+   "ep_index": 276
+  },
+  {
+   "start": "20261010040700 +0000",
+   "stop": "20261010042900 +0000",
+   "title": "Bob's Burgers: S15E02 - Saving Favorite Drive-In",
+   "desc": "When the Belchers visit the local drive-in, Bob comes up with a plan to save the theater from closing. Meanwhile, Linda accidentally insults another mom while on a group text chain, and Louise and Gen",
+   "ep_index": 277
+  },
+  {
+   "start": "20261010042900 +0000",
+   "stop": "20261010045100 +0000",
+   "title": "Bob's Burgers: S15E03 - Colon-ly the Dronely",
+   "desc": "Linda agrees to drive Teddy to pick up Kathleen from her colonoscopy after he accidentally injures himself. Meanwhile, the kids concoct a scheme to prank an overhead drone which is set to film the sch",
+   "ep_index": 278
+  },
+  {
+   "start": "20261010045100 +0000",
+   "stop": "20261010051300 +0000",
+   "title": "Bob's Burgers: S15E04 - For Whom the Doll Toes",
+   "desc": "It's a mystery within a mystery as Louise stages a murder mystery in a creepy old dollhouse store for reasons that she has trouble explaining.",
+   "ep_index": 279
+  },
+  {
+   "start": "20261010051300 +0000",
+   "stop": "20261010053500 +0000",
+   "title": "Bob's Burgers: S15E05 - Don't Stop Be-Cheesin",
+   "desc": "Louise trains Tina to be the last student standing during an all-out cheese throwing battle against the other eighth graders. Meanwhile, Bob and Teddy teach Linda how to successfully eavesdrop on cust",
+   "ep_index": 280
+  },
+  {
+   "start": "20261010053500 +0000",
+   "stop": "20261010055700 +0000",
+   "title": "Bob's Burgers: S15E06 - Hope N' Mic Night",
+   "desc": "The kids want to host an open mic night at the restaurant, but the hidden costs keep mounting and Bob worries that this night will ruin them.",
+   "ep_index": 281
+  },
+  {
+   "start": "20261010055700 +0000",
+   "stop": "20261010061900 +0000",
+   "title": "Bob's Burgers: S15E07 - Boogie Days",
+   "desc": "Bob's past comes back to haunt him when Louise signs up for a father-daughter boogie board contest.",
+   "ep_index": 282
+  },
+  {
+   "start": "20261010061900 +0000",
+   "stop": "20261010064100 +0000",
+   "title": "Bob's Burgers: S15E08 - They Slug Horses, Don't They?",
+   "desc": "Tina and Louise get into an argument that escalates across several graphic \"apology\" cards.",
+   "ep_index": 283
+  },
+  {
+   "start": "20261010064100 +0000",
+   "stop": "20261010070300 +0000",
+   "title": "Bob's Burgers: S15E09 - Dog Christmas Day After Afternoon",
+   "desc": "A family trip to see Christmas lights turns into a rescue mission, in more ways than one.",
+   "ep_index": 284
+  },
+  {
+   "start": "20261010070300 +0000",
+   "stop": "20261010072500 +0000",
+   "title": "Bob's Burgers: S15E10 - Advice Things Are Ad-nice",
+   "desc": "Tina becomes the new advice columnist for the school newspaper. Teddy takes on more than he can handle when he volunteers to build a float for the Bounty of the Bay Parade.",
+   "ep_index": 285
+  },
+  {
+   "start": "20261010072500 +0000",
+   "stop": "20261010074700 +0000",
+   "title": "Bob's Burgers: S15E11 - Mr. Fischoeder's Opus",
+   "desc": "When the Belchers' landlord, Mr. Fischoeder, offers them two months free rent in exchange for catering an important reception at his house, the family must do everything they can to ensure the event g",
+   "ep_index": 286
+  },
+  {
+   "start": "20261010074700 +0000",
+   "stop": "20261010080900 +0000",
+   "title": "Bob's Burgers: S15E12 - Like a Candle in the Gym",
+   "desc": "The Belchers run into Coach Blevins while on a family walk and find him selling sweat-scented candles, which Gene and Louise discover to be a cover for Blevins' scheme to sell sweat samples for DNA mi",
+   "ep_index": 287
+  },
+  {
+   "start": "20261010080900 +0000",
+   "stop": "20261010083100 +0000",
+   "title": "Bob's Burgers: S15E13 - Snackface",
+   "desc": "Tina, Gene and Louise strike it rich in the illegal snack business at school, but the addition of a new member to their \"cartel\" threatens to destroy it.",
+   "ep_index": 288
+  },
+  {
+   "start": "20261010083100 +0000",
+   "stop": "20261010085300 +0000",
+   "title": "Bob's Burgers: S15E14 - The Place Beyond the Pinecones",
+   "desc": "Tina and the Thundergirls spend the night in the woods, and Tina faces something even scarier than her nemesis, Troop 257.",
+   "ep_index": 289
+  },
+  {
+   "start": "20261010085300 +0000",
+   "stop": "20261010091500 +0000",
+   "title": "Bob's Burgers: S15E15 - The Lost City of Atlantic",
+   "desc": "The Belchers have a wild night at a casino and Linda learns more about her late grandfather than she wanted to know.",
+   "ep_index": 290
+  },
+  {
+   "start": "20261010091500 +0000",
+   "stop": "20261010093700 +0000",
+   "title": "Bob's Burgers: S15E16 - The Shell Game",
+   "desc": "Bob competes in a Bachelor-style competition to inherit Mr. Fischoeder's 100-year-old giant tortoise.",
+   "ep_index": 291
+  },
+  {
+   "start": "20261010093700 +0000",
+   "stop": "20261010095900 +0000",
+   "title": "Bob's Burgers: S15E17 - Wild Steal-ions",
+   "desc": "Tina's lost book of semi-erotic Horse-torical Fiction lands in the hands of a mysterious stranger with nefarious intentions.",
+   "ep_index": 292
+  },
+  {
+   "start": "20261010095900 +0000",
+   "stop": "20261010102100 +0000",
+   "title": "Bob's Burgers: S15E18 - Don't Worry, Be Hoopy",
+   "desc": "Tina must confront her fear and her past when she advances to the County Finals of a national free throw competition.",
+   "ep_index": 293
+  },
+  {
+   "start": "20261010102100 +0000",
+   "stop": "20261010104300 +0000",
+   "title": "Bob's Burgers: S15E19 - The Dead Bo-ats Society",
+   "desc": "The kids explore a marine scrapyard in search of adventure, but the trip takes a dangerous turn.",
+   "ep_index": 294
+  },
+  {
+   "start": "20261010104300 +0000",
+   "stop": "20261010110500 +0000",
+   "title": "Bob's Burgers: S15E20 - Dad-urday Kite Fever",
+   "desc": "When Big Bob brings over a kite from Bob's childhood, Bob is determined to fly it with his kids. Meanwhile, Teddy seeks Linda's help in rehearsing for a play.",
+   "ep_index": 295
+  },
+  {
+   "start": "20261010110500 +0000",
+   "stop": "20261010112700 +0000",
+   "title": "Bob's Burgers: S15E21 - Mr. Safebody",
+   "desc": "Louise's schoolmate Arnold enlists her to direct a promotional video for his new bodyguarding business; a stolen car blasting 90's alternative rock is abandoned outside of the restaurant.",
+   "ep_index": 296
+  },
+  {
+   "start": "20261010112700 +0000",
+   "stop": "20261010114900 +0000",
+   "title": "Bob's Burgers: S15E22 - InsomniBob",
+   "desc": "Insomnia sends Bob on a creative spree in the kitchen, but at what cost?",
+   "ep_index": 297
+  },
+  {
+   "start": "20261010114900 +0000",
+   "stop": "20261010121100 +0000",
+   "title": "Bob's Burgers: S16E01 - Grand Pre-Pre-Pre-Opening [300th episode]",
+   "desc": "In the 300th episode, Bob can't decide whether to raise the prices as flashbacks occur to when Bob and Linda first opened the restaurant and Linda was pregnant with Tina.",
+   "ep_index": 298
+  },
+  {
+   "start": "20261010121100 +0000",
+   "stop": "20261010123300 +0000",
+   "title": "Bob's Burgers: S16E02 - 'Til Death Do Us Art",
+   "desc": "Linda becomes concerned when Gayle turns her love life into a performance art piece.",
+   "ep_index": 299
+  },
+  {
+   "start": "20261010123300 +0000",
+   "stop": "20261010125500 +0000",
+   "title": "Bob's Burgers: S16E03 - The Twinnening [Halloween]",
+   "desc": "Teddy takes a handyman job next door to the restaurant and finds himself trapped inside a store full of spooky antiques.",
+   "ep_index": 300
+  },
+  {
+   "start": "20261010125500 +0000",
+   "stop": "20261010131700 +0000",
+   "title": "Bob's Burgers: S16E04 - The Skids in the Hall",
+   "desc": "Louise and Gene try to help Tina clear her name after she is fired as a Hall Monitor.",
+   "ep_index": 301
+  },
+  {
+   "start": "20261010131700 +0000",
+   "stop": "20261010133900 +0000",
+   "title": "Bob's Burgers: S16E05 - The Secret Guardin'",
+   "desc": "Tina, Gene, and Louise have a secret to keep from Linda, but their plan is jeopardized when Louise gets loopy from dental surgery.",
+   "ep_index": 302
+  },
+  {
+   "start": "20261010133900 +0000",
+   "stop": "20261010140100 +0000",
+   "title": "Bob's Burgers: S16E06 - Get Her to the Zeke",
+   "desc": "Tina tries to set up Zeke on a date while the rest of the Belchers contend with a Super Rat.",
+   "ep_index": 303
+  },
+  {
+   "start": "20261010140100 +0000",
+   "stop": "20261010142300 +0000",
+   "title": "Bob's Burgers: S16E07 - Tube for Tina",
+   "desc": "Linda has a strong reaction when Tina buys a tiny tube top. Meanwhile, Bob, Teddy, Louise and Gene deal with the consequences of a rare bird flying into the window of the restaurant.",
+   "ep_index": 304
+  },
+  {
+   "start": "20261010142300 +0000",
+   "stop": "20261010144500 +0000",
+   "title": "Bob's Burgers: S16E08 - Les Liz\u00e1rdables",
+   "desc": "Gene and Courtney become embroiled in a complex custody battle over an injured lizard.",
+   "ep_index": 305
+  },
+  {
+   "start": "20261010144500 +0000",
+   "stop": "20261010150700 +0000",
+   "title": "Bob's Burgers: S16E09 - It's a Stunterful Life [Christmas]",
+   "desc": "The kids get caught up in a stunt competition at a Christmas tree farm, while Bob decorates cookies for Santa and Linda tries to find every tree a home.",
+   "ep_index": 306
+  },
+  {
+   "start": "20261010150700 +0000",
+   "stop": "20261010152900 +0000",
+   "title": "Bob's Burgers: S16E10 - Heist Things Are Heist",
+   "desc": "After winning a prestigious award, Bob faces a setback at the ceremony, and the kids team up with possible former jewel thief Vincent to put things right.",
+   "ep_index": 307
+  },
+  {
+   "start": "20261010152900 +0000",
+   "stop": "20261010155100 +0000",
+   "title": "Bob's Burgers: S16E11 - The Keyboard Kid",
+   "desc": "Tina hopes her fast-but-weird typing style gets her an A in typing class so she can attend an upcoming field trip. Her typing teacher has other ideas.",
+   "ep_index": 308
+  },
+  {
+   "start": "20261010155100 +0000",
+   "stop": "20261010161300 +0000",
+   "title": "Bob's Burgers: S16E12 - Children of the Carn",
+   "desc": "The kids return to Carniapolis to help an ex-carnie restart what they think is an innocent prank-war. Teddy sees his therapist at Bob's.",
+   "ep_index": 309
+  },
+  {
+   "start": "20261010161300 +0000",
+   "stop": "20261010163500 +0000",
+   "title": "Bob's Burgers: S16E13 - Driving Miss Ragey",
+   "desc": "Nat the limo driver helps Linda with her road rage. Meanwhile, the kids and Bob discover both the joys and the risk involved in riding a mattress down the stairs.",
+   "ep_index": 310
+  },
+  {
+   "start": "20261010163500 +0000",
+   "stop": "20261010165700 +0000",
+   "title": "Bob's Burgers: S16E14 - Stuck in the Middle with Hu(go)",
+   "desc": "Bob is forced to spend time with one of his least favorite people, while Tina is entrusted with something very close to Jimmy Junior's heart.",
+   "ep_index": 311
+  },
+  {
+   "start": "20261010165700 +0000",
+   "stop": "20261010171900 +0000",
+   "title": "Bob's Burgers: S16E15 - Smellbound",
+   "desc": "A bad smell threatens a town tradition, so Tina, Gene, and Louise try to eliminate it themselves.",
+   "ep_index": 312
+  },
+  {
+   "start": "20261010171900 +0000",
+   "stop": "20261010174100 +0000",
+   "title": "Bob's Burgers: S01E01 - Human Flesh",
+   "desc": "A health inspector's visit coincides with Bob's efforts to bring in customers.",
+   "ep_index": 0
+  },
+  {
+   "start": "20261010174100 +0000",
+   "stop": "20261010180300 +0000",
+   "title": "Bob's Burgers: S01E02 - Crawl Space",
+   "desc": "A leaky roof causes Bob to get trapped in a wall while Linda's mother visits.",
+   "ep_index": 1
+  },
+  {
+   "start": "20261010180300 +0000",
+   "stop": "20261010182500 +0000",
+   "title": "Bob's Burgers: S01E03 - Sacred Cow",
+   "desc": "Bob takes to a film maker's cow.",
+   "ep_index": 2
+  },
+  {
+   "start": "20261010182500 +0000",
+   "stop": "20261010184700 +0000",
+   "title": "Bob's Burgers: S01E04 - Sexy Dance Fighting",
+   "desc": "Tina develops a crush on her martial arts instructor.",
+   "ep_index": 3
+  },
+  {
+   "start": "20261010184700 +0000",
+   "stop": "20261010190900 +0000",
+   "title": "Bob's Burgers: S01E05 - Hamburger Dinner Theater",
+   "desc": "Linda and the kids stage a murder mystery that doesn't go as planned.",
+   "ep_index": 4
+  },
+  {
+   "start": "20261010190900 +0000",
+   "stop": "20261010193100 +0000",
+   "title": "Bob's Burgers: S01E06 - Sheesh! Cab, Bob?",
+   "desc": "Tina is desperate to get her first kiss at her 13th birthday party. But after Louise breaks the deep fryer, Bob takes a second job as a late-night cab driver to pay for Tina\u2019s party. Things keep getti",
+   "ep_index": 5
+  },
+  {
+   "start": "20261010193100 +0000",
+   "stop": "20261010195300 +0000",
+   "title": "Bob's Burgers: S01E07 - Bed & Breakfast",
+   "desc": "Linda hosts a bed and breakfast, but her guests aren't as grateful as she would like.  Things take a turn for the worse when Louise's room is rented to Teddy.",
+   "ep_index": 6
+  },
+  {
+   "start": "20261010195300 +0000",
+   "stop": "20261010201500 +0000",
+   "title": "Bob's Burgers: S01E08 - Art Crawl",
+   "desc": "It's Bob vs. the city art council when Linda's sister displays her work at Bob's Burgers.",
+   "ep_index": 7
+  },
+  {
+   "start": "20261010201500 +0000",
+   "stop": "20261010203700 +0000",
+   "title": "Bob's Burgers: S01E09 - Spaghetti Western and Meatballs",
+   "desc": "Bob and Gene bond over spaghetti western movies, which makes Louise jealous.",
+   "ep_index": 8
+  },
+  {
+   "start": "20261010203700 +0000",
+   "stop": "20261010205900 +0000",
+   "title": "Bob's Burgers: S01E10 - Burger Wars",
+   "desc": "When Bob's eccentric landlord, Mr. Fischoeder, pays the family a visit, he informs Bob that his rival across the street, Jimmy Pesto of Jimmy Pesto's Pizzeria, wants to take over Bob's lease so that h",
+   "ep_index": 9
+  },
+  {
+   "start": "20261010205900 +0000",
+   "stop": "20261010212100 +0000",
+   "title": "Bob's Burgers: S01E11 - Weekend at Mort's",
+   "desc": "Bob and his family are forced to spend the weekend at Mort the Mortician's while the restaurant is being de-molded. Linda and Bob double date with Mort and a female mortician he meets online while Tin",
+   "ep_index": 10
+  },
+  {
+   "start": "20261010212100 +0000",
+   "stop": "20261010214300 +0000",
+   "title": "Bob's Burgers: S01E12 - Lobsterfest",
+   "desc": "After the town's annual Lobsterfest is cancelled by a storm, Bob defiantly opens his doors for a festive celebration. When he wakes the next morning, Bob finds the restaurant in disarray and that the ",
+   "ep_index": 11
+  },
+  {
+   "start": "20261010214300 +0000",
+   "stop": "20261010220500 +0000",
+   "title": "Bob's Burgers: S01E13 - Torpedo",
+   "desc": "Bob's hero, a washed-up baseball player named Torpedo Jones, starts pitching for the local minor league team. Torpedo befriends Bob, but the dark underbelly of minor league baseball threatens to corru",
+   "ep_index": 12
+  },
+  {
+   "start": "20261010220500 +0000",
+   "stop": "20261010222700 +0000",
+   "title": "Bob's Burgers: S02E01 - The Belchies",
+   "desc": "The kids hunt for treasure in an abandoned taffy factory and Bob and Linda must find them before the factory\u2019s scheduled demolition",
+   "ep_index": 13
+  },
+  {
+   "start": "20261010222700 +0000",
+   "stop": "20261010224900 +0000",
+   "title": "Bob's Burgers: S02E02 - Bob Day Afternoon",
+   "desc": "A bank robber holds up a bank across the street from Bob\u2019s Burgers. When the robbery goes awry, Bob finds himself at the center of a hostage crisis.",
+   "ep_index": 14
+  },
+  {
+   "start": "20261010224900 +0000",
+   "stop": "20261010231100 +0000",
+   "title": "Bob's Burgers: S02E03 - Synchronized Swimming",
+   "desc": "The kids con their way out of gym class with a bogus synchronized swimming independent study. Meanwhile, Bob welcomes a new soft serve ice cream machine to the restaurant.",
+   "ep_index": 15
+  },
+  {
+   "start": "20261010231100 +0000",
+   "stop": "20261010233300 +0000",
+   "title": "Bob's Burgers: S02E04 - Burgerboss",
+   "desc": "Bob becomes obsessed with an old-school burger-flipping video game after Jimmy Pesto gets the high score and writes \"BOB SUX\" on the leader board.",
+   "ep_index": 16
+  },
+  {
+   "start": "20261010233300 +0000",
+   "stop": "20261010235500 +0000",
+   "title": "Bob's Burgers: S02E05 - Food Truckin'",
+   "desc": "The Belchers beg Bob to buy a food truck to compete against the ones that are stealing his customers. When the \"Lolla-Pa-Foods-A-Festival\" comes up, the Belchers bring the truck and the kids decide to",
+   "ep_index": 17
+  },
+  {
+   "start": "20261010235500 +0000",
+   "stop": "20261011001700 +0000",
+   "title": "Bob's Burgers: S02E06 - Dr. Yap",
+   "desc": "While Bob is medicated, he mistakes Linda's sister, Gayle, for his wife and kisses her. After she falls for him, Bob seeks help from Dr. Yap.",
+   "ep_index": 18
+  },
+  {
+   "start": "20261011001700 +0000",
+   "stop": "20261011003900 +0000",
+   "title": "Bob's Burgers: S02E07 - Moody Foodie",
+   "desc": "The restaurant receives a negative review from a vicious food critic.",
+   "ep_index": 19
+  },
+  {
+   "start": "20261011003900 +0000",
+   "stop": "20261011010100 +0000",
+   "title": "Bob's Burgers: S02E08 - Bad Tina",
+   "desc": "Tina befriends a bad girl in a bid to get closer to Jimmy Junior.",
+   "ep_index": 20
+  },
+  {
+   "start": "20261011010100 +0000",
+   "stop": "20261011012300 +0000",
+   "title": "Bob's Burgers: S02E09 - Beefsquatch",
+   "desc": "Bob appears in a cooking segment on a local news morning program, but Gene steals the show when he crashes the set with a sasquatch mask.",
+   "ep_index": 21
+  },
+  {
+   "start": "20261011012300 +0000",
+   "stop": "20261011014500 +0000",
+   "title": "Bob's Burgers: S03E01 - Ear-sy Rider",
+   "desc": "A biker gang sets up shop in the restaurant, where they lament the loss of their beloved leader.",
+   "ep_index": 22
+  },
+  {
+   "start": "20261011014500 +0000",
+   "stop": "20261011020700 +0000",
+   "title": "Bob's Burgers: S03E02 - Full Bars",
+   "desc": "The Belcher kids break with a long standing Halloween tradition, veering away from their usual trick or treat trek in favor of a posh neighborhood that's known for its oversize goodies.",
+   "ep_index": 23
+  },
+  {
+   "start": "20261011020700 +0000",
+   "stop": "20261011022900 +0000",
+   "title": "Bob's Burgers: S03E03 - Bob Fires the Kids",
+   "desc": "Worried that his kids are not enjoying summer vacation because he's making them work in the restaurant, Bob fires them. But they soon become bored and take jobs as \"weed pickers\" for a pair of hippie ",
+   "ep_index": 24
+  },
+  {
+   "start": "20261011022900 +0000",
+   "stop": "20261011025100 +0000",
+   "title": "Bob's Burgers: S03E04 - Mutiny on the Windbreaker",
+   "desc": "Bob does a tour of duty as a private chef on a docked cruise ship and brings along the family to witness his true culinary skills, but the special occasion is scuttled when the kooky captain shanghais",
+   "ep_index": 25
+  },
+  {
+   "start": "20261011025100 +0000",
+   "stop": "20261011031300 +0000",
+   "title": "Bob's Burgers: S03E05 - An Indecent Thanksgiving Proposal",
+   "desc": "Bob's plans for his favorite holiday, Thanksgiving, change when Mr. Fischoeder hires him as a chef, and Linda and the kids to play his family, as he tries to stage a perfect holiday dinner in order to",
+   "ep_index": 26
+  },
+  {
+   "start": "20261011031300 +0000",
+   "stop": "20261011033500 +0000",
+   "title": "Bob's Burgers: S03E06 - The Deepening",
+   "desc": "Mr. Fischoeder's new pier attraction, a mechanical shark, goes haywire and terrorizes the town, and it falls to Bob and the family to catch it.",
+   "ep_index": 27
+  },
+  {
+   "start": "20261011033500 +0000",
+   "stop": "20261011035700 +0000",
+   "title": "Bob's Burgers: S03E07 - Tina-rannosaurus Wrecks",
+   "desc": "After Tina accidentally wrecks the car, and gets the whole family involved with a slimy insurance agent, she worries that she's a \"jinx\".",
+   "ep_index": 28
+  },
+  {
+   "start": "20261011035700 +0000",
+   "stop": "20261011041900 +0000",
+   "title": "Bob's Burgers: S03E08 - The Unbearable Like-Likeness of Gene",
+   "desc": "Gene gets his first girlfriend, but it doesn't take long for the family to realize that she is incredibly annoying and they pressure him to break up with her.",
+   "ep_index": 29
+  },
+  {
+   "start": "20261011041900 +0000",
+   "stop": "20261011044100 +0000",
+   "title": "Bob's Burgers: S03E09 - Bob Rest Ye Merry Gentle-Mannequins",
+   "desc": "When Bob inherits a storage unit around Christmas, visions of riches dance in the heads of the family, but what they find inside is a squatter who claims he once worked as a mannequin.",
+   "ep_index": 30
+  },
+  {
+   "start": "20261011044100 +0000",
+   "stop": "20261011050300 +0000",
+   "title": "Bob's Burgers: S03E10 - Mother Daughter Laser Razor",
+   "desc": "Linda worries that her relationship with Louise isn't as good as it should be, so, much to Louise's chagrin, she forces the young lady to participate in a mother-daughter seminar. With mom away, Tina ",
+   "ep_index": 31
+  },
+  {
+   "start": "20261011050300 +0000",
+   "stop": "20261011052500 +0000",
+   "title": "Bob's Burgers: S03E11 - Nude Beach",
+   "desc": "The new health inspector proves to be a decent fellow, until he blackmails Bob into being allowed to perform his atrocious music at the restaurant, which drives away the customers.",
+   "ep_index": 32
+  },
+  {
+   "start": "20261011052500 +0000",
+   "stop": "20261011054700 +0000",
+   "title": "Bob's Burgers: S03E12 - Broadcast Wagstaff School News",
+   "desc": "There is a \"Mad Pooper\" running wild at the Belcher children's middle school and Tina finds herself on a mission to get to the \"bottom\" of the situation.",
+   "ep_index": 33
+  },
+  {
+   "start": "20261011054700 +0000",
+   "stop": "20261011060900 +0000",
+   "title": "Bob's Burgers: S03E13 - My Fuzzy Valentine",
+   "desc": "When a heart-shaped pancake simply doesn't cut it, the kids convince Bob to let them skip school in order to help him find a Valentine's Day gift that will \"wow\" Linda. Meanwhile, in the spirit of the",
+   "ep_index": 34
+  },
+  {
+   "start": "20261011060900 +0000",
+   "stop": "20261011063100 +0000",
+   "title": "Bob's Burgers: S03E14 - Lindapendent Woman",
+   "desc": "Linda thinks Bob doesn't appreciate her and quits the restaurant to work at a grocery store. In her absence, Bob tries - and fails - to run the place on his own and the kids are stuck in the middle of",
+   "ep_index": 35
+  },
+  {
+   "start": "20261011063100 +0000",
+   "stop": "20261011065300 +0000",
+   "title": "Bob's Burgers: S03E15 - O.T.: The Outside Toilet",
+   "desc": "When Gene finds an expensive talking toilet out in the woods, he and his friends decide to protect it as much as they can while an evil toilet hunter is looking for the toilet.",
+   "ep_index": 36
+  },
+  {
+   "start": "20261011065300 +0000",
+   "stop": "20261011071500 +0000",
+   "title": "Bob's Burgers: S03E16 - Topsy",
+   "desc": "Louise expects to get a charge out of taking down her Thomas Edison-obsessed science teacher when she re-creates one of the famous inventor's experiments that involved electrocuting an elephant. ",
+   "ep_index": 37
+  },
+  {
+   "start": "20261011071500 +0000",
+   "stop": "20261011073700 +0000",
+   "title": "Bob's Burgers: S03E17 - Two for Tina",
+   "desc": "Jimmy Jr. is threatened when Tina starts dating a ballet dancer named Josh and the two boys get into an epic dance-off for her heart",
+   "ep_index": 38
+  },
+  {
+   "start": "20261011073700 +0000",
+   "stop": "20261011075900 +0000",
+   "title": "Bob's Burgers: S03E18 - It Snakes a Village",
+   "desc": "The Belcher family road-trips down to Florida to visit Linda's parents who live in a senior home that - to Linda's complete horror - is full of senior swingers! Plus, to keep themselves entertained, T",
+   "ep_index": 39
+  },
+  {
+   "start": "20261011075900 +0000",
+   "stop": "20261011082100 +0000",
+   "title": "Bob's Burgers: S03E19 - Family Fracas",
+   "desc": "After the family car breaks down and ruins their plans for a movie night out, the Belchers find themselves competing on the TV game show \"Family Fracas!\" To the dismay of the program's host, they keep",
+   "ep_index": 40
+  },
+  {
+   "start": "20261011082100 +0000",
+   "stop": "20261011084300 +0000",
+   "title": "Bob's Burgers: S03E20 - The Kids Run the Restaurant",
+   "desc": "After Bob cuts his finger and faints at the sight of his own blood, Linda brings him to the hospital and leaves the kids home alone. Not ones to waste a golden opportunity, Tina, Gene and Louise trans",
+   "ep_index": 41
+  },
+  {
+   "start": "20261011084300 +0000",
+   "stop": "20261011090500 +0000",
+   "title": "Bob's Burgers: S03E21 - Boyz 4 Now",
+   "desc": "While accompanying Tina to a \"Boyz 4 Now\" concert, Louise develops a crush on one of the lead singers, Boo Boo - and is in disbelief that she actually likes a boy! Meanwhile, Gene gets creative - and ",
+   "ep_index": 42
+  },
+  {
+   "start": "20261011090500 +0000",
+   "stop": "20261011092700 +0000",
+   "title": "Bob's Burgers: S03E22 - Carpe Museum",
+   "desc": "Bob chaperones a school trip to the museum and experiences some father-daughter bonding with Louise, while Gene and his gang are on the lookout for exhibits with busts, and not the kind that are sculp",
+   "ep_index": 43
+  },
+  {
+   "start": "20261011092700 +0000",
+   "stop": "20261011094900 +0000",
+   "title": "Bob's Burgers: S03E23 - The Unnatural",
+   "desc": "After Gene loses his confidence at his baseball game, Linda decides to sign him up for baseball camp. The only problem? She needs money to pay for it! Meanwhile, Tina discovers her love for espresso a",
+   "ep_index": 44
+  },
+  {
+   "start": "20261011094900 +0000",
+   "stop": "20261011101100 +0000",
+   "title": "Bob's Burgers: S04E01 - A River Runs Through Bob",
+   "desc": "Bob, Linda and the kids brave river rapids, squirrels and separation while on a camping adventure.",
+   "ep_index": 45
+  },
+  {
+   "start": "20261011101100 +0000",
+   "stop": "20261011103300 +0000",
+   "title": "Bob's Burgers: S04E02 - Fort Night",
+   "desc": "The kids' Halloween adventure goes awry when Louise's friend Millie takes them hostage.",
+   "ep_index": 46
+  },
+  {
+   "start": "20261011103300 +0000",
+   "stop": "20261011105500 +0000",
+   "title": "Bob's Burgers: S04E03 - Seaplane!",
+   "desc": "Linda's attempt to spice up date night by signing up for flying lessons backfires when Bob refuses to go with her and she ends up the target of a charming pilot.",
+   "ep_index": 47
+  },
+  {
+   "start": "20261011105500 +0000",
+   "stop": "20261011111700 +0000",
+   "title": "Bob's Burgers: S04E04 - My Big Fat Greek Bob",
+   "desc": "When Bob gets a job cooking at a frat house, he and the brothers find themselves in the middle of a prank war; the kids hatch a plan to invade the frat house.",
+   "ep_index": 48
+  },
+  {
+   "start": "20261011111700 +0000",
+   "stop": "20261011113900 +0000",
+   "title": "Bob's Burgers: S04E05 - Turkey in a Can",
+   "desc": "Bob discovers his carefully prepared turkey was put in the toilet in an act of Thanksgiving sabotage.",
+   "ep_index": 49
+  },
+  {
+   "start": "20261011113900 +0000",
+   "stop": "20261011120100 +0000",
+   "title": "Bob's Burgers: S04E06 - Purple Rain-Union",
+   "desc": "Linda reunites her old band to perform at her high school reunion; a woman who had a crush on Bob in high school attempts to impress him.",
+   "ep_index": 50
+  },
+  {
+   "start": "20261011120100 +0000",
+   "stop": "20261011122300 +0000",
+   "title": "Bob's Burgers: S04E07 - Bob and Deliver",
+   "desc": "Bob becomes a substitute home economics teacher at Tina's school and creates a restaurant in the classroom.",
+   "ep_index": 51
+  },
+  {
+   "start": "20261011122300 +0000",
+   "stop": "20261011124500 +0000",
+   "title": "Bob's Burgers: S04E08 - Christmas in the Car",
+   "desc": "The Belchers spend Christmas Eve running from a candy cane-shaped truck; Teddy gets stuck in the Santa trap.",
+   "ep_index": 52
+  },
+  {
+   "start": "20261011124500 +0000",
+   "stop": "20261011130700 +0000",
+   "title": "Bob's Burgers: S04E09 - Slumber Party",
+   "desc": "Linda plans a surprise slumber party for Louise, much to her dismay; Louise tries to make the girls go home; Linda becomes infatuated some raccoons that are getting into the restaurant's dumpster.",
+   "ep_index": 53
+  },
+  {
+   "start": "20261011130700 +0000",
+   "stop": "20261011132900 +0000",
+   "title": "Bob's Burgers: S04E10 - Presto Tina-O",
+   "desc": "In order to get closer to Jimmy Jr., Tina becomes a magician's assistant; Bob becomes the victim of a curse.",
+   "ep_index": 54
+  },
+  {
+   "start": "20261011132900 +0000",
+   "stop": "20261011135100 +0000",
+   "title": "Bob's Burgers: S04E11 - Easy Com-mercial, Easy Go-mercial",
+   "desc": "The Belchers hire a documentary filmmaker and a former football star to help them film a commercial.",
+   "ep_index": 55
+  },
+  {
+   "start": "20261011135100 +0000",
+   "stop": "20261011141300 +0000",
+   "title": "Bob's Burgers: S04E12 - The Frond Files",
+   "desc": "Bob and Linda learn that their kids' essays about their fantasy versions of the school are considered offensive and too creative.",
+   "ep_index": 56
+  },
+  {
+   "start": "20261011141300 +0000",
+   "stop": "20261011143500 +0000",
+   "title": "Bob's Burgers: S04E13 - Mazel-Tina",
+   "desc": "Tina isn't invited to a classmate's bat mitzvah but ends up at the event anyway when her family is hired to cater.",
+   "ep_index": 57
+  },
+  {
+   "start": "20261011143500 +0000",
+   "stop": "20261011145700 +0000",
+   "title": "Bob's Burgers: S04E14 - Uncle Teddy",
+   "desc": "When Bob and Linda plan a romantic getaway at a burger convention, they ask Teddy to watch the kids; Teddy tries to put Tina's crush in his place.",
+   "ep_index": 58
+  },
+  {
+   "start": "20261011145700 +0000",
+   "stop": "20261011151900 +0000",
+   "title": "Bob's Burgers: S04E15 - The Kids Rob a Train",
+   "desc": "When the Belchers go on a train trip, Gene, Louise and Tina are seated in a separate car; Linda and Bob indulge in a wine-tasting.",
+   "ep_index": 59
+  },
+  {
+   "start": "20261011151900 +0000",
+   "stop": "20261011154100 +0000",
+   "title": "Bob's Burgers: S04E16 - I Get a Psy-Chic Out of You",
+   "desc": "After predicting a telemarketer's call at the restaurant, Linda and the kids believe she's psychic.",
+   "ep_index": 60
+  },
+  {
+   "start": "20261011154100 +0000",
+   "stop": "20261011160300 +0000",
+   "title": "Bob's Burgers: S04E17 - The Equestranauts",
+   "desc": "Tina attends a convention based on an animated show about ponies and finds that many of the fans are middle-aged men; when Tina is tricked out of her rare pony toy, Bob goes under cover to get it back",
+   "ep_index": 61
+  },
+  {
+   "start": "20261011160300 +0000",
+   "stop": "20261011162500 +0000",
+   "title": "Bob's Burgers: S04E18 - Ambergris",
+   "desc": "When Gene, Louise and Tina discover a valuable whale by-product on the beach, Louise tries to cheat her siblings out of the profit; Bob and Linda deal with their unstable landlord.",
+   "ep_index": 62
+  },
+  {
+   "start": "20261011162500 +0000",
+   "stop": "20261011164700 +0000",
+   "title": "Bob's Burgers: S04E19 - The Kids Run Away",
+   "desc": "When she learns she has a cavity, Louise runs away from the dentist's office and seeks refuge at Aunt Gail's house.",
+   "ep_index": 63
+  },
+  {
+   "start": "20261011164700 +0000",
+   "stop": "20261011170900 +0000",
+   "title": "Bob's Burgers: S04E20 - Gene It On",
+   "desc": "When Tina is unable to speak after falling and biting her tongue during a cheerleading audition, Louise offers to be her translator.",
+   "ep_index": 64
+  },
+  {
+   "start": "20261011170900 +0000",
+   "stop": "20261011173100 +0000",
+   "title": "Bob's Burgers: S04E21 - Wharf Horse (or How Bob Saves/Destroys the Town) (1)",
+   "desc": "Motivated by the promise of a beachside burger restaurant, Bob helps Felix talk Mr. Fischoeder into selling Wonder Wharf.",
+   "ep_index": 65
+  },
+  {
+   "start": "20261011173100 +0000",
+   "stop": "20261011175300 +0000",
+   "title": "Bob's Burgers: S04E22 - World Wharf II: The Wharfening (or How Bob Saves/Destroys the Town) (2)",
+   "desc": "Linda and the kids must save the day when Felix's desperate measures put Bob and Mr. Fischoeder in danger.",
+   "ep_index": 66
+  },
+  {
+   "start": "20261011175300 +0000",
+   "stop": "20261011181500 +0000",
+   "title": "Bob's Burgers: S05E01 - Work Hard or Die Trying, Girl",
+   "desc": "Gene tries to make one of his dreams a reality when he gets the opportunity to make a musical version of Die Hard at the Wagstaff Fall Festival.",
+   "ep_index": 67
+  },
+  {
+   "start": "20261011181500 +0000",
+   "stop": "20261011183700 +0000",
+   "title": "Bob's Burgers: S05E02 - Tina and the Real Ghost",
+   "desc": "Tina begins an out-of-this-world romance with a ghost that is believed to be living in the Belcher's basement.",
+   "ep_index": 68
+  },
+  {
+   "start": "20261011183700 +0000",
+   "stop": "20261011185900 +0000",
+   "title": "Bob's Burgers: S05E03 - Friends with Burger-fits",
+   "desc": "Teddy's health is a cause for concern. So he and Bob attend a bootcamp. The kids come up with a new sport to play in the walk-in refrigerator.",
+   "ep_index": 69
+  },
+  {
+   "start": "20261011185900 +0000",
+   "stop": "20261011192100 +0000",
+   "title": "Bob's Burgers: S05E04 - Dawn of the Peck",
+   "desc": "While Bob is boycotting the holiday, Linda and the kids spend Thanksgiving at the First Annual Fischoeder Turk-tacular Turkey Town Festival. However, a wild bird attack leads to total mayhem.",
+   "ep_index": 70
+  },
+  {
+   "start": "20261011192100 +0000",
+   "stop": "20261011194300 +0000",
+   "title": "Bob's Burgers: S05E05 - Best Burger",
+   "desc": "Bob enters a burger-making contest, only to discover that his distinguishing ingredient is missing! To help out their dad, the kids go on a mission to find the ever-so-important black garlic.",
+   "ep_index": 71
+  },
+  {
+   "start": "20261011194300 +0000",
+   "stop": "20261011200500 +0000",
+   "title": "Bob's Burgers: S05E06 - Father of the Bob",
+   "desc": "Bob and his dad, \"Big Bob\", try to outdo each other in the kitchen when they rehash an old argument at Big Bob's Christmas party. Meanwhile, the kids compete to get the best present for Bob.",
+   "ep_index": 72
+  },
+  {
+   "start": "20261011200500 +0000",
+   "stop": "20261011202700 +0000",
+   "title": "Bob's Burgers: S05E07 - Tina Tailor Soldier Spy",
+   "desc": "Tina goes undercover in her old Thundergirls troop to find the mole who is giving away their cookie secrets. Meanwhile, Linda dyes her hair blonde.",
+   "ep_index": 73
+  },
+  {
+   "start": "20261011202700 +0000",
+   "stop": "20261011204900 +0000",
+   "title": "Bob's Burgers: S05E08 - Midday Run",
+   "desc": "Who runs the halls? Tina! When Tina is up for a hall monitor promotion, she's determined to do whatever it takes to nab the powerful job.",
+   "ep_index": 74
+  },
+  {
+   "start": "20261011204900 +0000",
+   "stop": "20261011211100 +0000",
+   "title": "Bob's Burgers: S05E09 - Speakeasy Rider",
+   "desc": "Tina, Gene and Louise are ready to put the pedal to the metal when they join a go-kart league. Meanwhile, back at the restaurant Bob and Teddy partner up to serve Teddy's home-brewed beer on the sly.",
+   "ep_index": 75
+  },
+  {
+   "start": "20261011211100 +0000",
+   "stop": "20261011213300 +0000",
+   "title": "Bob's Burgers: S05E10 - Late Afternoon in the Garden of Bob and Louise",
+   "desc": "Bob agrees to give Logan a job at the restaurant in exchange for a plot at the local community garden.",
+   "ep_index": 76
+  },
+  {
+   "start": "20261011213300 +0000",
+   "stop": "20261011215500 +0000",
+   "title": "Bob's Burgers: S05E11 - Can't Buy Me Math",
+   "desc": "Tina teams up with Darryl to win the Cupid's Couple contest at the school dance. Meanwhile, Linda plans a full week of ambitious Valentine's Day activities for her and Bob.",
+   "ep_index": 77
+  },
+  {
+   "start": "20261011215500 +0000",
+   "stop": "20261011221700 +0000",
+   "title": "Bob's Burgers: S05E12 - The Millie-churian Candidate",
+   "desc": "Tina and Louise volunteer to run Jimmy Junior's class president campaign in order to keep Millie from winning, and ruining the school. Meanwhile, Bob becomes obsessed with a knife after talking himsel",
+   "ep_index": 78
+  },
+  {
+   "start": "20261011221700 +0000",
+   "stop": "20261011223900 +0000",
+   "title": "Bob's Burgers: S05E13 - The Gayle Tales",
+   "desc": "Gayle arrives at Bob's Burgers in tears because her date for the evening was cancelled and she had theater tickets. Desperate to get out of the house after being grounded, the kids compete to be Aunt ",
+   "ep_index": 79
+  },
+  {
+   "start": "20261011223900 +0000",
+   "stop": "20261011230100 +0000",
+   "title": "Bob's Burgers: S05E14 - L'il Hard Dad",
+   "desc": "Bob becomes obsessed with his new automatic helicopter. When it falls apart for no reason, he enters into a battle with the manufacturer in order to receive a refund. Gene assists Bob in his quest, bu",
+   "ep_index": 80
+  },
+  {
+   "start": "20261011230100 +0000",
+   "stop": "20261011232300 +0000",
+   "title": "Bob's Burgers: S05E15 - Adventures in Chinchilla-sitting",
+   "desc": "Bob and Linda head out on the town for a date - but to Linda's dismay, Bob's idea of romance proves \"trivial.\" Meanwhile, a wild chinchilla chase ensues after the school pet that Louise was charged wi",
+   "ep_index": 81
+  },
+  {
+   "start": "20261011232300 +0000",
+   "stop": "20261011234500 +0000",
+   "title": "Bob's Burgers: S05E16 - The Runway Club",
+   "desc": "The kids are sentenced to Saturday detention and will do anything it takes to leave early, so they can attend the Cotton Candy Festival. Meanwhile, Bob and Linda believe they are being scammed by a yo",
+   "ep_index": 82
+  },
+  {
+   "start": "20261011234500 +0000",
+   "stop": "20261012000700 +0000",
+   "title": "Bob's Burgers: S05E17 - Itty Bitty Ditty Committee",
+   "desc": "Gene starts a band with Tina, Louise, Rudy, Peter and Daryl, only to be kicked out and left on his own. After declaring that he will never play his Casio again, Tina and Louise join forces to help Gen",
+   "ep_index": 83
+  },
+  {
+   "start": "20261012000700 +0000",
+   "stop": "20261012002900 +0000",
+   "title": "Bob's Burgers: S05E18 - Eat, Spray, Linda",
+   "desc": "It's Linda's birthday and Bob needs more time to plan her birthday surprise. But when he sends her out of the house as a distraction, she goes missing! Mayhem ensues as the Belchers must work together",
+   "ep_index": 84
+  },
+  {
+   "start": "20261012002900 +0000",
+   "stop": "20261012005100 +0000",
+   "title": "Bob's Burgers: S05E19 - Housetrap",
+   "desc": "In true Belcher fashion, the family gets stuck in a terrible storm while vacationing at a beach house in Craggy Neck. The storm is the least of their worries, however, when they are forced to take she",
+   "ep_index": 85
+  },
+  {
+   "start": "20261012005100 +0000",
+   "stop": "20261012011300 +0000",
+   "title": "Bob's Burgers: S05E20 - Hawk & Chick",
+   "desc": "Bob and Louise are thrilled when they meet Hawk, the star of their favorite martial arts series, and are quick to offer help upon learning about his family troubles.",
+   "ep_index": 86
+  },
+  {
+   "start": "20261012011300 +0000",
+   "stop": "20261012013500 +0000",
+   "title": "Bob's Burgers: S05E21 - The Oeder Games",
+   "desc": "With the threat of a rent increase on Ocean Avenue, Bob and the other tenants rebel! After approaching Fischoeder, the tenants find out that they will have to compete in order to convince him to keep ",
+   "ep_index": 87
+  },
+  {
+   "start": "20261012013500 +0000",
+   "stop": "20261012015700 +0000",
+   "title": "Bob's Burgers: S06E01 - Sliding Bobs",
+   "desc": "Bob notices that he has started to lose his hair. In a wave of nostalgia, Linda reminisces about Bob\u2019s mustache and how it made her fall for him years ago. Meanwhile, the kids tell their own versions ",
+   "ep_index": 88
+  },
+  {
+   "start": "20261012015700 +0000",
+   "stop": "20261012021900 +0000",
+   "title": "Bob's Burgers: S06E02 - The Land Ship",
+   "desc": "The upcoming Land Ship parade could mean increased business for Bob, until he learns that two port-o-potties will be placed in front the restaurant. Meanwhile, Tina learns from her friends that she\u2019s ",
+   "ep_index": 89
+  },
+  {
+   "start": "20261012021900 +0000",
+   "stop": "20261012024100 +0000",
+   "title": "Bob's Burgers: S06E03 - The Hauntening",
+   "desc": "The Belchers are ready for an amazing Halloween! Louise reveals that she has never been scared before and the family sets out to visit a spooky haunted house. When trouble ensues following their visit",
+   "ep_index": 90
+  },
+  {
+   "start": "20261012024100 +0000",
+   "stop": "20261012030300 +0000",
+   "title": "Bob's Burgers: S06E04 - Gayle Makin' Bob Sled",
+   "desc": "When Gayle is injured, Linda sends Bob off to pick her up, so that she doesn't miss out on Thanksgiving festivities. But an unexpected snowstorm derails his trip home, and his epic plan to prepare the",
+   "ep_index": 91
+  },
+  {
+   "start": "20261012030300 +0000",
+   "stop": "20261012032500 +0000",
+   "title": "Bob's Burgers: S06E05 - Nice-Capades",
+   "desc": "When a grumpy mall Santa threatens the kids with the dreaded Naughty List, Gene, Tina and Louise decide to put on a musical performance spectacular to earn their spot on the Nice List. Can they change",
+   "ep_index": 92
+  },
+  {
+   "start": "20261012032500 +0000",
+   "stop": "20261012034700 +0000",
+   "title": "Bob's Burgers: S06E06 - The Cook, the Steve, the Gayle, & Her Lover",
+   "desc": "When Bob throws a dinner party to bond with his new friend, Gayle uses the opportunity to introduce the family to her new love interest. Little does she know, Louise has a long-standing feud with Gayl",
+   "ep_index": 93
+  },
+  {
+   "start": "20261012034700 +0000",
+   "stop": "20261012040900 +0000",
+   "title": "Bob's Burgers: S06E07 - The Gene and Courtney Show",
+   "desc": "Gene and Courtney get their big break when they are asked to be the new hosts of the morning announcements, but their romantic history threatens to get in the way. Meanwhile, Tina's attempt to play Cu",
+   "ep_index": 94
+  },
+  {
+   "start": "20261012040900 +0000",
+   "stop": "20261012043100 +0000",
+   "title": "Bob's Burgers: S06E08 - Sexy Dance Healing",
+   "desc": "After Bob slips on the sidewalk, he is forced to take legal action in order to pay for surgery. In a turn of events, Bob finds himself under the care of Jairo, who promises to help him heal without a ",
+   "ep_index": 95
+  },
+  {
+   "start": "20261012043100 +0000",
+   "stop": "20261012045300 +0000",
+   "title": "Bob's Burgers: S06E09 - Sacred Couch",
+   "desc": "After a family vote rules against buying a new couch during TV Night, Louise takes matters into her own hands. The Belchers take sides as they are forced to decide whether memories are enough to keep ",
+   "ep_index": 96
+  },
+  {
+   "start": "20261012045300 +0000",
+   "stop": "20261012051500 +0000",
+   "title": "Bob's Burgers: S06E10 - Lice Things Are Lice",
+   "desc": "When Tina volunteers alongside Nurse Liz, she finds herself involved in the biggest scandal to hit Wagstaff: a lice infestation. Meanwhile, Bob makes improvements to the restaurant that end up driving",
+   "ep_index": 97
+  },
+  {
+   "start": "20261012051500 +0000",
+   "stop": "20261012053700 +0000",
+   "title": "Bob's Burgers: S06E11 - House of 1000 Bounces",
+   "desc": "When there is a bounce house crisis at Regular Sized Rudy\u2019s birthday party, the Belcher kids devise a scheme to save the day. Meanwhile, Bob deals with an unexpected guest at the restaurant and is for",
+   "ep_index": 98
+  },
+  {
+   "start": "20261012053700 +0000",
+   "stop": "20261012055900 +0000",
+   "title": "Bob's Burgers: S06E12 - Stand By Gene",
+   "desc": "When Gene overhears talk about a mystical creature that lives nearby, he leads the Belcher kids and their friends on a journey to find it. Meanwhile, Linda's competitive nature takes over during downt",
+   "ep_index": 99
+  },
+  {
+   "start": "20261012055900 +0000",
+   "stop": "20261012062100 +0000",
+   "title": "Bob's Burgers: S06E13 - Wag the Hog",
+   "desc": "When Bob's longtime friend, Critter, finds himself in jail for unpaid parking tickets, the Belchers decide to do what they can to help him out. Meanwhile, Linda takes on a babysitting job that becomes",
+   "ep_index": 100
+  },
+  {
+   "start": "20261012062100 +0000",
+   "stop": "20261012064300 +0000",
+   "title": "Bob's Burgers: S06E14 - The Hormone-iums",
+   "desc": "When Dottie Minerva comes down with a bad case of mono, Tina gets her shot as soloist of the Hormone-iums. But as she rehearses for the big assembly, Tina realizes that her role in the play could ruin",
+   "ep_index": 101
+  },
+  {
+   "start": "20261012064300 +0000",
+   "stop": "20261012070500 +0000",
+   "title": "Bob's Burgers: S06E15 - Pro Tiki/Con Tiki",
+   "desc": "When Bob's friend, Warren, comes to town, he makes an offer to invest in the restaurant. Bob is thrilled that it finally could get a much-needed makeover, until he learns that Warren has some strong i",
+   "ep_index": 102
+  },
+  {
+   "start": "20261012070500 +0000",
+   "stop": "20261012072700 +0000",
+   "title": "Bob's Burgers: S06E16 - Bye Bye Boo Boo",
+   "desc": "When Louise hears that Boo Boo is leaving Boyz 4 Now, she enters a contest that could give Tina the chance to meet him. Meanwhile, Bob and Linda learn an interesting piece of history regarding the res",
+   "ep_index": 103
+  },
+  {
+   "start": "20261012072700 +0000",
+   "stop": "20261012074900 +0000",
+   "title": "Bob's Burgers: S06E17 - The Horse Rider-er",
+   "desc": "After finally convincing Bob and Linda to send her to horse camp, Tina realizes she has to part ways with Jericho, her imaginary horse. Meanwhile, Linda decides to create a restaurant camp in an attem",
+   "ep_index": 104
+  },
+  {
+   "start": "20261012074900 +0000",
+   "stop": "20261012081100 +0000",
+   "title": "Bob's Burgers: S06E18 - Secret Admiral-irer",
+   "desc": "Tina's ideas of love and romance are tested and Bob makes new friends.",
+   "ep_index": 105
+  },
+  {
+   "start": "20261012081100 +0000",
+   "stop": "20261012083300 +0000",
+   "title": "Bob's Burgers: S06E19 - Glued, Where's My Bob?",
+   "desc": "Bob gets glued to the toilet in the restaurant as a result of a prank gone wrong by the kids.",
+   "ep_index": 106
+  },
+  {
+   "start": "20261012083300 +0000",
+   "stop": "20261012085500 +0000",
+   "title": "Bob's Burgers: S07E01 - Flu-ouise",
+   "desc": "When the youngest Belcher comes down with an epic case of the flu, Linda has a mishap as she tries to deliver Louise's favorite toy to her daughter's bedside. After Louise vows that she will never for",
+   "ep_index": 107
+  },
+  {
+   "start": "20261012085500 +0000",
+   "stop": "20261012091700 +0000",
+   "title": "Bob's Burgers: S07E02 - Sea Me Now",
+   "desc": "Teddy tries to impress his ex-wife by organizing a day trip on his newly refurbished boat; Tina attempts to prove she's responsible enough to have a cellphone by taking care of Bob's prized eraser.",
+   "ep_index": 108
+  },
+  {
+   "start": "20261012091700 +0000",
+   "stop": "20261012093900 +0000",
+   "title": "Bob's Burgers: S07E03 - Teen-A-Witch",
+   "desc": "With Halloween quickly approaching, Tina reveals her brilliant idea that will finally win her first place in the annual costume contest. When Tammy steals her idea, Tina is forced to seek the help of ",
+   "ep_index": 109
+  },
+  {
+   "start": "20261012093900 +0000",
+   "stop": "20261012100100 +0000",
+   "title": "Bob's Burgers: S07E04 - They Serve Horses, Don't They?",
+   "desc": "The Belchers find themselves involved in a full-blown investigation after Bob secures a new meat provider.",
+   "ep_index": 110
+  },
+  {
+   "start": "20261012100100 +0000",
+   "stop": "20261012102300 +0000",
+   "title": "Bob's Burgers: S07E05 - Larger Brother, Where Fart Thou?",
+   "desc": "When Tina has a mishap that lands her in detention, Bob and Linda don't have a babysitter for their other kids, forcing them to let Gene and Louise stay at home alone. With the house to themselves, th",
+   "ep_index": 111
+  },
+  {
+   "start": "20261012102300 +0000",
+   "stop": "20261012104500 +0000",
+   "title": "Bob's Burgers: S07E06 - The Quirk-ducers",
+   "desc": "When Mr. Frond\u2019s annual play threatens to ruin the half day before Thanksgiving, Gene and Louise decide they need to sabotage it in order to save their long weekend. Unknowingly, Tina provides her hol",
+   "ep_index": 112
+  },
+  {
+   "start": "20261012104500 +0000",
+   "stop": "20261012110700 +0000",
+   "title": "Bob's Burgers: S07E07 - The Last Gingerbread House on the Left",
+   "desc": "As the Belchers prepare for Christmas, Bob gets an unexpected call from Mr. Fischoeder asking him to bring food to a party at his home. When Bob arrives, he discovers that he has gotten involved in an",
+   "ep_index": 113
+  },
+  {
+   "start": "20261012110700 +0000",
+   "stop": "20261012112900 +0000",
+   "title": "Bob's Burgers: S07E08 - Ex Mach Tina",
+   "desc": "After hurting her ankle, Tina enrolls in a program that enables her send a robot of herself to school and the robot gives her an unexpected breakthrough with Jimmy Jr.",
+   "ep_index": 114
+  },
+  {
+   "start": "20261012112900 +0000",
+   "stop": "20261012115100 +0000",
+   "title": "Bob's Burgers: S07E09 - Bob Actually",
+   "desc": "With Valentine's Day approaching, Tina, Gene and Louise each find themselves wrapped up in love-caused chaos. Meanwhile, Bob decides on a romantic gesture in order to impress Linda.",
+   "ep_index": 115
+  },
+  {
+   "start": "20261012115100 +0000",
+   "stop": "20261012121300 +0000",
+   "title": "Bob's Burgers: S07E10 - There's No Business Like Mr. Business Business",
+   "desc": "When Gayle's cat, Mr. Business, secures pet agent Ian Amberson, Bob finds out that Linda may have been helping to fund the cat's career. Ever the skeptic, Bob is prepared to shut it down, but learns t",
+   "ep_index": 116
+  },
+  {
+   "start": "20261012121300 +0000",
+   "stop": "20261012123500 +0000",
+   "title": "Bob's Burgers: S07E11 - A Few 'Gurt Men",
+   "desc": "Louise is put in a sticky situation when she must defend one of her biggest foes at Wagstaff during a mock-trial. Meanwhile, Bob works with Jimmy Pesto to out a regular food-scammer.",
+   "ep_index": 117
+  },
+  {
+   "start": "20261012123500 +0000",
+   "stop": "20261012125700 +0000",
+   "title": "Bob's Burgers: S07E12 - Like Gene for Chocolate",
+   "desc": "When Gene learns that the formula for his favorite chocolate has changed, he works with the head of the company in an attempt to remedy the situation. Meanwhile, Bob gets wrapped up in one of Teddy's ",
+   "ep_index": 118
+  },
+  {
+   "start": "20261012125700 +0000",
+   "stop": "20261012131900 +0000",
+   "title": "Bob's Burgers: S07E13 - The Grand Mama-Pest Hotel",
+   "desc": "Linda jumps at the chance to chaperone Tina's weekend away at a heroine conference, but Tina's new friend could put Linda's perfect weekend in jeopardy. Meanwhile, the younger Belchers have plans for ",
+   "ep_index": 119
+  },
+  {
+   "start": "20261012131900 +0000",
+   "stop": "20261012134100 +0000",
+   "title": "Bob's Burgers: S07E14 - Aquaticism",
+   "desc": "When Tina learns that the aquarium is in danger of closing, the Belcher children devise a scheme to keep it running. Meanwhile, Bob realizes that he could learn a thing or two from Linda's customer se",
+   "ep_index": 120
+  },
+  {
+   "start": "20261012134100 +0000",
+   "stop": "20261012140300 +0000",
+   "title": "Bob's Burgers: S07E15 - Ain't Miss Debatin'",
+   "desc": "When Tina is recruited by the debate team, she finds unexpected success and an even more unexpected relationship. Meanwhile, Louise and Gene convince their parents to help fund a stop-motion movie foc",
+   "ep_index": 121
+  },
+  {
+   "start": "20261012140300 +0000",
+   "stop": "20261012142500 +0000",
+   "title": "Bob's Burgers: S07E16 - Eggs for Days",
+   "desc": "The annual Easter egg hunt always brings out the competitive sides of Bob and Linda, but this time, the game goes awry. After the Belcher parents have a little too much fun hiding the eggs, the entire",
+   "ep_index": 122
+  },
+  {
+   "start": "20261012142500 +0000",
+   "stop": "20261012144700 +0000",
+   "title": "Bob's Burgers: S07E17 - Zero Larp Thirty",
+   "desc": "When Linda wins a contest to spend a dream weekend at the home where her favorite television show is filmed, things don't go quite as planned. Back at home, Teddy's back problems leave him stuck on th",
+   "ep_index": 123
+  },
+  {
+   "start": "20261012144700 +0000",
+   "stop": "20261012150900 +0000",
+   "title": "Bob's Burgers: S07E18 - The Laser-inth",
+   "desc": "Gene accompanies Bob on the last-ever rock-and-roll laser show at the planetarium, but the night takes an unexpected turn. Meanwhile, Linda takes the girls out for dinner and Louise has a surprise rev",
+   "ep_index": 124
+  },
+  {
+   "start": "20261012150900 +0000",
+   "stop": "20261012153100 +0000",
+   "title": "Bob's Burgers: S07E19 - Thelma & Louise Except Thelma is Linda",
+   "desc": "After Louise gets in trouble at school, Linda is forced to meet with Mr. Frond and potentially could lose her hard-earned position as the Wagstaff bake sale leader. When she finds out that her daughte",
+   "ep_index": 125
+  },
+  {
+   "start": "20261012153100 +0000",
+   "stop": "20261012155300 +0000",
+   "title": "Bob's Burgers: S07E20 - Mom, Lies and Videotapes",
+   "desc": "Linda comes down with a nasty cold just in time for the Mother\u2019s Day show at Wagstaff.",
+   "ep_index": 126
+  },
+  {
+   "start": "20261012155300 +0000",
+   "stop": "20261012161500 +0000",
+   "title": "Bob's Burgers: S07E21 - Paraders of the Lost Float",
+   "desc": "Teddy tries to persuade Bob to participate in the float contest for a supposedly easy victory.",
+   "ep_index": 127
+  },
+  {
+   "start": "20261012161500 +0000",
+   "stop": "20261012163700 +0000",
+   "title": "Bob's Burgers: S07E22 - Into the Mild",
+   "desc": "When Bob discovers that an outdoor specialty store is going out of business, he tries to live his dream of being an outdoorsman.",
+   "ep_index": 128
+  },
+  {
+   "start": "20261012163700 +0000",
+   "stop": "20261012165900 +0000",
+   "title": "Bob's Burgers: S08E01 - Brunchsquatch",
+   "desc": "To compete with Jimmy Pesto, Bob's Burgers begins serving brunch, but it quickly turns to chaos. Meanwhile, Tina, Gene and Louise decide to help Mr. Fischoeder's brother hide from him.",
+   "ep_index": 129
+  },
+  {
+   "start": "20261012165900 +0000",
+   "stop": "20261012172100 +0000",
+   "title": "Bob's Burgers: S08E02 - The Silence of the Louise",
+   "desc": "When Mr. Frond's therapy dolls are mysteriously attacked, Louise teams up with Millie to help solve the case. Meanwhile, Teddy decides to get into the inspirational poster business, but ends up with m",
+   "ep_index": 130
+  },
+  {
+   "start": "20261012172100 +0000",
+   "stop": "20261012174300 +0000",
+   "title": "Bob's Burgers: S08E03 - The Wolf of Wharf Street",
+   "desc": "On Halloween night, Linda tries to impress the kids by taking them to look for a wolf that has been terrorizing the town. Meanwhile, an injured and medicated Bob believes that Teddy has turned into a ",
+   "ep_index": 131
+  },
+  {
+   "start": "20261012174300 +0000",
+   "stop": "20261012180500 +0000",
+   "title": "Bob's Burgers: S08E04 - Sit Me Baby One More Time",
+   "desc": "When Tina launches a babysitting enterprise, it is quickly derailed after her business nemesis, Tammy, is hired to work alongside her. Meanwhile, Bob and Linda check out their competition at a restaur",
+   "ep_index": 132
+  },
+  {
+   "start": "20261012180500 +0000",
+   "stop": "20261012182700 +0000",
+   "title": "Bob's Burgers: S08E05 - Thanks-hoarding",
+   "desc": "The Belchers reluctantly agree to help Teddy when his family unexpectedly tells him that they will be coming to see him on Thanksgiving.",
+   "ep_index": 133
+  },
+  {
+   "start": "20261012182700 +0000",
+   "stop": "20261012184900 +0000",
+   "title": "Bob's Burgers: S08E06 - The Bleakening (1)",
+   "desc": "Linda hopes to add some extra cheer around the neighborhood by hosting a party at the restaurant.",
+   "ep_index": 134
+  },
+  {
+   "start": "20261012184900 +0000",
+   "stop": "20261012191100 +0000",
+   "title": "Bob's Burgers: S08E07 - The Bleakening (2)",
+   "desc": "Linda is determined to host a party at the restaurant, in an effort to spread a little extra cheer around the neighborhood. But when she realizes that her prized ornaments have been stolen, she quickl",
+   "ep_index": 135
+  },
+  {
+   "start": "20261012191100 +0000",
+   "stop": "20261012193300 +0000",
+   "title": "Bob's Burgers: S08E08 - V for Valentine-detta",
+   "desc": "After a rough break up on Valentine's Day, the Belcher women have a limo girls' night out to make Tina feel better. Meanwhile, Bob and Gene have a trapeze experience that brings them closer.",
+   "ep_index": 136
+  },
+  {
+   "start": "20261012193300 +0000",
+   "stop": "20261012195500 +0000",
+   "title": "Bob's Burgers: S08E09 - Y Tu Ga-Ga Tambien",
+   "desc": "When a new playground game is introduced, the school's social hierarchy is turned upside-down and Gene disapproves. Meanwhile, Linda fills in for the local library storyteller and pulls out all the st",
+   "ep_index": 137
+  },
+  {
+   "start": "20261012195500 +0000",
+   "stop": "20261012201700 +0000",
+   "title": "Bob's Burgers: S08E10 - The Secret Ceramics Room of Secrets",
+   "desc": "When the kids are given the task of making homemade gifts for their grandma's birthday, they set out to find a secret room filled with homemade ceramics which, according to urban legend, has been boar",
+   "ep_index": 138
+  },
+  {
+   "start": "20261012201700 +0000",
+   "stop": "20261012203900 +0000",
+   "title": "Bob's Burgers: S08E11 - Sleeping with the Frenemy",
+   "desc": "Tina allows Tammy to spend Spring Break with the Belchers - and even plays Cupid, setting up Tammy with Brett, a boy from out of town. Then, Gene and Bob enlist the help of Dr. Yap in finding a replac",
+   "ep_index": 139
+  },
+  {
+   "start": "20261012203900 +0000",
+   "stop": "20261012210100 +0000",
+   "title": "Bob's Burgers: S08E12 - The Hurt Soccer",
+   "desc": "After forgetting that they signed up Louise for a soccer league, the Belchers must help her prepare to play in the season's last game. With Bob coaching the soccer game, Linda and Gene seize the oppor",
+   "ep_index": 140
+  },
+  {
+   "start": "20261012210100 +0000",
+   "stop": "20261012212300 +0000",
+   "title": "Bob's Burgers: S08E13 - Cheer Up, Sleepy Gene",
+   "desc": "Gene gets invited to his first sleepover and is nervous about it, and when things don't go as planned, he realizes he had a right to be. Meanwhile, Bob and Linda record themselves while sleeping to pr",
+   "ep_index": 141
+  },
+  {
+   "start": "20261012212300 +0000",
+   "stop": "20261012214500 +0000",
+   "title": "Bob's Burgers: S08E14 - The Trouble with Doubles",
+   "desc": "Bob and Linda's double-date plans take a disastrous turn when the couples find themselves trapped inside an Escape Room. Meanwhile, with the parents out of the house, Louise hosts a zombie-movie night",
+   "ep_index": 142
+  },
+  {
+   "start": "20261012214500 +0000",
+   "stop": "20261012220700 +0000",
+   "title": "Bob's Burgers: S08E15 - Go Tina on the Mountain",
+   "desc": "The Belcher kids go to Outdoor Education only to have it rain, but Tina doesn't let the inclement weather get in the way of her having a nature-piphany, with the help of a hermit living in the woods. ",
+   "ep_index": 143
+  },
+  {
+   "start": "20261012220700 +0000",
+   "stop": "20261012222900 +0000",
+   "title": "Bob's Burgers: S08E16 - Are You There Bob? It's Me, Birthday",
+   "desc": "After forgetting Bob's birthday, Linda and the kids attempt to plan a last-minute surprise party. In order to plan the party though, Linda asks Hugo if Bob can go with him while he's doing restaurant ",
+   "ep_index": 144
+  },
+  {
+   "start": "20261012222900 +0000",
+   "stop": "20261012225100 +0000",
+   "title": "Bob's Burgers: S08E17 - Boywatch",
+   "desc": "Tina decides to join the Junior Lifeguards, but when she struggles with the training, one of her fellow junior guards, Parker, tries to convince her to quit. Meanwhile, business booms when Bob and Lin",
+   "ep_index": 145
+  },
+  {
+   "start": "20261012225100 +0000",
+   "stop": "20261012231300 +0000",
+   "title": "Bob's Burgers: S08E18 - As I Walk Through the Alley of the Shadow of Ramps",
+   "desc": "When a malicious juice truck owner tries to set up shop in the Belcher's alley, Louise devises a plan to win back their turf. Meanwhile, Linda learns that she can't always run to her sister's defense.",
+   "ep_index": 146
+  },
+  {
+   "start": "20261012231300 +0000",
+   "stop": "20261012233500 +0000",
+   "title": "Bob's Burgers: S08E19 - Mo Mommy Mo Problems",
+   "desc": "The Belchers attend open houses for the free food, per Linda's \"momnipotent\" Mother's Day request. When Linda meets a charming real estate agent and agrees to a private showing, the kids stumble upon ",
+   "ep_index": 147
+  },
+  {
+   "start": "20261012233500 +0000",
+   "stop": "20261012235700 +0000",
+   "title": "Bob's Burgers: S08E20 - Mission Impos-slug-ble",
+   "desc": "When Louise's extensive Burobu card collection gets confiscated at school, she devises a tricky plan to get them back. Meanwhile, Bob must give a eulogy for an old acquaintance, despite an unfortunate",
+   "ep_index": 148
+  },
+  {
+   "start": "20261012235700 +0000",
+   "stop": "20261013001900 +0000",
+   "title": "Bob's Burgers: S08E21 - Something Old, Something New, Something Bob Caters for You",
+   "desc": "Just as Bob wonders if working in the restaurant business is worth it, a couple who fell in love at the restaurant asks the Belchers to cater their wedding. When things don't go as planned, Linda trie",
+   "ep_index": 149
+  },
+  {
+   "start": "20261013001900 +0000",
+   "stop": "20261013004100 +0000",
+   "title": "Bob's Burgers: S09E01 - Just One of the Boyz 4 Now for Now",
+   "desc": "Convinced she's met the love of her life, Tina decides to disguise herself as a boy and sneak into the Boyz 4 Now auditions to find him. Back at the restaurant, Teddy asks the rest of the Belcher gang",
+   "ep_index": 150
+  },
+  {
+   "start": "20261013004100 +0000",
+   "stop": "20261013010300 +0000",
+   "title": "Bob's Burgers: S09E02 - The Taking of Funtime One Two Three",
+   "desc": "Desperate for the grand prize dune buggy at their local arcade, Louise, Tina and Gene devise a master plan, with the help of Mr. Fischoeder. Meanwhile, Teddy manages to convince Bob and Linda to take ",
+   "ep_index": 151
+  },
+  {
+   "start": "20261013010300 +0000",
+   "stop": "20261013012500 +0000",
+   "title": "Bob's Burgers: S09E03 - Tweentrepreneurs",
+   "desc": "Tina, Louise, and Gene get a taste of business when they join the school's Tweentrepeneurs club. Back at the restaurant, Bob and Linda find themselves outsmarted by a dine-and-dasher.",
+   "ep_index": 152
+  },
+  {
+   "start": "20261013012500 +0000",
+   "stop": "20261013014700 +0000",
+   "title": "Bob's Burgers: S09E04 - Nightmare on Ocean Avenue Street",
+   "desc": "The kids set out for their regular Halloween shenanigans, but when everyone's candy bags start mysteriously disappearing, it's up to Tina, Louise, and Gene to find the culprit. Meanwhile, Teddy decora",
+   "ep_index": 153
+  },
+  {
+   "start": "20261013014700 +0000",
+   "stop": "20261013020900 +0000",
+   "title": "Bob's Burgers: S09E05 - Live and Let Fly",
+   "desc": "The kids learn the dangers of revenge when their plan to get back at the school guidance counselor gets them entangled in a deep rooted sibling rivalry between two pilots. Meanwhile, Linda and Bob put",
+   "ep_index": 154
+  },
+  {
+   "start": "20261013020900 +0000",
+   "stop": "20261013023100 +0000",
+   "title": "Bob's Burgers: S09E06 - Bobby Driver",
+   "desc": "Bob agrees to drive professional quilter Edith around town, after she convinces him to join in a plot for revenge. Meanwhile, the kids attend a lavish \"Gatsby\"-themed birthday party, and Linda helps T",
+   "ep_index": 155
+  },
+  {
+   "start": "20261013023100 +0000",
+   "stop": "20261013025300 +0000",
+   "title": "Bob's Burgers: S09E07 - I Bob Your Pardon",
+   "desc": "The Belchers set out to save a turkey from a trip to the slaughterhouse, but when a local reporter catches wind of their schemes, the mission becomes more complicated than they had anticipated.",
+   "ep_index": 156
+  },
+  {
+   "start": "20261013025300 +0000",
+   "stop": "20261013031500 +0000",
+   "title": "Bob's Burgers: S09E08 - Roller? I Hardly Know Her!",
+   "desc": "Gene is livid when his best friend, Alex, ditches him to be Courtney's roller-dancing partner. Meanwhile, Teddy, Linda and Bob let their imaginations get the best of them when they discover someone st",
+   "ep_index": 157
+  },
+  {
+   "start": "20261013031500 +0000",
+   "stop": "20261013033700 +0000",
+   "title": "Bob's Burgers: S09E09 - UFO No You Didn't",
+   "desc": "Tina and her new science partner create a device that allows them to communicate with aliens, but their excitement turns to fear when they receive a dangerous warning message. Meanwhile, Bob attempts ",
+   "ep_index": 158
+  },
+  {
+   "start": "20261013033700 +0000",
+   "stop": "20261013035900 +0000",
+   "title": "Bob's Burgers: S09E10 - Better Off Sled",
+   "desc": "The battle is on when some angsty teenagers take over Louise, Gene and Tina's usual sledding territory, inciting an epic turf war. Meanwhile, Bob steps in to help Linda, who's in a time crunch to get ",
+   "ep_index": 159
+  },
+  {
+   "start": "20261013035900 +0000",
+   "stop": "20261013042100 +0000",
+   "title": "Bob's Burgers: S09E11 - Lorenzo's Oil? No, Linda's",
+   "desc": "Linda's new friend introduces her to essential oils and Aunt Gayle is convinced she must be rescued. Meanwhile, Bob and Teddy are bamboozled into performing a series of annoying favors for Mr. Huggins",
+   "ep_index": 160
+  },
+  {
+   "start": "20261013042100 +0000",
+   "stop": "20261013044300 +0000",
+   "title": "Bob's Burgers: S09E12 - The Helen Hunt",
+   "desc": "The Belchers make it their mission to help Teddy get his dream girl, but Tina is convinced she's found a better match for him.",
+   "ep_index": 161
+  },
+  {
+   "start": "20261013044300 +0000",
+   "stop": "20261013050500 +0000",
+   "title": "Bob's Burgers: S09E13 - Bed, Bob & Beyond",
+   "desc": "A Valentine's Day fight between Bob and Linda has the kids feeling confused. After a failed attempt to see a movie, it's up to Tina, Louise and Gene to tell their own story as a distraction from the a",
+   "ep_index": 162
+  },
+  {
+   "start": "20261013050500 +0000",
+   "stop": "20261013052700 +0000",
+   "title": "Bob's Burgers: S09E14 - Every Which Way But Goose",
+   "desc": "Tina, discouraged by not being asked to prom by Jimmy Jr., forms an unhealthy attachment to a goose from the nearby park. Meanwhile, Linda joins a dating app to help Gretchen find a match.",
+   "ep_index": 163
+  },
+  {
+   "start": "20261013052700 +0000",
+   "stop": "20261013054900 +0000",
+   "title": "Bob's Burgers: S09E15 - The Fresh Princ-ipal",
+   "desc": "Things get out of hand when Louise wins a contest to be Principal for a Day. Meanwhile, Teddy attempts to help Bob when he suddenly finds himself unable to flip burgers",
+   "ep_index": 164
+  },
+  {
+   "start": "20261013054900 +0000",
+   "stop": "20261013061100 +0000",
+   "title": "Bob's Burgers: S09E16 - Roamin' Bob-iday",
+   "desc": "The family forces workaholic Bob to take a much-needed day off, only for him to wind up working at a local sandwich shop. Meanwhile, Linda and the kids throw a last minute baby shower at the restauran",
+   "ep_index": 165
+  },
+  {
+   "start": "20261013061100 +0000",
+   "stop": "20261013063300 +0000",
+   "title": "Bob's Burgers: S09E17 - What About Blob?",
+   "desc": "Gene convinces Tina and Louise to help him save a misunderstood plankton blob from being destroyed by a yacht club.",
+   "ep_index": 166
+  },
+  {
+   "start": "20261013063300 +0000",
+   "stop": "20261013065500 +0000",
+   "title": "Bob's Burgers: S09E18 - If You Love It So Much, Why Don't You Marionette?",
+   "desc": "The kids visit a marionette theater for a school field trip and Louise gets on the theater owner's bad side.",
+   "ep_index": 167
+  },
+  {
+   "start": "20261013065500 +0000",
+   "stop": "20261013071700 +0000",
+   "title": "Bob's Burgers: S09E19 - Long Time Listener, First Time Bob",
+   "desc": "Bob meets his personal hero - a renegade radio DJ who refuses to compromise. However, the Belchers get in over their heads when they try to help him stage a comeback.",
+   "ep_index": 168
+  },
+  {
+   "start": "20261013071700 +0000",
+   "stop": "20261013073900 +0000",
+   "title": "Bob's Burgers: S09E20 - The Gene Mile",
+   "desc": "When the kids have to run a mandatory mile for school on free-ice-cream-day, they hatch an elaborate plot to sneak away. Meanwhile, Bob and Linda frantically try to secure discount tickets to a show a",
+   "ep_index": 169
+  },
+  {
+   "start": "20261013073900 +0000",
+   "stop": "20261013080100 +0000",
+   "title": "Bob's Burgers: S09E21 - P.T.A. It Ain't So",
+   "desc": "Linda attempts to become more involved with the P.T.A., inspired by its seemingly perfect president, Joanne. Meanwhile, Bob tries to cheer up a hardware store owner after unknowingly making a joke abo",
+   "ep_index": 170
+  },
+  {
+   "start": "20261013080100 +0000",
+   "stop": "20261013082300 +0000",
+   "title": "Bob's Burgers: S09E22 - Yes Without My Zeke",
+   "desc": "When Zeke gets in trouble, the Belcher kids and Jimmy Jr. pitch in to help prevent him from being sent to a disciplinary school. However, Tina tries to thwart their mission, so she can have Jimmy Jr. ",
+   "ep_index": 171
+  },
+  {
+   "start": "20261013082300 +0000",
+   "stop": "20261013084500 +0000",
+   "title": "Bob's Burgers: S10E01 - The Ring (But Not Scary)",
+   "desc": "Bob's plan to surprise Linda for their anniversary gets tricky when the kids become involved.",
+   "ep_index": 172
+  },
+  {
+   "start": "20261013084500 +0000",
+   "stop": "20261013090700 +0000",
+   "title": "Bob's Burgers: S10E02 - Boys Just Wanna Have Fungus",
+   "desc": "Unable to afford a rare gourmet mushroom for a Burger of the Day, Bob and Gene jump into the cutthroat world of mushroom foraging. Meanwhile, Tina's powerful new prescription glasses lead her to belie",
+   "ep_index": 173
+  },
+  {
+   "start": "20261013090700 +0000",
+   "stop": "20261013092900 +0000",
+   "title": "Bob's Burgers: S10E03 - Motor, She Boat",
+   "desc": "Tina and Bob participate in the Thundergirls father-daughter cardboard boat race and Tina tries to hide her feelings about Bob's terrible boat-building skills. Meanwhile, Linda drags Louise and Gene t",
+   "ep_index": 174
+  },
+  {
+   "start": "20261013092900 +0000",
+   "stop": "20261013095100 +0000",
+   "title": "Bob's Burgers: S10E04 - Pig Trouble in Little Tina",
+   "desc": "Tina dissects a fetal pig in science class and things get spooky. Also, Bob and Linda do battle with a giant ball of ear wax.",
+   "ep_index": 175
+  },
+  {
+   "start": "20261013095100 +0000",
+   "stop": "20261013101300 +0000",
+   "title": "Bob's Burgers: S10E05 - Legends of the Mall",
+   "desc": "On a Belcher family trip to the mall, Tina is mistaken for a sleeping boy's girlfriend. Meanwhile, Gene and Louise are turned loose on motorized animals, Linda disrupts a book reading and Bob struggle",
+   "ep_index": 176
+  },
+  {
+   "start": "20261013101300 +0000",
+   "stop": "20261013103500 +0000",
+   "title": "Bob's Burgers: S10E06 - The Hawkening: Look Who's Hawking Now!",
+   "desc": "Bob and Louise are riding high, hosting an exclusive screening of a Hawk & Chick movie at the restaurant, until the actor who plays Hawk throws a wrench into the works, for his own mysterious reasons.",
+   "ep_index": 177
+  },
+  {
+   "start": "20261013103500 +0000",
+   "stop": "20261013105700 +0000",
+   "title": "Bob's Burgers: S10E07 - Land of the Loft",
+   "desc": "Bob and Linda challenge themselves and attend a loft party on a stormy night, while the kids challenge their babysitter, Jen, and face the storm in an ice cream truck.",
+   "ep_index": 178
+  },
+  {
+   "start": "20261013105700 +0000",
+   "stop": "20261013111900 +0000",
+   "title": "Bob's Burgers: S10E08 - Now We're Not Cooking With Gas",
+   "desc": "Bob is determined to do whatever it takes to cook a rare, heritage turkey after the gas goes out on Thanksgiving.",
+   "ep_index": 179
+  },
+  {
+   "start": "20261013111900 +0000",
+   "stop": "20261013114100 +0000",
+   "title": "Bob's Burgers: S10E09 - All That Gene",
+   "desc": "Gene auditions for a small role in a local theater production, but things backfire when he discovers that Linda actually bargained with the director to get Gene the part.",
+   "ep_index": 180
+  },
+  {
+   "start": "20261013114100 +0000",
+   "stop": "20261013120300 +0000",
+   "title": "Bob's Burgers: S10E10 - Have Yourself a Maily Linda Christmas",
+   "desc": "Linda works a temp job at the post office to make extra money for the holidays. But when an important package goes undelivered, Linda breaks protocol and takes it upon herself to save the day. Meanwhi",
+   "ep_index": 181
+  },
+  {
+   "start": "20261013120300 +0000",
+   "stop": "20261013122500 +0000",
+   "title": "Bob's Burgers: S10E11 - Drumforgiven",
+   "desc": "Gene gets kicked out of the Ocean Avenue Hifi Emporium, but Louise takes matters into her own hands to defend Gene's honor. Teddy takes a handyman job at Jimmy Pesto's restaurant and tries to hide it ",
+   "ep_index": 182
+  },
+  {
+   "start": "20261013122500 +0000",
+   "stop": "20261013124700 +0000",
+   "title": "Bob's Burgers: S10E12 - A Fish Called Tina",
+   "desc": "Tina goes too far trying to be a perfect mentor. Meanwhile, Bob and Linda test out the gym next door.",
+   "ep_index": 183
+  },
+  {
+   "start": "20261013124700 +0000",
+   "stop": "20261013130900 +0000",
+   "title": "Bob's Burgers: S10E13 - Three Girls and a Little Wharfy",
+   "desc": "Louise skeptically joins Jessica and fifth-grader Megan in their search for Wharfy, a mythical sea monster, while Bob takes an online master class by a world-renowned chef.",
+   "ep_index": 184
+  },
+  {
+   "start": "20261013130900 +0000",
+   "stop": "20261013133100 +0000",
+   "title": "Bob's Burgers: S10E14 - Wag the Song",
+   "desc": "Tina competes against Gene and Louise to write a new school song for Wagstaff but finds herself creatively stalled. Meanwhile, Bob and Linda battle blinding glare from Jimmy Pesto's new shiny steel aw",
+   "ep_index": 185
+  },
+  {
+   "start": "20261013133100 +0000",
+   "stop": "20261013135300 +0000",
+   "title": "Bob's Burgers: S10E15 - Yurty Rotten Scoundrels",
+   "desc": "When Gayle decides to host an artists' workshop in a yurt with only one attendee, Linda feels compelled to go to support her sister. Meanwhile, Louise and Gene lead a covert operation to find a lost c",
+   "ep_index": 186
+  },
+  {
+   "start": "20261013135300 +0000",
+   "stop": "20261013141500 +0000",
+   "title": "Bob's Burgers: S10E16 - Flat-Top O' the Morning to Ya",
+   "desc": "Bob and the kids help a down-on-his-luck restaurant owner, while Linda and Teddy get carried away with St. Patrick's Day festivities.",
+   "ep_index": 187
+  },
+  {
+   "start": "20261013141500 +0000",
+   "stop": "20261013143700 +0000",
+   "title": "Bob's Burgers: S10E17 - Just the Trip",
+   "desc": "The family takes an unexpected road trip with Nat the limo driver.",
+   "ep_index": 188
+  },
+  {
+   "start": "20261013143700 +0000",
+   "stop": "20261013145900 +0000",
+   "title": "Bob's Burgers: S10E18 - Tappy Tappy Tappy Tap Tap Tap",
+   "desc": "Tina goes to see Josh perform in a tap show, and suspects sabotage when he's injured on stage.",
+   "ep_index": 189
+  },
+  {
+   "start": "20261013145900 +0000",
+   "stop": "20261013152100 +0000",
+   "title": "Bob's Burgers: S10E19 - The Handyman Can",
+   "desc": "When Teddy finds himself doubting his abilities as a handyman, the kids build up his confidence.",
+   "ep_index": 190
+  },
+  {
+   "start": "20261013152100 +0000",
+   "stop": "20261013154300 +0000",
+   "title": "Bob's Burgers: S10E20 - Poops!... I Didn't Do It Again",
+   "desc": "Louise must face her fear of public pooping when her class goes on an overnight trip to the aquarium. Meanwhile, Linda enlists the family to make a video for her parents' anniversary.",
+   "ep_index": 191
+  },
+  {
+   "start": "20261013154300 +0000",
+   "stop": "20261013160500 +0000",
+   "title": "Bob's Burgers: S10E21 - Local She-ro",
+   "desc": "While trying to show Tina what's great about their town, Linda ends up on the trail of a legendary local singer. Meanwhile, Teddy turns to Bob for help in arguing with a sports radio host.",
+   "ep_index": 192
+  },
+  {
+   "start": "20261013160500 +0000",
+   "stop": "20261013162700 +0000",
+   "title": "Bob's Burgers: S10E22 - Prank You for Being a Friend",
+   "desc": "A classmate comes to Louise for lessons in how to get in trouble. Meanwhile, Bob reluctantly agrees to bring Jimmy Pesto his hernia medication.",
+   "ep_index": 193
+  },
+  {
+   "start": "20261013162700 +0000",
+   "stop": "20261013164900 +0000",
+   "title": "Bob's Burgers: S11E01 - Dream a Little Bob of Bob",
+   "desc": "Bob goes on an epic quest to find a misplaced lock box key. Tina attempts to learn a hand-slapping song that everyone can do - but her.",
+   "ep_index": 194
+  },
+  {
+   "start": "20261013164900 +0000",
+   "stop": "20261013171100 +0000",
+   "title": "Bob's Burgers: S11E02 - Worms of In-Rear-Ment",
+   "desc": "When the family prepares for a night out, they have to abort their plans when one certain member catches the pinworm.",
+   "ep_index": 195
+  },
+  {
+   "start": "20261013171100 +0000",
+   "stop": "20261013173300 +0000",
+   "title": "Bob's Burgers: S11E03 - Copa-Bob-bana",
+   "desc": "Bob agrees to be the temporary chef at the Fischoeders' new nightclub; the kids throw a pool party in the restaurant basement when they get a hold of a stock tank.",
+   "ep_index": 196
+  },
+  {
+   "start": "20261013173300 +0000",
+   "stop": "20261013175500 +0000",
+   "title": "Bob's Burgers: S11E04 - Heartbreak Hotel-oween",
+   "desc": "The kids meet a mysterious old woman at a hotel on Halloween as Louise plots her revenge for a candy transgression; Bob and Linda donate blood at a vampire-themed blood mobile.",
+   "ep_index": 197
+  },
+  {
+   "start": "20261013175500 +0000",
+   "stop": "20261013181700 +0000",
+   "title": "Bob's Burgers: S11E05 - Fast Time Capsules at Wagstaff School",
+   "desc": "Tina is put in charge of the Wagstaff School time capsule project, but she makes an enemy when she rejects Tammy's submission.",
+   "ep_index": 198
+  },
+  {
+   "start": "20261013181700 +0000",
+   "stop": "20261013183900 +0000",
+   "title": "Bob's Burgers: S11E06 - Bob Belcher and the Terrible, Horrible, No Good, Very Bad Kids",
+   "desc": "The family must figure out how to keep the restaurant open after Bob's flattop breaks on the morning of the Ocean Avenue Business Association's: Ocean Fest on Ocean Avenue.",
+   "ep_index": 199
+  },
+  {
+   "start": "20261013183900 +0000",
+   "stop": "20261013190100 +0000",
+   "title": "Bob's Burgers: S11E07 - Diarrhea of a Poopy Kid",
+   "desc": "When Gene can't eat Thanksgiving dinner because of a stomach flu, the family tries to cheer him up.",
+   "ep_index": 200
+  },
+  {
+   "start": "20261013190100 +0000",
+   "stop": "20261013192300 +0000",
+   "title": "Bob's Burgers: S11E08 - The Terminalator II: Terminals of Endearment",
+   "desc": "When Linda's parents have a layover at an airport nearby, Bob and Linda attempt to turn it into their annual \"visit.\"",
+   "ep_index": 201
+  },
+  {
+   "start": "20261013192300 +0000",
+   "stop": "20261013194500 +0000",
+   "title": "Bob's Burgers: S11E09 - Mommy Boy",
+   "desc": "When Linda joins a women's business group, Gene gets possessive of her time. Meanwhile, Louise and Tina want to learn how to fight.",
+   "ep_index": 202
+  },
+  {
+   "start": "20261013194500 +0000",
+   "stop": "20261013200700 +0000",
+   "title": "Bob's Burgers: S11E10 - Yachty or Nice",
+   "desc": "When the Belchers get an unexpected invitation to cater the Glencrest Yacht Club's holiday boat parade, Bob wonders if there's a catch. Meanwhile, Louise has her eye on the present-loaded Santa Schoon",
+   "ep_index": 203
+  },
+  {
+   "start": "20261013200700 +0000",
+   "stop": "20261013202900 +0000",
+   "title": "Bob's Burgers: S11E11 - Romancing the Beef",
+   "desc": "Louise convinces her parents to cash in on the lucrative Valentine's Day dinner business, even though it means putting Bob and Linda's own Valentine's Day plans on hold. Meanwhile, Tina attends Tammy'",
+   "ep_index": 204
+  },
+  {
+   "start": "20261013202900 +0000",
+   "stop": "20261013205100 +0000",
+   "title": "Bob's Burgers: S11E12 - Die Card, or Card Trying",
+   "desc": "Linda drags Bob and the kids out into nature, determined to take the best holiday family portrait ever.",
+   "ep_index": 205
+  },
+  {
+   "start": "20261013205100 +0000",
+   "stop": "20261013211300 +0000",
+   "title": "Bob's Burgers: S11E13 - An Incon-wheelie-ent Truth",
+   "desc": "While on a family trip to the flea market, Bob and Linda are haunted by a lie they told Tina, Gene and Louise about what really happened to their beloved stuffed animal, Wheelie Mammoth.",
+   "ep_index": 206
+  },
+  {
+   "start": "20261013211300 +0000",
+   "stop": "20261013213500 +0000",
+   "title": "Bob's Burgers: S11E14 - Mr. Lonely Farts",
+   "desc": "When Linda and Tina go to the shoe store, Gene accidently is left home by himself. Meanwhile, Bob, Louise and Teddy go to buy restaurant equipment from a creepy guy whom Bob found on the internet.",
+   "ep_index": 207
+  },
+  {
+   "start": "20261013213500 +0000",
+   "stop": "20261013215700 +0000",
+   "title": "Bob's Burgers: S11E15 - Sheshank Redumption",
+   "desc": "Linda's new routine of diet and exercise gives her gastrointestinal trouble on the day of parent-teacher-student conferences.",
+   "ep_index": 208
+  },
+  {
+   "start": "20261013215700 +0000",
+   "stop": "20261013221900 +0000",
+   "title": "Bob's Burgers: S11E16 - Y Tu Tina Tambi\u00e9n",
+   "desc": "When Tina is forced to listen to Spanish audio lessons in the library to improve her grade, she develops an unexpected crush. Meanwhile, Louise and Gene want to dunk Mr. Frond at the Wagstaff Spring F",
+   "ep_index": 209
+  },
+  {
+   "start": "20261013221900 +0000",
+   "stop": "20261013224100 +0000",
+   "title": "Bob's Burgers: S11E17 - Fingers-loose",
+   "desc": "Tina faces a hall-monitor crisis when she falls in love with a new underground trend at Wagstaff that Mr. Frond is trying to squelch. Meanwhile, Bob and Linda try to come up with a way for Teddy to sn",
+   "ep_index": 210
+  },
+  {
+   "start": "20261013224100 +0000",
+   "stop": "20261013230300 +0000",
+   "title": "Bob's Burgers: S11E18 - Some Kind of Fender Benderful",
+   "desc": "When Bob gets into a four-car fender bender right outside the restaurant, he realizes finding out who is at fault will not be as simple as he thought.",
+   "ep_index": 211
+  },
+  {
+   "start": "20261013230300 +0000",
+   "stop": "20261013232500 +0000",
+   "title": "Bob's Burgers: S11E19 - Bridge Over Troubled Rudy",
+   "desc": "Louise ropes her siblings into an adventure; Mort teaches Bob, Linda and Teddy how to meditate.",
+   "ep_index": 212
+  },
+  {
+   "start": "20261013232500 +0000",
+   "stop": "20261013234700 +0000",
+   "title": "Bob's Burgers: S11E20 - Steal Magazine-olias",
+   "desc": "The Belcher kids get caught up in a game of cat-and-mouse when Dr. Yap comes to the restaurant in search of something that was taken from the waiting room of his dentistry office. Meanwhile, Bob, Lind",
+   "ep_index": 213
+  },
+  {
+   "start": "20261013234700 +0000",
+   "stop": "20261014000900 +0000",
+   "title": "Bob's Burgers: S11E21 - Tell Me Dumb Thing Good",
+   "desc": "Linda needs the kids' help in fighting for a fun, dumb, local tradition. Meanwhile, Bob is captivated by an online cucumber.",
+   "ep_index": 214
+  },
+  {
+   "start": "20261014000900 +0000",
+   "stop": "20261014003100 +0000",
+   "title": "Bob's Burgers: S11E22 - Vampire Disco Death Dance",
+   "desc": "After Tina and Bob plan a father-daughter date to see Bob's favorite old campy vampire-sing-along movie, Tina decides to invite her group of friends along, as well. Meanwhile, Linda opens a restaurant",
+   "ep_index": 215
+  },
+  {
+   "start": "20261014003100 +0000",
+   "stop": "20261014005300 +0000",
+   "title": "Bob's Burgers: S12E01 - Manic Pixie Crap Show",
+   "desc": "Louise must pay a debt to Millie by attending the Pixie Princess Promenade. Meanwhile, a bouquet in the shape of a dog forces Linda to confront her past.",
+   "ep_index": 216
+  },
+  {
+   "start": "20261014005300 +0000",
+   "stop": "20261014011500 +0000",
+   "title": "Bob's Burgers: S12E02 - Crystal Mess",
+   "desc": "In order to help with anxiety about an upcoming oral report, Mr. Frond lends Tina a crystal that his new girlfriend alleges has special powers. Meanwhile, Bob and Linda buy a box of imperfect produce ",
+   "ep_index": 217
+  },
+  {
+   "start": "20261014011500 +0000",
+   "stop": "20261014013700 +0000",
+   "title": "Bob's Burgers: S12E03 - The Pumpkinening",
+   "desc": "When a mysterious note is sent to Linda on Halloween, she and Gayle must travel to their hometown to face a wrong they committed 27 years ago.",
+   "ep_index": 218
+  },
+  {
+   "start": "20261014013700 +0000",
+   "stop": "20261014015900 +0000",
+   "title": "Bob's Burgers: S12E04 - Driving Big Dummy",
+   "desc": "Bob gets roped into a road trip with Teddy while Linda and the kids compete for the title of employee of the day.",
+   "ep_index": 219
+  },
+  {
+   "start": "20261014015900 +0000",
+   "stop": "20261014022100 +0000",
+   "title": "Bob's Burgers: S12E05 - Seven-tween Again",
+   "desc": "Gene has a freak-out about growing up and desperately tries to relive his youth; Linda is tempted to try the fancy new hair salon that opened up next to Bob's Burgers, but she's scared of her hairdres",
+   "ep_index": 220
+  },
+  {
+   "start": "20261014022100 +0000",
+   "stop": "20261014024300 +0000",
+   "title": "Bob's Burgers: S12E06 - Beach, Please",
+   "desc": "When the Belcher kids participate in a beach clean-up for Wagstaff Volunteer Day, Louise gets drawn into a battle of wits with Mr. Fischoeder; Teddy surprises Bob and Linda with a new look.",
+   "ep_index": 221
+  },
+  {
+   "start": "20261014024300 +0000",
+   "stop": "20261014030500 +0000",
+   "title": "Bob's Burgers: S12E07 - Loft in Bedslation",
+   "desc": "Linda and the girls attempt to build a loft bed for Louise in just one day; Bob and Gene host a group of gamers.",
+   "ep_index": 222
+  },
+  {
+   "start": "20261014030500 +0000",
+   "stop": "20261014032700 +0000",
+   "title": "Bob's Burgers: S12E08 - Stuck in the Kitchen with You",
+   "desc": "When Bob volunteers to cook Thanksgiving dinner for a retirement home, Louise gets stuck helping him on his most intense cooking day of the year. Meanwhile, Gene and Tina try to help Zeke entertain th",
+   "ep_index": 223
+  },
+  {
+   "start": "20261014032700 +0000",
+   "stop": "20261014034900 +0000",
+   "title": "Bob's Burgers: S12E09 - FOMO You Didn't",
+   "desc": "Susmita offers to help Tina with a photography class assignment, but Tina can't stop thinking about all the fun Tammy, Jocelyn, Zeke and Jimmy Jr. are having ditching class. Meanwhile, a woman who use",
+   "ep_index": 224
+  },
+  {
+   "start": "20261014034900 +0000",
+   "stop": "20261014041100 +0000",
+   "title": "Bob's Burgers: S12E10 - Gene's Christmas Break",
+   "desc": "After Gene breaks his favorite, extremely rare '70s era Christmas record, Tina and Louise join him in the search for another copy. Meanwhile, Teddy wants to do a neighborhood Secret Santa with Bob and",
+   "ep_index": 225
+  },
+  {
+   "start": "20261014041100 +0000",
+   "stop": "20261014043300 +0000",
+   "title": "Bob's Burgers: S12E11 - Touch of Eval(uations)",
+   "desc": "Louise realizes the new plan for student evaluating teachers has shifted the power at school from teacher to student; Bob and Linda find they don't agree on where their final resting place should be.",
+   "ep_index": 226
+  },
+  {
+   "start": "20261014043300 +0000",
+   "stop": "20261014045500 +0000",
+   "title": "Bob's Burgers: S12E12 - Ferry on My Wayward Bob and Linda",
+   "desc": "Bob and Linda accept a Valentine's Day dinner invitation from the chef of a fancy restaurant; the kids have a scheme to get cheap Valentine's Day candy, but first they'll have to make it past an unusu",
+   "ep_index": 227
+  },
+  {
+   "start": "20261014045500 +0000",
+   "stop": "20261014051700 +0000",
+   "title": "Bob's Burgers: S12E13 - Frigate Me Knot",
+   "desc": "Linda encourages Teddy to attend a farewell ceremony for the ship on which he served in the Navy, but it means confronting his Navy pals and his past.",
+   "ep_index": 228
+  },
+  {
+   "start": "20261014051700 +0000",
+   "stop": "20261014053900 +0000",
+   "title": "Bob's Burgers: S12E14 - Video Killed the Gene-io Star",
+   "desc": "Gene begrudgingly agrees to participate in a music video for Courtney; Teddy and Linda obsess over a mysterious customer at the restaurant.",
+   "ep_index": 229
+  },
+  {
+   "start": "20261014053900 +0000",
+   "stop": "20261014060100 +0000",
+   "title": "Bob's Burgers: S12E15 - Ancient Misbehavin",
+   "desc": "After feeling slighted by a teacher during a special Ancient Greece unit, Louise, Millie and Regular Sized Rudy take matters into their own hands to restore justice. Meanwhile, Bob gets a room of his ",
+   "ep_index": 230
+  },
+  {
+   "start": "20261014060100 +0000",
+   "stop": "20261014062300 +0000",
+   "title": "Bob's Burgers: S12E16 - Interview with a Pop-pop-pire",
+   "desc": "Big Bob is coming to dinner so that Tina can interview him for a school project. While the family waits for Pop Pop to arrive, they take turns coming up with their own versions of an infamous tree inc",
+   "ep_index": 231
+  },
+  {
+   "start": "20261014062300 +0000",
+   "stop": "20261014064500 +0000",
+   "title": "Bob's Burgers: S12E17 - The Spider House Rules",
+   "desc": "Louise befriends a house spider and hides it in her room after Linda and Bob tell her to remove it from the apartment. Meanwhile, Bob tries to make a friend outside of the people that come to the rest",
+   "ep_index": 232
+  },
+  {
+   "start": "20261014064500 +0000",
+   "stop": "20261014070700 +0000",
+   "title": "Bob's Burgers: S12E18 - Clear and Present Ginger",
+   "desc": "Linda has a big day planned when her friend comes to visit; Bob and the kids help Nat with her limo competition.",
+   "ep_index": 233
+  },
+  {
+   "start": "20261014070700 +0000",
+   "stop": "20261014072900 +0000",
+   "title": "Bob's Burgers: S12E19 - A-Sprout A Boy",
+   "desc": "When Gene becomes obsessed with an old handheld game, Bob offers to help with a school project, in hopes of steering his son towards more \"interesting\" pursuits. Meanwhile, Louise and Tina take over a",
+   "ep_index": 234
+  },
+  {
+   "start": "20261014072900 +0000",
+   "stop": "20261014075100 +0000",
+   "title": "Bob's Burgers: S12E20 - Sauce Side Story",
+   "desc": "When Louise, Gene and Tina try to track down a lost family recipe for a Mother's Day gift for Linda, first they have to navigate an old family feud.",
+   "ep_index": 235
+  },
+  {
+   "start": "20261014075100 +0000",
+   "stop": "20261014081300 +0000",
+   "title": "Bob's Burgers: S12E21 - Some Like It Bot: Eighth Grade Runner (1)",
+   "desc": "When Tina's new shirt is ridiculed by Tammy and Jocelyn in a Wagstaff News segment called \"Wow or Weird,\" she turns to her erotic friend-fiction and writes about a futuristic world in which she is a r",
+   "ep_index": 236
+  },
+  {
+   "start": "20261014081300 +0000",
+   "stop": "20261014083500 +0000",
+   "title": "Bob's Burgers: S12E22 - Some Like It Bot: Judge-bot Day (2)",
+   "desc": "Tina is on a mission that could get her into a lot of trouble. Then, her family reads her erotic friend fiction, finds out what Tina is up to and tries to stop her.",
+   "ep_index": 237
+  },
+  {
+   "start": "20261014083500 +0000",
+   "stop": "20261014085700 +0000",
+   "title": "Bob's Burgers: S13E01 - To Bob, or Not to Bob",
+   "desc": "Bob, Linda and the kids help Mr. Fischoeder put on a play to get his brother Felix to confess to a theft. Meanwhile, Louise is jealous of Tina's hands.",
+   "ep_index": 238
+  },
+  {
+   "start": "20261014085700 +0000",
+   "stop": "20261014091900 +0000",
+   "title": "Bob's Burgers: S13E02 - The Reeky Lake Show",
+   "desc": "The family's Labor Day lake trip takes a turn when the Belchers find themselves trapped in their cabin, hiding from what lurks outside.",
+   "ep_index": 239
+  },
+  {
+   "start": "20261014091900 +0000",
+   "stop": "20261014094100 +0000",
+   "title": "Bob's Burgers: S13E03 - What About Job?",
+   "desc": "A school assignment about careers sends Louise spiraling, trying to imagine what her future might hold.",
+   "ep_index": 240
+  },
+  {
+   "start": "20261014094100 +0000",
+   "stop": "20261014100300 +0000",
+   "title": "Bob's Burgers: S13E04 - Comet-y of Errors",
+   "desc": "At a comet watch party, Bob tries to keep Teddy from going off the deep end, looking for signs from the universe. Meanwhile, the kids try to make their comet wishes come true.",
+   "ep_index": 241
+  },
+  {
+   "start": "20261014100300 +0000",
+   "stop": "20261014102500 +0000",
+   "title": "Bob's Burgers: S13E05 - So You Stink You Can Dance",
+   "desc": "Tina cheers Jimmy Junior on at a semi-prestigious dancing seminar while Bob and Linda compete to see who can catch the most homerun balls outside of Wonder Wharf Stadium.",
+   "ep_index": 242
+  },
+  {
+   "start": "20261014102500 +0000",
+   "stop": "20261014104700 +0000",
+   "title": "Bob's Burgers: S13E06 - Apple Gore-chard! (But Not Gory)",
+   "desc": "Louise suspects there's something sinister afoot during a Halloween field trip to an apple orchard. Meanwhile, Tina and Gene hope to win the school costume parade.",
+   "ep_index": 243
+  },
+  {
+   "start": "20261014104700 +0000",
+   "stop": "20261014110900 +0000",
+   "title": "Bob's Burgers: S13E07 - Ready Player Gene",
+   "desc": "A VR arcade opens next door and Gene spends all his money. Meanwhile, Louise and Tina try to build a menu tower taller than they ever have before.",
+   "ep_index": 244
+  },
+  {
+   "start": "20261014110900 +0000",
+   "stop": "20261014113100 +0000",
+   "title": "Bob's Burgers: S13E08 - Putts-giving",
+   "desc": "The Belchers go to a mini golf course on Thanksgiving morning.",
+   "ep_index": 245
+  },
+  {
+   "start": "20261014113100 +0000",
+   "stop": "20261014115300 +0000",
+   "title": "Bob's Burgers: S13E09 - Show Mama from the Grave",
+   "desc": "Bob takes Linda and the kids to visit his mother's grave, but finding the headstone is harder than he expected. Meanwhile, Teddy makes a grave mistake while doing repairs in the Belcher's house.",
+   "ep_index": 246
+  },
+  {
+   "start": "20261014115300 +0000",
+   "stop": "20261014121500 +0000",
+   "title": "Bob's Burgers: S13E10 - The Plight Before Christmas",
+   "desc": "Bob and Linda try to attend all three kids' holiday performances at the same time.",
+   "ep_index": 247
+  },
+  {
+   "start": "20261014121500 +0000",
+   "stop": "20261014123700 +0000",
+   "title": "Bob's Burgers: S13E11 - Cheaty Cheaty Bang Bang",
+   "desc": "After a student accuses her of cheating on a test, Tina needs to get back to school to clear her name, but a snowstorm traps her and her family at home.",
+   "ep_index": 248
+  },
+  {
+   "start": "20261014123700 +0000",
+   "stop": "20261014125900 +0000",
+   "title": "Bob's Burgers: S13E12 - Oh Row You Didn't",
+   "desc": "A man trying to row from New Zealand to Nova Scotia visits the restaurant to have a burger and it changes everything.",
+   "ep_index": 249
+  },
+  {
+   "start": "20261014125900 +0000",
+   "stop": "20261014132100 +0000",
+   "title": "Bob's Burgers: S13E13 - Stop! Or My Mom Will Sleuth!",
+   "desc": "When Louise is accused of a theft at school, Linda uses her position as school office volunteer to try and solve the case from the inside.",
+   "ep_index": 250
+  },
+  {
+   "start": "20261014132100 +0000",
+   "stop": "20261014134300 +0000",
+   "title": "Bob's Burgers: S13E14 - These Boots Are Made for Stalking",
+   "desc": "When the coolest teens she's ever seen start coming into the restaurant, Tina decides she needs to be just like them. Meanwhile, Gene and Louise get into a battle of wills over stinky socks.",
+   "ep_index": 251
+  },
+  {
+   "start": "20261014134300 +0000",
+   "stop": "20261014140500 +0000",
+   "title": "Bob's Burgers: S13E15 - The Show (And Tell) Must Go On",
+   "desc": "Louise brings Tina along on a mission to find the perfect item for her last-ever Show and Tell. Meanwhile, Teddy goes overboard trying to impress a date at the restaurant.",
+   "ep_index": 252
+  },
+  {
+   "start": "20261014140500 +0000",
+   "stop": "20261014142700 +0000",
+   "title": "Bob's Burgers: S13E16 - What a (April) Fool Believes",
+   "desc": "Mr. Fischoeder challenges Bob to successfully prank him on April Fool's Day, or lose his lease.",
+   "ep_index": 253
+  },
+  {
+   "start": "20261014142700 +0000",
+   "stop": "20261014144900 +0000",
+   "title": "Bob's Burgers: S13E17 - Crows Encounters of the Bird Kind",
+   "desc": "Tina drags Bob along on a desperate quest to earn her bird-watching badge for ThunderGirls. Meanwhile, Louise and Gene try to keep their new restaurant game a secret from Linda.",
+   "ep_index": 254
+  },
+  {
+   "start": "20261014144900 +0000",
+   "stop": "20261014151100 +0000",
+   "title": "Bob's Burgers: S13E18 - Gift Card or Buy Trying",
+   "desc": "When a customer leaves a $100 gift card as a tip, Bob, Linda and the kids go on a $20-each shopping spree, and Gene has an awkward run-in with a former friend.",
+   "ep_index": 255
+  },
+  {
+   "start": "20261014151100 +0000",
+   "stop": "20261014153300 +0000",
+   "title": "Bob's Burgers: S13E19 - Crab-solutely Fabulous",
+   "desc": "The kids become a part of a crustacean-themed wrestling show. Meanwhile, Linda tries to form a 21-day habit.",
+   "ep_index": 256
+  },
+  {
+   "start": "20261014153300 +0000",
+   "stop": "20261014155500 +0000",
+   "title": "Bob's Burgers: S13E20 - Radio No You Didn't",
+   "desc": "Bob tells Linda and the kids the story behind an old, broken radio that used to belong to his grandmother Alice and the part it played in her discovery that a German spy lived in her building.",
+   "ep_index": 257
+  },
+  {
+   "start": "20261014155500 +0000",
+   "stop": "20261014161700 +0000",
+   "title": "Bob's Burgers: S13E21 - Mother Author Laser Pointer",
+   "desc": "Linda almost totally accidentally kidnaps a children\u2019s book author. Meanwhile, the kids help Mr. Frond try to get his cat out of a tree in front of the school.",
+   "ep_index": 258
+  },
+  {
+   "start": "20261014161700 +0000",
+   "stop": "20261014163900 +0000",
+   "title": "Bob's Burgers: S13E22 - Amelia",
+   "desc": "Louise takes a class assignment - and a few unhelpful comments by Wayne - very personally. And Bob hires a masseur-in-training to give Linda a massage for Mother's Day.",
+   "ep_index": 259
+  },
+  {
+   "start": "20261014163900 +0000",
+   "stop": "20261014170100 +0000",
+   "title": "Bob's Burgers: S14E01 - Fight at the Not Okay Chore-ral",
+   "desc": "When Linda and Bob suggest the kids do chores, the family ends up in a showdown.",
+   "ep_index": 260
+  },
+  {
+   "start": "20261014170100 +0000",
+   "stop": "20261014172300 +0000",
+   "title": "Bob's Burgers: S14E02 - The Amazing Rudy",
+   "desc": "Rudy attends an important dinner. The Belchers make an important casserole.",
+   "ep_index": 261
+  },
+  {
+   "start": "20261014172300 +0000",
+   "stop": "20261014174500 +0000",
+   "title": "Bob's Burgers: S14E03 - The Pickleorette",
+   "desc": "Bob and Linda help Gretchen throw her sister's bachelorette party. Meanwhile, Tina forces Gene and Louise to play a board game they found on the street.",
+   "ep_index": 262
+  },
+  {
+   "start": "20261014174500 +0000",
+   "stop": "20261014180700 +0000",
+   "title": "Bob's Burgers: S14E04 - Running Down a Gene",
+   "desc": "Gene tries to learn how to lucid dream in order to recover the world's most perfect song that he wrote while asleep. Meanwhile, Louise and Tina try to trap a cricket whose chirping is keeping Linda up",
+   "ep_index": 263
+  },
+  {
+   "start": "20261014180700 +0000",
+   "stop": "20261014182900 +0000",
+   "title": "Bob's Burgers: S14E05 - Bully-ieve It or Not",
+   "desc": "The Belcher kids learn a secret about Zeke's past, while Bob rekindles his feud with Jimmy Pesto.",
+   "ep_index": 264
+  },
+  {
+   "start": "20261014182900 +0000",
+   "stop": "20261014185100 +0000",
+   "title": "Bob's Burgers: S14E06 - Escape from Which Island?",
+   "desc": "Mr. Fischoeder enlists Bob to be his personal chef for a glamping trip on his exclusive club's secret island. Meanwhile, Linda gives the kids a crash-course on cocktail party etiquette.",
+   "ep_index": 265
+  },
+  {
+   "start": "20261014185100 +0000",
+   "stop": "20261014191300 +0000",
+   "title": "Bob's Burgers: S14E07 - The (Raccoon) King and I",
+   "desc": "During a neighborhood block party, Linda makes a mistake that could threaten the life of her favorite alley raccoon.",
+   "ep_index": 266
+  },
+  {
+   "start": "20261014191300 +0000",
+   "stop": "20261014193500 +0000",
+   "title": "Bob's Burgers: S14E08 - Wharf, Me Worry?",
+   "desc": "During their special day at the wharf with Big Bob, the kids get into trouble with the Wharf's newest fortune-telling giant clam.",
+   "ep_index": 267
+  },
+  {
+   "start": "20261014193500 +0000",
+   "stop": "20261014195700 +0000",
+   "title": "Bob's Burgers: S14E09 - Fraud of the Dead: Zombie-docu-pocalypse",
+   "desc": "A documentary film profiling world class archer Louise Belcher is interrupted by unexpected visitors.",
+   "ep_index": 268
+  },
+  {
+   "start": "20261014195700 +0000",
+   "stop": "20261014201900 +0000",
+   "title": "Bob's Burgers: S14E10 - The Nightmare 2 Days Before Christmas",
+   "desc": "When the power goes out two days before Christmas, The Belchers must spend the holiday at Mr. Fischoeder's family's old hunting lodge.",
+   "ep_index": 269
+  },
+  {
+   "start": "20261014201900 +0000",
+   "stop": "20261014204100 +0000",
+   "title": "Bob's Burgers: S14E11 - Mission Impossi-Bob",
+   "desc": "Teddy gets stuck in an underground survival bunker, and he calls on Bob to find him and get him out.",
+   "ep_index": 270
+  },
+  {
+   "start": "20261014204100 +0000",
+   "stop": "20261014210300 +0000",
+   "title": "Bob's Burgers: S14E12 - Jade in the Shade",
+   "desc": "On a tour of the town's bootlegging history, Linda and Louise stumble into a treasure-hunting adventure. Meanwhile, Bob, Tina and Gene play host to a group of street performers looking to settle a bee",
+   "ep_index": 271
+  },
+  {
+   "start": "20261014210300 +0000",
+   "stop": "20261014212500 +0000",
+   "title": "Bob's Burgers: S14E13 - Butt Sweat and Fears",
+   "desc": "Tina is determined to get some upper butt action at Chelsea's party, but in her attempts to dry off her nervous butt sweat, her skirt ends up stuck in the dryer. Meanwhile, Teddy tries to get in on th",
+   "ep_index": 272
+  },
+  {
+   "start": "20261014212500 +0000",
+   "stop": "20261014214700 +0000",
+   "title": "Bob's Burgers: S14E14 - The Big Stieblitzki",
+   "desc": "When the family gets invited to Rudy's father's birthday party, they scramble to make him look better than Paul, who's trying to hit on Rudy's mother. Meanwhile, Tina attempts to convince a woman to c",
+   "ep_index": 273
+  },
+  {
+   "start": "20261014214700 +0000",
+   "stop": "20261014220900 +0000",
+   "title": "Bob's Burgers: S14E15 - The Right Tough Stuff",
+   "desc": "When Gayle tells the family she's sending in an audition tape to be on Tough Stuff Island, Linda is determined to make her tape boring to save her from being humiliated on a rejection reel. Bob strugg",
+   "ep_index": 274
+  },
+  {
+   "start": "20261014220900 +0000",
+   "stop": "20261014223100 +0000",
+   "title": "Bob's Burgers: S14E16 - To Catch a Beef",
+   "desc": "When Bosco goes to Bob needing to learn how to make a burger for an undercover mission to oust criminal and burger joint owner Vincent Balicki, it becomes obvious that the sergeant is severely lacking",
+   "ep_index": 275
+  },
+  {
+   "start": "20261014223100 +0000",
+   "stop": "20261014225300 +0000",
+   "title": "Bob's Burgers: S15E01 - The Tina Table: The Tables Have Tina-Ed",
+   "desc": "Tina attempts to save her school news segment by interviewing Mr. Frond about his revolutionary new computer game. Meanwhile, Bob and Linda entertain Teddy by making up the plots to popular horror mov",
+   "ep_index": 276
+  },
+  {
+   "start": "20261014225300 +0000",
+   "stop": "20261014231500 +0000",
+   "title": "Bob's Burgers: S15E02 - Saving Favorite Drive-In",
+   "desc": "When the Belchers visit the local drive-in, Bob comes up with a plan to save the theater from closing. Meanwhile, Linda accidentally insults another mom while on a group text chain, and Louise and Gen",
+   "ep_index": 277
+  },
+  {
+   "start": "20261014231500 +0000",
+   "stop": "20261014233700 +0000",
+   "title": "Bob's Burgers: S15E03 - Colon-ly the Dronely",
+   "desc": "Linda agrees to drive Teddy to pick up Kathleen from her colonoscopy after he accidentally injures himself. Meanwhile, the kids concoct a scheme to prank an overhead drone which is set to film the sch",
+   "ep_index": 278
+  },
+  {
+   "start": "20261014233700 +0000",
+   "stop": "20261014235900 +0000",
+   "title": "Bob's Burgers: S15E04 - For Whom the Doll Toes",
+   "desc": "It's a mystery within a mystery as Louise stages a murder mystery in a creepy old dollhouse store for reasons that she has trouble explaining.",
+   "ep_index": 279
+  },
+  {
+   "start": "20261014235900 +0000",
+   "stop": "20261015002100 +0000",
+   "title": "Bob's Burgers: S15E05 - Don't Stop Be-Cheesin",
+   "desc": "Louise trains Tina to be the last student standing during an all-out cheese throwing battle against the other eighth graders. Meanwhile, Bob and Teddy teach Linda how to successfully eavesdrop on cust",
+   "ep_index": 280
+  },
+  {
+   "start": "20261015002100 +0000",
+   "stop": "20261015004300 +0000",
+   "title": "Bob's Burgers: S15E06 - Hope N' Mic Night",
+   "desc": "The kids want to host an open mic night at the restaurant, but the hidden costs keep mounting and Bob worries that this night will ruin them.",
+   "ep_index": 281
+  },
+  {
+   "start": "20261015004300 +0000",
+   "stop": "20261015010500 +0000",
+   "title": "Bob's Burgers: S15E07 - Boogie Days",
+   "desc": "Bob's past comes back to haunt him when Louise signs up for a father-daughter boogie board contest.",
+   "ep_index": 282
+  },
+  {
+   "start": "20261015010500 +0000",
+   "stop": "20261015012700 +0000",
+   "title": "Bob's Burgers: S15E08 - They Slug Horses, Don't They?",
+   "desc": "Tina and Louise get into an argument that escalates across several graphic \"apology\" cards.",
+   "ep_index": 283
+  },
+  {
+   "start": "20261015012700 +0000",
+   "stop": "20261015014900 +0000",
+   "title": "Bob's Burgers: S15E09 - Dog Christmas Day After Afternoon",
+   "desc": "A family trip to see Christmas lights turns into a rescue mission, in more ways than one.",
+   "ep_index": 284
+  },
+  {
+   "start": "20261015014900 +0000",
+   "stop": "20261015021100 +0000",
+   "title": "Bob's Burgers: S15E10 - Advice Things Are Ad-nice",
+   "desc": "Tina becomes the new advice columnist for the school newspaper. Teddy takes on more than he can handle when he volunteers to build a float for the Bounty of the Bay Parade.",
+   "ep_index": 285
+  },
+  {
+   "start": "20261015021100 +0000",
+   "stop": "20261015023300 +0000",
+   "title": "Bob's Burgers: S15E11 - Mr. Fischoeder's Opus",
+   "desc": "When the Belchers' landlord, Mr. Fischoeder, offers them two months free rent in exchange for catering an important reception at his house, the family must do everything they can to ensure the event g",
+   "ep_index": 286
+  },
+  {
+   "start": "20261015023300 +0000",
+   "stop": "20261015025500 +0000",
+   "title": "Bob's Burgers: S15E12 - Like a Candle in the Gym",
+   "desc": "The Belchers run into Coach Blevins while on a family walk and find him selling sweat-scented candles, which Gene and Louise discover to be a cover for Blevins' scheme to sell sweat samples for DNA mi",
+   "ep_index": 287
+  },
+  {
+   "start": "20261015025500 +0000",
+   "stop": "20261015031700 +0000",
+   "title": "Bob's Burgers: S15E13 - Snackface",
+   "desc": "Tina, Gene and Louise strike it rich in the illegal snack business at school, but the addition of a new member to their \"cartel\" threatens to destroy it.",
+   "ep_index": 288
+  },
+  {
+   "start": "20261015031700 +0000",
+   "stop": "20261015033900 +0000",
+   "title": "Bob's Burgers: S15E14 - The Place Beyond the Pinecones",
+   "desc": "Tina and the Thundergirls spend the night in the woods, and Tina faces something even scarier than her nemesis, Troop 257.",
+   "ep_index": 289
+  },
+  {
+   "start": "20261015033900 +0000",
+   "stop": "20261015040100 +0000",
+   "title": "Bob's Burgers: S15E15 - The Lost City of Atlantic",
+   "desc": "The Belchers have a wild night at a casino and Linda learns more about her late grandfather than she wanted to know.",
+   "ep_index": 290
+  },
+  {
+   "start": "20261015040100 +0000",
+   "stop": "20261015042300 +0000",
+   "title": "Bob's Burgers: S15E16 - The Shell Game",
+   "desc": "Bob competes in a Bachelor-style competition to inherit Mr. Fischoeder's 100-year-old giant tortoise.",
+   "ep_index": 291
+  },
+  {
+   "start": "20261015042300 +0000",
+   "stop": "20261015044500 +0000",
+   "title": "Bob's Burgers: S15E17 - Wild Steal-ions",
+   "desc": "Tina's lost book of semi-erotic Horse-torical Fiction lands in the hands of a mysterious stranger with nefarious intentions.",
+   "ep_index": 292
+  },
+  {
+   "start": "20261015044500 +0000",
+   "stop": "20261015050700 +0000",
+   "title": "Bob's Burgers: S15E18 - Don't Worry, Be Hoopy",
+   "desc": "Tina must confront her fear and her past when she advances to the County Finals of a national free throw competition.",
+   "ep_index": 293
+  },
+  {
+   "start": "20261015050700 +0000",
+   "stop": "20261015052900 +0000",
+   "title": "Bob's Burgers: S15E19 - The Dead Bo-ats Society",
+   "desc": "The kids explore a marine scrapyard in search of adventure, but the trip takes a dangerous turn.",
+   "ep_index": 294
+  },
+  {
+   "start": "20261015052900 +0000",
+   "stop": "20261015055100 +0000",
+   "title": "Bob's Burgers: S15E20 - Dad-urday Kite Fever",
+   "desc": "When Big Bob brings over a kite from Bob's childhood, Bob is determined to fly it with his kids. Meanwhile, Teddy seeks Linda's help in rehearsing for a play.",
+   "ep_index": 295
+  },
+  {
+   "start": "20261015055100 +0000",
+   "stop": "20261015061300 +0000",
+   "title": "Bob's Burgers: S15E21 - Mr. Safebody",
+   "desc": "Louise's schoolmate Arnold enlists her to direct a promotional video for his new bodyguarding business; a stolen car blasting 90's alternative rock is abandoned outside of the restaurant.",
+   "ep_index": 296
+  },
+  {
+   "start": "20261015061300 +0000",
+   "stop": "20261015063500 +0000",
+   "title": "Bob's Burgers: S15E22 - InsomniBob",
+   "desc": "Insomnia sends Bob on a creative spree in the kitchen, but at what cost?",
+   "ep_index": 297
+  },
+  {
+   "start": "20261015063500 +0000",
+   "stop": "20261015065700 +0000",
+   "title": "Bob's Burgers: S16E01 - Grand Pre-Pre-Pre-Opening [300th episode]",
+   "desc": "In the 300th episode, Bob can't decide whether to raise the prices as flashbacks occur to when Bob and Linda first opened the restaurant and Linda was pregnant with Tina.",
+   "ep_index": 298
+  },
+  {
+   "start": "20261015065700 +0000",
+   "stop": "20261015071900 +0000",
+   "title": "Bob's Burgers: S16E02 - 'Til Death Do Us Art",
+   "desc": "Linda becomes concerned when Gayle turns her love life into a performance art piece.",
+   "ep_index": 299
+  },
+  {
+   "start": "20261015071900 +0000",
+   "stop": "20261015074100 +0000",
+   "title": "Bob's Burgers: S16E03 - The Twinnening [Halloween]",
+   "desc": "Teddy takes a handyman job next door to the restaurant and finds himself trapped inside a store full of spooky antiques.",
+   "ep_index": 300
+  },
+  {
+   "start": "20261015074100 +0000",
+   "stop": "20261015080300 +0000",
+   "title": "Bob's Burgers: S16E04 - The Skids in the Hall",
+   "desc": "Louise and Gene try to help Tina clear her name after she is fired as a Hall Monitor.",
+   "ep_index": 301
+  },
+  {
+   "start": "20261015080300 +0000",
+   "stop": "20261015082500 +0000",
+   "title": "Bob's Burgers: S16E05 - The Secret Guardin'",
+   "desc": "Tina, Gene, and Louise have a secret to keep from Linda, but their plan is jeopardized when Louise gets loopy from dental surgery.",
+   "ep_index": 302
+  },
+  {
+   "start": "20261015082500 +0000",
+   "stop": "20261015084700 +0000",
+   "title": "Bob's Burgers: S16E06 - Get Her to the Zeke",
+   "desc": "Tina tries to set up Zeke on a date while the rest of the Belchers contend with a Super Rat.",
+   "ep_index": 303
+  },
+  {
+   "start": "20261015084700 +0000",
+   "stop": "20261015090900 +0000",
+   "title": "Bob's Burgers: S16E07 - Tube for Tina",
+   "desc": "Linda has a strong reaction when Tina buys a tiny tube top. Meanwhile, Bob, Teddy, Louise and Gene deal with the consequences of a rare bird flying into the window of the restaurant.",
+   "ep_index": 304
+  },
+  {
+   "start": "20261015090900 +0000",
+   "stop": "20261015093100 +0000",
+   "title": "Bob's Burgers: S16E08 - Les Liz\u00e1rdables",
+   "desc": "Gene and Courtney become embroiled in a complex custody battle over an injured lizard.",
+   "ep_index": 305
+  },
+  {
+   "start": "20261015093100 +0000",
+   "stop": "20261015095300 +0000",
+   "title": "Bob's Burgers: S16E09 - It's a Stunterful Life [Christmas]",
+   "desc": "The kids get caught up in a stunt competition at a Christmas tree farm, while Bob decorates cookies for Santa and Linda tries to find every tree a home.",
+   "ep_index": 306
+  },
+  {
+   "start": "20261015095300 +0000",
+   "stop": "20261015101500 +0000",
+   "title": "Bob's Burgers: S16E10 - Heist Things Are Heist",
+   "desc": "After winning a prestigious award, Bob faces a setback at the ceremony, and the kids team up with possible former jewel thief Vincent to put things right.",
+   "ep_index": 307
+  },
+  {
+   "start": "20261015101500 +0000",
+   "stop": "20261015103700 +0000",
+   "title": "Bob's Burgers: S16E11 - The Keyboard Kid",
+   "desc": "Tina hopes her fast-but-weird typing style gets her an A in typing class so she can attend an upcoming field trip. Her typing teacher has other ideas.",
+   "ep_index": 308
+  },
+  {
+   "start": "20261015103700 +0000",
+   "stop": "20261015105900 +0000",
+   "title": "Bob's Burgers: S16E12 - Children of the Carn",
+   "desc": "The kids return to Carniapolis to help an ex-carnie restart what they think is an innocent prank-war. Teddy sees his therapist at Bob's.",
+   "ep_index": 309
+  },
+  {
+   "start": "20261015105900 +0000",
+   "stop": "20261015112100 +0000",
+   "title": "Bob's Burgers: S16E13 - Driving Miss Ragey",
+   "desc": "Nat the limo driver helps Linda with her road rage. Meanwhile, the kids and Bob discover both the joys and the risk involved in riding a mattress down the stairs.",
+   "ep_index": 310
+  },
+  {
+   "start": "20261015112100 +0000",
+   "stop": "20261015114300 +0000",
+   "title": "Bob's Burgers: S16E14 - Stuck in the Middle with Hu(go)",
+   "desc": "Bob is forced to spend time with one of his least favorite people, while Tina is entrusted with something very close to Jimmy Junior's heart.",
+   "ep_index": 311
+  },
+  {
+   "start": "20261015114300 +0000",
+   "stop": "20261015120500 +0000",
+   "title": "Bob's Burgers: S16E15 - Smellbound",
+   "desc": "A bad smell threatens a town tradition, so Tina, Gene, and Louise try to eliminate it themselves.",
+   "ep_index": 312
+  },
+  {
+   "start": "20261015120500 +0000",
+   "stop": "20261015122700 +0000",
+   "title": "Bob's Burgers: S01E01 - Human Flesh",
+   "desc": "A health inspector's visit coincides with Bob's efforts to bring in customers.",
+   "ep_index": 0
+  },
+  {
+   "start": "20261015122700 +0000",
+   "stop": "20261015124900 +0000",
+   "title": "Bob's Burgers: S01E02 - Crawl Space",
+   "desc": "A leaky roof causes Bob to get trapped in a wall while Linda's mother visits.",
+   "ep_index": 1
+  },
+  {
+   "start": "20261015124900 +0000",
+   "stop": "20261015131100 +0000",
+   "title": "Bob's Burgers: S01E03 - Sacred Cow",
+   "desc": "Bob takes to a film maker's cow.",
+   "ep_index": 2
+  },
+  {
+   "start": "20261015131100 +0000",
+   "stop": "20261015133300 +0000",
+   "title": "Bob's Burgers: S01E04 - Sexy Dance Fighting",
+   "desc": "Tina develops a crush on her martial arts instructor.",
+   "ep_index": 3
+  },
+  {
+   "start": "20261015133300 +0000",
+   "stop": "20261015135500 +0000",
+   "title": "Bob's Burgers: S01E05 - Hamburger Dinner Theater",
+   "desc": "Linda and the kids stage a murder mystery that doesn't go as planned.",
+   "ep_index": 4
+  },
+  {
+   "start": "20261015135500 +0000",
+   "stop": "20261015141700 +0000",
+   "title": "Bob's Burgers: S01E06 - Sheesh! Cab, Bob?",
+   "desc": "Tina is desperate to get her first kiss at her 13th birthday party. But after Louise breaks the deep fryer, Bob takes a second job as a late-night cab driver to pay for Tina\u2019s party. Things keep getti",
+   "ep_index": 5
+  },
+  {
+   "start": "20261015141700 +0000",
+   "stop": "20261015143900 +0000",
+   "title": "Bob's Burgers: S01E07 - Bed & Breakfast",
+   "desc": "Linda hosts a bed and breakfast, but her guests aren't as grateful as she would like.  Things take a turn for the worse when Louise's room is rented to Teddy.",
+   "ep_index": 6
+  },
+  {
+   "start": "20261015143900 +0000",
+   "stop": "20261015150100 +0000",
+   "title": "Bob's Burgers: S01E08 - Art Crawl",
+   "desc": "It's Bob vs. the city art council when Linda's sister displays her work at Bob's Burgers.",
+   "ep_index": 7
+  },
+  {
+   "start": "20261015150100 +0000",
+   "stop": "20261015152300 +0000",
+   "title": "Bob's Burgers: S01E09 - Spaghetti Western and Meatballs",
+   "desc": "Bob and Gene bond over spaghetti western movies, which makes Louise jealous.",
+   "ep_index": 8
+  },
+  {
+   "start": "20261015152300 +0000",
+   "stop": "20261015154500 +0000",
+   "title": "Bob's Burgers: S01E10 - Burger Wars",
+   "desc": "When Bob's eccentric landlord, Mr. Fischoeder, pays the family a visit, he informs Bob that his rival across the street, Jimmy Pesto of Jimmy Pesto's Pizzeria, wants to take over Bob's lease so that h",
+   "ep_index": 9
+  },
+  {
+   "start": "20261015154500 +0000",
+   "stop": "20261015160700 +0000",
+   "title": "Bob's Burgers: S01E11 - Weekend at Mort's",
+   "desc": "Bob and his family are forced to spend the weekend at Mort the Mortician's while the restaurant is being de-molded. Linda and Bob double date with Mort and a female mortician he meets online while Tin",
+   "ep_index": 10
+  },
+  {
+   "start": "20261015160700 +0000",
+   "stop": "20261015162900 +0000",
+   "title": "Bob's Burgers: S01E12 - Lobsterfest",
+   "desc": "After the town's annual Lobsterfest is cancelled by a storm, Bob defiantly opens his doors for a festive celebration. When he wakes the next morning, Bob finds the restaurant in disarray and that the ",
+   "ep_index": 11
+  },
+  {
+   "start": "20261015162900 +0000",
+   "stop": "20261015165100 +0000",
+   "title": "Bob's Burgers: S01E13 - Torpedo",
+   "desc": "Bob's hero, a washed-up baseball player named Torpedo Jones, starts pitching for the local minor league team. Torpedo befriends Bob, but the dark underbelly of minor league baseball threatens to corru",
+   "ep_index": 12
+  },
+  {
+   "start": "20261015165100 +0000",
+   "stop": "20261015171300 +0000",
+   "title": "Bob's Burgers: S02E01 - The Belchies",
+   "desc": "The kids hunt for treasure in an abandoned taffy factory and Bob and Linda must find them before the factory\u2019s scheduled demolition",
+   "ep_index": 13
+  },
+  {
+   "start": "20261015171300 +0000",
+   "stop": "20261015173500 +0000",
+   "title": "Bob's Burgers: S02E02 - Bob Day Afternoon",
+   "desc": "A bank robber holds up a bank across the street from Bob\u2019s Burgers. When the robbery goes awry, Bob finds himself at the center of a hostage crisis.",
+   "ep_index": 14
+  },
+  {
+   "start": "20261015173500 +0000",
+   "stop": "20261015175700 +0000",
+   "title": "Bob's Burgers: S02E03 - Synchronized Swimming",
+   "desc": "The kids con their way out of gym class with a bogus synchronized swimming independent study. Meanwhile, Bob welcomes a new soft serve ice cream machine to the restaurant.",
+   "ep_index": 15
+  },
+  {
+   "start": "20261015175700 +0000",
+   "stop": "20261015181900 +0000",
+   "title": "Bob's Burgers: S02E04 - Burgerboss",
+   "desc": "Bob becomes obsessed with an old-school burger-flipping video game after Jimmy Pesto gets the high score and writes \"BOB SUX\" on the leader board.",
+   "ep_index": 16
+  },
+  {
+   "start": "20261015181900 +0000",
+   "stop": "20261015184100 +0000",
+   "title": "Bob's Burgers: S02E05 - Food Truckin'",
+   "desc": "The Belchers beg Bob to buy a food truck to compete against the ones that are stealing his customers. When the \"Lolla-Pa-Foods-A-Festival\" comes up, the Belchers bring the truck and the kids decide to",
+   "ep_index": 17
+  },
+  {
+   "start": "20261015184100 +0000",
+   "stop": "20261015190300 +0000",
+   "title": "Bob's Burgers: S02E06 - Dr. Yap",
+   "desc": "While Bob is medicated, he mistakes Linda's sister, Gayle, for his wife and kisses her. After she falls for him, Bob seeks help from Dr. Yap.",
+   "ep_index": 18
+  },
+  {
+   "start": "20261015190300 +0000",
+   "stop": "20261015192500 +0000",
+   "title": "Bob's Burgers: S02E07 - Moody Foodie",
+   "desc": "The restaurant receives a negative review from a vicious food critic.",
+   "ep_index": 19
+  },
+  {
+   "start": "20261015192500 +0000",
+   "stop": "20261015194700 +0000",
+   "title": "Bob's Burgers: S02E08 - Bad Tina",
+   "desc": "Tina befriends a bad girl in a bid to get closer to Jimmy Junior.",
+   "ep_index": 20
+  },
+  {
+   "start": "20261015194700 +0000",
+   "stop": "20261015200900 +0000",
+   "title": "Bob's Burgers: S02E09 - Beefsquatch",
+   "desc": "Bob appears in a cooking segment on a local news morning program, but Gene steals the show when he crashes the set with a sasquatch mask.",
+   "ep_index": 21
+  },
+  {
+   "start": "20261015200900 +0000",
+   "stop": "20261015203100 +0000",
+   "title": "Bob's Burgers: S03E01 - Ear-sy Rider",
+   "desc": "A biker gang sets up shop in the restaurant, where they lament the loss of their beloved leader.",
+   "ep_index": 22
+  },
+  {
+   "start": "20261015203100 +0000",
+   "stop": "20261015205300 +0000",
+   "title": "Bob's Burgers: S03E02 - Full Bars",
+   "desc": "The Belcher kids break with a long standing Halloween tradition, veering away from their usual trick or treat trek in favor of a posh neighborhood that's known for its oversize goodies.",
+   "ep_index": 23
+  },
+  {
+   "start": "20261015205300 +0000",
+   "stop": "20261015211500 +0000",
+   "title": "Bob's Burgers: S03E03 - Bob Fires the Kids",
+   "desc": "Worried that his kids are not enjoying summer vacation because he's making them work in the restaurant, Bob fires them. But they soon become bored and take jobs as \"weed pickers\" for a pair of hippie ",
+   "ep_index": 24
+  },
+  {
+   "start": "20261015211500 +0000",
+   "stop": "20261015213700 +0000",
+   "title": "Bob's Burgers: S03E04 - Mutiny on the Windbreaker",
+   "desc": "Bob does a tour of duty as a private chef on a docked cruise ship and brings along the family to witness his true culinary skills, but the special occasion is scuttled when the kooky captain shanghais",
+   "ep_index": 25
+  },
+  {
+   "start": "20261015213700 +0000",
+   "stop": "20261015215900 +0000",
+   "title": "Bob's Burgers: S03E05 - An Indecent Thanksgiving Proposal",
+   "desc": "Bob's plans for his favorite holiday, Thanksgiving, change when Mr. Fischoeder hires him as a chef, and Linda and the kids to play his family, as he tries to stage a perfect holiday dinner in order to",
+   "ep_index": 26
+  },
+  {
+   "start": "20261015215900 +0000",
+   "stop": "20261015222100 +0000",
+   "title": "Bob's Burgers: S03E06 - The Deepening",
+   "desc": "Mr. Fischoeder's new pier attraction, a mechanical shark, goes haywire and terrorizes the town, and it falls to Bob and the family to catch it.",
+   "ep_index": 27
+  },
+  {
+   "start": "20261015222100 +0000",
+   "stop": "20261015224300 +0000",
+   "title": "Bob's Burgers: S03E07 - Tina-rannosaurus Wrecks",
+   "desc": "After Tina accidentally wrecks the car, and gets the whole family involved with a slimy insurance agent, she worries that she's a \"jinx\".",
+   "ep_index": 28
+  },
+  {
+   "start": "20261015224300 +0000",
+   "stop": "20261015230500 +0000",
+   "title": "Bob's Burgers: S03E08 - The Unbearable Like-Likeness of Gene",
+   "desc": "Gene gets his first girlfriend, but it doesn't take long for the family to realize that she is incredibly annoying and they pressure him to break up with her.",
+   "ep_index": 29
+  },
+  {
+   "start": "20261015230500 +0000",
+   "stop": "20261015232700 +0000",
+   "title": "Bob's Burgers: S03E09 - Bob Rest Ye Merry Gentle-Mannequins",
+   "desc": "When Bob inherits a storage unit around Christmas, visions of riches dance in the heads of the family, but what they find inside is a squatter who claims he once worked as a mannequin.",
+   "ep_index": 30
+  },
+  {
+   "start": "20261015232700 +0000",
+   "stop": "20261015234900 +0000",
+   "title": "Bob's Burgers: S03E10 - Mother Daughter Laser Razor",
+   "desc": "Linda worries that her relationship with Louise isn't as good as it should be, so, much to Louise's chagrin, she forces the young lady to participate in a mother-daughter seminar. With mom away, Tina ",
+   "ep_index": 31
+  }
+ ]
+}
