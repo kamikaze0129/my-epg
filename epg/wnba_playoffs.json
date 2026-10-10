@@ -1,23 +1,15 @@
 {
  "_meta": {
-  "game_count": 6,
+  "game_count": 1,
   "season": 2026,
-  "valid_until_utc": "2026-10-14T08:00:00+00:00",
+  "valid_until_utc": "2026-10-17T23:30:00+00:00",
   "source": "ESPN scoreboard API (auto)",
   "note": "Each day's playoff games -> WNBA 01-07 in tipoff order. Channel->game order is best-effort."
  },
  "m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt": [
-  "  <programme start=\"20261009233000 +0000\" stop=\"20261010020000 +0000\" channel=\"m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt\">\n    <title>WNBA Basketball: Atlanta Dream at New York Liberty</title>\n    <desc>Atlanta Dream at New York Liberty. Tipoff 7:30 PM ET on ESPN2. Barclays Center, Brooklyn.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n",
-  "  <programme start=\"20261010013000 +0000\" stop=\"20261010040000 +0000\" channel=\"m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt\">\n    <title>WNBA Basketball: Golden State Valkyries at Las Vegas Aces</title>\n    <desc>Golden State Valkyries at Las Vegas Aces. Tipoff 9:30 PM ET on Peacock. Michelob ULTRA Arena, Las Vegas.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n",
-  "  <programme start=\"20261011040000 +0000\" stop=\"20261011063000 +0000\" channel=\"m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt\">\n    <title>WNBA Basketball: Golden State Valkyries at Las Vegas Aces</title>\n    <desc>Golden State Valkyries at Las Vegas Aces. Tipoff 12:00 AM ET on NBC. Michelob ULTRA Arena, Las Vegas.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n",
-  "  <programme start=\"20261014040000 +0000\" stop=\"20261014063000 +0000\" channel=\"m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt\">\n    <title>WNBA Basketball: New York Liberty at Atlanta Dream</title>\n    <desc>New York Liberty at Atlanta Dream. Tipoff 12:00 AM ET on ESPN. State Farm Arena, Atlanta.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n"
- ],
- "m3u-usa-wnba-02-new-york-liberty-vs-minnesota-lynx-0730-pm-edt": [
-  "  <programme start=\"20261011180000 +0000\" stop=\"20261011203000 +0000\" channel=\"m3u-usa-wnba-02-new-york-liberty-vs-minnesota-lynx-0730-pm-edt\">\n    <title>WNBA Basketball: Atlanta Dream at New York Liberty</title>\n    <desc>Atlanta Dream at New York Liberty. Tipoff 2:00 PM ET on ABC. Barclays Center, Brooklyn.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n",
-  "  <programme start=\"20261014040000 +0000\" stop=\"20261014063000 +0000\" channel=\"m3u-usa-wnba-02-new-york-liberty-vs-minnesota-lynx-0730-pm-edt\">\n    <title>WNBA Basketball: Las Vegas Aces at Golden State Valkyries</title>\n    <desc>Las Vegas Aces at Golden State Valkyries. Tipoff 12:00 AM ET on Peacock. Chase Center, San Francisco.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n"
+  "  <programme start=\"20261017193000 +0000\" stop=\"20261017220000 +0000\" channel=\"m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt\">\n    <title>WNBA Basketball: Atlanta Dream at Golden State Valkyries</title>\n    <desc>Atlanta Dream at Golden State Valkyries. Tipoff 3:30 PM ET on NBC. Chase Center, San Francisco.</desc>\n    <category>Sports</category>\n    <category>Basketball</category>\n  </programme>\n"
  ],
  "_display_names": {
-  "m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt": "USA WNBA 01: New York Liberty vs Atlanta Dream @ 12:00 AM ET",
-  "m3u-usa-wnba-02-new-york-liberty-vs-minnesota-lynx-0730-pm-edt": "USA WNBA 02: Las Vegas Aces vs Golden State Valkyries @ 12:00 AM ET"
+  "m3u-usa-wnba-01-indiana-fever-vs-toronto-tempo-0730-pm-edt": "USA WNBA 01: Atlanta Dream vs Golden State Valkyries @ 3:30 PM ET"
  }
 }
