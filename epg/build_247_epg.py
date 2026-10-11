@@ -224,15 +224,50 @@ def main():
     end = anchor + timedelta(days=args.days)
 
     # Per-channel episode schedule overrides (e.g. Bob's Burgers real episode
-    # titles anchored to a verified stream sync point). File:
-    # <channel_id>_247_schedule.json next to this script, with 'programmes'
-    # list of {start, stop, title, desc}.
+    # titles anchored to a verified stream sync point). Two formats supported:
+    #  1. Dynamic (preferred): JSON with 'anchor_utc' ("YYYYMMDDHHMMSS +0000"),
+    #     'anchor_episode_index', 'block_mins', and 'episodes' list of
+    #     {title, desc} -- generates programmes for ANY window indefinitely.
+    #  2. Legacy finite: 'programmes' list of {start, stop, title, desc} --
+    #     filtered to window; channel falls short if list ends early.
     def load_episode_override(cid):
         fname = cid.replace("m3u-247-", "") + "_247_schedule.json"
         path = os.path.join(SCRIPT_DIR, fname)
         try:
             with open(path, encoding="utf-8") as f:
                 data = json.load(f)
+        except (OSError, ValueError):
+            return None
+        # Dynamic generator: anchor + episode catalog
+        if "anchor_utc" in data and "episodes" in data:
+            try:
+                anchor_ep = datetime.strptime(data["anchor_utc"][:14], "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
+                idx0 = int(data["anchor_episode_index"])
+                bmins = int(data.get("block_mins", 22))
+                eps = data["episodes"]
+                n_eps = len(eps)
+                out = []
+                # first block start <= anchor (window start)
+                delta = (anchor - anchor_ep).total_seconds() / 60
+                n_blocks = int(delta // bmins)
+                t = anchor_ep + timedelta(minutes=n_blocks * bmins)
+                idx = (idx0 + n_blocks) % n_eps
+                while t < end:
+                    stop = min(t + timedelta(minutes=bmins), end)
+                    ep = eps[idx]
+                    out.append({
+                        "start": t.strftime(TS_FMT),
+                        "stop": stop.strftime(TS_FMT),
+                        "title": ep.get("title", ""),
+                        "desc": ep.get("desc", ""),
+                    })
+                    t = stop
+                    idx = (idx + 1) % n_eps
+                return out
+            except (ValueError, KeyError, TypeError):
+                return None
+        # Legacy finite list
+        try:
             progs = data.get("programmes", [])
             # filter to our window
             out = []
