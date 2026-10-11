@@ -1,7 +1,7 @@
 {
-  "anchor_utc": "20261011212514 +0000",
-  "anchor_episode_index": 79,
-  "block_mins": 21,
+  "anchor_utc": "20261011213200 +0000",
+  "anchor_episode_index": 80,
+  "block_mins": 23,
   "episodes": [
     {
       "title": "S1E1 - Human Flesh",
@@ -1256,5 +1256,5 @@
       "desc": "A bad smell threatens a town tradition, so Tina, Gene, and Louise try to eliminate it themselves."
     }
   ],
-  "_note": "Dynamic generator: anchor S11E06 at 2026-10-08 23:31 UTC (Chris verified). Re-anchored 2026-10-11 16:10 UTC to S4E22 (idx 66). Re-anchored 2026-10-11 21:25:14 UTC to S5E13 (idx 79, stream-verified by Chris 5:26 PM EDT). Provider appears to insert non-episode slots (~2 between 1:24-5:26 PM), knocking the sequence back while block boundaries stay aligned; 21-min blocks retained."
+  "_note": "Dynamic generator: anchor S11E06 at 2026-10-08 23:31 UTC (Chris verified). 2026-10-11: stream measured at 23.0 min/ep (S4E22 12:10 PM -> S5E14 5:32 PM = 14 eps / 322 min). Re-anchored 2026-10-11 21:32 UTC to S5E14 (idx 80, stream-verified by Chris). block_mins=23 to match stream rate."
 }
