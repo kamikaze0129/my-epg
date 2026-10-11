@@ -976,6 +976,51 @@ def load_service_xml(path):
     return progs
 
 # ---------------------------------------------------------------- build
+def load_episode_override(cid, anchor, end):
+    """Dynamic episode schedule override (e.g. Bob's Burgers real episode
+    titles anchored to a verified stream sync point). File:
+    <show>_247_schedule.json next to this script (shared with build_247_epg.py),
+    with 'anchor_utc', 'anchor_episode_index', 'block_mins', 'episodes'.
+    Works for both m3u-<show> and m3u-247-<show> -- one file covers both.
+    Returns list of {start, stop, title, desc} XMLTV programme dicts, or None.
+    """
+    base = cid.replace("m3u-247-", "").replace("m3u-", "")
+    fname = base + "_247_schedule.json"
+    path = os.path.join(BUILD_DIR, fname)
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, ValueError):
+        return None
+    if "anchor_utc" not in data or "episodes" not in data:
+        return None
+    try:
+        anchor_ep = datetime.strptime(data["anchor_utc"][:14], "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
+        idx0 = int(data["anchor_episode_index"])
+        bmins = int(data.get("block_mins", 22))
+        eps = data["episodes"]
+        n_eps = len(eps)
+        out = []
+        delta = (anchor - anchor_ep).total_seconds() / 60
+        n_blocks = int(delta // bmins)
+        t = anchor_ep + timedelta(minutes=n_blocks * bmins)
+        idx = (idx0 + n_blocks) % n_eps
+        while t < end:
+            stop = min(t + timedelta(minutes=bmins), end)
+            ep = eps[idx]
+            out.append({
+                "start": t.strftime("%Y%m%d%H%M%S +0000"),
+                "stop": stop.strftime("%Y%m%d%H%M%S +0000"),
+                "title": ep.get("title", ""),
+                "desc": ep.get("desc", ""),
+            })
+            t = stop
+            idx = (idx + 1) % n_eps
+        return out
+    except (ValueError, KeyError, TypeError):
+        return None
+
+
 def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                  verified_fresh, service_progs, anchor):
     """Stream the previous build, replacing programmes per classification.
@@ -1006,6 +1051,19 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
     """
     verified_new = set(verified_fresh)
     service_new = set(service_progs)
+    # Episode overrides (e.g. Bob's Burgers): one schedule file covers both
+    # m3u-<show> and m3u-247-<show>. Drop old, generate fresh below.
+    _ep_end = anchor + timedelta(days=7)
+    episode_override = {}
+    for _cid in order:
+        if classes.get(_cid) not in ('regular', 'placeholder'):
+            continue
+        _eps = load_episode_override(_cid, anchor, _ep_end)
+        if _eps:
+            episode_override[_cid] = _eps
+    if episode_override:
+        log(f"build: episode overrides for {len(episode_override)} channels: "
+            f"{sorted(episode_override)}")
     c = {'channels': 0, 'dropped_verified': 0, 'dropped_service': 0,
          'shifted_247': 0, 'carried': 0, 'orphans_dropped': 0,
          'dropped_placeholder': 0, 'dropped_fossil': 0,
@@ -1047,6 +1105,8 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
             cls = classes[cid]
             if cid in verified_new:
                 c['dropped_verified'] += 1
+            elif cid in episode_override:
+                c['dropped_episode_override'] = c.get('dropped_episode_override', 0) + 1
             elif cls == 'v247':
                 ms = min_start_247.get(cid)
                 delta = (anchor - ms) if ms else timedelta(0)
@@ -1134,6 +1194,8 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
         for cid in order:
             if classes.get(cid) not in ('placeholder', 'regular'):
                 continue
+            if cid in episode_override:
+                continue  # episode blocks written below, no placeholder needed
             latest = reg_max_stop.get(cid, epoch)
             fs = fresh_max_stop.get(cid)
             if fs and fs > latest:
@@ -1159,6 +1221,16 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
                     disp = roster.get(cid, ('', ''))[0] or PLACEHOLDER_TITLE
                     fout.write(rolling_placeholder(cid, start, disp))
                     c['placeholder_written'] += 1
+        # Episode overrides: generated 22-min (or per-show) blocks from anchor.
+        for _cid in sorted(episode_override):
+            for _p in episode_override[_cid]:
+                fout.write(
+                    f'  <programme start="{_p["start"]}" stop="{_p["stop"]}" channel="{_cid}">\n'
+                    f'    <title>{escape(_p["title"])}</title>\n'
+                    f'    <desc>{escape(_p.get("desc", ""))}</desc>\n'
+                    f'  </programme>\n'
+                )
+                c['episode_override_written'] = c.get('episode_override_written', 0) + 1
         for tid in sorted(verified_fresh):
             for p in verified_fresh[tid]:
                 # 2026-09-29: defensive drop of invalid-duration programmes
