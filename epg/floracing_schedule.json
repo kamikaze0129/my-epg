@@ -1,7 +1,7 @@
 {
  "_meta": {
-  "valid_until_utc": "2026-10-18T05:00:00+00:00",
-  "generated_utc": "2026-10-11T10:59:42.647655+00:00",
+  "valid_until_utc": "2026-10-18T23:00:00+00:00",
+  "generated_utc": "2026-10-12T10:59:37.569481+00:00",
   "source": "api.floracing.com public schedule (auto)",
   "note": "FloRacing events -> USA Flo Racing (m3u-usa-flo-racing). Real titles/times from FloRacing's own schedule; overlapping evening events kept at real times (best-effort, one channel). Marathon/evergreen blocks capped at 6h."
  },
@@ -9,9 +9,8 @@
   "m3u-usa-flo-racing": "USA Flo Racing"
  },
  "m3u-usa-flo-racing": [
-  "  <programme start=\"20261011105902 +0000\" stop=\"20261011165902 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261011105902 +0000\" stop=\"20261011165902 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261011190000 +0000\" stop=\"20261012010000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Canadian Super DIRT Weekend at Cornwall</title>\n    <desc>Canadian Super DIRT Weekend at Cornwall -- 16981 Cornwall Centre Rd \u00b7 South Stormont, ON \u00b7 Day 3. 3:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261012105902 +0000\" stop=\"20261012165902 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261012105902 +0000\" stop=\"20261012165902 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261016211500 +0000\" stop=\"20261017031500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Lucas Oil DTWC at WVMS</title>\n    <desc>Lucas Oil DTWC at WVMS -- West Virginia Motor Speedway \u00b7 Mineral Wells, WV \u00b7 Day 1. 5:15 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261016220000 +0000\" stop=\"20261017040000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>STSS Octoberfest at Hagerstown</title>\n    <desc>STSS Octoberfest at Hagerstown -- Hagerstown Speedway \u00b7 Hagerstown, MD \u00b7 Night 1. 6:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261016224500 +0000\" stop=\"20261017044500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC National Sprints at Dodge City</title>\n    <desc>USAC National Sprints at Dodge City -- Dodge City Raceway Park \u00b7 Dodge City, KS. 6:45 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
@@ -24,6 +23,11 @@
   "  <programme start=\"20261017210000 +0000\" stop=\"20261018030000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloZone: FloRacing Championship Weekend</title>\n    <desc>FloZone: FloRacing Championship Weekend -- Farmer City Raceway \u00b7 Farmer City, IL \u00b7 2026 FloZone: FloRacing Championship Weekend. 5:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261017224500 +0000\" stop=\"20261018044500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC National Sprints at Route 66</title>\n    <desc>USAC National Sprints at Route 66 -- Route 66 Motor Speedway \u00b7 Amarillo, TX. 6:45 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261017230000 +0000\" stop=\"20261018050000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC WS Midgets at Ventura</title>\n    <desc>USAC WS Midgets at Ventura. 7:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261017231500 +0000\" stop=\"20261018045959 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>High Limit Racing at Texas</title>\n    <desc>High Limit Racing at Texas -- Texas Motor Speedway \u00b7 Fort Worth, TX \u00b7 Day 2. 7:15 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n"
+  "  <programme start=\"20261017231500 +0000\" stop=\"20261018045959 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>High Limit Racing at Texas</title>\n    <desc>High Limit Racing at Texas -- Texas Motor Speedway \u00b7 Fort Worth, TX \u00b7 Day 2. 7:15 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261018003000 +0000\" stop=\"20261018063000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>CARS Tour West at Kern</title>\n    <desc>CARS Tour West at Kern. 8:30 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261018004500 +0000\" stop=\"20261018064500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>NARC Championship Night at Kings</title>\n    <desc>NARC Championship Night at Kings -- Kings Speedway \u00b7 Hanford, CA. 8:45 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261018010000 +0000\" stop=\"20261018055959 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>AMA EnduroCross at Nampa</title>\n    <desc>AMA EnduroCross at Nampa. 9:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261018024500 +0000\" stop=\"20261018035959 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>ARCA West at Phoenix</title>\n    <desc>ARCA West at Phoenix -- Phoenix Raceway \u00b7 Avondale, AZ. 10:45 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261018170000 +0000\" stop=\"20261018230000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>RoC Finale at Shangri-La II</title>\n    <desc>RoC Finale at Shangri-La II -- Shangri-La II Motor Speedway \u00b7 Owego, NY \u00b7 Day 2. 1:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n"
  ]
 }
