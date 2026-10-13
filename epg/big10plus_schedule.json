@@ -1,7 +1,7 @@
 {
  "_meta": {
   "valid_until_utc": "2026-10-19T01:00:00+00:00",
-  "generated_utc": "2026-10-12T10:55:19.598442+00:00",
+  "generated_utc": "2026-10-13T10:55:20.589055+00:00",
   "source": "ESPN scoreboard API, womens-college-volleyball (auto)",
   "note": "Upcoming Big Ten volleyball -> BIG10+ 01-24 in chronological order, cycling. Channel->game mapping is best-effort: the provider assigns events opaquely. Keys are logical IDs; the builder resolves each number to the actual roster ID."
  },
@@ -22,8 +22,8 @@
   "m3u-big10-11": "BIG10+ 11: Volleyball (W) Penn State Nittany Lions at USC Trojans Sat @ Oct 17 7:00PM ET",
   "m3u-big10-12": "BIG10+ 12: Volleyball (W) Maryland Terrapins at Minnesota Golden Gophers Sat @ Oct 17 7:00PM ET",
   "m3u-big10-13": "BIG10+ 13: Volleyball (W) Michigan State Spartans at Northwestern Wildcats Sat @ Oct 17 8:00PM ET",
-  "m3u-big10-14": "BIG10+ 14: Volleyball (W) Michigan Wolverines at Illinois Fighting Illini Sun @ Oct 18 2:00PM ET",
-  "m3u-big10-15": "BIG10+ 15: Volleyball (W) Wisconsin Badgers at Iowa Hawkeyes Sun @ Oct 18 3:00PM ET",
+  "m3u-big10-14": "BIG10+ 14: Volleyball (W) Wisconsin Badgers at Iowa Hawkeyes Sun @ Oct 18 2:00PM ET",
+  "m3u-big10-15": "BIG10+ 15: Volleyball (W) Michigan Wolverines at Illinois Fighting Illini Sun @ Oct 18 2:00PM ET",
   "m3u-big10-16": "BIG10+ 16: Volleyball (W) Rutgers Scarlet Knights at Oregon Ducks Sun @ Oct 18 4:00PM ET",
   "m3u-big10-17": "BIG10+ 17: Volleyball (W) Indiana Hoosiers at Washington Huskies Sun @ Oct 18 5:00PM ET",
   "m3u-big10-18": "BIG10+ 18: Volleyball (W) Ohio State Buckeyes at UCLA Bruins Sun @ Oct 18 6:00PM ET"
@@ -65,10 +65,10 @@
   "  <programme start=\"20261018000000 +0000\" stop=\"20261018020000 +0000\" channel=\"m3u-big10-13\">\n    <title>Volleyball (W): Michigan State Spartans at Northwestern Wildcats</title>\n    <desc>Michigan State Spartans at Northwestern Wildcats. First serve 8:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Volleyball</category>\n  </programme>\n"
  ],
  "m3u-big10-14": [
-  "  <programme start=\"20261018180000 +0000\" stop=\"20261018200000 +0000\" channel=\"m3u-big10-14\">\n    <title>Volleyball (W): Michigan Wolverines at Illinois Fighting Illini</title>\n    <desc>Michigan Wolverines at Illinois Fighting Illini. First serve 2:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Volleyball</category>\n  </programme>\n"
+  "  <programme start=\"20261018180000 +0000\" stop=\"20261018200000 +0000\" channel=\"m3u-big10-14\">\n    <title>Volleyball (W): Wisconsin Badgers at Iowa Hawkeyes</title>\n    <desc>Wisconsin Badgers at Iowa Hawkeyes. First serve 2:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Volleyball</category>\n  </programme>\n"
  ],
  "m3u-big10-15": [
-  "  <programme start=\"20261018190000 +0000\" stop=\"20261018210000 +0000\" channel=\"m3u-big10-15\">\n    <title>Volleyball (W): Wisconsin Badgers at Iowa Hawkeyes</title>\n    <desc>Wisconsin Badgers at Iowa Hawkeyes. First serve 3:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Volleyball</category>\n  </programme>\n"
+  "  <programme start=\"20261018180000 +0000\" stop=\"20261018200000 +0000\" channel=\"m3u-big10-15\">\n    <title>Volleyball (W): Michigan Wolverines at Illinois Fighting Illini</title>\n    <desc>Michigan Wolverines at Illinois Fighting Illini. First serve 2:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Volleyball</category>\n  </programme>\n"
  ],
  "m3u-big10-16": [
   "  <programme start=\"20261018200000 +0000\" stop=\"20261018220000 +0000\" channel=\"m3u-big10-16\">\n    <title>Volleyball (W): Rutgers Scarlet Knights at Oregon Ducks</title>\n    <desc>Rutgers Scarlet Knights at Oregon Ducks. First serve 4:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Volleyball</category>\n  </programme>\n"
