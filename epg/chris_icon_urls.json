@@ -270,7 +270,7 @@
  "m3u-247-mars": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/m3u-247-mars.png",
  "m3u-247-mayans-mc": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/m3u-247-mayans-mc.png",
  "24Horas.es": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/24Horas.es.png",
- "24Kitchen.pt": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/24Kitchen.pt.png",
+ "24Kitchen.pt": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/the-path.png",
  "m3u-247-bachelor-in-paradise": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/m3u-247-bachelor-in-paradise.png",
  "m3u-247-below-deck-mediterranean": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/m3u-247-below-deck-mediterranean.png",
  "m3u-247-big-brother": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/m3u-247-big-brother.png",
@@ -967,7 +967,7 @@
  "m3u-247-mysteries-at-the-museum": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-mysteries-at-the-museum.png",
  "m3u-247-step-up-high-water": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-step-up-high-water.png",
  "m3u-247-the-next-big-thing": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-the-next-big-thing.png",
- "m3u-247-the-path": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-the-path.png",
+ "m3u-247-the-path": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/the-path.png",
  "m3u-247-twin": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-twin.png",
  "m3u-247-ariana-grande-dangerous-woman-diaries": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-ariana-grande-dangerous-woman-diaries.png",
  "m3u-247-club-de-cuervos": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-club-de-cuervos.png",
@@ -2808,5 +2808,6 @@
  "24Taas.in": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/wu-assassins.png",
  "24Kitchen.rs": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/listeners.png",
  "247CanaldeNoticias.ar": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/to-catch-a-beautician.png",
- "24.ua": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/fauda.png"
+ "24.ua": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/fauda.png",
+ "24Ghante.in": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/vagrant-queen.png"
 }
