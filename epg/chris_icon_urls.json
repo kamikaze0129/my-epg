@@ -627,7 +627,7 @@
  "pbscet.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-pbscet-us.png",
  "pbskids.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-pbskids-us.png",
  "pbstpt2.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-pbstpt2-us.png",
- "pbswtvs.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-pbswtvs-us.png",
+ "pbswtvs.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/pbswtvs.us.png",
  "APLP": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/animal-planet.png",
  "animalplanet.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/animal-planet.png",
  "epg-usa-animal-planet-east-f690067e": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/animal-planet.png",
@@ -3088,5 +3088,14 @@
  "telemundowkaq.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/telemundowkaq.us.png",
  "telemundokblr.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/telemundokblr.us.png",
  "telemundownju.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/telemundownju.us.png",
- "telemundokasa.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/telemundokasa.us.png"
+ "telemundokasa.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/telemundokasa.us.png",
+ "pbswuft.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/pbswuft.us.png",
+ "pbswqed.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/pbswqed.us.png",
+ "pbswnjt.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/pbswnjt.us.png",
+ "pbs13wnet.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/pbs13wnet.us.png",
+ "pbswned.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/pbswned.us.png",
+ "WMHT": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/WMHT.png",
+ "pbswgcu.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/pbswgcu.us.png",
+ "WCNY": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/WCNY.png",
+ "pbskbdi.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/pbskbdi.us.png"
 }
