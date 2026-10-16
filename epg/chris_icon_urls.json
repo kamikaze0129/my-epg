@@ -787,7 +787,7 @@
  "m3u-usa-starzplay-2": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-usa-starzplay.png",
  "m3u-usa-starzplay-1": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-starzplay.png",
  "m3u-usa-starzplay-4": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-starzplay.png",
- "telemundoktdo.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-telemundoktdo-us.png",
+ "telemundoktdo.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/telemundoktdo.us.png",
  "travelwest.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-travelwest-us.png",
  "vsin.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-vsin-us.png",
  "wapaamerica.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-wapaamerica-us.png",
@@ -3084,5 +3084,9 @@
  "3abn.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/3abn.us.png",
  "3abnproclaim.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/3abnproclaim.us.png",
  "tbspacific.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/tbs.us.png",
- "tntpacific.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/tnt.us.png"
+ "tntpacific.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/tnt.us.png",
+ "telemundowkaq.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/telemundowkaq.us.png",
+ "telemundokblr.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/telemundokblr.us.png",
+ "telemundownju.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/telemundownju.us.png",
+ "telemundokasa.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/telemundokasa.us.png"
 }
