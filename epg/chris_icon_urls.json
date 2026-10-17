@@ -1651,7 +1651,7 @@
  "m3u-the-oc": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/rehosted/imgur-9fecbbe3164b.png",
  "m3u-the-office": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/rehosted/imgur-98279e3e4644.png",
  "m3u-the-office-uk": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/rehosted/imgur-98279e3e4644.png",
- "m3u-the-royle-family": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/rehosted/imgur-369bccac4c4c.png",
+ "m3u-the-royle-family": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/tv-the-royle-family.png",
  "m3u-the-thick-of-it": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/rehosted/imgur-2fed8fa7ea1a.png",
  "m3u-the-thin-blue-line": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/rehosted/imgur-f630e900bd65.png",
  "m3u-this-is-us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/rehosted/imgur-ee7ea391c250.png",
@@ -3107,5 +3107,6 @@
  "m3u-247-embarrassing-bodies-2008": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/tv-embarrassing-bodies-2008.png",
  "m3u-247-deadliest-catch-bloodline-2020": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/tv-deadliest-catch-bloodline-2020.png",
  "m3u-247-gold-rush-s01s07": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/tv-gold-rush-s01s07.png",
- "m3u-247-african-queens-njinga": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/tv-african-queens-njinga.png"
+ "m3u-247-african-queens-njinga": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/tv-african-queens-njinga.png",
+ "m3u-247-the-royle-family": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/tv-the-royle-family.png"
 }
