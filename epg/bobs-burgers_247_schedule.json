@@ -1,6 +1,6 @@
 {
- "anchor_utc": "20261011213200 +0000",
- "anchor_episode_index": 80,
+ "anchor_utc": "20261017115100 +0000",
+ "anchor_episode_index": 140,
  "block_mins": 26,
  "episodes": [
   {
@@ -1256,5 +1256,5 @@
    "desc": "A bad smell threatens a town tradition, so Tina, Gene, and Louise try to eliminate it themselves."
   }
  ],
- "_note": "Dynamic generator: anchor S11E06 at 2026-10-08 23:31 UTC (Chris verified). 2026-10-11: stream measured at 23.0 min/ep (S4E22 12:10 PM -> S5E14 5:32 PM = 14 eps / 322 min). Re-anchored 2026-10-11 21:32 UTC to S5E14 (idx 80, stream-verified by Chris). block_mins=23 to match stream rate."
+ "_note": "Re-anchored 2026-10-17 07:51 EDT by Chris live observation: S8E12 started"
 }
