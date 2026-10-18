@@ -789,7 +789,7 @@
  "m3u-usa-starzplay-4": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-starzplay.png",
  "telemundoktdo.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/chris-custom/telemundoktdo.us.png",
  "travelwest.us": "",
- "vsin.us": "",
+ "vsin.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-vsin-us.png",
  "wapaamerica.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-wapaamerica-us.png",
  "willowcricket.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-willowcricket-us.png",
  "m3u-usa-nba-03": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-nba-league-pass.png",
