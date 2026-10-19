@@ -1,55 +1,55 @@
 {
  "_meta": {
-  "week": 6,
+  "week": 7,
   "season": 2026,
-  "valid_until_utc": "2026-10-19T00:25:00+00:00",
+  "valid_until_utc": "2026-10-26T00:25:00+00:00",
   "source": "ESPN scoreboard API (auto)",
   "note": "Sunday-afternoon games -> Sunday Ticket 705-717 in kickoff order. Channel->game order is best-effort."
  },
  "epg-usa-nfl-sunday-705-detroit-lions-vs-buffalo-bills-08-15-pm-edt-81cba79d": [
-  "  <programme start=\"20261018133000 +0000\" stop=\"20261018164500 +0000\" channel=\"epg-usa-nfl-sunday-705-detroit-lions-vs-buffalo-bills-08-15-pm-edt-81cba79d\">\n    <title>NFL Football: Houston Texans at Jacksonville Jaguars</title>\n    <desc>Houston Texans at Jacksonville Jaguars. Kickoff 9:30 AM ET on NFL Net. Wembley Stadium, London.</desc>\n    <category>Sports</category>\n  </programme>\n"
+  "  <programme start=\"20261025133000 +0000\" stop=\"20261025164500 +0000\" channel=\"epg-usa-nfl-sunday-705-detroit-lions-vs-buffalo-bills-08-15-pm-edt-81cba79d\">\n    <title>NFL Football: Pittsburgh Steelers at New Orleans Saints</title>\n    <desc>Pittsburgh Steelers at New Orleans Saints. Kickoff 9:30 AM ET on NFL Net. Stade de France, Saint-Denis.</desc>\n    <category>Sports</category>\n  </programme>\n"
  ],
  "_display_names": {
-  "epg-usa-nfl-sunday-705-detroit-lions-vs-buffalo-bills-08-15-pm-edt-81cba79d": "USA NFL Sunday 705: Houston Texans vs Jacksonville Jaguars @ 9:30 AM ET",
-  "m3u-usa-nfl-sunday-706-detroit-lions-vs-buffalo-bills-0815-pm-ed": "USA NFL Sunday 706: Chicago Bears vs Atlanta Falcons @ 1:00 PM ET",
-  "m3u-usa-nfl-sunday-707-detroit-lions-vs-buffalo-bills-0815-pm-ed": "USA NFL Sunday 707: Baltimore Ravens vs Cleveland Browns @ 1:00 PM ET",
-  "m3u-usa-nfl-sunday-708": "USA NFL Sunday 708: Tennessee Titans vs Indianapolis Colts @ 1:00 PM ET",
-  "m3u-usa-nfl-sunday-709": "USA NFL Sunday 709: New York Jets vs New England Patriots @ 1:00 PM ET",
-  "m3u-usa-nfl-sunday-710": "USA NFL Sunday 710: New Orleans Saints vs New York Giants @ 1:00 PM ET",
-  "m3u-usa-nfl-sunday-711": "USA NFL Sunday 711: Carolina Panthers vs Philadelphia Eagles @ 1:00 PM ET",
-  "m3u-usa-nfl-sunday-712": "USA NFL Sunday 712: Pittsburgh Steelers vs Tampa Bay Buccaneers @ 1:00 PM ET",
-  "m3u-usa-nfl-sunday-713": "USA NFL Sunday 713: Arizona Cardinals vs Los Angeles Rams @ 4:05 PM ET",
-  "m3u-usa-nfl-sunday-714": "USA NFL Sunday 714: Los Angeles Chargers vs Kansas City Chiefs @ 4:25 PM ET",
-  "m3u-usa-nfl-sunday-715": "USA NFL Sunday 715: Buffalo Bills vs Las Vegas Raiders @ 4:25 PM ET"
+  "epg-usa-nfl-sunday-705-detroit-lions-vs-buffalo-bills-08-15-pm-edt-81cba79d": "USA NFL Sunday 705: Pittsburgh Steelers vs New Orleans Saints @ 9:30 AM ET",
+  "m3u-usa-nfl-sunday-706-detroit-lions-vs-buffalo-bills-0815-pm-ed": "USA NFL Sunday 706: San Francisco 49ers vs Atlanta Falcons @ 1:00 PM ET",
+  "m3u-usa-nfl-sunday-707-detroit-lions-vs-buffalo-bills-0815-pm-ed": "USA NFL Sunday 707: Cleveland Browns vs Tennessee Titans @ 1:00 PM ET",
+  "m3u-usa-nfl-sunday-708": "USA NFL Sunday 708: Indianapolis Colts vs Minnesota Vikings @ 1:00 PM ET",
+  "m3u-usa-nfl-sunday-709": "USA NFL Sunday 709: Miami Dolphins vs New York Jets @ 1:00 PM ET",
+  "m3u-usa-nfl-sunday-710": "USA NFL Sunday 710: Tampa Bay Buccaneers vs Carolina Panthers @ 1:00 PM ET",
+  "m3u-usa-nfl-sunday-711": "USA NFL Sunday 711: Cincinnati Bengals vs Baltimore Ravens @ 1:00 PM ET",
+  "m3u-usa-nfl-sunday-712": "USA NFL Sunday 712: New York Giants vs Houston Texans @ 1:00 PM ET",
+  "m3u-usa-nfl-sunday-713": "USA NFL Sunday 713: Denver Broncos vs Arizona Cardinals @ 4:05 PM ET",
+  "m3u-usa-nfl-sunday-714": "USA NFL Sunday 714: Green Bay Packers vs Detroit Lions @ 4:25 PM ET",
+  "m3u-usa-nfl-sunday-715": "USA NFL Sunday 715: Los Angeles Rams vs Las Vegas Raiders @ 4:25 PM ET"
  },
  "m3u-usa-nfl-sunday-706-detroit-lions-vs-buffalo-bills-0815-pm-ed": [
-  "  <programme start=\"20261018170000 +0000\" stop=\"20261018201500 +0000\" channel=\"m3u-usa-nfl-sunday-706-detroit-lions-vs-buffalo-bills-0815-pm-ed\">\n    <title>NFL Football: Chicago Bears at Atlanta Falcons</title>\n    <desc>Chicago Bears at Atlanta Falcons. Kickoff 1:00 PM ET on Fox. Mercedes-Benz Stadium, Atlanta.</desc>\n    <category>Sports</category>\n  </programme>\n"
+  "  <programme start=\"20261025170000 +0000\" stop=\"20261025201500 +0000\" channel=\"m3u-usa-nfl-sunday-706-detroit-lions-vs-buffalo-bills-0815-pm-ed\">\n    <title>NFL Football: San Francisco 49ers at Atlanta Falcons</title>\n    <desc>San Francisco 49ers at Atlanta Falcons. Kickoff 1:00 PM ET on Fox. Mercedes-Benz Stadium, Atlanta.</desc>\n    <category>Sports</category>\n  </programme>\n"
  ],
  "m3u-usa-nfl-sunday-707-detroit-lions-vs-buffalo-bills-0815-pm-ed": [
-  "  <programme start=\"20261018170000 +0000\" stop=\"20261018201500 +0000\" channel=\"m3u-usa-nfl-sunday-707-detroit-lions-vs-buffalo-bills-0815-pm-ed\">\n    <title>NFL Football: Baltimore Ravens at Cleveland Browns</title>\n    <desc>Baltimore Ravens at Cleveland Browns. Kickoff 1:00 PM ET on Fox. Huntington Bank Field, Cleveland.</desc>\n    <category>Sports</category>\n  </programme>\n"
+  "  <programme start=\"20261025170000 +0000\" stop=\"20261025201500 +0000\" channel=\"m3u-usa-nfl-sunday-707-detroit-lions-vs-buffalo-bills-0815-pm-ed\">\n    <title>NFL Football: Cleveland Browns at Tennessee Titans</title>\n    <desc>Cleveland Browns at Tennessee Titans. Kickoff 1:00 PM ET on CBS. Nissan Stadium, Nashville.</desc>\n    <category>Sports</category>\n  </programme>\n"
  ],
  "m3u-usa-nfl-sunday-708": [
-  "  <programme start=\"20261018170000 +0000\" stop=\"20261018201500 +0000\" channel=\"m3u-usa-nfl-sunday-708\">\n    <title>NFL Football: Tennessee Titans at Indianapolis Colts</title>\n    <desc>Tennessee Titans at Indianapolis Colts. Kickoff 1:00 PM ET on Fox. Lucas Oil Stadium, Indianapolis.</desc>\n    <category>Sports</category>\n  </programme>\n"
+  "  <programme start=\"20261025170000 +0000\" stop=\"20261025201500 +0000\" channel=\"m3u-usa-nfl-sunday-708\">\n    <title>NFL Football: Indianapolis Colts at Minnesota Vikings</title>\n    <desc>Indianapolis Colts at Minnesota Vikings. Kickoff 1:00 PM ET on CBS. U.S. Bank Stadium, Minneapolis.</desc>\n    <category>Sports</category>\n  </programme>\n"
  ],
  "m3u-usa-nfl-sunday-709": [
-  "  <programme start=\"20261018170000 +0000\" stop=\"20261018201500 +0000\" channel=\"m3u-usa-nfl-sunday-709\">\n    <title>NFL Football: New York Jets at New England Patriots</title>\n    <desc>New York Jets at New England Patriots. Kickoff 1:00 PM ET on CBS. Gillette Stadium, Foxborough.</desc>\n    <category>Sports</category>\n  </programme>\n"
+  "  <programme start=\"20261025170000 +0000\" stop=\"20261025201500 +0000\" channel=\"m3u-usa-nfl-sunday-709\">\n    <title>NFL Football: Miami Dolphins at New York Jets</title>\n    <desc>Miami Dolphins at New York Jets. Kickoff 1:00 PM ET on CBS. MetLife Stadium, East Rutherford.</desc>\n    <category>Sports</category>\n  </programme>\n"
  ],
  "m3u-usa-nfl-sunday-710": [
-  "  <programme start=\"20261018170000 +0000\" stop=\"20261018201500 +0000\" channel=\"m3u-usa-nfl-sunday-710\">\n    <title>NFL Football: New Orleans Saints at New York Giants</title>\n    <desc>New Orleans Saints at New York Giants. Kickoff 1:00 PM ET on Fox. MetLife Stadium, East Rutherford.</desc>\n    <category>Sports</category>\n  </programme>\n"
+  "  <programme start=\"20261025170000 +0000\" stop=\"20261025201500 +0000\" channel=\"m3u-usa-nfl-sunday-710\">\n    <title>NFL Football: Tampa Bay Buccaneers at Carolina Panthers</title>\n    <desc>Tampa Bay Buccaneers at Carolina Panthers. Kickoff 1:00 PM ET on Fox. Bank of America Stadium, Charlotte.</desc>\n    <category>Sports</category>\n  </programme>\n"
  ],
  "m3u-usa-nfl-sunday-711": [
-  "  <programme start=\"20261018170000 +0000\" stop=\"20261018201500 +0000\" channel=\"m3u-usa-nfl-sunday-711\">\n    <title>NFL Football: Carolina Panthers at Philadelphia Eagles</title>\n    <desc>Carolina Panthers at Philadelphia Eagles. Kickoff 1:00 PM ET on CBS. Lincoln Financial Field, Philadelphia.</desc>\n    <category>Sports</category>\n  </programme>\n"
+  "  <programme start=\"20261025170000 +0000\" stop=\"20261025201500 +0000\" channel=\"m3u-usa-nfl-sunday-711\">\n    <title>NFL Football: Cincinnati Bengals at Baltimore Ravens</title>\n    <desc>Cincinnati Bengals at Baltimore Ravens. Kickoff 1:00 PM ET on CBS. M&amp;T Bank Stadium, Baltimore.</desc>\n    <category>Sports</category>\n  </programme>\n"
  ],
  "m3u-usa-nfl-sunday-712": [
-  "  <programme start=\"20261018170000 +0000\" stop=\"20261018201500 +0000\" channel=\"m3u-usa-nfl-sunday-712\">\n    <title>NFL Football: Pittsburgh Steelers at Tampa Bay Buccaneers</title>\n    <desc>Pittsburgh Steelers at Tampa Bay Buccaneers. Kickoff 1:00 PM ET on CBS. Raymond James Stadium, Tampa.</desc>\n    <category>Sports</category>\n  </programme>\n"
+  "  <programme start=\"20261025170000 +0000\" stop=\"20261025201500 +0000\" channel=\"m3u-usa-nfl-sunday-712\">\n    <title>NFL Football: New York Giants at Houston Texans</title>\n    <desc>New York Giants at Houston Texans. Kickoff 1:00 PM ET on Fox. Reliant Stadium, Houston.</desc>\n    <category>Sports</category>\n  </programme>\n"
  ],
  "m3u-usa-nfl-sunday-713": [
-  "  <programme start=\"20261018200500 +0000\" stop=\"20261018232000 +0000\" channel=\"m3u-usa-nfl-sunday-713\">\n    <title>NFL Football: Arizona Cardinals at Los Angeles Rams</title>\n    <desc>Arizona Cardinals at Los Angeles Rams. Kickoff 4:05 PM ET on Fox. SoFi Stadium, Inglewood.</desc>\n    <category>Sports</category>\n  </programme>\n"
+  "  <programme start=\"20261025200500 +0000\" stop=\"20261025232000 +0000\" channel=\"m3u-usa-nfl-sunday-713\">\n    <title>NFL Football: Denver Broncos at Arizona Cardinals</title>\n    <desc>Denver Broncos at Arizona Cardinals. Kickoff 4:05 PM ET on CBS. State Farm Stadium, Glendale.</desc>\n    <category>Sports</category>\n  </programme>\n"
  ],
  "m3u-usa-nfl-sunday-714": [
-  "  <programme start=\"20261018202500 +0000\" stop=\"20261018234000 +0000\" channel=\"m3u-usa-nfl-sunday-714\">\n    <title>NFL Football: Los Angeles Chargers at Kansas City Chiefs</title>\n    <desc>Los Angeles Chargers at Kansas City Chiefs. Kickoff 4:25 PM ET on CBS. Arrowhead Stadium, Kansas City.</desc>\n    <category>Sports</category>\n  </programme>\n"
+  "  <programme start=\"20261025202500 +0000\" stop=\"20261025234000 +0000\" channel=\"m3u-usa-nfl-sunday-714\">\n    <title>NFL Football: Green Bay Packers at Detroit Lions</title>\n    <desc>Green Bay Packers at Detroit Lions. Kickoff 4:25 PM ET on Fox. Ford Field, Detroit.</desc>\n    <category>Sports</category>\n  </programme>\n"
  ],
  "m3u-usa-nfl-sunday-715": [
-  "  <programme start=\"20261018202500 +0000\" stop=\"20261018234000 +0000\" channel=\"m3u-usa-nfl-sunday-715\">\n    <title>NFL Football: Buffalo Bills at Las Vegas Raiders</title>\n    <desc>Buffalo Bills at Las Vegas Raiders. Kickoff 4:25 PM ET on CBS. Allegiant Stadium, Las Vegas.</desc>\n    <category>Sports</category>\n  </programme>\n"
+  "  <programme start=\"20261025202500 +0000\" stop=\"20261025234000 +0000\" channel=\"m3u-usa-nfl-sunday-715\">\n    <title>NFL Football: Los Angeles Rams at Las Vegas Raiders</title>\n    <desc>Los Angeles Rams at Las Vegas Raiders. Kickoff 4:25 PM ET on Fox. Allegiant Stadium, Las Vegas.</desc>\n    <category>Sports</category>\n  </programme>\n"
  ]
 }
