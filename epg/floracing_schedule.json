@@ -1,7 +1,7 @@
 {
  "_meta": {
-  "valid_until_utc": "2026-10-25T02:00:00+00:00",
-  "generated_utc": "2026-10-18T10:59:37.518233+00:00",
+  "valid_until_utc": "2026-10-25T19:45:00+00:00",
+  "generated_utc": "2026-10-19T10:59:37.587180+00:00",
   "source": "api.floracing.com public schedule (auto)",
   "note": "FloRacing events -> USA Flo Racing (m3u-usa-flo-racing). Real titles/times from FloRacing's own schedule; overlapping evening events kept at real times (best-effort, one channel). Marathon/evergreen blocks capped at 6h."
  },
@@ -9,11 +9,8 @@
   "m3u-usa-flo-racing": "USA Flo Racing"
  },
  "m3u-usa-flo-racing": [
-  "  <programme start=\"20261018105902 +0000\" stop=\"20261018165902 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261018105902 +0000\" stop=\"20261018165902 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261018180000 +0000\" stop=\"20261019000000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>STSS Octoberfest at Hagerstown</title>\n    <desc>STSS Octoberfest at Hagerstown -- Hagerstown Speedway \u00b7 Hagerstown, MD \u00b7 Day 2. 2:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261018201500 +0000\" stop=\"20261019021500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Lucas Oil DTWC at WVMS</title>\n    <desc>Lucas Oil DTWC at WVMS -- West Virginia Motor Speedway \u00b7 Mineral Wells, WV \u00b7 Day 2. 4:15 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261019000000 +0000\" stop=\"20261019045959 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>High Limit Racing Awards Banquet</title>\n    <desc>High Limit Racing Awards Banquet -- Tannahill's Music Hall &amp; Lounge \u00b7 Fort Worth, TX. 8:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261019105903 +0000\" stop=\"20261019165903 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261019105903 +0000\" stop=\"20261019165903 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261021204500 +0000\" stop=\"20261022024500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>No Mercy 17</title>\n    <desc>No Mercy 17 -- Day 1. 4:45 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261022000000 +0000\" stop=\"20261022010000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing Night in America at Volunteer</title>\n    <desc>FloRacing Night in America at Volunteer -- Volunteer Speedway \u00b7 Bulls Gap, TN. time TBD.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261022000000 +0000\" stop=\"20261022010000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC Western World Champs at Central AZ</title>\n    <desc>USAC Western World Champs at Central AZ -- CENTRAL ARIZONA RACEWAY \u00b7 Casa Grande, AZ. time TBD.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
@@ -24,6 +21,8 @@
   "  <programme start=\"20261023234500 +0000\" stop=\"20261024054500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Harvest Hustle at Marshalltown</title>\n    <desc>Harvest Hustle at Marshalltown -- Marshalltown Speedway \u00b7 Marshalltown, IA. 7:45 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261024000000 +0000\" stop=\"20261024010000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>GNCC at Ironman</title>\n    <desc>GNCC at Ironman. time TBD.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261024134500 +0000\" stop=\"20261024194500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>No Mercy 17</title>\n    <desc>No Mercy 17 -- Day 4. 9:45 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261024200000 +0000\" stop=\"20261025020000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Blue-Gray 100 at Cherokee</title>\n    <desc>Blue-Gray 100 at Cherokee -- Cherokee Speedway \u00b7 Gaffney, SC. 4:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n"
+  "  <programme start=\"20261024200000 +0000\" stop=\"20261025020000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Blue-Gray 100 at Cherokee</title>\n    <desc>Blue-Gray 100 at Cherokee -- Cherokee Speedway \u00b7 Gaffney, SC. 4:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261025020000 +0000\" stop=\"20261025065959 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>AMA EnduroCross at Everett</title>\n    <desc>AMA EnduroCross at Everett. 10:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261025134500 +0000\" stop=\"20261025194500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>No Mercy 17</title>\n    <desc>No Mercy 17 -- Day 5. 9:45 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n"
  ]
 }
