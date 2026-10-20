@@ -1001,6 +1001,32 @@ def load_episode_override(cid, anchor, end):
         eps = data["episodes"]
         n_eps = len(eps)
         out = []
+        durs = [int(e.get("mins", bmins)) for e in eps]
+        if len(set(durs)) > 1:
+            # Variable per-item durations (e.g. movie loops with exact
+            # runtimes): walk the cycle to the window start.
+            cycle = sum(durs)
+            delta_m = int((anchor - anchor_ep).total_seconds() // 60)
+            rel = delta_m % cycle
+            acc = 0
+            k = 0
+            while rel >= acc + durs[(idx0 + k) % n_eps]:
+                acc += durs[(idx0 + k) % n_eps]
+                k += 1
+            idx = (idx0 + k) % n_eps
+            t = anchor_ep + timedelta(minutes=delta_m - (rel - acc))
+            while t < end:
+                stop = min(t + timedelta(minutes=durs[idx]), end)
+                ep = eps[idx]
+                out.append({
+                    "start": t.strftime("%Y%m%d%H%M%S +0000"),
+                    "stop": stop.strftime("%Y%m%d%H%M%S +0000"),
+                    "title": ep.get("title", ""),
+                    "desc": ep.get("desc", ""),
+                })
+                t = stop
+                idx = (idx + 1) % n_eps
+            return out
         delta = (anchor - anchor_ep).total_seconds() / 60
         n_blocks = int(delta // bmins)
         t = anchor_ep + timedelta(minutes=n_blocks * bmins)
