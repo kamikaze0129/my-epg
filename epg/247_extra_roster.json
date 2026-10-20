@@ -27388,5 +27388,15 @@
   "block_mins": 30,
   "title": "Zoo",
   "desc": "Zoo marathon."
+ },
+ {
+  "id": "m3u-247-back-to-the-future",
+  "names": [
+   "Back To The Future"
+  ],
+  "icon": "",
+  "block_mins": 120,
+  "title": "Back To The Future",
+  "desc": "Back to the Future movie marathon."
  }
 ]
