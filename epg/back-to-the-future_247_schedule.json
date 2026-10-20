@@ -1,0 +1,21 @@
+{
+ "anchor_utc": "20261020224000 +0000",
+ "anchor_episode_index": 2,
+ "episodes": [
+  {
+   "title": "Back to the Future",
+   "mins": 116,
+   "desc": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985."
+  },
+  {
+   "title": "Back to the Future Part II",
+   "mins": 108,
+   "desc": "Marty and Doc are at it again as the time-traveling duo head to 2015 to nip some McFly family woes in the bud. But things go awry thanks to bully Biff Tannen and a pesky sports almanac. In a last-ditch attempt to set things straight, Marty finds himself bound for 1955 and face to face with his teenage parents -- again."
+  },
+  {
+   "title": "Back to the Future Part III",
+   "mins": 119,
+   "desc": "The final installment finds Marty digging the trusty DeLorean out of a mineshaft and looking for Doc in the Wild West of 1885. But when their time machine breaks down, the travelers are stranded in a land of spurs. More problems arise when Doc falls for pretty schoolteacher Clara Clayton, and Marty tangles with Buford Tannen."
+  }
+ ]
+}
