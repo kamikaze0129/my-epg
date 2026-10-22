@@ -1560,16 +1560,6 @@
   "desc": "The Simpsons Treehouse Of Horror marathon."
  },
  {
-  "id": "m3u-247-0-630-1200-al-jpg",
-  "names": [
-   "630,1200_AL_.jpg\" group-title=\"24/7 Classic Show\",24/7 Petticoat Junction\" tvg-logo=\"\" group-title=\"24/7 Classic Show\",0,630,1200_AL_.jpg\" group-title=\"24/7 Classic Show\",24/7 Petticoat Junction"
-  ],
-  "icon": "",
-  "block_mins": 30,
-  "title": "630,1200_AL_.jpg\" group-title=\"24/7 Classic Show\",24/7 Petticoat Junction\" tvg-logo=\"\" group-title=\"24/7 Classic Show\",0,630,1200_AL_.jpg\" group-title=\"24/7 Classic Show\",24/7 Petticoat Junction",
-  "desc": "630,1200_AL_.jpg\" group-title=\"24/7 Classic Show\",24/7 Petticoat Junction\" tvg-logo=\"\" group-title=\"24/7 Classic Show\",0,630,1200_AL_.jpg\" group-title=\"24/7 Classic Show\",24/7 Petticoat Junction marathon."
- },
- {
   "id": "m3u-247-100-percent-hotter",
   "names": [
    "24/7 100 Percent Hotter"
@@ -14442,12 +14432,12 @@
  {
   "id": "m3u-247-medicine-woman",
   "names": [
-   "24/7 Dr. Quinn, Medicine Woman\" tvg-logo=\"\" group-title=\"24/7 Western\",Medicine Woman\" tvg-logo=\"http://185.193.88.130:80/images/d86514bd294b183f961c43d5c8dccaca.jpg\" group-title=\"24/7 Western\",24/7 Dr. Quinn, Medicine Woman"
+   "24/7 Dr. Quinn, Medicine Woman"
   ],
   "icon": "",
   "block_mins": 30,
-  "title": "Dr. Quinn, Medicine Woman\" tvg-logo=\"\" group-title=\"24/7 Western\",Medicine Woman\" tvg-logo=\"http://185.193.88.130:80/images/d86514bd294b183f961c43d5c8dccaca.jpg\" group-title=\"24/7 Western\",24/7 Dr. Quinn, Medicine Woman",
-  "desc": "Dr. Quinn, Medicine Woman\" tvg-logo=\"\" group-title=\"24/7 Western\",Medicine Woman\" tvg-logo=\"http://185.193.88.130:80/images/d86514bd294b183f961c43d5c8dccaca.jpg\" group-title=\"24/7 Western\",24/7 Dr. Quinn, Medicine Woman marathon."
+  "title": "Dr. Quinn, Medicine Woman",
+  "desc": "Dr. Quinn, Medicine Woman marathon."
  },
  {
   "id": "m3u-247-medium",
@@ -24722,12 +24712,12 @@
  {
   "id": "m3u-247-the-teenage-witch",
   "names": [
-   "24/7 Sabrina, the Teenage Witch\" tvg-logo=\"\" group-title=\"24/7 Kids & Family\",the Teenage Witch\" tvg-logo=\"http://185.193.88.130:80/images/a431bfe14340c308e4000c2485dd03c7.jpg\" group-title=\"24/7 Kids & Family\",24/7 Sabrina, the Teenage Witch"
+   "24/7 Sabrina, the Teenage Witch"
   ],
   "icon": "",
   "block_mins": 30,
-  "title": "Sabrina, the Teenage Witch\" tvg-logo=\"\" group-title=\"24/7 Kids & Family\",the Teenage Witch\" tvg-logo=\"http://185.193.88.130:80/images/a431bfe14340c308e4000c2485dd03c7.jpg\" group-title=\"24/7 Kids & Family\",24/7 Sabrina, the Teenage Witch",
-  "desc": "Sabrina, the Teenage Witch\" tvg-logo=\"\" group-title=\"24/7 Kids & Family\",the Teenage Witch\" tvg-logo=\"http://185.193.88.130:80/images/a431bfe14340c308e4000c2485dd03c7.jpg\" group-title=\"24/7 Kids & Family\",24/7 Sabrina, the Teenage Witch marathon."
+  "title": "Sabrina, the Teenage Witch",
+  "desc": "Sabrina, the Teenage Witch marathon."
  },
  {
   "id": "m3u-247-the-test-a-new-era-for-australias-team",
@@ -25842,12 +25832,12 @@
  {
   "id": "m3u-247-u-s-m-c",
   "names": [
-   "24/7 Gomer Pyle, U.S.M.C.\" tvg-logo=\"\" group-title=\"24/7 Classic Show\",U.S.M.C.\" tvg-logo=\"https://www.gstatic.com/tv/thumb/tvbanners/394788/p394788_b_v8_ab.jpg\" group-title=\"24/7 Classic Show\",24/7 Gomer Pyle, U.S.M.C."
+   "24/7 Gomer Pyle, U.S.M.C."
   ],
   "icon": "",
   "block_mins": 30,
-  "title": "Gomer Pyle, U.S.M.C.\" tvg-logo=\"\" group-title=\"24/7 Classic Show\",U.S.M.C.\" tvg-logo=\"https://www.gstatic.com/tv/thumb/tvbanners/394788/p394788_b_v8_ab.jpg\" group-title=\"24/7 Classic Show\",24/7 Gomer Pyle, U.S.M.C.",
-  "desc": "Gomer Pyle, U.S.M.C.\" tvg-logo=\"\" group-title=\"24/7 Classic Show\",U.S.M.C.\" tvg-logo=\"https://www.gstatic.com/tv/thumb/tvbanners/394788/p394788_b_v8_ab.jpg\" group-title=\"24/7 Classic Show\",24/7 Gomer Pyle, U.S.M.C. marathon."
+  "title": "Gomer Pyle, U.S.M.C.",
+  "desc": "Gomer Pyle, U.S.M.C. marathon."
  },
  {
   "id": "m3u-247-ugly-delicious",
