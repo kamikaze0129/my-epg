@@ -1687,6 +1687,61 @@ def ensure_icons(out_path, roster):
     return filled
 
 
+GENERIC_ICON_RULES = [
+    # Chris's standing generic-logo rulings (2026-10-22). Event-slot channels
+    # get brand-new per-event IDs every week, so the static chris_icon_urls
+    # layer can never cover future slots; these rules can.
+    ('prefix', 'm3u-usa-mlb-', 'https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/mlb.png'),
+    ('prefix', 'm3u-usa-ppv', 'https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/ppv%20live.png'),
+    ('prefix', 'm3u-usa-soccer', 'https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/mls.png'),
+    ('regex', r'^m3u-usa-nfl-sunday-70[67](-|$)', 'https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/chris-nfl-sunday-ticket.png'),
+]
+
+
+def ensure_generic_icons(out_path):
+    """Set Chris's ruled generic icons on event-slot channels.
+
+    Runs after ensure_icons. Unlike ensure_icons this REPLACES any existing
+    icon on a matching channel (the Chris layer wins for these slots).
+    Returns the number of channel elements set.
+    """
+    def want(cid):
+        for kind, pat, url in GENERIC_ICON_RULES:
+            if kind == 'prefix' and cid.startswith(pat):
+                return url
+            if kind == 'regex' and re.match(pat, cid):
+                return url
+        return None
+    tmp = out_path + '.genfix'
+    n_set = 0
+    block = None
+    block_url = None
+    with open(out_path, encoding='utf-8') as fin, open(tmp, 'w', encoding='utf-8') as fout:
+        for line in fin:
+            m = re.match(r'\s*<channel id="([^"]*)">\s*$', line)
+            if m:
+                block = [line]
+                block_url = want(m.group(1))
+                continue
+            if block is not None:
+                if re.match(r'\s*</channel>\s*$', line):
+                    if block_url:
+                        block = [l for l in block if '<icon ' not in l]
+                        block.append(f'    <icon src="{esc_q(block_url)}" />\n')
+                        n_set += 1
+                    fout.writelines(block)
+                    fout.write(line)
+                    block = None
+                    block_url = None
+                else:
+                    block.append(line)
+                continue
+            fout.write(line)
+    os.replace(tmp, out_path)
+    log(f"ensure_generic_icons: set generic icons on {n_set} slot channels")
+    return n_set
+
+
 # ---------------------------------------------------------------- gates
 def validate(out_path):
     """Hard validation gates. Returns (ok, report_dict)."""
@@ -2465,6 +2520,10 @@ def main(argv):
         # 6. idempotent icon ensure
         filled = ensure_icons(out_path, roster)
         report['stages']['icons_filled'] = filled
+
+        # 6b. Chris's generic-logo rules for event slots (fresh IDs weekly)
+        genset = ensure_generic_icons(out_path)
+        report['stages']['generic_icons_set'] = genset
 
         # 7. hard gates
         ok, vrep = validate(out_path)
