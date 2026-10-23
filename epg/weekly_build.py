@@ -329,7 +329,7 @@ KNOWN_ICONS = 10550
 # Hard gates.
 CH_MIN = int(KNOWN_CHANNELS * 0.98)
 CH_MAX = int(KNOWN_CHANNELS * 1.02)
-PR_MIN = 450000  # ONE-TIME FLOOR BREAK 2026-10-23 (Chris approved): doom-loop rescue after Thu/Fri gate failures; restore to int(KNOWN_PROGRAMMES * 0.85) once a fresh base is promoted
+PR_MIN = int(KNOWN_PROGRAMMES * 0.85)
 PR_MAX = int(KNOWN_PROGRAMMES * 1.15)
 ICON_MIN = 10400  # known-good is 10550; never regress below 10400
 
