@@ -1,0 +1,743 @@
+{
+ "block_mins": 60,
+ "episodes": [
+  {
+   "title": "S1E1 - One-Armed Bandits",
+   "desc": "Sheriff Coltrane is hissier than a sack of rattlesnakes! He sets up a slot machine operation to fund his election, but a pair of two-armed-bandits - Bo and Luke - find a way to give the proceeds to charity.",
+   "mins": 50
+  },
+  {
+   "title": "S1E2 - Daisy's Song",
+   "desc": "What kind of music-publishing outfit would bilk daisy out of $50? Well, here's a hint, Dukesters: where there's corruption, there's Boss Hogg. And this time, the FBI is keeping an eye on the scam!",
+   "mins": 60
+  },
+  {
+   "title": "S1E3 - Mary Kaye's Baby",
+   "desc": "Bo and Luke are unaware that 1) the borrowed car they're driving is loaded with moonshine and 2) the pregnant hitchhiker they've picked up is carrying over $100,000 in stolen mob money.",
+   "mins": 60
+  },
+  {
+   "title": "S1E4 - Repo Men",
+   "desc": "The car's a wreck. But the engine's a honey, and Bo and Luke have to have it. So they make a deal with a car dealer who's as crooked as a switchback trail and whose scheme could land them behind bars.",
+   "mins": 60
+  },
+  {
+   "title": "S1E5 - High Octane",
+   "desc": "Will a batch of kick-tail gasoline solve the nation's fuel crisis? Uncle Jesse fires up the moonshine still for a patriotic cause. And a lovely female revenue agent fires up Bo's dancin'-and-romancin' flames.",
+   "mins": 60
+  },
+  {
+   "title": "S1E6 - Swamp Molly",
+   "desc": "Way back in the '30s, Molly sprang Uncle Jesse out of a heap of trouble with the Feds. Now she wants to make one last moonshine run...and wants Jesse and the other Dukes to help.",
+   "mins": 60
+  },
+  {
+   "title": "S1E7 - Luke's Love Story",
+   "desc": "Luke's rival in in Hazzard's stock car derby has million-dollar legs and a lead foot... and she's got his heart revved up. Boss Hogg worries about reclaiming the derby trophy because his mama's ashes are inside it.",
+   "mins": 60
+  },
+  {
+   "title": "S1E8 - The Big Heist",
+   "desc": "Bo and Luke robbers? That accusation is like going to church shirtless. It don't feel right! But if the Duke's didn't pull off the heist, who was in the General Lee when it roared away from the crime scene?",
+   "mins": 60
+  },
+  {
+   "title": "S1E9 - Limo One is Missing",
+   "desc": "Leave it to Cooter to drive everyone wild. When government agents driving the U.S. President's limo through Hazzard stop at the Boar's Nest, Cooter hot-wires the vehicle and sets out on a joy ride.",
+   "mins": 60
+  },
+  {
+   "title": "S1E10 - Deputy Dukes",
+   "desc": "There ought to be a law. Instead, there's Bo and Luke. They've been deputized and sent to Springfield to retrieve a prisoner. One detail the boys aren't told: the prisoner is a notorious Public Enemy #1!",
+   "mins": 60
+  },
+  {
+   "title": "S1E11 - Money to Burn",
+   "desc": "The government was going to burn the cash away, so who'd miss a cool million in ragged bills? Besides, Boss Hogg has masterminded his scheme so that Bo and Luke are the fall guys.",
+   "mins": 60
+  },
+  {
+   "title": "S1E12 - Route 7-11",
+   "desc": "The rig is rigged. Bo and Luke become drivers of an 18-wheeler, not knowing that the trailer is a rolling gambling casino and that its games aren't on the level.",
+   "mins": 60
+  },
+  {
+   "title": "S1E13 - Double Sting",
+   "desc": "A fine mess they've gotten into this time! After a health quarantine  confines the Duke men and the police to the jailhouse, only Daisy is left to pursue bank robbers who disguise themselves as Laurel and Hardy.",
+   "mins": 60
+  },
+  {
+   "title": "S2E1 - Days of Shine and Roses",
+   "desc": "On your mark, get set, cheat! To prove who was the fastest moonshine runner back in the day, Bos Hogg challenges Uncle Jesse to a fair-and-square car race. But to Boss Hogg, \"fair\" is a four-letter word.",
+   "mins": 60
+  },
+  {
+   "title": "S2E2 - Gold Fever",
+   "desc": "The boys are in 24-karat trouble when con artists stash bogus bullion in the Boss Hogg's bank, The flimflammery  leads to a bank heist that might end with Bo and Luke in the iron-bar motel.",
+   "mins": 60
+  },
+  {
+   "title": "S2E3 - The Rustlers",
+   "desc": "Boss Hogg doesn't horse around. especially when it comes to Lulu Hogg's Stakes Race. He aims to steal a sure winner...nut so does a gang of rustlers. Can Bo and Luke ride to the rescue?",
+   "mins": 60
+  },
+  {
+   "title": "S2E4 - The Meeting",
+   "desc": "It's good ol' boys versus goodfellas when Bo and Luke tangle with the mobsters who paid Boss Hogg $10,000 to rent out of jail for a wise guy confab.",
+   "mins": 60
+  },
+  {
+   "title": "S2E5 - Road Pirates",
+   "desc": "A Luke, Bo and Cletus charm bracelet? That's what it looks like when the three, handcuffed together, escape the sheriff's office after they're mistaken for the hijackers of a truckload of hot TVs.",
+   "mins": 60
+  },
+  {
+   "title": "S2E6 - The Ghost of General Lee",
+   "desc": "Car thieves drive the General Lee into a pond. Thinking Bo and Luke were drowned, Boss Hogg claims they stole his watch. So the boys scheme to haunt Boss.",
+   "mins": 60
+  },
+  {
+   "title": "S2E7 - Dukes Meet Cale Yarborough",
+   "desc": "Racing legend Cale Yarborough is working on a secret turbocharger. When the grimy Jethro brothers and slimy Boss Hogg start snooping around, it's up to the Dukes to save Cale's tail.",
+   "mins": 60
+  },
+  {
+   "title": "S2E8 - Hazzard Connection",
+   "desc": "Master spies Luke and Bo? The dukes infiltrate a demolition derby to clear themselves of a smuggling charge...and teach those demolition dudes all about driving.",
+   "mins": 60
+  },
+  {
+   "title": "S2E9 - Witness for the Persecution",
+   "desc": "Boss Hogg, a key witness in an upcoming federal trial for a criminal racketeer, enters the Witness Protection Program after his life is threatened, and chooses the Duke farm for his hiding place. While Boss constantly must dodge assassination attempts, Rosco takes over his \"little fat buddy's\" administrative duties, wearing Boss' white continental suits and relishing the job's absolute authority.",
+   "mins": 60
+  },
+  {
+   "title": "S2E10 - Granny Annie",
+   "desc": "Bo and Luke learn that a family friend, seemingly innocent little old lady Granny Annie, is operating a small-time counterfeiting ring. Boss Hogg has Granny Annie arrested and confiscates her engraving plates, and sells them to a no-nonsense mobster for $25,000. Bo and Luke set out to clear Granny Annie's name by stealing the plates back and throwing them into a lake--unaware that the mobster has found out about the theft, assumes Boss is responsible, and plans to kill him. An emotional Rosco pleads to the Bo and Luke to track down the counterfeiter before Boss suffers a brutal fate.",
+   "mins": 60
+  },
+  {
+   "title": "S2E11 - People's Choice",
+   "desc": "Boss Hogg is up for re-election as county administrator against an unlikely opponent--a young woman in her twenties named T.C. Rogers, who is determined to avenge her father's loss to Boss in a rigged election, which occurred fifteen years earlier. Bo and Luke help T.C. (the honest candidate) counter Boss' dirty tricks in an effort to unseat the incumbent Hogg.",
+   "mins": 60
+  },
+  {
+   "title": "S2E12 - Arrest Jesse Duke",
+   "desc": "After Uncle Jesse is wrongly accused of being behind a car-stripping ring operated by Boss Hogg and his nephew, temporary Sheriff Hughie Hogg; Bo and Luke are determined to clear Jesse's name by putting the racket out of business",
+   "mins": 60
+  },
+  {
+   "title": "S2E13 - Duke of Duke",
+   "desc": "Gaylord Duke, a (supposed) British third cousin of the Hazzard County-based Duke family, comes to visit. He asks Uncle Jesse for help in paying off a $30,000 tax bill for a parcel of land he claims he inherited. But is Gaylord really a Duke or a con man?",
+   "mins": 60
+  },
+  {
+   "title": "S2E14 - The Runaway",
+   "desc": "Millionaire C.J. Holmes is determined to retrieve his runaway daughter, who plans to marry a Hazzard County farmer. The girl later takes her appeal to the Dukes, explaining that her father wants her to marry within her social class and not someone involved in an unglamorous profession. Uncle Jesse ultimately meets with Mr. Holmes, and gives him a stern lecture about the dedication and self-sacrifice of farmers.",
+   "mins": 60
+  },
+  {
+   "title": "S2E15 - Follow That Still",
+   "desc": "The Dukes try to reform an old-time moonshiner named Hard Luck Jones, who can't seem to shake off his love for stilling illegal whiskey. Things come to a boil when Hard Luck hijacks an armored personnel carrier to use as a mobile brewery. Bo and Luke are accused, and it's all they can do to convince their friend to give up his activities and avoid all of them being nabbed by federal agents.",
+   "mins": 60
+  },
+  {
+   "title": "S2E16 - Treasure of Hazzard",
+   "desc": "The hunt is on for buried treasure in Hazzard County: a Civil War payroll that was buried before the Battle of Hazzard. A history professor promises to give Boss Hogg the money contained in the strongbox, so long as she keeps the historical documents and other items of interest inside. The Dukes become involved, and later help the history professor recover the treasure when she is robbed by a pair of fortune hunters.",
+   "mins": 60
+  },
+  {
+   "title": "S2E17 - Officer Daisy Duke",
+   "desc": "When she asks for a raise, Daisy loses her job at the Boar's Nest. Enos suggests to Daisy that she apply for a position as a Hazzard County deputy. Boss and acting Sheriff Grady Byrd try to rig the training program, but Daisy more than proves her worth--and is determined to demonstrate it when she takes a call to stop a pair of hardened bank robbers with nothing to lose.",
+   "mins": 60
+  },
+  {
+   "title": "S2E18 - Find Loretta Lynn",
+   "desc": "A trio of bumbling criminals, wanting to break into the music business, kidnap country music superstar Loretta Lynn.",
+   "mins": 60
+  },
+  {
+   "title": "S2E19 - Jude Emery",
+   "desc": "Bo and Luke help Texas ranger Jude Emery track down the notorious \"Snake\" Harmon; who is wanted on murder, robbery, and smuggling charges. However, all three are captured by Snake's gang, leading Daisy, Uncle Jesse, Cooter and Sheriff Byrd to rescue them and capture the criminals.",
+   "mins": 60
+  },
+  {
+   "title": "S2E20 - Return of the Ridge Raiders",
+   "desc": "Uncle Jesse and surviving members of the Ridge Raiders declare war on Boss Hogg's old moonshine stills after learning that Boss misappropriated funds earmarked for seniors into his new nightclub.",
+   "mins": 60
+  },
+  {
+   "title": "S2E21 - Mason Dixon's Girls",
+   "desc": "Bo and Luke are arrested for drug smuggling after they mistakenly pick up a crate of marijuana instead of the intended hot-water heater for the house. Private investigator Mason Dixon and his sexy female associates join the Dukes in search for a big-time drug kingpin, who learns that Bo and Luke have accidentally taken his drug shipment.",
+   "mins": 60
+  },
+  {
+   "title": "S2E22 - R.I.P. Henry Flatt",
+   "desc": "Bo and Luke happen upon Henry Flatt, a supposedly dead con man, who had swindled Boss out of $20,000 several years earlier. When they learn of Boss' plans to build a public road and housing development, they must do everything they can to save the cemetery, not only for the sake of war veterans but to keep Flatt's secret from being exposed.",
+   "mins": 60
+  },
+  {
+   "title": "S2E23 - Southern Comfurts",
+   "desc": "Uncle Jesse's cousins, the Comfurt family, sell their farm for $250,000. The Comfurts rent a Rolls-Royce that breaks down and Cooter lends them a car while he fixes it. The loaner car is stolen from outside Cooter's garage with proceeds from the farm's sale locked in the trunk. The Dukes track down the car as it changes hands--from the car thieves to a used car dealer to a bank robber.",
+   "mins": 60
+  },
+  {
+   "title": "S3E1 - Carnival Of Thrills (1)",
+   "desc": "When the Dukes attend a stunt show called \"Carnival of Thrills,\" the star of the show is injured while trying to jump a car over 32 parked cars. Looking for a new star, carnival owner Diane Benson offers Bo the job. While Diane seduces a lovestruck Bo with her charms; Luke, Daisy and Uncle Jesse suspect something is amiss. Their fears are confirmed when an insurance investigator reveals that the earlier stunt show mishap\u2014-along with several others\u2014-was no accident. Luke tries to convince Bo of his findings, but Bo does not listen. This leads to a huge fight that results in Bo leaving the Duke farm, threatening further repercussions on the Duke family. Meanwhile, Boss Hogg can foreclose on the \"Carnival of Thrills\" if Diane can't pay back a loan she makes for use of the Hazzard County fairgrounds. Furthermore, Rosco manages to impound the General Lee for a taillight he busted; and, in an attempt to keep Bo from taking the stunt job, Luke allows the impounding to happen.",
+   "mins": 60
+  },
+  {
+   "title": "S3E2 - Carnival Of Thrills (2)",
+   "desc": "When the Dukes attend a stunt show called \"Carnival of Thrills,\" the star of the show is injured while trying to jump a car over 32 parked cars. Looking for a new star, carnival owner Diane Benson offers Bo the job. While Diane seduces a lovestruck Bo with her charms; Luke, Daisy and Uncle Jesse suspect something is amiss. Their fears are confirmed when an insurance investigator reveals that the earlier stunt show mishap\u2014-along with several others\u2014-was no accident. Luke tries to convince Bo of his findings, but Bo does not listen. This leads to a huge fight that results in Bo leaving the Duke farm, threatening further repercussions on the Duke family. Meanwhile, Boss Hogg can foreclose on the \"Carnival of Thrills\" if Diane can't pay back a loan she makes for use of the Hazzard County fairgrounds. Furthermore, Rosco manages to impound the General Lee for a taillight he busted; and, in an attempt to keep Bo from taking the stunt job, Luke allows the impounding to happen.",
+   "mins": 60
+  },
+  {
+   "title": "S3E3 - Enos Strate to the Top",
+   "desc": "When taking pictures of Uncle Jesse in front of a bank in Atlanta, Daisy inadvertently gets two bank robbers in the shot who kidnap her in exchange for the photographs. Meanwhile, Enos defies Rosco's orders, helping Bo and Luke rescue Daisy and captures the bank robbers in the process. Enos is then offered a job with the Los Angeles Police Department.",
+   "mins": 60
+  },
+  {
+   "title": "S3E4 - The Hazzardville Horror",
+   "desc": "A father and son criminal duo steal Boss' silver from the Boar's Nest and hide out in a house owned by Hezechiah Pringle, which he left to his niece, Mary Lou Pringle. When Mary Lou returns to Hazzard to sell the house, the crooks try to scare her off by staging a series of paranormal events. She turns to Bo and Luke for help, who are on the run from Rosco because Boss is convinced they are the silver thieves and therefore ordered Rosco to arrest them for the theft.",
+   "mins": 60
+  },
+  {
+   "title": "S3E5 - And In This Corner, Luke Duke",
+   "desc": "After Luke broke an expensive mirror of Boss Hogg's, Jesse may be forced to sell the farm to pay for it unless Luke fights Catfish Lee, managed by a crooked promoter, in a boxing match.",
+   "mins": 60
+  },
+  {
+   "title": "S3E6 - The Late J.D. Hogg",
+   "desc": "Boss manages to foreclose on the Duke farm unfair and square, no thanks to his idiot cousin, Deputy Cletus Hogg. Also, he has them arrested unfair and square on a federal charge. But Boss gets news from his physician that he supposedly has some type of terminal illness that gives him only two weeks to live. The only way to save him from the devil is to revert all of his bad deeds and perform good ones until his time comes. However, Boss Hogg's doctor receives a report that his diagnosis of Boss' condition was done in error, and Boss is healthy after all. Boss is then pleased at the correct results, but becomes devastated when he realizes that the good deeds he has already done cannot be reversed again.",
+   "mins": 60
+  },
+  {
+   "title": "S3E7 - Uncle Boss",
+   "desc": "Boss Hogg unleashes his \"secret weapon\" against the Dukes: his college-educated nephew Hughie Hogg (Jeff Altman), who comes to Hazzard with some dirty tricks and schemes to frame Bo and Luke into prison.",
+   "mins": 60
+  },
+  {
+   "title": "S3E8 - Baa, Baa White Sheep",
+   "desc": "Boss Hogg's honest, rich twin brother Abraham Lincoln Hogg (Sorrell Booke in a dual role) has come to Hazzard for the reading of their great aunt's will, which entitles a piece of land to both him and Boss. But Boss had Abe declared legally dead years ago and sold the land.",
+   "mins": 60
+  },
+  {
+   "title": "S3E9 - Mrs. Rosco P. Coltrane",
+   "desc": "After meeting a woman through a computer dating service, Rosco plans to get married. Boss plans for him to invite everyone in town to his wedding--except the Dukes. This makes them the only possible suspects for the bank robbery he's arranging to take place during the ceremony. But Boss is unaware that Rosco's supposed fianc\u00e9 and her gang are planning a robbery of their own.",
+   "mins": 60
+  },
+  {
+   "title": "S3E10 - The Great Santa Claus Chase",
+   "desc": "In the series' only Christmas-themed episode; Boss, who is in an Ebenezer Scrooge-like mood throughout this episode, hires a trio of criminals to hijack the Dukes' Christmas tree shipment, then pin the blame on the Dukes. The scheme involves two of the bad guys stealing the trees from Bo and Luke at gunpoint, then the third associate disguised as a clergyman giving the Duke boys a lift into town, and then telling them they forgot \"their\" $500 down payment on the trees. While Uncle Jesse and Daisy set out to clear their family's name, the criminals plot to double-cross Boss by taking more than their payment due on the trees, breaking into the safe while each one is dressed as Santa Claus. Meanwhile, Bo and Luke, with some help from Cooter, decide to take back the trees and have a little fun confusing Rosco and Cletus while delivering the trees dressed as Santa Clauses. In the end, the episode takes a turn toward forgiveness and fellowship as the Dukes and Cooter invite Rosco and Cletus to their Christmas Eve gathering. Boss comes in later, reformed after having read Charles Dickens' \"A Christmas Carol.\"",
+   "mins": 60
+  },
+  {
+   "title": "S3E11 - Good Neighbors, Duke",
+   "desc": "While being chased by Rosco, Bo and Luke crash into a piece of land believed not owned by anyone. They soon find out they are wrong, and make friends with the new citizens of Hazzard, the Bensons. But Luke soon finds out that they're being followed by bounty hunters out to get some kind of document which holds a secret to the Bensons' past.",
+   "mins": 60
+  },
+  {
+   "title": "S3E12 - State of the County",
+   "desc": "Boss Hogg's rival uses a good-looking stranger to come into Hazzard and bomb the Boar's Nest. Daisy falls for the stranger, and is soon kidnapped by him.",
+   "mins": 60
+  },
+  {
+   "title": "S3E13 - The Legacy",
+   "desc": "A recently widowed old flame of Jesse's returns to Hazzard to claim an old debt owing to her late husband by Boss Hogg, but he refuses it. So she finds a legacy that the Dukes find in a mine under their property containing nine full barrels of shine.",
+   "mins": 60
+  },
+  {
+   "title": "S3E14 - Duke vs. Duke",
+   "desc": "Hazzard's annual Hazzard Derby is on. While Cooter is injured trying to help the Dukes, Luke must race in Cooter's car while Bo is in the General Lee. However, all the entrants who signed the contracts didn't see the fine print that every loser will have to give up their cars to Boss Hogg. Rosco's car can't lose with a tank of nitrous oxide in the engine. With a sure win, Boss bets with a big time Chickasaw bookie, Ma Harper.",
+   "mins": 60
+  },
+  {
+   "title": "S3E15 - My Son, Bo Hogg",
+   "desc": "When Bo suffers a bump on the head in an auto accident, he begins to suffer from temporary amnesia. Boss Hogg uses this to his advantage, telling Bo that he is his long-lost son, \"Bo Hogg.\" After turning Bo against his family by this brainwashing, Boss asks him to drive a shipment to Chickasaw County. Boss fails to tell him that it is moonshine he is to deliver to C.V. Gumble in Chickasaw County for ten times the going rate. However, when an armored truck driver alerts Chickasaw County Sheriff \"Big\" Ed Little (Don Pedro Colley), Luke and Daisy try to rescue Bo before he is captured and his probation is revoked; but when Daisy and Luke pull Bo over, the proverbial gloves come off.",
+   "mins": 60
+  },
+  {
+   "title": "S3E16 - To Catch a Duke",
+   "desc": "A pair of jewel thieves comes through Hazzard County and while confronted by Boss and Rosco, they make a getaway in the General Lee. This makes Boss think Bo and Luke are a part of the gang. Also, when the loot is found in Rosco's patrol car by his dog Flash, Rosco is fired when Boss thinks he's in on it, too.",
+   "mins": 60
+  },
+  {
+   "title": "S3E17 - Along Came a Duke",
+   "desc": "The Dukes' cousin, Jeb Stuart Duke, comes to Hazzard on a motorcycle from Chickasaw County and helps Bo and Luke catch the bad guys.",
+   "mins": 60
+  },
+  {
+   "title": "S3E18 - By-Line Daisy Duke",
+   "desc": "Daisy wants to become a newspaper reporter, and to do that she decides to write a story about how Boss Hogg bought stolen tractors.",
+   "mins": 60
+  },
+  {
+   "title": "S3E19 - The Return of Hughie Hogg",
+   "desc": "Hughie Hogg is back in town! He coaxes Bo and Luke into joining the Hazzard County Fire Department (so he can sneak shine in to the Duke farm). Rosco catches the Dukes with shine, and they get away. It's one big scheme to get the Duke boys in jail, but in the end Hughie's plan is ruined, and Boss Hogg is really mad!",
+   "mins": 60
+  },
+  {
+   "title": "S3E20 - Bye, Bye Boss",
+   "desc": "While on the way to the Boar's Nest, Bo and Luke are ambushed by an escaped prisoner, who steals the General Lee and plans to hunt down Boss Hogg. Later, Boss finds out that the prisoner is an old foe who is set out to get revenge on Boss",
+   "mins": 60
+  },
+  {
+   "title": "S3E21 - The Great Hazzard Hijack",
+   "desc": "Three good friends of the Dukes come to Hazzard after Bo and Luke find a bag of $1 million in a river.",
+   "mins": 60
+  },
+  {
+   "title": "S3E22 - The Hack of Hazzard",
+   "desc": "While she's away, Bo and Luke run a taxicab service owned by Miz Tisdale, and their first customers are two men with a special briefcase. After arriving at their destination, the two men leave a stolen gold certificate in the back seat of the cab and try to retrieve it without getting caught. Boss Hogg, meanwhile, wants to make sure the briefcase is still in the cab when federal authorities arrive--the main goal (of course) being to implicate Bo and Luke.",
+   "mins": 60
+  },
+  {
+   "title": "S3E23 - The Canterbury Crock",
+   "desc": "An old widow sells the Dukes a \"worthless\" vase for $25. A man comes to the widow after the Dukes leave, looking for the vase which turns out to be of some very good value!",
+   "mins": 60
+  },
+  {
+   "title": "S4E1 - Mrs. Daisy Hogg",
+   "desc": "Daisy is smitten by Boss Hogg's handsome, rich nephew, Jamie Lee Hogg, who has come to town to purchase his uncle's grits mill. While romance quickly blossoms and a wedding appears to be on the horizon, it isn't long before Bo and Luke confirm their initial suspicions about Jamie's criminal side as a counterfeiter.",
+   "mins": 60
+  },
+  {
+   "title": "S4E2 - Double Dukes",
+   "desc": "Double Dukes means double fun for Boss Hogg, and double trouble for Bo and Luke after two men resembling the good-natured Duke boys -- cronies that Boss had dress in wigs and the Dukes' clothing \u2014 rob Hazzard Bank. Bo and Luke spend the rest of the episode clearing their names as they try to apprehend the crooks.",
+   "mins": 60
+  },
+  {
+   "title": "S4E3 - Diamonds in the Rough",
+   "desc": "Everyone's after a sack of diamonds that had accidentally been dropped from an armed robber's vehicle driving through Hazzard, and all roads lead to the Duke farm after Bo and Luke get to them first. While the Duke boys are trying to report their find to the state police, they are bugged by the original thief (who poses as a reporter to get at the loot) and later, by a phony FBI agent hired by a greedy Boss Hogg who wants the reward money for himself.",
+   "mins": 60
+  },
+  {
+   "title": "S4E4 - Coltrane vs. Duke",
+   "desc": "As usual, Bo and Luke outfox Rosco and cause him to crash his car. Rosco, as always, escapes without a scratch ... but this time, the frustrated sheriff decides to turn things up a notch by claiming he was seriously injured. With Boss Hogg's support and seeing an opportunity to foreclose on the Duke farm, Rosco files a $50,000 lawsuit against the Duke family. Boss -- now turned into Rosco's butler -- hires an actor to play a doctor to support Rosco's claims, leaving Bo and Luke to try to expose Rosco's injuries as fake. Will a judge buy Rosco's story, or will he see...",
+   "mins": 60
+  },
+  {
+   "title": "S4E5 - The Fugitive",
+   "desc": "The Duke boys' beautiful girlfriend, Mindy Lou, learns that Boss Hogg is planning a heist of motorcycles, so as to gain an unfair upper hand in the upcoming Tri-County Motocross. Bo and Luke come up with a scheme of their own to beat Boss to the finish line.",
+   "mins": 60
+  },
+  {
+   "title": "S4E6 - The Great Bank Robbery",
+   "desc": "Boss Hogg, unwilling to pay longtime Hazzard County clerk Clarence Stovall a $30,000 pension, fires him one day short of retirement. Stovall gets his revenge by stealing the money from Hazzard Bank (of which Boss is president, natch). Uncle Jesse learns about this and lectures Clarence about the consequences of his actions, while Bo and Luke try to pull off a reverse-bank heist to save their friend from criminal charges.",
+   "mins": 60
+  },
+  {
+   "title": "S4E7 - Sadie Hogg Day",
+   "desc": "Daisy's one-day stint as Hazzard County treasurer on Sadie Hogg Day may earn her a trip to jail, after Boss Hogg \u2014 hoping to avoid being arrested for embezzling county funds \u2014 alters the county ledger to shift responsibility... just in time for the annual audit by the state treasurer's office.",
+   "mins": 60
+  },
+  {
+   "title": "S4E8 - 10 Million Dollar Sheriff (1)",
+   "desc": "Rosco's Uncle Hosiah dies, and at the reading of his will, learns that he has inherited $10 million. Rosco, frustrated after years of being outfoxed by the Dukes, hires hard-nosed hit man Jason Steele to track down and arrest Bo and Luke. Meanwhile, Rosco goes on a power trip and schemes to win Boss' fortune in a rigged poker game.",
+   "mins": 60
+  },
+  {
+   "title": "S4E9 - 10 Million Dollar Sheriff (2)",
+   "desc": "Uncle Jesse seriously injures himself as the shaken Duke patriarch learns that bounty hunter Jason Steele is a wanted criminal. Steele eventually manages to frame Bo and Luke on grand-theft auto (by having them drive away in a stolen Dodge Charger painted exactly like the General Lee). Hosiah Coltrane's attorney then informs Rosco that a mistake had been made and that the sheriff had only inherited $10 - leaving Rosco way short of the $100,000 needed to pay Steele for services rendered. Steele eventually blows his top when he learns Rosco doesn't have the money, and...",
+   "mins": 60
+  },
+  {
+   "title": "S4E10 - Trouble at Cooter's",
+   "desc": "A beautiful fur thief named Bonnie Lane, along with her two accomplices, try to exact revenge on Boss (for his shortchanging them), and Cooter winds up in the middle of things when Bonnie tries to distract him with her charms while her two friends break into Boss' storeroom to get their payback.",
+   "mins": 60
+  },
+  {
+   "title": "S4E11 - Goodbye, General Lee",
+   "desc": "When the Duke boys lose a cross country race to a better car, a discouraged Luke makes an offhanded remark about the General Lee possibly wearing out its usefulness. Boss Hogg picks up on this and hires his hypnotist friend to ensure that Luke really means what he says ... and to make sure the next road the General Lee drives is to the junkyard.",
+   "mins": 60
+  },
+  {
+   "title": "S4E12 - Cletus Falls in Love",
+   "desc": "Cletus becomes lovestruck when Daisy uses her charms to get her cousins out of a phony traffic charge. As Cletus does everything to smother Daisy with affection, he also loses his job for bungling an arrest. However, Cletus plays the hero when Bo and Luke are jailed for passing a bad check, as part of Boss Hogg's scheme to frame the Dukes, impress a probation officer and win favor from no-nonsense Chickasaw County Sheriff \"Big\" Ed Little. And Flash also plays a big part in saving the day for the Dukes.",
+   "mins": 60
+  },
+  {
+   "title": "S4E13 - Hughie Hogg Strikes Again",
+   "desc": "Hughie Hogg's latest scheme targets Cooter, whose garage is threatened with eminent domain so the crooked Hogg can build shoddy condominiums at an inflated price.",
+   "mins": 60
+  },
+  {
+   "title": "S4E14 - Dukescam Scam",
+   "desc": "When Boss Hogg is arrested for robbing his own bank, Uncle Jesse bails out his own enemy by using his farm's mortgage. But did Boss Hogg really rob the bank... or after years of failing to obtain the farm, is he looking for an easy foreclosure?",
+   "mins": 60
+  },
+  {
+   "title": "S4E15 - The Sound of Music - Hazzard Style",
+   "desc": "The Hazzard hills are alive -- with the sound of Mickey Gilley's music. So is Boss Hogg's pirate recording studio, after Boss and his latest associates plan to record Gilley's Hazzard concert and sell the resulting albums on the black market. The FBI is already onto the scheme, so the crooks steal the General Lee. While hiding out at the Duke farm, the crooks name Bo and Luke as the head of the pirating scheme. However, Gilley knows the truth and works with the Duke boys to put a halt to Boss' recording dreams.",
+   "mins": 60
+  },
+  {
+   "title": "S4E16 - Shine on Hazzard Moon",
+   "desc": "A determined Boss Hogg, desperately wanting Uncle Jesse's moonshine recipe, makes a demand: give over the recipe, or have Bo and Luke charged with felony theft in the disappearance of funds from the Hazzard County Orphanage.",
+   "mins": 60
+  },
+  {
+   "title": "S4E17 - Pin the Tail on the Dukes",
+   "desc": "Bo and Luke have their hands full with Boss Hogg, as they try to thwart a lawsuit for destroying county property (a hair dryer made up to look like a speed radar gun), and saving him from a disgruntled former landowner, who was swindled out of his property and is now returning to Hazzard to exact revenge.",
+   "mins": 60
+  },
+  {
+   "title": "S4E18 - Miz Tisdale on the Lam",
+   "desc": "Hazzard County Postmistress Emma Tisdale hides out at the Duke farm after learning she is being investigated for mail fraud. The pending charges stemmed from Boss Hogg's decision to shift responsibility for selling non-existent properties. As Bo and Luke investigate, Miz Tisdale does all she can to try to cozy up to longtime crush Uncle Jesse.",
+   "mins": 60
+  },
+  {
+   "title": "S4E19 - Nothin' But the Truth",
+   "desc": "When Boss Hogg learns that a state investigator is on his way to Hazzard to check out a claim of an illegal casino, he shifts the blame to the Duke family. But just as the Dukes are being formally charged, Boss sits on a syringe filled with truth serum. Boss lets slip the truth, and his cronies are none too pleased, forcing Bo and Luke to ride to Boss' rescue.",
+   "mins": 60
+  },
+  {
+   "title": "S4E20 - Dear Diary",
+   "desc": "Rosco has kept a diary detailing Boss Hogg's illegal schemes carried out over the years. Two of Boss' former (and now disgruntled) associates become aware of this and swipe the diary, demanding a huge ransom or else they tip off the authorities. This leaves Bo and Luke with a moral dilemma: Defeat the crooks, as their criminal activities are more serious than Boss'; or see their longtime enemy brought to justice once and for all.",
+   "mins": 60
+  },
+  {
+   "title": "S4E21 - New Deputy in Town",
+   "desc": "When an efficient \u2014 and awesomely beautiful \u2014 patrol officer effortlessly arrests Bo and Luke on traffic charges, an impressed Boss Hogg and Rosco immediately hire her as a new deputy. However, Boss is so distracted by the new deputy's charms that he forgets to check out her background... or that she is associated with a murder and robbery suspect that is scheduled to spend the night at the Hazzard County Jail.",
+   "mins": 60
+  },
+  {
+   "title": "S4E22 - Birds Gotta Fly",
+   "desc": "Daisy's longtime friend Molly Hargrove offers her a spot on the NASCAR women's racing circuit. But Molly knows a lot more about the job than she's willing to tell Daisy.",
+   "mins": 60
+  },
+  {
+   "title": "S4E23 - Bad Day in Hazzard",
+   "desc": "The Dukes are forced to bond with their sworn enemies \u2014 Boss Hogg and Rosco \u2014 after they are held at gunpoint by a gang of robbers at the Boar's Nest. The lead robber, posing as a law enforcement officer, then orders an emergency evacuation of Hazzard... thereby eliminating any witnesses to his plans to rob an armored truck making a delivery to Hazzard Bank.",
+   "mins": 60
+  },
+  {
+   "title": "S4E24 - Miss Tri-Counties",
+   "desc": "Corruption runs amok in the Miss Tri-Counties pageant when Boss Hogg accepts a $10,000 payoff to rig the contest in favor of Hatchapee County entrant Melanie Dubois. Bo and Luke foil Boss and the other county bosses at every turn as the contests are unfairly tilted against pageant favorite Daisy, but those efforts are easy compared to saving Daisy from a brutal fate when two thugs kidnap her before the final swimsuit competition.",
+   "mins": 60
+  },
+  {
+   "title": "S4E25 - Share and Share Alike",
+   "desc": "In a nod to the ongoing Equal Rights Amendment debate, Lulu and Daisy co-form the Hazzard County Equal Rights Society to decry overbearing treatment from men. Lulu gets her way when she demands 50-percent control of husband Boss' used car lot. Unknown to both Lulu and Daisy, Boss has stashed stolen credit cards inside the door panels of one of the cars ... and that car so happens to be the one that Chickasaw County Sheriff \"Big\" Ed Little decides to buy as as a personal daily driver.",
+   "mins": 60
+  },
+  {
+   "title": "S4E26 - The Law and Jesse Duke",
+   "desc": "When Rosco and Cletus go on strike after Boss refuses to give them a pay raise, Uncle Jesse is named the sheriff. Bo and Luke are subsequently deputized to help capture a pair of thieves who have stolen a cache of electronics items in Boss' latest effort to frame the Duke boys.",
+   "mins": 60
+  },
+  {
+   "title": "S4E27 - Dukes in Danger",
+   "desc": "Friends and enemies are once again forced to band after a pair of escaped convicts take refuge at the Duke farm and, at gunpoint, force the Duke family to cooperate with their escape plans. The criminals burst into the Duke household just as Uncle Jesse was about to drive into town to make his mortgage payment. When Uncle Jesse fails to show, Boss Hogg and Rosco drive out to the Duke farm to foreclose, only for them to be taken hostage as well. With all the communication devices disabled and everyone's car keys confiscated, the Dukes are left to improvise and signal...",
+   "mins": 60
+  },
+  {
+   "title": "S5E1 - The New Dukes",
+   "desc": "Bo and Luke have left Hazzard to full fill a life long dream of racing on the NASCAR Circuit. Boss is so happy about it, that he unleashes his ultimate secret weapon: The mean green machine, monstrous vehicle to rip off the bank in Capitol City, and plan to steal $100 engraving plates from an armored truck that's suppose to pass through Hazzard county. But he's unaware that cousins Coy and Vance Duke have returned to Hazzard after 6 years to help uncle Jesse run the farm and are on to his shenanigans, and driving around in the General Lee. Also, Enos returned to Hazzard and is back on the force.",
+   "mins": 60
+  },
+  {
+   "title": "S5E2 - Dukes Strike It Rich",
+   "desc": "Boss Hogg swindles newlyweds Jeb and Carrie Morton into buying a worthless piece of land next to the Duke Farm. So the Dukes try and help them by scamming Boss by making it look like they've found gold on their property and the Morton's property and struck it rich so that Boss will buy back the land.",
+   "mins": 60
+  },
+  {
+   "title": "S5E3 - Lawman of the Year",
+   "desc": "Boss hired two crooks to rob the jewelry store and Coy and Vance are very suspicious about them and go and investigate while being chased by Cletus and Enos. But when Boss sends Rosco to arrest Coy and Vance, he refuses because he wants to be good so that he will be elected \"Lawman of the Year\".",
+   "mins": 60
+  },
+  {
+   "title": "S5E4 - Coy Meets Girl",
+   "desc": "While delivering a shipment of antiques to some friends, Coy and Vance are hijacked by a couple of Boss' henchmen. But they didn't known that a runaway orphan was stowaway in the back of the truck and saw the whole thing. She ends up going back to the farm and has crush on Coy, which slows down the Dukes looking for the hijackers.",
+   "mins": 60
+  },
+  {
+   "title": "S5E5 - The Hazzardgate Tape",
+   "desc": "Boss double-crosses the Bosses of a few neighboring counties and their out to get him. The Dukes let him hold up on the farm until Vance plans to expose them by tape-recording their scheme. Mel Tillis performs at the Boar's Nest.",
+   "mins": 60
+  },
+  {
+   "title": "S5E6 - Big Daddy",
+   "desc": "Boss frames Coy and Vance by putting a hot license plate on the General Lee. But Boss calls off the chase when he is told that his daddy is coming to Hazzard who is supposedly a Good Samaritan - but his driver robs them.",
+   "mins": 60
+  },
+  {
+   "title": "S5E7 - Vance's Lady",
+   "desc": "Vance's old girlfriend comes to Hazzard to see him but is chased by crooked politician's associates who are trying to kill her after she witnessed the Senator's embezzling. . But The Duke try and convince her to go report it to Senate Crime Commission.",
+   "mins": 60
+  },
+  {
+   "title": "S5E8 - Hazzard Hustle",
+   "desc": "Boss opens up an illegal horse-betting saloon in Rapahoe County and uses the Dukes' phone line to frame them. But the Boss of Rapahoe County is not happy being cheated out of her county's money.",
+   "mins": 60
+  },
+  {
+   "title": "S5E9 - Enos in Trouble",
+   "desc": "A pair of crooks is after Enos' footlocker that he and the Dukes picked up at the bus depot from California that contains a handful of emeralds - unbeknownst to Enos.",
+   "mins": 60
+  },
+  {
+   "title": "S5E10 - The Great Insurance Fraud",
+   "desc": "Boss Hogg's phony insurance policies are thrown right back at him when con artists Ward and Lavinia pull a phony car accident at Bottomless Lake. But to make matters worse, Coy is afraid of driving since he was sideswiped during the accident and he believes he killed Ward.",
+   "mins": 60
+  },
+  {
+   "title": "S5E11 - A Little Game of Pool",
+   "desc": "Boss Hogg is trying to get his hands on the General Lee to sell to two crooks that need it. But when they try and steal it, they get caught. So Boss challenges Jesse to a game of pool - Ridge runner style - and wagers the General Lee. Even though Jesse's a better pool player, Boss has some dirty tricks up his sleeve.",
+   "mins": 60
+  },
+  {
+   "title": "S5E12 - The Treasure of Soggy Marsh",
+   "desc": "Boss has Coy, Vance and Daisy framed and sends them to Chickasaw County where they are arrested by Sheriff Little so that he can go ahead with his master plan and hires two crooks to scuba-dive down to Soggy Marsh and unburry 5 million in stolen bonds.",
+   "mins": 60
+  },
+  {
+   "title": "S5E13 - The Revenge of Hughie Hogg",
+   "desc": "When Rosco is up for re-election, Boss has no trouble supporting him until his devious nephew Hughie Hogg returns to run for sheriff and blackmails his uncle into helping him by showing evidence of a crooked deal he made.",
+   "mins": 60
+  },
+  {
+   "title": "S5E14 - The Return of the Mean Green Machine",
+   "desc": "Boss tries to use the mean green machine again but it gets stolen by the original crook who try and rob the Hazzard Emporium for all the gold. But when it breaks down, they kidnap Cooter to fix it and hold for insurance.",
+   "mins": 60
+  },
+  {
+   "title": "S5E15 - Ding, Dong, the Boss Is Dead",
+   "desc": "A mobster named Calloway is out to exact revenge on \"the fat water buffalo\" (Boss), for sending him to prison on his testimony. To thwart Calloway's plans to have Boss killed, the Dukes and Lulu announce that Boss has died and stage a phony funeral so that Calloway will back off. But then Calloway arrives at Boss' \"funeral\" to make sure his old enemy really is dead, forcing the Dukes to come up with another plan to foil the mobster's plans.",
+   "mins": 60
+  },
+  {
+   "title": "S5E16 - Coy vs. Vance",
+   "desc": "Coy falls for a shady motorcycle stunt driving woman who turns out to be one of the crooked cops hijackers that has been robbing people. When Vance finds this out, a fight between Coy and Vance has Coy leaving the farm.",
+   "mins": 60
+  },
+  {
+   "title": "S5E17 - Comrade Duke",
+   "desc": "The Russians' gymnast team comes to Hazzard and a defector named Natasha escapes and hides out at the Duke farm while Boss helps the Russian gymnast leader find her.",
+   "mins": 60
+  },
+  {
+   "title": "S5E18 - Witness: Jesse Duke",
+   "desc": "Uncle Jesse is blinded while trying to foil a robbery. But the robbers won't rest until Jesse's dead. So they go to Hazzard to track him down while Coy, Vance and Daisy decide to hide their sitting duck uncle at Boss' house.",
+   "mins": 60
+  },
+  {
+   "title": "S5E19 - Welcome Back, Bo 'n' Luke",
+   "desc": "Bo and Luke return to Hazzard after great season at the NASCAR Circuit and they won but they wanted to come home - which is ok since Coy and Vance have to leave Hazzard to take care of a sick relative. Meanwhile, Boss plans to foreclose on Cooter's garage - after Cooter owes a balloon mortgage payment - so he can put up a new shopping center.",
+   "mins": 60
+  },
+  {
+   "title": "S5E20 - Big Brothers, Duke",
+   "desc": "Bo and Luke become big brothers to a young boy who steals the General Lee, hubcaps, etc. But Bo and Luke try and point him in the right direction. Meanwhile, Boss hasn't been eating lately because he hasn't found a crooked deal in quite some time.",
+   "mins": 60
+  },
+  {
+   "title": "S5E21 - Farewell, Hazzard",
+   "desc": "Boss Hogg forecloses on the Duke farm and a bunch of other farms to sell the land to a big developer named L.S. Pritchard. But what he don't know is that she plans on using Hazzard to strip-mine coal.",
+   "mins": 60
+  },
+  {
+   "title": "S5E22 - Daisy's Shotgun Wedding",
+   "desc": "Bo and Luke have been very over-protective towards Daisy ever since they've gotten back. So Daisy decides to move out for a while. But on the way, she is kidnapped by the son of a dirty moonshine dealer of Boss' and taken back to their place in the hills for a shotgun wedding.",
+   "mins": 60
+  },
+  {
+   "title": "S6E1 - Lulu's Gone Away",
+   "desc": "After a confrontation between Lulu and Boss, Lulu moves out and is invited to stay on the Duke Farm. Later three crooks kidnap her and demand a ransom.",
+   "mins": 60
+  },
+  {
+   "title": "S6E2 - A Baby for the Dukes",
+   "desc": "The Dukes have a new visitor, A baby whom her mother hides in the General Lee while she is being pursued by he father-in-law's henchmen who are trying to get the baby back to her legal guardian - paternal grandfather - who hates \"country bumpkins.\" Meanwhile, due to a cut in the county budget, Rosco and Enos have to ride around on horses.",
+   "mins": 60
+  },
+  {
+   "title": "S6E3 - Too Many Roscos",
+   "desc": "When Rosco chases the Dukes, he drives into a pond and then is kidnapped by a man who underwent plastic surgery to look just like him (also played by James Best). But when the townsfolk all think Rosco is dead, the ringer shows up in town to be there when the armored truck arrives - and rob it.",
+   "mins": 60
+  },
+  {
+   "title": "S6E4 - Brotherly Love",
+   "desc": "Luke's brother, who he thought was dead all these years, comes to Hazzard to see his family. He was a boxer who is being chased by crooked gamblers who bet everything the owned against him in a fight that he won in the first round. Now they want to kill him.",
+   "mins": 60
+  },
+  {
+   "title": "S6E5 - The Boar's Nest Bears",
+   "desc": "When Bo and Luke are late for a probation appointment, Boss tells them that he'll let them off the hook if they coach his pee wee basketball game and win against an undefeated team which Boss bet on. But the star player is debating on whether or not to play.",
+   "mins": 60
+  },
+  {
+   "title": "S6E6 - Boss Behind Bars",
+   "desc": "The Beaudrys (from \"Daisy's Shotgun Wedding\") return to Hazzard to swipe Boss Hogg's still since their's blew up. But to get Boss out of the way, they frame him of sabotaging Jesse's car in the old timer's race when his car flips over. Rosco throws Boss in the slammer while the Beaudreys steal Boss' still.",
+   "mins": 60
+  },
+  {
+   "title": "S6E7 - A Boy's Best Friend",
+   "desc": "Bo and Luke help an orphan boy who just recently lost his parents by getting him a dog from the pound. It turns out to be a basset hound that was kidnapped from John J. Hooper's dog show for a ransom and got away when the kidnappers came to Hazzard. But the kidnappers mistake Flash for the other dog.",
+   "mins": 60
+  },
+  {
+   "title": "S6E8 - Targets: Daisy and Lulu",
+   "desc": "When Daisy and Lulu get back from a trip they took to New Orleans, they pick up the wrong suitcase at the airport that has a stolen diamond necklace in it. But the thieves follow them back to Hazzard and threaten to kill them unless they give them back the necklace.",
+   "mins": 60
+  },
+  {
+   "title": "S6E9 - Twin Trouble",
+   "desc": "After getting back from a Marine Corp. reunion, Luke chases a beautiful woman who robbed a jewelery store in Capitol City. But his identical twin sister is with Bo on the road for an alibi which causes a rift between Bo and Luke.",
+   "mins": 60
+  },
+  {
+   "title": "S6E10 - Enos's Last Chance",
+   "desc": "An escape convict, whom Enos testified against, is out to get Enos, but he keeps wearing different disguises and they can't tell it's him.",
+   "mins": 60
+  },
+  {
+   "title": "S6E11 - High Flyin' Dukes",
+   "desc": "Daisy fills in for Hazzard's crop-duster when he is injured and crop-dusts certain fields. But Boss Hogg has two crooks mix lye in the mixer that ruins his crops so he can sue for the damages.",
+   "mins": 60
+  },
+  {
+   "title": "S6E12 - Cooter's Girl",
+   "desc": "A young woman comes to Hazzard to see Cooter, who happens to be his daughter that he's never met. But she thinks Cooter is very rambunctious who is working with the Dukes to stop new landowners from dumping toxic-wastes in Hazzard.",
+   "mins": 60
+  },
+  {
+   "title": "S6E13 - Heiress Daisy Duke",
+   "desc": "An investigator comes to Hazzard tracking down a photo of Daisy Duke thinking that she's the long-lost granddaughter of millionaire Carter Stewart - who is offering a big reward for anyone who finds her. So Boss has Daisy hypnotized into thinking she is the granddaughter, but other heirs don't want her to return and are trying to kill her.",
+   "mins": 60
+  },
+  {
+   "title": "S6E14 - Dead and Alive",
+   "desc": "Bo and Luke chase armored truck robbers through Chickasaw. But Sheriff Little mistakes the Dukes for the robbers and the only eyewitness who can vouch for them is Artie Bender - the local artist who Boss just declared legally dead so he can sell his paintings to pay off his bills.",
+   "mins": 60
+  },
+  {
+   "title": "S6E15 - Play It Again, Luke",
+   "desc": "Country star Candy Dix, Luke's old girlfriend from the Marines, comes to Hazzard to do a concert and to see Luke. But he must save her from her managers who are trying to kill her to pay off a gambling debt with her life-insurance policy.",
+   "mins": 60
+  },
+  {
+   "title": "S6E16 - Undercover Dukes (1)",
+   "desc": "Bo and Luke are offered to race on the circuit again for the daughter of a racketeer J.J. Carver. But since they vowed not to go back they turn him down, until a Federal Agent offers them to work undercover to get enough evidence to put Carver away for a long time.",
+   "mins": 60
+  },
+  {
+   "title": "S6E17 - Undercover Dukes (2)",
+   "desc": "Bo and Luke uncover the evidence for Carver's conspiracy plan but they get their cover blown - thanks to Boss and Rosco, who think that Bo and Luke are making gambling deals.",
+   "mins": 60
+  },
+  {
+   "title": "S6E18 - How to Succeed in Hazzard",
+   "desc": "Boss' devious nephew Dewey - who is Hughie's brother - comes back to Hazzard after many years, pretending to be dying and tries to cheat the townsfolk out of $100,000 and frame Jesse for it.",
+   "mins": 60
+  },
+  {
+   "title": "S6E19 - Close Call for Daisy",
+   "desc": "Nervous Norman, a neurotic crime boss comes to Hazzard County and loses his little black book, accidentally picked up by Daisy, containing all his crooked deals. so Norman is after Daisy - who decides to hide out at Enos' place.",
+   "mins": 60
+  },
+  {
+   "title": "S6E20 - The Ransom of Hazzard County",
+   "desc": "Fed up with the honest deputy Enos ruining Boss and Rosco's schemes, they promote him to a civilian job and replaced him with a crooked deputy who plans on Flooding Hazzard County by opening up the Hazzard dam unless Boss gives him all the county funds.",
+   "mins": 60
+  },
+  {
+   "title": "S6E21 - The Fortune Tellers",
+   "desc": "Boss Hogg is in a stew when he learns that Lulu is going to cash in bonds that Boss had already cashed in on and replaced with fake bonds. So Boss must get rid of them somehow but Lulu changed the combination of her safe. So Boss hires a pair of fortuneteller con artists - who just framed Daisy for stealing the Boar's Nest receipts - to get the combination of the safe from Lulu and get rid of the fake bonds.",
+   "mins": 60
+  },
+  {
+   "title": "S6E22 - Cooter's Confession",
+   "desc": "When Jonas Jones, a good friend of Cooter's, is framed for hijacking, Cooter takes the rap for him but the Dukes dig into this and track down Jonas to find the real hijackers.",
+   "mins": 60
+  },
+  {
+   "title": "S7E1 - Happy Birthday, General Lee",
+   "desc": "It's been 8 years since the Dukes got the General Lee and we see the story of how they got it. When it was originally used as a getaway car for some gold dust thieves and Bo and Luke got it from a junkyard because they needed a car to race in.",
+   "mins": 60
+  },
+  {
+   "title": "S7E2 - Welcome, Waylon Jennings",
+   "desc": "The Dukes' old friend Waylon Jennings comes to Hazzard with his mobile museum to use as a charity exhibit. But Boss hires two crooks to steal it and sell it back for a ransom.",
+   "mins": 60
+  },
+  {
+   "title": "S7E3 - Dr. Jekyll and Mr. Duke",
+   "desc": "Luke drinks some pond water that a truck accidentally spilled some genetic drugs into. This makes Luke character change a great deal. He becomes a total jerk, badmouths Bo, Daisy, and Jesse, harasses every girl at the Boar's Nest and eventually plans to rob Boss' bank.",
+   "mins": 60
+  },
+  {
+   "title": "S7E4 - Robot P. Coltrane",
+   "desc": "A couple of thieves bring an advanced robot - that they stole for a ransom - through Hazzard County and Boss decides to buy it off them, fires Rosco, and make it the new sheriff: Robot P. Coltrane.",
+   "mins": 60
+  },
+  {
+   "title": "S7E5 - No More Mr. Nice Guy",
+   "desc": "Boss swindles the Dukes into thinking they won a bunch of prizes at the Capitol City Department Store. All the prizes turn out to be stolen. However, Boss Hogg gets a bump on the head, later on, gets amnesia and becomes a nice gentleman - temporarily.",
+   "mins": 60
+  },
+  {
+   "title": "S7E6 - The Dukes in Hollywood",
+   "desc": "While a Hollywood production company is shooting a movie in Hazzard, the star almost has a car accident and the Dukes save him, and when the producers see how they saved him, they offer the Dukes a part in the movie and get to go to Hollywood for a while - but Boss and Rosco must go with them.",
+   "mins": 60
+  },
+  {
+   "title": "S7E7 - Cool Hands, Luke & Bo",
+   "desc": "While driving through Osage, the most feared county around ruled by the mean Colonel Claiborne, Bo and Luke end up on a chain gang in the Osage Road Prison - which is the first step of Claiborne's plan to get Boss down there to swindle him out of everything he owns.",
+   "mins": 60
+  },
+  {
+   "title": "S7E8 - Go West, Young Dukes",
+   "desc": "Boss Hogg finds a piece of paper from his great grandfather Thaddeus that Jesse's great grandfather Jeremiah signed over the Duke farm. Confused as ever, The Dukes find their great grandma's diary and they tell the story about the events leading up to it from the 1800's.",
+   "mins": 60
+  },
+  {
+   "title": "S7E9 - Cale Yarborough Comes to Hazzard",
+   "desc": "Cale Yarborough comes to Hazzard to see a sick boy in the hospital who is about to go in for surgery. But he and the Dukes ends up getting mixed up with bank robbers.",
+   "mins": 60
+  },
+  {
+   "title": "S7E10 - Danger on the Hazzard Express",
+   "desc": "Boss Hogg masterminds a plan to knock a boxcar off a train containing valuables by hiring three crooks to hook a remote control up to a car to knock off the boxcar. But when the car they use is wrecked, they steal the General Lee to use it for the remote control.",
+   "mins": 60
+  },
+  {
+   "title": "S7E11 - Sittin' Dukes",
+   "desc": "Escape convicts come to Hazzard. One of them is out to settle a score with Luke because he sent him to prison in the Marines. Sheriff Little was put in charge of the investigation and the convicts force the Dukes to let them escape and end up driving the General Lee through a forest fire.",
+   "mins": 60
+  },
+  {
+   "title": "S7E12 - Sky Bandits over Hazzard",
+   "desc": "When a group of armored car robbers steals the armored car by lifting off the ground with a helicopter, the Dukes are blamed for the crime. But when Bo and Luke are apprehended, they strike again. Knowing that they're innocent, Boss and Rosco let the Duke boys escape so that they can do Rosco's dirty work and catch the robbers.",
+   "mins": 60
+  },
+  {
+   "title": "S7E13 - The Haunting of J.D. Hogg",
+   "desc": "Boss' great uncle Silas Hogg had recently died and left in him a bunch of money in his will to give to charity at his discretion. Knowing that Boss won't give the money to charity, The Dukes set up some gadgets and make it look like Silus is haunting him into giving the money to charity.",
+   "mins": 60
+  },
+  {
+   "title": "S7E14 - When You Wish Upon a Hogg",
+   "desc": "Hughie Hogg returns to Hazzard with his ultimate plan to cheat Boss out of everything he owns by making him think there's a genie in a magic lamp that will give him all sorts of wishes.",
+   "mins": 60
+  },
+  {
+   "title": "S7E15 - Strange Visitor to Hazzard",
+   "desc": "With a lot of UFO sightings in Hazzard, Bo and Luke are starting to think that people are crazy until an alien from outer space hides in the General Lee and comes back to the Duke farm with them. However, when Boss finds out about this, he wants to take it and sell it.",
+   "mins": 60
+  },
+  {
+   "title": "S7E16 - Enos and Daisy's Wedding",
+   "desc": "A pair of crooks robs Boss' bank and frame Enos for it; Daisy becomes a witness against him when she thinks she saw it. Daisy, knowing that Enos would never do it, cannot refuse to testify against him or she'll be in contempt. So she decides to marry Enos - that way she cannot legally testify against him.",
+   "mins": 60
+  },
+  {
+   "title": "S7E17 - Opening Night at the Boar's Nest",
+   "desc": "Boss and Lulu put on a talent show at the Boar's Nest. And when Rosco uses his magic act to make Boss disappear, he does when two parolees come to Hazzard who is out to kill Boss - who put them away. But instead they hold him for a ransom.",
+   "mins": 60
+  }
+ ],
+ "_note": "Anchored from Chris's stream recon: 'S4E15 - The Sound of Music - Hazzard Style' started 2026-10-24 20:26 UTC. 1979 series, TMDB 397, 147 episodes. Covers m3u-247-the-dukes-of-hazzard and m3u-the-dukes-of-hazzard.",
+ "anchor_utc": "20261024202600 +0000",
+ "anchor_episode_index": 73
+}
