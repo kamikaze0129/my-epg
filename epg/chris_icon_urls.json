@@ -5594,5 +5594,7 @@
  "epg-usa-cinemax-action-07dc64d9": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/cinemax-action-us.png",
  "actionmax.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/cinemax-action-us.png",
  "m3u-usa-willow-xtra-hd": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/willow-xtra-us.png",
- "m3u-usa-telemundo-47-new-york": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/telemundo-47-wnju-us.png"
+ "m3u-usa-telemundo-47-new-york": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/chris-custom/telemundo-47-wnju-us.png",
+ "hbozone.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/rehosted/364d602ba43db9841cbf95c11e9dba45ab9322fb.png",
+ "hbozonepacific.us": "https://cdn.jsdelivr.net/gh/kamikaze0129/my-epg@main/epg/logos/rehosted/364d602ba43db9841cbf95c11e9dba45ab9322fb.png"
 }
