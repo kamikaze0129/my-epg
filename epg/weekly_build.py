@@ -1301,13 +1301,23 @@ def build_output(prev_path, out_path, roster, order, classes, min_start_247,
 # and no Alaska/Hawaii channels exist at all. This step re-derives any
 # variant whose programmes don't match the shifted East feed, so the rule
 # holds on every build instead of depending on whichever feed matched.
-TZ_SHIFT_OFFSETS = {'west': -3, 'mountain': -2, 'central': -1,
-                    'alaska': -4, 'hawaii': -6}
+# 2026-10-27 (Chris approved): signs FLIPPED. A West feed airs the East
+# schedule 3h LATER in absolute time (8pm PT = 11pm ET), so the shift is
+# +3h, not -3h. Evidence: Tuesday's guide had HBO main/Hits West at East-3h
+# (engine-derived, wrong) while HBO Comedy/Movies West — skipped by the
+# engine, still provider data — sat at East+3h (correct). Same logic for
+# Mountain (+2), Central (+1), Alaska (+4), Hawaii (+6).
+TZ_SHIFT_OFFSETS = {'west': 3, 'mountain': 2, 'central': 1,
+                    'alaska': 4, 'hawaii': 6}
 TZ_SHIFT_MIN_EAST = 1     # if east has any future data, west gets built from it
 TZ_SHIFT_MIN_RATIO = 0.8  # variant must match >= this or it gets re-derived
 
+# 2026-10-27 (Chris approved): allow an optional quality suffix (LHD/HD/
+# FHD/UHD/SD) and/or trailing * after the zone word — "USA Disney Channel
+# West LHD" and "USA Disney XD East LHD" previously never grouped, so
+# their West feeds stayed placeholder-only.
 _zone_name_re = re.compile(
-    r'^USA\s+(.+?)\s+(East|West|Mountain|Central|Alaska|Hawaii)\s*\*?\s*$', re.I)
+    r'^USA\s+(.+?)\s+(East|West|Mountain|Central|Alaska|Hawaii)\s*\*?\s*(?:FHD|UHD|LHD|HD|SD)?\s*\*?\s*$', re.I)
 _ts_attr_re = re.compile(r'(start|stop)="(\d{14})([^"]*)"')
 
 
@@ -1334,6 +1344,17 @@ def enforce_timezone_shifts(out_path, roster):
         # 2026-09-21: keep ALL candidates per zone — duplicate "East"
         # channels exist (e.g. two "USA HBO East*"); the one with data wins.
         groups.setdefault(base, {}).setdefault(m.group(2).lower(), []).append(cid)
+
+    # 2026-10-27 (Chris approved): Cinemax Action East has no zone word
+    # ("USA Cinemax Action*"), so it never groups with Cinemax Action West
+    # ("USA Cinemax Action West*"). All three East ids carry the same
+    # OnTVTonight actionmax-east source; the engine picks the one with the
+    # most future real programmes.
+    for _ec in ("actionmax.us", "epg-usa-cinemax-action-07dc64d9",
+                "epg-usa-cinemax-action-max-east-91c7973f"):
+        _zl = groups.setdefault("cinemax action", {}).setdefault("east", [])
+        if _ec in roster and _ec not in _zl:
+            _zl.append(_ec)
 
     prog_re = re.compile(
         r'<programme start="([^"]+)" stop="([^"]+)"[^>]*channel="([^"]+)"[^>]*>'
