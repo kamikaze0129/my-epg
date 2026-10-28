@@ -1,0 +1,572 @@
+{
+ "anchor_utc": "20261028033600 +0000",
+ "anchor_episode_index": 23,
+ "block_mins": 22,
+ "episodes": [
+  {
+   "title": "S1E1 - Pilot",
+   "desc": "9-year-old Sheldon Cooper is a once-in-a-generation mind capable of advanced mathematics and science but learns that isn\u2019t always helpful growing up in East Texas, a land where church and football are king."
+  },
+  {
+   "title": "S1E2 - Rockets, Communists, and the Dewey Decimal System",
+   "desc": "To appease his worried mother, Sheldon employs the techniques of a self-help book to try and make a friend."
+  },
+  {
+   "title": "S1E3 - Poker, Faith, and Eggs",
+   "desc": "When George Sr. is rushed to the emergency room, Connie comes to babysit, and the kids have an adventure getting to the hospital on their own."
+  },
+  {
+   "title": "S1E4 - A Therapist, a Comic Book, and a Breakfast Sausage",
+   "desc": "After choking on a breakfast sausage, Sheldon wrestles with his fear of solid foods and discovers comic books for the first time."
+  },
+  {
+   "title": "S1E5 - A Solar Calculator, a Game Ball, and a Cheerleader's Bosom",
+   "desc": "Sheldon struggles with newfound popularity after utilizing statistics to help the football team."
+  },
+  {
+   "title": "S1E6 - A Patch, a Modem, and a Zantac",
+   "desc": "When a NASA representative visits Sheldon\u2019s school and dismisses his science, Sheldon is set on a mission to prove him wrong."
+  },
+  {
+   "title": "S1E7 - A Brisket, Voodoo, and Cannonball Run",
+   "desc": "The kids brainstorm ways to resolve a family feud when Connie refuses to give George Sr. her brisket recipe."
+  },
+  {
+   "title": "S1E8 - Cape Canaveral, Schr\u00f6dinger's Cat, and Cyndi Lauper's Hair",
+   "desc": "While Mary, Connie and Missy have their girls night at the salon, the three Cooper men plan their road trip to see the space launcher, but it doesn't go as well as they plan."
+  },
+  {
+   "title": "S1E9 - Spock, Kirk, and Testicular Hernia",
+   "desc": "George Sr. strikes a deal with Sheldon to tutor Georgie when poor grades threaten to keep him from playing football. While Sheldon's tutoring attempts are ultimately unsuccessful, he does learn some skills from his brother."
+  },
+  {
+   "title": "S1E10 - An Eagle Feather, a String Bean, and an Eskimo",
+   "desc": "When Sheldon moves to Dallas to attend a school for gifted children, the family struggles to cope with his absence."
+  },
+  {
+   "title": "S1E11 - Demons, Sunday School, and Prime Numbers",
+   "desc": "A worried Mary sends Sheldon to Sunday school after she finds him playing Dungeons and Dragons with his friends, Tam and Billy."
+  },
+  {
+   "title": "S1E12 - A Computer, a Plastic Pony, and a Case of Beer",
+   "desc": "Sheldon asks for a computer and unknowingly sparks a heated argument between Mary and George Sr. over the family\u2019s finances."
+  },
+  {
+   "title": "S1E13 - A Sneeze, Detention, and Sissy Spacek",
+   "desc": "When flu season hits Medford, Sheldon takes extreme measures to remain healthy."
+  },
+  {
+   "title": "S1E14 - Potato Salad, a Broomstick, and Dad's Whiskey",
+   "desc": "When Mary takes a job as church secretary, she finds herself becoming Pastor Jeff's marriage counselor. Also, Sheldon and Missy spend their first afternoon home alone."
+  },
+  {
+   "title": "S1E15 - Dolomite, Apple Slices, and a Mystery Woman",
+   "desc": "Sheldon makes friends with an upperclassman who introduces him to a new field of science. Also, Mary and George disagree on how to handle Sheldon's blossoming social life."
+  },
+  {
+   "title": "S1E16 - Killer Asteroids, Oklahoma, and a Frizzy Hair Machine",
+   "desc": "A disappointing loss at the science fair sends Sheldon\u2019s life in a new direction."
+  },
+  {
+   "title": "S1E17 - Jiu-Jitsu, Bubble Wrap, and Yoo-hoo",
+   "desc": "Sheldon is bullied by an unlikely character, and Mary and George disagree on how to handle the situation."
+  },
+  {
+   "title": "S1E18 - A Mother, A Child, and a Blue Man's Backside",
+   "desc": "Mary bans Sheldon from reading a mature comic book. Sheldon decides it's time to stop living under Mary's thumb."
+  },
+  {
+   "title": "S1E19 - Gluons, Guacamole, and the Color Purple",
+   "desc": "When Sheldon is no longer academically challenged at Medford High, he audits a college class taught by Dr. John Sturgis."
+  },
+  {
+   "title": "S1E20 - A Dog, a Squirrel, and a Fish Named Fish",
+   "desc": "A battle erupts between the Coopers and Sparks when the Sparks' new dog terrorizes Sheldon."
+  },
+  {
+   "title": "S1E21 - Summer Sausage, a Pocket Poncho, and Tony Danza",
+   "desc": "While Sheldon is busy keeping tabs on Connie\u2019s budding relationship with Dr. Sturgis, George Sr. and Mary attempt to bond with their other children."
+  },
+  {
+   "title": "S1E22 - Vanilla Ice Cream, Gentleman Callers, and a Dinette Set",
+   "desc": "When Connie is pursued by two gentlemen callers, Sheldon interferes, forcing her to set some ground rules."
+  },
+  {
+   "title": "S2E1 - A High-Pitched Buzz and Training Wheels",
+   "desc": "After Sheldon dismantles the refrigerator to stop an annoying hum, he gets a paper route to pay for the repairs."
+  },
+  {
+   "title": "S2E2 - A Rival Prodigy and Sir Isaac Neutron",
+   "desc": "When Dr. Sturgis bonds with Paige, another 10-year-old genius, Sheldon\u2019s jealousy leads Connie to intervene. Mary invites Paige\u2019s family over for a play date."
+  },
+  {
+   "title": "S2E3 - A Crisis of Faith and Octopus Aliens",
+   "desc": "When Mary\u2019s faith is shaken by a tragedy in the community, Sheldon becomes an unlikely ally."
+  },
+  {
+   "title": "S2E4 - A Financial Secret and Fish Sauce",
+   "desc": "When George Sr. asks Sheldon to keep a secret from Mary, the stress of not being honest drives Sheldon to hideout at Tam\u2019s for his first sleepover."
+  },
+  {
+   "title": "S2E5 - A Research Study and Czechoslovakian Wedding Pastries",
+   "desc": "When Dr. Sturgis recommends Sheldon and Missy for a university research study on twins, Mary is unhappy when the test results go to Sheldon's head."
+  },
+  {
+   "title": "S2E6 - Seven Deadly Sins and a Small Carl Sagan",
+   "desc": "Mary clashes with Sheldon's drama teacher over plans for a Halloween fundraiser for the church. Georgie falls for a rebellious teenage girl whom Sheldon is tutoring."
+  },
+  {
+   "title": "S2E7 - Carbon Dating and a Stuffed Raccoon",
+   "desc": "Sheldon gets into trouble with fellow child genius, Paige at the science museum. George is forced to play therapist to Paige\u2019s bickering parents. Mary, Georgie and Missy help Connie with a garage sale."
+  },
+  {
+   "title": "S2E8 - An 8-Bit Princess and a Flat Tire Genius",
+   "desc": "A video game takes over Sheldon and Connie\u2019s life. George Sr. is jealous when Georgie bonds with Herschel at the auto shop."
+  },
+  {
+   "title": "S2E9 - Family Dynamics and a Red Fiero",
+   "desc": "Sheldon studies his family for a psychology project. Thanksgiving dinner turns into a family fight when George Sr. is offered a job in Oklahoma."
+  },
+  {
+   "title": "S2E10 - A Stunted Childhood and a Can of Fancy Mixed Nuts",
+   "desc": "When Sheldon learns that people with stunted childhoods can turn into social outcasts, he tries to act. Connie and Dr. Sturgis' relationship is tested when she teaches him how to drive."
+  },
+  {
+   "title": "S2E11 - A Race of Superhumans and a Letter to Alf",
+   "desc": "Sheldon experiments on Missy, and Georgie joins Mary\u2019s bible study to spend more time with his crush, Veronica."
+  },
+  {
+   "title": "S2E12 - A Tummy Ache and a Whale of a Metaphor",
+   "desc": "When Sheldon has to spend a few days in the hospital, he turns into the world\u2019s worst patient. Also, Missy gets a taste of what life would be like without her twin."
+  },
+  {
+   "title": "S2E13 - A Nuclear Reactor and a Boy Called Lovely",
+   "desc": "Sheldon attempts to build a nuclear reactor. Also, a university cocktail party gets heated when Dr. Sturgis\u2019 colleague, Dr. Linkletter, flirts with Connie, and Georgie is heartbroken when he learns Veronica has a boyfriend."
+  },
+  {
+   "title": "S2E14 - David, Goliath and a Yoo-hoo from the Back",
+   "desc": "Sheldon uses his new friendship with the school bully to boss Georgie around. Also, Missy steals Connie's makeup for picture day."
+  },
+  {
+   "title": "S2E15 - A Math Emergency and Perky Palms",
+   "desc": "Sheldon and Dr. Sturgis have their first fight when Dr. Sturgis marks a question wrong on Sheldon's test. Also, Mary takes over for Pastor Jeff when he's out sick."
+  },
+  {
+   "title": "S2E16 - A Loaf of Bread and a Grand Old Flag",
+   "desc": "Things spiral out of control when Sheldon boycotts his favorite bread company. Also, Georgie offers Veronica a shoulder to cry on when she's dumped by her boyfriend."
+  },
+  {
+   "title": "S2E17 - Albert Einstein and the Story of Another Mary",
+   "desc": "Inspired by his hero, Albert Einstein, Sheldon tries his hand at the violin. Also, Mary and Connie secretly buy a pregnancy test when Mary thinks she's pregnant"
+  },
+  {
+   "title": "S2E18 - A Perfect Score and a Bunsen Burner Marshmallow",
+   "desc": "Sheldon moves in with Dr. Sturgis for the weekend to see what his life will be like in college. Also, a lonely Mary tries to bond with the other Coopers during Sheldon's absence."
+  },
+  {
+   "title": "S2E19 - A Political Campaign and a Candy Land Cheater",
+   "desc": "Unhappy that school funds are going towards football rather than academics, Sheldon decides to run for class president."
+  },
+  {
+   "title": "S2E20 - A Proposal and a Popsicle Stick Cross",
+   "desc": "Georgie is thrilled when Veronica stays at the Coopers' house for a few days. Also, Connie and Dr. Sturgis celebrate their one-year anniversary."
+  },
+  {
+   "title": "S2E21 - A Broken Heart and a Crock Monster",
+   "desc": "The Coopers help Pastor Jeff through a rough patch in his marriage. Also, Sheldon pressures church members for donations when Mary takes him to work for a day."
+  },
+  {
+   "title": "S2E22 - A Swedish Science Thing and the Equation for Toast",
+   "desc": "Sheldon invites the entire school to a party for the Nobel Prize announcements. Also, Connie learns more about Dr. Sturgis' past, and Georgie's desire for cable TV leads to a standoff between him and George Sr."
+  },
+  {
+   "title": "S3E1 - Quirky Eggheads and Texas Snow Globes",
+   "desc": "After Dr. Sturgis experiences a nervous breakdown, Mary worries Sheldon is headed down a similar path. Also, Georgie discovers he has a knack for sales."
+  },
+  {
+   "title": "S3E2 - A Broom Closet and Satan's Monopoly Board",
+   "desc": "Without Dr. Sturgis\u2019 university class, Sheldon must find a new way to stay academically challenged. Also, Mary helps Pastor Jeff avoid temptation with his girlfriend."
+  },
+  {
+   "title": "S3E3 - An Entrepreneurialist and a Swat on the Bottom",
+   "desc": "Sheldon takes matters into his own hands when Connie refuses to drive him to a lecture with Dr. Linkletter. Also, Georgie tries to impress Veronica with his new business venture"
+  },
+  {
+   "title": "S3E4 - Hobbitses, Physicses and a Ball with Zip",
+   "desc": "Sheldon is forced to take a break from science when his new obsession with \"The Lord of the Rings\" leads to an unhealthy habit. Also, Missy asks George Sr. to teach her how to play catch."
+  },
+  {
+   "title": "S3E5 - A Pineapple and the Bosom of Male Friendship",
+   "desc": "After being released from the mental hospital, Dr. Sturgis unexpectedly breaks up with Connie."
+  },
+  {
+   "title": "S3E6 - A Parasol and a Hell of an Arm",
+   "desc": "A church carnival leads Missy to try out for the baseball team. Also, Connie struggles after her breakup with Dr. Sturgis."
+  },
+  {
+   "title": "S3E7 - Pongo Pygmaeus and a Culture that Encourages Spitting",
+   "desc": "Sheldon starts an internet flame war, and Missy stands up to the boys on her baseball team. Also, Connie is unhappy when George Sr. spends time with her new boyfriend."
+  },
+  {
+   "title": "S3E8 - The Sin of Greed and a Chimichanga from Chi-chi's",
+   "desc": "The University makes George Sr. a lucrative job offer in the hopes of recruiting Sheldon. Also, Georgie gets a job working for Connie's new boyfriend, and Mary is determined to rid her home of greed."
+  },
+  {
+   "title": "S3E9 - A Party Invitation, Football Grapes and an Earth Chicken",
+   "desc": "Mary gets Pastor Jeff involved when Sheldon isn't invited to Billy's birthday party. Also, George Sr. has \"male-bonding time\" with Dr. Sturgis."
+  },
+  {
+   "title": "S3E10 - Teenager Soup and a Little Ball of Fib",
+   "desc": "Sheldon fakes being sick to avoid a swim test at school. Also, Dr. Sturgis spies on Connie's new boyfriend."
+  },
+  {
+   "title": "S3E11 - A Live Chicken, a Fried Chicken and Holy Matrimony",
+   "desc": "George Sr. and Connie struggle to manage the Cooper household while Mary plans Pastor Jeff\u2019s wedding."
+  },
+  {
+   "title": "S3E12 - Body Glitter and a Mall Safety Kit",
+   "desc": "The fate of the world lies in Sheldon's hands. Faced with dire consequences in the wake of Georgie's murder, he must reunite with friends old and new to stop the second coming of the big bang before Meemaw can complete her evil plan and take over the world forever."
+  },
+  {
+   "title": "S3E13 - Contracts, Rules and a Little Bit of Pig Brains",
+   "desc": "George Sr. and Georgie go camping with Connie's new boyfriend, Dale, but things get complicated when her ex-boyfriend, Dr. Sturgis, tags along. Also, Sheldon and Missy invent a super-game."
+  },
+  {
+   "title": "S3E14 - A Slump, a Cross and Roadside Gravel",
+   "desc": "Sheldon and Georgie mine for platinum in roadside gravel. Mary is concerned when Missy misuses religion to help with a batting slump."
+  },
+  {
+   "title": "S3E15 - A Boyfriend's Ex-Wife and a Good Luck Head Rub",
+   "desc": "Connie meets Dale\u2019s ex-wife, June. Sheldon is forced to work on a group project with reluctant college students."
+  },
+  {
+   "title": "S3E16 - Pasadena",
+   "desc": "Sheldon visits CalTech for the very first time. Also, Georgie is furious when Mary listens in on a phone call with his girlfriend, and Connie tries to cheer up a jealous Missy."
+  },
+  {
+   "title": "S3E17 - An Academic Crime and a More Romantic Taco Bell",
+   "desc": "Dr. Sturgis is furious when Sheldon accuses him of plagiarism. Also, Mary sets out to find a \u201cgirl trophy\u201d for Missy\u2019s end-of-season baseball ceremony, and Georgie has an awkward run-in with Veronica while on a date with his new girlfriend, Jana."
+  },
+  {
+   "title": "S3E18 - A Couple Bruised Ribs and a Cereal Box Ghost Detector",
+   "desc": "When George Sr. accidentally lands the school librarian in the hospital, the Cooper family must nurse her back to health. Connie gives Georgie relationship advice."
+  },
+  {
+   "title": "S3E19 - A House for Sale and Serious Woman Stuff",
+   "desc": "When Sheldon learns the house next door is for sale, he takes it upon himself to find the perfect neighbors. Missy is torn when she\u2019s forced to pitch against her boyfriend at the baseball game."
+  },
+  {
+   "title": "S3E20 - A Baby Tooth and the Egyptian God of Knowledge",
+   "desc": "Sheldon has a scientific breakthrough at the dentist's office. Also, Dale and Connie go to the casino, and Georgie makes a big mistake when Dale leaves him in charge of the store"
+  },
+  {
+   "title": "S3E21 - A Secret Letter and a Lowly Disc of Processed Meat",
+   "desc": "Sheldon discovers that Mary's been keeping a secret about his future. Also, Connie is furious when she learns Dale fired Georgie."
+  },
+  {
+   "title": "S4E1 - Graduation",
+   "desc": "After graduating high school, Sheldon has a breakdown when he realizes he may not be ready for college. Dale tries to make amends with Connie."
+  },
+  {
+   "title": "S4E2 - A Docent, A Little Lady and a Bouncer Named Dalton",
+   "desc": "Sheldon gets a summer job at the local train museum. Also, George and Missy bond when Missy embarks on a new stage of womanhood, and Georgie discovers Mary's guilty pleasure."
+  },
+  {
+   "title": "S4E3 - Training Wheels and an Unleashed Chicken",
+   "desc": "With college in sight, Sheldon is determined to ride his bike without training wheels. Also, Mary and George Sr. argue over parenting styles."
+  },
+  {
+   "title": "S4E4 - Bible Camp and a Chariot of Love",
+   "desc": "When their mothers force them to attend Vacation Bible School. Also, George is furious after Georgie makes a questionable purchase."
+  },
+  {
+   "title": "S4E5 - A Musty Crypt and a Stick to Pee On",
+   "desc": "Dale and Connie work out relationship issues while playing Dungeons and Dragons with Sheldon and Missy. Also, Mary and George take a trip with Coach Wilkins and his wife, and Georgie freaks out when his girlfriend thinks she's pregnant."
+  },
+  {
+   "title": "S4E6 - Freshman Orientation and the Inventor of The Zipper",
+   "desc": "College orientation does not go as Sheldon planned. Also, Mary is invited to a party when she's mistaken for a university student, and George Sr. helps Pastor Jeff set up a children's nursery."
+  },
+  {
+   "title": "S4E7 - A Philosophy Class and Worms That Can Chase You",
+   "desc": "Sheldon's first day of college is derailed by his new philosophy teacher, Professor Ericson. Also, Mary and Brenda live vicariously through Missy's first day of middle school."
+  },
+  {
+   "title": "S4E8 - An Existential Crisis and a Bear That Makes Bubbles",
+   "desc": "Connie takes matters into her own hands when Sheldon's philosophy teacher, Professor Ericson, sends him into a tailspin. Also, George Sr. learns Georgie has been cutting class."
+  },
+  {
+   "title": "S4E9 - Crappy Frozen Ice Cream and an Organ Grinder's Monkey",
+   "desc": "Sheldon and George Sr. dine with President Hagemeyer and a university benefactor. Also, Georgie gives Missy some brotherly advice when Mary won't let her go to the school dance, and Dale and June convince Connie to attend their son's wedding."
+  },
+  {
+   "title": "S4E10 - Cowboy Aerobics and 473 Grease-Free Bolts",
+   "desc": "Sheldon campaigns to become Dr. Linkletter's lab assistant. Also, Georgie enlists the help of Mr. Lundy, the drama teacher, for a surprising business venture."
+  },
+  {
+   "title": "S4E11 - A Pager, a Club and a Cranky Bag of Wrinkles",
+   "desc": "Dr. Linkletter pushes Sheldon to make friends with his fellow students at college. Also, Georgie gets a pager."
+  },
+  {
+   "title": "S4E12 - A Box of Treasure and the Meemaw of Science",
+   "desc": "Sheldon, Dr. Linkletter and Connie team up on a science experiment. Also, Mary is jealous that Pastor Jeff and Brenda are spending time together, and Georgie has a new side hustle."
+  },
+  {
+   "title": "S4E13 - The Geezer Bus and a New Model for Education",
+   "desc": "Sheldon refuses to ride in a car after getting into an accident with Connie. Also, Missy uses their trauma to her advantage at school and Connie is forced to take the church shuttle while her car is in the shop."
+  },
+  {
+   "title": "S4E14 - Mitch's Son and the Unconditional Approval of a Government Agency",
+   "desc": "When the IRS accuses Sheldon of making a mistake, he'll stop at nothing to prove them wrong. Also, Dale is forced to get a colonoscopy and tries to convince Connie to join him."
+  },
+  {
+   "title": "S4E15 - A Virus, Heartbreak and a World of Possibilities",
+   "desc": "Sheldon is caught in a moral dilemma when offered a bootleg copy of a computer game he can't afford. Also, Mary and Connie take Brenda out for girls' night while George Sr. and the guys watch Billy, and Missy asks Georgie to take her and Marcus on a secret date."
+  },
+  {
+   "title": "S4E16 - A Second Prodigy and the Hottest Tips for Pouty Lips",
+   "desc": "Sheldon finds himself at odds with Paige once again when she considers enrolling at East Texas Tech. Also, Mary seeks June's advice when looking for a change."
+  },
+  {
+   "title": "S4E17 - A Black Hole",
+   "desc": "The Coopers discuss the possibilities of black holes and alternate universes when Dr. Sturgis comes over for dinner."
+  },
+  {
+   "title": "S4E18 - The Wild and Woolly World of Nonlinear Dynamics",
+   "desc": "Missy's first heartbreak triggers a series of events that lead the Cooper family to the brink."
+  },
+  {
+   "title": "S5E1 - One Bad Night and Chaos of Selfish Desires",
+   "desc": "Sheldon and Missy both run away from home, and Mary gets upsetting news about George Sr."
+  },
+  {
+   "title": "S5E2 - Snoopin' Around and the Wonder Twins of Atheism",
+   "desc": "Sheldon encourages Missy to question the Bible. Also, Connie is determined to catch George Sr. in a lie, and Mary helps Pastor Jeff search for a youth pastor."
+  },
+  {
+   "title": "S5E3 - Potential Energy and Hooch on a Park Bench",
+   "desc": "Sheldon tries to convince Dr. Sturgis to return to the university. Also, Georgie upsets the family when he makes a life-changing decision."
+  },
+  {
+   "title": "S5E4 - Pish Posh and a Secret Back Room",
+   "desc": "Sheldon, Missy and Georgie adapt to new living arrangements. Also, Connie opens a gambling room."
+  },
+  {
+   "title": "S5E5 - Stuffed Animals and a Sweet Southern Syzygy",
+   "desc": "Sheldon and Dr. Linkletter struggle to solve an equation. Also, Georgie has a solution for Connie's business woes, and George Sr. gives advice on Missy's love life."
+  },
+  {
+   "title": "S5E6 - Money Laundering and a Cascade of Hormones",
+   "desc": "Missy asks some uncomfortable questions at church, and Connie and Georgie go into business together."
+  },
+  {
+   "title": "S5E7 - An Introduction to Engineering and a Glob of Hair Gel",
+   "desc": "Sheldon takes his first engineering class with Professor Boucher. Also, Meemaw and Dale help take care of his ex-wife, June."
+  },
+  {
+   "title": "S5E8 - The Grand Chancellor and a Den of Sin",
+   "desc": "Sheldon battles President Hagemeyer's mysterious boss over the university's science requirements. Also, Mary discovers that Georgie is working at Connie's illegal gambling room."
+  },
+  {
+   "title": "S5E9 - The Yips and an Oddly Hypnotic Bohemian",
+   "desc": "Sheldon gets the science yips and has to learn how to not think. Also, George Sr. plays handyman at Brenda Sparks' house."
+  },
+  {
+   "title": "S5E10 - An Expensive Glitch and a Goof-Off Room",
+   "desc": "Sheldon gets a dorm room all to himself. Also, Connie gains an unwanted business partner."
+  },
+  {
+   "title": "S5E11 - A Lock-In, a Weather Girl and a Disgusting Habit",
+   "desc": "Sheldon acts as Mary's spy during a youth lock-in at church. Also, Georgie is attracted to an older woman, Mandy."
+  },
+  {
+   "title": "S5E12 - A Pink Cadillac and a Glorious Tribal Dance",
+   "desc": "Sheldon attends his first comic book convention; Mary tries selling makeup."
+  },
+  {
+   "title": "S5E13 - A Lot of Band-Aids and the Cooper Surrender",
+   "desc": "Sheldon makes friends with his dorm neighbors; George Sr. learns his job is in jeopardy."
+  },
+  {
+   "title": "S5E14 - A Free Scratcher and Feminine Wiles",
+   "desc": "Sheldon butts heads with Dr. Lee, a new scientist in the lab. Also, Mary is given a lotto ticket."
+  },
+  {
+   "title": "S5E15 - A Lobster, an Armadillo and a Way Bigger Number",
+   "desc": "Sheldon joins Dr. Linkletter and Dr. Sturgis on a science road trip. Also, Georgie continues to lie about his age."
+  },
+  {
+   "title": "S5E16 - A Suitcase Full of Cash and a Yellow Clown Car",
+   "desc": "Connie's gambling room is a success, and Sheldon dips his toe in the stock market. Also, Missy starts a business."
+  },
+  {
+   "title": "S5E17 - A Solo Peanut, a Social Butterfly and the Truth",
+   "desc": "Sheldon gets an odd request from an old friend, Paige. Also, George Sr. and Mary are caught in the middle of Connie and Dale's breakup, and Georgie comes clean to Mandy."
+  },
+  {
+   "title": "S5E18 - Babies, Lies and a Resplendent Cannoli",
+   "desc": "Sheldon copes with the death of a hero. Also, Missy wants to babysit, and Georgie struggles with his big secret."
+  },
+  {
+   "title": "S5E19 - A God-Fearin' Baptist and a Hot Trophy Husband",
+   "desc": "George and Mary insist on meeting the new woman in Georgie's life. Also, Sheldon and Missy have suspicions about what's going on with their family."
+  },
+  {
+   "title": "S5E20 - Uncle Sheldon and a Hormonal Firecracker",
+   "desc": "Sheldon and Missy learn about Georgie's pregnancy, and the whole family promises to keep it a secret."
+  },
+  {
+   "title": "S5E21 - White Trash, Holy Rollers and Punching People",
+   "desc": "As the church congregation gossips about Georgie, Missy stands up for her brother, and Sheldon is distracted by the family drama."
+  },
+  {
+   "title": "S5E22 - Clogged Pore, a Little Spanish and the Future",
+   "desc": "Sheldon struggles to cope with the first signs of puberty. Also, Mary and George Sr. hunt for new jobs, and Georgie and Meemaw take a business trip across the border."
+  },
+  {
+   "title": "S6E1 - Four Hundred Cartons of Undeclared Cigarettes and a Niblingo",
+   "desc": "George Sr. bails Connie and Georgie out of jail. Also, Sheldon and Missy meet Mandy, and Mary feels unwelcome at church."
+  },
+  {
+   "title": "S6E2 - Future Worf and the Margarita of the South Pacific",
+   "desc": "Sheldon and Missy try to help the family\u2019s finances. Also, Mary struggles to find her footing without the church."
+  },
+  {
+   "title": "S6E3 - Passion's Harvest and a Sheldocracy",
+   "desc": "Sheldon must choose sides in an ethical dilemma. Also, Mary tries her hand at writing and Mandy needs a new place to live."
+  },
+  {
+   "title": "S6E4 - Blonde Ambition and the Concept of Zero",
+   "desc": "Sheldon makes a terrifying mathematical discovery while tutoring Billy. Also, Mary is jealous of Missy's relationship with Mandy and Connie."
+  },
+  {
+   "title": "S6E5 - A Resident Advisor and the Word 'Sketchy'",
+   "desc": "At college, Sheldon decides to expand his responsibilities and become a dorm resident advisor. Also, Connie and Dale make a sketchy business deal, and Mary and George Sr. rekindle their romance."
+  },
+  {
+   "title": "S6E6 - An Ugly Car, an Affair and Some Kickass Football",
+   "desc": "George Sr. is asked to help with the football team. Also, Mandy discovers Georgie and Connie's secret business."
+  },
+  {
+   "title": "S6E7 - A Tougher Nut and a Note on File",
+   "desc": "Sheldon's search for a comic book leads him to a breakthrough. Also, Georgie and Mandy have an uncomfortable first encounter with her parents, Jim and Audrey."
+  },
+  {
+   "title": "S6E8 - Legalese and a Whole Hoo-Ha",
+   "desc": "Sheldon's database invention puts him at odds with the university. Also, the church takes issue with Connie's video store."
+  },
+  {
+   "title": "S6E9 - College Dropouts and the Medford Miracle",
+   "desc": "Sheldon considers dropping out of college to focus on building his database. Also, George Sr. is frustrated when someone else gets credit for his football wins."
+  },
+  {
+   "title": "S6E10 - Pancake Sunday and Textbook Flirting",
+   "desc": "Mary struggles to make new friends while Mandy pushes Georgie to date another woman."
+  },
+  {
+   "title": "S6E11 - Ruthless, Toothless and a Week of Bed Rest",
+   "desc": "Sheldon learns the university is building a database without him. Also, Mary takes care of a bedridden Mandy and Meemaw."
+  },
+  {
+   "title": "S6E12 - A Baby Shower and a Testosterone-Rich Banter",
+   "desc": "Mary butts heads with Mandy's mother, Audrey, and Sheldon attempts male bonding."
+  },
+  {
+   "title": "S6E13 - A Frat Party, a Sleepover and the Mother of All Blisters",
+   "desc": "Paige drags Sheldon to a college party and Missy gets caught in a lie."
+  },
+  {
+   "title": "S6E14 - A Launch Party and a Whole Human Being",
+   "desc": "The Coopers can't be found as Mandy goes into labor. Also, Sheldon is excited about the launch of his database."
+  },
+  {
+   "title": "S6E15 - Teen Angst and a Smart-Boy Walk of Shame",
+   "desc": "Sheldon confronts the failure of his database. Also, Georgie and Mandy struggle as new parents and Missy feels forgotten."
+  },
+  {
+   "title": "S6E16 - A Stolen Truck and Going on the Lam",
+   "desc": "Missy steals her dad's truck and hits the road with her friend Paige."
+  },
+  {
+   "title": "S6E17 - A German Folk Song and an Actual Adult",
+   "desc": "Georgie goes on a birthday date and Mary confronts Brenda about her relationship with George. Also, Sheldon takes an interest in Missy's favorite TV show."
+  },
+  {
+   "title": "S6E18 - Little Green Men and a Fella's Marriage Proposal",
+   "desc": "Sheldon wants to search for life on other planets and Mandy answers Georgie's marriage proposal. Also, Missy is caught between two friends."
+  },
+  {
+   "title": "S6E19 - A New Weather Girl and a Stay-at-Home Coddler",
+   "desc": "Mandy gets an exciting job opportunity and Sheldon worries that he's falling behind. Also, Georgie takes his daughter to work."
+  },
+  {
+   "title": "S6E20 - German for Beginners and a Crazy Old Man with a Bat",
+   "desc": "The gambling room gets broken into and Sheldon wants to study abroad. Also, Missy makes a new friend."
+  },
+  {
+   "title": "S6E21 - A Romantic Getaway and a Germanic Meat-Based Diet",
+   "desc": "Mandy surprises Georgie with a spa weekend and Sheldon prepares for his summer in Germany."
+  },
+  {
+   "title": "S6E22 - A Tornado, a 10-Hour Flight and a Darn Fine Ring",
+   "desc": "Sheldon and Mary head to Germany while the rest of the Cooper family braves a tornado that is heading straight for Medford."
+  },
+  {
+   "title": "S7E1 - A Wiener Schnitzel and Underwear in a Tree",
+   "desc": "News of the tornado reaches Sheldon and Mary in Germany. Also, with the Cooper house in chaos, Missy steps up."
+  },
+  {
+   "title": "S7E2 - A Roulette Wheel and a Piano Playing Dog",
+   "desc": "Sheldon realizes he is the weakest student in his class; Meemaw is looking to expand her gambling business."
+  },
+  {
+   "title": "S7E3 - A Strudel and a Hot American Boy Toy",
+   "desc": "Sheldon explores Germany behind Mary's back, Missy attempts to pull a fast one on George Sr. and Meemaw and Dale adjust to living together."
+  },
+  {
+   "title": "S7E4 - Ants on a Log and a Cheating Winker",
+   "desc": "Missy steps up, Mary has a surprise for George, and Sheldon finds his dorm occupied."
+  },
+  {
+   "title": "S7E5 - A Frankenstein's Monster and a Crazy Church Guy",
+   "desc": "Sheldon helps his roommate try to beat the stock market, Missy and Billy Sparks throw a party, and Mary finds a new church."
+  },
+  {
+   "title": "S7E6 - Baptists, Catholics and an Attempted Drowning",
+   "desc": "Georgie and Mandy's wedding plans pit Mary against Mandy's mom, Audrey, with baby CeeCee caught in the middle."
+  },
+  {
+   "title": "S7E7 - A Proper Wedding and Skeletons in the Closet",
+   "desc": "Georgie and Mandy get married! Meanwhile, Meemaw's gambling room gets raided."
+  },
+  {
+   "title": "S7E8 - An Ankle Monitor and a Big Plastic Crap House",
+   "desc": "Sheldon studies to be Meemaw's lawyer when she is put on house arrest, and the Coopers have a plumbing emergency."
+  },
+  {
+   "title": "S7E9 - A Fancy Article and a Scholarship for a Baby",
+   "desc": "Sheldon's published paper leads to a frenzy of grad school recruiting, and Georgie tries to speak more properly in front of his daughter."
+  },
+  {
+   "title": "S7E10 - Community Service and the Key to a Happy Marriage",
+   "desc": "Connie gets assigned a tough probation officer, and Georgie takes marriage advice from his father-in-law."
+  },
+  {
+   "title": "S7E11 - A Little Snip and Teaching Old Dogs",
+   "desc": "George Sr. is worried that Mary wants another baby and gets a vasectomy behind her back. Meanwhile, Drs. Linkletter and Sturgis go to Sheldon for science tutoring."
+  },
+  {
+   "title": "S7E12 - A New Home and a Traditional Texas Torture",
+   "desc": "George Sr. gets an exciting job offer, and Sheldon prepares for his move to California."
+  },
+  {
+   "title": "S7E13 - Funeral (1)",
+   "desc": "The Cooper family grapples with the death of George Cooper Sr."
+  },
+  {
+   "title": "S7E14 - Memoir (2)",
+   "desc": "Sheldon leaves East Texas for the California Institute of Technology following the death of his father."
+  }
+ ],
+ "_note": "ANCHORED 2026-10-27 \u2014 S2E2 start 2026-10-27 23:36 EDT (20261028033600 +0000), Chris caught start; block_mins 22 provisional, next flip confirms pacing."
+}
