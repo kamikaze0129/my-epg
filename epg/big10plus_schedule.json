@@ -1,7 +1,7 @@
 {
  "_meta": {
   "valid_until_utc": "2026-11-02T01:00:00+00:00",
-  "generated_utc": "2026-10-27T10:55:33.321976+00:00",
+  "generated_utc": "2026-10-28T10:55:19.456910+00:00",
   "source": "ESPN scoreboard API, womens-college-volleyball (auto)",
   "note": "Upcoming Big Ten volleyball -> BIG10+ 01-24 in chronological order, cycling. Channel->game mapping is best-effort: the provider assigns events opaquely. Keys are logical IDs; the builder resolves each number to the actual roster ID."
  },
