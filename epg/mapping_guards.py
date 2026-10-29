@@ -88,6 +88,14 @@ def check_country_prefix(chris_name, feed_country="usa"):
     if not m:
         return True, ""
     prefix_country = m.group(1).lower()
+    # 2026-10-29: "LA:" is the provider's Latin America / Spanish group
+    # label in this roster (100 channels, e.g. "LA: Galavision West HD"),
+    # not a Laos country code. The TV Passport / cable feeds for these
+    # channels are USA stations, so treating LA as a country mismatch
+    # blocked all 12 staged Spanish wires in the 2026-10-29 build.
+    # Exempt LA only; every other country prefix still enforces the guard.
+    if prefix_country == "la":
+        return True, ""
     if prefix_country in ("usa", "us"):
         prefix_country = "usa"
     if prefix_country != feed_country.lower():
