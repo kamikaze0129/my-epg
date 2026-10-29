@@ -1,7 +1,7 @@
 {
  "_meta": {
-  "valid_until_utc": "2026-11-02T01:00:00+00:00",
-  "generated_utc": "2026-10-28T10:55:19.456910+00:00",
+  "valid_until_utc": "2026-11-05T03:00:00+00:00",
+  "generated_utc": "2026-10-29T10:55:20.696716+00:00",
   "source": "ESPN scoreboard API, womens-college-volleyball (auto)",
   "note": "Upcoming Big Ten volleyball -> BIG10+ 01-24 in chronological order, cycling. Channel->game mapping is best-effort: the provider assigns events opaquely. Keys are logical IDs; the builder resolves each number to the actual roster ID."
  },
@@ -26,7 +26,8 @@
   "m3u-big10-15": "BIG10+ 15: Volleyball (W) Maryland Terrapins at Washington Huskies Sun @ Nov 1 4:00PM ET",
   "m3u-big10-16": "BIG10+ 16: Volleyball (W) Iowa Hawkeyes at Oregon Ducks Sun @ Nov 1 5:00PM ET",
   "m3u-big10-17": "BIG10+ 17: Volleyball (W) Minnesota Golden Gophers at USC Trojans Sun @ Nov 1 5:00PM ET",
-  "m3u-big10-18": "BIG10+ 18: Volleyball (W) Wisconsin Badgers at UCLA Bruins Sun @ Nov 1 6:00PM ET"
+  "m3u-big10-18": "BIG10+ 18: Volleyball (W) Wisconsin Badgers at UCLA Bruins Sun @ Nov 1 6:00PM ET",
+  "m3u-big10-19": "BIG10+ 19: Volleyball (W) Purdue Boilermakers at Ohio State Buckeyes Wed @ Nov 4 8:00PM ET"
  },
  "m3u-big10-02": [
   "  <programme start=\"20261029230000 +0000\" stop=\"20261030010000 +0000\" channel=\"m3u-big10-02\">\n    <title>Volleyball (W): Ohio State Buckeyes at Penn State Nittany Lions</title>\n    <desc>Ohio State Buckeyes at Penn State Nittany Lions. First serve 7:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Volleyball</category>\n  </programme>\n"
@@ -78,5 +79,8 @@
  ],
  "m3u-big10-18": [
   "  <programme start=\"20261101220000 +0000\" stop=\"20261102000000 +0000\" channel=\"m3u-big10-18\">\n    <title>Volleyball (W): Wisconsin Badgers at UCLA Bruins</title>\n    <desc>Wisconsin Badgers at UCLA Bruins. First serve 6:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Volleyball</category>\n  </programme>\n"
+ ],
+ "m3u-big10-19": [
+  "  <programme start=\"20261105000000 +0000\" stop=\"20261105020000 +0000\" channel=\"m3u-big10-19\">\n    <title>Volleyball (W): Purdue Boilermakers at Ohio State Buckeyes</title>\n    <desc>Purdue Boilermakers at Ohio State Buckeyes. First serve 8:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Volleyball</category>\n  </programme>\n"
  ]
 }
