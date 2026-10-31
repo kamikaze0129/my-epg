@@ -1,7 +1,7 @@
 {
  "_meta": {
   "valid_until_utc": "2026-11-05T15:56:00+00:00",
-  "generated_utc": "2026-10-30T10:59:40.758567+00:00",
+  "generated_utc": "2026-10-31T10:59:41.504816+00:00",
   "source": "api.floracing.com public schedule (auto)",
   "note": "FloRacing events -> USA Flo Racing (m3u-usa-flo-racing). Real titles/times from FloRacing's own schedule; overlapping evening events kept at real times (best-effort, one channel). Marathon/evergreen blocks capped at 6h."
  },
@@ -9,12 +9,8 @@
   "m3u-usa-flo-racing": "USA Flo Racing"
  },
  "m3u-usa-flo-racing": [
-  "  <programme start=\"20261030105903 +0000\" stop=\"20261030165903 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261030105903 +0000\" stop=\"20261030165903 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261030203500 +0000\" stop=\"20261031023500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Zenith Racing Series at Daytona</title>\n    <desc>Zenith Racing Series at Daytona -- Daytona International Speedway \u00b7 Daytona Beach, FL \u00b7 Day 1. 4:35 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261030213000 +0000\" stop=\"20261031033000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Iron-Man Halloween Nationals at PRP</title>\n    <desc>Iron-Man Halloween Nationals at PRP -- Portsmouth Raceway Park \u00b7 West Portsmouth, OH \u00b7 Night 1. 5:30 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261030220000 +0000\" stop=\"20261031040000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>National 100 at EAMS</title>\n    <desc>National 100 at EAMS -- East Alabama Motor Speedway \u00b7 Phenix City, AL \u00b7 Day 1. 6:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261030231500 +0000\" stop=\"20261031051500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Trophy Cup at Tulare</title>\n    <desc>Trophy Cup at Tulare -- Thunderbowl Racing Association \u00b7 Tulare, CA \u00b7 Day 2. 7:15 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261031105902 +0000\" stop=\"20261031165902 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261031105902 +0000\" stop=\"20261031165902 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 6:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261031133000 +0000\" stop=\"20261031193000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>NASCAR Youth Series at Huntsville</title>\n    <desc>NASCAR Youth Series at Huntsville -- 4275 E Schrimsher Ln SW \u00b7 Huntsville, AL. 9:30 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261031143500 +0000\" stop=\"20261031203500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Zenith Racing Series at Daytona</title>\n    <desc>Zenith Racing Series at Daytona -- Daytona International Speedway \u00b7 Daytona Beach, FL \u00b7 Day 2. 10:35 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261031150000 +0000\" stop=\"20261031210000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>National 100 at EAMS</title>\n    <desc>National 100 at EAMS -- East Alabama Motor Speedway \u00b7 Phenix City, AL \u00b7 Day 2. 11:00 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
