@@ -1356,6 +1356,24 @@ def enforce_timezone_shifts(out_path, roster):
         if _ec in roster and _ec not in _zl:
             _zl.append(_ec)
 
+    # 2026-10-29 (Chris: use East feed, shifted, for Showtime West):
+    # names carry the zone in parentheses ("USA Paramount+ with SHOWTIME
+    # (East)" / "(West)"), so the zone regex never groups them, and
+    # West currently sits 100% same-time as East in Thursday's file.
+    # The OnTVTonight West page Chris sent matches East same-time
+    # (10/13 normalized matches), so it is not a usable West feed.
+    # Alias East showtime.us + West showtimewest.us into one group so
+    # the engine re-derives West as East +3h (a programme airing
+    # 01:15 ET airs 01:15 PT, i.e. 3h later in absolute UTC time).
+    if "showtime.us" in roster:
+        _zl = groups.setdefault("paramount+ with showtime", {}).setdefault("east", [])
+        if "showtime.us" not in _zl:
+            _zl.append("showtime.us")
+    if "showtimewest.us" in roster:
+        _zl = groups.setdefault("paramount+ with showtime", {}).setdefault("west", [])
+        if "showtimewest.us" not in _zl:
+            _zl.append("showtimewest.us")
+
     prog_re = re.compile(
         r'<programme start="([^"]+)" stop="([^"]+)"[^>]*channel="([^"]+)"[^>]*>'
         r'(.*?)</programme>', re.S)
