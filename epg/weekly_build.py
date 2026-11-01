@@ -1317,7 +1317,7 @@ TZ_SHIFT_MIN_RATIO = 0.8  # variant must match >= this or it gets re-derived
 # West LHD" and "USA Disney XD East LHD" previously never grouped, so
 # their West feeds stayed placeholder-only.
 _zone_name_re = re.compile(
-    r'^USA\s+(.+?)\s+(East|West|Mountain|Central|Alaska|Hawaii)\s*\*?\s*(?:FHD|UHD|LHD|HD|SD)?\s*\*?\s*$', re.I)
+    r'^USA\s+(.+?)\s+\(?(East|West|Mountain|Central|Alaska|Hawaii)\)?\s*\*?\s*(?:FHD|UHD|LHD|HD|SD)?\s*\*?\s*$', re.I)
 _ts_attr_re = re.compile(r'(start|stop)="(\d{14})([^"]*)"')
 
 
@@ -1374,6 +1374,23 @@ def enforce_timezone_shifts(out_path, roster):
         if "showtimewest.us" not in _zl:
             _zl.append("showtimewest.us")
 
+    # 2026-11-01 (Chris: East/West should be 3h apart, fix the issue):
+    # Parentheses zones now group via the regex above, but their East
+    # twins are plain-named, so they still never group. MTV2 East is
+    # "USA MTV 2" (mtv2.us) and BET Her East is "USA BET HER"
+    # (bether.us) — both plain, no zone word. Alias them in, same
+    # pattern as Cinemax Action / Showtime above. Both West feeds
+    # were same-time as East in Sunday's file (MTV2 156/156,
+    # BET Her 48% same-time, 3% at +3h).
+    if "mtv2.us" in roster:
+        _zl = groups.setdefault("mtv 2", {}).setdefault("east", [])
+        if "mtv2.us" not in _zl:
+            _zl.append("mtv2.us")
+    if "bether.us" in roster:
+        _zl = groups.setdefault("bet her", {}).setdefault("east", [])
+        if "bether.us" not in _zl:
+            _zl.append("bether.us")
+
     prog_re = re.compile(
         r'<programme start="([^"]+)" stop="([^"]+)"[^>]*channel="([^"]+)"[^>]*>'
         r'(.*?)</programme>', re.S)
@@ -1391,10 +1408,22 @@ def enforce_timezone_shifts(out_path, roster):
     def is_ph(t):
         return t.strip().lower().rstrip('.') == 'programming'
 
+    # 2026-11-01 (VH1 West root cause): a placeholder programme's
+    # title is the channel name ("USA VH1 East SD"), not "programming",
+    # so is_ph() missed it. Its desc carries the builder placeholder
+    # mark "No programme schedule was supplied". If that block is the
+    # East feed's only "future" programme, the engine used to count
+    # it as 1 real East programme, match 0/1, and re-derive West
+    # from it — wiping 112 real TVP West programmes and leaving West
+    # as that same placeholder shifted +3h. Placeholder blocks are
+    # never a seed: exclude them from east_future / east_real below.
+    def is_placeholder_xml(x):
+        return 'No programme schedule was supplied' in x
+
     now = datetime.now(timezone.utc)
     repaired = {}
     for base, zones in groups.items():
-        if 'east' not in zones:
+        if 'east' not in zones or not zones['east']:
             continue
         # 2026-09-21: when duplicate "East" channels exist, copy from the
         # one with the most future real programmes — never the empty one.
@@ -1407,7 +1436,8 @@ def enforce_timezone_shifts(out_path, roster):
         # Shifting expired listings once wiped a variant's real future
         # schedule (hbowest.us lost 42 future programmes to 9 dead hbo.us
         # ones). An east feed with no future data is skipped, never copied.
-        east_future = [(s, e, t, x) for s, e, t, x in east_all if e > now]
+        east_future = [(s, e, t, x) for s, e, t, x in east_all
+                       if e > now and not is_placeholder_xml(x)]
         east_real = [(s, t) for s, _e, t, _x in east_future if not is_ph(t)]
         if len(east_real) < TZ_SHIFT_MIN_EAST:
             continue
