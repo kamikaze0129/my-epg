@@ -1391,6 +1391,36 @@ def enforce_timezone_shifts(out_path, roster):
         if "bether.us" not in _zl:
             _zl.append("bether.us")
 
+    # 2026-11-01 evening (Chris: fix East/West now, 100% for Tuesday):
+    # Plain-named East twins that never group, same pattern as above.
+    # Each West feed below was same-time / mixed / carried-tail in
+    # Sunday's file against its plain East twin, and each East twin
+    # is the same network feed (not a distinct feed like TCM/MGM+/
+    # Nickelodeon/SHOxBET, which are deliberately NOT aliased here):
+    # TV Land West 296 vs TV Land plain: same 62.2%, +3h 28.7%
+    # (133 TVP + 163 carried tail); CMT West 242 vs CMT UHD plain:
+    # same 57.9%, +3h 6.2%; E! West 61 vs E! plain: +3h 93.4% West
+    # but East-coverage only 35.4% (West window 3d, East 7d — alias
+    # lets the engine extend West to the full East window at +3h);
+    # Smithsonian West 72 vs Smithsonian plain: +3h 59.7%;
+    # Freeform West 171 vs Freeform plain: tail same-time vs plain
+    # (aliasing plain in alongside East LHD lets the engine pick the
+    # East id with the most future programmes, covering the tail);
+    # HBO Drama West 144 vs HBO Drama plain: +3h 71.5%,
+    # East-coverage 77.4% (just under the 80% skip threshold).
+    for _base, _east_id in (
+        ("tv land", "epg-usa-tv-land-b3466155"),
+        ("cmt", "cmt.us"),
+        ("e! entertainment", "eentertainment.us"),
+        ("smithsonian channel", "smithsonianchannel.us"),
+        ("freeform", "freeform.us"),
+        ("hbo drama", "hbosignature.us"),
+    ):
+        if _east_id in roster:
+            _zl = groups.setdefault(_base, {}).setdefault("east", [])
+            if _east_id not in _zl:
+                _zl.append(_east_id)
+
     prog_re = re.compile(
         r'<programme start="([^"]+)" stop="([^"]+)"[^>]*channel="([^"]+)"[^>]*>'
         r'(.*?)</programme>', re.S)
@@ -1754,6 +1784,46 @@ def ensure_icons(out_path, roster):
     os.replace(tmp, out_path)
     log(f"ensure_icons: filled {filled} gaps, 0 overwrites")
     return filled
+
+
+# 2026-11-01 evening (Chris: do the 24/7 aliasing trick for the main
+# file too): shared provider ids that TiviMate can never split by id.
+# afrotv.us is carried by BOTH USA Afro and USA MY 65 WRBW Orlando;
+# a3cine.us by FX West, KTXS Abilene, KOCO, NBCSN Northwest and
+# Telemundo KIFI; tlc.us by TLC East, East LHD and West. In each case
+# the distinct guide already exists in the file under its own id
+# (epg-usa-afro / epg-usa-my-65, epg-usa-fx-west / epg-usa-abc-12-ktxs /
+# epg-usa-abc-5-koco / epg-usa-nbcsn-northwest / epg-id-idaho-falls-
+# telemundo-kifi, epg-usa-tlc-east / east-lhd / west) with a
+# display-name exactly matching the stream's tvg-name. Dropping the
+# shared-id channel forces TiviMate past its id match into its
+# tvg-name / display-name fallback, which is the only file-side way
+# both colliding streams can land on different guides. If TiviMate
+# does NOT fall back, those streams show No information instead of
+# a wrong guide — that is the Tuesday test, and the revert is to
+# delete this stage. This stage never overwrites a distinct guide.
+DROP_SHARED_IDS = ("afrotv.us", "a3cine.us", "tlc.us")
+
+
+def drop_shared_id_channels(out_path):
+    """Drop shared-id channels (see DROP_SHARED_IDS) from the output."""
+    text = open(out_path, encoding='utf-8').read()
+    dropped_ch = 0
+    dropped_prog = 0
+    for cid in DROP_SHARED_IDS:
+        ch_re = re.compile(r'<channel id="' + re.escape(cid) + r'">.*?</channel>', re.S)
+        text, n = ch_re.subn('', text)
+        dropped_ch += n
+        prog_re = re.compile(r'<programme[^>]*channel="' + re.escape(cid) + r'"[^>]*>.*?</programme>', re.S)
+        text, n = prog_re.subn('', text)
+        dropped_prog += n
+        if n or dropped_ch:
+            log(f"drop-shared-id: {cid} removed ({n} programmes)")
+    tmp = out_path + '.dropfix'
+    with open(tmp, 'w', encoding='utf-8') as fout:
+        fout.write(text)
+    os.replace(tmp, out_path)
+    return {'dropped_channels': dropped_ch, 'dropped_programmes': dropped_prog}
 
 
 GENERIC_ICON_RULES = [
@@ -2585,6 +2655,11 @@ def main(argv):
         # 5c. 2026-09-27: copy 24/7 marathon data+icons to m3u-* aliases
         a247 = fix_247_aliases(out_path)
         report['stages']['fix_247_aliases'] = a247
+
+        # 5d. 2026-11-01 evening: drop shared-id channels so TiviMate
+        # falls back to name matching (see DROP_SHARED_IDS).
+        dropc = drop_shared_id_channels(out_path)
+        report['stages']['drop_shared_ids'] = dropc
 
         # 6. idempotent icon ensure
         filled = ensure_icons(out_path, roster)
