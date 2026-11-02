@@ -16,15 +16,17 @@ zoneinfo("Europe/London") -- this handles BST/GMT transitions automatically.
 The earlier stub stamped +0000 on these London times; that bug is NOT
 repeated here.
 
-Polite: ~1 req/s, 3 days per station (community grabber depth), retries.
+Polite: ~1 req/s, 14 days per station (TV Passport site depth verified 2026-11-02: Freeform East page lists Nov 2-16 with real listings on Nov 16; the old 3-day limit was the updater's own setting, not TVP's), retries.
 
 Safe to run any time: skips gracefully when the mapping is empty, the
 sitemap fetch fails, or a station page errors.
 """
 import base64
+import gzip
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import urllib.request
@@ -42,14 +44,14 @@ CRED = "custom.github"
 
 TVP = "https://www.tvpassport.com"
 LONDON = ZoneInfo("Europe/London")
-UA = "muse-tvpassport-updater"
+UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 
 BUILD_DIR = os.path.dirname(os.path.abspath(__file__))
 MAPPING_FILE = os.path.join(BUILD_DIR, "tvpassport_mapping.json")
 LOCAL_JSON = os.path.expanduser("~/workspace/epg_build/tvpassport_schedule.json")
-CI_JSON = os.path.expanduser("~/workspace/epg_actions/epg/tvpassport_schedule.json")
+CI_JSON = os.path.expanduser("~/workspace/epg_actions/epg/tvpassport_schedule.json.gz")
 
-DAYS_AHEAD = 3
+DAYS_AHEAD = 14
 REQ_PAUSE = 1.0  # polite: ~1 request/second
 
 
@@ -67,6 +69,16 @@ def fetch(url, timeout=60, retries=3):
         except Exception as e:
             last = e
             time.sleep(2)
+    # Fallback: the sandbox proxy truncates large pages for urllib
+    # (IncompleteRead after all retries) while curl fetches them whole.
+    try:
+        out = subprocess.run(["curl", "-sL", "-A", UA, "--max-time", str(timeout), url],
+                             capture_output=True, timeout=timeout + 10)
+        if out.returncode == 0 and out.stdout:
+            return out.stdout.decode("utf-8", "replace")
+        last = RuntimeError(f"curl exit {out.returncode}")
+    except Exception as e:
+        last = e
     raise last
 
 
@@ -178,14 +190,18 @@ def push_json(content):
     base_sha = ref["object"]["sha"]
     s, base_commit = gh_api("GET", f"/git/commits/{base_sha}")
     base_tree = base_commit["tree"]["sha"]
-    blob_body = base64.b64encode(content.encode()).decode()
+    # 2026-11-02: push gzipped, not raw JSON — the 58MB 14-day JSON
+    # exceeds the GitHub API blob/contents size limit (422), while the
+    # gzipped file is ~6.9MB. Builder reads .json.gz with json fallback.
+    gz_bytes = gzip.compress(content.encode())
+    blob_body = base64.b64encode(gz_bytes).decode()
     s, blob = gh_api("POST", "/git/blobs",
                      {"content": blob_body, "encoding": "base64"})
     assert s == 201, (s, blob)
     s, new_tree = gh_api(
         "POST", "/git/trees",
         {"base_tree": base_tree,
-         "tree": [{"path": "epg/tvpassport_schedule.json", "mode": "100644",
+         "tree": [{"path": "epg/tvpassport_schedule.json.gz", "mode": "100644",
                    "type": "blob", "sha": blob["sha"]}]})
     assert s == 201, (s, new_tree)
     s, commit = gh_api(
@@ -280,10 +296,12 @@ def main():
     data["_meta"]["valid_until_utc"] = last_end.isoformat()
     data["_display_names"] = display_names
     content = json.dumps(data, indent=1)
-    for path in (LOCAL_JSON, CI_JSON):
-        os.makedirs(os.path.dirname(path), exist_ok=True)
-        with open(path, "w") as f:
-            f.write(content)
+    os.makedirs(os.path.dirname(LOCAL_JSON), exist_ok=True)
+    with open(LOCAL_JSON, "w") as f:
+        f.write(content)
+    os.makedirs(os.path.dirname(CI_JSON), exist_ok=True)
+    with gzip.open(CI_JSON, "wb") as f:
+        f.write(content.encode())
     log(f"wrote {LOCAL_JSON} and {CI_JSON} ({ok} stations, {failed} failed)")
     if dry_run:
         log("dry run -- not pushing to GitHub")

@@ -310,7 +310,7 @@ NBA_SCHEDULE = os.path.join(BUILD_DIR, 'nba_schedule.json')
 
 # TV Passport local listings via update_tvpassport_schedule.py (stage 3d7).
 # Keyed by chris_id; values are pre-built XML programme strings.
-TVP_SCHEDULE = os.path.join(BUILD_DIR, 'tvpassport_schedule.json')
+TVP_SCHEDULE = os.path.join(BUILD_DIR, 'tvpassport_schedule.json.gz')
 
 # Cable-network listings via update_cable_schedule.py (stage 3d7).
 # {"sources": {chris_id: {"source":..., "source_url":...,
@@ -2546,7 +2546,14 @@ def main(argv):
             """Returns (filled, appended) channel counts."""
             filled, appended = 0, 0
             try:
-                raw = json.load(open(schedule_path))
+                if kind == "tvp" and schedule_path.endswith(".gz"):
+                    try:
+                        raw = json.load(gzip.open(schedule_path, "rt", encoding="utf-8"))
+                    except FileNotFoundError:
+                        # fallback to legacy uncompressed file
+                        raw = json.load(open(schedule_path[:-3]))
+                else:
+                    raw = json.load(open(schedule_path))
             except Exception as e:
                 log(f"3d6/{kind}: no schedule file ({e}); skipping")
                 return 0, 0
