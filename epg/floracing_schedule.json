@@ -1,7 +1,7 @@
 {
  "_meta": {
-  "valid_until_utc": "2026-11-08T05:30:00+00:00",
-  "generated_utc": "2026-11-01T11:59:40.357410+00:00",
+  "valid_until_utc": "2026-11-08T06:59:59+00:00",
+  "generated_utc": "2026-11-02T11:59:42.075752+00:00",
   "source": "api.floracing.com public schedule (auto)",
   "note": "FloRacing events -> USA Flo Racing (m3u-usa-flo-racing). Real titles/times from FloRacing's own schedule; overlapping evening events kept at real times (best-effort, one channel). Marathon/evergreen blocks capped at 6h."
  },
@@ -9,12 +9,12 @@
   "m3u-usa-flo-racing": "USA Flo Racing"
  },
  "m3u-usa-flo-racing": [
-  "  <programme start=\"20261101115902 +0000\" stop=\"20261101175902 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 7:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261101115902 +0000\" stop=\"20261101175902 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 7:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261101150000 +0000\" stop=\"20261101210000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>National 100 at EAMS</title>\n    <desc>National 100 at EAMS -- East Alabama Motor Speedway \u00b7 Phenix City, AL \u00b7 Day 3. 11:00 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261102115902 +0000\" stop=\"20261102175902 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 7:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261102115902 +0000\" stop=\"20261102175902 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 7:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261105095600 +0000\" stop=\"20261105155600 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Dubai International Baja</title>\n    <desc>Dubai International Baja. 5:56 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261107000000 +0000\" stop=\"20261107010000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>GNCC at Buckwheat 100</title>\n    <desc>GNCC at Buckwheat 100 -- CJ Raceway \u00b7 Thornton, WV. time TBD.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261107210000 +0000\" stop=\"20261108030000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Fall Brawl at Hickory</title>\n    <desc>Fall Brawl at Hickory -- Hickory Motor Speedway \u00b7 Newton, NC. 5:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261107233000 +0000\" stop=\"20261108053000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC WS Midgets at Ventura</title>\n    <desc>USAC WS Midgets at Ventura -- Ventura Raceway \u00b7 Ventura, CA. 7:30 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n"
+  "  <programme start=\"20261107233000 +0000\" stop=\"20261108053000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC WS Midgets at Ventura</title>\n    <desc>USAC WS Midgets at Ventura -- Ventura Raceway \u00b7 Ventura, CA. 7:30 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261108020000 +0000\" stop=\"20261108065959 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>AMA EnduroCross at Salt Lake City</title>\n    <desc>AMA EnduroCross at Salt Lake City. 10:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n"
  ]
 }
