@@ -141,9 +141,9 @@ EPGTALK_URLS = {
 EPGTALK_MATCHES = os.path.join(PUBFEED_DIR, 'epgtalk_matches.json')
 TVGUIDE_MATCHES = os.path.join(PUBFEED_DIR, 'tvguide_matches.json')
 TVGUIDE_API = ('https://backend.tvguide.com/tvschedules/tvguide/{pid}/web'
-               '?start={start}&duration={dur}&channelSourceIds={sid}'
-               '&apiKey={key}')
-TVGUIDE_API_KEY = os.environ.get('TVGUIDE_API_KEY', '')
+               '?start={start}&duration={dur}&channelSourceIds={sid}')
+# Keyless route proven 2026-11-06: backend answers the same URL with no
+# apiKey at all (773/773 in the 7-day test). No key is used or needed.
 
 # Event-label injection files (PPV / ESPN+ / FloSports / Fanatiz).
 # Each entry: {epg_channel_id, event_title, start_utc, duration_min_estimated,
@@ -590,13 +590,10 @@ def open_feed(path):
 def fetch_tvguide(matches, workdir):
     """Pull 7-day schedules from the TVGuide API for staged matches.
 
-    Best-effort; requires TVGUIDE_API_KEY in the environment. Returns
-    {target_id: [programme xml]}. Without a key, skips quietly (channels
-    keep carried data).
+    Best-effort; keyless route (proven 2026-11-06, 773/773 in the 7-day
+    test). Returns {target_id: [programme xml]}. Channels keep carried
+    data when a fetch fails.
     """
-    if not TVGUIDE_API_KEY:
-        log("tvguide: no TVGUIDE_API_KEY; skipping")
-        return {}, []
     if not matches:
         return {}, []
     now_ts = int(datetime.now(timezone.utc).timestamp())
@@ -607,8 +604,7 @@ def fetch_tvguide(matches, workdir):
         if not (pid and sid):
             skipped.append((tid, 'no lineup/source id'))
             continue
-        url = TVGUIDE_API.format(pid=pid, start=now_ts, dur=10080,
-                                 sid=sid, key=TVGUIDE_API_KEY)
+        url = TVGUIDE_API.format(pid=pid, start=now_ts, dur=10080, sid=sid)
         try:
             req = urllib.request.Request(url, headers={
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
@@ -2225,7 +2221,7 @@ def main(argv):
             _fill_from('iptvtalk', IPTVTALK_MATCHES, it_paths,
                        extra=lambda m: 'iptvtalk-' + m.get('feed_subfeed', 'US'))
 
-        # 3i. TVGuide API (needs TVGUIDE_API_KEY; best-effort)
+        # 3i. TVGuide API (keyless route; best-effort)
         tg_raw = json.load(open(TVGUIDE_MATCHES)) \
             if os.path.isfile(TVGUIDE_MATCHES) else []
         tg_matches = {m['target_id']: m for m in tg_raw
