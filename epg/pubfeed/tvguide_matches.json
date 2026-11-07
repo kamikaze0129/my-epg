@@ -154,6 +154,23 @@
   "feed_channel_number": "4"
  },
  {
+  "target_id": "abc13ktrktv.us",
+  "target_name": "USA ABC 13 KTRK HOUSTON",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9200017862",
+  "feed_display_name": "KTRK-DT Houston, Texas (ABC)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100007054",
+  "tvguide_lineup_name": "Broadcast - Houston",
+  "filled_market": "TX | Houston | 77001",
+  "callsign": "KTRK",
+  "network": "ABC",
+  "feed_network": "ABC",
+  "feed_channel_number": "13.1"
+ },
+ {
   "target_id": "abc13kyur.us",
   "target_name": "USA ABC 13 KYUR ANCHORAGE",
   "target_country": "USA",
@@ -322,6 +339,23 @@
   "network": "ABC",
   "feed_network": "ABC",
   "feed_channel_number": "36.1"
+ },
+ {
+  "target_id": "abc3katc.us",
+  "target_name": "USA ABC 3 (KATC) Lafayette",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9200017979",
+  "feed_display_name": "KATC-DT Lafayette, La. (ABC)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100006472",
+  "tvguide_lineup_name": "Broadcast - Lafayette",
+  "filled_market": "LA | Lafayette | 70506",
+  "callsign": "KATC",
+  "network": "ABC",
+  "feed_network": "ABC",
+  "feed_channel_number": "3.1"
  },
  {
   "target_id": "abc3keyt.us",
@@ -3032,6 +3066,23 @@
   "feed_channel_number": "4.1"
  },
  {
+  "target_id": "epg-usa-abc-4-wtae-pittsburgh-a2851453",
+  "target_name": "USA ABC 4 WTAE PITTSBURGH",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9200019862",
+  "feed_display_name": "WTAE-DT Pittsburgh, Pa. (ABC)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100003280",
+  "tvguide_lineup_name": "Broadcast - Pittsburgh",
+  "filled_market": "PA | Pittsburgh | 15217",
+  "callsign": "WTAE",
+  "network": "ABC",
+  "feed_network": "ABC",
+  "feed_channel_number": "4.1"
+ },
+ {
   "target_id": "epg-usa-abc-5-koco-oklahoma-city-f565fa57",
   "target_name": "USA ABC 5 KOCO OKLAHOMA CITY",
   "target_country": "USA",
@@ -3253,6 +3304,23 @@
   "feed_channel_number": "10"
  },
  {
+  "target_id": "epg-usa-cbs-10-klfy-lafayette-857f84a2",
+  "target_name": "USA CBS 10 KLFY LAFAYETTE",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9200008917",
+  "feed_display_name": "KLFY-DT Lafayette, La. (CBS)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100006472",
+  "tvguide_lineup_name": "Broadcast - Lafayette",
+  "filled_market": "LA | Lafayette | 70506",
+  "callsign": "KLFY",
+  "network": "CBS",
+  "feed_network": "CBS",
+  "feed_channel_number": "10.1"
+ },
+ {
   "target_id": "epg-usa-cbs-10-wtsp-st-petersburg-9f0aef9e",
   "target_name": "USA CBS 10 WTSP ST. PETERSBURG",
   "target_country": "USA",
@@ -3268,6 +3336,23 @@
   "network": "CBS",
   "feed_network": "CBS",
   "feed_channel_number": "10.1"
+ },
+ {
+  "target_id": "epg-usa-cbs-11-khou-houston-3714efee",
+  "target_name": "USA CBS 11 KHOU HOUSTON",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9233009101",
+  "feed_display_name": "KHOU-DT Houston, Texas (CBS)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100007054",
+  "tvguide_lineup_name": "Broadcast - Houston",
+  "filled_market": "TX | Houston | 77001",
+  "callsign": "KHOU",
+  "network": "CBS",
+  "feed_network": "CBS",
+  "feed_channel_number": "11.1"
  },
  {
   "target_id": "epg-usa-cbs-11-kthv-little-rock-9bed1257",
@@ -3488,6 +3573,23 @@
   "coverage_max": "20261001160000 +0000",
   "feed_network": "CBS",
   "tvguide_lineup_id": "9100001975"
+ },
+ {
+  "target_id": "epg-usa-cbs-2-kdka-pittsburgh-f24193a7",
+  "target_name": "USA CBS 2 KDKA PITTSBURGH",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9233007983",
+  "feed_display_name": "KDKA-DT Pittsburgh, Pa. (CBS)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100003280",
+  "tvguide_lineup_name": "Broadcast - Pittsburgh",
+  "filled_market": "PA | Pittsburgh | 15217",
+  "callsign": "KDKA",
+  "network": "CBS",
+  "feed_network": "CBS",
+  "feed_channel_number": "2.1"
  },
  {
   "target_id": "epg-usa-cbs-2-krem-spokane-84d3d02a",
@@ -4223,6 +4325,23 @@
   "feed_channel_number": "13.1"
  },
  {
+  "target_id": "epg-usa-fox-15-kadn-lafayette-45e63365",
+  "target_name": "USA FOX 15 KADN LAFAYETTE",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9233013396",
+  "feed_display_name": "KADN-DT Lafayette, La. (FOX)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100006472",
+  "tvguide_lineup_name": "Broadcast - Lafayette",
+  "filled_market": "LA | Lafayette | 70506",
+  "callsign": "KADN",
+  "network": "FOX",
+  "feed_network": "FOX",
+  "feed_channel_number": "15.1"
+ },
+ {
   "target_id": "epg-usa-fox-16-klrt-little-rock-59879a82",
   "target_name": "USA FOX 16 KLRT LITTLE ROCK",
   "target_country": "USA",
@@ -4405,6 +4524,23 @@
   "tvguide_lineup_name": "Broadcast - Fresno / Visalia",
   "filled_market": "CA | Fresno | 93721",
   "callsign": "KMPH",
+  "network": "FOX",
+  "feed_network": "FOX",
+  "feed_channel_number": "26.1"
+ },
+ {
+  "target_id": "epg-usa-fox-26-kriv-houston-bb7be70f",
+  "target_name": "USA FOX 26 KRIV HOUSTON",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9200011450",
+  "feed_display_name": "KRIV-DT Houston, Texas (FOX)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100007054",
+  "tvguide_lineup_name": "Broadcast - Houston",
+  "filled_market": "TX | Houston | 77001",
+  "callsign": "KRIV",
   "network": "FOX",
   "feed_network": "FOX",
   "feed_channel_number": "26.1"
@@ -5024,6 +5160,23 @@
   "_note": "subchannel source KRQE-DT2 used (primary DT network did not match workbook FOX)"
  },
  {
+  "target_id": "epg-usa-fox-pittsburgh-wpgh-ef66d717",
+  "target_name": "USA Fox Pittsburgh WPGH",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9200000097",
+  "feed_display_name": "WPGH-DT Pittsburgh, Pa. (FOX)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100003280",
+  "tvguide_lineup_name": "Broadcast - Pittsburgh",
+  "filled_market": "PA | Pittsburgh | 15217",
+  "callsign": "WPGH",
+  "network": "FOX",
+  "feed_network": "FOX",
+  "feed_channel_number": "53.1"
+ },
+ {
   "target_id": "epg-usa-my-12-wtvz-hampton-roads-1cace21b",
   "target_name": "USA MY 12 WTVZ HAMPTON ROADS",
   "target_country": "USA",
@@ -5039,6 +5192,23 @@
   "network": "MY",
   "feed_network": "MY",
   "feed_channel_number": "2"
+ },
+ {
+  "target_id": "epg-usa-my-20-ktxh-houston-9e44fe32",
+  "target_name": "USA MY 20 KTXH HOUSTON",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9200017894",
+  "feed_display_name": "KTXH-DT Houston, Texas (MyNet)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100007054",
+  "tvguide_lineup_name": "Broadcast - Houston",
+  "filled_market": "TX | Houston | 77001",
+  "callsign": "KTXH",
+  "network": "MY",
+  "feed_network": "MY",
+  "feed_channel_number": "20.1"
  },
  {
   "target_id": "epg-usa-my-28-wrdc-durham-9c9a06f2",
@@ -5297,6 +5467,23 @@
   "feed_channel_number": "11.1"
  },
  {
+  "target_id": "epg-usa-nbc-11-wpxi-pittsburgh-f087a363",
+  "target_name": "USA NBC 11 WPXI PITTSBURGH",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9200016025",
+  "feed_display_name": "WPXI-DT Pittsburgh, Pa. (NBC)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100003280",
+  "tvguide_lineup_name": "Broadcast - Pittsburgh",
+  "filled_market": "PA | Pittsburgh | 15217",
+  "callsign": "WPXI",
+  "network": "NBC",
+  "feed_network": "NBC",
+  "feed_channel_number": "11.1"
+ },
+ {
   "target_id": "epg-usa-nbc-11-wxia-atlanta-e5524bf8",
   "target_name": "USA NBC 11 WXIA ATLANTA",
   "target_country": "USA",
@@ -5516,6 +5703,23 @@
   "network": "NBC",
   "feed_network": "NBC",
   "feed_channel_number": "3"
+ },
+ {
+  "target_id": "epg-usa-nbc-2-kprc-houston-628d4881",
+  "target_name": "USA NBC 2 KPRC HOUSTON",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9200015981",
+  "feed_display_name": "KPRC-DT Houston, Texas (NBC)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100007054",
+  "tvguide_lineup_name": "Broadcast - Houston",
+  "filled_market": "TX | Houston | 77001",
+  "callsign": "KPRC",
+  "network": "NBC",
+  "feed_network": "NBC",
+  "feed_channel_number": "2.1"
  },
  {
   "target_id": "epg-usa-nbc-2-wbbh-fort-myers-8e5c9f66",
@@ -10658,6 +10862,23 @@
   "feed_channel_number": "3"
  },
  {
+  "target_id": "m3u-usa-cw-39-kiah-houston",
+  "target_name": "USA CW 39 (KIAH) Houston",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9200006266",
+  "feed_display_name": "KIAH-DT Houston, Texas (CW)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100007054",
+  "tvguide_lineup_name": "Broadcast - Houston",
+  "filled_market": "TX | Houston | 77001",
+  "callsign": "KIAH",
+  "network": "CW",
+  "feed_network": "CW",
+  "feed_channel_number": "39.1"
+ },
+ {
   "target_id": "m3u-usa-cw-43-wbnx-cleveland",
   "target_name": "USA CW 43 WBNX Cleveland",
   "target_country": "USA",
@@ -11320,6 +11541,24 @@
   "feed_channel_number": "13.1"
  },
  {
+  "target_id": "my22wpnt.us",
+  "target_name": "USA MY 22 WPNT PITTSBURGH",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9233013219",
+  "feed_display_name": "WPNT-DT Pittsburgh, Pa. (CW)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100003280",
+  "tvguide_lineup_name": "Broadcast - Pittsburgh",
+  "filled_market": "PA | Pittsburgh | 15217",
+  "callsign": "WPNT",
+  "network": "CW",
+  "feed_network": "CW",
+  "feed_channel_number": "22.1",
+  "_note": "workbook MY label stale; WPNT is CW since Sep 2023 (WPCW became KDKA+); staged as CW per Chris's call 2026-11-07"
+ },
+ {
   "target_id": "my48wmyv.us",
   "target_name": "USA MY 48 WMYV GREENSBORO",
   "target_country": "USA",
@@ -11829,6 +12068,23 @@
   "network": "NBC",
   "feed_network": "NBC",
   "feed_channel_number": "16.1"
+ },
+ {
+  "target_id": "nbc16wpbild2.us",
+  "target_name": "USA NBC 46 KLAF LAFAYETTE",
+  "target_country": "USA",
+  "feed": "tvguide.com",
+  "feed_country": "tvguide",
+  "feed_channel_id": "9200003396",
+  "feed_display_name": "KLAF-LD Lafayette, La. (NBC)",
+  "match_type": "name",
+  "tvguide_lineup_id": "9100006472",
+  "tvguide_lineup_name": "Broadcast - Lafayette",
+  "filled_market": "LA | Lafayette | 70506",
+  "callsign": "KLAF",
+  "network": "NBC",
+  "feed_network": "NBC",
+  "feed_channel_number": "46.1"
  },
  {
   "target_id": "nbc17kget.us",
