@@ -1,7 +1,7 @@
 {
  "_meta": {
-  "valid_until_utc": "2026-11-19T07:45:00+00:00",
-  "generated_utc": "2026-11-13T12:00:44.993782+00:00",
+  "valid_until_utc": "2026-11-21T03:45:00+00:00",
+  "generated_utc": "2026-11-14T12:00:34.658063+00:00",
   "source": "api.floracing.com public schedule (auto)",
   "note": "FloRacing events -> USA Flo Racing (m3u-usa-flo-racing). Real titles/times from FloRacing's own schedule; overlapping evening events kept at real times (best-effort, one channel). Marathon/evergreen blocks capped at 6h."
  },
@@ -9,11 +9,9 @@
   "m3u-usa-flo-racing": "USA Flo Racing"
  },
  "m3u-usa-flo-racing": [
-  "  <programme start=\"20261113120003 +0000\" stop=\"20261113180003 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 8:00 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261113120003 +0000\" stop=\"20261113180003 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 8:00 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261113213000 +0000\" stop=\"20261114033000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing Night in America at Senoia</title>\n    <desc>FloRacing Night in America at Senoia -- Senoia Raceway \u00b7 Senoia, GA \u00b7 Day 1. 5:30 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261113220000 +0000\" stop=\"20261114040000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>NARA Nationals at Southern Illinois</title>\n    <desc>NARA Nationals at Southern Illinois -- Southern Illinois Center \u00b7 Du Quoin, IL \u00b7 Day 2. 6:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261114020000 +0000\" stop=\"20261114080000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>AMA EnduroCross at Idaho Falls</title>\n    <desc>AMA EnduroCross at Idaho Falls. 10:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261114115954 +0000\" stop=\"20261114175954 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 7:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261114115954 +0000\" stop=\"20261114175954 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 7:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261114115954 +0000\" stop=\"20261114175954 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>AMA EnduroCross at Idaho Falls</title>\n    <desc>AMA EnduroCross at Idaho Falls. 7:59 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261114173000 +0000\" stop=\"20261114233000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>10th Annual Islip 300 at Riverhead</title>\n    <desc>10th Annual Islip 300 at Riverhead -- Riverhead Raceway \u00b7 Riverhead, NY. 1:30 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261114213000 +0000\" stop=\"20261115033000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing Night in America at Senoia</title>\n    <desc>FloRacing Night in America at Senoia -- Senoia Raceway \u00b7 Senoia, GA \u00b7 Day 2. 5:30 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261114220000 +0000\" stop=\"20261115040000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>NARA Nationals at Southern Illinois</title>\n    <desc>NARA Nationals at Southern Illinois -- Southern Illinois Center \u00b7 Du Quoin, IL \u00b7 Day 3. 6:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
@@ -21,6 +19,8 @@
   "  <programme start=\"20261115000000 +0000\" stop=\"20261115060000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>CARS Tour West at Las Vegas</title>\n    <desc>CARS Tour West at Las Vegas -- The Bullring at Las Vegas Motor Speedway \u00b7 Las Vegas, NV. 8:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261115002500 +0000\" stop=\"20261115045959 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC Southwest Sprints at Central AZ</title>\n    <desc>USAC Southwest Sprints at Central AZ -- Central Arizona Raceway \u00b7 Casa Grande, AZ. 8:25 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261115170000 +0000\" stop=\"20261115230000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Governor's Cup at New Smyrna</title>\n    <desc>Governor's Cup at New Smyrna -- New Smyrna Speedway \u00b7 New Smyrna Beach, FL \u00b7 Day 2. 1:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261119014500 +0000\" stop=\"20261119074500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC National Midgets at Plaza Park</title>\n    <desc>USAC National Midgets at Plaza Park -- Plaza Park Raceway \u00b7 Visalia, CA. 9:45 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n"
+  "  <programme start=\"20261119014500 +0000\" stop=\"20261119074500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC National Midgets at Plaza Park</title>\n    <desc>USAC National Midgets at Plaza Park -- Plaza Park Raceway \u00b7 Visalia, CA. 9:45 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261120000000 +0000\" stop=\"20261120010000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Miss Snowball Derby Pageant</title>\n    <desc>Miss Snowball Derby Pageant -- Seville Quarter \u00b7 Pensacola, FL. time TBD.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261120214500 +0000\" stop=\"20261121034500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC Chase Johnson Classic at Merced</title>\n    <desc>USAC Chase Johnson Classic at Merced -- Merced Fairgrounds Speedway \u00b7 Merced, CA. 5:45 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n"
  ]
 }
