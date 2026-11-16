@@ -1,7 +1,7 @@
 {
  "_meta": {
-  "valid_until_utc": "2026-11-21T03:45:00+00:00",
-  "generated_utc": "2026-11-15T12:00:37.065359+00:00",
+  "valid_until_utc": "2026-11-22T01:00:00+00:00",
+  "generated_utc": "2026-11-16T12:00:41.128258+00:00",
   "source": "api.floracing.com public schedule (auto)",
   "note": "FloRacing events -> USA Flo Racing (m3u-usa-flo-racing). Real titles/times from FloRacing's own schedule; overlapping evening events kept at real times (best-effort, one channel). Marathon/evergreen blocks capped at 6h."
  },
@@ -9,12 +9,12 @@
   "m3u-usa-flo-racing": "USA Flo Racing"
  },
  "m3u-usa-flo-racing": [
-  "  <programme start=\"20261115115956 +0000\" stop=\"20261115175956 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 7:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261115115956 +0000\" stop=\"20261115175956 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 7:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261115170000 +0000\" stop=\"20261115230000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Governor's Cup at New Smyrna</title>\n    <desc>Governor's Cup at New Smyrna -- New Smyrna Speedway \u00b7 New Smyrna Beach, FL \u00b7 Day 2. 1:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261116120000 +0000\" stop=\"20261116180000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 8:00 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261116120000 +0000\" stop=\"20261116180000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 8:00 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261119014500 +0000\" stop=\"20261119074500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC National Midgets at Plaza Park</title>\n    <desc>USAC National Midgets at Plaza Park -- Plaza Park Raceway \u00b7 Visalia, CA. 9:45 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261120000000 +0000\" stop=\"20261120010000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Miss Snowball Derby Pageant</title>\n    <desc>Miss Snowball Derby Pageant -- Seville Quarter \u00b7 Pensacola, FL. time TBD.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261120214500 +0000\" stop=\"20261121034500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC Chase Johnson Classic at Merced</title>\n    <desc>USAC Chase Johnson Classic at Merced -- Merced Fairgrounds Speedway \u00b7 Merced, CA. 5:45 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261121000000 +0000\" stop=\"20261121010000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Snowball Derby Preview at 5 Flags</title>\n    <desc>Snowball Derby Preview at 5 Flags -- Five Flags Speedway \u00b7 Pensacola, FL. time TBD.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n"
+  "  <programme start=\"20261121000000 +0000\" stop=\"20261121010000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Snowball Derby Preview at 5 Flags</title>\n    <desc>Snowball Derby Preview at 5 Flags -- Five Flags Speedway \u00b7 Pensacola, FL. time TBD.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261122000000 +0000\" stop=\"20261122010000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Thor Mini O's at Gatorback</title>\n    <desc>Thor Mini O's at Gatorback. time TBD.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n"
  ]
 }
