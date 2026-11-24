@@ -1,7 +1,7 @@
 {
  "_meta": {
   "valid_until_utc": "2026-11-29T05:15:00+00:00",
-  "generated_utc": "2026-11-23T12:00:41.827449+00:00",
+  "generated_utc": "2026-11-24T12:00:39.249186+00:00",
   "source": "api.floracing.com public schedule (auto)",
   "note": "FloRacing events -> USA Flo Racing (m3u-usa-flo-racing). Real titles/times from FloRacing's own schedule; overlapping evening events kept at real times (best-effort, one channel). Marathon/evergreen blocks capped at 6h."
  },
@@ -9,13 +9,11 @@
   "m3u-usa-flo-racing": "USA Flo Racing"
  },
  "m3u-usa-flo-racing": [
-  "  <programme start=\"20261123115958 +0000\" stop=\"20261123175958 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 7:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261123115958 +0000\" stop=\"20261123175958 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 7:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261123115958 +0000\" stop=\"20261123175958 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Abu Dhabi Desert Challenge</title>\n    <desc>Abu Dhabi Desert Challenge. 7:59 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261123120000 +0000\" stop=\"20261123180000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Thor Mini O's at Gatorback</title>\n    <desc>Thor Mini O's at Gatorback -- Day 2. 8:00 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261124020000 +0000\" stop=\"20261124075959 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC National Midgets at Plaza Park</title>\n    <desc>USAC National Midgets at Plaza Park -- Plaza Park Raceway \u00b7 Visalia, CA. 10:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261124115957 +0000\" stop=\"20261124175957 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>FloRacing 24/7</title>\n    <desc>FloRacing 24/7 -- Austin, TX. 7:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261124115957 +0000\" stop=\"20261124175957 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>PBR RidePass</title>\n    <desc>PBR RidePass. 7:59 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261124115957 +0000\" stop=\"20261124175957 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Abu Dhabi Desert Challenge</title>\n    <desc>Abu Dhabi Desert Challenge. 7:59 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261124120000 +0000\" stop=\"20261124180000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Thor Mini O's at Gatorback</title>\n    <desc>Thor Mini O's at Gatorback -- Day 3. 8:00 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
-  "  <programme start=\"20261124130000 +0000\" stop=\"20261124190000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Gateway Dirt Nationals Track Build</title>\n    <desc>Gateway Dirt Nationals Track Build -- 701 Convention Plaza \u00b7 St. Louis, MO \u00b7 2026 Gateway Dirt Nationals Track Build. 9:00 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
+  "  <programme start=\"20261124130000 +0000\" stop=\"20261124190000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Eibach Gateway Dirt Natl's Track Build</title>\n    <desc>Eibach Gateway Dirt Natl's Track Build -- 701 Convention Plaza \u00b7 St. Louis, MO \u00b7 2026 Gateway Dirt Nationals Track Build. 9:00 AM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261125004500 +0000\" stop=\"20261125064500 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>USAC Jason Leffler Memorial at Kern</title>\n    <desc>USAC Jason Leffler Memorial at Kern -- Kevin Harvick's Kern Raceway \u00b7 Bakersfield, CA. 8:45 PM ET.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261125120000 +0000\" stop=\"20261125180000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Thor Mini O's at Gatorback</title>\n    <desc>Thor Mini O's at Gatorback -- Day 4. 8:00 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
   "  <programme start=\"20261126120000 +0000\" stop=\"20261126180000 +0000\" channel=\"m3u-usa-flo-racing\">\n    <title>Thor Mini O's at Gatorback</title>\n    <desc>Thor Mini O's at Gatorback -- Day 5. 8:00 AM ET. LIVE now on FloRacing.</desc>\n    <category>Sports</category>\n    <category>Auto Racing</category>\n  </programme>\n",
