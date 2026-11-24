@@ -57,7 +57,7 @@ import sys
 import time
 import urllib.request
 from datetime import datetime, timezone, timedelta
-from xml.etree.ElementTree import iterparse
+from xml.etree.ElementTree import iterparse, ParseError
 from xml.sax.saxutils import escape
 
 # Strip characters illegal in XML 1.0 (control chars except tab/newline/CR).
@@ -896,19 +896,29 @@ def extract_feed_programmes(matches, feed_paths, cutoff14):
         for tid, fcid in pairs:
             want.setdefault(fcid, []).append(tid)
         buckets = {tid: [] for tid, _ in pairs}
-        with open_feed(feed_paths[fcc]) as f:
-            for event, elem in iterparse(f, events=('end',)):
-                if elem.tag == 'programme':
-                    fcid = elem.get('channel')
-                    if fcid in want:
-                        s, e = elem.get('start'), elem.get('stop')
-                        t = (elem.findtext('title') or '').strip()
-                        ds = (elem.findtext('desc') or '').strip()
-                        if s and e and t and s[:14] < e[:14] and e[:14] > cutoff14:
-                            for tid in want[fcid]:
-                                buckets[tid].append(
-                                    (s, serialize_fresh_prog(s, e, tid, t, ds)))
-                    elem.clear()
+        try:
+            with open_feed(feed_paths[fcc]) as f:
+                for event, elem in iterparse(f, events=('end',)):
+                    if elem.tag == 'programme':
+                        fcid = elem.get('channel')
+                        if fcid in want:
+                            s, e = elem.get('start'), elem.get('stop')
+                            t = (elem.findtext('title') or '').strip()
+                            ds = (elem.findtext('desc') or '').strip()
+                            if s and e and t and s[:14] < e[:14] and e[:14] > cutoff14:
+                                for tid in want[fcid]:
+                                    buckets[tid].append(
+                                        (s, serialize_fresh_prog(s, e, tid, t, ds)))
+                        elem.clear()
+        except (ParseError, OSError, EOFError) as e:
+            # One malformed feed must never kill the whole build (2026-11-24:
+            # an upstream feed with an unclosed token at line 66670 aborted
+            # the Tue build + two manual re-runs). Skip the feed's channels;
+            # they keep their carried programmes, like any other skip.
+            log(f"  WARNING: feed {fcc} malformed ({e}); skipping "
+                f"{len(pairs)} channels, keeping carried data")
+            skipped.extend((tid, 0) for tid, _ in pairs)
+            continue
         for tid, rows in buckets.items():
             rows.sort(key=lambda x: x[0])
             if len(rows) >= 5:
