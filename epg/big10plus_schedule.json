@@ -1,18 +1,14 @@
 {
  "_meta": {
   "valid_until_utc": "2026-11-28T22:00:00+00:00",
-  "generated_utc": "2026-11-25T11:56:09.194255+00:00",
+  "generated_utc": "2026-11-26T11:55:58.655232+00:00",
   "source": "ESPN scoreboard API, womens-college-volleyball (auto)",
   "note": "Upcoming Big Ten volleyball -> BIG10+ 01-24 in chronological order, cycling. Channel->game mapping is best-effort: the provider assigns events opaquely. Keys are logical IDs; the builder resolves each number to the actual roster ID."
  },
  "m3u-big10-01": [
-  "  <programme start=\"20261126010000 +0000\" stop=\"20261126030000 +0000\" channel=\"m3u-big10-01\">\n    <title>Volleyball (W): Wisconsin Badgers at Nebraska Cornhuskers</title>\n    <desc>Wisconsin Badgers at Nebraska Cornhuskers. First serve 9:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Volleyball</category>\n  </programme>\n"
+  "  <programme start=\"20261128190000 +0000\" stop=\"20261128210000 +0000\" channel=\"m3u-big10-01\">\n    <title>Volleyball (W): High Point Panthers at Minnesota Golden Gophers</title>\n    <desc>High Point Panthers at Minnesota Golden Gophers. First serve 3:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Volleyball</category>\n  </programme>\n"
  ],
  "_display_names": {
-  "m3u-big10-01": "BIG10+ 01: Volleyball (W) Wisconsin Badgers at Nebraska Cornhuskers Wed @ Nov 25 9:00PM ET",
-  "m3u-big10-02": "BIG10+ 02: Volleyball (W) High Point Panthers at Minnesota Golden Gophers Sat @ Nov 28 3:00PM ET"
- },
- "m3u-big10-02": [
-  "  <programme start=\"20261128190000 +0000\" stop=\"20261128210000 +0000\" channel=\"m3u-big10-02\">\n    <title>Volleyball (W): High Point Panthers at Minnesota Golden Gophers</title>\n    <desc>High Point Panthers at Minnesota Golden Gophers. First serve 3:00 PM ET.</desc>\n    <category>Sports</category>\n    <category>Volleyball</category>\n  </programme>\n"
- ]
+  "m3u-big10-01": "BIG10+ 01: Volleyball (W) High Point Panthers at Minnesota Golden Gophers Sat @ Nov 28 3:00PM ET"
+ }
 }
